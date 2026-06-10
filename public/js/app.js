@@ -121,11 +121,18 @@ function renderRadar() {
     refreshIcons();
     return;
   }
-  const guard = (label, fn) => { try { fn(); } catch (e) { console.error(`render ${label}:`, e); } };
-  guard("graph", renderGraph);
-  guard("legend", renderLegend);
-  guard("treemap", renderTreemap);
-  guard("timeline", renderTimeline);
+  const guard = (label, boxId, fn) => {
+    try { fn(); }
+    catch (e) {
+      console.error(`render ${label}:`, e);
+      const box = boxId && document.getElementById(boxId);
+      if (box) box.innerHTML = `<div class="flex h-full items-center justify-center p-4 text-center text-xs text-rose-500">${label} error: ${escapeHtml(e.message)}</div>`;
+    }
+  };
+  guard("graph", "chart-graph", renderGraph);
+  guard("legend", null, renderLegend);
+  guard("treemap", "chart-treemap", renderTreemap);
+  guard("timeline", "chart-timeline", renderTimeline);
   document.getElementById("graph-reset").addEventListener("click", () => emphasizeFund(null));
   refreshIcons();
   // Belt-and-suspenders: re-measure once layout/fonts have fully settled.
@@ -137,12 +144,17 @@ function graphModel() {
   const fbc = fundsByCompany();
   const nodes = [];
   const links = [];
+  const nameByFund = new Map(); // fund_id -> display name (link source key)
+  for (const f of byFund.values()) nameByFund.set(f.id, f.name);
   const maxSight = Math.max(1, ...[...byFund.values()].map((f) => f.sightings.length));
 
+  // Graph nodes are matched to links by `name`, so name = id here (fund names and
+  // company names don't collide in this data). Custom props (_type, fundId, …)
+  // ride along for tooltips/emphasis.
   for (const f of byFund.values()) {
     if (!f.sightings.length) continue;
     nodes.push({
-      id: "f:" + f.id, name: f.name, _type: "fund", fundId: f.id,
+      id: f.name, name: f.name, _type: "fund", fundId: f.id,
       symbolSize: 26 + 34 * (f.sightings.length / maxSight),
       itemStyle: { color: fundColor(f.id), borderColor: "#fff", borderWidth: 2, shadowBlur: 10, shadowColor: fundColor(f.id) + "66" },
       label: { show: true, fontFamily: "Space Grotesk", fontWeight: 600, fontSize: 11, color: "#334155" },
@@ -154,21 +166,22 @@ function graphModel() {
     const consensus = n >= 2;
     const any = DATA.sightings.find((s) => s.company === company) || {};
     nodes.push({
-      id: "c:" + company, name: company, _type: "company", _funds: [...fundSet], _sector: any.sector, _industry: any.industry, _quote: any.quote,
+      id: company, name: company, _type: "company", _funds: [...fundSet], _sector: any.sector, _industry: any.industry, _quote: any.quote,
       symbolSize: 7 + n * 5,
       itemStyle: { color: consensus ? "#F59E0B" : "#cbd5e1", borderColor: consensus ? "#fff" : "#e2e8f0", borderWidth: consensus ? 2 : 1 },
       label: { show: false },
     });
   }
-  // aggregate occurrences per fund→company
+  // aggregate occurrences per fund→company (null-byte sep avoids name collisions)
   const linkAgg = new Map();
   for (const s of DATA.sightings) {
-    const k = s.fund_id + "→" + s.company;
+    const k = s.fund_id + " " + s.company;
     linkAgg.set(k, (linkAgg.get(k) || 0) + (s.occurrences || 1));
   }
   for (const [k, occ] of linkAgg) {
-    const [fid, company] = k.split("→");
-    links.push({ source: "f:" + fid, target: "c:" + company, _fundId: fid, lineStyle: { color: fundColor(fid), width: 1 + Math.min(occ, 6), opacity: 0.45, curveness: 0.08 } });
+    const i = k.indexOf(" ");
+    const fid = k.slice(0, i), company = k.slice(i + 1);
+    links.push({ source: nameByFund.get(fid) || fid, target: company, _fundId: fid, lineStyle: { color: fundColor(fid), width: 1 + Math.min(occ, 6), opacity: 0.45, curveness: 0.08 } });
   }
   return { nodes, links };
 }
