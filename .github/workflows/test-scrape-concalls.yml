@@ -1,0 +1,66 @@
+# Manual test run for the concalls scraper (Prompt 2 validation).
+#
+# This is a THROWAWAY discovery/validation workflow — not the production cron
+# that commits data to main (that arrives in a later prompt). It exists so the
+# scraper can run against the live Screener.in DOM, since deps + credentials
+# aren't available in the chat sandbox.
+#
+# Setup (one-time): add repo secrets SCREENER_EMAIL and SCREENER_PASSWORD under
+#   Settings → Secrets and variables → Actions → New repository secret.
+# Then run this workflow from the Actions tab (or it can be triggered via API).
+#
+# It installs deps no-save (no package.json), runs with a small LIMIT, prints
+# the summary + first 3 entries + an authenticated transcript-link check to the
+# logs, and uploads concalls-index.json + concalls-page.png as artifacts.
+
+name: test-scrape-concalls
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max concalls to keep (0 = all in window)"
+        required: false
+        default: "15"
+      debug:
+        description: "Verbose DOM-discovery logging (1/0)"
+        required: false
+        default: "1"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install deps (no-save, never committed)
+        run: npm install playwright@1 cheerio@1 --no-save
+
+      - name: Install chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run scraper
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          DEBUG: ${{ github.event.inputs.debug }}
+          VERIFY: "1"
+        run: node screener-test/scrape-concalls.mjs
+
+      - name: Upload artifacts (index + screenshot)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: concalls-output
+          path: |
+            screener-test/output/concalls-index.json
+            screener-test/output/concalls-page.png
+          if-no-files-found: warn

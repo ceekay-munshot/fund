@@ -17,6 +17,7 @@
 //   LIMIT     (default 0 = all within window)      — cap concalls kept (quick test)
 //   HEADFUL=1                                       — launch a visible browser
 //   DEBUG=1                                         — extra DOM-discovery logging
+//   VERIFY=1                                        — open first transcript URLs to prove they resolve
 // ---------------------------------------------------------------------------
 
 import { chromium } from "playwright";
@@ -335,6 +336,29 @@ async function run() {
       `Summary: kept ${kept.length} concalls, ${withTranscript} with transcripts, ` +
         `date range ${range}. → ${outPath}`
     );
+
+    // Echo the first 3 entries so a CI run surfaces real data in its logs.
+    console.log("First 3 concalls:");
+    console.log(JSON.stringify(kept.slice(0, 3), null, 2));
+
+    // Optional: prove the captured transcript links actually open in-session.
+    // Reuses the authenticated page, so it confirms real, reachable Screener URLs.
+    if (process.env.VERIFY === "1") {
+      const sample = kept.filter((r) => r.has_transcript).slice(0, 3);
+      console.log(`Verifying ${sample.length} transcript URL(s) (authenticated)…`);
+      for (const r of sample) {
+        try {
+          const resp = await page.goto(r.transcript_url, { waitUntil: "domcontentloaded", timeout: 30000 });
+          const status = resp ? resp.status() : "ERR";
+          const looksRight = /transcript|concall|earnings/i.test(await page.content());
+          const verdict = resp && resp.status() < 400 && looksRight ? "OK" : "??";
+          console.log(`  [${status}] ${verdict} ${r.company} → ${r.transcript_url}`);
+          await sleep(400);
+        } catch (e) {
+          console.log(`  [ERR] ${r.company} → ${r.transcript_url} (${e.message})`);
+        }
+      }
+    }
   } finally {
     await browser.close();
   }
