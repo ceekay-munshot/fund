@@ -113,6 +113,14 @@ function renderRadar() {
       </div>
     </div>`;
 
+  if (!window.echarts) {
+    for (const id of ["chart-graph", "chart-treemap", "chart-timeline"]) {
+      const c = document.getElementById(id);
+      if (c) c.innerHTML = emptyState("wifi-off", "Charts couldn't load", "The charting library was blocked by the network. Check your connection / CSP and reload.");
+    }
+    refreshIcons();
+    return;
+  }
   renderGraph();
   renderLegend();
   renderTreemap();
