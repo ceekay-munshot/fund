@@ -64,7 +64,7 @@ function renderKpis() {
   const fundTotal = DATA.meta.fund_count ?? DATA.funds.length ?? 13;
   const companies = DATA.meta.company_count ?? new Set(s.map((x) => x.company)).size;
   const cards = [
-    { label: "Sightings", value: s.length, icon: "radar", grad: "from-indigo-500 to-violet-500" },
+    { label: "Engagements", value: s.length, icon: "radar", grad: "from-indigo-500 to-violet-500" },
     { label: "Active Funds", value: activeFunds, suffix: ` / ${fundTotal}`, icon: "briefcase", grad: "from-emerald-500 to-teal-500", action: "funds" },
     { label: "Companies Tracked", value: companies, icon: "building-2", grad: "from-sky-500 to-blue-500" },
     { label: "Concalls Scanned (90d)", value: DATA.meta.concalls_scanned ?? 0, icon: "file-text", grad: "from-amber-500 to-orange-500" },
@@ -98,7 +98,7 @@ function renderRadar() {
     <div class="card mb-4 p-4 sm:p-5">
       <div class="mb-1 flex items-center gap-2"><span class="rounded-xl bg-indigo-50 p-1.5 text-indigo-500"><i data-lucide="grid-3x3" class="h-4 w-4"></i></span>
         <h2 class="font-display text-lg font-semibold text-slate-800">Fund × Sector concentration</h2></div>
-      <p class="mb-3 text-xs text-slate-400">Showing fund·sector pairs with <b>≥3 sightings</b> — where each fund is really concentrating. Click a row to open the fund.</p>
+      <p class="mb-3 text-xs text-slate-400">Showing fund·sector pairs with <b>≥3 engagements</b> — where each fund is really concentrating. Click a row to open the fund.</p>
       <div id="chart-heatmap" class="chart-heat"></div>
     </div>
     <div class="grid gap-4 lg:grid-cols-2">
@@ -157,7 +157,7 @@ function renderHeatmap() {
   const fundIds = rows.map((r) => r.f.id);
 
   if (!rows.length || !sectors.length) {
-    el.innerHTML = emptyState("grid-3x3", "No strong concentration yet", `No fund has ${MIN}+ sightings in a single sector in this window.`);
+    el.innerHTML = emptyState("grid-3x3", "No strong concentration yet", `No fund has ${MIN}+ engagements in a single sector in this window.`);
     refreshIcons();
     return;
   }
@@ -177,7 +177,7 @@ function renderHeatmap() {
   chart.setOption({
     grid: { left: 172, right: 24, top: 12, bottom: 116 },
     tooltip: { position: "top", confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
-      formatter: (p) => `<b>${escapeHtml(fundNames[p.value[1]])}</b><br/>${escapeHtml(sectors[p.value[0]])}: <b>${p.value[2]}</b> sightings` },
+      formatter: (p) => `<b>${escapeHtml(fundNames[p.value[1]])}</b><br/>${escapeHtml(sectors[p.value[0]])}: <b>${p.value[2]}</b> engagements` },
     xAxis: { type: "category", data: sectors, splitArea: { show: true }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#e2e8f0" } },
       axisLabel: { color: "#64748b", fontSize: 11, rotate: 30, interval: 0, formatter: (v) => trunc(v, 18) } },
     yAxis: { type: "category", data: fundNames, inverse: true, splitArea: { show: true }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#e2e8f0" } },
@@ -251,7 +251,7 @@ function renderGraph() {
       formatter: (p) => {
         if (p.dataType !== "node") return "";
         const d = p.data;
-        if (d._type === "fund") return `<b style="color:${fundColor(d.fundId)}">${escapeHtml(d.name)}</b><br/>${d._companies} sightings`;
+        if (d._type === "fund") return `<b style="color:${fundColor(d.fundId)}">${escapeHtml(d.name)}</b><br/>${d._companies} engagements`;
         const funds = (d._funds || []).map((id) => `<span style="color:${fundColor(id)}">●</span>`).join(" ");
         const q = d._quote ? `<div style="max-width:260px;white-space:normal;color:#64748b;margin-top:4px">“${escapeHtml(d._quote.slice(0, 120))}…”</div>` : "";
         return `<b>${escapeHtml(d.name)}</b><br/>${escapeHtml(d._sector || "Unknown")}<br/>${d._funds.length} fund(s): ${funds}${q}`;
@@ -335,7 +335,7 @@ function renderTreemap() {
   chart.setOption({
     tooltip: {
       confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "box-shadow:0 12px 32px -12px rgba(16,24,40,.3);border-radius:12px;",
-      formatter: (p) => `<b>${escapeHtml(p.name)}</b><br/>${p.value} sightings · ${p.data._companies} companies<br/><span style="color:#64748b">Top: ${escapeHtml(p.data._topFunds || "—")}</span>`,
+      formatter: (p) => `<b>${escapeHtml(p.name)}</b><br/>${p.value} engagements · ${p.data._companies} companies<br/><span style="color:#64748b">Top: ${escapeHtml(p.data._topFunds || "—")}</span>`,
     },
     series: [{ type: "treemap", roam: false, breadcrumb: { show: false }, nodeClick: false, animationDuration: 800,
       label: { show: true, formatter: "{b}", color: "#fff", fontFamily: "Inter", fontWeight: 600, overflow: "truncate" },
@@ -690,7 +690,7 @@ function renderSectorBar(stats) {
   chart.setOption({
     grid: { left: 8, right: 56, top: 8, bottom: 8, containLabel: true },
     tooltip: { trigger: "item", confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
-      formatter: (p) => { const r = rows[p.dataIndex]; const t = r.trend === "up" ? "Heating up ▲" : r.trend === "down" ? "Cooling ▼" : "Steady"; return `<b>${escapeHtml(r.sector)}</b><br/>${r.fundCount} funds · ${r.sightings} sightings<br/><span style="color:#64748b">${t}${r.delta ? ` (${r.delta > 0 ? "+" : ""}${r.delta})` : ""} · ${r.focus}</span>`; } },
+      formatter: (p) => { const r = rows[p.dataIndex]; const t = r.trend === "up" ? "Heating up ▲" : r.trend === "down" ? "Cooling ▼" : "Steady"; return `<b>${escapeHtml(r.sector)}</b><br/>${r.fundCount} funds · ${r.sightings} engagements<br/><span style="color:#64748b">${t}${r.delta ? ` (${r.delta > 0 ? "+" : ""}${r.delta})` : ""} · ${r.focus}</span>`; } },
     xAxis: { type: "value", minInterval: 1, max: 13, splitLine: { lineStyle: { color: "#f1f5f9" } }, axisLabel: { color: "#94a3b8", fontFamily: "JetBrains Mono" } },
     yAxis: { type: "category", data: rows.map((r) => r.sector), axisTick: { show: false }, axisLine: { show: false }, axisLabel: { color: "#334155", fontSize: 11.5, width: 150, overflow: "truncate" } },
     series: [{
@@ -720,7 +720,7 @@ function renderSectorTable() {
     <div class="overflow-x-auto">
     <table class="w-full text-sm">
       <thead><tr class="text-left text-[11px] text-slate-400">
-        ${th("sector", "Sector")}${th("funds", "Funds")}${th("sightings", "Sightings", "hidden sm:table-cell")}
+        ${th("sector", "Sector")}${th("funds", "Funds")}${th("sightings", "Engagements", "hidden sm:table-cell")}
         ${th("trend", "Trend")}<th class="px-4 py-3 hidden md:table-cell text-[11px] font-semibold uppercase tracking-wide text-slate-400">Focus</th>
         <th class="px-4 py-3 hidden lg:table-cell text-[11px] font-semibold uppercase tracking-wide text-slate-400">Read</th>
       </tr></thead>
@@ -765,7 +765,7 @@ function openSectorDrill(sectorName) {
     <div class="border-b border-slate-100 p-5">
       <div class="mb-3 flex flex-wrap items-center gap-5">
         <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.fundCount}<span class="text-base text-slate-400">/13</span></div><div class="text-[11px] uppercase tracking-wide text-slate-400">funds</div></div>
-        <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.sightings}</div><div class="text-[11px] uppercase tracking-wide text-slate-400">sightings</div></div>
+        <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.sightings}</div><div class="text-[11px] uppercase tracking-wide text-slate-400">engagements</div></div>
         <div class="flex gap-2 self-center">${trendBadge(s)}${focusBadge(s)}</div>
       </div>
       <div class="flex flex-wrap gap-1.5">${fundChips}</div>
