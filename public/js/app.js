@@ -796,6 +796,194 @@ function sectorCompanyRow(c, col) {
 }
 
 // ===========================================================================
+// OVERLAP — the consensus book: which names have the most smart-money funds,
+// where conviction is BUILDING (a fund just joined), and who's in each name.
+// ===========================================================================
+let _book = [];
+let overlapSector = "all";
+let overlapMin = 2;
+const ordinal = (n) => { const s = ["th", "st", "nd", "rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
+
+function consensusBook() {
+  const cutoff14 = ymdAgo(14);
+  const map = new Map();
+  for (const s of DATA.sightings) {
+    if (!map.has(s.company)) map.set(s.company, { company: s.company, ticker: s.ticker, sector: s.sector, industry: s.industry, _latest: "", funds: new Map() });
+    const a = map.get(s.company);
+    const cd = s.concall_date || "";
+    if (cd >= a._latest) { a._latest = cd; a.ticker = s.ticker; a.sector = s.sector; a.industry = s.industry; }
+    let pf = a.funds.get(s.fund_id);
+    if (!pf) { pf = { fund_id: s.fund_id, firstSeen: s.first_seen || "", date: cd, quote: s.quote, transcript_url: s.transcript_url }; a.funds.set(s.fund_id, pf); }
+    if (s.first_seen && (!pf.firstSeen || s.first_seen < pf.firstSeen)) pf.firstSeen = s.first_seen;
+    if (cd >= pf.date) { pf.date = cd; pf.quote = s.quote; pf.transcript_url = s.transcript_url; }
+  }
+  const out = [];
+  for (const a of map.values()) {
+    const funds = [...a.funds.values()];
+    if (funds.length < 2) continue;
+    const earliest = funds.reduce((m, f) => (!m || (f.firstSeen && f.firstSeen < m) ? f.firstSeen || m : m), "");
+    // A fund "just joined" = its first_seen is later than the name's earliest fund AND within ~14 days.
+    const newFunds = new Set(funds.filter((f) => f.firstSeen && earliest && f.firstSeen.slice(0, 10) > earliest.slice(0, 10) && f.firstSeen >= cutoff14).map((f) => f.fund_id));
+    funds.sort((x, y) => (y.date || "").localeCompare(x.date || ""));
+    out.push({ company: a.company, ticker: a.ticker, sector: a.sector, industry: a.industry, fundIds: funds.map((f) => f.fund_id), fundCount: funds.length, lastDate: a._latest, perFund: funds, newFunds, building: newFunds.size > 0 });
+  }
+  out.sort((x, y) => y.fundCount - x.fundCount || (y.lastDate || "").localeCompare(x.lastDate || "") || x.company.localeCompare(y.company));
+  return out;
+}
+
+function overlapHouseView(book) {
+  if (!book.length) return "No consensus names yet — no company has 2+ smart-money funds in the window.";
+  const top = book[0];
+  const parts = [`${book.length} companies have 2+ smart-money funds.`, `Highest conviction: ${top.company} (${top.fundCount} funds).`];
+  const building = book.filter((b) => b.building).sort((a, b) => b.fundCount - a.fundCount)[0];
+  if (building) parts.push(`Conviction is building in ${building.company} — a ${ordinal(building.fundCount)} fund just appeared this week.`);
+  return parts.join(" ");
+}
+
+function fundAvatars(ids, newSet) {
+  const shown = ids.slice(0, 8).map((id) => {
+    const nw = newSet && newSet.has(id);
+    return `<span title="${escapeHtml(fundName(id))}${nw ? " (just joined)" : ""}" class="grid h-7 w-7 place-items-center rounded-full text-[10px] font-bold text-white ring-2 ${nw ? "ring-amber-400" : "ring-white"}" style="background:${fundColor(id)}">${escapeHtml(initials(fundName(id)))}</span>`;
+  }).join("");
+  const more = ids.length > 8 ? `<span class="grid h-7 w-7 place-items-center rounded-full bg-slate-200 text-[10px] font-bold text-slate-500 ring-2 ring-white">+${ids.length - 8}</span>` : "";
+  return `<div class="flex -space-x-1.5">${shown}${more}</div>`;
+}
+
+function renderOverlap() {
+  const root = document.getElementById("tab-overlap");
+  _book = consensusBook();
+  const sectors = [...new Set(_book.map((b) => b.sector || "Unclassified"))].sort();
+  const buildingNames = _book.filter((b) => b.building).slice(0, 4);
+
+  const strip = buildingNames.length
+    ? `<div class="mb-4">
+        <div class="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-600"><i data-lucide="sparkles" class="h-3.5 w-3.5"></i>Conviction building this week</div>
+        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          ${buildingNames.map((c) => `
+          <button type="button" data-co="${escapeHtml(c.company)}" class="card card-hover p-4 text-left ring-1 ring-amber-200" style="box-shadow:0 0 0 1px rgba(245,158,11,.25),0 14px 32px -18px rgba(245,158,11,.5)">
+            <div class="flex items-center gap-2"><span class="truncate font-semibold text-slate-800">${escapeHtml(c.company)}</span>${c.ticker ? `<span class="font-mono text-[11px] uppercase" style="color:${sectorColor(c.sector || null)}">${escapeHtml(c.ticker)}</span>` : ""}</div>
+            <div class="mt-1.5">${sectorPill(c.sector, c.industry)}</div>
+            <div class="mt-3 flex items-center justify-between">${fundAvatars(c.fundIds, c.newFunds)}<span class="font-mono text-xs font-semibold text-slate-600">${c.fundCount} funds</span></div>
+          </button>`).join("")}
+        </div>
+      </div>`
+    : "";
+
+  const minBtn = (n, label) => `<button type="button" data-min="${n}" class="rounded-lg px-3 py-1.5 text-xs font-medium transition ${overlapMin === n ? "bg-indigo-600 text-white shadow-sm" : "text-slate-600 hover:bg-white"}">${label}</button>`;
+
+  root.innerHTML = `
+    <div class="mb-4 rounded-3xl bg-gradient-to-br from-amber-50 via-white to-indigo-50 p-5 shadow-sm ring-1 ring-slate-100">
+      <div class="mb-1.5 flex items-center gap-2"><span class="rounded-xl bg-white p-1.5 text-amber-500 shadow-sm"><i data-lucide="git-merge" class="h-4 w-4"></i></span>
+        <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">House view</h2></div>
+      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">${escapeHtml(overlapHouseView(_book))}</p>
+      <p class="mt-2 text-[11px] text-slate-400">Signal = smart-money attention from concall participation (a leading indicator), not confirmed positions.</p>
+    </div>
+    ${strip}
+    <div class="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex items-center gap-2 rounded-xl bg-white p-1 shadow-sm ring-1 ring-slate-200">
+        <span class="pl-2 text-xs text-slate-400">Min funds</span>${minBtn(2, "2+")}${minBtn(3, "3+")}${minBtn(4, "4+")}
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <span class="text-slate-400">Sector</span>
+        <select id="overlap-sector" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
+          <option value="all">All sectors</option>${sectors.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("")}
+        </select>
+      </div>
+    </div>
+    <div id="overlap-book" class="space-y-6"></div>`;
+
+  root.querySelectorAll("[data-min]").forEach((b) => b.addEventListener("click", () => { overlapMin = Number(b.dataset.min); renderOverlap(); }));
+  const sel = root.querySelector("#overlap-sector");
+  sel.value = overlapSector;
+  sel.addEventListener("change", () => { overlapSector = sel.value; updateOverlapBook(); });
+  root.addEventListener("click", (e) => { const t = e.target.closest("[data-co]"); if (t) openCompanyDrill(t.dataset.co); });
+
+  updateOverlapBook();
+  refreshIcons();
+}
+
+function updateOverlapBook() {
+  const cont = document.getElementById("overlap-book");
+  if (!cont) return;
+  let items = _book.filter((b) => b.fundCount >= overlapMin && (overlapSector === "all" || (b.sector || "Unclassified") === overlapSector));
+  if (!items.length) {
+    cont.innerHTML = emptyState("git-merge", "No consensus names here", "Try lowering the min-funds filter or picking another sector.");
+    refreshIcons();
+    return;
+  }
+  const tiers = [
+    { label: "High conviction", sub: "4+ funds", test: (b) => b.fundCount >= 4, hi: true },
+    { label: "Building", sub: "3 funds", test: (b) => b.fundCount === 3 },
+    { label: "On the radar", sub: "2 funds", test: (b) => b.fundCount === 2 },
+  ];
+  cont.innerHTML = tiers
+    .map((t) => {
+      const list = items.filter(t.test);
+      if (!list.length) return "";
+      return `<div>
+        <div class="mb-2 flex items-baseline gap-2 px-1">
+          <h3 class="font-display text-sm font-bold ${t.hi ? "text-amber-600" : "text-slate-700"}">${t.label}</h3>
+          <span class="text-xs text-slate-400">${t.sub} · ${list.length}</span>
+        </div>
+        <div class="space-y-2">${list.map((c) => overlapRow(c, t.hi)).join("")}</div>
+      </div>`;
+    })
+    .join("");
+  refreshIcons();
+}
+
+function overlapRow(c, hi) {
+  const col = sectorColor(c.sector || null);
+  const glow = hi ? `style="box-shadow:0 0 0 1px rgba(99,102,241,.18),0 14px 30px -18px rgba(99,102,241,.45)"` : "";
+  return `<button type="button" data-co="${escapeHtml(c.company)}" class="card card-hover flex w-full items-center gap-3 p-3.5 text-left ${hi ? "ring-1 ring-indigo-100" : ""}" ${glow}>
+    <div class="min-w-0 flex-1">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="truncate font-semibold text-slate-800">${escapeHtml(c.company)}</span>
+        ${c.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${col}">${escapeHtml(c.ticker)}</span>` : ""}
+        ${c.building ? `<span class="inline-flex items-center gap-1 rounded-full bg-amber-100 px-1.5 py-0.5 text-[10px] font-bold uppercase text-amber-700"><i data-lucide="sparkles" class="h-2.5 w-2.5"></i>building</span>` : ""}
+      </div>
+      <div class="mt-1.5 flex flex-wrap items-center gap-2">${sectorPill(c.sector, c.industry)}<span class="inline-flex items-center gap-1 font-mono text-[11px] text-slate-400"><i data-lucide="calendar" class="h-3 w-3"></i>${fmtDate(c.lastDate)}</span></div>
+    </div>
+    <div class="flex shrink-0 items-center gap-3">
+      ${fundAvatars(c.fundIds, c.newFunds)}
+      <span class="rounded-full bg-slate-100 px-2.5 py-1 font-mono text-xs font-semibold text-slate-600">${c.fundCount} funds</span>
+    </div>
+  </button>`;
+}
+
+function openCompanyDrill(company) {
+  const c = _book.find((x) => x.company === company);
+  if (!c) return;
+  const col = sectorColor(c.sector || null);
+  const blocks = c.perFund.map((pf) => {
+    const fc = fundColor(pf.fund_id);
+    const isNew = c.newFunds.has(pf.fund_id);
+    return `<div class="rounded-2xl bg-slate-50/60 p-3 ring-1 ring-slate-100">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold" style="background:${fc}1a;color:${fc}"><span class="h-2 w-2 rounded-full" style="background:${fc}"></span>${escapeHtml(fundName(pf.fund_id))}</span>
+        ${isNew ? `<span class="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold uppercase text-amber-700">New</span>` : ""}
+        <span class="ml-auto inline-flex items-center gap-2"><span class="font-mono text-xs text-slate-400">${fmtDate(pf.date)}</span>${transcriptBtn(pf.transcript_url)}</span>
+      </div>
+      ${quoteBlock(pf.quote, fc)}
+    </div>`;
+  }).join("");
+  document.getElementById("drill-content").innerHTML = `
+    <div class="flex items-start justify-between gap-3 border-b border-slate-100 p-5">
+      <div>
+        <div class="flex items-center gap-2"><span class="font-display text-xl font-semibold text-slate-800">${escapeHtml(c.company)}</span>${c.ticker ? `<span class="font-mono text-sm uppercase tracking-wide" style="color:${col}">${escapeHtml(c.ticker)}</span>` : ""}</div>
+        <div class="mt-1.5 flex items-center gap-2">${sectorPill(c.sector, c.industry)}<span class="text-xs font-medium text-slate-500">${c.fundCount} smart-money funds</span></div>
+      </div>
+      <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
+    </div>
+    <div class="scroll-area flex-1 space-y-2 overflow-y-auto p-4">
+      <div class="px-1 text-[11px] font-semibold uppercase tracking-wide text-slate-400">Who's interested — and the evidence</div>
+      ${blocks}
+    </div>`;
+  revealModal();
+  wireShowMore(document.getElementById("drill-content"));
+}
+
+// ===========================================================================
 // placeholders (Prompt 11)
 // ===========================================================================
 function renderPlaceholder(id, icon, title) {
@@ -808,7 +996,7 @@ const RENDERERS = {
   radar: renderRadar,
   funds: renderFunds,
   sectors: renderSectors,
-  overlap: () => renderPlaceholder("tab-overlap", "git-merge", "Overlap"),
+  overlap: renderOverlap,
   flags: () => renderPlaceholder("tab-flags", "bell", "Recent Flags"),
 };
 function activate(tab) {
