@@ -62,7 +62,10 @@ jobs:
           FORCE: ${{ github.event.inputs.force }}
         run: node screener-test/scrape-transcripts.mjs
 
-      - name: Upload artifacts (manifest + transcripts)
+      - name: Match watchlist funds in transcripts (Prompt 4)
+        run: node screener-test/match-funds.mjs
+
+      - name: Upload artifacts (manifest + transcripts + matches)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -70,4 +73,5 @@ jobs:
           path: |
             screener-test/output/transcripts-manifest.json
             screener-test/output/transcripts/
+            screener-test/output/fund-matches.json
           if-no-files-found: warn
