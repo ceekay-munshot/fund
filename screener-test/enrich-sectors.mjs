@@ -196,7 +196,10 @@ async function run() {
       }
       try {
         await page.goto(companyUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
-        await sleep(400);
+        // The classification breadcrumb can render after domcontentloaded — wait
+        // for it so enrichment is consistent (avoids intermittent null industries).
+        await page.waitForSelector('a[href*="/market/IN"]', { timeout: 6000 }).catch(() => {});
+        await sleep(300);
         const html = await page.content();
         const $ = cheerio.load(html);
 
@@ -248,9 +251,11 @@ async function run() {
   await writeFile(ENRICHED_PATH, JSON.stringify(enriched, null, 2) + "\n", "utf8");
 
   // Console summary table.
-  console.log("\nCompany → ticker / industry:");
+  console.log("\nCompany → ticker / sector / industry:");
   for (const [company, m] of Object.entries(meta)) {
-    console.log(`  ${company.padEnd(28)} ${String(m.ticker ?? "—").padEnd(12)} ${m.industry ?? "—"}`);
+    console.log(
+      `  ${company.padEnd(26)} ${String(m.ticker ?? "—").padEnd(11)} ${String(m.sector ?? "—").padEnd(24)} ${m.industry ?? "—"}`
+    );
   }
   console.log(
     `\nEnriched ${sightings.length} sightings; resolved industry for ${resolvedIndustry}/${companies.size} companies.`
