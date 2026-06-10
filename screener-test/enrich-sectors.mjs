@@ -320,11 +320,14 @@ async function run() {
     }
   }
 
-  // Write company-meta.json (the committed persistent cache).
+  // Write company-meta.json — MERGE into the prior cache so resolved companies
+  // persist across runs even when they're not in this run's working set (FRESH
+  // rebuilds from scratch).
   await mkdir(PUBLIC_DATA, { recursive: true });
+  const mergedCompanies = FRESH ? meta : { ...cache, ...meta };
   await writeFile(
     META_PATH,
-    JSON.stringify({ generated_at: new Date().toISOString(), companies: meta }, null, 2) + "\n",
+    JSON.stringify({ generated_at: new Date().toISOString(), companies: mergedCompanies }, null, 2) + "\n",
     "utf8"
   );
 
