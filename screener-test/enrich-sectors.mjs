@@ -39,7 +39,12 @@ const INDEX_PATH = join(OUTPUT_DIR, "concalls-index.json");
 // companies across runs and only fetches new/unresolved ones (keeps each run light
 // and lets a throttled run's nulls fill in over subsequent runs).
 const META_PATH = join(PUBLIC_DATA, "company-meta.json");
+const STORE_PATH = join(PUBLIC_DATA, "fund-sightings.json");
 const ENRICHED_PATH = join(OUTPUT_DIR, "fund-matches-enriched.json");
+
+// Cap company-page fetches per run so we never re-throttle Screener; any leftover
+// unresolved companies are picked up on the next run (cache makes it converge).
+const ENRICH_MAX = Number(process.env.ENRICH_MAX || 75);
 
 const HEADFUL = process.env.HEADFUL === "1";
 const DEBUG = process.env.DEBUG === "1";
@@ -170,14 +175,30 @@ async function run() {
     }
   }
 
-  // Distinct companies that actually have a sighting.
+  // Distinct companies that actually have a sighting (from this run's matches).
   const companies = new Map(); // company name -> company_url
   for (const s of sightings) {
     if (companies.has(s.company)) continue;
     const url = urlByCompany.get(s.company) || urlByTranscript.get(s.transcript_url) || null;
     companies.set(s.company, url);
   }
-  console.log(`Distinct companies to enrich: ${companies.size} (from ${sightings.length} sightings)`);
+
+  // Self-heal: also (re)enrich companies already in the committed store that still
+  // lack a sector — so ordinary runs gradually complete the store without a FULL
+  // sweep. URLs come from the always-full concalls-index (90-day window).
+  if (existsSync(STORE_PATH)) {
+    try {
+      const store = JSON.parse(await readFile(STORE_PATH, "utf8"));
+      for (const s of store.sightings || []) {
+        if (!s.sector && !companies.has(s.company)) {
+          companies.set(s.company, urlByCompany.get(s.company) || null);
+        }
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+  console.log(`Distinct companies to enrich: ${companies.size} (this run's matches + store gaps)`);
 
   // Quiet day (no new sightings): write empty enriched output and skip login.
   // Leave company-meta.json untouched so the persistent cache survives.
@@ -218,7 +239,14 @@ async function run() {
     }
   }
   let resolvedIndustry = reused;
-  console.log(`Cache: ${reused} reused, ${toFetch.length} to fetch.`);
+  let deferred = 0;
+  if (toFetch.length > ENRICH_MAX) {
+    deferred = toFetch.length - ENRICH_MAX;
+    toFetch.length = ENRICH_MAX; // cap; the rest resolve on the next run
+  }
+  console.log(
+    `Cache: ${reused} reused, ${toFetch.length} to fetch${deferred ? `, ${deferred} deferred to next run` : ""}.`
+  );
 
   if (toFetch.length > 0) {
     const browser = await chromium.launch({ headless: !HEADFUL });

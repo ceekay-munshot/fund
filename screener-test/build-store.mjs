@@ -40,6 +40,7 @@ const FUNDS_PATH = join(STATIC_DIR, "funds.json");
 const SIGHTINGS_PATH = join(PUBLIC_DATA, "fund-sightings.json");
 const PROCESSED_PATH = join(PUBLIC_DATA, "processed-concalls.json");
 const META_PATH = join(PUBLIC_DATA, "metadata.json");
+const COMPANY_META_PATH = join(PUBLIC_DATA, "company-meta.json");
 
 const WINDOW_DAYS = 90;
 
@@ -122,6 +123,25 @@ async function run() {
     if (!inWindow(s.concall_date)) {
       store.delete(key);
       pruned++;
+    }
+  }
+
+  // --- 3b. heal from the persistent company-meta cache ---------------------
+  // enrich resolves companies into company-meta.json across runs; apply it to
+  // every stored sighting so older sightings gain sector/industry/ticker over
+  // time (monotonic — only fills nulls, never downgrades).
+  if (existsSync(COMPANY_META_PATH)) {
+    try {
+      const cache = JSON.parse(await readFile(COMPANY_META_PATH, "utf8")).companies || {};
+      for (const s of store.values()) {
+        const c = cache[s.company];
+        if (!c) continue;
+        if (!s.sector && c.sector) s.sector = c.sector;
+        if (!s.industry && c.industry) s.industry = c.industry;
+        if (!s.ticker && c.ticker) s.ticker = c.ticker;
+      }
+    } catch {
+      /* ignore */
     }
   }
 
