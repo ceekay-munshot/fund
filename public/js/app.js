@@ -8,8 +8,8 @@
 
 import {
   loadData, fundColor, sectorColor, sectorPill, escapeHtml, initials, fmtDate,
-  isToday, analystOf, sourceIconBtn, emptyState, countUp,
-  makeChart, resizeCharts, refreshIcons,
+  isToday, analystOf, sourceIconBtn, transcriptBtn, quoteBlock, wireShowMore,
+  emptyState, countUp, makeChart, resizeCharts, refreshIcons,
 } from "./ui.js";
 
 let DATA = null;
@@ -582,6 +582,220 @@ function closeDrill() {
 }
 
 // ===========================================================================
+// SECTORS — "where is smart money concentrating, is it rising/cooling, names?"
+// ===========================================================================
+let _sectorStats = [];
+let sectorSort = { key: "funds", dir: -1 };
+const fundName = (id) => (DATA.funds.find((f) => f.id === id) || {}).name || id;
+const ymdAgo = (days) => new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
+
+// Per-sector signal metrics (null sector → "Unclassified", bucketed last).
+function sectorStats() {
+  const d45 = ymdAgo(45), d90 = ymdAgo(90); // trend: last 45d vs prior 45d (by concall_date)
+  const map = new Map();
+  for (const s of DATA.sightings) {
+    const key = s.sector || "Unclassified";
+    if (!map.has(key)) map.set(key, { sector: key, funds: new Set(), sightings: 0, recent: 0, prior: 0, companies: new Map() });
+    const a = map.get(key);
+    a.funds.add(s.fund_id); a.sightings++;
+    const cd = s.concall_date || "";
+    if (cd >= d45) a.recent++; else if (cd >= d90) a.prior++;
+    let c = a.companies.get(s.company);
+    if (!c) { c = { company: s.company, ticker: s.ticker, funds: new Set(), sightings: 0, latestDate: cd, quote: s.quote, matched_alias: s.matched_alias, transcript_url: s.transcript_url }; a.companies.set(s.company, c); }
+    c.funds.add(s.fund_id); c.sightings++;
+    if (cd >= c.latestDate) { c.latestDate = cd; c.quote = s.quote; c.matched_alias = s.matched_alias; c.transcript_url = s.transcript_url; c.ticker = s.ticker; }
+  }
+  const out = [...map.values()].map((a) => {
+    const companies = [...a.companies.values()].map((c) => ({ ...c, fundCount: c.funds.size, fundIds: [...c.funds] }))
+      .sort((x, y) => y.fundCount - x.fundCount || y.sightings - x.sightings || y.latestDate.localeCompare(x.latestDate));
+    const bySight = [...companies].sort((x, y) => y.sightings - x.sightings);
+    const top2 = (bySight[0]?.sightings || 0) + (bySight[1]?.sightings || 0);
+    const focus = a.sightings && top2 / a.sightings >= 0.6 ? "Concentrated" : "Broad"; // most sightings in 1–2 names?
+    const delta = a.recent - a.prior;
+    return { sector: a.sector, fundIds: [...a.funds], fundCount: a.funds.size, sightings: a.sightings, recent: a.recent, prior: a.prior, delta, trend: delta > 0 ? "up" : delta < 0 ? "down" : "flat", focus, companies };
+  });
+  out.sort((x, y) => (x.sector === "Unclassified" ? 1 : 0) - (y.sector === "Unclassified" ? 1 : 0) || y.fundCount - x.fundCount || y.sightings - x.sightings);
+  return out;
+}
+
+// Auto-generated plain-English takeaway.
+function houseView(stats) {
+  const real = stats.filter((s) => s.sector !== "Unclassified" && s.fundCount);
+  if (!real.length) return "No sector signal yet — the radar runs daily.";
+  const heat = (s) => (s.trend === "up" ? "heating up" : s.trend === "down" ? "cooling" : "steady");
+  const s1 = real[0], s2 = real[1];
+  const parts = [];
+  let lead = `Smart money is most concentrated in ${s1.sector} (${s1.fundCount} funds)`;
+  if (s2) lead += ` and ${s2.sector} (${s2.fundCount} funds)`;
+  lead += s2 && s1.trend === "up" && s2.trend === "up" ? ", both heating up." : `, ${heat(s1)}.`;
+  parts.push(lead);
+  const broadCool = real.find((s) => s !== s1 && s !== s2 && s.focus === "Broad" && s.trend === "down");
+  if (broadCool) parts.push(`${broadCool.sector} is broad but cooling.`);
+  const early = real.filter((s) => s !== s1 && s !== s2 && s.trend === "up" && s.fundCount <= 2).sort((a, b) => b.delta - a.delta)[0];
+  if (early) parts.push(`Early interest building in ${early.sector}.`);
+  return parts.join(" ");
+}
+
+function sectorRead(s) {
+  const top = s.companies.slice(0, 2).map((c) => c.company);
+  const rising = s.trend === "up" ? " and rising" : s.trend === "down" ? " but cooling" : "";
+  const focus = s.focus === "Concentrated" ? "concentrated" : "broad";
+  return `${s.fundCount} fund${s.fundCount === 1 ? "" : "s"}${rising} — ${focus}${top.length ? `, top: ${top.join(" & ")}` : ""}`;
+}
+
+function trendBadge(s) {
+  if (s.trend === "up") return `<span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-600"><i data-lucide="trending-up" class="h-3 w-3"></i>Heating up${s.delta ? ` +${s.delta}` : ""}</span>`;
+  if (s.trend === "down") return `<span class="inline-flex items-center gap-1 rounded-full bg-rose-50 px-2 py-0.5 text-xs font-medium text-rose-600"><i data-lucide="trending-down" class="h-3 w-3"></i>Cooling ${s.delta}</span>`;
+  return `<span class="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-500"><i data-lucide="minus" class="h-3 w-3"></i>Steady</span>`;
+}
+const focusBadge = (s) => s.focus === "Concentrated"
+  ? `<span class="rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-600">Concentrated</span>`
+  : `<span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-500">Broad</span>`;
+const fundDots = (ids) => ids.slice(0, 13).map((id) => `<span class="inline-block h-2 w-2 rounded-full ring-1 ring-white" style="background:${fundColor(id)}"></span>`).join("");
+
+function renderSectors() {
+  const root = document.getElementById("tab-sectors");
+  _sectorStats = sectorStats();
+  root.innerHTML = `
+    <div class="mb-4 rounded-3xl bg-gradient-to-br from-indigo-50 via-white to-fuchsia-50 p-5 shadow-sm ring-1 ring-slate-100">
+      <div class="mb-1.5 flex items-center gap-2"><span class="rounded-xl bg-white p-1.5 text-indigo-500 shadow-sm"><i data-lucide="lightbulb" class="h-4 w-4"></i></span>
+        <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">House view</h2></div>
+      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">${escapeHtml(houseView(_sectorStats))}</p>
+      <p class="mt-2 text-[11px] text-slate-400">Signal = smart-money attention from concall participation (a leading indicator), not confirmed positions.</p>
+    </div>
+    <div class="card mb-4 p-4 sm:p-5">
+      <div class="mb-1 flex items-center gap-2"><span class="rounded-xl bg-indigo-50 p-1.5 text-indigo-500"><i data-lucide="bar-chart-3" class="h-4 w-4"></i></span>
+        <h2 class="font-display text-lg font-semibold text-slate-800">Where smart money is concentrating</h2></div>
+      <p class="mb-3 text-xs text-slate-400">Distinct funds active per sector — longer = more conviction · <span class="text-emerald-600">▲ heating up</span> · <span class="text-rose-500">▼ cooling</span>. Click a bar to drill.</p>
+      <div id="chart-sectors" class="chart-box"></div>
+    </div>
+    <div class="card overflow-hidden p-0"><div id="sector-table"></div></div>`;
+
+  if (window.echarts) {
+    try { renderSectorBar(_sectorStats); }
+    catch (e) { console.error("render sectorbar:", e); document.getElementById("chart-sectors").innerHTML = `<div class="flex h-full items-center justify-center text-xs text-rose-500">chart error: ${escapeHtml(e.message)}</div>`; }
+  } else {
+    document.getElementById("chart-sectors").innerHTML = emptyState("wifi-off", "Chart couldn't load", "The charting library was blocked. Reload.");
+  }
+  renderSectorTable();
+  refreshIcons();
+}
+
+function renderSectorBar(stats) {
+  const el = document.getElementById("chart-sectors");
+  el.style.height = Math.max(280, stats.length * 34 + 50) + "px";
+  const chart = makeChart(el, "sectors");
+  if (!chart) return;
+  const rows = [...stats].reverse(); // horizontal bar plots bottom→top
+  chart.setOption({
+    grid: { left: 8, right: 56, top: 8, bottom: 8, containLabel: true },
+    tooltip: { trigger: "item", confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
+      formatter: (p) => { const r = rows[p.dataIndex]; const t = r.trend === "up" ? "Heating up ▲" : r.trend === "down" ? "Cooling ▼" : "Steady"; return `<b>${escapeHtml(r.sector)}</b><br/>${r.fundCount} funds · ${r.sightings} sightings<br/><span style="color:#64748b">${t}${r.delta ? ` (${r.delta > 0 ? "+" : ""}${r.delta})` : ""} · ${r.focus}</span>`; } },
+    xAxis: { type: "value", minInterval: 1, max: 13, splitLine: { lineStyle: { color: "#f1f5f9" } }, axisLabel: { color: "#94a3b8", fontFamily: "JetBrains Mono" } },
+    yAxis: { type: "category", data: rows.map((r) => r.sector), axisTick: { show: false }, axisLine: { show: false }, axisLabel: { color: "#334155", fontSize: 11.5, width: 150, overflow: "truncate" } },
+    series: [{
+      type: "bar", barWidth: "58%",
+      data: rows.map((r) => ({ value: r.fundCount, itemStyle: { color: sectorColor(r.sector === "Unclassified" ? null : r.sector), borderRadius: [0, 6, 6, 0] } })),
+      label: { show: true, position: "right", formatter: (p) => { const r = rows[p.dataIndex]; const m = r.trend === "up" ? "{up|▲}" : r.trend === "down" ? "{down|▼}" : "{flat|–}"; return `{v|${r.fundCount}}  ${m}`; },
+        rich: { v: { color: "#334155", fontFamily: "JetBrains Mono", fontWeight: 600, fontSize: 12 }, up: { color: "#10B981", fontSize: 12 }, down: { color: "#F43F5E", fontSize: 12 }, flat: { color: "#94A3B8", fontSize: 12 } } },
+      emphasis: { focus: "self" }, blur: { itemStyle: { opacity: 0.3 } }, animationDuration: 800,
+    }],
+  });
+  chart.off("click");
+  chart.on("click", (p) => { const r = rows[p.dataIndex]; if (r) openSectorDrill(r.sector); });
+}
+
+function renderSectorTable() {
+  const cont = document.getElementById("sector-table");
+  if (!cont) return;
+  const k = sectorSort.key, dir = sectorSort.dir;
+  const sorted = [..._sectorStats].sort((a, b) => {
+    let v = k === "sector" ? a.sector.localeCompare(b.sector) : k === "sightings" ? a.sightings - b.sightings : k === "trend" ? a.delta - b.delta : a.fundCount - b.fundCount;
+    return v * dir;
+  }).sort((a, b) => (a.sector === "Unclassified" ? 1 : 0) - (b.sector === "Unclassified" ? 1 : 0));
+  const arrow = (key) => (sectorSort.key === key ? (sectorSort.dir < 0 ? " ↓" : " ↑") : "");
+  const th = (key, label, extra = "") => `<th class="px-4 py-3 ${extra}"><button data-sort="${key}" class="font-semibold uppercase tracking-wide hover:text-slate-700">${label}${arrow(key)}</button></th>`;
+
+  cont.innerHTML = `
+    <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead><tr class="text-left text-[11px] text-slate-400">
+        ${th("sector", "Sector")}${th("funds", "Funds")}${th("sightings", "Sightings", "hidden sm:table-cell")}
+        ${th("trend", "Trend")}<th class="px-4 py-3 hidden md:table-cell text-[11px] font-semibold uppercase tracking-wide text-slate-400">Focus</th>
+        <th class="px-4 py-3 hidden lg:table-cell text-[11px] font-semibold uppercase tracking-wide text-slate-400">Read</th>
+      </tr></thead>
+      <tbody>
+        ${sorted.map((s) => `
+        <tr data-sector="${escapeHtml(s.sector)}" class="cursor-pointer border-t border-slate-100 transition hover:bg-slate-50">
+          <td class="px-4 py-3"><span class="inline-flex items-center gap-2 font-medium text-slate-800"><span class="h-2.5 w-2.5 rounded-full" style="background:${sectorColor(s.sector === "Unclassified" ? null : s.sector)}"></span>${escapeHtml(s.sector)}</span></td>
+          <td class="px-4 py-3"><div class="flex items-center gap-2"><span class="font-mono text-slate-700">${s.fundCount}<span class="text-slate-300">/13</span></span><span class="flex gap-0.5">${fundDots(s.fundIds)}</span></div></td>
+          <td class="px-4 py-3 hidden sm:table-cell font-mono text-slate-600">${s.sightings}</td>
+          <td class="px-4 py-3">${trendBadge(s)}</td>
+          <td class="px-4 py-3 hidden md:table-cell">${focusBadge(s)}</td>
+          <td class="px-4 py-3 hidden lg:table-cell text-slate-500">${escapeHtml(sectorRead(s))}</td>
+        </tr>`).join("")}
+      </tbody>
+    </table></div>`;
+
+  cont.querySelectorAll("[data-sort]").forEach((b) => b.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const key = b.dataset.sort;
+    if (sectorSort.key === key) sectorSort.dir *= -1;
+    else { sectorSort.key = key; sectorSort.dir = key === "sector" ? 1 : -1; }
+    renderSectorTable();
+    refreshIcons();
+  }));
+  cont.querySelectorAll("[data-sector]").forEach((r) => r.addEventListener("click", () => openSectorDrill(r.dataset.sector)));
+}
+
+function openSectorDrill(sectorName) {
+  const s = _sectorStats.find((x) => x.sector === sectorName);
+  if (!s) return;
+  const col = sectorColor(sectorName === "Unclassified" ? null : sectorName);
+  const fundChips = s.fundIds.map((id) => `<span class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium" style="background:${fundColor(id)}1a;color:${fundColor(id)}"><span class="h-1.5 w-1.5 rounded-full" style="background:${fundColor(id)}"></span>${escapeHtml(fundName(id))}</span>`).join("");
+  document.getElementById("drill-content").innerHTML = `
+    <div class="flex items-start justify-between gap-3 border-b border-slate-100 p-5">
+      <div class="flex items-center gap-3">
+        <span class="grid h-12 w-12 shrink-0 place-items-center rounded-2xl text-white shadow-sm" style="background:${col}"><i data-lucide="layers" class="h-5 w-5"></i></span>
+        <div><div class="font-display text-xl font-semibold text-slate-800">${escapeHtml(sectorName)}</div>
+          <div class="mt-0.5 text-xs text-slate-500">${escapeHtml(sectorRead(s))}</div></div>
+      </div>
+      <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
+    </div>
+    <div class="border-b border-slate-100 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-5">
+        <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.fundCount}<span class="text-base text-slate-400">/13</span></div><div class="text-[11px] uppercase tracking-wide text-slate-400">funds</div></div>
+        <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.sightings}</div><div class="text-[11px] uppercase tracking-wide text-slate-400">sightings</div></div>
+        <div class="flex gap-2 self-center">${trendBadge(s)}${focusBadge(s)}</div>
+      </div>
+      <div class="flex flex-wrap gap-1.5">${fundChips}</div>
+    </div>
+    <div class="scroll-area flex-1 overflow-y-auto p-4">
+      <div class="mb-2 px-1 text-[11px] font-semibold uppercase tracking-wide text-slate-400">Top names — what the most funds are tracking here</div>
+      <div class="space-y-2">${s.companies.map((c) => sectorCompanyRow(c, col)).join("")}</div>
+    </div>`;
+  revealModal();
+  wireShowMore(document.getElementById("drill-content"));
+}
+
+function sectorCompanyRow(c, col) {
+  const chips = c.fundIds.map((id) => `<span title="${escapeHtml(fundName(id))}" class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium" style="background:${fundColor(id)}1a;color:${fundColor(id)}"><span class="h-1.5 w-1.5 rounded-full" style="background:${fundColor(id)}"></span>${escapeHtml(fundName(id))}</span>`).join("");
+  return `<div class="rounded-2xl bg-slate-50/60 p-3 ring-1 ring-slate-100">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span class="font-semibold text-slate-800">${escapeHtml(c.company)}</span>
+      ${c.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${col}">${escapeHtml(c.ticker)}</span>` : ""}
+      <span class="ml-auto inline-flex items-center gap-2">
+        <span class="inline-flex items-center gap-1 font-mono text-xs text-slate-400"><i data-lucide="users" class="h-3 w-3"></i>${c.fundCount}</span>
+        <span class="font-mono text-xs text-slate-400">${fmtDate(c.latestDate)}</span>
+        ${transcriptBtn(c.transcript_url)}
+      </span>
+    </div>
+    <div class="mt-1.5 flex flex-wrap gap-1">${chips}</div>
+    ${quoteBlock(c.quote, col)}
+  </div>`;
+}
+
+// ===========================================================================
 // placeholders (Prompt 11)
 // ===========================================================================
 function renderPlaceholder(id, icon, title) {
@@ -593,7 +807,7 @@ function renderPlaceholder(id, icon, title) {
 const RENDERERS = {
   radar: renderRadar,
   funds: renderFunds,
-  sectors: () => renderPlaceholder("tab-sectors", "layers", "By Sector"),
+  sectors: renderSectors,
   overlap: () => renderPlaceholder("tab-overlap", "git-merge", "Overlap"),
   flags: () => renderPlaceholder("tab-flags", "bell", "Recent Flags"),
 };
