@@ -41,6 +41,7 @@ const SIGHTINGS_PATH = join(PUBLIC_DATA, "fund-sightings.json");
 const PROCESSED_PATH = join(PUBLIC_DATA, "processed-concalls.json");
 const META_PATH = join(PUBLIC_DATA, "metadata.json");
 const COMPANY_META_PATH = join(PUBLIC_DATA, "company-meta.json");
+const FUNDS_OUT_PATH = join(PUBLIC_DATA, "funds.json");
 
 const WINDOW_DAYS = 90;
 
@@ -74,6 +75,15 @@ async function run() {
   const enriched = await readJsonRequired(ENRICHED_PATH, "fund-matches-enriched.json");
   const funds = await readJsonRequired(FUNDS_PATH, "funds.json");
   const fundCount = (funds.funds || []).length;
+
+  // Emit a public funds list (id + name only) so the dashboard can show all
+  // funds without reading screener-test/ (only ./public is served).
+  await mkdir(PUBLIC_DATA, { recursive: true });
+  await writeFile(
+    FUNDS_OUT_PATH,
+    JSON.stringify({ funds: (funds.funds || []).map((f) => ({ id: f.id, name: f.name })) }, null, 2) + "\n",
+    "utf8"
+  );
 
   // --- optional inputs -----------------------------------------------------
   const manifest = await readJsonOptional(MANIFEST_PATH, { transcripts: [] });

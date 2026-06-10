@@ -1,0 +1,31 @@
+name: Screenshot dashboard
+
+# Manual: renders the committed static dashboard in headless chromium, checks for
+# console errors, and uploads PNG screenshots (By Fund, By Fund + search, Recent
+# Flags) as an artifact to download. No secrets needed — reads committed public/data.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  shoot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Install Playwright
+        run: |
+          npm install playwright@1 --no-save
+          npx playwright install --with-deps chromium
+      - name: Render + screenshot
+        run: node screener-test/shoot-dashboard.mjs
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: dashboard-screenshots
+          path: screener-test/output/*.png
+          if-no-files-found: warn
