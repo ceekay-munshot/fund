@@ -97,19 +97,19 @@ function renderRadar() {
         <button id="graph-reset" class="hidden rounded-lg px-2.5 py-1 text-xs font-medium text-slate-500 ring-1 ring-slate-200 hover:bg-slate-50">Reset</button>
       </div>
       <p class="mb-3 text-xs text-slate-400">Drag nodes · scroll to zoom · hover for detail · click a fund to isolate its companies. Bigger neutral dots = companies multiple funds are tracking (consensus).</p>
-      <div id="chart-graph" class="h-[420px] w-full sm:h-[560px]"></div>
+      <div id="chart-graph" class="chart-graph-box"></div>
       <div id="graph-legend" class="mt-3 flex flex-wrap gap-1.5"></div>
     </div>
     <div class="grid gap-4 lg:grid-cols-2">
       <div class="card p-4 sm:p-5">
         <div class="mb-2 flex items-center gap-2"><span class="rounded-xl bg-fuchsia-50 p-1.5 text-fuchsia-500"><i data-lucide="layers" class="h-4 w-4"></i></span>
           <h2 class="font-display text-lg font-semibold text-slate-800">Sector clustering</h2></div>
-        <div id="chart-treemap" class="h-[320px] w-full"></div>
+        <div id="chart-treemap" class="chart-box"></div>
       </div>
       <div class="card p-4 sm:p-5">
         <div class="mb-2 flex items-center gap-2"><span class="rounded-xl bg-emerald-50 p-1.5 text-emerald-500"><i data-lucide="trending-up" class="h-4 w-4"></i></span>
           <h2 class="font-display text-lg font-semibold text-slate-800">New sightings over time</h2></div>
-        <div id="chart-timeline" class="h-[320px] w-full"></div>
+        <div id="chart-timeline" class="chart-box"></div>
       </div>
     </div>`;
 
@@ -121,12 +121,15 @@ function renderRadar() {
     refreshIcons();
     return;
   }
-  renderGraph();
-  renderLegend();
-  renderTreemap();
-  renderTimeline();
+  const guard = (label, fn) => { try { fn(); } catch (e) { console.error(`render ${label}:`, e); } };
+  guard("graph", renderGraph);
+  guard("legend", renderLegend);
+  guard("treemap", renderTreemap);
+  guard("timeline", renderTimeline);
   document.getElementById("graph-reset").addEventListener("click", () => emphasizeFund(null));
   refreshIcons();
+  // Belt-and-suspenders: re-measure once layout/fonts have fully settled.
+  setTimeout(resizeCharts, 300);
 }
 
 function graphModel() {
@@ -372,7 +375,7 @@ function openDrill(fundId) {
       </div>
       <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
     </div>
-    ${f.sightings.length ? `<div class="border-b border-slate-100 p-5"><div id="drill-donut" class="h-[200px] w-full"></div></div>` : ""}
+    ${f.sightings.length ? `<div class="border-b border-slate-100 p-5"><div id="drill-donut" class="chart-donut"></div></div>` : ""}
     <div class="scroll-area flex-1 space-y-2.5 overflow-y-auto p-5">
       ${companies.length ? companies.map((c) => drillRow(c, color)).join("") : emptyState("inbox", "No sightings", "This fund hasn't appeared in a concall in the last 90 days.")}
     </div>`;
