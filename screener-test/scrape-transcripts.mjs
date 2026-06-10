@@ -105,20 +105,30 @@ async function getPdfjs() {
 
 async function extractPdfText(buffer) {
   const pdfjs = await getPdfjs();
-  const doc = await pdfjs.getDocument({
+  const loadingTask = pdfjs.getDocument({
     data: new Uint8Array(buffer),
     useSystemFonts: true,
     isEvalSupported: false,
     verbosity: 0,
-  }).promise;
-  const parts = [];
-  for (let i = 1; i <= doc.numPages; i++) {
-    const pg = await doc.getPage(i);
-    const tc = await pg.getTextContent();
-    parts.push(tc.items.map((it) => it.str ?? "").join(" "));
+  });
+  const doc = await loadingTask.promise;
+  try {
+    const parts = [];
+    for (let i = 1; i <= doc.numPages; i++) {
+      const pg = await doc.getPage(i);
+      const tc = await pg.getTextContent();
+      parts.push(tc.items.map((it) => it.str ?? "").join(" "));
+    }
+    return parts.join("\n").replace(/[ \t]+\n/g, "\n").trim();
+  } finally {
+    // Cleanup lives on the loading task in this pdfjs version; never let a
+    // cleanup error discard already-extracted text.
+    try {
+      await loadingTask.destroy();
+    } catch {
+      /* ignore */
+    }
   }
-  await doc.destroy();
-  return parts.join("\n").replace(/[ \t]+\n/g, "\n").trim();
 }
 
 // --- fetch strategies (defeat the 403) -------------------------------------
