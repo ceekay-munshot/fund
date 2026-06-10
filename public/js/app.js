@@ -15,6 +15,7 @@ import {
 let DATA = null;
 const rendered = new Set();
 let selectedFund = null; // graph emphasis
+let graphData = null; // { nodes, links } for the Radar graph (NOT on the chart instance)
 
 // --- aggregation -----------------------------------------------------------
 function groupByFund() {
@@ -191,7 +192,7 @@ function renderGraph() {
   const chart = makeChart(el, "graph");
   if (!chart) return;
   const { nodes, links } = graphModel();
-  chart._model = { nodes, links };
+  graphData = { nodes, links };
   chart.setOption({
     tooltip: {
       borderColor: "#e2e8f0", backgroundColor: "#fff", textStyle: { color: "#334155" }, extraCssText: "box-shadow:0 12px 32px -12px rgba(16,24,40,.3);border-radius:12px;",
@@ -226,8 +227,8 @@ function renderGraph() {
 function emphasizeFund(fundId) {
   selectedFund = fundId;
   const chart = makeChartExisting("graph");
-  if (!chart || !chart._model) return;
-  const { nodes, links } = chart._model;
+  if (!chart || !graphData) return;
+  const { nodes, links } = graphData;
   const adjacentCompanies = new Set();
   if (fundId) links.forEach((l) => { if (l._fundId === fundId) adjacentCompanies.add(l.target); });
 
