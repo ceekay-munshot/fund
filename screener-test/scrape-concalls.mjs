@@ -291,8 +291,9 @@ async function collectRows(page, cutoffMs) {
 
     const dated = rows.map((r) => r.concall_date).filter(Boolean).sort();
     const oldest = dated[0] || null;
+    const newest = dated[dated.length - 1] || null;
     console.log(
-      `  page ${pageNum}: ${rows.length} rows (+${added} new, oldest ${oldest ?? "?"}), total ${byKey.size}`
+      `  page ${pageNum}: ${rows.length} rows (+${added} new, dates ${oldest ?? "?"}…${newest ?? "?"}), total ${byKey.size}`
     );
 
     // One-time pagination-structure dump so the live DOM confirms our selectors.
@@ -310,8 +311,11 @@ async function collectRows(page, cutoffMs) {
 
     // Quick-test short-circuit: enough rows already collected.
     if (LIMIT > 0 && byKey.size >= LIMIT) break;
-    // Window covered once a page's oldest row predates the cutoff.
-    if (oldest && new Date(oldest).getTime() < cutoffMs) break;
+    // Window covered only once an ENTIRE page predates the cutoff (its newest
+    // row < cutoff). The listing is publish-ordered, so concall dates aren't
+    // monotonic across pages — stopping on a page's oldest row would miss
+    // in-window concalls further down. The final filter drops stragglers.
+    if (newest && new Date(newest).getTime() < cutoffMs) break;
     // No fresh rows on a later page → end of list (also guards a wrong page param).
     if (added === 0 && pageNum > 1) break;
 
