@@ -1,0 +1,61 @@
+name: Quarterly full sweep (fund radar)
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Cap concalls (0 = all in window)"
+        required: false
+        default: "0"
+        type: string
+  schedule:
+    # 01:23 UTC on the 1st of Jan/Apr/Jul/Oct. Full 90-day reprocess to backfill
+    # anything missed and re-run matching/enrichment with the latest aliases/selectors.
+    - cron: "23 1 1 1,4,7,10 *"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Install deps
+        run: |
+          npm install playwright@1 cheerio@1 pdfjs-dist --no-save
+          npx playwright install --with-deps chromium
+      - name: Run pipeline (FULL 90-day sweep)
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          LIMIT: ${{ inputs.limit || '0' }}
+          FULL: "1"
+        run: node screener-test/run-pipeline.mjs
+      - name: Upload data artifacts
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: fund-data
+          path: public/data/
+          if-no-files-found: warn
+      - name: Commit refreshed data to main
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
+          git commit -m "Fund radar quarterly sweep ($(date -u +%Y-%m-%d)) [skip ci]"
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then echo "Pushed (attempt $attempt)."; exit 0; fi
+            echo "Push rejected ($attempt) — fetch + rebase onto fresh main..."
+            git fetch origin main
+            git rebase origin/main || { echo "Rebase failed."; git rebase --abort; exit 1; }
+            sleep $((attempt * 2))
+          done
+          echo "Push still failing after 4 attempts."; exit 1
