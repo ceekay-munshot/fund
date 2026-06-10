@@ -9,10 +9,12 @@
 //   3. match-funds.mjs
 //   4. enrich-sectors.mjs
 //   5. build-store.mjs         (MUST succeed)
+//   6. write-snapshot.mjs      (ALWAYS runs, non-fatal — daily snapshot trail)
 //
-// Any step exiting non-zero aborts the pipeline (non-zero exit) and reports which
-// step failed. Per-transcript failures are swallowed inside step 2, so a step only
-// exits non-zero if it crashes wholesale.
+// Steps 1–5 exiting non-zero abort the pipeline and report which step failed.
+// Per-transcript failures are swallowed inside step 2. Step 6 is non-fatal: the
+// core data is already committed by build-store, so a snapshot hiccup won't fail
+// the run.
 //
 // Env knobs:
 //   LIMIT   — cap concalls for testing
@@ -68,6 +70,19 @@ async function main() {
       console.error(`\n✗ Pipeline ABORTED — step "${name}" failed (${why}).`);
       process.exit(1);
     }
+  }
+
+  // Step 6: daily snapshot trail — ALWAYS run, even on a quiet day. Non-fatal:
+  // the core data is already committed by build-store, so a snapshot hiccup must
+  // not fail the pipeline.
+  console.log(`\n${"=".repeat(64)}\n▶ write-snapshot\n${"=".repeat(64)}`);
+  const snap = spawnSync(process.execPath, [join(__dirname, "write-snapshot.mjs")], {
+    stdio: "inherit",
+    env: process.env,
+  });
+  if (snap.status !== 0) {
+    const why = snap.signal ? `signal ${snap.signal}` : `exit code ${snap.status}`;
+    console.error(`⚠ write-snapshot failed (${why}) — non-fatal, core data already committed.`);
   }
 
   // Consolidated summary read from the resulting files.
