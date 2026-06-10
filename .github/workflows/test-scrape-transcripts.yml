@@ -1,0 +1,73 @@
+# Manual test run for the transcript reader (Prompt 3 validation).
+#
+# THROWAWAY discovery/validation workflow (not the production cron). It runs the
+# concalls scraper first to produce concalls-index.json (gitignored, not committed),
+# then runs the transcript reader to fetch the exchange PDFs (defeating BSE/NSE 403s)
+# and extract their text. Prints the summary + a real-text snippet to the logs and
+# uploads the manifest + extracted .txt files as artifacts.
+#
+# Setup (one-time): repo secrets SCREENER_EMAIL and SCREENER_PASSWORD.
+# Optional: FIRECRAWL_API_KEY for the last-resort fetch path.
+
+name: test-scrape-transcripts
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max transcripts to process (0 = all)"
+        required: false
+        default: "8"
+      concalls_limit:
+        description: "Max concalls to index first (need enough with transcripts)"
+        required: false
+        default: "20"
+      force:
+        description: "Re-fetch even if <id>.txt exists (1/0)"
+        required: false
+        default: "0"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install deps (no-save, never committed)
+        run: npm install playwright@1 cheerio@1 pdfjs-dist --no-save
+
+      - name: Install chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Build concalls index (input for the transcript reader)
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          LIMIT: ${{ github.event.inputs.concalls_limit }}
+        run: node screener-test/scrape-concalls.mjs
+
+      - name: Run transcript reader
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: node screener-test/scrape-transcripts.mjs
+
+      - name: Upload artifacts (manifest + transcripts)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: transcripts-output
+          path: |
+            screener-test/output/transcripts-manifest.json
+            screener-test/output/transcripts/
+          if-no-files-found: warn
