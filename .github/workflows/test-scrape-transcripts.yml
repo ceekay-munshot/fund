@@ -65,7 +65,13 @@ jobs:
       - name: Match watchlist funds in transcripts (Prompt 4)
         run: node screener-test/match-funds.mjs
 
-      - name: Upload artifacts (manifest + transcripts + matches)
+      - name: Enrich sightings with sector / industry (Prompt 5)
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+        run: node screener-test/enrich-sectors.mjs
+
+      - name: Upload artifacts (manifest + transcripts + matches + meta)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -74,4 +80,7 @@ jobs:
             screener-test/output/transcripts-manifest.json
             screener-test/output/transcripts/
             screener-test/output/fund-matches.json
+            screener-test/output/fund-matches-enriched.json
+            screener-test/output/company-meta.json
+            screener-test/output/company-page.png
           if-no-files-found: warn
