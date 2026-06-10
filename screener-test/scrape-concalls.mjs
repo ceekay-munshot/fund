@@ -107,10 +107,31 @@ function matchMonthFirst(text) {
   return [m[0], m[2], m[1], m[3]];
 }
 
-function toAbs(href) {
+// Absolutize a href against a base (default the site origin). Correctly resolves
+// root-relative ("/company/…"), absolute ("https://…"), and query-only ("?page=2").
+function abs(href, base = ORIGIN) {
   if (!href) return null;
-  if (href.startsWith("http")) return href;
-  return ORIGIN + (href.startsWith("/") ? href : `/${href}`);
+  try {
+    return new URL(href, base).href;
+  } catch {
+    return null;
+  }
+}
+
+// Find the "next page" link in a paginated listing. Prefers rel="next", then a
+// forward-pointing anchor ("Next" / "Older" / »› ), excluding previous/newer.
+function findNextPageUrl($, baseUrl) {
+  let href = $('a[rel="next"]').attr("href");
+  if (!href) {
+    $("a").each((_, a) => {
+      if (href) return;
+      const t = $(a).text().trim().toLowerCase();
+      if (/\bnext\b|\bolder\b|^[»›]$/.test(t) && !/prev|newer/.test(t)) {
+        href = $(a).attr("href");
+      }
+    });
+  }
+  return href ? abs(href, baseUrl) : null;
 }
 
 // --- locate the Concalls page ----------------------------------------------
@@ -187,12 +208,12 @@ function parseConcalls(html) {
     $row.find("a").each((__, link) => {
       const t = $(link).text().toLowerCase();
       if (/transcript/.test(t) && !transcriptUrl) {
-        transcriptUrl = toAbs($(link).attr("href"));
+        transcriptUrl = abs($(link).attr("href"));
       }
     });
 
     const concallDate = parseDate(rowText);
-    const companyUrl = toAbs($a.attr("href"));
+    const companyUrl = abs($a.attr("href"));
 
     out.push({
       company,
@@ -213,49 +234,76 @@ function parseConcalls(html) {
   });
 }
 
-// --- load more rows until the window is covered ----------------------------
-// Screener may lazy-load on scroll and/or paginate. We scroll to grow the list,
-// and stop once the oldest visible date is past the cutoff or growth stalls.
+// --- walk pages until the window is covered --------------------------------
+// The Concalls listing is server-paginated (a table, not infinite scroll), so
+// we follow page links newest-first and stop once the oldest row on a page is
+// older than the cutoff (or there are no more pages / no new rows).
 async function collectRows(page, cutoffMs) {
-  let lastCount = 0;
-  let stagnant = 0;
-  const MAX_ITERS = 40;
+  const byKey = new Map();
+  const baseUrl = page.url().split("?")[0].split("#")[0];
+  const visited = new Set();
+  const MAX_PAGES = 150;
 
-  for (let i = 0; i < MAX_ITERS; i++) {
+  for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
+    visited.add(page.url().split("#")[0]);
     const html = await page.content();
+    const $ = cheerio.load(html);
     const rows = parseConcalls(html);
 
-    const dated = rows.map((r) => r.concall_date).filter(Boolean).sort();
-    const oldest = dated.length ? new Date(dated[0]).getTime() : Infinity;
+    let added = 0;
+    for (const r of rows) {
+      const key = `${r.company}|${r.concall_date}`;
+      if (!byKey.has(key)) {
+        byKey.set(key, r);
+        added++;
+      }
+    }
 
+    const dated = rows.map((r) => r.concall_date).filter(Boolean).sort();
+    const oldest = dated[0] || null;
     console.log(
-      `  scroll ${i}: ${rows.length} rows found` +
-        (dated.length ? ` (oldest ${dated[0]})` : "")
+      `  page ${pageNum}: ${rows.length} rows (+${added} new, oldest ${oldest ?? "?"}), total ${byKey.size}`
     );
 
-    // Stop once we've scrolled past the window.
-    if (oldest < cutoffMs) break;
-
-    // Stop if scrolling no longer grows the list.
-    if (rows.length === lastCount) {
-      stagnant++;
-      if (stagnant >= 2) break;
-    } else {
-      stagnant = 0;
+    // One-time pagination-structure dump so the live DOM confirms our selectors.
+    if (DEBUG && pageNum === 1) {
+      const cands = [];
+      $("a").each((_, a) => {
+        const h = $(a).attr("href") || "";
+        const t = $(a).text().trim();
+        if (/[?&](p|page)=\d+/i.test(h) || /next|prev|older|newer|»|›|«|‹/i.test(t)) {
+          cands.push(`${t || "·"} -> ${h}`);
+        }
+      });
+      console.log(`    pagination candidates: ${JSON.stringify(cands.slice(0, 14))}`);
     }
-    lastCount = rows.length;
 
-    // Try an explicit "load more" / "next" control, else scroll.
-    const more = page.locator("button, a", { hasText: /load more|show more|next/i }).first();
-    if (await more.count().catch(() => 0)) {
-      await more.click().catch(() => {});
-    } else {
-      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+    // Quick-test short-circuit: enough rows already collected.
+    if (LIMIT > 0 && byKey.size >= LIMIT) break;
+    // Window covered once a page's oldest row predates the cutoff.
+    if (oldest && new Date(oldest).getTime() < cutoffMs) break;
+    // No fresh rows on a later page → end of list (also guards a wrong page param).
+    if (added === 0 && pageNum > 1) break;
+
+    // Next page: DOM link first, then a ?page= / ?p= fallback.
+    let next = findNextPageUrl($, page.url());
+    if (!next) {
+      for (const param of ["page", "p"]) {
+        const cand = `${baseUrl}?${param}=${pageNum + 1}`;
+        if (!visited.has(cand)) {
+          next = cand;
+          break;
+        }
+      }
     }
+    if (!next || visited.has(next.split("#")[0])) break;
+
+    if (DEBUG) console.log(`    → next: ${next}`);
+    await page.goto(next, { waitUntil: "domcontentloaded", timeout: 30000 }).catch(() => {});
     await sleep(450);
   }
 
-  return parseConcalls(await page.content());
+  return [...byKey.values()];
 }
 
 // --- main ------------------------------------------------------------------
@@ -350,9 +398,12 @@ async function run() {
         try {
           const resp = await page.goto(r.transcript_url, { waitUntil: "domcontentloaded", timeout: 30000 });
           const status = resp ? resp.status() : "ERR";
-          const looksRight = /transcript|concall|earnings/i.test(await page.content());
-          const verdict = resp && resp.status() < 400 && looksRight ? "OK" : "??";
-          console.log(`  [${status}] ${verdict} ${r.company} → ${r.transcript_url}`);
+          const host = (() => { try { return new URL(r.transcript_url).host; } catch { return "?"; } })();
+          // Transcripts are exchange-hosted PDFs (BSE/NSE) with hotlink protection,
+          // so a 403 here is expected — it confirms a real exchange link, which
+          // Prompt 3 will fetch properly (referer/headers/download).
+          const verdict = resp && resp.status() < 400 ? "OK" : "external (fetch in P3)";
+          console.log(`  [${status}] ${verdict} ${r.company} [${host}] → ${r.transcript_url}`);
           await sleep(400);
         } catch (e) {
           console.log(`  [ERR] ${r.company} → ${r.transcript_url} (${e.message})`);
