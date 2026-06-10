@@ -148,15 +148,18 @@ function renderHeatmap() {
     for (const s of f.sightings) { const k = s.sector || "Unknown"; m.set(k, (m.get(k) || 0) + 1); }
     sectors.forEach((sec, xi) => { const v = m.get(sec) || 0; if (v > 0) { data.push([xi, yi, v]); maxV = Math.max(maxV, v); } });
   });
+  const trunc = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
   chart.setOption({
-    grid: { left: 132, right: 18, top: 8, bottom: 96 },
-    tooltip: { position: "top", backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;",
+    grid: { left: 172, right: 24, top: 12, bottom: 128 },
+    tooltip: { position: "top", backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
       formatter: (p) => `<b>${escapeHtml(fundNames[p.value[1]])}</b><br/>${escapeHtml(sectors[p.value[0]])}: <b>${p.value[2]}</b> sighting(s)` },
-    xAxis: { type: "category", data: sectors, splitArea: { show: true }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#e2e8f0" } }, axisLabel: { color: "#64748b", fontSize: 10, rotate: 38, interval: 0 } },
-    yAxis: { type: "category", data: fundNames, splitArea: { show: true }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#e2e8f0" } }, axisLabel: { color: "#334155", fontSize: 11 } },
-    visualMap: { min: 0, max: maxV || 1, calculable: true, orient: "horizontal", left: "center", bottom: 8, itemWidth: 14, itemHeight: 120, inRange: { color: ["#EEF2FF", "#C7D2FE", "#818CF8", "#6366F1", "#7C3AED", "#DB2777"] }, textStyle: { color: "#94a3b8", fontSize: 10 } },
-    series: [{ type: "heatmap", data, label: { show: true, color: "#0f172a", fontFamily: "JetBrains Mono", fontSize: 10, formatter: (p) => p.value[2] },
-      itemStyle: { borderColor: "#fff", borderWidth: 3, borderRadius: 5 }, emphasis: { itemStyle: { shadowBlur: 10, shadowColor: "rgba(99,102,241,.45)" } } }],
+    xAxis: { type: "category", data: sectors, splitArea: { show: true }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLabel: { color: "#64748b", fontSize: 11, rotate: 32, interval: 0, formatter: (v) => trunc(v, 18) } },
+    yAxis: { type: "category", data: fundNames, inverse: true, splitArea: { show: true }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLabel: { color: "#334155", fontSize: 11.5, width: 160, overflow: "truncate", margin: 12 } },
+    visualMap: { min: 0, max: maxV || 1, calculable: true, orient: "horizontal", left: "center", bottom: 12, itemWidth: 16, itemHeight: 140, inRange: { color: ["#EEF2FF", "#C7D2FE", "#818CF8", "#6366F1", "#7C3AED", "#DB2777"] }, textStyle: { color: "#94a3b8", fontSize: 11 } },
+    series: [{ type: "heatmap", data, label: { show: true, color: "#0f172a", fontFamily: "JetBrains Mono", fontSize: 11, formatter: (p) => p.value[2] },
+      itemStyle: { borderColor: "#fff", borderWidth: 3, borderRadius: 6 }, emphasis: { itemStyle: { shadowBlur: 10, shadowColor: "rgba(99,102,241,.45)" } } }],
   });
   chart.off("click");
   chart.on("click", (p) => { if (p.componentType === "series") { const f = active[p.value[1]]; if (f) openDrill(f.id); } });
@@ -412,8 +415,8 @@ function openDrill(fundId) {
       <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
     </div>
     ${f.sightings.length ? `<div class="border-b border-slate-100 px-5 pt-4"><div id="drill-donut" class="chart-donut-lg"></div></div>` : ""}
-    <div class="scroll-area flex-1 overflow-y-auto px-3 py-2">
-      ${companies.length ? `<div class="divide-y divide-slate-100">${companies.map((c) => drillRow(c, color)).join("")}</div>` : emptyState("inbox", "No sightings", "Not seen in a concall in the last 90 days.")}
+    <div class="scroll-area flex-1 overflow-y-auto p-4">
+      ${companies.length ? `<div class="grid gap-2 sm:grid-cols-2">${companies.map((c) => drillRow(c, color)).join("")}</div>` : emptyState("inbox", "No sightings", "Not seen in a concall in the last 90 days.")}
     </div>`;
   content.querySelector("#drill-close").addEventListener("click", closeDrill);
 
@@ -431,19 +434,19 @@ function openDrill(fundId) {
   if (f.sightings.length) drawDrillDonut(f, color);
 }
 
-// Minimal row: company + ticker, analyst, date, source icon (no quote).
+// Compact cell: company + ticker, analyst · date, source icon (no quote).
 function drillRow(c, color) {
   const analyst = analystOf(c.quote, c.matched_alias);
-  return `<div class="flex items-center justify-between gap-3 rounded-xl px-2.5 py-2.5 transition hover:bg-slate-50">
+  return `<div class="flex items-center justify-between gap-2 rounded-xl bg-slate-50/60 px-3 py-2.5 ring-1 ring-slate-100 transition hover:bg-white hover:ring-slate-200">
     <div class="min-w-0">
-      <div class="flex items-center gap-2">
-        <span class="truncate font-medium text-slate-800">${escapeHtml(c.company)}</span>
-        ${c.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${color}">${escapeHtml(c.ticker)}</span>` : ""}
+      <div class="flex items-center gap-1.5">
+        <span class="truncate text-sm font-semibold text-slate-800">${escapeHtml(c.company)}</span>
+        ${c.ticker ? `<span class="shrink-0 font-mono text-[11px] font-medium uppercase tracking-wide" style="color:${color}">${escapeHtml(c.ticker)}</span>` : ""}
       </div>
-      <div class="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-500">
-        <span class="inline-flex items-center gap-1"><i data-lucide="user-round" class="h-3 w-3 text-slate-400"></i>${analyst ? escapeHtml(analyst) : `<span class="text-slate-300">analyst n/a</span>`}</span>
+      <div class="mt-0.5 flex items-center gap-1.5 text-[11px] text-slate-500">
+        <i data-lucide="user-round" class="h-3 w-3 shrink-0 text-slate-400"></i><span class="truncate">${analyst ? escapeHtml(analyst) : "—"}</span>
         <span class="text-slate-300">·</span>
-        <span class="inline-flex items-center gap-1 font-mono"><i data-lucide="calendar" class="h-3 w-3 text-slate-400"></i>${fmtDate(c.concall_date)}</span>
+        <span class="whitespace-nowrap font-mono">${fmtDate(c.concall_date)}</span>
       </div>
     </div>
     ${sourceIconBtn(c.transcript_url)}

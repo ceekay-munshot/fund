@@ -59,9 +59,10 @@
     /* Chart heights via real CSS (NOT Tailwind JIT) so ECharts sizes correctly at init. */
     .chart-graph-box { width:100%; height:560px; }
     @media (max-width:640px){ .chart-graph-box { height:420px; } }
-    .chart-box { width:100%; height:320px; }
-    .chart-heat { width:100%; height:460px; }
-    .chart-donut-lg { width:100%; height:300px; }
+    .chart-box { width:100%; height:340px; }
+    .chart-heat { width:100%; height:600px; }
+    @media (max-width:640px){ .chart-heat { height:520px; } }
+    .chart-donut-lg { width:100%; height:230px; }
     /* drill modal (centered) */
     #drill-overlay { transition: opacity .25s ease; }
     #drill-panel { transition: opacity .22s ease; }
@@ -109,7 +110,7 @@
   <!-- Drill modal (centered) -->
   <div id="drill-overlay" class="pointer-events-none fixed inset-0 z-40 bg-slate-900/40 opacity-0 backdrop-blur-sm"></div>
   <div id="drill-panel" class="pointer-events-none fixed inset-0 z-50 flex items-center justify-center p-4 opacity-0">
-    <div id="drill-card" class="card flex max-h-[88vh] w-full max-w-2xl scale-95 flex-col opacity-0">
+    <div id="drill-card" class="card flex max-h-[90vh] w-full max-w-3xl scale-95 flex-col opacity-0">
       <div id="drill-content" class="flex h-full flex-col overflow-hidden"></div>
     </div>
   </div>
