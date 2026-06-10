@@ -1,10 +1,11 @@
-# Manual test run for the transcript reader (Prompt 3 validation).
+# Manual run of the full pipeline (Prompts 2–6 validation).
 #
-# THROWAWAY discovery/validation workflow (not the production cron). It runs the
-# concalls scraper first to produce concalls-index.json (gitignored, not committed),
-# then runs the transcript reader to fetch the exchange PDFs (defeating BSE/NSE 403s)
-# and extract their text. Prints the summary + a real-text snippet to the logs and
-# uploads the manifest + extracted .txt files as artifacts.
+# Manual (workflow_dispatch) precursor to the production cron (Prompt 7). It chains:
+#   concalls index → transcript reader (defeats BSE/NSE 403s) → fund matcher →
+#   sector/industry enrichment → store merge into public/data.
+# The screener-test/output/ working files are uploaded as artifacts. When run with
+# commit=1, the merged public/data/*.json (the dashboard's long-term memory) is
+# committed back to main.
 #
 # Setup (one-time): repo secrets SCREENER_EMAIL and SCREENER_PASSWORD.
 # Optional: FIRECRAWL_API_KEY for the last-resort fetch path.
@@ -26,11 +27,18 @@ on:
         description: "Re-fetch even if <id>.txt exists (1/0)"
         required: false
         default: "0"
+      commit:
+        description: "Merge into public/data and commit it to main (1/0)"
+        required: false
+        default: "0"
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # Needed for the gated commit-back of public/data to main.
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -71,7 +79,23 @@ jobs:
           SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
         run: node screener-test/enrich-sectors.mjs
 
-      - name: Upload artifacts (manifest + transcripts + matches + meta)
+      - name: Merge this run into the committed store (Prompt 6)
+        run: node screener-test/build-store.mjs
+
+      - name: Commit refreshed public/data to main (gated by 'commit' input)
+        if: ${{ github.event.inputs.commit == '1' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/fund-sightings.json public/data/processed-concalls.json public/data/metadata.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: refresh fund-sightings store from manual pipeline run [skip ci]"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload artifacts (manifest + transcripts + matches + meta + store)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -83,4 +107,7 @@ jobs:
             screener-test/output/fund-matches-enriched.json
             screener-test/output/company-meta.json
             screener-test/output/company-page.png
+            public/data/fund-sightings.json
+            public/data/processed-concalls.json
+            public/data/metadata.json
           if-no-files-found: warn
