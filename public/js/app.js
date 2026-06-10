@@ -65,24 +65,28 @@ function renderKpis() {
   const companies = DATA.meta.company_count ?? new Set(s.map((x) => x.company)).size;
   const cards = [
     { label: "Sightings", value: s.length, icon: "radar", grad: "from-indigo-500 to-violet-500" },
-    { label: "Active Funds", value: activeFunds, suffix: ` / ${fundTotal}`, icon: "briefcase", grad: "from-emerald-500 to-teal-500" },
+    { label: "Active Funds", value: activeFunds, suffix: ` / ${fundTotal}`, icon: "briefcase", grad: "from-emerald-500 to-teal-500", action: "funds" },
     { label: "Companies Tracked", value: companies, icon: "building-2", grad: "from-sky-500 to-blue-500" },
     { label: "Concalls Scanned (90d)", value: DATA.meta.concalls_scanned ?? 0, icon: "file-text", grad: "from-amber-500 to-orange-500" },
   ];
   document.getElementById("kpi-strip").innerHTML = cards
     .map(
       (c) => `
-    <div class="card card-hover relative overflow-hidden p-4 sm:p-5">
+    <div class="card card-hover relative overflow-hidden p-4 sm:p-5 ${c.action ? "cursor-pointer" : ""}" ${c.action ? `data-kpi="${c.action}" role="button" tabindex="0"` : ""}>
       <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${c.grad}"></div>
       <div class="flex items-center justify-between">
         <span class="text-xs font-medium uppercase tracking-wide text-slate-400">${c.label}</span>
         <span class="rounded-xl bg-gradient-to-br ${c.grad} p-1.5 text-white shadow-sm"><i data-lucide="${c.icon}" class="h-4 w-4"></i></span>
       </div>
-      <div class="mt-3 font-mono text-3xl font-semibold text-slate-800"><span data-count="${c.value}">0</span><span class="text-lg text-slate-400">${c.suffix || ""}</span></div>
+      <div class="mt-3 flex items-end justify-between">
+        <div class="font-mono text-3xl font-semibold text-slate-800"><span data-count="${c.value}">0</span><span class="text-lg text-slate-400">${c.suffix || ""}</span></div>
+        ${c.action ? `<span class="inline-flex items-center gap-1 text-[11px] font-medium text-emerald-600">view <i data-lucide="arrow-up-right" class="h-3 w-3"></i></span>` : ""}
+      </div>
     </div>`
     )
     .join("");
   document.querySelectorAll("#kpi-strip [data-count]").forEach((el) => countUp(el, Number(el.dataset.count)));
+  document.querySelectorAll('#kpi-strip [data-kpi="funds"]').forEach((el) => el.addEventListener("click", openFundsList));
 }
 
 // ===========================================================================
@@ -141,7 +145,7 @@ function renderHeatmap() {
   // per-fund sector counts
   const rows = active.map((f) => {
     const m = new Map();
-    for (const s of f.sightings) { const k = s.sector || "Unknown"; m.set(k, (m.get(k) || 0) + 1); }
+    for (const s of f.sightings) { const k = s.sector || "Unknown"; if (k === "Unknown") continue; m.set(k, (m.get(k) || 0) + 1); }
     return { f, m, peak: Math.max(0, ...m.values()) };
   }).filter((r) => r.peak >= MIN);
 
@@ -172,7 +176,7 @@ function renderHeatmap() {
   const trunc = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
   chart.setOption({
     grid: { left: 172, right: 24, top: 12, bottom: 116 },
-    tooltip: { position: "top", backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
+    tooltip: { position: "top", confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
       formatter: (p) => `<b>${escapeHtml(fundNames[p.value[1]])}</b><br/>${escapeHtml(sectors[p.value[0]])}: <b>${p.value[2]}</b> sightings` },
     xAxis: { type: "category", data: sectors, splitArea: { show: true }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#e2e8f0" } },
       axisLabel: { color: "#64748b", fontSize: 11, rotate: 30, interval: 0, formatter: (v) => trunc(v, 18) } },
@@ -180,7 +184,9 @@ function renderHeatmap() {
       axisLabel: { color: "#334155", fontSize: 11.5, width: 160, overflow: "truncate", margin: 12 } },
     visualMap: { min: MIN, max: maxV || MIN, calculable: true, orient: "horizontal", left: "center", bottom: 12, itemWidth: 16, itemHeight: 140, inRange: { color: ["#C7D2FE", "#818CF8", "#6366F1", "#7C3AED", "#DB2777"] }, textStyle: { color: "#94a3b8", fontSize: 11 } },
     series: [{ type: "heatmap", data, label: { show: true, color: "#0f172a", fontFamily: "JetBrains Mono", fontSize: 11.5, formatter: (p) => p.value[2] },
-      itemStyle: { borderColor: "#fff", borderWidth: 3, borderRadius: 6 }, emphasis: { itemStyle: { shadowBlur: 10, shadowColor: "rgba(99,102,241,.45)" } } }],
+      itemStyle: { borderColor: "#fff", borderWidth: 3, borderRadius: 6 },
+      emphasis: { focus: "self", itemStyle: { shadowBlur: 12, shadowColor: "rgba(99,102,241,.5)" } },
+      blur: { itemStyle: { opacity: 0.25 } } }],
   });
   chart.off("click");
   chart.on("click", (p) => { if (p.componentType === "series") { const id = fundIds[p.value[1]]; if (id) openDrill(id); } });
@@ -315,6 +321,7 @@ function renderTreemap() {
   const agg = new Map();
   for (const s of DATA.sightings) {
     const k = s.sector || "Unknown";
+    if (k === "Unknown") continue;
     if (!agg.has(k)) agg.set(k, { count: 0, companies: new Set(), funds: new Map() });
     const a = agg.get(k);
     a.count++; a.companies.add(s.company);
@@ -323,16 +330,16 @@ function renderTreemap() {
   const data = [...agg.entries()].map(([sector, a]) => ({
     name: sector, value: a.count, _companies: a.companies.size,
     _topFunds: [...a.funds.entries()].sort((x, y) => y[1] - x[1]).slice(0, 3).map(([n, c]) => `${n} (${c})`).join(", "),
-    itemStyle: { color: sectorColor(sector === "Unknown" ? null : sector), borderColor: "#fff", borderWidth: 2, gapWidth: 2 },
+    itemStyle: { color: sectorColor(sector), borderColor: "#fff", borderWidth: 2, gapWidth: 2 },
   }));
   chart.setOption({
     tooltip: {
-      backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "box-shadow:0 12px 32px -12px rgba(16,24,40,.3);border-radius:12px;",
+      confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "box-shadow:0 12px 32px -12px rgba(16,24,40,.3);border-radius:12px;",
       formatter: (p) => `<b>${escapeHtml(p.name)}</b><br/>${p.value} sightings · ${p.data._companies} companies<br/><span style="color:#64748b">Top: ${escapeHtml(p.data._topFunds || "—")}</span>`,
     },
     series: [{ type: "treemap", roam: false, breadcrumb: { show: false }, nodeClick: false, animationDuration: 800,
       label: { show: true, formatter: "{b}", color: "#fff", fontFamily: "Inter", fontWeight: 600, overflow: "truncate" },
-      itemStyle: { borderRadius: 6 }, data }],
+      itemStyle: { borderRadius: 6 }, emphasis: { focus: "self" }, blur: { itemStyle: { opacity: 0.3 } }, data }],
   });
 }
 
@@ -359,14 +366,14 @@ function renderConsensus() {
   if (!chart) return;
   chart.setOption({
     grid: { left: 6, right: 64, top: 6, bottom: 6, containLabel: true },
-    tooltip: { trigger: "item", backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
+    tooltip: { trigger: "item", confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
       formatter: (p) => { const r = rows[p.dataIndex]; return `<b>${escapeHtml(r.company)}</b> · ${escapeHtml(secByCo.get(r.company) || "Unknown")}<br/><b>${r.n} funds:</b> ${r.funds.map((id) => `<span style="color:${fundColor(id)}">●</span> ${escapeHtml((DATA.funds.find((f) => f.id === id) || {}).name || id)}`).join("<br/>")}`; } },
     xAxis: { type: "value", minInterval: 1, splitLine: { lineStyle: { color: "#f1f5f9" } }, axisLabel: { color: "#94a3b8", fontFamily: "JetBrains Mono" } },
     yAxis: { type: "category", data: rows.map((r) => r.company), axisTick: { show: false }, axisLine: { show: false }, axisLabel: { color: "#334155", fontSize: 11, width: 130, overflow: "truncate" } },
     series: [{
       type: "bar", barWidth: "60%", data: rows.map((r) => ({ value: r.n, itemStyle: { color: sectorColor(secByCo.get(r.company) || null), borderRadius: [0, 6, 6, 0] } })),
       label: { show: true, position: "right", formatter: (p) => `${rows[p.dataIndex].n} funds`, color: "#64748b", fontFamily: "JetBrains Mono", fontSize: 11 },
-      animationDuration: 800,
+      emphasis: { focus: "self" }, blur: { itemStyle: { opacity: 0.3 } }, animationDuration: 800,
     }],
   });
 }
@@ -455,8 +462,11 @@ function openDrill(fundId) {
     <div class="scroll-area flex-1 overflow-y-auto p-4">
       ${companies.length ? `<div class="grid gap-2 sm:grid-cols-2">${companies.map((c) => drillRow(c, color)).join("")}</div>` : emptyState("inbox", "No companies", "Not seen in a concall in the last 90 days.")}
     </div>`;
-  content.querySelector("#drill-close").addEventListener("click", closeDrill);
+  revealModal();
+  if (f.sightings.length) drawDrillDonut(f, color);
+}
 
+function revealModal() {
   const panel = document.getElementById("drill-panel");
   const card = document.getElementById("drill-card");
   const ov = document.getElementById("drill-overlay");
@@ -466,9 +476,47 @@ function openDrill(fundId) {
   card.style.opacity = "1";
   ov.classList.remove("pointer-events-none");
   ov.style.opacity = "1";
+  const close = document.getElementById("drill-close");
+  if (close) close.addEventListener("click", closeDrill);
   refreshIcons();
+}
 
-  if (f.sightings.length) drawDrillDonut(f, color);
+// "Funds we track" board — opened from the Active Funds KPI card.
+function openFundsList() {
+  const list = [...groupByFund().values()]
+    .map((f) => ({ ...f, companyCount: companiesOf(f.sightings).length, sightingCount: f.sightings.length, mix: sectorMix(f.sightings) }))
+    .sort((a, b) => b.companyCount - a.companyCount || a.name.localeCompare(b.name));
+  const tiles = list.map((f) => {
+    const color = fundColor(f.id);
+    const zero = f.companyCount === 0;
+    const total = f.sightingCount || 1;
+    const bar = zero
+      ? `<div class="mt-3 h-1.5 w-full rounded-full bg-slate-100"></div>`
+      : `<div class="mt-3 flex h-1.5 w-full overflow-hidden rounded-full bg-slate-100">${f.mix.filter((m) => m.sector !== "Unknown").map((m) => `<span style="width:${(m.count / total) * 100}%;background:${sectorColor(m.sector)}"></span>`).join("")}</div>`;
+    return `<button type="button" data-fund-open="${f.id}" class="group rounded-2xl bg-white p-4 text-left ring-1 ring-slate-100 transition hover:-translate-y-0.5 hover:shadow-lg ${zero ? "opacity-60" : ""}">
+      <div class="flex items-center gap-3">
+        <span class="grid h-10 w-10 shrink-0 place-items-center rounded-xl font-display text-xs font-bold text-white shadow-sm" style="background:${color}">${escapeHtml(initials(f.name))}</span>
+        <div class="min-w-0"><div class="truncate text-sm font-semibold text-slate-800">${escapeHtml(f.name)}</div>
+          <div class="font-mono text-[11px] text-slate-500">${zero ? "no companies" : `${f.companyCount} ${f.companyCount === 1 ? "company" : "companies"}`}</div></div>
+      </div>${bar}</button>`;
+  }).join("");
+  document.getElementById("drill-content").innerHTML = `
+    <div class="flex items-center justify-between gap-3 border-b border-slate-100 p-5">
+      <div class="flex items-center gap-3">
+        <span class="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-br from-indigo-500 to-fuchsia-500 text-white shadow-sm"><i data-lucide="briefcase" class="h-5 w-5"></i></span>
+        <div><div class="font-display text-xl font-semibold text-slate-800">Funds on the radar</div>
+          <div class="font-mono text-xs text-slate-500">${list.length} funds tracked</div></div>
+      </div>
+      <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
+    </div>
+    <div class="scroll-area flex-1 overflow-y-auto bg-slate-50/40 p-4">
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">${tiles}</div>
+    </div>`;
+  revealModal();
+  document.getElementById("drill-content").addEventListener("click", (e) => {
+    const t = e.target.closest("[data-fund-open]");
+    if (t) openDrill(t.dataset.fundOpen);
+  });
 }
 
 // Compact cell: company + ticker, analyst · date, source icon (no quote).
@@ -495,11 +543,12 @@ function drawDrillDonut(f, color) {
   const chart = makeChart(document.getElementById("drill-donut"), "drill-donut");
   if (chart) {
     chart.setOption({
-      tooltip: { trigger: "item", backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);", formatter: (p) => `${escapeHtml(p.name)}: <b>${p.value}</b> (${p.percent}%)` },
+      tooltip: { trigger: "item", confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);", formatter: (p) => `${escapeHtml(p.name)}: <b>${p.value}</b> (${p.percent}%)` },
       series: [{
         type: "pie", radius: ["56%", "84%"], center: ["50%", "50%"], avoidLabelOverlap: true, padAngle: 3,
         itemStyle: { borderRadius: 6, borderColor: "#fff", borderWidth: 3 },
         label: { show: false }, labelLine: { show: false },
+        emphasis: { focus: "self", scaleSize: 6 }, blur: { itemStyle: { opacity: 0.3 } },
         data: mix.map((m) => ({ name: m.sector, value: m.count, itemStyle: { color: sectorColor(m.sector === "Unknown" ? null : m.sector) } })),
       }],
       graphic: [{ type: "text", left: "center", top: "center", style: { text: `${mix.length}\nsectors`, textAlign: "center", fill: "#475569", font: "600 15px Space Grotesk" } }],
