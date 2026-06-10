@@ -95,6 +95,40 @@ export function quoteBlock(quote, accent = "#6366F1") {
       long ? ` <button type="button" class="ml-1 text-xs font-medium text-indigo-600 hover:text-indigo-700" data-more data-full="${q}" data-short="${shown}">show more</button>` : ""
     }</div>`;
 }
+export const titleCase = (s) =>
+  String(s || "").split(/\s+/).map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w)).join(" ");
+
+// Icon-only "open transcript" button (the "source" icon).
+export function sourceIconBtn(url) {
+  if (!url) return `<span class="grid h-8 w-8 place-items-center rounded-lg text-slate-300"><i data-lucide="file-x" class="h-4 w-4"></i></span>`;
+  return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" title="Open transcript (source)"
+    class="grid h-8 w-8 shrink-0 place-items-center rounded-lg text-slate-500 ring-1 ring-slate-200 transition hover:bg-indigo-50 hover:text-indigo-600"><i data-lucide="file-text" class="h-4 w-4"></i></a>`;
+}
+
+// Best-effort analyst-name extraction from a concall quote, anchored on the fund
+// alias (e.g. "…from the line of madhur rathi with counter cyclical…" → "Madhur Rathi").
+export function analystOf(quote, alias) {
+  if (!quote) return null;
+  const q = " " + quote.toLowerCase().replace(/\s+/g, " ").trim() + " ";
+  const esc = (s) => String(s || "").toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const clean = (n) => n.replace(/\b(the|line|of|from|with|representing|mr|ms|mrs|dr|shri|smt)\b\.?/g, " ").replace(/[^a-z .]/g, "").replace(/\s+/g, " ").trim();
+  const ok = (n) => { const w = n.split(" ").filter(Boolean); return w.length >= 1 && w.length <= 4 && n.length >= 3; };
+  const tries = [];
+  if (alias) {
+    const a = esc(alias);
+    tries.push(new RegExp("(?:line of|from|with|of)\\s+([a-z][a-z. ]{2,38}?)\\s+(?:with|from|of|representing)\\s+" + a));
+    tries.push(new RegExp("([a-z][a-z. ]{2,38}?)\\s*[-\\u2013]\\s*" + a));
+  }
+  tries.push(/line of\s+([a-z][a-z. ]{2,38}?)(?:\s+(?:with|from|of)\b|[.,])/);
+  for (const re of tries) {
+    const m = q.match(re);
+    if (m && m[1]) { const n = clean(m[1]); if (ok(n)) return titleCase(n); }
+  }
+  const sp = q.match(/\b([a-z]+ [a-z]+)\s*:/);
+  if (sp) { const n = clean(sp[1]); if (ok(n)) return titleCase(n); }
+  return null;
+}
+
 export function emptyState(icon, title, sub = "") {
   return `<div class="flex flex-col items-center justify-center gap-3 rounded-3xl bg-white/70 px-6 py-16 text-center shadow-sm ring-1 ring-slate-100">
     <div class="rounded-2xl bg-indigo-50 p-3 text-indigo-500"><i data-lucide="${icon}" class="h-7 w-7"></i></div>
