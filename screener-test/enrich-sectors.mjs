@@ -81,26 +81,33 @@ function parseCompanyPage(html, url) {
   const bse = (headerText.match(/\bBSE\s*:?\s*(\d{4,6})\b/) || [])[1] || null;
   const ticker = nse || (urlCode && /[A-Za-z]/.test(urlCode) ? urlCode : null) || bse || urlCode || null;
 
-  // Sector / Industry — labeled-value extraction with fallbacks.
+  // Sector / Industry from Screener's classification breadcrumb. Screener renders
+  // a broad→specific chain as /market/IN.. links (e.g. Industrials → Capital Goods
+  // → Industrial Products → Castings & Forgings). Path depth tells the levels:
+  // sector = shallowest (level 1), industry = most-specific leaf (deepest).
   let sector = null;
   let industry = null;
-
-  // Strategy A: explicit "Sector:" / "Industry:" labels anywhere on the page.
-  const bodyText = clean($("body").text());
-  const sectorLbl = bodyText.match(/\bSector\s*:?\s*([A-Za-z0-9 &,\/.\-]{2,60}?)(?:\s{2,}|Industry\b|\bCompare\b|$)/);
-  const industryLbl = bodyText.match(/\bIndustry\s*:?\s*([A-Za-z0-9 &,\/.\-]{2,60}?)(?:\s{2,}|Sector\b|\bCompare\b|$)/);
-  if (sectorLbl) sector = clean(sectorLbl[1]);
-  if (industryLbl) industry = clean(industryLbl[1]);
-
-  // Strategy B: classification anchors (industry/sector screens) near header/peers.
-  if (!industry || !sector) {
-    $('a[href*="/company/compare/"], a[href*="industry"], a[href*="/market/"]').each((_, a) => {
-      const t = clean($(a).text());
-      if (t && t.length <= 60 && !/compare|peers?|more|view/i.test(t)) {
-        if (!industry) industry = t;
-        else if (!sector) sector = t;
-      }
-    });
+  const crumbs = [];
+  const seenHref = new Set();
+  $('a[href*="/market/IN"]').each((_, a) => {
+    const href = $(a).attr("href") || "";
+    const label = clean($(a).text());
+    const m = href.match(/\/market\/(IN[0-9A-Za-z/]*)/);
+    if (!label || !m || seenHref.has(href)) return;
+    seenHref.add(href);
+    crumbs.push({ label, href, depth: m[1].split("/").filter(Boolean).length });
+  });
+  if (crumbs.length) {
+    crumbs.sort((a, b) => a.depth - b.depth);
+    sector = crumbs[0].label;
+    industry = crumbs[crumbs.length - 1].label;
+  } else {
+    // Fallback: explicit "Sector:" / "Industry:" labels if no breadcrumb present.
+    const bodyText = clean($("body").text());
+    const sm = bodyText.match(/\bSector\s*:?\s*([A-Za-z0-9 &,\/.\-]{2,50}?)(?:\s{2,}|Industry\b|$)/);
+    const im = bodyText.match(/\bIndustry\s*:?\s*([A-Za-z0-9 &,\/.\-]{2,50}?)(?:\s{2,}|Sector\b|$)/);
+    if (sm) sector = clean(sm[1]);
+    if (im) industry = clean(im[1]);
   }
 
   return { name, ticker, sector: sector || null, industry: industry || null, urlCode, nse, bse };
