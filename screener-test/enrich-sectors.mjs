@@ -195,13 +195,23 @@ async function run() {
         continue;
       }
       try {
-        await page.goto(companyUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
-        // The classification breadcrumb can render after domcontentloaded — wait
-        // for it so enrichment is consistent (avoids intermittent null industries).
-        await page.waitForSelector('a[href*="/market/IN"]', { timeout: 6000 }).catch(() => {});
-        await sleep(300);
-        const html = await page.content();
-        const $ = cheerio.load(html);
+        // Screener occasionally serves a partial page (no classification block)
+        // under rapid sequential hits — reload once before giving up.
+        let parsed = null;
+        let $ = null;
+        for (let attempt = 1; attempt <= 2; attempt++) {
+          await page.goto(companyUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
+          await page.waitForSelector('a[href*="/market/IN"]', { timeout: 6000 }).catch(() => {});
+          await sleep(300);
+          const html = await page.content();
+          $ = cheerio.load(html);
+          parsed = parseCompanyPage(html, companyUrl);
+          if (parsed.industry || parsed.sector) break;
+          if (attempt < 2) {
+            console.log(`    ${company}: no classification yet — reloading…`);
+            await sleep(1500);
+          }
+        }
 
         // Discovery: screenshot + dump the first company (and all, if DEBUG).
         if (!firstDumped || DEBUG) {
@@ -214,19 +224,18 @@ async function run() {
           firstDumped = true;
         }
 
-        const parsed = parseCompanyPage(html, companyUrl);
         entry.ticker = parsed.ticker;
         entry.sector = parsed.sector;
         entry.industry = parsed.industry;
         if (entry.industry) resolvedIndustry++;
         console.log(
-          `[${i}/${companies.size}] ${company} → ticker ${entry.ticker ?? "—"}, industry ${entry.industry ?? "—"}`
+          `[${i}/${companies.size}] ${company} → ticker ${entry.ticker ?? "—"}, sector ${entry.sector ?? "—"}, industry ${entry.industry ?? "—"}`
         );
       } catch (err) {
         console.log(`[${i}/${companies.size}] ${company} — error: ${err.message}`);
       }
       meta[company] = entry;
-      await sleep(400);
+      await sleep(800);
     }
   } finally {
     await browser.close();
