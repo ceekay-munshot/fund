@@ -52,41 +52,40 @@ async function run() {
 
   try {
     await page.goto(`http://127.0.0.1:${PORT}/`, { waitUntil: "networkidle", timeout: 30000 });
-    await page.waitForSelector("#kpi-strip .glass", { timeout: 15000 });
-    await page.waitForSelector("#fund-list .glass", { timeout: 15000 });
-    await page.waitForTimeout(1200); // count-up + icons settle
+    await page.waitForSelector("#kpi-strip .card", { timeout: 15000 });
+    await page.waitForSelector("#chart-graph canvas", { timeout: 20000 }); // Radar graph rendered
+    await page.waitForTimeout(1800); // force layout + count-up settle
 
-    // Log live DOM numbers for verification.
     const updated = await page.textContent("#meta-updated");
     const kpis = await page.$$eval("#kpi-strip [data-count]", (els) => els.map((e) => e.textContent));
-    const fundCards = await page.$$eval("#fund-list > div", (els) => els.length);
     console.log(`Updated badge: ${updated}`);
     console.log(`KPI numbers: ${JSON.stringify(kpis)}`);
-    console.log(`By Fund cards rendered: ${fundCards}`);
 
-    // By Fund: expand the top two funds, then screenshot.
-    const heads = await page.$$("#fund-list [data-fund-toggle]");
-    if (heads[0]) await heads[0].click();
-    if (heads[1]) await heads[1].click();
-    await page.waitForTimeout(500);
-    await page.screenshot({ path: join(OUT, "dash-byfund.png"), fullPage: true });
-    console.log("→ dash-byfund.png");
+    // Radar (graph + treemap + timeline).
+    await page.screenshot({ path: join(OUT, "dash-radar.png"), fullPage: true });
+    console.log("→ dash-radar.png");
 
-    // By Fund with a search term.
-    await page.fill("#fund-search", "sapphire");
-    await page.waitForTimeout(500);
-    await page.screenshot({ path: join(OUT, "dash-byfund-search.png"), fullPage: true });
-    console.log("→ dash-byfund-search.png");
-    await page.fill("#fund-search", "");
+    // Click the biggest fund node region is hard; instead emphasize via legend chip.
+    const leg = await page.$("#graph-legend [data-leg]");
+    if (leg) { await leg.click(); await page.waitForTimeout(900); }
+    await page.screenshot({ path: join(OUT, "dash-radar-emphasis.png"), fullPage: true });
+    console.log("→ dash-radar-emphasis.png");
 
-    // Recent Flags tab.
-    await page.click('[data-tab="flags"]');
-    await page.waitForSelector("#flags-list .glass", { timeout: 10000 });
+    // Funds grid.
+    await page.click('[data-tab="funds"]');
+    await page.waitForSelector("#funds-grid [data-fund-tile]", { timeout: 10000 });
     await page.waitForTimeout(500);
-    const flagCards = await page.$$eval("#flags-list .glass", (els) => els.length);
-    console.log(`Recent Flags cards rendered: ${flagCards}`);
-    await page.screenshot({ path: join(OUT, "dash-flags.png"), fullPage: true });
-    console.log("→ dash-flags.png");
+    const tiles = await page.$$eval("#funds-grid [data-fund-tile]", (els) => els.length);
+    console.log(`Fund tiles rendered: ${tiles}`);
+    await page.screenshot({ path: join(OUT, "dash-funds.png"), fullPage: true });
+    console.log("→ dash-funds.png");
+
+    // Drill panel.
+    await page.click("#funds-grid [data-fund-tile]");
+    await page.waitForSelector("#drill-donut canvas", { timeout: 8000 });
+    await page.waitForTimeout(700);
+    await page.screenshot({ path: join(OUT, "dash-drill.png"), fullPage: true });
+    console.log("→ dash-drill.png");
 
     console.log("─".repeat(50));
     if (errors.length) {

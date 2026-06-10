@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fund Tracker — MGA</title>
-  <meta name="description" content="Which Indian buy-side funds are tracking which companies — from Screener concalls, last 90 days." />
+  <meta name="description" content="How Indian buy-side funds overlap on companies and cluster by sector — from Screener concalls, last 90 days." />
 
-  <!-- Tailwind (CDN) + inline config -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -15,151 +14,96 @@
           fontFamily: {
             display: ['"Space Grotesk"', "ui-sans-serif", "system-ui", "sans-serif"],
             sans: ['"Inter"', "ui-sans-serif", "system-ui", "sans-serif"],
-            mono: ['"JetBrains Mono"', "ui-monospace", "SFMono-Regular", "monospace"],
-          },
-          colors: {
-            ink: { 950: "#0B1020", 900: "#0E1428", 800: "#141B33" },
+            mono: ['"JetBrains Mono"', "ui-monospace", "monospace"],
           },
         },
       },
     };
   </script>
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-
-  <!-- Lucide icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 
   <style>
-    :root { --accent: #6366f1; }
-    html, body { background: #0B1020; }
+    html, body { background: #FBFAFF; }
     body {
       font-family: "Inter", system-ui, sans-serif;
-      color: #e2e8f0;
-      background-image:
-        radial-gradient(60rem 60rem at 15% -10%, rgba(99,102,241,0.18), transparent 60%),
-        radial-gradient(50rem 50rem at 110% 0%, rgba(217,70,239,0.14), transparent 55%);
-      background-attachment: fixed;
+      color: #1e293b;
       min-height: 100vh;
+      background-image:
+        radial-gradient(40rem 40rem at 8% -8%, rgba(139,92,246,0.16), transparent 60%),
+        radial-gradient(38rem 38rem at 105% 4%, rgba(236,72,153,0.12), transparent 58%),
+        radial-gradient(42rem 42rem at 60% 120%, rgba(59,130,246,0.12), transparent 60%);
+      background-attachment: fixed;
     }
     .font-display { font-family: "Space Grotesk", sans-serif; }
     .font-mono { font-family: "JetBrains Mono", monospace; }
-
     .brand-gradient {
-      background-image: linear-gradient(100deg, #818cf8 0%, #a78bfa 38%, #e879f9 72%, #f0abfc 100%);
+      background-image: linear-gradient(100deg, #6366F1, #A855F7 45%, #EC4899 80%);
       -webkit-background-clip: text; background-clip: text; color: transparent;
     }
-
-    /* Glass card */
-    .glass {
-      background: rgba(255,255,255,0.045);
-      border: 1px solid rgba(255,255,255,0.09);
-      box-shadow: 0 1px 0 rgba(255,255,255,0.04) inset, 0 10px 30px -12px rgba(0,0,0,0.6);
-      backdrop-filter: blur(10px);
-      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-    }
-    .glass-hover:hover {
-      transform: translateY(-2px);
-      border-color: color-mix(in srgb, var(--accent) 45%, transparent);
-      box-shadow: 0 14px 40px -14px rgba(0,0,0,0.7), 0 0 0 1px color-mix(in srgb, var(--accent) 30%, transparent),
-                  0 0 28px -6px color-mix(in srgb, var(--accent) 40%, transparent);
-    }
-    .accent-bar { background: var(--accent); box-shadow: 0 0 14px -2px var(--accent); }
-
-    /* Tabs */
+    .card { background: #fff; border-radius: 1.5rem; box-shadow: 0 1px 2px rgba(16,24,40,.04), 0 12px 32px -16px rgba(16,24,40,.18); transition: transform .2s ease, box-shadow .2s ease; }
+    .card-hover:hover { transform: translateY(-3px); box-shadow: 0 1px 2px rgba(16,24,40,.05), 0 20px 44px -18px rgba(16,24,40,.28); }
     .tab-btn { transition: all .18s ease; }
-    .tab-btn[aria-selected="true"] {
-      background-image: linear-gradient(100deg, #6366f1, #8b5cf6 55%, #d946ef);
-      color: #fff;
-      box-shadow: 0 8px 24px -8px rgba(139,92,246,0.7), 0 0 0 1px rgba(255,255,255,0.08) inset;
-    }
-    .tab-btn[aria-selected="false"]:hover { background: rgba(255,255,255,0.06); transform: translateY(-1px); }
-
-    /* NEW pulsing pill */
-    @keyframes pulseGlow { 0%,100% { box-shadow: 0 0 0 0 rgba(245,158,11,0.55);} 50% { box-shadow: 0 0 0 6px rgba(245,158,11,0);} }
+    .tab-btn[aria-selected="true"] { background-image: linear-gradient(100deg,#6366F1,#A855F7 55%,#EC4899); color:#fff; box-shadow:0 10px 26px -10px rgba(139,92,246,.65); }
+    .tab-btn[aria-selected="false"] { color:#475569; }
+    .tab-btn[aria-selected="false"]:hover { background:#fff; box-shadow:0 6px 18px -10px rgba(16,24,40,.25); transform:translateY(-1px); }
+    @keyframes pulseGlow { 0%,100%{box-shadow:0 0 0 0 rgba(245,158,11,.5);} 50%{box-shadow:0 0 0 6px rgba(245,158,11,0);} }
     .new-pulse { animation: pulseGlow 1.8s ease-out infinite; }
-
-    /* Quote block */
-    .quote { border-left: 3px solid var(--accent); background: rgba(255,255,255,0.03); }
-
-    /* Scrollbar */
-    .scroll-area::-webkit-scrollbar { width: 8px; }
-    .scroll-area::-webkit-scrollbar-thumb { background: rgba(148,163,184,0.3); border-radius: 8px; }
-    .scroll-area::-webkit-scrollbar-track { background: transparent; }
-
-    [x-cloak] { display: none !important; }
-    .fade-in { animation: fadeIn .25s ease both; }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px);} to { opacity:1; transform:none; } }
+    .fade-in { animation: fadeIn .28s ease both; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(6px);} to{opacity:1;transform:none;} }
+    .scroll-area::-webkit-scrollbar { width:8px; height:8px; }
+    .scroll-area::-webkit-scrollbar-thumb { background:rgba(100,116,139,.28); border-radius:8px; }
+    /* drill panel */
+    #drill-overlay { transition: opacity .25s ease; }
+    #drill-panel { transition: transform .3s cubic-bezier(.4,0,.2,1); }
   </style>
 </head>
 
 <body class="antialiased">
   <div class="mx-auto max-w-6xl px-4 pb-24 pt-8">
 
-    <!-- Header -->
     <header class="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
       <div>
-        <h1 class="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-          <span class="brand-gradient">📡 Fund Tracker — MGA</span>
-        </h1>
-        <p class="mt-1.5 max-w-2xl text-sm text-slate-400">
-          Which funds are tracking which companies — from Screener concalls, last 90 days.
-        </p>
+        <h1 class="font-display text-3xl font-bold tracking-tight sm:text-4xl"><span class="brand-gradient">📡 Fund Tracker — MGA</span></h1>
+        <p class="mt-1.5 max-w-2xl text-sm text-slate-500">How funds overlap on companies &amp; cluster by sector — from Screener concalls, last 90 days.</p>
       </div>
-      <span class="inline-flex w-fit items-center gap-2 rounded-full glass px-3.5 py-1.5 text-xs font-medium text-slate-300">
-        <span class="relative flex h-2 w-2">
-          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60"></span>
-          <span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-400"></span>
-        </span>
-        Updated <span id="meta-updated" class="font-mono font-semibold text-slate-100">—</span>
+      <span class="inline-flex w-fit items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-medium text-slate-500 shadow-sm ring-1 ring-slate-100">
+        <span class="relative flex h-2 w-2"><span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60"></span><span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span></span>
+        Updated <span id="meta-updated" class="font-mono font-semibold text-slate-700">—</span>
       </span>
     </header>
 
-    <!-- KPI strip -->
     <section id="kpi-strip" class="mb-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4"></section>
 
-    <!-- Tab bar -->
     <nav id="tab-nav" class="sticky top-3 z-30 mb-8 flex justify-center">
-      <div class="glass flex flex-wrap items-center justify-center gap-1 rounded-2xl p-1.5">
-        <button data-tab="byFund" role="tab" aria-selected="true"
-          class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium text-slate-300 sm:px-4">
-          <i data-lucide="briefcase" class="h-4 w-4"></i><span class="hidden sm:inline">By Fund</span>
-          <span data-badge="byFund" class="hidden rounded-full bg-white/15 px-1.5 text-[10px] font-mono"></span>
-        </button>
-        <button data-tab="bySector" role="tab" aria-selected="false"
-          class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium text-slate-300 sm:px-4">
-          <i data-lucide="layers" class="h-4 w-4"></i><span class="hidden sm:inline">By Sector</span>
-        </button>
-        <button data-tab="overlap" role="tab" aria-selected="false"
-          class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium text-slate-300 sm:px-4">
-          <i data-lucide="git-merge" class="h-4 w-4"></i><span class="hidden sm:inline">Overlap</span>
-        </button>
-        <button data-tab="flags" role="tab" aria-selected="false"
-          class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium text-slate-300 sm:px-4">
-          <i data-lucide="bell" class="h-4 w-4"></i><span class="hidden sm:inline">Recent Flags</span>
-          <span data-badge="flags" class="hidden rounded-full bg-amber-400/20 px-1.5 text-[10px] font-mono text-amber-300"></span>
-        </button>
+      <div class="flex flex-wrap items-center justify-center gap-1 rounded-2xl bg-white/80 p-1.5 shadow-md ring-1 ring-slate-100 backdrop-blur">
+        <button data-tab="radar" role="tab" aria-selected="true" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="radar" class="h-4 w-4"></i><span class="hidden sm:inline">Radar</span></button>
+        <button data-tab="funds" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="briefcase" class="h-4 w-4"></i><span class="hidden sm:inline">Funds</span></button>
+        <button data-tab="sectors" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="layers" class="h-4 w-4"></i><span class="hidden sm:inline">Sectors</span></button>
+        <button data-tab="overlap" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="git-merge" class="h-4 w-4"></i><span class="hidden sm:inline">Overlap</span></button>
+        <button data-tab="flags" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="bell" class="h-4 w-4"></i><span class="hidden sm:inline">Recent Flags</span><span data-badge="flags" class="hidden rounded-full bg-amber-100 px-1.5 text-[10px] font-mono text-amber-700"></span></button>
       </div>
     </nav>
 
-    <!-- Panels -->
     <main>
-      <section id="tab-byFund" class="fade-in"></section>
-      <section id="tab-bySector" hidden></section>
+      <section id="tab-radar" class="fade-in"></section>
+      <section id="tab-funds" hidden></section>
+      <section id="tab-sectors" hidden></section>
       <section id="tab-overlap" hidden></section>
       <section id="tab-flags" hidden></section>
     </main>
 
-    <footer class="mt-16 text-center text-xs text-slate-500">
-      Source: Screener.in — Market Pulse → Concalls · rolling 90-day window · data refreshes daily
-    </footer>
+    <footer class="mt-16 text-center text-xs text-slate-400">Source: Screener.in — Market Pulse → Concalls · rolling 90-day window · refreshes daily</footer>
   </div>
+
+  <!-- Drill-over panel (Funds tab) -->
+  <div id="drill-overlay" class="pointer-events-none fixed inset-0 z-40 bg-slate-900/30 opacity-0"></div>
+  <aside id="drill-panel" class="fixed right-0 top-0 z-50 flex h-full w-full max-w-md translate-x-full flex-col bg-white shadow-2xl">
+    <div id="drill-content" class="flex h-full flex-col"></div>
+  </aside>
 
   <script type="module" src="js/app.js"></script>
 </body>
