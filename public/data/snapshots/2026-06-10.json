@@ -1,9 +1,9 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T13:01:57.708Z",
+  "generated_at": "2026-06-10T14:25:50.680Z",
   "totals": {
-    "sightings": 172,
-    "companies": 141,
+    "sightings": 174,
+    "companies": 143,
     "active_funds": 13
   },
   "per_fund": [
@@ -96,8 +96,8 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "sighting_count": 31,
-      "company_count": 31,
+      "sighting_count": 32,
+      "company_count": 32,
       "companies": [
         "ABS Marine",
         "Admach Systems",
@@ -122,6 +122,7 @@
         "Maan Aluminium",
         "Natural Capsules",
         "Nisus Finance",
+        "Orient Electric",
         "Radiant Cash",
         "Rushil Decor",
         "S Chand & Compan",
@@ -257,11 +258,12 @@
     {
       "fund_id": "unique",
       "fund_name": "Unique PMS",
-      "sighting_count": 3,
-      "company_count": 3,
+      "sighting_count": 4,
+      "company_count": 4,
       "companies": [
         "All Time Plastic",
         "ION Exchange",
+        "Kirl. Brothers",
         "Uniparts India"
       ]
     },
@@ -287,56 +289,61 @@
   "per_sector": [
     {
       "sector": "Unknown",
-      "sighting_count": 136,
-      "company_count": 109
+      "sighting_count": 46,
+      "company_count": 36
     },
     {
       "sector": "Industrials",
-      "sighting_count": 10,
-      "company_count": 10
+      "sighting_count": 45,
+      "company_count": 36
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 9,
-      "company_count": 7
+      "sighting_count": 27,
+      "company_count": 23
     },
     {
-      "sector": "Information Technology",
-      "sighting_count": 4,
-      "company_count": 3
-    },
-    {
-      "sector": "Services",
-      "sighting_count": 4,
-      "company_count": 3
+      "sector": "Commodities",
+      "sighting_count": 13,
+      "company_count": 11
     },
     {
       "sector": "Healthcare",
+      "sighting_count": 13,
+      "company_count": 10
+    },
+    {
+      "sector": "Information Technology",
+      "sighting_count": 8,
+      "company_count": 6
+    },
+    {
+      "sector": "Services",
+      "sighting_count": 7,
+      "company_count": 6
+    },
+    {
+      "sector": "Utilities",
+      "sighting_count": 6,
+      "company_count": 6
+    },
+    {
+      "sector": "Fast Moving Consumer Goods",
       "sighting_count": 3,
       "company_count": 3
     },
     {
-      "sector": "Utilities",
+      "sector": "Financial Services",
+      "sighting_count": 3,
+      "company_count": 3
+    },
+    {
+      "sector": "Energy",
       "sighting_count": 2,
       "company_count": 2
     },
     {
-      "sector": "Commodities",
-      "sighting_count": 1,
-      "company_count": 1
-    },
-    {
-      "sector": "Energy",
-      "sighting_count": 1,
-      "company_count": 1
-    },
-    {
-      "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 1,
-      "company_count": 1
-    },
-    {
-      "sector": "Financial Services",
+      "sector": "Telecommunication",
       "sighting_count": 1,
       "company_count": 1
     }
@@ -411,7 +418,7 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "Admach Systems",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
@@ -423,7 +430,7 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "CapitalNumbers",
-      "sector": "Unknown",
+      "sector": "Information Technology",
       "concall_date": "2026-06-04"
     },
     {
@@ -435,19 +442,19 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "Chemplast Sanmar",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Dhabriya Poly.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "DSM Fresh",
-      "sector": "Unknown",
+      "sector": "Fast Moving Consumer Goods",
       "concall_date": "2026-06-04"
     },
     {
@@ -477,7 +484,7 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "FratelliVineyard",
-      "sector": "Unknown",
+      "sector": "Fast Moving Consumer Goods",
       "concall_date": "2026-06-04"
     },
     {
@@ -489,7 +496,7 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "Gulf Oil Lubric.",
-      "sector": "Unknown",
+      "sector": "Energy",
       "concall_date": "2026-06-02"
     },
     {
@@ -507,38 +514,44 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "Insecticid.India",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Kuantum Papers",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Maan Aluminium",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-04"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "MMP Industries",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Natural Capsules",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Nisus Finance",
-      "sector": "Unknown",
+      "sector": "Financial Services",
       "concall_date": "2026-06-03"
+    },
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Orient Electric",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-15"
     },
     {
       "fund_name": "Counter Cyclical",
@@ -567,31 +580,31 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "SRM Contractors",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Tarsons Products",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Tolins Tyres",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-04"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Uniparts India",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Crown Capital",
       "company": "Aditya Infotech",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
@@ -603,13 +616,13 @@
     {
       "fund_name": "Crown Capital",
       "company": "Astra Microwave",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Crown Capital",
       "company": "BEW Engg",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
@@ -627,7 +640,7 @@
     {
       "fund_name": "Crown Capital",
       "company": "Ganesh Green",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-04"
     },
     {
@@ -645,7 +658,7 @@
     {
       "fund_name": "Crown Capital",
       "company": "Shriram Properti",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-05-30"
     },
     {
@@ -657,13 +670,13 @@
     {
       "fund_name": "Crown Capital",
       "company": "SRM Contractors",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Crown Capital",
       "company": "Zelio E-Mobility",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-04"
     },
     {
@@ -675,13 +688,13 @@
     {
       "fund_name": "Lucky Investments",
       "company": "Entero Healthcar",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Lucky Investments",
       "company": "Finbud Financial",
-      "sector": "Unknown",
+      "sector": "Financial Services",
       "concall_date": "2026-06-01"
     },
     {
@@ -699,19 +712,19 @@
     {
       "fund_name": "Lucky Investments",
       "company": "Vikran Engg.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Malabar Investments",
       "company": "Apeejay Surrend.",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Malabar Investments",
       "company": "Ganesh Housing",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-03"
     },
     {
@@ -723,13 +736,13 @@
     {
       "fund_name": "Malabar Investments",
       "company": "Shringar House",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Malabar Investments",
       "company": "Sky Gold & Diam.",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-03"
     },
     {
@@ -741,13 +754,13 @@
     {
       "fund_name": "Mittal Analytics",
       "company": "BEW Engg",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Mittal Analytics",
       "company": "Dharmaj Crop",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-03"
     },
     {
@@ -759,19 +772,19 @@
     {
       "fund_name": "Mittal Analytics",
       "company": "NGL Fine Chem",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Aarti Pharma",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Aequs",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
@@ -789,61 +802,61 @@
     {
       "fund_name": "Niveshaay",
       "company": "Gokaldas Exports",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Niveshaay",
       "company": "HLE Glascoat",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Laxmi Dental",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Niveshaay",
       "company": "MMP Industries",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Niveshaay",
       "company": "NGL Fine Chem",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Pondy Oxides",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Scoda Tubes",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Solarworld Ene.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Venus Pipes",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Niveshaay",
       "company": "Vinyas Innovativ",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
@@ -855,7 +868,7 @@
     {
       "fund_name": "Niveshaay",
       "company": "Yatra Online",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     },
     {
@@ -867,7 +880,7 @@
     {
       "fund_name": "NV Alpha",
       "company": "Hi-Tech Pipes",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
@@ -879,7 +892,7 @@
     {
       "fund_name": "NV Alpha",
       "company": "Varroc Engineer",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-02"
     },
     {
@@ -891,7 +904,7 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Admach Systems",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
@@ -903,13 +916,13 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Aequs",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "All Time Plastic",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     },
     {
@@ -927,7 +940,7 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Antony Waste han",
-      "sector": "Unknown",
+      "sector": "Utilities",
       "concall_date": "2026-06-04"
     },
     {
@@ -939,7 +952,7 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Bajel Projects",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
@@ -951,19 +964,19 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Blue Water",
-      "sector": "Unknown",
+      "sector": "Services",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "CapitalNumbers",
-      "sector": "Unknown",
+      "sector": "Information Technology",
       "concall_date": "2026-06-04"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Cash UR Drive",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-04"
     },
     {
@@ -999,7 +1012,7 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Deepak Fertilis.",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-01"
     },
     {
@@ -1011,7 +1024,7 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Dharmaj Crop",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-03"
     },
     {
@@ -1041,13 +1054,13 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "GLEN Industries",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Goodluck India",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
@@ -1065,31 +1078,31 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Indogulf Cropsci",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Inox Green",
-      "sector": "Unknown",
+      "sector": "Utilities",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Inox Wind",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Insolation Ener",
-      "sector": "Unknown",
+      "sector": "Utilities",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Ivalue Infosolut",
-      "sector": "Unknown",
+      "sector": "Information Technology",
       "concall_date": "2026-06-03"
     },
     {
@@ -1119,25 +1132,25 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "K2 Infragen",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Laxmi Dental",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Markolines Pavem",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Marksans Pharma",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-06-03"
     },
     {
@@ -1155,19 +1168,19 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "NGL Fine Chem",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "One Point One",
-      "sector": "Unknown",
+      "sector": "Services",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Pace Digitek",
-      "sector": "Unknown",
+      "sector": "Telecommunication",
       "concall_date": "2026-06-03"
     },
     {
@@ -1191,13 +1204,13 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Refex Industries",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Rico Auto Inds",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-04"
     },
     {
@@ -1215,37 +1228,37 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Sahasra Electro.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Salzer Electron.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Sattva Eng.",
-      "sector": "Unknown",
+      "sector": "Utilities",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Shubhshree Bio.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "SMS Pharma.",
-      "sector": "Unknown",
+      "sector": "Healthcare",
       "concall_date": "2026-05-30"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Softtech Enginee",
-      "sector": "Unknown",
+      "sector": "Information Technology",
       "concall_date": "2026-06-04"
     },
     {
@@ -1257,13 +1270,13 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Solarworld Ene.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "SRM Contractors",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-02"
     },
     {
@@ -1317,25 +1330,25 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "TVS Supply",
-      "sector": "Unknown",
+      "sector": "Services",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Unimech Aero.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Vikran Engg.",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Vinyas Innovativ",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
@@ -1353,13 +1366,13 @@
     {
       "fund_name": "Solidarity",
       "company": "Goodluck India",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-06-03"
     },
     {
       "fund_name": "Unique PMS",
       "company": "All Time Plastic",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     },
     {
@@ -1370,8 +1383,14 @@
     },
     {
       "fund_name": "Unique PMS",
+      "company": "Kirl. Brothers",
+      "sector": "Industrials",
+      "concall_date": "2026-05-15"
+    },
+    {
+      "fund_name": "Unique PMS",
       "company": "Uniparts India",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     }
   ]
