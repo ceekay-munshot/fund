@@ -118,20 +118,51 @@ function abs(href, base = ORIGIN) {
   }
 }
 
-// Find the "next page" link in a paginated listing. Prefers rel="next", then a
-// forward-pointing anchor ("Next" / "Older" / »› ), excluding previous/newer.
-function findNextPageUrl($, baseUrl) {
+// Current page number from a listing URL (?p=N or ?page=N; defaults to 1).
+function pageNumOf(url) {
+  const m = url.match(/[?&](?:p|page)=(\d+)/i);
+  return m ? Number(m[1]) : 1;
+}
+
+// Find the next page in a NUMBERED listing. The Concalls page paginates with
+// ?p=N links (2,3,…,152), so pick the smallest page number greater than the
+// current one. Keyed on the href pattern, NOT link text — so a company named
+// "HRH Next" can't masquerade as a Next button. Falls back to rel=next or an
+// explicit forward arrow that is not itself a company link.
+function findNextPageUrl($, currentUrl) {
+  const cur = pageNumOf(currentUrl);
+
+  // Learn the pagination param and the max page number from the numbered links.
+  // Screener uses windowed pagination (2 3 4 … 151 152), so current+1 may not be
+  // rendered — construct it directly rather than picking a visible link, which
+  // would otherwise skip pages. Keyed on the ?p= href pattern, not link text.
+  let param = null;
+  let maxN = 0;
+  $("a[href]").each((_, a) => {
+    const m = $(a).attr("href").match(/[?&](p|page)=(\d+)/i);
+    if (!m) return;
+    if (!param) param = m[1];
+    const n = Number(m[2]);
+    if (n > maxN) maxN = n;
+  });
+  if (param && cur + 1 <= maxN) {
+    const u = new URL(currentUrl);
+    u.searchParams.set(param, String(cur + 1));
+    return u.href;
+  }
+
+  // Fallback: rel=next or an explicit forward arrow that isn't a company link.
   let href = $('a[rel="next"]').attr("href");
   if (!href) {
-    $("a").each((_, a) => {
+    $("a[href]").each((_, a) => {
       if (href) return;
       const t = $(a).text().trim().toLowerCase();
-      if (/\bnext\b|\bolder\b|^[»›]$/.test(t) && !/prev|newer/.test(t)) {
+      if (/^(next|older|»|›)$/.test(t) && !/\/company\//.test($(a).attr("href"))) {
         href = $(a).attr("href");
       }
     });
   }
-  return href ? abs(href, baseUrl) : null;
+  return href && !/\/company\//.test(href) ? abs(href, currentUrl) : null;
 }
 
 // --- locate the Concalls page ----------------------------------------------
@@ -240,9 +271,8 @@ function parseConcalls(html) {
 // older than the cutoff (or there are no more pages / no new rows).
 async function collectRows(page, cutoffMs) {
   const byKey = new Map();
-  const baseUrl = page.url().split("?")[0].split("#")[0];
   const visited = new Set();
-  const MAX_PAGES = 150;
+  const MAX_PAGES = 160; // safety cap above the listing's total page count
 
   for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
     visited.add(page.url().split("#")[0]);
@@ -285,17 +315,8 @@ async function collectRows(page, cutoffMs) {
     // No fresh rows on a later page → end of list (also guards a wrong page param).
     if (added === 0 && pageNum > 1) break;
 
-    // Next page: DOM link first, then a ?page= / ?p= fallback.
-    let next = findNextPageUrl($, page.url());
-    if (!next) {
-      for (const param of ["page", "p"]) {
-        const cand = `${baseUrl}?${param}=${pageNum + 1}`;
-        if (!visited.has(cand)) {
-          next = cand;
-          break;
-        }
-      }
-    }
+    // Next page via the detected ?p=N link; null means we're on the last page.
+    const next = findNextPageUrl($, page.url());
     if (!next || visited.has(next.split("#")[0])) break;
 
     if (DEBUG) console.log(`    → next: ${next}`);
