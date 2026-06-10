@@ -16,13 +16,13 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "Max transcripts to process (0 = all)"
+        description: "Cap concalls processed (0 = all in window)"
         required: false
-        default: "8"
-      concalls_limit:
-        description: "Max concalls to index first (need enough with transcripts)"
+        default: "60"
+      full:
+        description: "FULL sweep: ignore processed-concalls skip list, reprocess whole 90-day window (1/0)"
         required: false
-        default: "20"
+        default: "0"
       force:
         description: "Re-fetch even if <id>.txt exists (1/0)"
         required: false
@@ -54,33 +54,15 @@ jobs:
       - name: Install chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Build concalls index (input for the transcript reader)
-        env:
-          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
-          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
-          LIMIT: ${{ github.event.inputs.concalls_limit }}
-        run: node screener-test/scrape-concalls.mjs
-
-      - name: Run transcript reader
+      - name: Run pipeline (Prompt 7 orchestrator)
         env:
           SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
           SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
           LIMIT: ${{ github.event.inputs.limit }}
+          FULL: ${{ github.event.inputs.full }}
           FORCE: ${{ github.event.inputs.force }}
-        run: node screener-test/scrape-transcripts.mjs
-
-      - name: Match watchlist funds in transcripts (Prompt 4)
-        run: node screener-test/match-funds.mjs
-
-      - name: Enrich sightings with sector / industry (Prompt 5)
-        env:
-          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
-          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
-        run: node screener-test/enrich-sectors.mjs
-
-      - name: Merge this run into the committed store (Prompt 6)
-        run: node screener-test/build-store.mjs
+        run: node screener-test/run-pipeline.mjs
 
       - name: Commit refreshed public/data to main (gated by 'commit' input)
         if: ${{ github.event.inputs.commit == '1' }}

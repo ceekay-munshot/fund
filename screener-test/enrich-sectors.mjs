@@ -171,6 +171,16 @@ async function run() {
   }
   console.log(`Distinct companies to enrich: ${companies.size} (from ${sightings.length} sightings)`);
 
+  // Quiet day (no new sightings): write empty outputs and skip the login entirely.
+  if (companies.size === 0) {
+    const nowIso = new Date().toISOString();
+    await mkdir(OUTPUT_DIR, { recursive: true });
+    await writeFile(META_PATH, JSON.stringify({ generated_at: nowIso, companies: {} }, null, 2) + "\n", "utf8");
+    await writeFile(ENRICHED_PATH, JSON.stringify({ ...matchesDoc, generated_at: nowIso, matches: [] }, null, 2) + "\n", "utf8");
+    console.log("Nothing to enrich — wrote empty company-meta + enriched matches.");
+    return;
+  }
+
   const browser = await chromium.launch({ headless: !HEADFUL });
   const context = await browser.newContext({ userAgent: UA });
   const page = await context.newPage();

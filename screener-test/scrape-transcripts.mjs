@@ -40,10 +40,15 @@ const OUTPUT_DIR = join(__dirname, "output");
 const TRANSCRIPTS_DIR = join(OUTPUT_DIR, "transcripts");
 const INDEX_PATH = join(OUTPUT_DIR, "concalls-index.json");
 const MANIFEST_PATH = join(OUTPUT_DIR, "transcripts-manifest.json");
+// Committed cross-run memory: which concalls we've already processed.
+const PROCESSED_PATH = join(__dirname, "..", "public", "data", "processed-concalls.json");
 
 const LIMIT = Number(process.env.LIMIT || 0);
 const FORCE = process.env.FORCE === "1";
 const HEADFUL = process.env.HEADFUL === "1";
+// FULL (or FORCE) ignores the cross-run skip list → reprocess the whole 90-day
+// window (used for the first run and the quarterly full sweep).
+const FULL = process.env.FULL === "1" || FORCE;
 
 // Below this many extracted characters a PDF is treated as having no text layer
 // (scanned image) → flagged needs_ocr rather than counted as a clean extraction.
@@ -205,11 +210,43 @@ async function run() {
   await mkdir(TRANSCRIPTS_DIR, { recursive: true });
 
   const index = JSON.parse(await readFile(INDEX_PATH, "utf8"));
-  let queue = (index.concalls || []).filter((c) => c.has_transcript && c.transcript_url);
-  console.log(`Concalls with transcripts: ${queue.length} (of ${index.concalls?.length ?? 0} total)`);
+  const withTranscript = (index.concalls || []).filter((c) => c.has_transcript && c.transcript_url);
+
+  // Cross-run incrementality: skip transcript_urls we've already processed in a
+  // previous run (per the committed processed-concalls.json), unless FULL/FORCE.
+  const processedUrls = new Set();
+  if (!FULL && existsSync(PROCESSED_PATH)) {
+    try {
+      const prior = JSON.parse(await readFile(PROCESSED_PATH, "utf8"));
+      for (const p of Object.values(prior.concalls || {})) {
+        if (p.transcript_url) processedUrls.add(p.transcript_url);
+      }
+    } catch {
+      /* treat as no prior memory */
+    }
+  }
+
+  let queue = FULL ? withTranscript : withTranscript.filter((c) => !processedUrls.has(c.transcript_url));
+  console.log(
+    `${withTranscript.length} concalls with transcripts in window, ` +
+      `${withTranscript.length - queue.length} already processed (skipped), ${queue.length} new to fetch.` +
+      (FULL ? "  [FULL: skip list ignored]" : "")
+  );
   if (LIMIT > 0 && queue.length > LIMIT) {
     queue = queue.slice(0, LIMIT);
     console.log(`Applying LIMIT=${LIMIT}`);
+  }
+
+  // Quiet day: nothing new to fetch — still write a manifest so downstream steps
+  // run, and skip launching the browser entirely.
+  if (queue.length === 0) {
+    await writeFile(
+      MANIFEST_PATH,
+      JSON.stringify({ generated_at: new Date().toISOString(), count: 0, ok: 0, failed: 0, transcripts: [] }, null, 2) + "\n",
+      "utf8"
+    );
+    console.log(`No new transcripts to fetch. Wrote empty manifest → ${MANIFEST_PATH}`);
+    return;
   }
 
   const browser = await chromium.launch({ headless: !HEADFUL });
