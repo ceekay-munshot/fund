@@ -98,9 +98,11 @@ async function run() {
       fund_name: m.fund_name,
       matched_alias: m.matched_alias,
       company: m.company,
-      ticker: m.ticker ?? null,
-      sector: m.sector ?? null,
-      industry: m.industry ?? null,
+      // Enrichment only improves: keep a previously-resolved value rather than
+      // downgrading it to null if this run's enrich couldn't resolve the company.
+      ticker: m.ticker ?? existing?.ticker ?? null,
+      sector: m.sector ?? existing?.sector ?? null,
+      industry: m.industry ?? existing?.industry ?? null,
       concall_date: m.concall_date,
       transcript_url: m.transcript_url,
       transcript_id: m.transcript_id,

@@ -32,13 +32,21 @@ const UA =
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = join(__dirname, "output");
+const PUBLIC_DATA = join(__dirname, "..", "public", "data");
 const MATCHES_PATH = join(OUTPUT_DIR, "fund-matches.json");
 const INDEX_PATH = join(OUTPUT_DIR, "concalls-index.json");
-const META_PATH = join(OUTPUT_DIR, "company-meta.json");
+// company-meta is a COMMITTED, persistent cache: enrich reuses already-resolved
+// companies across runs and only fetches new/unresolved ones (keeps each run light
+// and lets a throttled run's nulls fill in over subsequent runs).
+const META_PATH = join(PUBLIC_DATA, "company-meta.json");
 const ENRICHED_PATH = join(OUTPUT_DIR, "fund-matches-enriched.json");
 
 const HEADFUL = process.env.HEADFUL === "1";
 const DEBUG = process.env.DEBUG === "1";
+// Re-resolve a cached company only if FRESH (force a full re-fetch ignoring cache).
+const FRESH = process.env.FRESH === "1";
+const GOTO_TIMEOUT = 20000; // fail fast (was 45s) so a dead page doesn't burn the run
+const PER_COMPANY_DELAY = 1500; // polite gap between company pages
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -171,87 +179,121 @@ async function run() {
   }
   console.log(`Distinct companies to enrich: ${companies.size} (from ${sightings.length} sightings)`);
 
-  // Quiet day (no new sightings): write empty outputs and skip the login entirely.
+  // Quiet day (no new sightings): write empty enriched output and skip login.
+  // Leave company-meta.json untouched so the persistent cache survives.
   if (companies.size === 0) {
     const nowIso = new Date().toISOString();
-    await mkdir(OUTPUT_DIR, { recursive: true });
-    await writeFile(META_PATH, JSON.stringify({ generated_at: nowIso, companies: {} }, null, 2) + "\n", "utf8");
     await writeFile(ENRICHED_PATH, JSON.stringify({ ...matchesDoc, generated_at: nowIso, matches: [] }, null, 2) + "\n", "utf8");
-    console.log("Nothing to enrich — wrote empty company-meta + enriched matches.");
+    console.log("Nothing to enrich — wrote empty enriched matches (cache preserved).");
     return;
   }
 
-  const browser = await chromium.launch({ headless: !HEADFUL });
-  const context = await browser.newContext({ userAgent: UA });
-  const page = await context.newPage();
-
-  const meta = {}; // company -> { ticker, sector, industry, company_url }
-  let resolvedIndustry = 0;
-  let firstDumped = false;
-
-  try {
-    console.log("Logging in to Screener…");
-    await loginViaBrowser(page);
-    console.log("Login OK.\n");
-    await sleep(400);
-
-    let i = 0;
-    for (const [company, companyUrl] of companies) {
-      i++;
-      const entry = { ticker: null, sector: null, industry: null, company_url: companyUrl };
-      if (!companyUrl) {
-        console.log(`[${i}/${companies.size}] ${company} — no company_url, skipping`);
-        meta[company] = entry;
-        continue;
-      }
-      try {
-        // Screener occasionally serves a partial page (no classification block)
-        // under rapid sequential hits — reload once before giving up.
-        let parsed = null;
-        let $ = null;
-        for (let attempt = 1; attempt <= 2; attempt++) {
-          await page.goto(companyUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
-          await page.waitForSelector('a[href*="/market/IN"]', { timeout: 6000 }).catch(() => {});
-          await sleep(300);
-          const html = await page.content();
-          $ = cheerio.load(html);
-          parsed = parseCompanyPage(html, companyUrl);
-          if (parsed.industry || parsed.sector) break;
-          if (attempt < 2) {
-            console.log(`    ${company}: no classification yet — reloading…`);
-            await sleep(1500);
-          }
-        }
-
-        // Discovery: screenshot + dump the first company (and all, if DEBUG).
-        if (!firstDumped || DEBUG) {
-          if (!firstDumped) {
-            await page
-              .screenshot({ path: join(OUTPUT_DIR, "company-page.png"), fullPage: true })
-              .catch(() => {});
-          }
-          dumpDiscovery($, companyUrl);
-          firstDumped = true;
-        }
-
-        entry.ticker = parsed.ticker;
-        entry.sector = parsed.sector;
-        entry.industry = parsed.industry;
-        if (entry.industry) resolvedIndustry++;
-        console.log(
-          `[${i}/${companies.size}] ${company} → ticker ${entry.ticker ?? "—"}, sector ${entry.sector ?? "—"}, industry ${entry.industry ?? "—"}`
-        );
-      } catch (err) {
-        console.log(`[${i}/${companies.size}] ${company} — error: ${err.message}`);
-      }
-      meta[company] = entry;
-      await sleep(800);
+  // Load the committed cache and reuse already-resolved companies (industry set),
+  // so we only fetch new/unresolved ones — keeps each run light and lets a
+  // throttled run's nulls fill in over later runs. FRESH=1 ignores the cache.
+  let cache = {};
+  if (!FRESH && existsSync(META_PATH)) {
+    try {
+      cache = JSON.parse(await readFile(META_PATH, "utf8")).companies || {};
+    } catch {
+      cache = {};
     }
-  } finally {
-    await browser.close();
   }
 
-  // Write company-meta.json.
+  const meta = {}; // company -> { ticker, sector, industry, company_url }
+  const toFetch = [];
+  let reused = 0;
+  for (const [company, companyUrl] of companies) {
+    const c = cache[company];
+    if (c && c.industry) {
+      meta[company] = {
+        ticker: c.ticker ?? null,
+        sector: c.sector ?? null,
+        industry: c.industry,
+        company_url: c.company_url ?? companyUrl,
+      };
+      reused++;
+    } else {
+      toFetch.push([company, companyUrl]);
+    }
+  }
+  let resolvedIndustry = reused;
+  console.log(`Cache: ${reused} reused, ${toFetch.length} to fetch.`);
+
+  if (toFetch.length > 0) {
+    const browser = await chromium.launch({ headless: !HEADFUL });
+    const context = await browser.newContext({ userAgent: UA });
+    const page = await context.newPage();
+    let firstDumped = false;
+
+    try {
+      console.log("Logging in to Screener…");
+      await loginViaBrowser(page);
+      console.log("Login OK.\n");
+      await sleep(400);
+
+      for (let i = 0; i < toFetch.length; i++) {
+        const [company, companyUrl] = toFetch[i];
+        const entry = { ticker: null, sector: null, industry: null, company_url: companyUrl };
+        if (!companyUrl) {
+          console.log(`[${i + 1}/${toFetch.length}] ${company} — no company_url, skipping`);
+          meta[company] = entry;
+          continue;
+        }
+        try {
+          // Screener occasionally serves a partial page (no classification block)
+          // under rapid sequential hits — reload once before giving up.
+          let parsed = null;
+          let $ = null;
+          for (let attempt = 1; attempt <= 2; attempt++) {
+            await page.goto(companyUrl, { waitUntil: "domcontentloaded", timeout: GOTO_TIMEOUT });
+            await page.waitForSelector('a[href*="/market/IN"]', { timeout: 6000 }).catch(() => {});
+            await sleep(300);
+            const html = await page.content();
+            $ = cheerio.load(html);
+            parsed = parseCompanyPage(html, companyUrl);
+            if (parsed.industry || parsed.sector) break;
+            if (attempt < 2) {
+              console.log(`    ${company}: no classification yet — reloading…`);
+              await sleep(1500);
+            }
+          }
+
+          // Discovery: screenshot + dump the first company (and all, if DEBUG).
+          if (!firstDumped || DEBUG) {
+            if (!firstDumped) {
+              await page
+                .screenshot({ path: join(OUTPUT_DIR, "company-page.png"), fullPage: true })
+                .catch(() => {});
+            }
+            dumpDiscovery($, companyUrl);
+            firstDumped = true;
+          }
+
+          entry.ticker = parsed.ticker;
+          entry.sector = parsed.sector;
+          entry.industry = parsed.industry;
+          if (entry.industry) resolvedIndustry++;
+          console.log(
+            `[${i + 1}/${toFetch.length}] ${company} → ticker ${entry.ticker ?? "—"}, sector ${entry.sector ?? "—"}, industry ${entry.industry ?? "—"}`
+          );
+          meta[company] = entry;
+          await sleep(PER_COMPANY_DELAY);
+        } catch (err) {
+          console.log(`[${i + 1}/${toFetch.length}] ${company} — error: ${err.message}`);
+          meta[company] = entry;
+          // Back off harder when Screener is throttling (timeouts / connection resets).
+          const throttled = /timeout|timed out|ERR_|net::/i.test(err.message);
+          await sleep(throttled ? 5000 : PER_COMPANY_DELAY);
+        }
+      }
+    } finally {
+      await browser.close();
+    }
+  }
+
+  // Write company-meta.json (the committed persistent cache).
+  await mkdir(PUBLIC_DATA, { recursive: true });
   await writeFile(
     META_PATH,
     JSON.stringify({ generated_at: new Date().toISOString(), companies: meta }, null, 2) + "\n",
