@@ -8,7 +8,7 @@
 
 import {
   loadData, fundColor, sectorColor, sectorPill, escapeHtml, initials, fmtDate,
-  isToday, analystOf, sourceIconBtn, transcriptBtn, quoteBlock, wireShowMore,
+  isToday, recencyBucket, analystOf, sourceIconBtn, transcriptBtn, quoteBlock, wireShowMore,
   emptyState, countUp, makeChart, resizeCharts, refreshIcons,
 } from "./ui.js";
 
@@ -984,6 +984,166 @@ function openCompanyDrill(company) {
 }
 
 // ===========================================================================
+// RECENT FLAGS — the chronological monitoring feed: "what's new on the radar
+// since I last looked", newest first, with First-interest vs Repeat novelty.
+// ===========================================================================
+let _flags = [];
+let flagFunds = new Set(); // selected fund_ids (empty = all)
+let flagSector = "all";
+let flagFirstOnly = false;
+
+function buildFlags() {
+  // first_seen = when it appeared on our radar (gets more granular as daily runs
+  // add flags over time). Fall back to concall_date.
+  const pairFirst = new Map(); // fund|company -> earliest flag date
+  const pairCount = new Map();
+  for (const s of DATA.sightings) {
+    const k = s.fund_id + "|" + s.company;
+    const fd = s.first_seen || s.concall_date || "";
+    if (!pairFirst.has(k) || fd < pairFirst.get(k)) pairFirst.set(k, fd);
+    pairCount.set(k, (pairCount.get(k) || 0) + 1);
+  }
+  return DATA.sightings
+    .map((s) => {
+      const k = s.fund_id + "|" + s.company;
+      const fd = s.first_seen || s.concall_date || "";
+      const firstInterest = !(pairCount.get(k) > 1 && fd > pairFirst.get(k));
+      return { ...s, flagDate: fd, firstInterest };
+    })
+    .sort((a, b) => (b.flagDate || "").localeCompare(a.flagDate || "") || (b.concall_date || "").localeCompare(a.concall_date || ""));
+}
+
+function flagsHouseView(flags) {
+  const c7 = ymdAgo(7);
+  const week = flags.filter((f) => f.flagDate >= c7);
+  if (!week.length) return "No new flags in the last 7 days — the radar runs daily.";
+  const firstCnt = week.filter((f) => f.firstInterest).length;
+  const parts = [`${week.length} new flag${week.length === 1 ? "" : "s"} in the last 7 days.`, `${firstCnt} ${firstCnt === 1 ? "is" : "are"} first-time interest.`];
+  const nf = week.find((f) => f.firstInterest), nr = week.find((f) => !f.firstInterest);
+  const bits = [];
+  if (nf) bits.push(`${nf.fund_name} showed up in ${nf.company} for the first time`);
+  if (nr) bits.push(`${nr.fund_name} re-engaged ${nr.company}`);
+  if (bits.length) parts.push("Notable: " + bits.join("; ") + ".");
+  return parts.join(" ");
+}
+
+function renderFlags() {
+  const root = document.getElementById("tab-flags");
+  _flags = buildFlags();
+  const todayN = _flags.filter((f) => isToday(f.first_seen)).length;
+  const weekN = _flags.filter((f) => f.flagDate >= ymdAgo(7)).length;
+  const activeFunds = DATA.funds.filter((f) => DATA.sightings.some((s) => s.fund_id === f.id));
+  const sectors = [...new Set(_flags.map((f) => f.sector || "Unclassified"))].sort();
+
+  const fundChips = activeFunds.map((f) => {
+    const sel = flagFunds.has(f.id); const c = fundColor(f.id);
+    return `<button type="button" data-flagfund="${f.id}" class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium transition ${sel ? "text-white" : "text-slate-600 hover:bg-slate-50"}" style="${sel ? `background:${c}` : `box-shadow:0 0 0 1px ${c}40 inset`}"><span class="h-1.5 w-1.5 rounded-full" style="background:${sel ? "#fff" : c}"></span>${escapeHtml(f.name)}</button>`;
+  }).join("");
+
+  root.innerHTML = `
+    <div class="mb-4 rounded-3xl bg-gradient-to-br from-emerald-50 via-white to-indigo-50 p-5 shadow-sm ring-1 ring-slate-100">
+      <div class="mb-1.5 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-2"><span class="rounded-xl bg-white p-1.5 text-emerald-500 shadow-sm"><i data-lucide="bell" class="h-4 w-4"></i></span>
+          <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">House view</h2></div>
+        <div class="flex gap-2">
+          <span class="rounded-full bg-white px-2.5 py-1 text-xs font-medium text-slate-600 shadow-sm ring-1 ring-slate-100">Today <span class="font-mono font-semibold text-emerald-600">${todayN}</span></span>
+          <span class="rounded-full bg-white px-2.5 py-1 text-xs font-medium text-slate-600 shadow-sm ring-1 ring-slate-100">7 days <span class="font-mono font-semibold text-indigo-600">${weekN}</span></span>
+        </div>
+      </div>
+      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">${escapeHtml(flagsHouseView(_flags))}</p>
+      <p class="mt-2 text-[11px] text-slate-400">Signal = smart-money attention from concall participation (a leading indicator), not confirmed positions.</p>
+    </div>
+    <div class="mb-4 flex flex-col gap-3">
+      <div class="flex flex-wrap items-center gap-1.5" id="flag-funds">${fundChips}</div>
+      <div class="flex flex-wrap items-center gap-3">
+        <button type="button" id="flag-first" class="inline-flex items-center gap-1.5 rounded-xl px-3 py-2 text-sm font-medium transition ${flagFirstOnly ? "bg-emerald-600 text-white shadow-sm" : "bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50"}"><i data-lucide="sparkles" class="h-4 w-4"></i>First interest only</button>
+        <div class="flex items-center gap-2 text-sm">
+          <span class="text-slate-400">Sector</span>
+          <select id="flag-sector" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
+            <option value="all">All sectors</option>${sectors.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("")}
+          </select>
+        </div>
+        ${flagFunds.size ? `<button type="button" id="flag-clear" class="text-xs font-medium text-slate-400 hover:text-slate-600">clear funds</button>` : ""}
+      </div>
+    </div>
+    <div id="flags-feed" class="space-y-6"></div>`;
+
+  root.querySelector("#flag-funds").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-flagfund]"); if (!b) return;
+    const id = b.dataset.flagfund;
+    flagFunds.has(id) ? flagFunds.delete(id) : flagFunds.add(id);
+    renderFlags();
+  });
+  root.querySelector("#flag-first").addEventListener("click", () => { flagFirstOnly = !flagFirstOnly; renderFlags(); });
+  const sel = root.querySelector("#flag-sector"); sel.value = flagSector;
+  sel.addEventListener("change", () => { flagSector = sel.value; updateFlagsFeed(); });
+  const clr = root.querySelector("#flag-clear"); if (clr) clr.addEventListener("click", () => { flagFunds.clear(); renderFlags(); });
+
+  updateFlagsFeed();
+  refreshIcons();
+}
+
+function updateFlagsFeed() {
+  const feed = document.getElementById("flags-feed");
+  if (!feed) return;
+  const fbc = fundsByCompany();
+  let items = _flags.filter((f) =>
+    (!flagFunds.size || flagFunds.has(f.fund_id)) &&
+    (flagSector === "all" || (f.sector || "Unclassified") === flagSector) &&
+    (!flagFirstOnly || f.firstInterest)
+  );
+  if (!items.length) {
+    feed.innerHTML = emptyState("bell-off", "No flags match", "Loosen the filters — turn off 'first interest only' or pick another fund/sector.");
+    refreshIcons();
+    return;
+  }
+  const groups = { Today: [], "This week": [], Earlier: [] };
+  for (const f of items) groups[recencyBucket(f.flagDate)].push(f);
+  feed.innerHTML = Object.entries(groups)
+    .filter(([, arr]) => arr.length)
+    .map(([label, arr]) => `
+      <div>
+        <h3 class="mb-2 flex items-center gap-2 px-1 text-xs font-semibold uppercase tracking-wider text-slate-400">
+          <i data-lucide="${label === "Today" ? "sparkles" : label === "This week" ? "calendar-clock" : "history"}" class="h-3.5 w-3.5"></i>${label}<span class="font-mono text-slate-300">${arr.length}</span>
+        </h3>
+        <div class="space-y-2.5">${arr.map((f) => flagCard(f, fbc)).join("")}</div>
+      </div>`)
+    .join("");
+  refreshIcons();
+}
+
+function flagCard(f, fbc) {
+  const c = fundColor(f.fund_id);
+  const others = (fbc.get(f.company)?.size || 1) - 1;
+  const tag = f.firstInterest
+    ? `<span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-600"><i data-lucide="badge-check" class="h-3 w-3"></i>First interest</span>`
+    : `<span class="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-500"><i data-lucide="repeat" class="h-3 w-3"></i>Repeat</span>`;
+  const isNew = isToday(f.first_seen);
+  return `<div class="card card-hover overflow-hidden p-4" style="border-left:4px solid ${c}">
+    <div class="flex items-start gap-3">
+      <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl font-display text-[11px] font-bold text-white shadow-sm" style="background:${c}">${escapeHtml(initials(f.fund_name))}</span>
+      <div class="min-w-0 flex-1">
+        <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span class="font-medium text-slate-800"><span style="color:${c}" class="font-semibold">${escapeHtml(f.fund_name)}</span> spotted in <span class="font-semibold">${escapeHtml(f.company)}</span></span>
+          ${isNew ? `<span class="new-pulse inline-flex items-center gap-1 rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold uppercase text-amber-700"><i data-lucide="sparkles" class="h-2.5 w-2.5"></i>New</span>` : ""}
+        </div>
+        <div class="mt-1.5 flex flex-wrap items-center gap-2">
+          ${f.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${c}">${escapeHtml(f.ticker)}</span>` : ""}
+          ${sectorPill(f.sector, f.industry)}
+          <span class="inline-flex items-center gap-1 font-mono text-[11px] text-slate-400"><i data-lucide="calendar" class="h-3 w-3"></i>${fmtDate(f.concall_date)}</span>
+          ${tag}
+        </div>
+        ${quoteBlock(f.quote, c)}
+        <div class="mt-2 flex items-center justify-between">
+          <span class="text-[11px] text-slate-400">${others > 0 ? `${others} other fund${others === 1 ? "" : "s"} also here` : ""}</span>
+          ${transcriptBtn(f.transcript_url)}
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+// ===========================================================================
 // placeholders (Prompt 11)
 // ===========================================================================
 function renderPlaceholder(id, icon, title) {
@@ -997,7 +1157,7 @@ const RENDERERS = {
   funds: renderFunds,
   sectors: renderSectors,
   overlap: renderOverlap,
-  flags: () => renderPlaceholder("tab-flags", "bell", "Recent Flags"),
+  flags: renderFlags,
 };
 function activate(tab) {
   document.querySelectorAll("#tab-nav [data-tab]").forEach((btn) => {
