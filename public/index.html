@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fund Tracker — MGA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <div class="mx-auto max-w-5xl px-4 py-8">
+
+    <!-- Header -->
+    <header class="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <h1 class="text-2xl font-bold tracking-tight text-slate-900">Fund Tracker — MGA</h1>
+        <p class="mt-1 text-sm text-slate-500">
+          Indian buy-side funds appearing in company earnings concalls.
+        </p>
+      </div>
+      <span class="inline-flex w-fit items-center gap-1.5 rounded-full bg-white px-3 py-1 text-xs font-medium text-slate-500 ring-1 ring-slate-200">
+        <span class="h-1.5 w-1.5 rounded-full bg-indigo-500"></span>
+        Updated <span id="meta-updated" class="font-semibold text-slate-700">—</span>
+      </span>
+    </header>
+
+    <!-- Tab nav -->
+    <nav class="mb-6 flex flex-wrap gap-2" id="tab-nav">
+      <button data-tab="byFund"
+        class="rounded-lg px-4 py-2 text-sm font-medium transition-colors bg-indigo-600 text-white">
+        By Fund
+      </button>
+      <button data-tab="bySector"
+        class="rounded-lg px-4 py-2 text-sm font-medium transition-colors bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-100">
+        By Sector
+      </button>
+      <button data-tab="overlap"
+        class="rounded-lg px-4 py-2 text-sm font-medium transition-colors bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-100">
+        Overlap
+      </button>
+      <button data-tab="flags"
+        class="rounded-lg px-4 py-2 text-sm font-medium transition-colors bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-100">
+        Recent Flags
+      </button>
+    </nav>
+
+    <!-- Tab panels -->
+    <main>
+      <section id="tab-byFund" class="rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
+        <h2 class="text-lg font-semibold text-slate-900">By Fund</h2>
+        <p class="mt-2 text-sm text-slate-400">Coming soon.</p>
+      </section>
+
+      <section id="tab-bySector" hidden class="rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
+        <h2 class="text-lg font-semibold text-slate-900">By Sector</h2>
+        <p class="mt-2 text-sm text-slate-400">Coming soon.</p>
+      </section>
+
+      <section id="tab-overlap" hidden class="rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
+        <h2 class="text-lg font-semibold text-slate-900">Overlap</h2>
+        <p class="mt-2 text-sm text-slate-400">Coming soon.</p>
+      </section>
+
+      <section id="tab-flags" hidden class="rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
+        <h2 class="text-lg font-semibold text-slate-900">Recent Flags</h2>
+        <p class="mt-2 text-sm text-slate-400">Coming soon.</p>
+      </section>
+    </main>
+
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
