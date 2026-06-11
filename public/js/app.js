@@ -1193,13 +1193,12 @@ const EXPORT_COLS = [
   { header: "Occurrences", key: "occurrences", width: 12 },
   { header: "First Interest?", key: "first_interest", width: 14 },
   { header: "Funds On Name", key: "funds_on_name", width: 14 },
-  { header: "Transcript URL", key: "transcript_url", width: 52 },
-  { header: "Quote", key: "quote", width: 70 },
+  { header: "Analyst", key: "analyst", width: 22 },
+  { header: "Transcript URL", key: "transcript_url", width: 50 },
   { header: "First Seen", key: "first_seen", width: 22 },
 ];
 
 function exportRows() {
-  // First-interest + funds-on-name derived once, straight from the cached store.
   const pairFirst = new Map(), pairCount = new Map();
   for (const s of DATA.sightings) {
     const k = s.fund_id + "|" + s.company;
@@ -1213,11 +1212,13 @@ function exportRows() {
     const fd = s.first_seen || s.concall_date || "";
     const first = !(pairCount.get(k) > 1 && fd > pairFirst.get(k));
     return {
+      fund_id: s.fund_id, // for styling only (not a column)
       fund: s.fund_name || "", company: s.company || "", ticker: s.ticker || "",
       sector: s.sector || "", industry: s.industry || "", concall_date: s.concall_date || "",
       occurrences: s.occurrences || 1, first_interest: first ? "Yes" : "No",
-      funds_on_name: fbc.get(s.company)?.size || 1, transcript_url: s.transcript_url || "",
-      quote: s.quote || "", first_seen: s.first_seen || "",
+      funds_on_name: fbc.get(s.company)?.size || 1,
+      analyst: analystOf(s.quote, s.matched_alias) || "—",
+      transcript_url: s.transcript_url || "", first_seen: s.first_seen || "",
     };
   });
 }
@@ -1229,6 +1230,154 @@ function downloadBlob(blob, name) {
   a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
+// css color → Excel ARGB (handles #rrggbb and hsl(h,s%,l%))
+function toArgb(css) {
+  if (!css) return "FF94A3B8";
+  if (css[0] === "#") return "FF" + css.slice(1).toUpperCase();
+  const m = css.match(/hsl\(([\d.]+),\s*([\d.]+)%,\s*([\d.]+)%\)/);
+  if (m) {
+    const h = +m[1], s = +m[2] / 100, l = +m[3] / 100, a = s * Math.min(l, 1 - l);
+    const f = (n) => { const k = (n + h / 30) % 12; const c = l - a * Math.max(-1, Math.min(k - 3, 9 - k, 1)); return Math.round(255 * c).toString(16).padStart(2, "0"); };
+    return "FF" + (f(0) + f(8) + f(4)).toUpperCase();
+  }
+  return "FF94A3B8";
+}
+const BRAND = "FF6366F1", BRAND_LT = "FFEEF2FF", INK = "FF1E293B", MUTE = "FF64748B";
+
+function buildSightingsSheet(wb, rows) {
+  const ws = wb.addWorksheet("Sightings", { views: [{ state: "frozen", ySplit: 3 }] });
+  const N = EXPORT_COLS.length, last = "L";
+  ws.columns = EXPORT_COLS.map((c) => ({ key: c.key, width: c.width }));
+  // Title + subtitle
+  ws.mergeCells(`A1:${last}1`);
+  Object.assign(ws.getCell("A1"), { value: "📡 Fund Tracker — MGA · Smart-Money Sightings" });
+  ws.getCell("A1").font = { name: "Calibri", bold: true, size: 16, color: { argb: "FFFFFFFF" } };
+  ws.getCell("A1").fill = { type: "pattern", pattern: "solid", fgColor: { argb: BRAND } };
+  ws.getCell("A1").alignment = { vertical: "middle" };
+  ws.getRow(1).height = 30;
+  ws.mergeCells(`A2:${last}2`);
+  ws.getCell("A2").value = `Rolling 90-day concall participation · ${rows.length} sightings · 13 funds · a leading-indicator attention signal, not confirmed positions`;
+  ws.getCell("A2").font = { italic: true, size: 10, color: { argb: MUTE } };
+  ws.getRow(2).height = 18;
+  // Header row (3)
+  const hr = ws.addRow(EXPORT_COLS.map((c) => c.header));
+  hr.eachCell((c) => {
+    c.font = { bold: true, color: { argb: "FFFFFFFF" }, size: 11 };
+    c.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF4F46E5" } };
+    c.alignment = { vertical: "middle" };
+    c.border = { bottom: { style: "thin", color: { argb: "FFC7D2FE" } } };
+  });
+  hr.height = 22;
+  // Data rows
+  rows.forEach((r, i) => {
+    const row = ws.addRow(r);
+    const banded = i % 2 === 1;
+    row.eachCell((c) => {
+      if (banded) c.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF8FAFF" } };
+      c.alignment = { vertical: "middle" };
+      c.font = { size: 10, color: { argb: INK } };
+    });
+    // fund-color left accent on the Fund cell
+    row.getCell("fund").border = { left: { style: "thick", color: { argb: toArgb(fundColor(r.fund_id)) } } };
+    row.getCell("fund").font = { size: 10, bold: true, color: { argb: INK } };
+    // First Interest? colored
+    const fi = row.getCell("first_interest");
+    const yes = r.first_interest === "Yes";
+    fi.fill = { type: "pattern", pattern: "solid", fgColor: { argb: yes ? "FFD1FAE5" : "FFF1F5F9" } };
+    fi.font = { size: 10, bold: true, color: { argb: yes ? "FF047857" : "FF94A3B8" } };
+    fi.alignment = { vertical: "middle", horizontal: "center" };
+    row.getCell("funds_on_name").alignment = { vertical: "middle", horizontal: "center" };
+    row.getCell("occurrences").alignment = { vertical: "middle", horizontal: "center" };
+  });
+  ws.autoFilter = { from: { row: 3, column: 1 }, to: { row: 3, column: N } };
+  // in-cell data bar on "Funds On Name" (chart-like)
+  try {
+    ws.addConditionalFormatting({ ref: `I4:I${3 + rows.length}`, rules: [{ type: "dataBar", cfvo: [{ type: "min" }, { type: "max" }], color: { argb: "FF8B5CF6" } }] });
+  } catch (e) { console.warn("databar skipped:", e.message); }
+}
+
+function buildSummarySheet(wb) {
+  const ws = wb.addWorksheet("Summary");
+  ws.columns = [{ width: 3 }, { width: 26 }, { width: 12 }, { width: 16 }, { width: 2 }, { width: 3 }, { width: 26 }, { width: 12 }, { width: 16 }];
+  ws.mergeCells("A1:I1");
+  ws.getCell("A1").value = "📡 Fund Tracker — MGA · Summary";
+  ws.getCell("A1").font = { bold: true, size: 16, color: { argb: "FFFFFFFF" } };
+  ws.getCell("A1").fill = { type: "pattern", pattern: "solid", fgColor: { argb: BRAND } };
+  ws.getCell("A1").alignment = { vertical: "middle" };
+  ws.getRow(1).height = 30;
+
+  // KPI cards (row 3–4, four cards)
+  const sights = DATA.sightings;
+  const activeFunds = new Set(sights.map((s) => s.fund_id)).size;
+  const companies = DATA.meta.company_count ?? new Set(sights.map((s) => s.company)).size;
+  const book = consensusBook();
+  const kpis = [
+    { span: "A3:B4", v: sights.length, l: "Engagements", c: "FF6366F1" },
+    { span: "C3:D4", v: `${activeFunds} / 13`, l: "Active Funds", c: "FF10B981" },
+    { span: "F3:G4", v: companies, l: "Companies", c: "FF0EA5E9" },
+    { span: "H3:I4", v: book.length, l: "Consensus (2+)", c: "FFF59E0B" },
+  ];
+  kpis.forEach((k) => {
+    ws.mergeCells(k.span);
+    const cell = ws.getCell(k.span.split(":")[0]);
+    cell.value = `${k.v}\n${k.l}`;
+    cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: k.c } };
+    cell.font = { bold: true, size: 13, color: { argb: "FFFFFFFF" } };
+    cell.alignment = { vertical: "middle", horizontal: "center", wrapText: true };
+  });
+  ws.getRow(3).height = 22; ws.getRow(4).height = 22;
+
+  const sectionHdr = (ref, text) => {
+    ws.mergeCells(ref);
+    const cell = ws.getCell(ref.split(":")[0]);
+    cell.value = text;
+    cell.font = { bold: true, size: 11, color: { argb: BRAND } };
+    cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: BRAND_LT } };
+    cell.alignment = { vertical: "middle" };
+  };
+  const colHdr = (cellRef, text, align) => { const c = ws.getCell(cellRef); c.value = text; c.font = { bold: true, size: 9, color: { argb: MUTE } }; c.alignment = { vertical: "middle", horizontal: align || "left" }; };
+
+  // Funds (A–D) and Sectors (F–I) side by side, starting row 6
+  const HDR = 6, START = 7;
+  sectionHdr("A6:D6", "Top funds by reach");
+  sectionHdr("F6:I6", "Sectors by conviction");
+  colHdr("B7", "Fund"); colHdr("C7", "Companies", "center"); colHdr("D7", "Engagements", "center");
+  colHdr("G7", "Sector"); colHdr("H7", "Funds", "center"); colHdr("I7", "Engagements", "center");
+
+  const funds = [...groupByFund().values()].map((f) => ({ name: f.name, id: f.id, companies: companiesOf(f.sightings).length, eng: f.sightings.length })).sort((a, b) => b.companies - a.companies);
+  const sectors = sectorStats().filter((s) => s.sector !== "Unclassified");
+  funds.forEach((f, i) => {
+    const r = START + 1 + i;
+    ws.getCell(`A${r}`).fill = { type: "pattern", pattern: "solid", fgColor: { argb: toArgb(fundColor(f.id)) } };
+    ws.getCell(`B${r}`).value = f.name; ws.getCell(`B${r}`).font = { size: 10, color: { argb: INK } };
+    ws.getCell(`C${r}`).value = f.companies; ws.getCell(`C${r}`).alignment = { horizontal: "center" };
+    ws.getCell(`D${r}`).value = f.eng;
+  });
+  sectors.forEach((s, i) => {
+    const r = START + 1 + i;
+    ws.getCell(`F${r}`).fill = { type: "pattern", pattern: "solid", fgColor: { argb: toArgb(sectorColor(s.sector)) } };
+    ws.getCell(`G${r}`).value = s.sector; ws.getCell(`G${r}`).font = { size: 10, color: { argb: INK } };
+    ws.getCell(`H${r}`).value = s.fundCount; ws.getCell(`H${r}`).alignment = { horizontal: "center" };
+    ws.getCell(`I${r}`).value = s.sightings;
+  });
+  try {
+    ws.addConditionalFormatting({ ref: `D${START + 1}:D${START + funds.length}`, rules: [{ type: "dataBar", cfvo: [{ type: "min" }, { type: "max" }], color: { argb: "FF6366F1" } }] });
+    ws.addConditionalFormatting({ ref: `I${START + 1}:I${START + sectors.length}`, rules: [{ type: "dataBar", cfvo: [{ type: "min" }, { type: "max" }], color: { argb: "FFA855F7" } }] });
+  } catch (e) { console.warn("summary databar skipped:", e.message); }
+
+  // Consensus tiers below
+  const tierTop = START + Math.max(funds.length, sectors.length) + 2;
+  sectionHdr(`A${tierTop}:C${tierTop}`, "Consensus tiers");
+  colHdr(`B${tierTop + 1}`, "Tier"); colHdr(`C${tierTop + 1}`, "Companies", "center");
+  const tiers = [["High conviction (4+ funds)", book.filter((b) => b.fundCount >= 4).length, "FFF59E0B"], ["Building (3 funds)", book.filter((b) => b.fundCount === 3).length, "FF6366F1"], ["On the radar (2 funds)", book.filter((b) => b.fundCount === 2).length, "FF94A3B8"]];
+  tiers.forEach((t, i) => {
+    const r = tierTop + 2 + i;
+    ws.getCell(`A${r}`).fill = { type: "pattern", pattern: "solid", fgColor: { argb: t[2] } };
+    ws.getCell(`B${r}`).value = t[0]; ws.getCell(`B${r}`).font = { size: 10, color: { argb: INK } };
+    ws.getCell(`C${r}`).value = t[1]; ws.getCell(`C${r}`).alignment = { horizontal: "center" };
+  });
+}
+
 async function exportData() {
   if (!DATA || !DATA.sightings.length) return;
   const rows = exportRows();
@@ -1238,15 +1387,10 @@ async function exportData() {
   if (window.ExcelJS) {
     try {
       const wb = new window.ExcelJS.Workbook();
-      const ws = wb.addWorksheet("Sightings", { views: [{ state: "frozen", ySplit: 1 }] });
-      ws.columns = EXPORT_COLS.map((c) => ({ header: c.header, key: c.key, width: c.width }));
-      rows.forEach((r) => ws.addRow(r));
-      const hdr = ws.getRow(1);
-      hdr.font = { bold: true, color: { argb: "FFFFFFFF" }, size: 11 };
-      hdr.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
-      hdr.alignment = { vertical: "middle" };
-      hdr.height = 22;
-      ws.autoFilter = "A1:L1";
+      wb.creator = "Fund Tracker — MGA";
+      wb.created = new Date();
+      buildSightingsSheet(wb, rows);
+      try { buildSummarySheet(wb); } catch (e) { console.warn("summary sheet skipped:", e.message); }
       const buf = await wb.xlsx.writeBuffer();
       downloadBlob(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), base + ".xlsx");
       return;
@@ -1254,7 +1398,7 @@ async function exportData() {
       console.warn("xlsx export failed, falling back to CSV:", e.message);
     }
   }
-  // CSV fallback
+  // CSV fallback (same columns, no styling)
   const esc = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
   const csv = [EXPORT_COLS.map((c) => esc(c.header)).join(",")]
     .concat(rows.map((r) => EXPORT_COLS.map((c) => esc(r[c.key])).join(",")))
