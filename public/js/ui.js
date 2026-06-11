@@ -194,8 +194,18 @@ export async function loadData() {
       return fallback;
     }
   };
-  const [store, funds, meta, snapIndex] = await Promise.all([
-    get("data/fund-sightings.json", { sightings: [] }),
+  // Track whether the core file loaded so the UI can show an honest error state.
+  let dataError = false;
+  let store = { sightings: [] };
+  try {
+    const r = await fetch("data/fund-sightings.json", { cache: "no-store" });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    store = await r.json();
+  } catch (err) {
+    console.warn("loadData (fund-sightings):", err.message);
+    dataError = true;
+  }
+  const [funds, meta, snapIndex] = await Promise.all([
     get("data/funds.json", { funds: [] }),
     get("data/metadata.json", {}),
     get("data/snapshots/index.json", { snapshots: [] }),
@@ -206,6 +216,7 @@ export async function loadData() {
     funds: funds.funds || [],
     meta: meta || {},
     snapshots: snapIndex.snapshots || [],
+    dataError,
   };
   return _cache;
 }

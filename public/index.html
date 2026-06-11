@@ -25,6 +25,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://unpkg.com/echarts@5/dist/echarts.min.js"></script>
+  <!-- ExcelJS via unpkg (jsdelivr is blocked on this network); CSV fallback if it fails. -->
+  <script src="https://unpkg.com/exceljs@4.4.0/dist/exceljs.min.js"></script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A1%3C/text%3E%3C/svg%3E" />
 
   <style>
     html, body { background: #FBFAFF; }
@@ -78,10 +81,15 @@
         <h1 class="font-display text-3xl font-bold tracking-tight sm:text-4xl"><span class="brand-gradient">📡 Fund Tracker — MGA</span></h1>
         <p class="mt-1.5 max-w-2xl text-sm text-slate-500">How funds overlap on companies &amp; cluster by sector — from Screener concalls, last 90 days.</p>
       </div>
-      <span class="inline-flex w-fit items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-medium text-slate-500 shadow-sm ring-1 ring-slate-100">
-        <span class="relative flex h-2 w-2"><span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60"></span><span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span></span>
-        Updated <span id="meta-updated" class="font-mono font-semibold text-slate-700">—</span>
-      </span>
+      <div class="flex w-fit items-center gap-2">
+        <button id="export-btn" title="Export all sightings to Excel" class="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 text-xs font-medium text-slate-600 shadow-sm ring-1 ring-slate-100 transition hover:bg-slate-50 hover:text-indigo-600">
+          <i data-lucide="download" class="h-3.5 w-3.5"></i>Export
+        </button>
+        <span class="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-medium text-slate-500 shadow-sm ring-1 ring-slate-100">
+          <span class="relative flex h-2 w-2"><span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60"></span><span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span></span>
+          Updated <span id="meta-updated" class="font-mono font-semibold text-slate-700">—</span>
+        </span>
+      </div>
     </header>
 
     <section id="kpi-strip" class="mb-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4"></section>
@@ -91,7 +99,7 @@
         <button data-tab="radar" role="tab" aria-selected="true" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="radar" class="h-4 w-4"></i><span class="hidden sm:inline">Radar</span></button>
         <button data-tab="funds" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="briefcase" class="h-4 w-4"></i><span class="hidden sm:inline">Funds</span></button>
         <button data-tab="sectors" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="layers" class="h-4 w-4"></i><span class="hidden sm:inline">Sectors</span></button>
-        <button data-tab="overlap" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="git-merge" class="h-4 w-4"></i><span class="hidden sm:inline">Overlap</span></button>
+        <button data-tab="overlap" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="git-merge" class="h-4 w-4"></i><span class="hidden sm:inline">Consensus</span></button>
         <button data-tab="flags" role="tab" aria-selected="false" class="tab-btn flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium sm:px-4"><i data-lucide="bell" class="h-4 w-4"></i><span class="hidden sm:inline">Recent Flags</span><span data-badge="flags" class="hidden rounded-full bg-amber-100 px-1.5 text-[10px] font-mono text-amber-700"></span></button>
       </div>
     </nav>
@@ -104,7 +112,18 @@
       <section id="tab-flags" hidden></section>
     </main>
 
-    <footer class="mt-16 text-center text-xs text-slate-400">Source: Screener.in — Market Pulse → Concalls · rolling 90-day window · refreshes daily</footer>
+    <footer class="mt-16 space-y-1 text-center text-xs text-slate-400">
+      <p>Source: Screener.in — Market Pulse → Concalls · rolling 90-day window · refreshes daily</p>
+      <p class="text-slate-300">Signal = smart-money attention from concall participation — a leading indicator, not confirmed positions.</p>
+    </footer>
+  </div>
+
+  <!-- Boot loader -->
+  <div id="boot-loader" class="fixed inset-0 z-[60] flex items-center justify-center bg-[#FBFAFF]">
+    <div class="flex flex-col items-center gap-3 text-slate-400">
+      <div class="h-8 w-8 animate-spin rounded-full border-2 border-slate-200 border-t-indigo-500"></div>
+      <span class="font-display text-sm">Loading the radar…</span>
+    </div>
   </div>
 
   <!-- Drill modal (centered) -->

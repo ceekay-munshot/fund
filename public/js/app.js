@@ -1,9 +1,13 @@
 // app.js — Fund Tracker — MGA · visual-first dashboard
 // ---------------------------------------------------------------------------
-// Builds the KPI strip, tab nav, the "Radar" tab (interactive network graph +
-// sector treemap + new-sightings timeline) and the "Funds" tab (visual tile
-// board + slide-over drill panel). Sectors / Overlap / Recent Flags are styled
-// "coming soon" panels filled in Prompt 11, reusing the design system in ui.js.
+// Renders the KPI strip + five tabs from the cached data in ./data, all on the
+// shared design system in ui.js:
+//   Radar    — Fund×Sector heatmap + sector treemap + highest-conviction bar
+//   Funds    — searchable fund board + drill modal
+//   Sectors  — House View + ranked funds-per-sector bar + sortable table + drill
+//   Consensus(overlap) — tiered consensus book + "conviction building" + drill
+//   Recent Flags — chronological feed (First-interest/Repeat, filters)
+// Plus a header Export button (sightings → styled .xlsx / CSV).
 // ---------------------------------------------------------------------------
 
 import {
@@ -1178,8 +1182,110 @@ function renderBadges() {
 }
 
 // --- boot ------------------------------------------------------------------
+// --- data export -----------------------------------------------------------
+const EXPORT_COLS = [
+  { header: "Fund", key: "fund", width: 24 },
+  { header: "Company", key: "company", width: 26 },
+  { header: "Ticker", key: "ticker", width: 12 },
+  { header: "Sector", key: "sector", width: 22 },
+  { header: "Industry", key: "industry", width: 28 },
+  { header: "Concall Date", key: "concall_date", width: 14 },
+  { header: "Occurrences", key: "occurrences", width: 12 },
+  { header: "First Interest?", key: "first_interest", width: 14 },
+  { header: "Funds On Name", key: "funds_on_name", width: 14 },
+  { header: "Transcript URL", key: "transcript_url", width: 52 },
+  { header: "Quote", key: "quote", width: 70 },
+  { header: "First Seen", key: "first_seen", width: 22 },
+];
+
+function exportRows() {
+  // First-interest + funds-on-name derived once, straight from the cached store.
+  const pairFirst = new Map(), pairCount = new Map();
+  for (const s of DATA.sightings) {
+    const k = s.fund_id + "|" + s.company;
+    const fd = s.first_seen || s.concall_date || "";
+    if (!pairFirst.has(k) || fd < pairFirst.get(k)) pairFirst.set(k, fd);
+    pairCount.set(k, (pairCount.get(k) || 0) + 1);
+  }
+  const fbc = fundsByCompany();
+  return DATA.sightings.map((s) => {
+    const k = s.fund_id + "|" + s.company;
+    const fd = s.first_seen || s.concall_date || "";
+    const first = !(pairCount.get(k) > 1 && fd > pairFirst.get(k));
+    return {
+      fund: s.fund_name || "", company: s.company || "", ticker: s.ticker || "",
+      sector: s.sector || "", industry: s.industry || "", concall_date: s.concall_date || "",
+      occurrences: s.occurrences || 1, first_interest: first ? "Yes" : "No",
+      funds_on_name: fbc.get(s.company)?.size || 1, transcript_url: s.transcript_url || "",
+      quote: s.quote || "", first_seen: s.first_seen || "",
+    };
+  });
+}
+
+function downloadBlob(blob, name) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = name; document.body.appendChild(a); a.click();
+  a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+async function exportData() {
+  if (!DATA || !DATA.sightings.length) return;
+  const rows = exportRows();
+  const dateStr = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
+  const base = `fund-tracker-mga_sightings_${dateStr}`;
+
+  if (window.ExcelJS) {
+    try {
+      const wb = new window.ExcelJS.Workbook();
+      const ws = wb.addWorksheet("Sightings", { views: [{ state: "frozen", ySplit: 1 }] });
+      ws.columns = EXPORT_COLS.map((c) => ({ header: c.header, key: c.key, width: c.width }));
+      rows.forEach((r) => ws.addRow(r));
+      const hdr = ws.getRow(1);
+      hdr.font = { bold: true, color: { argb: "FFFFFFFF" }, size: 11 };
+      hdr.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
+      hdr.alignment = { vertical: "middle" };
+      hdr.height = 22;
+      ws.autoFilter = "A1:L1";
+      const buf = await wb.xlsx.writeBuffer();
+      downloadBlob(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), base + ".xlsx");
+      return;
+    } catch (e) {
+      console.warn("xlsx export failed, falling back to CSV:", e.message);
+    }
+  }
+  // CSV fallback
+  const esc = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
+  const csv = [EXPORT_COLS.map((c) => esc(c.header)).join(",")]
+    .concat(rows.map((r) => EXPORT_COLS.map((c) => esc(r[c.key])).join(",")))
+    .join("\r\n");
+  downloadBlob(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }), base + ".csv");
+}
+
+function showBootError(msg) {
+  const l = document.getElementById("boot-loader");
+  if (!l) return;
+  l.innerHTML = `<div class="flex max-w-sm flex-col items-center gap-3 px-6 text-center">
+    <div class="rounded-2xl bg-rose-50 p-3 text-rose-500"><i data-lucide="alert-triangle" class="h-7 w-7"></i></div>
+    <p class="font-display text-lg font-semibold text-slate-700">Couldn't load data</p>
+    <p class="text-sm text-slate-500">${escapeHtml(msg)}</p>
+    <button onclick="location.reload()" class="mt-1 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white">Retry</button></div>`;
+  refreshIcons();
+}
+
+// --- boot ------------------------------------------------------------------
 async function boot() {
-  DATA = await loadData();
+  try {
+    DATA = await loadData();
+  } catch (e) {
+    showBootError(e.message || "Network error.");
+    return;
+  }
+  if (DATA.dataError && !DATA.sightings.length) {
+    showBootError("Couldn't reach data/fund-sightings.json. Check the deployment / network and retry.");
+    return;
+  }
+
   const updated = document.getElementById("meta-updated");
   if (updated) updated.textContent = DATA.meta.generated_at ? fmtDate(String(DATA.meta.generated_at).slice(0, 10)) : "—";
 
@@ -1192,9 +1298,11 @@ async function boot() {
   const panel = document.getElementById("drill-panel");
   panel.addEventListener("click", (e) => { if (e.target === panel) closeDrill(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDrill(); });
+  document.getElementById("export-btn")?.addEventListener("click", exportData);
 
   let t;
   window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(resizeCharts, 150); });
   refreshIcons();
+  document.getElementById("boot-loader")?.remove();
 }
 document.addEventListener("DOMContentLoaded", boot);
