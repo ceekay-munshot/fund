@@ -1417,6 +1417,95 @@ function showBootError(msg) {
   refreshIcons();
 }
 
+// --- add fund (UI → Worker API) --------------------------------------------
+function openAddFund() {
+  const input = "w-full rounded-xl bg-white px-3 py-2.5 text-sm text-slate-800 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400";
+  document.getElementById("drill-content").innerHTML = `
+    <div class="flex items-start justify-between gap-3 border-b border-slate-100 p-5">
+      <div class="flex items-center gap-3">
+        <span class="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-br from-indigo-500 to-fuchsia-500 text-white shadow-sm"><i data-lucide="plus" class="h-5 w-5"></i></span>
+        <div><div class="font-display text-xl font-semibold text-slate-800">Add a fund</div>
+          <div class="mt-0.5 text-xs text-slate-500">We'll backfill its concall appearances over the last 90 days.</div></div>
+      </div>
+      <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
+    </div>
+    <form id="addfund-form" class="scroll-area flex-1 space-y-4 overflow-y-auto p-5">
+      <div>
+        <label class="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Fund name <span class="text-rose-500">*</span></label>
+        <input id="af-name" class="${input}" placeholder="e.g. Acme Capital" autocomplete="off" />
+      </div>
+      <div>
+        <label class="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Aliases <span class="font-normal normal-case text-slate-400">(optional)</span></label>
+        <input id="af-aliases" class="${input}" placeholder="Acme Capital, Acme Investment Advisors" autocomplete="off" />
+        <p class="mt-1 text-[11px] text-slate-400">Comma-separated name variations as they appear in concalls. We auto-add a few sensible variants too.</p>
+      </div>
+      <div>
+        <label class="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Passcode</label>
+        <input id="af-pass" type="password" class="${input}" placeholder="passcode" autocomplete="off" />
+      </div>
+      <button type="submit" id="af-submit" class="inline-flex w-full items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-indigo-600 to-fuchsia-500 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:opacity-95 disabled:opacity-60">
+        <i data-lucide="plus" class="h-4 w-4"></i>Add fund
+      </button>
+      <div id="af-status"></div>
+      <div>
+        <div class="mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-slate-400">Already tracking</div>
+        <div id="af-chips" class="flex flex-wrap gap-1.5"><span class="text-xs text-slate-400">Loading…</span></div>
+      </div>
+      <p class="text-[11px] text-slate-400">New funds are matched against the last 90 days of concalls on the next backfill run.</p>
+    </form>`;
+  revealModal();
+  loadWatchlistChips();
+  document.getElementById("addfund-form").addEventListener("submit", submitAddFund);
+}
+
+async function loadWatchlistChips() {
+  const el = document.getElementById("af-chips");
+  if (!el) return;
+  try {
+    const r = await fetch("/api/funds");
+    const d = await r.json();
+    const funds = d.funds || [];
+    el.innerHTML = funds.length
+      ? funds.map((f) => { const c = fundColor(f.id); return `<span class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium" style="background:${c}1a;color:${c}"><span class="h-1.5 w-1.5 rounded-full" style="background:${c}"></span>${escapeHtml(f.name)}</span>`; }).join("")
+      : `<span class="text-xs text-slate-400">No funds yet.</span>`;
+  } catch {
+    el.innerHTML = `<span class="text-xs text-slate-400">Couldn't load the current watchlist.</span>`;
+  }
+}
+
+async function submitAddFund(e) {
+  e.preventDefault();
+  const btn = document.getElementById("af-submit");
+  const status = document.getElementById("af-status");
+  const note = (icon, color, msg) => `<div class="flex items-start gap-2 rounded-xl px-3 py-2 text-sm" style="background:${color}14;color:${color}"><i data-lucide="${icon}" class="mt-0.5 h-4 w-4 shrink-0"></i><span>${escapeHtml(msg)}</span></div>`;
+  const name = document.getElementById("af-name").value.trim();
+  const aliases = document.getElementById("af-aliases").value.trim();
+  const passcode = document.getElementById("af-pass").value;
+  if (!name) { status.innerHTML = note("alert-circle", "#F43F5E", "Please enter a fund name."); refreshIcons(); return; }
+
+  btn.disabled = true;
+  btn.innerHTML = `<span class="inline-block h-4 w-4 animate-spin rounded-full border-2 border-white/40 border-t-white"></span> Adding…`;
+  status.innerHTML = "";
+  try {
+    const r = await fetch("/api/add-fund", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, aliases, passcode }) });
+    const data = await r.json().catch(() => ({}));
+    if (r.ok && data.ok) {
+      status.innerHTML = note("check-circle", "#10B981", data.message || "Added!");
+      document.getElementById("af-name").value = "";
+      document.getElementById("af-aliases").value = "";
+      loadWatchlistChips();
+    } else {
+      status.innerHTML = note("alert-circle", "#F43F5E", data.error || `Something went wrong (HTTP ${r.status}).`);
+    }
+  } catch {
+    status.innerHTML = note("wifi-off", "#F43F5E", "Network error — please try again.");
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = `<i data-lucide="plus" class="h-4 w-4"></i>Add fund`;
+    refreshIcons();
+  }
+}
+
 // --- boot ------------------------------------------------------------------
 async function boot() {
   try {
@@ -1443,6 +1532,7 @@ async function boot() {
   panel.addEventListener("click", (e) => { if (e.target === panel) closeDrill(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDrill(); });
   document.getElementById("export-btn")?.addEventListener("click", exportData);
+  document.getElementById("addfund-btn")?.addEventListener("click", openAddFund);
 
   let t;
   window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(resizeCharts, 150); });

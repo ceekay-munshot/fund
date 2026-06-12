@@ -1,5 +1,6 @@
 {
   "name": "fund",
   "compatibility_date": "2026-05-23",
-  "assets": { "directory": "./public" }
+  "main": "worker/index.js",
+  "assets": { "directory": "./public", "binding": "ASSETS" }
 }
