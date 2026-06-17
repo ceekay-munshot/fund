@@ -38,6 +38,7 @@ const PUBLIC_DATA = join(__dirname, "..", "public", "data");
 
 const STEPS = [
   "scrape-concalls.mjs",
+  "scrape-company-history.mjs", // FULL only: backfill older quarters per company (self-skips otherwise)
   "scrape-transcripts.mjs",
   "match-funds.mjs",
   "enrich-sectors.mjs",
