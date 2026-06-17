@@ -18,7 +18,7 @@
 //
 // Env knobs:
 //   LIMIT   — cap concalls for testing
-//   FULL=1  — ignore the processed-concalls skip list → reprocess the whole 90-day
+//   FULL=1  — ignore the processed-concalls skip list → reprocess the whole 4-quarter
 //             window (first run / quarterly sweep)
 //   HEADFUL=1
 //
@@ -55,7 +55,7 @@ async function readJson(path) {
 
 async function main() {
   const startedAt = Date.now();
-  const mode = process.env.FULL === "1" || process.env.FORCE === "1" ? "FULL (full 90-day sweep)" : "incremental";
+  const mode = process.env.FULL === "1" || process.env.FORCE === "1" ? "FULL (full 4-quarter sweep)" : "incremental";
   console.log(`Running pipeline in ${mode} mode…`);
 
   for (const file of STEPS) {
