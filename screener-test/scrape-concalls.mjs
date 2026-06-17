@@ -124,45 +124,22 @@ function pageNumOf(url) {
   return m ? Number(m[1]) : 1;
 }
 
-// Find the next page in a NUMBERED listing. The Concalls page paginates with
-// ?p=N links (2,3,…,152), so pick the smallest page number greater than the
-// current one. Keyed on the href pattern, NOT link text — so a company named
-// "HRH Next" can't masquerade as a Next button. Falls back to rel=next or an
-// explicit forward arrow that is not itself a company link.
+// Next page in the NUMBERED listing. Screener uses WINDOWED pagination
+// (2 3 4 … 151 152), and on deep pages it stops rendering the last-page link —
+// so we must NOT gate on the max linked page (that made us stop early at ~2
+// months). Instead always advance to ?p=(cur+1); collectRows terminates on the
+// window cutoff, an empty/duplicate page (no new rows), or MAX_PAGES.
 function findNextPageUrl($, currentUrl) {
   const cur = pageNumOf(currentUrl);
-
-  // Learn the pagination param and the max page number from the numbered links.
-  // Screener uses windowed pagination (2 3 4 … 151 152), so current+1 may not be
-  // rendered — construct it directly rather than picking a visible link, which
-  // would otherwise skip pages. Keyed on the ?p= href pattern, not link text.
-  let param = null;
-  let maxN = 0;
+  // Learn the pagination param name from any numbered link (default "p").
+  let param = "p";
   $("a[href]").each((_, a) => {
-    const m = $(a).attr("href").match(/[?&](p|page)=(\d+)/i);
-    if (!m) return;
-    if (!param) param = m[1];
-    const n = Number(m[2]);
-    if (n > maxN) maxN = n;
+    const m = $(a).attr("href").match(/[?&](p|page)=\d+/i);
+    if (m) { param = m[1]; return false; }
   });
-  if (param && cur + 1 <= maxN) {
-    const u = new URL(currentUrl);
-    u.searchParams.set(param, String(cur + 1));
-    return u.href;
-  }
-
-  // Fallback: rel=next or an explicit forward arrow that isn't a company link.
-  let href = $('a[rel="next"]').attr("href");
-  if (!href) {
-    $("a[href]").each((_, a) => {
-      if (href) return;
-      const t = $(a).text().trim().toLowerCase();
-      if (/^(next|older|»|›)$/.test(t) && !/\/company\//.test($(a).attr("href"))) {
-        href = $(a).attr("href");
-      }
-    });
-  }
-  return href && !/\/company\//.test(href) ? abs(href, currentUrl) : null;
+  const u = new URL(currentUrl);
+  u.searchParams.set(param, String(cur + 1));
+  return u.href;
 }
 
 // --- locate the Concalls page ----------------------------------------------
