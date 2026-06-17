@@ -33,7 +33,7 @@ const UA =
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = join(__dirname, "output");
 
-const WINDOW_DAYS = 90;
+const WINDOW_DAYS = 365; // ~4 quarters (rolling 1-year window)
 const LIMIT = Number(process.env.LIMIT || 0);
 const HEADFUL = process.env.HEADFUL === "1";
 const DEBUG = process.env.DEBUG === "1";
@@ -272,7 +272,7 @@ function parseConcalls(html) {
 async function collectRows(page, cutoffMs) {
   const byKey = new Map();
   const visited = new Set();
-  const MAX_PAGES = 160; // safety cap above the listing's total page count
+  const MAX_PAGES = 400; // a 4-quarter window spans many more pages
 
   for (let pageNum = 1; pageNum <= MAX_PAGES; pageNum++) {
     visited.add(page.url().split("#")[0]);

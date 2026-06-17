@@ -9,14 +9,14 @@ on:
         default: "0"
         type: string
   schedule:
-    # 01:23 UTC on the 1st of Jan/Apr/Jul/Oct. Full 90-day reprocess to backfill
+    # 01:23 UTC on the 1st of Jan/Apr/Jul/Oct. Full 4-quarter reprocess to backfill
     # anything missed and re-run matching/enrichment with the latest aliases/selectors.
     - cron: "23 1 1 1,4,7,10 *"
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 330
     permissions:
       contents: write
     steps:
@@ -28,7 +28,7 @@ jobs:
         run: |
           npm install playwright@1 cheerio@1 pdfjs-dist --no-save
           npx playwright install --with-deps chromium
-      - name: Run pipeline (FULL 90-day sweep)
+      - name: Run pipeline (FULL 4-quarter sweep)
         env:
           SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
           SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}

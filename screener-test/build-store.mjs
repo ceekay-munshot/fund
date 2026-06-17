@@ -43,7 +43,7 @@ const META_PATH = join(PUBLIC_DATA, "metadata.json");
 const COMPANY_META_PATH = join(PUBLIC_DATA, "company-meta.json");
 const FUNDS_OUT_PATH = join(PUBLIC_DATA, "funds.json");
 
-const WINDOW_DAYS = 90;
+const WINDOW_DAYS = 365; // ~4 quarters (rolling 1-year window)
 
 async function readJson(path) {
   return JSON.parse(await readFile(path, "utf8"));
@@ -213,7 +213,7 @@ async function run() {
     JSON.stringify(
       {
         generated_at: nowIso,
-        source: "Screener.in — Market Pulse > Concalls (last 90 days)",
+        source: "Screener.in — Market Pulse > Concalls (last 4 quarters)",
         fund_count: fundCount,
         sighting_count: sightings.length,
         company_count: companyCount,

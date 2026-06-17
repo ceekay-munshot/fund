@@ -20,7 +20,7 @@ on:
         required: false
         default: "60"
       full:
-        description: "FULL sweep: ignore processed-concalls skip list, reprocess whole 90-day window (1/0)"
+        description: "FULL sweep: ignore processed-concalls skip list, reprocess whole 4-quarter window (1/0)"
         required: false
         default: "0"
       force:

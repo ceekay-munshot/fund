@@ -9,7 +9,7 @@ on:
         default: "0"
         type: string
       full:
-        description: "FULL=1 reprocess whole 90-day window"
+        description: "FULL=1 reprocess whole 4-quarter window"
         required: false
         default: "0"
         type: string

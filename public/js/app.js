@@ -71,7 +71,7 @@ function renderKpis() {
     { label: "Engagements", value: s.length, icon: "radar", grad: "from-indigo-500 to-violet-500" },
     { label: "Active Funds", value: activeFunds, suffix: ` / ${fundTotal}`, icon: "briefcase", grad: "from-emerald-500 to-teal-500", action: "funds" },
     { label: "Companies Tracked", value: companies, icon: "building-2", grad: "from-sky-500 to-blue-500" },
-    { label: "Concalls Scanned (90d)", value: DATA.meta.concalls_scanned ?? 0, icon: "file-text", grad: "from-amber-500 to-orange-500" },
+    { label: "Concalls Scanned (4 qtrs)", value: DATA.meta.concalls_scanned ?? 0, icon: "file-text", grad: "from-amber-500 to-orange-500" },
   ];
   document.getElementById("kpi-strip").innerHTML = cards
     .map(
@@ -435,7 +435,7 @@ function fundTile(f) {
         <span class="grid h-11 w-11 shrink-0 place-items-center rounded-2xl font-display text-sm font-bold text-white shadow-sm" style="background:${color}">${escapeHtml(initials(f.name))}</span>
         <div class="min-w-0">
           <div class="truncate font-display text-base font-semibold text-slate-800">${escapeHtml(f.name)}</div>
-          <div class="font-mono text-xs text-slate-500">${zero ? "no companies (90d)" : `${f.companyCount} ${f.companyCount === 1 ? "company" : "companies"}`}</div>
+          <div class="font-mono text-xs text-slate-500">${zero ? "no companies (4 qtrs)" : `${f.companyCount} ${f.companyCount === 1 ? "company" : "companies"}`}</div>
         </div>
       </div>
       <div class="mt-4">${bar}</div>
@@ -464,7 +464,7 @@ function openDrill(fundId) {
       <div id="drill-legend" class="grid w-full flex-1 grid-cols-2 gap-x-5 gap-y-1.5 text-xs"></div>
     </div>` : ""}
     <div class="scroll-area flex-1 overflow-y-auto p-4">
-      ${companies.length ? `<div class="grid gap-2 sm:grid-cols-2">${companies.map((c) => drillRow(c, color)).join("")}</div>` : emptyState("inbox", "No companies", "Not seen in a concall in the last 90 days.")}
+      ${companies.length ? `<div class="grid gap-2 sm:grid-cols-2">${companies.map((c) => drillRow(c, color)).join("")}</div>` : emptyState("inbox", "No companies", "Not seen in a concall in the last 4 quarters.")}
     </div>`;
   revealModal();
   if (f.sightings.length) drawDrillDonut(f, color);
@@ -695,7 +695,7 @@ function renderSectorBar(stats) {
     grid: { left: 8, right: 56, top: 8, bottom: 8, containLabel: true },
     tooltip: { trigger: "item", confine: true, backgroundColor: "#fff", borderColor: "#e2e8f0", textStyle: { color: "#334155" }, extraCssText: "border-radius:12px;box-shadow:0 12px 32px -12px rgba(16,24,40,.3);",
       formatter: (p) => { const r = rows[p.dataIndex]; const t = r.trend === "up" ? "Heating up ▲" : r.trend === "down" ? "Cooling ▼" : "Steady"; return `<b>${escapeHtml(r.sector)}</b><br/>${r.fundCount} funds · ${r.sightings} engagements<br/><span style="color:#64748b">${t}${r.delta ? ` (${r.delta > 0 ? "+" : ""}${r.delta})` : ""} · ${r.focus}</span>`; } },
-    xAxis: { type: "value", minInterval: 1, max: 13, splitLine: { lineStyle: { color: "#f1f5f9" } }, axisLabel: { color: "#94a3b8", fontFamily: "JetBrains Mono" } },
+    xAxis: { type: "value", minInterval: 1, max: (DATA.funds.length || 52), splitLine: { lineStyle: { color: "#f1f5f9" } }, axisLabel: { color: "#94a3b8", fontFamily: "JetBrains Mono" } },
     yAxis: { type: "category", data: rows.map((r) => r.sector), axisTick: { show: false }, axisLine: { show: false }, axisLabel: { color: "#334155", fontSize: 11.5, width: 150, overflow: "truncate" } },
     series: [{
       type: "bar", barWidth: "58%",
@@ -732,7 +732,7 @@ function renderSectorTable() {
         ${sorted.map((s) => `
         <tr data-sector="${escapeHtml(s.sector)}" class="cursor-pointer border-t border-slate-100 transition hover:bg-slate-50">
           <td class="px-4 py-3"><span class="inline-flex items-center gap-2 font-medium text-slate-800"><span class="h-2.5 w-2.5 rounded-full" style="background:${sectorColor(s.sector === "Unclassified" ? null : s.sector)}"></span>${escapeHtml(s.sector)}</span></td>
-          <td class="px-4 py-3"><div class="flex items-center gap-2"><span class="font-mono text-slate-700">${s.fundCount}<span class="text-slate-300">/13</span></span><span class="flex gap-0.5">${fundDots(s.fundIds)}</span></div></td>
+          <td class="px-4 py-3"><div class="flex items-center gap-2"><span class="font-mono text-slate-700">${s.fundCount}<span class="text-slate-300">/${DATA.funds.length}</span></span><span class="flex gap-0.5">${fundDots(s.fundIds)}</span></div></td>
           <td class="px-4 py-3 hidden sm:table-cell font-mono text-slate-600">${s.sightings}</td>
           <td class="px-4 py-3">${trendBadge(s)}</td>
           <td class="px-4 py-3 hidden md:table-cell">${focusBadge(s)}</td>
@@ -768,7 +768,7 @@ function openSectorDrill(sectorName) {
     </div>
     <div class="border-b border-slate-100 p-5">
       <div class="mb-3 flex flex-wrap items-center gap-5">
-        <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.fundCount}<span class="text-base text-slate-400">/13</span></div><div class="text-[11px] uppercase tracking-wide text-slate-400">funds</div></div>
+        <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.fundCount}<span class="text-base text-slate-400">/${DATA.funds.length}</span></div><div class="text-[11px] uppercase tracking-wide text-slate-400">funds</div></div>
         <div><div class="font-mono text-2xl font-semibold text-slate-800">${s.sightings}</div><div class="text-[11px] uppercase tracking-wide text-slate-400">engagements</div></div>
         <div class="flex gap-2 self-center">${trendBadge(s)}${focusBadge(s)}</div>
       </div>
@@ -1256,7 +1256,7 @@ function buildSightingsSheet(wb, rows) {
   ws.getCell("A1").alignment = { vertical: "middle" };
   ws.getRow(1).height = 30;
   ws.mergeCells(`A2:${last}2`);
-  ws.getCell("A2").value = `Rolling 90-day concall participation · ${rows.length} sightings · 13 funds · a leading-indicator attention signal, not confirmed positions`;
+  ws.getCell("A2").value = `Rolling 4-quarter concall participation · ${rows.length} sightings · ${DATA.funds.length} funds · a leading-indicator attention signal, not confirmed positions`;
   ws.getCell("A2").font = { italic: true, size: 10, color: { argb: MUTE } };
   ws.getRow(2).height = 18;
   // Header row (3)
@@ -1313,7 +1313,7 @@ function buildSummarySheet(wb) {
   const book = consensusBook();
   const kpis = [
     { span: "A3:B4", v: sights.length, l: "Engagements", c: "FF6366F1" },
-    { span: "C3:D4", v: `${activeFunds} / 13`, l: "Active Funds", c: "FF10B981" },
+    { span: "C3:D4", v: `${activeFunds} / ${DATA.funds.length}`, l: "Active Funds", c: "FF10B981" },
     { span: "F3:G4", v: companies, l: "Companies", c: "FF0EA5E9" },
     { span: "H3:I4", v: book.length, l: "Consensus (2+)", c: "FFF59E0B" },
   ];
@@ -1425,7 +1425,7 @@ function openAddFund() {
       <div class="flex items-center gap-3">
         <span class="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-br from-indigo-500 to-fuchsia-500 text-white shadow-sm"><i data-lucide="plus" class="h-5 w-5"></i></span>
         <div><div class="font-display text-xl font-semibold text-slate-800">Add a fund</div>
-          <div class="mt-0.5 text-xs text-slate-500">We'll backfill its concall appearances over the last 90 days.</div></div>
+          <div class="mt-0.5 text-xs text-slate-500">We'll backfill its concall appearances over the last 4 quarters.</div></div>
       </div>
       <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
     </div>
@@ -1451,7 +1451,7 @@ function openAddFund() {
         <div class="mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-slate-400">Already tracking</div>
         <div id="af-chips" class="flex flex-wrap gap-1.5"><span class="text-xs text-slate-400">Loading…</span></div>
       </div>
-      <p class="text-[11px] text-slate-400">New funds are matched against the last 90 days of concalls on the next backfill run.</p>
+      <p class="text-[11px] text-slate-400">New funds are matched against the last 4 quarters of concalls on the next backfill run.</p>
     </form>`;
   revealModal();
   loadWatchlistChips();
