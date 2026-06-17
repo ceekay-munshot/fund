@@ -31,6 +31,14 @@ on:
         description: "Merge into public/data and commit it to main (1/0)"
         required: false
         default: "0"
+      company_limit:
+        description: "Cap company-history pages (FULL only; 0 = all)"
+        required: false
+        default: "0"
+      debug:
+        description: "Verbose DOM-discovery logging (1/0)"
+        required: false
+        default: "0"
 
 jobs:
   scrape:
@@ -62,6 +70,8 @@ jobs:
           LIMIT: ${{ github.event.inputs.limit }}
           FULL: ${{ github.event.inputs.full }}
           FORCE: ${{ github.event.inputs.force }}
+          COMPANY_LIMIT: ${{ github.event.inputs.company_limit }}
+          DEBUG: ${{ github.event.inputs.debug }}
         run: node screener-test/run-pipeline.mjs
 
       - name: Commit refreshed public/data to main (gated by 'commit' input)
