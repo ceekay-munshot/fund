@@ -367,21 +367,22 @@ async function run() {
     // before — this is the queue the hourly history-backfill drains, so it must remember
     // every company across runs even though concalls-index.json is rebuilt each time.
     {
-      let universe = {};
+      // Preserve any existing fields (the seed cursor seed_next_page/seed_complete the
+      // directory enumerator writes) — only merge in newly-seen companies.
+      let uni = { companies: {} };
       if (existsSync(UNIVERSE_PATH)) {
-        try { universe = JSON.parse(await readFile(UNIVERSE_PATH, "utf8")).companies || {}; } catch { /* ignore */ }
+        try { uni = { companies: {}, ...JSON.parse(await readFile(UNIVERSE_PATH, "utf8")) }; } catch { /* ignore */ }
       }
+      uni.companies = uni.companies || {};
       let addedToUniverse = 0;
       for (const r of kept) {
-        if (r.company && r.company_url && !universe[r.company]) { universe[r.company] = r.company_url; addedToUniverse++; }
+        if (r.company && r.company_url && !uni.companies[r.company]) { uni.companies[r.company] = r.company_url; addedToUniverse++; }
       }
+      uni.count = Object.keys(uni.companies).length;
+      uni.updated_at = now.toISOString();
       await mkdir(dirname(UNIVERSE_PATH), { recursive: true });
-      await writeFile(
-        UNIVERSE_PATH,
-        JSON.stringify({ updated_at: now.toISOString(), count: Object.keys(universe).length, companies: universe }, null, 2) + "\n",
-        "utf8"
-      );
-      console.log(`  company universe: ${Object.keys(universe).length} known (+${addedToUniverse} new this run) → company-universe.json`);
+      await writeFile(UNIVERSE_PATH, JSON.stringify(uni, null, 2) + "\n", "utf8");
+      console.log(`  company universe: ${uni.count} known (+${addedToUniverse} new this run) → company-universe.json`);
     }
 
     // Optional cap for quick test runs.

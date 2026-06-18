@@ -1,0 +1,71 @@
+name: Seed universe (fund radar)
+
+# One-time-ish: enumerate Screener's FULL company directory into the committed
+# company-universe.json so the hourly history-backfill covers every concall-holding
+# company, not just those that reported in the recent window.
+#
+# Screener blocks the IP after ~50 page hits, so this is block-safe and resumable: it
+# reads up to SEED_MAX_PAGES list pages per run and stores a page cursor in
+# company-universe.json. It runs hourly at :47 (opposite half-hour from the backfill at
+# :17, so the two never hit Screener at once) and STOPS once the directory is fully
+# enumerated (seed_complete:true → no-op, no commit). Disable/delete after that if you
+# like; it's harmless either way.
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: "Directory pages to read this run (block-safe ≈ 40)"
+        required: false
+        default: "40"
+        type: string
+      debug:
+        description: "Dump parsed company links (1/0)"
+        required: false
+        default: "0"
+        type: string
+  schedule:
+    - cron: "47 * * * *"
+
+concurrency:
+  group: seed-universe
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Install deps
+        run: |
+          npm install playwright@1 cheerio@1 --no-save
+          npx playwright install --with-deps chromium
+      - name: Enumerate directory batch
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          SEED_MAX_PAGES: ${{ inputs.max_pages || '40' }}
+          DEBUG: ${{ inputs.debug || '0' }}
+        run: node screener-test/seed-universe.mjs
+      - name: Commit universe to main
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/company-universe.json
+          if git diff --cached --quiet; then echo "No universe changes — seed idle/complete."; exit 0; fi
+          git commit -m "Fund radar universe seed ($(date -u +%Y-%m-%dT%H:%MZ)) [skip ci]"
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then echo "Pushed (attempt $attempt)."; exit 0; fi
+            echo "Push rejected ($attempt) — fetch + rebase onto fresh main..."
+            git fetch origin main
+            git rebase origin/main || { echo "Rebase failed."; git rebase --abort; exit 1; }
+            sleep $((attempt * 2))
+          done
+          echo "Push still failing after 4 attempts."; exit 1
