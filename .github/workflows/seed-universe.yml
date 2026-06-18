@@ -25,7 +25,10 @@ on:
         default: "0"
         type: string
   schedule:
-    - cron: "47 * * * *"
+    # Every 15 min, offset 7 min from the backfill (:00/:15/:30/:45) so the two never
+    # hit Screener at the same time. Enumerates the full directory in a handful of runs,
+    # then self-quiesces (seed_complete → no-op).
+    - cron: "7,22,37,52 * * * *"
 
 concurrency:
   group: seed-universe

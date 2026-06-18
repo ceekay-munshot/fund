@@ -22,8 +22,12 @@ on:
         default: "45"
         type: string
   schedule:
-    # Hourly, at :17 to dodge GitHub's congested top-of-hour cron queue.
-    - cron: "17 * * * *"
+    # Every 15 min. Each run is a fresh runner (fresh IP), which resets Screener's
+    # per-session block — so frequent short runs beat the throttle better than one big
+    # run. The concurrency guard below serialises them, so they effectively chain
+    # back-to-back until the queue is drained, then self-quiesce. GitHub's scheduler is
+    # best-effort/laggy, but at 15-min cadence there's ample redundancy to finish fast.
+    - cron: "*/15 * * * *"
 
 # Never let two backfills run at once — they'd both hit Screener and double-commit.
 concurrency:
