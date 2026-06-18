@@ -76,6 +76,33 @@ function parseHistoryDate(raw) {
 const slugId = (company, date) =>
   `${(company || "unknown").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}_${date}`;
 
+const TODAY = new Date().toISOString().slice(0, 10);
+
+// Resolve a transcript anchor's concall date, most-trustworthy source first:
+//   1. the anchor's OWN text — rich announcement rows carry "29 May 2026" (exact day);
+//   2. the tightest row container (li / tr) — Screener's concall list shows "May 2026";
+//   3. a minimal parent walk (≤3) for div-based layouts.
+// Greedy walks up into wrapper divs were grabbing a neighbouring month (the May→Jun
+// drift) or Screener's ESTIMATED upcoming-results date (a future date), so we stop
+// tight and reject anything dated after today.
+function resolveAnchorDate($, $a) {
+  let date = parseHistoryDate($a.text());
+  if (!date) {
+    const $row = $a.closest("li, tr");
+    if ($row.length) date = parseHistoryDate($row.text());
+  }
+  if (!date) {
+    let $p = $a.parent();
+    for (let i = 0; i < 3 && $p.length; i++) {
+      date = parseHistoryDate($p.text());
+      if (date) break;
+      $p = $p.parent();
+    }
+  }
+  if (date && date > TODAY) return null; // estimated/upcoming results date — not a real concall
+  return date;
+}
+
 // Parse a company page's concall history → [{ concall_date, transcript_url }].
 // Anchors whose text is "Transcript" link to the exchange PDF; the row also holds
 // a month/year date. Scope to the concalls area when detectable, else page-wide.
@@ -84,18 +111,12 @@ function parseCompanyConcalls(html) {
   const out = [];
   const seen = new Set();
   $("a").each((_, a) => {
-    const txt = $(a).text().trim().toLowerCase();
+    const $a = $(a);
+    const txt = $a.text().trim().toLowerCase();
     if (!/transcript/.test(txt)) return;
-    const href = $(a).attr("href") || "";
+    const href = $a.attr("href") || "";
     if (!/\.pdf|AnnPdfOpen|nseindia|bseindia|nsearchives/i.test(href)) return; // real transcript doc
-    // Walk up to a row container that also carries a date.
-    let $row = $(a).closest("li, tr, .flex, div");
-    let date = null;
-    for (let i = 0; i < 5 && $row.length; i++) {
-      date = parseHistoryDate($row.text());
-      if (date) break;
-      $row = $row.parent();
-    }
+    const date = resolveAnchorDate($, $a);
     if (!date) return;
     const url = abs(href);
     const key = url || `${date}`;
@@ -154,10 +175,8 @@ async function run() {
 
         if ((!firstDumped || DEBUG)) {
           if (!firstDumped) await page.screenshot({ path: join(OUTPUT_DIR, "company-history-page.png"), fullPage: true }).catch(() => {});
-          const $ = cheerio.load(html);
-          const hits = [];
-          $("a").each((_, a) => { const t = $(a).text().trim(); if (/transcript/i.test(t)) hits.push(`${t} -> ${($(a).attr("href") || "").slice(0, 60)}`); });
-          console.log(`  ── dump ${company} (${url}) — transcript anchors: ${JSON.stringify(hits.slice(0, 8))}`);
+          const dump = parseCompanyConcalls(html).map((r) => `${r.concall_date} ⇐ ${(r.transcript_url || "").slice(-40)}`);
+          console.log(`  ── dump ${company} (${url}) — resolved concalls (date ⇐ url): ${JSON.stringify(dump.slice(0, 10))}`);
           firstDumped = true;
         }
 
