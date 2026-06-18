@@ -35,6 +35,7 @@ const PUBLIC_DATA = join(__dirname, "..", "public", "data");
 const COMPANY_META_PATH = join(PUBLIC_DATA, "company-meta.json");
 const STORE_PATH = join(PUBLIC_DATA, "fund-sightings.json");
 const STATE_PATH = join(PUBLIC_DATA, "company-history-state.json"); // incremental progress
+const UNIVERSE_PATH = join(PUBLIC_DATA, "company-universe.json"); // durable company→url queue
 
 const WINDOW_DAYS = 365; // ~4 quarters
 const FULL = process.env.FULL === "1" || process.env.FORCE === "1";
@@ -151,15 +152,27 @@ function parseCompanyConcalls(html) {
 async function run() {
   if (!FULL) { console.log("Not a FULL sweep — skipping company-history backfill."); return; }
   if (!process.env.SCREENER_EMAIL || !process.env.SCREENER_PASSWORD) throw new Error("Missing SCREENER_EMAIL / SCREENER_PASSWORD.");
-  if (!existsSync(INDEX_PATH)) throw new Error(`Input not found: ${INDEX_PATH}. Run scrape-concalls.mjs first.`);
 
   await mkdir(OUTPUT_DIR, { recursive: true });
-  const index = JSON.parse(await readFile(INDEX_PATH, "utf8"));
+  // The recent scrape may not have run (hourly backfill skips it), so an index is
+  // optional — start empty and let the universe come from the committed sources below.
+  let index = { concalls: [] };
+  if (existsSync(INDEX_PATH)) {
+    try { index = JSON.parse(await readFile(INDEX_PATH, "utf8")); } catch { /* start fresh */ }
+  }
   index.concalls = index.concalls || [];
 
-  // Company universe = companies in this run's index + committed company-meta cache.
+  // Company universe = committed company-universe.json (the durable queue) ∪ this run's
+  // index ∪ company-meta cache. The universe file is what lets the hourly backfill cover
+  // every company without re-scanning the recent list each time.
   const companyUrl = new Map();
-  for (const c of index.concalls) if (c.company && c.company_url) companyUrl.set(c.company, c.company_url);
+  if (existsSync(UNIVERSE_PATH)) {
+    try {
+      const uni = JSON.parse(await readFile(UNIVERSE_PATH, "utf8")).companies || {};
+      for (const [name, url] of Object.entries(uni)) if (url) companyUrl.set(name, url);
+    } catch { /* ignore */ }
+  }
+  for (const c of index.concalls) if (c.company && c.company_url && !companyUrl.has(c.company)) companyUrl.set(c.company, c.company_url);
   if (existsSync(COMPANY_META_PATH)) {
     try {
       const meta = JSON.parse(await readFile(COMPANY_META_PATH, "utf8")).companies || {};

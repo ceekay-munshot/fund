@@ -22,7 +22,8 @@
 
 import { chromium } from "playwright";
 import * as cheerio from "cheerio";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, writeFile, readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -32,6 +33,7 @@ const UA =
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = join(__dirname, "output");
+const UNIVERSE_PATH = join(__dirname, "..", "public", "data", "company-universe.json");
 
 const WINDOW_DAYS = 365; // ~4 quarters (rolling 1-year window)
 const LIMIT = Number(process.env.LIMIT || 0);
@@ -360,6 +362,27 @@ async function run() {
 
     // Sort newest first.
     kept.sort((a, b) => (a.concall_date < b.concall_date ? 1 : -1));
+
+    // Persist the committed company universe (name → url), UNION with what we've seen
+    // before — this is the queue the hourly history-backfill drains, so it must remember
+    // every company across runs even though concalls-index.json is rebuilt each time.
+    {
+      let universe = {};
+      if (existsSync(UNIVERSE_PATH)) {
+        try { universe = JSON.parse(await readFile(UNIVERSE_PATH, "utf8")).companies || {}; } catch { /* ignore */ }
+      }
+      let addedToUniverse = 0;
+      for (const r of kept) {
+        if (r.company && r.company_url && !universe[r.company]) { universe[r.company] = r.company_url; addedToUniverse++; }
+      }
+      await mkdir(dirname(UNIVERSE_PATH), { recursive: true });
+      await writeFile(
+        UNIVERSE_PATH,
+        JSON.stringify({ updated_at: now.toISOString(), count: Object.keys(universe).length, companies: universe }, null, 2) + "\n",
+        "utf8"
+      );
+      console.log(`  company universe: ${Object.keys(universe).length} known (+${addedToUniverse} new this run) → company-universe.json`);
+    }
 
     // Optional cap for quick test runs.
     if (LIMIT > 0 && kept.length > LIMIT) {

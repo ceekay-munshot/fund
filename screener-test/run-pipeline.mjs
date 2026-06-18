@@ -36,8 +36,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = join(__dirname, "output");
 const PUBLIC_DATA = join(__dirname, "..", "public", "data");
 
+// SKIP_RECENT=1 drops the recent Market Pulse scan (scrape-concalls). The hourly
+// history-backfill uses it: that scan costs ~49 Screener page hits which, combined with
+// the 45 company-page hits, would trip Screener's ~50-hit block. The recent scan is the
+// daily refresh's job; the hourly run only drains the history-backfill queue.
+const SKIP_RECENT = process.env.SKIP_RECENT === "1";
+
 const STEPS = [
-  "scrape-concalls.mjs",
+  ...(SKIP_RECENT ? [] : ["scrape-concalls.mjs"]),
   "scrape-company-history.mjs", // FULL only: backfill older quarters per company (self-skips otherwise)
   "scrape-transcripts.mjs",
   "match-funds.mjs",

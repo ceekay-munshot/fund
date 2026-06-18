@@ -1,0 +1,79 @@
+name: History backfill (fund radar)
+
+# Drains the 4-quarter backfill queue a block-safe batch at a time.
+#
+# Screener hard-blocks our IP after ~50 company-page hits per session, so we can't
+# sweep all ~800 companies at once. Instead this runs hourly, backfilling up to 45
+# companies per run (prioritising names that already carry a fund sighting), and
+# remembers progress in public/data/company-history-state.json so each run resumes
+# where the last left off. Over a day it walks the whole universe; once everything is
+# done a run finds nothing new and commits nothing (it self-quiesces).
+#
+# SKIP_RECENT=1 means it does NOT re-scan the recent Market Pulse list (that's the
+# daily refresh's job and would blow the page-hit budget) — it reads the company
+# universe from the committed company-universe.json instead.
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_companies:
+        description: "Companies to backfill this run (block-safe ≈ 45)"
+        required: false
+        default: "45"
+        type: string
+  schedule:
+    # Hourly, at :17 to dodge GitHub's congested top-of-hour cron queue.
+    - cron: "17 * * * *"
+
+# Never let two backfills run at once — they'd both hit Screener and double-commit.
+concurrency:
+  group: history-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Install deps
+        run: |
+          npm install playwright@1 cheerio@1 pdfjs-dist --no-save
+          npx playwright install --with-deps chromium
+      - name: Run backfill batch (no recent scan)
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          FULL: "1"
+          SKIP_RECENT: "1"
+          HISTORY_MAX_COMPANIES: ${{ inputs.max_companies || '45' }}
+        run: node screener-test/run-pipeline.mjs
+      - name: Upload data artifacts
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: fund-data-backfill
+          path: public/data/
+          if-no-files-found: warn
+      - name: Commit refreshed data to main
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then echo "No data changes — backfill queue idle."; exit 0; fi
+          git commit -m "Fund radar history backfill ($(date -u +%Y-%m-%dT%H:%MZ)) [skip ci]"
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then echo "Pushed (attempt $attempt)."; exit 0; fi
+            echo "Push rejected ($attempt) — fetch + rebase onto fresh main..."
+            git fetch origin main
+            git rebase origin/main || { echo "Rebase failed."; git rebase --abort; exit 1; }
+            sleep $((attempt * 2))
+          done
+          echo "Push still failing after 4 attempts."; exit 1
