@@ -58,7 +58,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // --- login helper (same proven flow as Prompt 2) ---------------------------
 async function loginViaBrowser(page) {
-  await page.goto(`${ORIGIN}/login/`, { waitUntil: "domcontentloaded", timeout: 60000 });
+  await page.goto(`${ORIGIN}/login/`, { waitUntil: "domcontentloaded", timeout: 25000 });
   await page.fill('input[name="username"]', process.env.SCREENER_EMAIL);
   await page.fill('input[name="password"]', process.env.SCREENER_PASSWORD);
   await Promise.all([
@@ -270,9 +270,16 @@ async function run() {
   let needsOcr = 0;
 
   try {
-    console.log("Logging in to Screener…");
-    await loginViaBrowser(page);
-    console.log("Login OK.");
+    // Screener login just holds a session; the actual transcript PDFs are fetched from
+    // BSE/NSE (different hosts), so a Screener IP block must NOT abort the run. If login
+    // fails, warn and carry on — the exchange fetches below don't depend on it.
+    try {
+      console.log("Logging in to Screener…");
+      await loginViaBrowser(page);
+      console.log("Login OK.");
+    } catch (e) {
+      console.log(`⚠ Screener login failed (${e.message.split("\n")[0]}) — continuing; transcripts come from BSE/NSE, which don't need it.`);
+    }
     await sleep(400);
 
     for (let i = 0; i < queue.length; i++) {

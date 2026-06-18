@@ -57,7 +57,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // --- login helper (same proven flow as Prompts 2/3) -----------------------
 async function loginViaBrowser(page) {
-  await page.goto(`${ORIGIN}/login/`, { waitUntil: "domcontentloaded", timeout: 60000 });
+  await page.goto(`${ORIGIN}/login/`, { waitUntil: "domcontentloaded", timeout: 25000 });
   await page.fill('input[name="username"]', process.env.SCREENER_EMAIL);
   await page.fill('input[name="password"]', process.env.SCREENER_PASSWORD);
   await Promise.all([
@@ -254,13 +254,22 @@ async function run() {
     const page = await context.newPage();
     let firstDumped = false;
 
+    let loginOk = false;
     try {
       console.log("Logging in to Screener…");
-      await loginViaBrowser(page);
-      console.log("Login OK.\n");
+      try {
+        await loginViaBrowser(page);
+        loginOk = true;
+        console.log("Login OK.\n");
+      } catch (e) {
+        // Screener IP block — don't abort the pipeline. Sectors are a self-healing
+        // cache: skip enrichment this run, build-store still commits, and a later run
+        // (healthy IP) fills the gaps. Better a committed run than a lost one.
+        console.log(`⚠ Screener login failed (${e.message.split("\n")[0]}) — skipping sector enrichment this run; cache fills in later.`);
+      }
       await sleep(400);
 
-      for (let i = 0; i < toFetch.length; i++) {
+      for (let i = 0; loginOk && i < toFetch.length; i++) {
         const [company, companyUrl] = toFetch[i];
         const entry = { ticker: null, sector: null, industry: null, company_url: companyUrl };
         if (!companyUrl) {
