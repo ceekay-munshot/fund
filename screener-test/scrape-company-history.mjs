@@ -31,13 +31,23 @@ const UA =
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = join(__dirname, "output");
 const INDEX_PATH = join(OUTPUT_DIR, "concalls-index.json");
-const COMPANY_META_PATH = join(__dirname, "..", "public", "data", "company-meta.json");
+const PUBLIC_DATA = join(__dirname, "..", "public", "data");
+const COMPANY_META_PATH = join(PUBLIC_DATA, "company-meta.json");
+const STORE_PATH = join(PUBLIC_DATA, "fund-sightings.json");
+const STATE_PATH = join(PUBLIC_DATA, "company-history-state.json"); // incremental progress
 
 const WINDOW_DAYS = 365; // ~4 quarters
 const FULL = process.env.FULL === "1" || process.env.FORCE === "1";
 const COMPANY_LIMIT = Number(process.env.COMPANY_LIMIT || 0);
 const HEADFUL = process.env.HEADFUL === "1";
 const DEBUG = process.env.DEBUG === "1";
+
+// Screener hard-blocks the IP after ~50 company-page hits in a session, so we CANNOT
+// sweep all ~800 companies in one run. Instead we backfill a block-safe batch per run,
+// prioritising companies that already carry a fund sighting (the names that matter for
+// the signal), and remember who's done in company-history-state.json — so each run
+// advances through the universe and the block clears between sessions.
+const MAX_PER_RUN = Number(process.env.HISTORY_MAX_COMPANIES || 45);
 
 // Throttle-resilience knobs. Screener starts dropping connections (ERR_CONNECTION_
 // TIMED_OUT) after a burst of rapid page hits, so we go slow-and-steady, retry once,
@@ -156,8 +166,37 @@ async function run() {
       for (const [name, m] of Object.entries(meta)) if (m.company_url && !companyUrl.has(name)) companyUrl.set(name, m.company_url);
     } catch { /* ignore */ }
   }
-  let companies = [...companyUrl.entries()].map(([company, url]) => ({ company, url }));
-  if (COMPANY_LIMIT > 0) companies = companies.slice(0, COMPANY_LIMIT);
+
+  // Companies that already carry a fund sighting — the signal-relevant names. We deepen
+  // these FIRST: a fund seen on a name recently is the best bet to also appear in its
+  // older calls; names no fund has ever touched are low-value to backfill.
+  const priority = new Set();
+  if (existsSync(STORE_PATH)) {
+    try {
+      for (const s of JSON.parse(await readFile(STORE_PATH, "utf8")).sightings || []) if (s.company) priority.add(s.company);
+    } catch { /* ignore */ }
+  }
+
+  // Incremental progress: companies whose history we've already pulled in a prior run.
+  let backfilled = new Set();
+  if (existsSync(STATE_PATH)) {
+    try { backfilled = new Set(JSON.parse(await readFile(STATE_PATH, "utf8")).backfilled || []); } catch { /* ignore */ }
+  }
+
+  // Candidates = universe minus already-done, ordered: sighting-companies first.
+  let companies = [...companyUrl.entries()]
+    .map(([company, url]) => ({ company, url }))
+    .filter((c) => !backfilled.has(c.company))
+    .sort((a, b) => (priority.has(b.company) ? 1 : 0) - (priority.has(a.company) ? 1 : 0));
+
+  const totalCandidates = companies.length;
+  const cap = COMPANY_LIMIT > 0 ? COMPANY_LIMIT : MAX_PER_RUN; // test knob overrides
+  companies = companies.slice(0, cap);
+  const priCount = companies.filter((c) => priority.has(c.company)).length;
+  console.log(
+    `Backfill plan: ${backfilled.size} companies already done; ${totalCandidates} remaining. ` +
+      `This run: ${companies.length} (${priCount} with a fund sighting, prioritised), cap ${cap}.`
+  );
 
   const cutoff = new Date(Date.now() - WINDOW_DAYS * 86400000).toISOString().slice(0, 10);
   // Existing transcript URLs in the index → avoid dupes.
@@ -186,7 +225,8 @@ async function run() {
   }
 
   const startedAt = Date.now();
-  let added = 0, scanned = 0, failed = 0, consecFail = 0, firstDumped = false, budgetHit = false;
+  const ABORT_AFTER = 12; // consecutive failures => IP is hard-blocked; stop, don't burn the run
+  let added = 0, scanned = 0, failed = 0, consecFail = 0, firstDumped = false, budgetHit = false, blocked = false;
   try {
     console.log("Logging in to Screener…");
     await loginViaBrowser(page);
@@ -223,15 +263,20 @@ async function run() {
           coAdded++; added++;
         }
         scanned++;
+        backfilled.add(company); // mark done so future runs skip it (even if 0 rows)
         console.log(`[${i + 1}/${companies.length}] ${company}: ${rows.length} historical concalls in window (+${coAdded} new)`);
       } catch (err) {
         failed++; consecFail++;
         console.log(`[${i + 1}/${companies.length}] ${company} — error: ${err.message.split("\n")[0]}`);
+        if (consecFail >= ABORT_AFTER) {
+          blocked = true;
+          console.log(`  ✗ ${consecFail} consecutive failures — Screener has blocked this session. Stopping; the next run will resume from here.`);
+          break;
+        }
         // Sustained failures = Screener is throttling us. Back right off so it resets.
         if (consecFail >= COOLDOWN_AFTER) {
           console.log(`  ⏸ ${consecFail} consecutive failures — cooling down ${COOLDOWN_MS / 1000}s to clear throttle…`);
           await sleep(COOLDOWN_MS);
-          consecFail = 0;
         }
       }
       await sleep(BASE_DELAY_MS + Math.floor(Math.random() * 500));
@@ -240,15 +285,25 @@ async function run() {
     await browser.close();
   }
 
+  // Persist incremental progress so the next run resumes where this one stopped.
+  await writeFile(
+    STATE_PATH,
+    JSON.stringify({ updated_at: new Date().toISOString(), backfilled: [...backfilled].sort() }, null, 2) + "\n",
+    "utf8"
+  );
+
   index.count = index.concalls.length;
   index.window_days = WINDOW_DAYS;
   await writeFile(INDEX_PATH, JSON.stringify(index, null, 2) + "\n", "utf8");
+  const remaining = totalCandidates - scanned;
   console.log("─".repeat(60));
   console.log(
-    `Backfill: scanned ${scanned} company pages (${failed} failed${budgetHit ? ", budget reached" : ""}), ` +
+    `Backfill: scanned ${scanned} company pages (${failed} failed` +
+      `${blocked ? ", IP blocked — stopped early" : budgetHit ? ", budget reached" : ""}), ` +
       `added ${added} historical concalls. Index now ${index.concalls.length}. ` +
       `(${((Date.now() - startedAt) / 1000).toFixed(0)}s)`
   );
+  console.log(`Progress: ${backfilled.size} companies backfilled total, ~${Math.max(remaining, 0)} still to go (run the sweep again to continue).`);
 }
 
 run().catch((err) => { console.error("FATAL:", err.message); process.exit(1); });
