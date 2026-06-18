@@ -39,6 +39,17 @@ const COMPANY_LIMIT = Number(process.env.COMPANY_LIMIT || 0);
 const HEADFUL = process.env.HEADFUL === "1";
 const DEBUG = process.env.DEBUG === "1";
 
+// Throttle-resilience knobs. Screener starts dropping connections (ERR_CONNECTION_
+// TIMED_OUT) after a burst of rapid page hits, so we go slow-and-steady, retry once,
+// and cool down hard when failures streak. A wall-clock budget guarantees the step
+// always finishes and the pipeline reaches build-store + commit — a partial backfill
+// is far better than a timed-out run that commits nothing.
+const PAGE_TIMEOUT = Number(process.env.HISTORY_PAGE_TIMEOUT_MS || 15000); // per goto
+const STEP_BUDGET_MS = Number(process.env.HISTORY_BUDGET_MIN || 90) * 60000; // hard cap
+const BASE_DELAY_MS = Number(process.env.HISTORY_DELAY_MS || 900); // between companies
+const COOLDOWN_AFTER = 5; // consecutive failures before a long cooldown
+const COOLDOWN_MS = 30000;
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function loginViaBrowser(page) {
@@ -159,7 +170,23 @@ async function run() {
   const context = await browser.newContext({ userAgent: UA });
   const page = await context.newPage();
 
-  let added = 0, scanned = 0, firstDumped = false;
+  // One retry with backoff — most ERR_CONNECTION_TIMED_OUT hits are transient throttle.
+  async function gotoWithRetry(target) {
+    let lastErr;
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        await page.goto(target, { waitUntil: "domcontentloaded", timeout: PAGE_TIMEOUT });
+        return true;
+      } catch (err) {
+        lastErr = err;
+        if (attempt === 1) await sleep(2500);
+      }
+    }
+    throw lastErr;
+  }
+
+  const startedAt = Date.now();
+  let added = 0, scanned = 0, failed = 0, consecFail = 0, firstDumped = false, budgetHit = false;
   try {
     console.log("Logging in to Screener…");
     await loginViaBrowser(page);
@@ -167,11 +194,17 @@ async function run() {
     await sleep(400);
 
     for (let i = 0; i < companies.length; i++) {
+      if (Date.now() - startedAt > STEP_BUDGET_MS) {
+        budgetHit = true;
+        console.log(`⏱ Time budget (${STEP_BUDGET_MS / 60000} min) reached at company ${i}/${companies.length} — saving partial backfill and moving on.`);
+        break;
+      }
       const { company, url } = companies[i];
       try {
-        await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
+        await gotoWithRetry(url);
         await sleep(350);
         const html = await page.content();
+        consecFail = 0;
 
         if ((!firstDumped || DEBUG)) {
           if (!firstDumped) await page.screenshot({ path: join(OUTPUT_DIR, "company-history-page.png"), fullPage: true }).catch(() => {});
@@ -192,9 +225,16 @@ async function run() {
         scanned++;
         console.log(`[${i + 1}/${companies.length}] ${company}: ${rows.length} historical concalls in window (+${coAdded} new)`);
       } catch (err) {
-        console.log(`[${i + 1}/${companies.length}] ${company} — error: ${err.message}`);
+        failed++; consecFail++;
+        console.log(`[${i + 1}/${companies.length}] ${company} — error: ${err.message.split("\n")[0]}`);
+        // Sustained failures = Screener is throttling us. Back right off so it resets.
+        if (consecFail >= COOLDOWN_AFTER) {
+          console.log(`  ⏸ ${consecFail} consecutive failures — cooling down ${COOLDOWN_MS / 1000}s to clear throttle…`);
+          await sleep(COOLDOWN_MS);
+          consecFail = 0;
+        }
       }
-      await sleep(450 + Math.floor(Math.random() * 350));
+      await sleep(BASE_DELAY_MS + Math.floor(Math.random() * 500));
     }
   } finally {
     await browser.close();
@@ -204,7 +244,11 @@ async function run() {
   index.window_days = WINDOW_DAYS;
   await writeFile(INDEX_PATH, JSON.stringify(index, null, 2) + "\n", "utf8");
   console.log("─".repeat(60));
-  console.log(`Backfill: scanned ${scanned} company pages, added ${added} historical concalls. Index now ${index.concalls.length}.`);
+  console.log(
+    `Backfill: scanned ${scanned} company pages (${failed} failed${budgetHit ? ", budget reached" : ""}), ` +
+      `added ${added} historical concalls. Index now ${index.concalls.length}. ` +
+      `(${((Date.now() - startedAt) / 1000).toFixed(0)}s)`
+  );
 }
 
 run().catch((err) => { console.error("FATAL:", err.message); process.exit(1); });
