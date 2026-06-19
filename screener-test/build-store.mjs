@@ -205,9 +205,11 @@ async function run() {
   );
 
   // --- 6. update metadata.json (dashboard "last updated" badge) ------------
-  const concalls = index.concalls || [];
-  const concallsScanned = index.count ?? concalls.length;
-  const withTranscript = concalls.filter((c) => c.has_transcript).length;
+  // concalls_scanned must be the CUMULATIVE 4-quarter total (the processed-concalls
+  // memory), not just this run's working set — the hourly backfill runs skip the recent
+  // scan, so index.count only reflects the ~dozens of concalls discovered that run.
+  const concallsScanned = Object.keys(processed).length;
+  const withTranscript = Object.values(processed).filter((p) => p.ok).length;
   await writeFile(
     META_PATH,
     JSON.stringify(
