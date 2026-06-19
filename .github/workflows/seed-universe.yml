@@ -63,7 +63,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/company-universe.json
           if git diff --cached --quiet; then echo "No universe changes — seed idle/complete."; exit 0; fi
-          git commit -m "Fund radar universe seed ($(date -u +%Y-%m-%dT%H:%MZ)) [skip ci]"
+          git commit -m "Fund radar universe seed ($(date -u +%Y-%m-%dT%H:%MZ))"
           for attempt in 1 2 3 4; do
             if git push origin HEAD:main; then echo "Pushed (attempt $attempt)."; exit 0; fi
             echo "Push rejected ($attempt) — fetch + rebase onto fresh main..."
