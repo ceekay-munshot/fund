@@ -1047,10 +1047,13 @@ function renderFlags() {
   const activeFunds = DATA.funds.filter((f) => DATA.sightings.some((s) => s.fund_id === f.id));
   const sectors = [...new Set(_flags.map((f) => f.sector || "Unclassified"))].sort();
 
-  const fundChipArr = activeFunds.map((f) => {
-    const sel = flagFunds.has(f.id); const c = fundColor(f.id);
-    return `<button type="button" data-flagfund="${f.id}" class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium transition ${sel ? "text-white" : "text-slate-600 hover:bg-slate-50"}" style="${sel ? `background:${c}` : `box-shadow:0 0 0 1px ${c}40 inset`}"><span class="h-1.5 w-1.5 rounded-full" style="background:${sel ? "#fff" : c}"></span>${escapeHtml(f.name)}</button>`;
-  });
+  // selected funds → removable chips; the rest live in the "add fund" dropdown
+  const selChips = activeFunds.filter((f) => flagFunds.has(f.id)).map((f) => {
+    const c = fundColor(f.id);
+    return `<button type="button" data-flagfund="${f.id}" title="Remove" class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium text-white transition hover:opacity-90" style="background:${c}"><span class="h-1.5 w-1.5 rounded-full bg-white"></span>${escapeHtml(f.name)}<i data-lucide="x" class="h-3 w-3"></i></button>`;
+  }).join("");
+  const fundOpts = activeFunds.filter((f) => !flagFunds.has(f.id))
+    .map((f) => `<option value="${f.id}">${escapeHtml(f.name)}</option>`).join("");
 
   root.innerHTML = `
     <div class="mb-4 rounded-3xl bg-gradient-to-br from-emerald-50 via-white to-indigo-50 p-5 shadow-sm ring-1 ring-slate-100">
@@ -1066,7 +1069,6 @@ function renderFlags() {
       <p class="mt-2 text-[11px] text-slate-400">A live feed of where smart money showed up, newest first. Attention from concall participation (a leading indicator), not confirmed positions. <span class="text-slate-300">For who's <em>entering/exiting</em> a name, see the Shifts tab.</span></p>
     </div>
     <div class="mb-4 flex flex-col gap-3">
-      <div class="flex flex-wrap items-center gap-1.5" id="flag-funds">${moreList(fundChipArr, 10, "funds")}</div>
       <div class="flex flex-wrap items-center gap-3">
         <div class="flex items-center gap-2 text-sm">
           <span class="text-slate-400">When</span>
@@ -1074,24 +1076,28 @@ function renderFlags() {
             ${FLAG_WINDOWS.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}
           </select>
         </div>
-        <button type="button" id="flag-first" class="inline-flex items-center gap-1.5 rounded-xl px-3 py-2 text-sm font-medium transition ${flagFirstOnly ? "bg-emerald-600 text-white shadow-sm" : "bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50"}"><i data-lucide="sparkles" class="h-4 w-4"></i>First interest only</button>
+        <div class="flex items-center gap-2 text-sm">
+          <span class="text-slate-400">Fund</span>
+          <select id="flag-fund-add" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
+            <option value="">${flagFunds.size ? "Add another fund…" : "All funds — pick to filter…"}</option>${fundOpts}
+          </select>
+        </div>
         <div class="flex items-center gap-2 text-sm">
           <span class="text-slate-400">Sector</span>
           <select id="flag-sector" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
             <option value="all">All sectors</option>${sectors.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("")}
           </select>
         </div>
-        ${flagFunds.size ? `<button type="button" id="flag-clear" class="text-xs font-medium text-slate-400 hover:text-slate-600">clear funds</button>` : ""}
+        <button type="button" id="flag-first" class="inline-flex items-center gap-1.5 rounded-xl px-3 py-2 text-sm font-medium transition ${flagFirstOnly ? "bg-emerald-600 text-white shadow-sm" : "bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50"}"><i data-lucide="sparkles" class="h-4 w-4"></i>First interest only</button>
       </div>
+      ${flagFunds.size ? `<div id="flag-fund-sel" class="flex flex-wrap items-center gap-1.5">${selChips}<button type="button" id="flag-clear" class="ml-1 text-xs font-medium text-slate-400 hover:text-slate-600">clear all</button></div>` : ""}
     </div>
     <div id="flags-feed" class="space-y-2.5"></div>`;
 
-  root.querySelector("#flag-funds").addEventListener("click", (e) => {
-    const b = e.target.closest("[data-flagfund]"); if (!b) return;
-    const id = b.dataset.flagfund;
-    flagFunds.has(id) ? flagFunds.delete(id) : flagFunds.add(id);
-    renderFlags();
-  });
+  const addSel = root.querySelector("#flag-fund-add");
+  addSel.addEventListener("change", () => { if (addSel.value) { flagFunds.add(addSel.value); renderFlags(); } });
+  const selWrap = root.querySelector("#flag-fund-sel");
+  if (selWrap) selWrap.addEventListener("click", (e) => { const b = e.target.closest("[data-flagfund]"); if (!b) return; flagFunds.delete(b.dataset.flagfund); renderFlags(); });
   root.querySelector("#flag-first").addEventListener("click", () => { flagFirstOnly = !flagFirstOnly; renderFlags(); });
   const sel = root.querySelector("#flag-sector"); sel.value = flagSector;
   sel.addEventListener("change", () => { flagSector = sel.value; updateFlagsFeed(); });
