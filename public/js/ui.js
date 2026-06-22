@@ -157,6 +157,34 @@ export function wireShowMore(container) {
   });
 }
 
+// Generic "show first N, reveal the rest" for long lists. `items` = array of HTML
+// strings, each a single top-level element. Pair with wireMore(container) once.
+let _moreSeq = 0;
+export function moreList(items, n = 10, noun = "more") {
+  if (!items || items.length <= n) return (items || []).join("");
+  const g = "m" + ++_moreSeq;
+  const head = items.slice(0, n).join("");
+  const rest = items.slice(n).map((h) => h.replace(/^(\s*<[a-zA-Z][\w-]*)/, `$1 data-more-item="${g}" hidden`)).join("");
+  return `${head}${rest}<button type="button" data-more-btn="${g}" class="mx-auto mt-3 flex items-center gap-1.5 rounded-full bg-white px-4 py-1.5 text-xs font-medium text-slate-500 shadow-sm ring-1 ring-slate-200 transition hover:bg-slate-50"><i data-lucide="chevron-down" class="h-3.5 w-3.5"></i>+ ${items.length - n} ${noun}</button>`;
+}
+export function wireMore(container) {
+  if (!container || container._wiredMore) return;
+  container._wiredMore = true;
+  container.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-more-btn]");
+    if (!b) return;
+    container.querySelectorAll(`[data-more-item="${b.dataset.moreBtn}"]`).forEach((el) => el.removeAttribute("hidden"));
+    b.remove();
+  });
+}
+
+// Analyst LinkedIn — Option A: a people-search deep-link (name + firm). No API/scrape.
+export function linkedinBtn(name, firm) {
+  if (!name) return "";
+  const q = encodeURIComponent([name, firm].filter(Boolean).join(" "));
+  return `<a href="https://www.linkedin.com/search/results/people/?keywords=${q}" target="_blank" rel="noopener noreferrer" title="Find ${escapeHtml(name)} on LinkedIn" class="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded text-[#0a66c2] hover:bg-sky-50"><i data-lucide="linkedin" class="h-3 w-3"></i></a>`;
+}
+
 // --- ECharts registry ------------------------------------------------------
 const _charts = new Map(); // id -> instance
 export function makeChart(el, id) {

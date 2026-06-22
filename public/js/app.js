@@ -13,6 +13,7 @@
 import {
   loadData, fundColor, sectorColor, sectorPill, escapeHtml, initials, fmtDate,
   isToday, recencyBucket, analystOf, sourceIconBtn, transcriptBtn, quoteBlock, wireShowMore,
+  moreList, wireMore, linkedinBtn,
   emptyState, countUp, makeChart, resizeCharts, refreshIcons,
 } from "./ui.js";
 
@@ -534,6 +535,7 @@ function drillRow(c, color) {
       </div>
       <div class="mt-0.5 flex items-center gap-1.5 text-[11px] text-slate-500">
         <i data-lucide="user-round" class="h-3 w-3 shrink-0 text-slate-400"></i><span class="truncate">${analyst ? escapeHtml(analyst) : "—"}</span>
+        ${analyst ? linkedinBtn(analyst, c.fund_name) : ""}
         <span class="text-slate-300">·</span>
         <span class="whitespace-nowrap font-mono">${fmtDate(c.concall_date)}</span>
       </div>
@@ -929,10 +931,11 @@ function updateOverlapBook() {
           <h3 class="font-display text-sm font-bold ${t.hi ? "text-amber-600" : "text-slate-700"}">${t.label}</h3>
           <span class="text-xs text-slate-400">${t.sub} · ${list.length}</span>
         </div>
-        <div class="space-y-2">${list.map((c) => overlapRow(c, t.hi)).join("")}</div>
+        <div class="space-y-2">${moreList(list.map((c) => overlapRow(c, t.hi)), 10, "companies")}</div>
       </div>`;
     })
     .join("");
+  wireMore(cont);
   refreshIcons();
 }
 
@@ -995,6 +998,9 @@ let _flags = [];
 let flagFunds = new Set(); // selected fund_ids (empty = all)
 let flagSector = "all";
 let flagFirstOnly = false;
+let flagWindow = "month"; // today | week | month | quarter | all
+const FLAG_WINDOWS = [["today", "Today"], ["week", "This week"], ["month", "This month"], ["quarter", "This quarter"], ["all", "All time"]];
+const flagWindowCutoff = () => ({ today: ymdAgo(0), week: ymdAgo(7), month: ymdAgo(30), quarter: ymdAgo(92), all: "0000-01-01" }[flagWindow] || "0000-01-01");
 
 function buildFlags() {
   // first_seen = when it appeared on our radar (gets more granular as daily runs
@@ -1039,10 +1045,10 @@ function renderFlags() {
   const activeFunds = DATA.funds.filter((f) => DATA.sightings.some((s) => s.fund_id === f.id));
   const sectors = [...new Set(_flags.map((f) => f.sector || "Unclassified"))].sort();
 
-  const fundChips = activeFunds.map((f) => {
+  const fundChipArr = activeFunds.map((f) => {
     const sel = flagFunds.has(f.id); const c = fundColor(f.id);
     return `<button type="button" data-flagfund="${f.id}" class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium transition ${sel ? "text-white" : "text-slate-600 hover:bg-slate-50"}" style="${sel ? `background:${c}` : `box-shadow:0 0 0 1px ${c}40 inset`}"><span class="h-1.5 w-1.5 rounded-full" style="background:${sel ? "#fff" : c}"></span>${escapeHtml(f.name)}</button>`;
-  }).join("");
+  });
 
   root.innerHTML = `
     <div class="mb-4 rounded-3xl bg-gradient-to-br from-emerald-50 via-white to-indigo-50 p-5 shadow-sm ring-1 ring-slate-100">
@@ -1055,11 +1061,17 @@ function renderFlags() {
         </div>
       </div>
       <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">${escapeHtml(flagsHouseView(_flags))}</p>
-      <p class="mt-2 text-[11px] text-slate-400">Signal = smart-money attention from concall participation (a leading indicator), not confirmed positions.</p>
+      <p class="mt-2 text-[11px] text-slate-400">A live feed of where smart money showed up, newest first. Attention from concall participation (a leading indicator), not confirmed positions. <span class="text-slate-300">For who's <em>entering/exiting</em> a name, see the Shifts tab.</span></p>
     </div>
     <div class="mb-4 flex flex-col gap-3">
-      <div class="flex flex-wrap items-center gap-1.5" id="flag-funds">${fundChips}</div>
+      <div class="flex flex-wrap items-center gap-1.5" id="flag-funds">${moreList(fundChipArr, 10, "funds")}</div>
       <div class="flex flex-wrap items-center gap-3">
+        <div class="flex items-center gap-2 text-sm">
+          <span class="text-slate-400">When</span>
+          <select id="flag-window" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
+            ${FLAG_WINDOWS.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}
+          </select>
+        </div>
         <button type="button" id="flag-first" class="inline-flex items-center gap-1.5 rounded-xl px-3 py-2 text-sm font-medium transition ${flagFirstOnly ? "bg-emerald-600 text-white shadow-sm" : "bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50"}"><i data-lucide="sparkles" class="h-4 w-4"></i>First interest only</button>
         <div class="flex items-center gap-2 text-sm">
           <span class="text-slate-400">Sector</span>
@@ -1070,7 +1082,7 @@ function renderFlags() {
         ${flagFunds.size ? `<button type="button" id="flag-clear" class="text-xs font-medium text-slate-400 hover:text-slate-600">clear funds</button>` : ""}
       </div>
     </div>
-    <div id="flags-feed" class="space-y-6"></div>`;
+    <div id="flags-feed" class="space-y-2.5"></div>`;
 
   root.querySelector("#flag-funds").addEventListener("click", (e) => {
     const b = e.target.closest("[data-flagfund]"); if (!b) return;
@@ -1081,8 +1093,11 @@ function renderFlags() {
   root.querySelector("#flag-first").addEventListener("click", () => { flagFirstOnly = !flagFirstOnly; renderFlags(); });
   const sel = root.querySelector("#flag-sector"); sel.value = flagSector;
   sel.addEventListener("change", () => { flagSector = sel.value; updateFlagsFeed(); });
+  const win = root.querySelector("#flag-window"); win.value = flagWindow;
+  win.addEventListener("change", () => { flagWindow = win.value; updateFlagsFeed(); });
   const clr = root.querySelector("#flag-clear"); if (clr) clr.addEventListener("click", () => { flagFunds.clear(); renderFlags(); });
 
+  wireMore(root);
   updateFlagsFeed();
   refreshIcons();
 }
@@ -1091,28 +1106,23 @@ function updateFlagsFeed() {
   const feed = document.getElementById("flags-feed");
   if (!feed) return;
   const fbc = fundsByCompany();
+  const cutoff = flagWindowCutoff();
   let items = _flags.filter((f) =>
+    (f.flagDate || "") >= cutoff &&
     (!flagFunds.size || flagFunds.has(f.fund_id)) &&
     (flagSector === "all" || (f.sector || "Unclassified") === flagSector) &&
     (!flagFirstOnly || f.firstInterest)
   );
+  const label = (FLAG_WINDOWS.find(([v]) => v === flagWindow) || [, "this period"])[1].toLowerCase();
   if (!items.length) {
-    feed.innerHTML = emptyState("bell-off", "No flags match", "Loosen the filters — turn off 'first interest only' or pick another fund/sector.");
+    feed.innerHTML = emptyState("bell-off", `No activity ${label}`, "Widen the time window, or loosen the fund/sector filters.");
     refreshIcons();
     return;
   }
-  const groups = { Today: [], "This week": [], Earlier: [] };
-  for (const f of items) groups[recencyBucket(f.flagDate)].push(f);
-  feed.innerHTML = Object.entries(groups)
-    .filter(([, arr]) => arr.length)
-    .map(([label, arr]) => `
-      <div>
-        <h3 class="mb-2 flex items-center gap-2 px-1 text-xs font-semibold uppercase tracking-wider text-slate-400">
-          <i data-lucide="${label === "Today" ? "sparkles" : label === "This week" ? "calendar-clock" : "history"}" class="h-3.5 w-3.5"></i>${label}<span class="font-mono text-slate-300">${arr.length}</span>
-        </h3>
-        <div class="space-y-2.5">${arr.map((f) => flagCard(f, fbc)).join("")}</div>
-      </div>`)
-    .join("");
+  // newest first, flat feed, paginated 10 at a time
+  items = items.slice().sort((a, b) => (b.flagDate || "").localeCompare(a.flagDate || ""));
+  feed.innerHTML = `<div class="mb-1 px-1 text-xs font-semibold uppercase tracking-wider text-slate-400">${items.length} appearance${items.length === 1 ? "" : "s"} ${label}</div>`
+    + moreList(items.map((f) => flagCard(f, fbc)), 10, "appearances");
   refreshIcons();
 }
 
@@ -1205,7 +1215,8 @@ function updateShiftsFeed() {
     return;
   }
   if (shiftsView === "gained") {
-    feed.innerHTML = `<div class="space-y-2.5">${items.map(shiftCard).join("")}</div>`;
+    feed.innerHTML = `<div class="space-y-2.5">${moreList(items.map(shiftCard), 10, "companies")}</div>`;
+    wireMore(feed);
     refreshIcons();
     return;
   }
@@ -1217,8 +1228,9 @@ function updateShiftsFeed() {
         <i data-lucide="${labels[k][1]}" class="h-3.5 w-3.5"></i>${labels[k][0]}<span class="font-mono text-slate-300">${arr.length}</span>
         <span class="font-sans normal-case tracking-normal text-slate-300">· ${labels[k][2]}</span>
       </h3>
-      <div class="space-y-2.5">${arr.map(shiftCard).join("")}</div>
+      <div class="space-y-2.5">${moreList(arr.map(shiftCard), 10, "companies")}</div>
     </div>`).join("");
+  wireMore(feed);
   refreshIcons();
 }
 
