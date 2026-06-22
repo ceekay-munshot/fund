@@ -179,10 +179,14 @@ export function wireMore(container) {
 }
 
 // Analyst LinkedIn — Option A: a people-search deep-link (name + firm). No API/scrape.
+export function linkedinUrl(name, firm) {
+  if (!name) return null;
+  return `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent([name, firm].filter(Boolean).join(" "))}`;
+}
 export function linkedinBtn(name, firm) {
-  if (!name) return "";
-  const q = encodeURIComponent([name, firm].filter(Boolean).join(" "));
-  return `<a href="https://www.linkedin.com/search/results/people/?keywords=${q}" target="_blank" rel="noopener noreferrer" title="Find ${escapeHtml(name)} on LinkedIn" class="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded text-[#0a66c2] hover:bg-sky-50"><i data-lucide="linkedin" class="h-3 w-3"></i></a>`;
+  const url = linkedinUrl(name, firm);
+  if (!url) return "";
+  return `<a href="${url}" target="_blank" rel="noopener noreferrer" title="Find ${escapeHtml(name)} on LinkedIn" class="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded text-[#0a66c2] hover:bg-sky-50"><i data-lucide="external-link" class="h-3 w-3"></i></a>`;
 }
 
 // --- ECharts registry ------------------------------------------------------

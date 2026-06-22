@@ -13,7 +13,7 @@
 import {
   loadData, fundColor, sectorColor, sectorPill, escapeHtml, initials, fmtDate,
   isToday, recencyBucket, analystOf, sourceIconBtn, transcriptBtn, quoteBlock, wireShowMore,
-  moreList, wireMore, linkedinBtn,
+  moreList, wireMore, linkedinBtn, linkedinUrl,
   emptyState, countUp, makeChart, resizeCharts, refreshIcons,
 } from "./ui.js";
 
@@ -554,8 +554,10 @@ function drillRow(c, color) {
         ${c.ticker ? `<span class="shrink-0 font-mono text-[11px] font-medium uppercase tracking-wide" style="color:${color}">${escapeHtml(c.ticker)}</span>` : ""}
       </div>
       <div class="mt-0.5 flex items-center gap-1.5 text-[11px] text-slate-500">
-        <i data-lucide="user-round" class="h-3 w-3 shrink-0 text-slate-400"></i><span class="truncate">${analyst ? escapeHtml(analyst) : "—"}</span>
-        ${analyst ? linkedinBtn(analyst, c.fund_name) : ""}
+        <i data-lucide="user-round" class="h-3 w-3 shrink-0 text-slate-400"></i>
+        ${analyst
+          ? `<a href="${linkedinUrl(analyst, c.fund_name)}" target="_blank" rel="noopener noreferrer" title="Find ${escapeHtml(analyst)} on LinkedIn" class="inline-flex items-center gap-1 truncate font-medium text-[#0a66c2] hover:underline">${escapeHtml(analyst)}<i data-lucide="external-link" class="h-2.5 w-2.5 shrink-0"></i></a>`
+          : `<span class="truncate">—</span>`}
         <span class="text-slate-300">·</span>
         <span class="whitespace-nowrap font-mono">${fmtDate(c.concall_date)}</span>
       </div>
