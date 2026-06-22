@@ -1266,6 +1266,119 @@ function shiftCard(x) {
 }
 
 // ===========================================================================
+// Forward Guidance — LLM-extracted, specificity-flagged (from latest concall)
+// ===========================================================================
+let guidanceSearch = "";
+let guidanceSector = "all";
+
+function renderGuidance() {
+  const root = document.getElementById("tab-guidance");
+  const all = Object.values((DATA.guidance && DATA.guidance.companies) || {});
+  if (!all.length) {
+    root.innerHTML = emptyState("target", "Guidance is being extracted", "An LLM is reading the most recent concalls and pulling forward guidance. Cards appear here as companies are processed — check back shortly.");
+    refreshIcons();
+    return;
+  }
+  const sectors = [...new Set(all.map((g) => g.sector || "Unclassified"))].sort();
+  root.innerHTML = `
+    <div class="mb-4 rounded-3xl bg-gradient-to-br from-indigo-50 via-white to-emerald-50 p-5 shadow-sm ring-1 ring-slate-100">
+      <div class="mb-1.5 flex items-center gap-2">
+        <span class="rounded-xl bg-white p-1.5 text-indigo-500 shadow-sm"><i data-lucide="target" class="h-4 w-4"></i></span>
+        <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">Forward guidance</h2>
+      </div>
+      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">What management committed to on the latest call — flagged <span class="text-emerald-600">specific</span>, <span class="text-amber-600">vague</span>, or <span class="text-rose-500">refused</span>.</p>
+      <p class="mt-2 text-[11px] text-slate-400">${all.length} ${all.length === 1 ? "company" : "companies"} covered · AI-extracted from the concall transcript — always verify against the source before acting.</p>
+    </div>
+    <div class="mb-4 flex flex-wrap items-center gap-3">
+      <div class="relative flex-1 min-w-[200px]">
+        <i data-lucide="search" class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"></i>
+        <input id="guid-search" type="text" placeholder="Search company or ticker…" class="w-full rounded-xl bg-white py-2 pl-9 pr-3 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400" />
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <span class="text-slate-400">Sector</span>
+        <select id="guid-sector" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
+          <option value="all">All sectors</option>${sectors.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("")}
+        </select>
+      </div>
+    </div>
+    <div id="guid-feed" class="space-y-4"></div>`;
+
+  const si = root.querySelector("#guid-search");
+  si.value = guidanceSearch;
+  si.addEventListener("input", () => { guidanceSearch = si.value; updateGuidanceFeed(); });
+  const se = root.querySelector("#guid-sector"); se.value = guidanceSector;
+  se.addEventListener("change", () => { guidanceSector = se.value; updateGuidanceFeed(); });
+  wireMore(root);
+  updateGuidanceFeed();
+  refreshIcons();
+}
+
+function updateGuidanceFeed() {
+  const feed = document.getElementById("guid-feed");
+  if (!feed) return;
+  const q = guidanceSearch.trim().toLowerCase();
+  let items = Object.values(DATA.guidance.companies || {}).filter((g) =>
+    (guidanceSector === "all" || (g.sector || "Unclassified") === guidanceSector) &&
+    (!q || (g.company || "").toLowerCase().includes(q) || (g.ticker || "").toLowerCase().includes(q))
+  );
+  items.sort((a, b) => (b.concall_date || "").localeCompare(a.concall_date || ""));
+  if (!items.length) {
+    feed.innerHTML = emptyState("search-x", "No matches", "Try another company, ticker, or sector.");
+    refreshIcons();
+    return;
+  }
+  feed.innerHTML = moreList(items.map(guidanceCard), 10, "companies");
+  refreshIcons();
+}
+
+const SPEC_STYLE = {
+  specific: { dot: "#10b981", chip: "bg-emerald-50 text-emerald-700" },
+  vague: { dot: "#f59e0b", chip: "bg-amber-50 text-amber-700" },
+  refused: { dot: "#f43f5e", chip: "bg-rose-50 text-rose-700" },
+};
+const DIR_ICON = { up: "trending-up", down: "trending-down", flat: "move-right", unclear: "help-circle" };
+
+function guidanceCard(g) {
+  const col = sectorColor(g.sector || null);
+  const items = (g.guidance || []).map((it) => {
+    const sp = SPEC_STYLE[it.specificity] || SPEC_STYLE.vague;
+    return `<div class="flex items-start gap-2.5 rounded-xl bg-slate-50/70 p-2.5 ring-1 ring-slate-100">
+      <span class="mt-1 h-2 w-2 shrink-0 rounded-full" style="background:${sp.dot}"></span>
+      <div class="min-w-0 flex-1">
+        <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span class="text-sm font-semibold text-slate-800">${escapeHtml(it.metric || "—")}</span>
+          ${it.horizon ? `<span class="font-mono text-[11px] text-slate-400">${escapeHtml(it.horizon)}</span>` : ""}
+          <span class="inline-flex items-center gap-1 rounded-full px-1.5 py-0.5 text-[10px] font-bold uppercase ${sp.chip}">${escapeHtml(it.specificity || "—")}</span>
+          ${it.direction && it.direction !== "unclear" ? `<i data-lucide="${DIR_ICON[it.direction] || "minus"}" class="h-3.5 w-3.5 text-slate-400"></i>` : ""}
+        </div>
+        <p class="mt-0.5 text-[13px] leading-snug text-slate-600">${escapeHtml(it.statement || "")}</p>
+      </div>
+    </div>`;
+  }).join("");
+  const tagRow = (label, arr, icon, cls) => (arr && arr.length)
+    ? `<div class="mt-3"><div class="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-slate-400"><i data-lucide="${icon}" class="h-3 w-3"></i>${label}</div>
+       <div class="flex flex-wrap gap-1.5">${arr.map((x) => `<span class="rounded-full ${cls} px-2 py-0.5 text-[11px]">${escapeHtml(x)}</span>`).join("")}</div></div>`
+    : "";
+  return `<div class="card overflow-hidden p-5" style="border-top:3px solid ${col}">
+    <div class="mb-3 flex flex-wrap items-start justify-between gap-2">
+      <div class="min-w-0">
+        <div class="flex flex-wrap items-center gap-2">
+          <h3 class="font-display text-lg font-bold text-slate-800">${escapeHtml(g.company)}</h3>
+          ${g.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${col}">${escapeHtml(g.ticker)}</span>` : ""}
+        </div>
+        <div class="mt-1 flex flex-wrap items-center gap-2">${sectorPill(g.sector, null)}<span class="inline-flex items-center gap-1 font-mono text-[11px] text-slate-400"><i data-lucide="calendar" class="h-3 w-3"></i>concall ${fmtDate(g.concall_date)}</span></div>
+      </div>
+      <div class="flex items-center gap-2">${transcriptBtn(g.transcript_url)}</div>
+    </div>
+    ${g.summary ? `<p class="mb-3 rounded-xl bg-indigo-50/50 p-3 text-sm italic leading-snug text-slate-600">“${escapeHtml(g.summary)}”</p>` : ""}
+    <div class="space-y-2">${items || `<p class="text-sm text-slate-400">No forward guidance extracted.</p>`}</div>
+    ${tagRow("Refused to guide", g.refused_to_guide, "shield-off", "bg-rose-50 text-rose-600")}
+    ${tagRow("Margin drivers", g.margin_drivers, "settings-2", "bg-slate-100 text-slate-600")}
+    <p class="mt-3 text-[10px] text-slate-300">AI-extracted (${escapeHtml(g.provider || "llm")}) · verify against transcript</p>
+  </div>`;
+}
+
+// ===========================================================================
 // placeholders (Prompt 11)
 // ===========================================================================
 function renderPlaceholder(id, icon, title) {
@@ -1280,6 +1393,7 @@ const RENDERERS = {
   sectors: renderSectors,
   overlap: renderOverlap,
   shifts: renderShifts,
+  guidance: renderGuidance,
   flags: renderFlags,
 };
 function activate(tab) {
