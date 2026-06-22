@@ -21,6 +21,7 @@ let DATA = null;
 const rendered = new Set();
 let selectedFund = null; // graph emphasis
 let graphData = null; // { nodes, links } for the Radar graph (NOT on the chart instance)
+let heatmapExpanded = false; // Fund×Sector heatmap: top 10 funds vs all
 
 // --- aggregation -----------------------------------------------------------
 function groupByFund() {
@@ -158,8 +159,10 @@ function renderHeatmap() {
   for (const r of rows) for (const [sec, v] of r.m) if (v >= MIN) secTotal.set(sec, (secTotal.get(sec) || 0) + v);
   const sectors = [...secTotal.entries()].sort((a, b) => b[1] - a[1]).map(([k]) => k);
   rows.sort((a, b) => b.peak - a.peak || b.f.sightings.length - a.f.sightings.length);
-  const fundNames = rows.map((r) => r.f.name);
-  const fundIds = rows.map((r) => r.f.id);
+  const allRowCount = rows.length;
+  const shownRows = heatmapExpanded ? rows : rows.slice(0, 10);
+  const fundNames = shownRows.map((r) => r.f.name);
+  const fundIds = shownRows.map((r) => r.f.id);
 
   if (!rows.length || !sectors.length) {
     el.innerHTML = emptyState("grid-3x3", "No strong concentration yet", `No fund has ${MIN}+ engagements in a single sector in this window.`);
@@ -169,7 +172,7 @@ function renderHeatmap() {
 
   const data = [];
   let maxV = 0;
-  rows.forEach((r, yi) => sectors.forEach((sec, xi) => {
+  shownRows.forEach((r, yi) => sectors.forEach((sec, xi) => {
     const v = r.m.get(sec) || 0;
     if (v >= MIN) { data.push([xi, yi, v]); maxV = Math.max(maxV, v); }
   }));
@@ -195,6 +198,23 @@ function renderHeatmap() {
   });
   chart.off("click");
   chart.on("click", (p) => { if (p.componentType === "series") { const id = fundIds[p.value[1]]; if (id) openDrill(id); } });
+
+  // Top-10 cap with an expand toggle (the matrix gets unwieldy past ~10 funds).
+  const wrap = el.parentElement;
+  let more = wrap.querySelector("#heatmap-more");
+  if (allRowCount > 10) {
+    if (!more) {
+      more = document.createElement("button");
+      more.id = "heatmap-more";
+      more.className = "mx-auto mt-3 flex items-center gap-1.5 rounded-full bg-white px-4 py-1.5 text-xs font-medium text-slate-500 shadow-sm ring-1 ring-slate-200 transition hover:bg-slate-50";
+      more.addEventListener("click", () => { heatmapExpanded = !heatmapExpanded; renderHeatmap(); });
+      wrap.appendChild(more);
+    }
+    more.innerHTML = `<i data-lucide="${heatmapExpanded ? "chevron-up" : "chevron-down"}" class="h-3.5 w-3.5"></i>${heatmapExpanded ? "Show top 10 funds" : `+ ${allRowCount - 10} more funds`}`;
+    refreshIcons();
+  } else if (more) {
+    more.remove();
+  }
 }
 
 function graphModel() {
