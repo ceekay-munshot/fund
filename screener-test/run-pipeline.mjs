@@ -49,6 +49,7 @@ const STEPS = [
   "match-funds.mjs",
   "enrich-sectors.mjs",
   "build-store.mjs",
+  "analyze-trends.mjs", // pure data: attention-churn insight from the store (never blocks)
 ];
 
 async function readJson(path) {

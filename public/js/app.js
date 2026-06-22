@@ -1148,6 +1148,112 @@ function flagCard(f, fbc) {
 }
 
 // ===========================================================================
+// Attention Shifts — funds that went quiet (lost interest) / newly engaged
+// ===========================================================================
+let shiftsView = "dropped"; // "dropped" | "gained"
+let shiftsSector = "all";
+
+function renderShifts() {
+  const root = document.getElementById("tab-shifts");
+  const t = DATA.trends || { dropped: [], gained: [], summary: {} };
+  const sum = t.summary || {};
+  const sectors = [...new Set([...(t.dropped || []), ...(t.gained || [])].map((x) => x.sector || "Unclassified"))].sort();
+  const tab = (id, label, n, on, color) =>
+    `<button type="button" data-shift="${id}" class="inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium transition ${on ? "text-white shadow-sm" : "bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50"}" ${on ? `style="background:${color}"` : ""}>${label}<span class="font-mono ${on ? "text-white/80" : "text-slate-400"}">${n}</span></button>`;
+
+  root.innerHTML = `
+    <div class="mb-4 rounded-3xl bg-gradient-to-br from-rose-50 via-white to-indigo-50 p-5 shadow-sm ring-1 ring-slate-100">
+      <div class="mb-1.5 flex items-center gap-2">
+        <span class="rounded-xl bg-white p-1.5 text-rose-500 shadow-sm"><i data-lucide="trending-down" class="h-4 w-4"></i></span>
+        <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">Attention shifts</h2>
+      </div>
+      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">
+        ${sum.dropped || 0} fund–company relationships went quiet on the latest call · ${sum.gained || 0} newly engaged.
+      </p>
+      <p class="mt-2 text-[11px] text-slate-400">A fund here attended a company's earlier concalls but stopped participating on the most recent one — a leading <span class="font-medium text-slate-500">loss-of-attention</span> signal, <span class="font-medium text-slate-500">not</span> proof it sold. "New" = first appearance on the latest call.</p>
+    </div>
+    <div class="mb-4 flex flex-wrap items-center gap-3">
+      <div class="flex gap-2">
+        ${tab("dropped", "Lost interest", sum.dropped || 0, shiftsView === "dropped", "#f43f5e")}
+        ${tab("gained", "New interest", sum.gained || 0, shiftsView === "gained", "#10b981")}
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <span class="text-slate-400">Sector</span>
+        <select id="shift-sector" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
+          <option value="all">All sectors</option>${sectors.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("")}
+        </select>
+      </div>
+    </div>
+    <div id="shifts-feed" class="space-y-6"></div>`;
+
+  root.querySelectorAll("[data-shift]").forEach((b) => b.addEventListener("click", () => { shiftsView = b.dataset.shift; renderShifts(); }));
+  const sel = root.querySelector("#shift-sector"); sel.value = shiftsSector;
+  sel.addEventListener("change", () => { shiftsSector = sel.value; updateShiftsFeed(); });
+  root.addEventListener("click", (e) => { const c = e.target.closest("[data-co]"); if (c) openCompanyDrill(c.dataset.co); });
+  updateShiftsFeed();
+  refreshIcons();
+}
+
+function updateShiftsFeed() {
+  const feed = document.getElementById("shifts-feed");
+  if (!feed) return;
+  const t = DATA.trends || { dropped: [], gained: [] };
+  let items = (t[shiftsView] || []).filter((x) => shiftsSector === "all" || (x.sector || "Unclassified") === shiftsSector);
+  if (!items.length) {
+    feed.innerHTML = emptyState(shiftsView === "dropped" ? "smile" : "search", "Nothing here", shiftsView === "dropped" ? "No funds dropped a name in this slice — that's a good sign." : "No new fund engagements in this slice yet.");
+    refreshIcons();
+    return;
+  }
+  if (shiftsView === "gained") {
+    feed.innerHTML = `<div class="space-y-2.5">${items.map(shiftCard).join("")}</div>`;
+    refreshIcons();
+    return;
+  }
+  const groups = { strong: items.filter((x) => x.tier === "strong"), medium: items.filter((x) => x.tier === "medium") };
+  const labels = { strong: ["Strong signal", "flame", "attended 3+ prior calls, then absent"], medium: ["Worth watching", "eye", "attended 2 prior calls, then absent"] };
+  feed.innerHTML = Object.entries(groups).filter(([, arr]) => arr.length).map(([k, arr]) => `
+    <div>
+      <h3 class="mb-2 flex items-center gap-2 px-1 text-xs font-semibold uppercase tracking-wider text-slate-400">
+        <i data-lucide="${labels[k][1]}" class="h-3.5 w-3.5"></i>${labels[k][0]}<span class="font-mono text-slate-300">${arr.length}</span>
+        <span class="font-sans normal-case tracking-normal text-slate-300">· ${labels[k][2]}</span>
+      </h3>
+      <div class="space-y-2.5">${arr.map(shiftCard).join("")}</div>
+    </div>`).join("");
+  refreshIcons();
+}
+
+function shiftCard(x) {
+  const c = fundColor(x.fund_id);
+  const dropped = shiftsView === "dropped";
+  const accent = dropped ? "#f43f5e" : "#10b981";
+  const verb = dropped
+    ? `went quiet on <span class="font-semibold">${escapeHtml(x.company)}</span>`
+    : `newly engaged <span class="font-semibold">${escapeHtml(x.company)}</span>`;
+  const detail = dropped
+    ? `<span class="inline-flex items-center gap-1"><i data-lucide="history" class="h-3 w-3"></i>attended ${x.prior_calls_attended} prior call${x.prior_calls_attended === 1 ? "" : "s"} · last seen ${fmtDate(x.last_seen_date)}</span><span class="inline-flex items-center gap-1"><i data-lucide="x-circle" class="h-3 w-3"></i>absent from latest call ${fmtDate(x.latest_call_date)}</span>`
+    : `<span class="inline-flex items-center gap-1"><i data-lucide="sparkles" class="h-3 w-3"></i>first appeared on latest call ${fmtDate(x.latest_call_date)}</span>`;
+  const badge = dropped
+    ? `<span class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-bold uppercase ${x.tier === "strong" ? "bg-rose-100 text-rose-700" : "bg-amber-100 text-amber-700"}">${x.tier}</span>`
+    : `<span class="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold uppercase text-emerald-700">new</span>`;
+  return `<div class="card card-hover cursor-pointer overflow-hidden p-4" style="border-left:4px solid ${accent}" data-co="${escapeHtml(x.company)}">
+    <div class="flex items-start gap-3">
+      <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl font-display text-[11px] font-bold text-white shadow-sm" style="background:${c}">${escapeHtml(initials(x.fund_name))}</span>
+      <div class="min-w-0 flex-1">
+        <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span class="font-medium text-slate-800"><span style="color:${c}" class="font-semibold">${escapeHtml(x.fund_name)}</span> ${verb}</span>
+          ${badge}
+        </div>
+        <div class="mt-1.5 flex flex-wrap items-center gap-2">
+          ${x.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${c}">${escapeHtml(x.ticker)}</span>` : ""}
+          ${sectorPill(x.sector, null)}
+        </div>
+        <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[11px] text-slate-400">${detail}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+// ===========================================================================
 // placeholders (Prompt 11)
 // ===========================================================================
 function renderPlaceholder(id, icon, title) {
@@ -1161,6 +1267,7 @@ const RENDERERS = {
   funds: renderFunds,
   sectors: renderSectors,
   overlap: renderOverlap,
+  shifts: renderShifts,
   flags: renderFlags,
 };
 function activate(tab) {

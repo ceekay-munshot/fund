@@ -205,10 +205,11 @@ export async function loadData() {
     console.warn("loadData (fund-sightings):", err.message);
     dataError = true;
   }
-  const [funds, meta, snapIndex] = await Promise.all([
+  const [funds, meta, snapIndex, trends] = await Promise.all([
     get("data/funds.json", { funds: [] }),
     get("data/metadata.json", {}),
     get("data/snapshots/index.json", { snapshots: [] }),
+    get("data/fund-company-trends.json", { dropped: [], gained: [], summary: {} }),
   ]);
   buildFundColorMap(funds.funds || []);
   _cache = {
@@ -216,6 +217,7 @@ export async function loadData() {
     funds: funds.funds || [],
     meta: meta || {},
     snapshots: snapIndex.snapshots || [],
+    trends: trends || { dropped: [], gained: [], summary: {} },
     dataError,
   };
   return _cache;
