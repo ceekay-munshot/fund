@@ -857,11 +857,11 @@ function consensusBook() {
   return out;
 }
 
-function overlapHouseView(book) {
-  if (!book.length) return "No consensus names yet — no company has 2+ smart-money funds in the window.";
-  const top = book[0];
-  const parts = [`${book.length} companies have 2+ smart-money funds.`, `Highest conviction: ${top.company} (${top.fundCount} funds).`];
-  const building = book.filter((b) => b.building).sort((a, b) => b.fundCount - a.fundCount)[0];
+function overlapHouseView(items, min) {
+  if (!items.length) return `No companies with ${min}+ smart-money funds in this selection.`;
+  const top = items.reduce((a, b) => (b.fundCount > a.fundCount ? b : a));
+  const parts = [`${items.length} ${items.length === 1 ? "company has" : "companies have"} ${min}+ smart-money funds.`, `Highest conviction: ${top.company} (${top.fundCount} funds).`];
+  const building = items.filter((b) => b.building).sort((a, b) => b.fundCount - a.fundCount)[0];
   if (building) parts.push(`Conviction is building in ${building.company} — a ${ordinal(building.fundCount)} fund just appeared this week.`);
   return parts.join(" ");
 }
@@ -901,7 +901,7 @@ function renderOverlap() {
     <div class="mb-4 rounded-3xl bg-gradient-to-br from-amber-50 via-white to-indigo-50 p-5 shadow-sm ring-1 ring-slate-100">
       <div class="mb-1.5 flex items-center gap-2"><span class="rounded-xl bg-white p-1.5 text-amber-500 shadow-sm"><i data-lucide="git-merge" class="h-4 w-4"></i></span>
         <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">House view</h2></div>
-      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">${escapeHtml(overlapHouseView(_book))}</p>
+      <p id="overlap-headline" class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl"></p>
       <p class="mt-2 text-[11px] text-slate-400">Signal = smart-money attention from concall participation (a leading indicator), not confirmed positions.</p>
     </div>
     ${strip}
@@ -932,6 +932,8 @@ function updateOverlapBook() {
   const cont = document.getElementById("overlap-book");
   if (!cont) return;
   let items = _book.filter((b) => b.fundCount >= overlapMin && (overlapSector === "all" || (b.sector || "Unclassified") === overlapSector));
+  const ohl = document.getElementById("overlap-headline");
+  if (ohl) ohl.textContent = overlapHouseView(items, overlapMin);
   if (!items.length) {
     cont.innerHTML = emptyState("git-merge", "No consensus names here", "Try lowering the min-funds filter or picking another sector.");
     refreshIcons();
@@ -1045,15 +1047,13 @@ function buildFlags() {
     .sort((a, b) => (b.flagDate || "").localeCompare(a.flagDate || "") || (b.concall_date || "").localeCompare(a.concall_date || ""));
 }
 
-function flagsHouseView(flags) {
-  const c7 = ymdAgo(7);
-  const week = flags.filter((f) => f.flagDate >= c7);
-  if (!week.length) return "No new flags in the last 7 days — the radar runs daily.";
-  const firstCnt = week.filter((f) => f.firstInterest).length;
-  const parts = [`${week.length} new flag${week.length === 1 ? "" : "s"} in the last 7 days.`, `${firstCnt} ${firstCnt === 1 ? "is" : "are"} first-time interest.`];
-  const nf = week.find((f) => f.firstInterest), nr = week.find((f) => !f.firstInterest);
+function flagsHouseView(items, label) {
+  if (!items.length) return `No appearances ${label} for this selection.`;
+  const firstCnt = items.filter((f) => f.firstInterest).length;
+  const parts = [`${items.length} appearance${items.length === 1 ? "" : "s"} ${label}.`, `${firstCnt} ${firstCnt === 1 ? "is" : "are"} first-time interest.`];
+  const nf = items.find((f) => f.firstInterest), nr = items.find((f) => !f.firstInterest);
   const bits = [];
-  if (nf) bits.push(`${nf.fund_name} showed up in ${nf.company} for the first time`);
+  if (nf) bits.push(`${nf.fund_name} in ${nf.company} for the first time`);
   if (nr) bits.push(`${nr.fund_name} re-engaged ${nr.company}`);
   if (bits.length) parts.push("Notable: " + bits.join("; ") + ".");
   return parts.join(" ");
@@ -1085,7 +1085,7 @@ function renderFlags() {
           <span class="rounded-full bg-white px-2.5 py-1 text-xs font-medium text-slate-600 shadow-sm ring-1 ring-slate-100">7 days <span class="font-mono font-semibold text-indigo-600">${weekN}</span></span>
         </div>
       </div>
-      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">${escapeHtml(flagsHouseView(_flags))}</p>
+      <p id="flag-headline" class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl"></p>
       <p class="mt-2 text-[11px] text-slate-400">A live feed of where smart money showed up, newest first. Attention from concall participation (a leading indicator), not confirmed positions. <span class="text-slate-300">For who's <em>entering/exiting</em> a name, see the Shifts tab.</span></p>
     </div>
     <div class="mb-4 flex flex-col gap-3">
@@ -1142,13 +1142,14 @@ function updateFlagsFeed() {
     (!flagFirstOnly || f.firstInterest)
   );
   const label = (FLAG_WINDOWS.find(([v]) => v === flagWindow) || [, "this period"])[1].toLowerCase();
+  items = items.slice().sort((a, b) => (b.concall_date || "").localeCompare(a.concall_date || ""));
+  const hl = document.getElementById("flag-headline");
+  if (hl) hl.textContent = flagsHouseView(items, label);
   if (!items.length) {
     feed.innerHTML = emptyState("bell-off", `No activity ${label}`, "Widen the time window, or loosen the fund/sector filters.");
     refreshIcons();
     return;
   }
-  // newest first, flat feed, paginated 10 at a time
-  items = items.slice().sort((a, b) => (b.concall_date || "").localeCompare(a.concall_date || ""));
   feed.innerHTML = `<div class="mb-1 px-1 text-xs font-semibold uppercase tracking-wider text-slate-400">${items.length} appearance${items.length === 1 ? "" : "s"} ${label}</div>`
     + moreList(items.map((f) => flagCard(f, fbc)), 10, "appearances");
   refreshIcons();
@@ -1205,9 +1206,7 @@ function renderShifts() {
         <span class="rounded-xl bg-white p-1.5 text-rose-500 shadow-sm"><i data-lucide="trending-down" class="h-4 w-4"></i></span>
         <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">Attention shifts</h2>
       </div>
-      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">
-        ${sum.dropped || 0} fund–company relationships went quiet on the latest call · ${sum.gained || 0} newly engaged.
-      </p>
+      <p id="shifts-headline" class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl"></p>
       <p class="mt-2 text-[11px] text-slate-400">A fund here attended a company's earlier concalls but stopped participating on the most recent one — a leading <span class="font-medium text-slate-500">loss-of-attention</span> signal, <span class="font-medium text-slate-500">not</span> proof it sold. "New" = first appearance on the latest call.</p>
     </div>
     <div class="mb-4 flex flex-wrap items-center gap-3">
@@ -1237,6 +1236,16 @@ function updateShiftsFeed() {
   if (!feed) return;
   const t = DATA.trends || { dropped: [], gained: [] };
   let items = (t[shiftsView] || []).filter((x) => shiftsSector === "all" || (x.sector || "Unclassified") === shiftsSector);
+  const where = shiftsSector === "all" ? "" : ` in ${shiftsSector}`;
+  const shl = document.getElementById("shifts-headline");
+  if (shl) {
+    if (shiftsView === "dropped") {
+      const strong = items.filter((x) => x.tier === "strong").length;
+      shl.textContent = `${items.length} fund–company relationship${items.length === 1 ? "" : "s"} went quiet on the latest call${where} · ${strong} strong signal${strong === 1 ? "" : "s"}.`;
+    } else {
+      shl.textContent = `${items.length} new fund engagement${items.length === 1 ? "" : "s"} on the latest call${where}.`;
+    }
+  }
   if (!items.length) {
     feed.innerHTML = emptyState(shiftsView === "dropped" ? "smile" : "search", "Nothing here", shiftsView === "dropped" ? "No funds dropped a name in this slice — that's a good sign." : "No new fund engagements in this slice yet.");
     refreshIcons();
@@ -1315,7 +1324,7 @@ function renderGuidance() {
         <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">Forward guidance</h2>
       </div>
       <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">What management committed to on the latest call — flagged <span class="text-emerald-600">specific</span>, <span class="text-amber-600">vague</span>, or <span class="text-rose-500">refused</span>.</p>
-      <p class="mt-2 text-[11px] text-slate-400">${all.length} ${all.length === 1 ? "company" : "companies"} covered · AI-extracted from the concall transcript — always verify against the source before acting.</p>
+      <p class="mt-2 text-[11px] text-slate-400"><span id="guid-count">${all.length} companies</span> · AI-extracted from the concall transcript — always verify against the source before acting.</p>
     </div>
     <div class="mb-4 flex flex-wrap items-center gap-3">
       <div class="relative flex-1 min-w-[200px]">
@@ -1350,6 +1359,10 @@ function updateGuidanceFeed() {
     (!q || (g.company || "").toLowerCase().includes(q) || (g.ticker || "").toLowerCase().includes(q))
   );
   items.sort((a, b) => (b.concall_date || "").localeCompare(a.concall_date || ""));
+  const total = Object.keys(DATA.guidance.companies || {}).length;
+  const gc = document.getElementById("guid-count");
+  const filtered = guidanceSector !== "all" || q;
+  if (gc) gc.textContent = filtered ? `${items.length} of ${total} companies` : `${total} ${total === 1 ? "company" : "companies"}`;
   if (!items.length) {
     feed.innerHTML = emptyState("search-x", "No matches", "Try another company, ticker, or sector.");
     refreshIcons();
