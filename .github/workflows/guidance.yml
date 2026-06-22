@@ -1,0 +1,76 @@
+name: Forward guidance (fund radar)
+
+# Extracts forward guidance (revenue / margin / capex / EBITDA targets, each flagged
+# specific|vague|refused) from each fund-tracked company's most recent concall, using a
+# free-tier LLM (Gemini/Groq/Mistral, rotated). Block-safe + incremental: GUIDANCE_LIMIT
+# companies per run, skips ones already done, self-quiesces when caught up.
+#
+# Fetches PDFs straight from BSE/NSE (no Screener login). Needs at least one of
+# GEMINI_API_KEY / GROQ_API_KEY / MISTRAL_API_KEY in repo secrets.
+
+on:
+  workflow_dispatch:
+    inputs:
+      guidance_limit:
+        description: "Companies to process this run (free-tier friendly ≈ 12)"
+        required: false
+        default: "12"
+        type: string
+      debug:
+        description: "Dump parsed LLM JSON (1/0)"
+        required: false
+        default: "0"
+        type: string
+  schedule:
+    - cron: "12,42 * * * *" # twice an hour, offset from the other jobs
+
+concurrency:
+  group: guidance
+  cancel-in-progress: false
+
+jobs:
+  guidance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Install deps
+        run: |
+          npm install playwright@1 pdfjs-dist --no-save
+          npx playwright install --with-deps chromium
+      - name: Extract guidance batch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GUIDANCE_LIMIT: ${{ inputs.guidance_limit || '12' }}
+          DEBUG: ${{ inputs.debug || '0' }}
+        run: node screener-test/extract-guidance.mjs
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: guidance-data
+          path: public/data/guidance.json
+          if-no-files-found: warn
+      - name: Commit guidance to main
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/guidance.json
+          if git diff --cached --quiet; then echo "No guidance changes — caught up."; exit 0; fi
+          git commit -m "Fund radar guidance ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then echo "Pushed (attempt $attempt)."; exit 0; fi
+            echo "Push rejected ($attempt) — fetch + rebase onto fresh main..."
+            git fetch origin main
+            git rebase origin/main || { echo "Rebase failed."; git rebase --abort; exit 1; }
+            sleep $((attempt * 2))
+          done
+          echo "Push still failing after 4 attempts."; exit 1
