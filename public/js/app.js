@@ -985,9 +985,11 @@ function openCompanyDrill(company) {
     <div class="scroll-area flex-1 space-y-2 overflow-y-auto p-4">
       <div class="px-1 text-[11px] font-semibold uppercase tracking-wide text-slate-400">Who's interested — and the evidence</div>
       ${blocks}
+      ${guidanceDrillBlock(c.company)}
     </div>`;
   revealModal();
   wireShowMore(document.getElementById("drill-content"));
+  refreshIcons();
 }
 
 // ===========================================================================
@@ -1338,9 +1340,8 @@ const SPEC_STYLE = {
 };
 const DIR_ICON = { up: "trending-up", down: "trending-down", flat: "move-right", unclear: "help-circle" };
 
-function guidanceCard(g) {
-  const col = sectorColor(g.sector || null);
-  const items = (g.guidance || []).map((it) => {
+function guidanceItemRows(g) {
+  const rows = (g.guidance || []).map((it) => {
     const sp = SPEC_STYLE[it.specificity] || SPEC_STYLE.vague;
     return `<div class="flex items-start gap-2.5 rounded-xl bg-slate-50/70 p-2.5 ring-1 ring-slate-100">
       <span class="mt-1 h-2 w-2 shrink-0 rounded-full" style="background:${sp.dot}"></span>
@@ -1355,27 +1356,58 @@ function guidanceCard(g) {
       </div>
     </div>`;
   }).join("");
+  return rows || `<p class="text-sm text-slate-400">No forward guidance extracted.</p>`;
+}
+
+function guidanceTags(g) {
   const tagRow = (label, arr, icon, cls) => (arr && arr.length)
     ? `<div class="mt-3"><div class="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-slate-400"><i data-lucide="${icon}" class="h-3 w-3"></i>${label}</div>
        <div class="flex flex-wrap gap-1.5">${arr.map((x) => `<span class="rounded-full ${cls} px-2 py-0.5 text-[11px]">${escapeHtml(x)}</span>`).join("")}</div></div>`
     : "";
-  return `<div class="card overflow-hidden p-5" style="border-top:3px solid ${col}">
-    <div class="mb-3 flex flex-wrap items-start justify-between gap-2">
-      <div class="min-w-0">
+  return tagRow("Refused to guide", g.refused_to_guide, "shield-off", "bg-rose-50 text-rose-600")
+    + tagRow("Margin drivers", g.margin_drivers, "settings-2", "bg-slate-100 text-slate-600");
+}
+
+function guidanceBody(g) {
+  return `${g.summary ? `<p class="mb-3 rounded-xl bg-indigo-50/50 p-3 text-sm italic leading-snug text-slate-600">“${escapeHtml(g.summary)}”</p>` : ""}
+    <div class="space-y-2">${guidanceItemRows(g)}</div>
+    ${guidanceTags(g)}
+    <p class="mt-3 text-[10px] text-slate-300">AI-extracted (${escapeHtml(g.provider || "llm")}) · verify against transcript</p>`;
+}
+
+// Guidance block for the company drill (shown alongside the fund evidence).
+function guidanceDrillBlock(company) {
+  const g = (DATA.guidance && DATA.guidance.companies && DATA.guidance.companies[company]) || null;
+  if (!g) return "";
+  const n = (g.guidance || []).length;
+  return `<div class="mt-4 rounded-2xl bg-white p-4 ring-1 ring-slate-100">
+      <div class="mb-2 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-indigo-500"><i data-lucide="target" class="h-3.5 w-3.5"></i>Forward guidance · latest call ${fmtDate(g.concall_date)}<span class="font-mono text-slate-300">${n} item${n === 1 ? "" : "s"}</span></div>
+      ${guidanceBody(g)}
+    </div>`;
+}
+
+// Click-to-expand accordion card for the Guidance tab.
+function guidanceCard(g) {
+  const col = sectorColor(g.sector || null);
+  const n = (g.guidance || []).length;
+  const specN = (g.guidance || []).filter((x) => x.specificity === "specific").length;
+  return `<details class="card overflow-hidden" style="border-top:3px solid ${col}">
+    <summary class="guid-sum flex cursor-pointer items-center gap-3 p-4">
+      <div class="min-w-0 flex-1">
         <div class="flex flex-wrap items-center gap-2">
-          <h3 class="font-display text-lg font-bold text-slate-800">${escapeHtml(g.company)}</h3>
+          <span class="font-display text-base font-bold text-slate-800">${escapeHtml(g.company)}</span>
           ${g.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${col}">${escapeHtml(g.ticker)}</span>` : ""}
         </div>
-        <div class="mt-1 flex flex-wrap items-center gap-2">${sectorPill(g.sector, null)}<span class="inline-flex items-center gap-1 font-mono text-[11px] text-slate-400"><i data-lucide="calendar" class="h-3 w-3"></i>concall ${fmtDate(g.concall_date)}</span></div>
+        <div class="mt-1 flex flex-wrap items-center gap-2">${sectorPill(g.sector, null)}<span class="inline-flex items-center gap-1 font-mono text-[11px] text-slate-400"><i data-lucide="calendar" class="h-3 w-3"></i>${fmtDate(g.concall_date)}</span></div>
       </div>
-      <div class="flex items-center gap-2">${transcriptBtn(g.transcript_url)}</div>
-    </div>
-    ${g.summary ? `<p class="mb-3 rounded-xl bg-indigo-50/50 p-3 text-sm italic leading-snug text-slate-600">“${escapeHtml(g.summary)}”</p>` : ""}
-    <div class="space-y-2">${items || `<p class="text-sm text-slate-400">No forward guidance extracted.</p>`}</div>
-    ${tagRow("Refused to guide", g.refused_to_guide, "shield-off", "bg-rose-50 text-rose-600")}
-    ${tagRow("Margin drivers", g.margin_drivers, "settings-2", "bg-slate-100 text-slate-600")}
-    <p class="mt-3 text-[10px] text-slate-300">AI-extracted (${escapeHtml(g.provider || "llm")}) · verify against transcript</p>
-  </div>`;
+      <div class="flex shrink-0 items-center gap-3">
+        <span class="hidden sm:inline rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-700">${specN} specific</span>
+        <span class="rounded-full bg-slate-100 px-2.5 py-1 font-mono text-xs font-semibold text-slate-600">${n} items</span>
+        <i data-lucide="chevron-down" class="guid-chev h-4 w-4 text-slate-400 transition-transform"></i>
+      </div>
+    </summary>
+    <div class="border-t border-slate-100 p-5 pt-4">${guidanceBody(g)}</div>
+  </details>`;
 }
 
 // ===========================================================================
