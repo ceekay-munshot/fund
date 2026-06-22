@@ -2104,8 +2104,1136 @@
         "Forex benefits",
         "Logistics costs"
       ]
+    },
+    "Avanti Feeds": {
+      "company": "Avanti Feeds",
+      "ticker": "AVANTIFEED",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-06-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17beb17b-1b20-4d22-bf0e-b00be4dd2504.pdf",
+      "transcript_id": "avanti-feeds_2026-06-15",
+      "provider": "groq",
+      "generated_at": "2026-06-22T23:09:11.677Z",
+      "summary": "Avanti Feeds expects a challenging season for the aquaculture industry in FY27 due to steep increases in feed raw material prices, but is confident of stabilizing feed prices and maintaining profitability.",
+      "guidance": [
+        {
+          "metric": "Feed sales",
+          "horizon": "FY27",
+          "statement": "Estimated to be around 5,80,000 MTs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export volume",
+          "horizon": "FY27",
+          "statement": "Estimated to be around 19,000 MT",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Price increase",
+          "horizon": "FY27",
+          "statement": "Proposed price increase to compensate for raw material price hikes",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pet care sales",
+          "horizon": "End of FY27",
+          "statement": "Aim to reach 800 MTs",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Raw material prices",
+        "Export market conditions",
+        "Farm gate prices of shrimp"
+      ]
+    },
+    "Aegis Logistics": {
+      "company": "Aegis Logistics",
+      "ticker": "AEGISLOG",
+      "sector": "Energy",
+      "concall_date": "2026-06-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2ebd557-5ec3-4cb1-b90f-9d56e37dbbde.pdf",
+      "transcript_id": "aegis-logistics_2026-06-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:09:23.806Z",
+      "summary": "Strong growth outlook driven by LPG distribution expansion, ammonia logistics, and multi-year capex program with disciplined capital allocation.",
+      "guidance": [
+        {
+          "metric": "LPG distribution margins",
+          "horizon": "FY27 onwards",
+          "statement": "Distribution margins expected to sustain at INR7,000 per ton due to volume growth and procurement efficiencies",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "LPG distribution volumes",
+          "horizon": "FY28",
+          "statement": "Target of 2 million tons of LPG distribution volume by FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ammonia terminal utilization",
+          "horizon": "FY27",
+          "statement": "Expected 25% utilization in first year, growing 30-40% year-on-year thereafter",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ammonia distribution volumes",
+          "horizon": "FY27",
+          "statement": "Expected 200,000 tons of ammonia distribution in first year, growing 20-30% year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ammonia throughput margins",
+          "horizon": "FY27 onwards",
+          "statement": "Throughput margins expected in range of INR2,500-3,000 per ton; distribution margins up to INR5,000 per ton",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Aggregate capex of $1.2 billion by March 2027",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY28",
+          "statement": "Capex up to INR5,000 crores in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex pipeline",
+          "horizon": "2026-2030",
+          "statement": "Total capex pipeline of $5 billion through 2030 with heavy capex in FY29-FY31",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LPG supply normalization",
+          "horizon": "Q2 FY27",
+          "statement": "LPG supply situation expected to normalize by Q2 FY27 with improvement continuing month-on-month",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Vadhavan port participation",
+          "horizon": "subject to approvals",
+          "statement": "Potential investment of ~INR20,000 crores in Vadhavan port development subject to approvals and land allocation",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Kandla LPG pipeline connectivity",
+          "horizon": "H1 FY27",
+          "statement": "Kandla-Gorakhpur LPG pipeline expected to be connected in H1 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pipavav integrated LPG ecosystem completion",
+          "horizon": "Q2 FY27",
+          "statement": "Pipavav VLGC-compliant jetty expected to be completed within calendar year with KGPL pipeline connection following in Q2 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "government policy changes on LPG subsidies or PNG adoption",
+        "inventory gains/losses in future quarters",
+        "exact revenue split between LPG distribution and other segments"
+      ],
+      "margin_drivers": [
+        "LPG distribution volume growth and procurement efficiencies",
+        "energy price volatility and uncertainty premiums",
+        "ammonia logistics and distribution margins",
+        "multi-modal evacuation infrastructure (pipelines, rail gantries)",
+        "cryogenic LPG terminal ramp-up and utilization"
+      ]
+    },
+    "Aegis Vopak Term": {
+      "company": "Aegis Vopak Term",
+      "ticker": "AEGISVOPAK",
+      "sector": "Energy",
+      "concall_date": "2026-06-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53674766-2875-4330-9e54-960fcfc5a869.pdf",
+      "transcript_id": "aegis-vopak-term_2026-06-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:09:32.271Z",
+      "summary": "Management expects strong growth driven by aggressive capacity expansion, energy transition opportunities, and disciplined execution with a $5B capex pipeline by 2030.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY30",
+          "statement": "Aggregate capex to reach USD1.2 billion by end of FY27 and USD5 billion by 2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (FY28)",
+          "horizon": "FY28",
+          "statement": "FY28 capex expected to be close to INR5,000 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "JNPT Liquid Capacity (Phase 1)",
+          "horizon": "Q1FY27",
+          "statement": "First phase of JNPT liquid capacity expansion (318,100 CBM) expected to be operational in Q1FY27, contributing revenues from Q2FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LPG Throughput Growth",
+          "horizon": "FY27",
+          "statement": "Expected LPG throughput growth of 30% to 40% year-on-year in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ammonia Terminal (Pipavav)",
+          "horizon": "H1FY27",
+          "statement": "Ammonia terminal at Pipavav (36,000 MT capacity) expected to be commissioned in H1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "VLGC Jetty (Pipavav)",
+          "horizon": "Calendar 2026",
+          "statement": "New VLGC-compliant jetty at Pipavav expected to be completed within calendar 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Kandla-Gorakhpur LPG Pipeline",
+          "horizon": "H1FY27",
+          "statement": "Kandla-Gorakhpur LPG pipeline connection expected to go live in H1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Mangalore-Hassan-Cherlapalli Pipeline",
+          "horizon": "FY28",
+          "statement": "Mangalore-Hassan-Cherlapalli pipeline expected to be operative in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Port Network Expansion",
+          "horizon": "2030",
+          "statement": "Planned expansion from 7 to 12 ports by end of 2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ammonia Terminals (Future)",
+          "horizon": "2030",
+          "statement": "Expect to add more ammonia terminals as part of energy transition strategy.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New Products (Ethane, Propylene, Natural Gas)",
+          "horizon": "2030",
+          "statement": "Intent to expand into new products like Ethane, Propylene, and natural gas infrastructure.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inland Depots & Jetties",
+          "horizon": "2030",
+          "statement": "Plans to expand into inland depots and backward integration into jetties.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "revenue mix by customer/product",
+        "lease expiry timelines",
+        "specific revenue/earnings guidance"
+      ],
+      "margin_drivers": [
+        "capacity additions",
+        "multi-modal evacuation (pipelines, railways, roads)",
+        "energy transition (ammonia, green molecules)",
+        "operational efficiencies from in-house construction (Aegis Logistics)",
+        "VLGC-compliant jetties",
+        "long-term take-or-pay agreements"
+      ]
+    },
+    "IFB Industries": {
+      "company": "IFB Industries",
+      "ticker": "IFBIND",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f74d5bf-c0bf-4a86-bd50-9ea6fd04303f.pdf",
+      "transcript_id": "ifb-industries_2026-06-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:09:41.313Z",
+      "summary": "Management expects mid-teens revenue growth in home appliances with margin expansion driven by cost optimization and premiumization, while engineering division targets 20-25% revenue CAGR over next 2-3 years with EBITDA margin improvement to 17-18%.",
+      "guidance": [
+        {
+          "metric": "Home appliances revenue growth",
+          "horizon": "FY27",
+          "statement": "Aspiration to grow north of 20% in home appliances division",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Home appliances EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin improvement expected due to cost optimization and premiumization initiatives",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost optimization impact",
+          "horizon": "FY27",
+          "statement": "Expecting INR 150 crores of cost initiative impact in FY27, with INR 29 crores already realized in Apr-May FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Home appliances market share (ACs)",
+          "horizon": "FY27",
+          "statement": "Aspiration to reach double-digit market share in ACs this year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Home appliances market share (front load washers)",
+          "horizon": "FY27",
+          "statement": "Currently at 23% market share, with plans to launch 13kg and 14kg models to capture larger capacity segment",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Home appliances market share (top load washers)",
+          "horizon": "FY27",
+          "statement": "Growing market share in top load segment with 19% volume growth in FY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Engineering division revenue growth",
+          "horizon": "2-3 years",
+          "statement": "Targeting 20-25% revenue CAGR over next 2-3 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Engineering division EBITDA margin",
+          "horizon": "2-3 years",
+          "statement": "Target EBITDA margin of 17-18% for engineering division",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Engineering division new revenue streams",
+          "horizon": "2-3 years",
+          "statement": "Adding new revenue streams including EV battery parts, motorcycle chains, and brake disc manufacturing",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Home appliances product portfolio simplification",
+          "horizon": "Ongoing",
+          "statement": "Continuing product portfolio simplification to improve sales, manufacturing efficiency, and premiumization",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Home appliances distribution focus",
+          "horizon": "FY27",
+          "statement": "Concentrating on 10,000 high-volume outlets to improve placement and extraction",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Home appliances price increases",
+          "horizon": "FY27",
+          "statement": "Already taken price increases in almost all categories in Q4 FY26 and Q1 FY27",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Breakup of sales by specific product categories (AC, front load, top load) in future periods",
+        "Detailed capex allocation for future periods beyond current year",
+        "Exact revenue contribution expected from new product launches (13kg/14kg front loaders)",
+        "Specific timeline for achieving double-digit market share in ACs beyond 'this year'"
+      ],
+      "margin_drivers": [
+        "Cost optimization initiatives",
+        "Premiumization of product mix",
+        "Product portfolio simplification",
+        "Price increases",
+        "Manufacturing efficiency improvements",
+        "Distribution channel optimization"
+      ]
+    },
+    "PAN HR Solution": {
+      "company": "PAN HR Solution",
+      "ticker": "544698",
+      "sector": "Services",
+      "concall_date": "2026-06-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ec1d09d-e36d-4595-879c-75f9b4bab7d9.pdf",
+      "transcript_id": "pan-hr-solution_2026-06-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:09:49.244Z",
+      "summary": "Management expects strong growth in revenue and profitability over the next three years driven by geographic expansion, new service offerings, and acquisitions.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY29",
+          "statement": "Target of INR1,000 crores by FY29",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Aim to increase turnover by approximately 40% in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Workforce deployment",
+          "horizon": "medium-term",
+          "statement": "Scale up workforce deployment from current 11,000 to higher levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pay-and-collect model",
+          "horizon": "medium-term",
+          "statement": "Accelerate transition towards pay-and-collect model",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographic expansion",
+          "horizon": "medium-term",
+          "statement": "Expand into new geographies including South and West India",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Service offerings",
+          "horizon": "medium-term",
+          "statement": "Expand into higher-value services like payroll management, compliance services, and HR solutions",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "3PL model participation",
+          "horizon": "medium-term",
+          "statement": "Increase participation in third-party logistics model with existing clients",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisitions",
+          "horizon": "medium-term",
+          "statement": "Pursue acquisitions in workforce management, staffing, and payroll services to add clients and infrastructure",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin trend",
+          "horizon": "medium-term",
+          "statement": "Focus on profitable growth and sustained improvement in return ratios",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "ROE and ROCE",
+          "horizon": "medium-term",
+          "statement": "Maintain healthy return ratios with temporary fluctuations due to capital deployment for growth",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Sector focus",
+          "horizon": "medium-term",
+          "statement": "Expand into manufacturing and infrastructure sectors alongside existing focus on e-commerce, quick commerce, and logistics",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology and automation",
+          "horizon": "medium-term",
+          "statement": "Invest in technology, operational excellence, HRMS platform, and automation to improve profitability",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Transition to pay-and-collect model",
+        "Higher-value services (payroll management, compliance services, HR solutions)",
+        "Technology and automation investments",
+        "Operational efficiencies and resource utilization",
+        "Acquisitions adding clients and infrastructure"
+      ]
+    },
+    "Ivalue Infosolut": {
+      "company": "Ivalue Infosolut",
+      "ticker": "IVALUE",
+      "sector": "Information Technology",
+      "concall_date": "2026-06-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2590e34-5554-4803-aec9-f5c143b6a8aa.pdf",
+      "transcript_id": "ivalue-infosolut_2026-06-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:09:57.981Z",
+      "summary": "Management expects FY27 to outperform FY26 with accelerated revenue growth and profitability driven by strong demand, annuity-led revenues, AI/digital infrastructure tailwinds, and operating leverage.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect FY27 revenue growth to outperform FY26 (19.5% YoY in FY26)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Profitability (PAT)",
+          "horizon": "FY27",
+          "statement": "Expect FY27 profitability to outperform FY26 (20% YoY in FY26)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Qualified opportunity book",
+          "horizon": "FY27",
+          "statement": "Qualified opportunity book of INR 5,800 crore with conversion rates of 30% to 35%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Operating leverage",
+          "horizon": "Next 2-3 years",
+          "statement": "More than 70% of incremental gross margin expected to flow to EBITDA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cloud business order book",
+          "horizon": "Next 3-5 years",
+          "statement": "Cloud order book exceeding INR 300 crore with multi-year revenue visibility",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Annuity-led revenue contribution",
+          "horizon": "FY27",
+          "statement": "Annuity business expected to contribute significantly to revenue growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographic expansion (ASEAN)",
+          "horizon": "Medium-term",
+          "statement": "Evaluating opportunities to enter select ASEAN markets with measured, paced expansion",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI-led growth (Cybersecurity)",
+          "horizon": "FY27",
+          "statement": "Cybersecurity growth driven by AI security, LLM security, AI governance, and AI risk management",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Data Center Infrastructure (DCI) growth",
+          "horizon": "FY27",
+          "statement": "DCI to remain primary growth engine with opportunities in AI data centers and GPU infrastructures",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "FY27",
+          "statement": "Aim to maintain net working capital days sub-40 days",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capital allocation (inorganic opportunities)",
+          "horizon": "FY27",
+          "statement": "Board evaluating strategic inorganic opportunities aligned with focus areas (cybersecurity, cloud, DCI, geography)",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Shareholder returns (dividend/buyback)",
+          "horizon": "FY27",
+          "statement": "If no suitable inorganic opportunity, board may enhance shareholder returns subject to business performance and cash flow visibility",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific deal names or customer details",
+        "Hardware price inflation impact on margins beyond Q4FY26",
+        "Exact OEM additions or specific OEM partnerships"
+      ],
+      "margin_drivers": [
+        "Operating leverage (70%+ incremental gross margin to EBITDA)",
+        "Annuity-led revenues (recurring, high-margin cloud business)",
+        "Multi-OEM integrated solutions (negotiated margins per deal)",
+        "AI and digital infrastructure tailwinds (Cybersecurity, DCI)",
+        "Working capital efficiency (sub-40 days target)"
+      ]
+    },
+    "Yaap Digital": {
+      "company": "Yaap Digital",
+      "ticker": "YAAP",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-15",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/YAAPDIGITAL_15062026135112_Transcript_Earnings_Call_Yaap.pdf",
+      "transcript_id": "yaap-digital_2026-06-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:10:08.994Z",
+      "summary": "Management expects sustained revenue growth with improved margin stability and strategic acquisitions driving long-term value creation.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27-FY29",
+          "statement": "Targeting 25%-30% YoY revenue growth over the next 3 years, aiming for 2% market share of the Indian agency business addressable market.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "H2 FY26 EBITDA margin of ~18% is sustainable, with a potential fluctuation of 1%-2% depending on client mix.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "H1 vs H2 revenue mix",
+          "horizon": "FY27",
+          "statement": "Expecting a more balanced H1-H2 revenue split, with H1 contributing ~35%-40% of annual revenue.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Operating cash flow conversion",
+          "horizon": "FY27",
+          "statement": "Targeting 60%-70% EBITDA to operating cash flow conversion going forward.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital requirement",
+          "horizon": "FY27",
+          "statement": "Working capital needs vary by service line; media business may require 40%-50% of billed revenue as incremental working capital.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI integration",
+          "horizon": "medium-term",
+          "statement": "AI is being integrated into all three service lines (Design, Discovery, Distribution) and HAWK platform to scale operations and enhance analytics.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Strategic acquisitions",
+          "horizon": "FY27",
+          "statement": "Planning at least one AI tech-led acquisition in the creator economy space within FY27, with a focus on India and Middle East markets.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Geographic expansion",
+          "horizon": "3 years",
+          "statement": "Primary growth focus remains India, with plans to expand into non-metro cities and explore GCC markets via acquisitions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Client retention",
+          "horizon": "medium-term",
+          "statement": "Average client relationship tenure is ~3 years with ~60% retention rate, aiming to deepen wallet share with existing clients.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Client concentration",
+          "horizon": "FY27",
+          "statement": "Top 10 clients contribute ~40% to revenue, with concentration decreasing rapidly.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Recurring vs project revenue",
+          "horizon": "FY27",
+          "statement": "70% of business is recurring, with new client additions contributing ~20%-25% to annual revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage",
+          "horizon": "FY27",
+          "statement": "EBITDA growth driven by higher-margin services (Design and Discovery) and client mix, with potential for 10%+ margin expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "exact acquisition targets or timelines beyond FY27",
+        "detailed financial impact of future acquisitions",
+        "precise market share targets beyond 2%"
+      ],
+      "margin_drivers": [
+        "non-media services (Design and Discovery)",
+        "client mix (higher-margin services)",
+        "AI integration for scalability",
+        "HAWK platform (online reputation management)",
+        "strategic acquisitions (Gozoop)"
+      ]
+    },
+    "Greenleaf Envi.": {
+      "company": "Greenleaf Envi.",
+      "ticker": "GREENLEAF",
+      "sector": "Utilities",
+      "concall_date": "2026-06-13",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/GREENLEAF_13062026152736_Transcript_Earnings_Con_Call_-13-06-2026.pdf",
+      "transcript_id": "greenleaf-envi_2026-06-13",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:10:17.632Z",
+      "summary": "Greenleaf Envirotech expects strong growth driven by government initiatives, private sector demand, and strategic expansion into CETP and technology licensing, with maintained EBITDA margins.",
+      "guidance": [
+        {
+          "metric": "Order book execution",
+          "horizon": "FY26-FY27",
+          "statement": "INR 80 crore of the INR 95 crore order book will be executed in FY26-FY27, with INR 15 crore spilling over to next year.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book composition",
+          "horizon": "FY26-FY27",
+          "statement": "95% of projects are from government, with remaining from private sector (e.g., Adani, McCain Foods).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin on new orders",
+          "horizon": "FY26-FY27",
+          "statement": "New orders bid at 15-20% gross margin, maintaining EBITDA margins between 15-20% for all projects.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Government project targeting",
+          "horizon": "Next 2-3 years",
+          "statement": "Targeting acquisition of projects valued at more than INR 50 crore from government authorities.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Private sector project targeting",
+          "horizon": "Next 2-3 years",
+          "statement": "Targeting private industry projects with order value exceeding INR 5 crore.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CETP project development",
+          "horizon": "Next 3-4 years",
+          "statement": "Planning to develop at least 4-5 CETP infrastructure projects in own ownership.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CETP recurring revenue",
+          "horizon": "FY27 onwards",
+          "statement": "Post-commissioning, CETP projects to generate INR 80 lakh per month recurring revenue (Phase 1).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CETP project timeline",
+          "horizon": "FY27",
+          "statement": "10 MLD CETP project in Sayan Surat to be commissioned by March 2027.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Bid pipeline",
+          "horizon": "FY26",
+          "statement": "Current bid pipeline of INR 200 crore, with plan to bid INR 50 crore monthly and INR 400 crore by year-end.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Conversion rate",
+          "horizon": "FY26",
+          "statement": "Average conversion rate of bid pipeline to orders is around 20%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Technology licensing revenue",
+          "horizon": "Medium-term",
+          "statement": "GAC-SBR Tech patent to strengthen technical positioning and enable licensing/sales to other EPC players.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ESG services expansion",
+          "horizon": "Medium-term",
+          "statement": "Building a comprehensive ESG and sustainability services platform for industries across India.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "future revenue or PAT estimates",
+        "detailed financial projections beyond margins"
+      ],
+      "margin_drivers": [
+        "Gross margin maintenance (15-20%)",
+        "Recurring revenue from CETP projects",
+        "Technology licensing (GAC-SBR Tech)",
+        "ESG services expansion",
+        "Operational efficiency and cost optimization"
+      ]
+    },
+    "GP Eco Solutions": {
+      "company": "GP Eco Solutions",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-12",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/GPECO_12062026175147_Transcript_Investors_Call_June_10_2026.pdf",
+      "transcript_id": "gp-eco-solutions_2026-06-12",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:10:27.279Z",
+      "summary": "Management expects strong revenue and profitability growth in FY27 driven by BESS and inverter portfolio expansion, Giga factory ramp-up, and policy tailwinds, with medium-term capacity expansion to 5GWh.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth of approximately 2-3x vs FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PBT",
+          "horizon": "FY27",
+          "statement": "PBT growth of approximately 2-3x vs FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin to increase by 8-10 percentage points from FY26 level",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue mix",
+          "horizon": "FY27",
+          "statement": "Revenue mix to shift to Invergy production ~53%, GPS Green Projects ~33%, and distribution ~13%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Giga factory capacity",
+          "horizon": "Sep 2026",
+          "statement": "Full 3GWh capacity to be operational by 30th September 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Giga factory capacity expansion",
+          "horizon": "FY28",
+          "statement": "Capacity expansion to 5GWh by FY28 based on order accruals and performance",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peak revenue potential (5GWh)",
+          "horizon": "FY28",
+          "statement": "Peak revenue potential of 1.5-2GWh supplies in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS realization per kWh",
+          "horizon": "FY27",
+          "statement": "Realization varies dynamically between ₹1 crore to ₹1.5 crore per MWh based on raw material and infrastructure costs",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Local content in inverters",
+          "horizon": "Dec 2026",
+          "statement": "Local content in inverters to exceed 50% by December 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Channel financing partners",
+          "horizon": "Sep 2026",
+          "statement": "Channel financing partners to increase from ~40 to 75-80 by September 2026 to improve working capital efficiency",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book visibility",
+          "horizon": "Sep 2026",
+          "statement": "Detailed order book and revenue guidance to be provided on 30th September 2026",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CAPEX",
+          "horizon": "FY27",
+          "statement": "CAPEX of approximately ₹150 crore for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue or order book numbers for Q1FY27",
+        "Quarter-wise revenue seasonality beyond stating Q1 will be the lowest"
+      ],
+      "margin_drivers": [
+        "BESS and inverter portfolio expansion under Invergy brand",
+        "Giga factory ramp-up and operational efficiency",
+        "Policy tailwinds from MNRE 500GW renewable target and BESS mandates",
+        "Local manufacturing and cost competitiveness vs imports",
+        "Certifications (BIS, IEC) enabling access to institutional project finance",
+        "Service network and customization capabilities for BESS"
+      ]
+    },
+    "Happy Square": {
+      "company": "Happy Square",
+      "ticker": "WHITEFORCE",
+      "sector": "Services",
+      "concall_date": "2026-06-12",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/HAPPYSQUARE_12062026161947_HSOSL_Transcript_of_H2_and_FY26_Post_Earnings_Conference_Call.pdf",
+      "transcript_id": "happy-square_2026-06-12",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:10:34.193Z",
+      "summary": "Management expects strong revenue growth driven by government contracts and AI-led efficiency gains, with margins improving post-technology investments by FY28.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting 80% growth from current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Targeting to cross INR200 crores in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Targeting to cross INR300 crores in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Sustainable EBITDA margin expected to be 7% plus",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY28",
+          "statement": "Margins expected to improve as technology investments reduce costs",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government contracts",
+          "horizon": "FY27",
+          "statement": "Committed to deliver INR40 crores of work orders within the month",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Government contracts",
+          "horizon": "FY27",
+          "statement": "Expecting a single work order of INR21 crores from Rajasthan government within a week",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Government contracts",
+          "horizon": "FY27",
+          "statement": "Strong pipeline of INR15 crores work order expected in July",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI investment",
+          "horizon": "FY27",
+          "statement": "Targeting to complete 100% investment into technology by FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI deployment",
+          "horizon": "FY27",
+          "statement": "35% of AI products already launched; Veera AI and ATS already working",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI investment",
+          "horizon": "FY27",
+          "statement": "Planning to invest INR2 crores to INR2.5 crores in AI processes",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Client mix",
+          "horizon": "medium-term",
+          "statement": "Targeting 50% revenue from government/PSUs and 50% from large corporates",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "AI-led efficiency gains",
+        "Reduction in manpower and analysis costs",
+        "Technology investments reducing operational expenses"
+      ]
+    },
+    "Studds Accessor.": {
+      "company": "Studds Accessor.",
+      "ticker": "STUDDS",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-12",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e26296b7-b2c8-4bc0-9d9f-80a78fd2189b.pdf",
+      "transcript_id": "studds-accessor_2026-06-12",
+      "provider": "mistral",
+      "generated_at": "2026-06-22T23:10:41.957Z",
+      "summary": "Management expects mid-teens revenue growth with stable EBITDA margins in FY27, driven by premiumization, export expansion, and capacity additions.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected revenue growth of around 17%-18%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintaining EBITDA margins at broadly similar levels",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capacity expansion of 1.5 million units by Q2 FY27, followed by another 1.5 million units in subsequent 15-18 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Total installed capacity to increase from ~9.25 million to over 12 million units",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Advertising & marketing spend",
+          "horizon": "FY27",
+          "statement": "Planned spend of INR 30 crores for brand building",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY27",
+          "statement": "Exports expected to grow further as a percentage of total revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "SMK volume growth",
+          "horizon": "FY27",
+          "statement": "SMK volumes to continue growing at a strong pace",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Private label volume growth",
+          "horizon": "FY27",
+          "statement": "Private label business to scale further",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ASP growth",
+          "horizon": "FY27",
+          "statement": "ASP growth expected to continue due to premiumization and price increases",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material cost impact",
+          "horizon": "Q1FY27",
+          "statement": "Q1 FY27 may see pressure on gross margins due to raw material costs, but recovery expected in subsequent quarters",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin improvement",
+          "horizon": "12 months from FY26",
+          "statement": "Better margins expected 12 months down the line due to premiumization and export growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "FY27",
+          "statement": "Planning to launch another 6 products in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Breakdown of advertising spend between domestic and export markets",
+        "Raw material price inflation expectations for full FY27"
+      ],
+      "margin_drivers": [
+        "Premiumization (SMK and private label growth)",
+        "Export growth (higher margin business)",
+        "Product mix shift towards higher-margin categories",
+        "Operational efficiencies and capacity utilization",
+        "Price increases to offset raw material costs"
+      ]
     }
   },
-  "generated_at": "2026-06-22T21:24:00.364Z",
-  "count": 20
+  "generated_at": "2026-06-22T23:10:43.484Z",
+  "count": 31
 }
