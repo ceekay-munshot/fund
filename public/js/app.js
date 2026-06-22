@@ -1040,8 +1040,8 @@ function flagsHouseView(flags) {
 function renderFlags() {
   const root = document.getElementById("tab-flags");
   _flags = buildFlags();
-  const todayN = _flags.filter((f) => isToday(f.first_seen)).length;
-  const weekN = _flags.filter((f) => f.flagDate >= ymdAgo(7)).length;
+  const todayN = _flags.filter((f) => isToday(f.concall_date)).length;
+  const weekN = _flags.filter((f) => (f.concall_date || "") >= ymdAgo(7)).length;
   const activeFunds = DATA.funds.filter((f) => DATA.sightings.some((s) => s.fund_id === f.id));
   const sectors = [...new Set(_flags.map((f) => f.sector || "Unclassified"))].sort();
 
@@ -1108,7 +1108,7 @@ function updateFlagsFeed() {
   const fbc = fundsByCompany();
   const cutoff = flagWindowCutoff();
   let items = _flags.filter((f) =>
-    (f.flagDate || "") >= cutoff &&
+    (f.concall_date || "") >= cutoff &&
     (!flagFunds.size || flagFunds.has(f.fund_id)) &&
     (flagSector === "all" || (f.sector || "Unclassified") === flagSector) &&
     (!flagFirstOnly || f.firstInterest)
@@ -1120,7 +1120,7 @@ function updateFlagsFeed() {
     return;
   }
   // newest first, flat feed, paginated 10 at a time
-  items = items.slice().sort((a, b) => (b.flagDate || "").localeCompare(a.flagDate || ""));
+  items = items.slice().sort((a, b) => (b.concall_date || "").localeCompare(a.concall_date || ""));
   feed.innerHTML = `<div class="mb-1 px-1 text-xs font-semibold uppercase tracking-wider text-slate-400">${items.length} appearance${items.length === 1 ? "" : "s"} ${label}</div>`
     + moreList(items.map((f) => flagCard(f, fbc)), 10, "appearances");
   refreshIcons();
@@ -1132,7 +1132,7 @@ function flagCard(f, fbc) {
   const tag = f.firstInterest
     ? `<span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-600"><i data-lucide="badge-check" class="h-3 w-3"></i>First interest</span>`
     : `<span class="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-500"><i data-lucide="repeat" class="h-3 w-3"></i>Repeat</span>`;
-  const isNew = isToday(f.first_seen);
+  const isNew = isToday(f.concall_date);
   return `<div class="card card-hover overflow-hidden p-4" style="border-left:4px solid ${c}">
     <div class="flex items-start gap-3">
       <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl font-display text-[11px] font-bold text-white shadow-sm" style="background:${c}">${escapeHtml(initials(f.fund_name))}</span>
@@ -1295,7 +1295,7 @@ function activate(tab) {
 }
 
 function renderBadges() {
-  const todayNew = DATA.sightings.filter((x) => isToday(x.first_seen)).length;
+  const todayNew = DATA.sightings.filter((x) => isToday(x.concall_date)).length;
   const el = document.querySelector('[data-badge="flags"]');
   if (el) { el.textContent = todayNew; el.classList.toggle("hidden", todayNew === 0); }
 }
