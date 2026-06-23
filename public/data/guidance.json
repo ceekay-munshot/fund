@@ -6115,8 +6115,780 @@
         "RVL route optimization and volume consolidation",
         "Acemoney transaction revenue growth and merchant onboarding"
       ]
+    },
+    "Delta Auto.": {
+      "company": "Delta Auto.",
+      "ticker": "DELTIC",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-08",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/DELTIC_08062026164613_Final_Transcript_of_Investors_Call.pdf",
+      "transcript_id": "delta-auto_2026-06-08",
+      "provider": "mistral",
+      "generated_at": "2026-06-23T11:42:53.818Z",
+      "summary": "Management expects modest revenue growth in FY27 with improved margins and significant capex for new product development, while addressing short-term industry headwinds.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expecting top line of approximately INR105 crores for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting margins to be in the 8% to 10% range",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex of INR8.5 crores to INR10 crores expected for new product development",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book pipeline of INR18 crores to INR20 crores, including INR20 crores government orders expected to be executed in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Government business revenue",
+          "horizon": "FY27",
+          "statement": "INR20 crores government business expected to be executed in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Two-wheeler channel revenue",
+          "horizon": "FY27",
+          "statement": "INR60 crores expected from two-wheeler channel business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Three-wheeler revenue",
+          "horizon": "FY27",
+          "statement": "INR15 crores odd expected from three-wheeler business",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Spare parts revenue",
+          "horizon": "FY27",
+          "statement": "INR8 crores to INR10 crores expected from spare part revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product development timeline",
+          "horizon": "medium-term",
+          "statement": "Flagship scooter Reed expected to be launched in 24 to 26 months from concept",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Dealer economics",
+          "horizon": "medium-term",
+          "statement": "Focus on strengthening dealer economics through service capabilities and technical expertise",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "COCO outlet expansion",
+          "horizon": "medium-term",
+          "statement": "Intend to aggressively evaluate further COCO expansion opportunities across strategically important markets",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Engineering capabilities",
+          "horizon": "medium-term",
+          "statement": "Strengthened engineering and product development capabilities to support faster product launches",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "long-term revenue growth beyond FY27",
+        "PAT guidance beyond FY27",
+        "market share targets"
+      ],
+      "margin_drivers": [
+        "product-market fit improvements",
+        "dealer economics strengthening",
+        "cost optimization",
+        "selective pricing corrections",
+        "service and spare parts revenue growth"
+      ]
+    },
+    "Tega Inds.": {
+      "company": "Tega Inds.",
+      "ticker": "TEGA",
+      "sector": "Industrials",
+      "concall_date": "2026-06-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5dc9eff-f1d0-4245-b50c-00d2e55ed133.pdf",
+      "transcript_id": "tega-inds_2026-06-08",
+      "provider": "mistral",
+      "generated_at": "2026-06-23T11:43:01.878Z",
+      "summary": "Management expects sustained growth driven by strong order pipeline, Molycop integration, and global mining demand, with near-term execution challenges in logistics easing.",
+      "guidance": [
+        {
+          "metric": "Consumable business revenue CAGR",
+          "horizon": "long-term",
+          "statement": "Maintain 15%+ CAGR guidance for consumable business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Equipment business revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect similar growth as FY26 (~25%) for equipment business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Molycop revenue growth",
+          "horizon": "FY27",
+          "statement": "Anticipate 3% growth in FY27 for Molycop",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Molycop EBITDA margin",
+          "horizon": "FY26",
+          "statement": "Anticipated EBITDA margin for Molycop close to 12%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Chile plant commissioning",
+          "horizon": "Q3FY27",
+          "statement": "Civil work 50-60% complete; plant expected to be commissioned by early Q3FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Chile plant revenue contribution",
+          "horizon": "FY27",
+          "statement": "Potential revenue booking from Chile plant starting end of Q4FY27 or FY28",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Total capex",
+          "horizon": "FY27",
+          "statement": "Chile capex ~$25-30 million; Tega sustaining capex INR50-60 crore; Molycop maintenance capex $20 million",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction target",
+          "horizon": "3-4 years",
+          "statement": "Plan to reduce Molycop debt to 3x leverage level within 3-4 years",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "Q1FY27-Q2FY27",
+          "statement": "Expect higher execution in Q1 and Q2 FY27 due to strong order pipeline and reduced logistical disruptions",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Molycop revenue synergies",
+          "horizon": "medium-term",
+          "statement": "Revenue synergies primarily expected from Tega side post-integration",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Molycop cost synergies",
+          "horizon": "medium-term",
+          "statement": "Cost synergies primarily expected from Molycop side post-integration",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Non-core asset sales",
+          "horizon": "medium-term",
+          "statement": "Plan to sell off non-core assets as part of synergy realization",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "absolute revenue/EBITDA/PAT numbers for Molycop post-integration beyond FY27",
+        "detailed synergy quantification for revenue/cost synergies",
+        "long-term margin targets for the combined entity"
+      ],
+      "margin_drivers": [
+        "raw material volatility management",
+        "operational discipline",
+        "product mix resilience",
+        "integration synergies from Molycop acquisition",
+        "logistical efficiency improvements"
+      ]
+    },
+    "IFGL Refractori.": {
+      "company": "IFGL Refractori.",
+      "ticker": "IFGLEXPOR",
+      "sector": "Industrials",
+      "concall_date": "2026-06-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebbc986a-698a-40eb-91f4-bfe0085d1c26.pdf",
+      "transcript_id": "ifgl-refractori_2026-06-08",
+      "provider": "mistral",
+      "generated_at": "2026-06-23T11:43:10.092Z",
+      "summary": "Management expects stabilization in global steel demand and improved profitability in FY27, driven by domestic growth, international recovery, and cost pass-throughs.",
+      "guidance": [
+        {
+          "metric": "Global steel demand growth",
+          "horizon": "Medium-term",
+          "statement": "Global steel demand is stabilizing and expected to return to positive growth trajectory over coming years, with China nearing the bottom of its correction cycle and developed markets gradually recovering.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "India steel market growth",
+          "horizon": "Medium-term",
+          "statement": "India remains one of the most attractive steel markets globally due to sustained infrastructure, manufacturing, and industrial investments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic revenue growth",
+          "horizon": "Medium-term",
+          "statement": "Domestic business is expected to grow at a rate significantly higher than the underlying market growth over the medium term.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost pass-through",
+          "horizon": "FY27",
+          "statement": "Management is optimistic about achieving a reasonable pass-through of cost increases (raw materials, energy, freight) to customers in early FY27.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "U.S. operations EBITDA margin",
+          "horizon": "FY27",
+          "statement": "U.S. subsidiary margins are already at high-teen levels and expected to remain strong contributors to profitability.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Hofmann Ceramics profitability",
+          "horizon": "FY27",
+          "statement": "Hofmann Ceramics is expected to move closer to breakeven in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Monocon profitability",
+          "horizon": "Q4FY27",
+          "statement": "Monocon is targeting breakeven performance by Q4FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Greenfield project in Khurda, Odisha",
+          "horizon": "FY27",
+          "statement": "Work on the proposed greenfield project has picked up, with further updates expected once specific plans are finalized.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Legacy goodwill amortization impact",
+          "horizon": "FY27 onwards",
+          "statement": "From FY27 onwards, reported earnings will no longer be impacted by annual non-cash legal amortization charge of approximately INR 26.7 crores.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book activity",
+          "horizon": "FY27",
+          "statement": "Order book activity has improved and customer engagement levels are strengthening across international markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export demand recovery",
+          "horizon": "FY27",
+          "statement": "Volume trends in export markets have started improving, with a progressive recovery expected going forward.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Total refractory management model adoption",
+          "horizon": "Medium-term",
+          "statement": "The total refractory management model is gaining acceptance among customers, strengthening relationships and creating long-term opportunities.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Concrete operational triggers or asset utilization strategies to reverse return metrics trend",
+        "Specific inventory management plans to reduce working capital and improve cash conversion cycles"
+      ],
+      "margin_drivers": [
+        "Cost pass-through to customers",
+        "Operational efficiency improvements",
+        "Product mix optimization",
+        "Export demand recovery",
+        "U.S. operations profitability",
+        "Hofmann Ceramics turnaround",
+        "Monocon recovery",
+        "Legacy goodwill amortization removal"
+      ]
+    },
+    "IZMO": {
+      "company": "IZMO",
+      "ticker": "IZMO",
+      "sector": "Information Technology",
+      "concall_date": "2026-06-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57d32b7d-1664-4561-92e7-d666ae86ac89.pdf",
+      "transcript_id": "izmo_2026-06-08",
+      "provider": "mistral",
+      "generated_at": "2026-06-23T11:43:18.816Z",
+      "summary": "IZMO expects strong growth in FY27 driven by izmomicro's semiconductor packaging and AI-driven margin improvements, with revenue and EBITDA guidance provided.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "IZMO expects revenue growth in FY27, with close to current quarter levels achievable going forward due to izmomicro's contribution and sustained automotive software client base.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (izmoMicro)",
+          "horizon": "FY27",
+          "statement": "INR45-50 crores expected from izmomicro in FY27, up from INR18-19 crores in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book (izmoMicro)",
+          "horizon": "12-18 months",
+          "statement": "INR60 crores order book with INR100 crores pipeline visibility for izmomicro.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected between 20% to 25% in FY27, driven by izmomicro revenue growth and cost efficiencies.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net profit margin",
+          "horizon": "FY27",
+          "statement": "Margin accretion expected at net profit level as izmomicro scales and costs remain flattish.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Other expenses",
+          "horizon": "Q1FY27",
+          "statement": "Other expenses will come down from INR69 crores in Q4FY26 due to completion of a special project.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Automotive Solutions revenue",
+          "horizon": "FY27",
+          "statement": "Automotive Solutions business is stable and growing steadily with OEM partnerships in major markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-driven cost optimization",
+          "horizon": "FY27",
+          "statement": "AI-driven cost optimization programs will continue to benefit margins across the company.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "izmoMicro capacity expansion",
+          "horizon": "Q3FY28",
+          "statement": "New facility expected to be operational by mid-FY27, with revenue contribution starting from Q3FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "izmoMicro capacity (current)",
+          "horizon": "current",
+          "statement": "Current capacity of izmomicro is around INR150 crores top line.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "izmoMicro capacity (post-expansion)",
+          "horizon": "post-expansion",
+          "statement": "Post-expansion capacity expected to reach INR1,200 crores top line, with INR200 crores top line possibility.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "izmoMicro order execution timeline",
+          "horizon": "9 months",
+          "statement": "Current INR40 crores order book for izmomicro will take 9 months to execute.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Silicon photonics TAM size beyond current estimates",
+        "FrogData AI separate listing timeline",
+        "Exact dilution/equity ratio for izmomicro funding"
+      ],
+      "margin_drivers": [
+        "AI-driven cost optimization programs",
+        "izmoMicro revenue scaling",
+        "Cost efficiencies from in-house LLM infrastructure",
+        "Automotive Solutions steady growth"
+      ]
+    },
+    "TCPL Packaging": {
+      "company": "TCPL Packaging",
+      "ticker": "TCPLPACK",
+      "sector": "Industrials",
+      "concall_date": "2026-06-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e060381d-af38-4c2d-8e76-e2c426f794ec.pdf",
+      "transcript_id": "tcpl-packaging_2026-06-08",
+      "provider": "mistral",
+      "generated_at": "2026-06-23T11:43:27.675Z",
+      "summary": "Management expects recovery in exports and stable domestic demand, with cautious optimism on margins and growth despite ongoing cost pressures.",
+      "guidance": [
+        {
+          "metric": "Export recovery",
+          "horizon": "FY27",
+          "statement": "Exports expected to recover post-Middle East normalization, with growth in UK, US, Europe, Africa, and Southeast Asia.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic demand",
+          "horizon": "FY27",
+          "statement": "Domestic demand momentum expected to continue, though cost inflation (fuel, rupee depreciation) may impact consumer demand.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins expected to stabilize as cost increases are passed through, but prolonged cost pressures could impact further pass-through.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned capex of ~INR 100 crore, similar to last year, with flexibility to expand faster if market conditions improve.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Flexible packaging capacity utilization",
+          "horizon": "FY27",
+          "statement": "New line expected to be commercialized by end-FY27, with temporary profitability pressure during ramp-up, followed by operating leverage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Chennai plant utilization",
+          "horizon": "FY27",
+          "statement": "Chennai plant utilization expected to exceed 50%, with positive customer approvals and further ramp-up anticipated.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Creative segment profitability",
+          "horizon": "FY27",
+          "statement": "Creative segment expected to improve further, moving toward cash and net profit levels.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Recyclable films demand",
+          "horizon": "FY27",
+          "statement": "Recyclable films production up due to export demand, but domestic adoption remains limited without government mandates.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Paperboard prices",
+          "horizon": "FY27",
+          "statement": "Further increases in paperboard prices expected, with steady drip-by-drip increases harder to pass through than sudden large hikes.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage in flexible packaging",
+          "horizon": "FY27",
+          "statement": "Operating leverage expected to play out post-ramp-up of new line, with better return on assets than previous lines.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer additions",
+          "horizon": "FY27",
+          "statement": "Adding more than one or two new customers monthly, with no sector-specific focus but broad diversification.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gravure cylinder facility ramp-up",
+          "horizon": "FY27",
+          "statement": "Gravure cylinder facility ramped up well, supporting backward integration and faster customer turnaround.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue split between domestic and exports",
+        "Margin outlook for FY28",
+        "Specific timeline for Chennai plant full utilization"
+      ],
+      "margin_drivers": [
+        "Calibrated pricing actions",
+        "Product mix improvement",
+        "Operating efficiencies",
+        "Backward integration (gravure cylinder facility)",
+        "Capacity utilization improvements",
+        "Pass-through of raw material cost increases"
+      ]
+    },
+    "ABS Marine": {
+      "company": "ABS Marine",
+      "ticker": "ABSMARINE",
+      "sector": "Services",
+      "concall_date": "2026-06-08",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/ABSMARINE_08062026131212_Intimationontranscriptofmeeting.pdf",
+      "transcript_id": "abs-marine_2026-06-08",
+      "provider": "mistral",
+      "generated_at": "2026-06-23T11:43:35.484Z",
+      "summary": "Management expects moderate growth in FY27 with continued fleet expansion and improved charter rates, though guidance remains conservative.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects 10% increase in turnover from current levels, assuming all vessels run in H2.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to remain in the band of 45-50%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Fleet expansion",
+          "horizon": "medium-term",
+          "statement": "Plans to add 7-8 vessels over 2-3 years, with 2-3 vessels targeted in near term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Charter rates",
+          "horizon": "FY27",
+          "statement": "Expects rates for new vessels to be INR10-15 lakhs per day, with potential for higher rates for certain vessels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Vessel utilization",
+          "horizon": "FY27",
+          "statement": "Aims to improve vessel utilization levels and execution capabilities across projects.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost management",
+          "horizon": "FY27",
+          "statement": "Continues focus on disciplined cost management and operational efficiency.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Offshore demand",
+          "horizon": "medium-term",
+          "statement": "Sees improving demand-supply dynamics in offshore vessel market due to aging global fleet and limited new vessel additions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government initiatives",
+          "horizon": "medium-term",
+          "statement": "Expects significant long-term opportunities from India's Maritime India Vision 2030 and shipbuilding support package.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Vessel idle costs",
+          "horizon": "FY27",
+          "statement": "Idle vessel costs estimated at ~$1,700 per day (anchorage).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "AM Passion charter rates",
+          "horizon": "FY28",
+          "statement": "Charter rates for AM Passion to increase to $19,000 per day in FY28 (from $16,000 in first 3 years).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hardy Oil contract",
+          "horizon": "FY27",
+          "statement": "Hades vessel has a 5-year charter contract with Hardy Oil (rate not disclosed).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MPSV vessel status",
+          "horizon": "Q1FY27",
+          "statement": "MPSV vessel to undergo dry docking and certification before chartering, expected to be ready post-monsoon.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "PAT guidance for FY27",
+        "Capex guidance for FY27",
+        "Order book details beyond existing contracts",
+        "Breakdown of revenue by segment (offshore vs. marine vs. port services)",
+        "Impact of INR depreciation on margins beyond revenue growth"
+      ],
+      "margin_drivers": [
+        "Improved vessel utilization",
+        "Disciplined cost management",
+        "Higher charter rates for fuel-efficient vessels",
+        "Operational efficiency and execution capabilities",
+        "Expansion of owned fleet for better revenue visibility",
+        "Compliance and service quality driving customer stickiness"
+      ]
+    },
+    "Ashapura Minech.": {
+      "company": "Ashapura Minech.",
+      "ticker": "ASHAPURMIN",
+      "sector": "Commodities",
+      "concall_date": "2026-06-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=998baa80-34bc-49fe-8113-073c7e0b724c.pdf",
+      "transcript_id": "ashapura-minech_2026-06-08",
+      "provider": "mistral",
+      "generated_at": "2026-06-23T11:43:44.546Z",
+      "summary": "Management expects improved volumes, margins, and profitability in FY27 driven by quota system, beneficiation plants, and cost optimization, though near-term headwinds persist.",
+      "guidance": [
+        {
+          "metric": "Bauxite export volume",
+          "horizon": "FY27",
+          "statement": "Targeting 10-12 million tons for FY27, with potential to reach 15 million tons by FY27-FY28 depending on quota system and freight availability.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bauxite export volume",
+          "horizon": "FY27-FY28",
+          "statement": "Long-term target of 15 million tons export capacity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Port capacity expansion",
+          "horizon": "End of FY27",
+          "statement": "Boffa port capacity to increase from 5 million to 10 million tons by end of FY27; GSM port capacity to expand by 50-60% by end of FY27-FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bauxite beneficiation plant",
+          "horizon": "Next 3-4 quarters",
+          "statement": "Planning to set up a bauxite washing plant with 20,000 tons per day capacity to improve marketable quality of bauxite.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Iron ore business contribution",
+          "horizon": "Next 1-2 years",
+          "statement": "Iron ore business expected to contribute meaningfully to top and bottom line in coming years, with margins in single digits.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Iron ore beneficiation plant",
+          "horizon": "Next 3-4 quarters",
+          "statement": "Planning to set up iron ore beneficiation plant; currently in due diligence stage.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "India business capex",
+          "horizon": "Next 1 year",
+          "statement": "Planning capex of INR150 crores across India business divisions for plant upgrades and new product additions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "India business EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting stable to slightly better EBITDA margins for India business in FY27.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Guinea EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting EBITDA margins to improve post quota system implementation, with FY27 likely better than Q4 FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Guinea income tax benefit",
+          "horizon": "Next 1-2 years",
+          "statement": "No income tax liability in Guinea for next 1-2 years.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Aluminium metal price",
+          "horizon": "Next few months",
+          "statement": "Aluminium metal expected to rise from $3,600 to $4,000 per ton, supporting bauxite demand.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Freight cost",
+          "horizon": "FY27",
+          "statement": "Freight costs expected to decline due to quota system reducing bauxite export volumes.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact FOB realization per ton for Q1FY27",
+        "Total bauxite quota allocation for Ashapura",
+        "Specific EBITDA margin target for FY27",
+        "Iron ore realization per metric ton",
+        "Detailed capex breakdown for beneficiation plants"
+      ],
+      "margin_drivers": [
+        "Beneficiation plants for bauxite and iron ore",
+        "Port capacity expansion",
+        "Quota system in Guinea",
+        "Freight cost optimization",
+        "Aluminium metal price trends",
+        "Cost management initiatives",
+        "New product launches in India business"
+      ]
     }
   },
-  "generated_at": "2026-06-23T08:38:24.101Z",
-  "count": 60
+  "generated_at": "2026-06-23T11:43:58.545Z",
+  "count": 67
 }
