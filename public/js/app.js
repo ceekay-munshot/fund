@@ -506,6 +506,43 @@ function revealModal() {
   refreshIcons();
 }
 
+// --- analyst line + guidance button (replaces raw quote blurbs) -------------
+function guidanceBtn(company) {
+  const has = !!(DATA.guidance && DATA.guidance.companies && DATA.guidance.companies[company]);
+  return has
+    ? `<button type="button" data-guid-co="${escapeHtml(company)}" class="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-600 transition hover:bg-indigo-100"><i data-lucide="target" class="h-3.5 w-3.5"></i>View guidance</button>`
+    : `<span class="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-400"><i data-lucide="clock" class="h-3.5 w-3.5"></i>Guidance coming soon</span>`;
+}
+
+function analystName(analyst, firm) {
+  return analyst
+    ? `<span class="inline-flex items-center gap-1.5 text-xs text-slate-500"><i data-lucide="user-round" class="h-3.5 w-3.5 shrink-0 text-slate-400"></i><a href="${linkedinUrl(analyst, firm)}" target="_blank" rel="noopener noreferrer" title="Find ${escapeHtml(analyst)} on LinkedIn" class="inline-flex items-center gap-1 font-medium text-[#0a66c2] hover:underline">${escapeHtml(analyst)}<i data-lucide="external-link" class="h-2.5 w-2.5 shrink-0"></i></a></span>`
+    : `<span class="inline-flex items-center gap-1.5 text-xs text-slate-400"><i data-lucide="user-round" class="h-3.5 w-3.5 shrink-0"></i>Analyst N/A</span>`;
+}
+
+// Analyst (LinkedIn) on the left, guidance button on the right.
+function analystRow(analyst, firm, company, withButton = true) {
+  return `<div class="mt-2 flex flex-wrap items-center justify-between gap-2">${analystName(analyst, firm)}${withButton ? guidanceBtn(company) : ""}</div>`;
+}
+
+// Guidance popup (reuses the drill modal). Shows the company's guidance or "coming soon".
+function openGuidance(company) {
+  const g = DATA.guidance && DATA.guidance.companies && DATA.guidance.companies[company];
+  document.getElementById("drill-content").innerHTML = `
+    <div class="flex items-start justify-between gap-3 border-b border-slate-100 p-5">
+      <div class="flex items-center gap-2">
+        <span class="rounded-xl bg-indigo-50 p-1.5 text-indigo-500"><i data-lucide="target" class="h-4 w-4"></i></span>
+        <div><div class="font-display text-xl font-semibold text-slate-800">${escapeHtml(company)}</div>
+          <div class="text-xs text-slate-400">Forward guidance${g ? ` · latest call ${fmtDate(g.concall_date)}` : ""}</div></div>
+      </div>
+      <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
+    </div>
+    <div class="scroll-area flex-1 overflow-y-auto p-5">
+      ${g ? guidanceBody(g) : emptyState("clock", "Guidance coming soon", "Our AI hasn't processed this company's latest concall yet — it's queued and will appear here automatically.")}
+    </div>`;
+  revealModal();
+}
+
 // "Funds we track" board — opened from the Active Funds KPI card.
 function openFundsList() {
   const list = [...groupByFund().values()]
@@ -819,7 +856,7 @@ function sectorCompanyRow(c, col) {
       </span>
     </div>
     <div class="mt-1.5 flex flex-wrap gap-1">${chips}</div>
-    ${quoteBlock(c.quote, col)}
+    <div class="mt-2 flex justify-end">${guidanceBtn(c.company)}</div>
   </div>`;
 }
 
@@ -995,7 +1032,7 @@ function openCompanyDrill(company) {
         ${isNew ? `<span class="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold uppercase text-amber-700">New</span>` : ""}
         <span class="ml-auto inline-flex items-center gap-2"><span class="font-mono text-xs text-slate-400">${fmtDate(pf.date)}</span>${transcriptBtn(pf.transcript_url)}</span>
       </div>
-      ${quoteBlock(pf.quote, fc)}
+      ${analystRow(analystOf(pf.quote, null), fundName(pf.fund_id), c.company, false)}
     </div>`;
   }).join("");
   document.getElementById("drill-content").innerHTML = `
@@ -1178,7 +1215,7 @@ function flagCard(f, fbc) {
           <span class="inline-flex items-center gap-1 font-mono text-[11px] text-slate-400"><i data-lucide="calendar" class="h-3 w-3"></i>${fmtDate(f.concall_date)}</span>
           ${tag}
         </div>
-        ${quoteBlock(f.quote, c)}
+        ${analystRow(analystOf(f.quote, f.matched_alias), f.fund_name, f.company)}
         <div class="mt-2 flex items-center justify-between">
           <span class="text-[11px] text-slate-400">${others > 0 ? `${others} other fund${others === 1 ? "" : "s"} also here` : ""}</span>
           ${transcriptBtn(f.transcript_url)}
@@ -1833,6 +1870,12 @@ async function boot() {
 
   document.querySelectorAll("#tab-nav [data-tab]").forEach((btn) => btn.addEventListener("click", () => activate(btn.dataset.tab)));
   activate("radar");
+
+  // Any "View guidance" button anywhere opens the guidance popup.
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-guid-co]");
+    if (b) { e.preventDefault(); openGuidance(b.dataset.guidCo); }
+  });
 
   const panel = document.getElementById("drill-panel");
   panel.addEventListener("click", (e) => { if (e.target === panel) closeDrill(); });
