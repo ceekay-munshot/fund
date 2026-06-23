@@ -181,7 +181,10 @@ export function wireMore(container) {
 // Analyst LinkedIn — Option A: a people-search deep-link (name + firm). No API/scrape.
 export function linkedinUrl(name, firm) {
   if (!name) return null;
-  return `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent([name, firm].filter(Boolean).join(" "))}`;
+  // Quote each term and join with AND so LinkedIn matches the person at the firm,
+  // e.g. "Preet Pitani" AND "Sapphire Capital" (not a loose multi-word phrase).
+  const kw = firm ? `"${name}" AND "${firm}"` : `"${name}"`;
+  return `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(kw)}`;
 }
 export function linkedinBtn(name, firm) {
   const url = linkedinUrl(name, firm);
