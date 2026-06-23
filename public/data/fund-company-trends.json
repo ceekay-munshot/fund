@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-23T11:53:02.355Z",
+  "generated_at": "2026-06-23T14:23:19.671Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 121,
-    "gained": 183,
-    "consistent": 396,
-    "companies_evaluated": 532
+    "dropped": 122,
+    "gained": 187,
+    "consistent": 397,
+    "companies_evaluated": 543
   },
   "dropped": [
     {
@@ -125,6 +125,17 @@
       "ticker": "CARYSIL",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-27",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "V-Guard Industri",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
       "tier": "strong"
@@ -1764,6 +1775,38 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-05-06"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Ceigall India",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Kanpur Plastipa.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "aequitas",
+      "fund_name": "Aequitas",
+      "company": "Paradeep Phosph.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "perpetuity",
+      "fund_name": "Perpetuity",
+      "company": "Indian Hotels Co",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "incred",
