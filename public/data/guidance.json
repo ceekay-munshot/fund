@@ -5535,107 +5535,107 @@
       "ticker": "OSELDEVICE",
       "sector": "Healthcare",
       "concall_date": "2026-06-08",
-      "transcript_url": "https://nsearchives.nseindia.com/corporate/OSEL_08062026195856_Transcript.pdf",
+      "transcript_url": "https://oseldevices.com/wp-content/uploads/2026/06/Osel-Earningstranscript-Jun02-2026.pdf",
       "transcript_id": "osel-devices_2026-06-08",
       "provider": "mistral",
-      "generated_at": "2026-06-23T08:37:43.343Z",
-      "summary": "Management expects continued strong growth in revenue and EBITDA margins over the next 4-5 years, driven by expansion in hearing aids, LED displays, and mobile devices, with new retail and manufacturing initiatives.",
+      "generated_at": "2026-06-24T18:21:53.778Z",
+      "summary": "Management expects sustained growth across all three verticals with improving margins driven by retail expansion and SEZ benefits, though capex for JNPA SEZ remains uncertain.",
       "guidance": [
         {
           "metric": "Revenue growth",
-          "horizon": "FY27-FY28",
-          "statement": "Management expects to maintain similar growth rates as FY26 and possibly better them in both revenue and EBITDA terms.",
+          "horizon": "FY27",
+          "statement": "Expect similar growth as FY26, potentially bettering it in both top line and EBITDA.",
           "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27-FY28",
-          "statement": "Management expects EBITDA margins to be similar or even better due to retail expansion (SFL acquisition) and higher-margin hearing aid business.",
+          "horizon": "FY27",
+          "statement": "Expect margins to be similar or better due to retail expansion (SFL acquisition) and higher-margin hearing aid business.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Capex",
+          "metric": "Revenue contribution from SFL (hearing aid retail)",
           "horizon": "FY27",
-          "statement": "Capex expected for JNPA SEZ hub project, but exact amount and timelines not yet finalized.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Hearing aid revenue contribution",
-          "horizon": "FY27",
-          "statement": "Revenue contribution from SFL acquisition (INR26-27 crores in FY26) will be included in FY27 financials.",
+          "statement": "SFL contributed INR26-27 crores in FY26; revenue will be included from FY27 onwards.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Hearing aid market penetration",
           "horizon": "medium-term",
-          "statement": "India’s hearing aid market penetration is <3%, with 88 million potential users, indicating significant growth potential.",
+          "statement": "Targeting deeper penetration in India (currently <3% penetration) with multi-brand retail strategy.",
           "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "LED SaaS platform revenue",
-          "horizon": "2-3 years",
-          "statement": "Targeting 50,000-100,000 units for the CMS platform, which could contribute INR3-4 crores/month in recurring revenue.",
+          "horizon": "medium-term",
+          "statement": "Expecting 50,000-100,000 units under management, contributing significantly to recurring revenue.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Mobile phone revenue growth",
+          "metric": "Mobile phone revenue mix",
           "horizon": "FY27",
-          "statement": "Mobile phone segment (feature phones and smartphones) expected to see larger top-line contribution, with 4.5 lakh+ units shipped in FY26 and growth expected in FY27.",
-          "specificity": "vague",
+          "statement": "Feature phones contributed 4.5 lakh units in FY26; smartphone shipments started in March 2026 and expected to grow.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Export revenue growth",
+          "metric": "Capex for JNPA SEZ hub",
           "horizon": "FY27",
-          "statement": "JNPA SEZ hub commercialization from April 2027 expected to significantly expand exports.",
-          "specificity": "vague",
-          "direction": "up"
+          "statement": "Capex required for JNPA SEZ hub project; LOI received but exact amount/timelines not yet finalized.",
+          "specificity": "refused",
+          "direction": "unclear"
         },
         {
-          "metric": "Hearing aid product portfolio",
-          "horizon": "medium-term",
-          "statement": "R&D team working on new product launches and mid-to-high-end models to enhance margins and competitiveness.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Interest cost optimization",
+          "metric": "Interest cost",
           "horizon": "FY27",
-          "statement": "Management aiming to reduce interest costs by converting working capital limits into LCs and improving utilization.",
+          "statement": "Working on converting working capital limits to LCs to reduce interest costs.",
           "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "Retail expansion (hearing aids)",
-          "horizon": "FY27",
-          "statement": "SFL clinics will drive retail-led growth in hearing aids, with higher margins than wholesale sales.",
+          "metric": "Hearing aid product portfolio",
+          "horizon": "medium-term",
+          "statement": "R&D team working on new product launches to move up the segment from entry-level to premium.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "OEM capacity expansion",
+          "metric": "Exports growth",
           "horizon": "FY27",
-          "statement": "JNPA SEZ hub will expand OEM capacity for hearing aids and mobile devices, leveraging SEZ tax benefits and US FDA registration.",
+          "statement": "JNPA SEZ hub expected to significantly expand exports from FY27 onwards.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mobile phone margins",
+          "horizon": "FY27",
+          "statement": "Feature phones have 25%-30% margins; smartphones expected to contribute to top-line growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hearing aid margins",
+          "horizon": "FY27",
+          "statement": "Retail margins (via SFL) expected to be much better than wholesale/government tenders.",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Segmental margin breakup for hearing aids, LED, and mobile devices",
-        "Steady-state interest cost in absolute terms"
+        "Segmental margin breakup for hearing aid vs. other verticals",
+        "Steady-state interest cost"
       ],
       "margin_drivers": [
-        "Retail-led growth in hearing aids (SFL acquisition)",
-        "Higher-margin hearing aid products vs. wholesale sales",
-        "LED SaaS platform (CMS) recurring revenue",
-        "SEZ tax benefits and US FDA registration for exports",
-        "Interest cost optimization via better working capital utilization"
+        "Retail expansion (SFL acquisition)",
+        "Higher-margin hearing aid business",
+        "LED SaaS platform (recurring revenue)",
+        "SEZ tax benefits for exports",
+        "Multi-brand retail strategy for hearing aids"
       ]
     },
     "Airfloa Rail": {
@@ -16329,8 +16329,494 @@
         "Life extension packages for wind turbines",
         "Value-added services (WTG overhauls)"
       ]
+    },
+    "Precision Camshf": {
+      "company": "Precision Camshf",
+      "ticker": "PRECAM",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acb02fd2-c7d2-4ade-82c4-d547e6322122.pdf",
+      "transcript_id": "precision-camshf_2026-06-24",
+      "provider": "groq",
+      "generated_at": "2026-06-24T18:21:40.953Z",
+      "summary": "Precision Camshafts expects sustainable growth driven by increasing localization, strong demand from domestic OEMs, and a growing preference for reliable suppliers with proven quality, delivery, and manufacturing capabilities.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "2.5 to 3 years",
+          "statement": "Incremental top line increase would be nearly 1.5x to 2x of the capex",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "EBITDA margin improves a little bit due to automation and higher value add projects",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "short-term",
+          "statement": "Current capacity utilization is over 80%, 85%, with room to grow to 90%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "5-6 years",
+          "statement": "Cumulative order book of INR1,500 crores to be executed over 5-6 years",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "next 3 years",
+          "statement": "INR100 crores to INR120 crores of capex to be invested in foundry and machine shop capacity expansion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "medium-term",
+          "statement": "Approximately 200,000 machined camshafts per month can be produced from the new Solapur facility",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Year-wise projections for the new order book",
+        "Exact numbers for EBITDA margin improvement"
+      ],
+      "margin_drivers": [
+        "Automation",
+        "Higher value add projects",
+        "Improved operating performance"
+      ]
+    },
+    "Premier Roadline": {
+      "company": "Premier Roadline",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-05",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/PREMIERROADLINES_05062026183304_PRLPostEarningTranscript02062026.pdf",
+      "transcript_id": "premier-roadline_2026-06-05",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T18:22:02.040Z",
+      "summary": "Management expects gradual improvement in operating conditions and sustainable growth driven by infrastructure and renewable energy sectors, though no specific financial guidance was provided for FY27.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Management declined to provide specific revenue growth guidance for FY27, citing uncertainty in the macro environment.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Management expects improvement in EBITDA margins due to better cost pass-through mechanisms and improved operating conditions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost pass-through",
+          "horizon": "FY27",
+          "statement": "Management noted that cost pass-through mechanisms are now being implemented, providing relief on margin pressure.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Fleet availability",
+          "horizon": "FY27",
+          "statement": "Fleet availability is improving with better fuel availability and easing supply-side constraints, though challenges remain.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Port congestion",
+          "horizon": "FY27",
+          "statement": "Port congestion issues are expected to ease, supporting operational stability and revenue recognition.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Demand in transformer and renewable energy sectors",
+          "horizon": "Medium-term",
+          "statement": "Demand in transformer and renewable energy sectors is expected to remain healthy for a couple of years ahead.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from new specialized fleet",
+          "horizon": "FY27",
+          "statement": "The addition of 2 pullers and 38 axles is expected to generate approximately INR4-5 crores of revenue annually with higher operating margins.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin differential (ODC/Project vs. General/Contract logistics)",
+          "horizon": "FY27",
+          "statement": "ODC and project logistics are expected to achieve EBITDA margins of 25-30%, compared to 10-15% in general and contract logistics.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer concentration",
+          "horizon": "FY27",
+          "statement": "Top 5 customers are expected to contribute approximately 20% of total revenue, with a focus on high-quality clients.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "No plans for fundraise; capex is expected to be sufficient to support growth plans.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue growth for FY27",
+        "Bottom-line growth for FY27",
+        "Order book or volume growth",
+        "Diesel price or cost guidance"
+      ],
+      "margin_drivers": [
+        "Cost pass-through mechanisms",
+        "Improved fleet availability",
+        "Easing port congestion",
+        "Higher contribution from ODC and project logistics",
+        "Specialized fleet expansion",
+        "Customer mix shift toward higher-margin segments"
+      ]
+    },
+    "Gokaldas Exports": {
+      "company": "Gokaldas Exports",
+      "ticker": "GOKEX",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f7c5bdf-d6af-4d66-836e-1487c3115f31.pdf",
+      "transcript_id": "gokaldas-exports_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T18:22:56.307Z",
+      "summary": "Management expects FY27 revenue growth to exceed 10-12% with margin improvement across India and Africa, supported by normalized tariffs and capacity expansions.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth expected to be much more than 10-12%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (India business)",
+          "horizon": "FY27",
+          "statement": "India business margins expected to improve post tariff normalization",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Africa business)",
+          "horizon": "H2FY27",
+          "statement": "Africa business EBITDA margin expected between 8% and 10%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital",
+          "horizon": "FY27",
+          "statement": "Working capital to taper down by INR75-100 crores in Gokaldas operations",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "BTPL merger",
+          "horizon": "Q3FY27",
+          "statement": "BTPL merger expected to conclude with operating profits in H2FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BTPL capacity",
+          "horizon": "FY27",
+          "statement": "BTPL capacity to reach 50 lakh meters/month with potential to expand to 100 lakh meters/month with INR50-60 crore capex",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex selectively planned to sustain 15% growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Africa revenue",
+          "horizon": "FY27",
+          "statement": "Africa revenue expected between $115-120 million vs $80 million in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer additions (India)",
+          "horizon": "FY27",
+          "statement": "Two new premium customers to begin yielding revenue in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer additions (Africa)",
+          "horizon": "FY27",
+          "statement": "Two new customers (American and European) to begin operations in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tariff normalization impact",
+          "horizon": "FY27",
+          "statement": "Revenue and margin outlook improved post tariff normalization and U.S. Supreme Court ruling",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AGOA renewal",
+          "horizon": "FY27",
+          "statement": "AGOA may be extended by 1-2 years with potential country-by-country deals",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Incremental revenue benefits from UK-India FTA or EU FTA",
+        "Impact of GLP-1 adoption on apparel demand"
+      ],
+      "margin_drivers": [
+        "Tariff normalization",
+        "Operating leverage in Africa",
+        "Customer diversification",
+        "Capacity utilization improvements",
+        "Raw material cost pass-through"
+      ]
+    },
+    "Surya Roshni": {
+      "company": "Surya Roshni",
+      "ticker": "SURYAROSNI",
+      "sector": "Industrials",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b29a7bd-ca23-4a25-86d1-7a3d18bfda09.pdf",
+      "transcript_id": "surya-roshni_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T18:23:24.818Z",
+      "summary": "Management expects FY27 to be the best year in Surya Roshni's 50-year history, driven by volume growth, export expansion, and value-added product mix, despite input cost pressures.",
+      "guidance": [
+        {
+          "metric": "Steel Division Revenue",
+          "horizon": "FY27",
+          "statement": "Target revenue of ₹7,200 crores for the Steel Division in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steel Division Volume",
+          "horizon": "FY27",
+          "statement": "Target volume of 11 lakh tons in FY27, representing 21% to 22% growth over FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steel Division EBITDA",
+          "horizon": "FY27",
+          "statement": "Target EBITDA of ₹470 crores to ₹480 crores for the Steel Division in FY27, potentially crossing ₹500 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steel Division EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Expect EBITDA per ton of around ₹4,700 for the Steel Division in FY27.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Steel Division Exports",
+          "horizon": "FY27",
+          "statement": "Target exports of over 2.5 lakh tons in FY27, nearly double FY26 levels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steel Division Order Book",
+          "horizon": "H1FY27",
+          "statement": "Current order book of ₹1,000 crores plus, providing strong visibility for H1 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lighting & Consumer Durables Revenue Growth",
+          "horizon": "Medium-term",
+          "statement": "Target value growth of 22% to 25% annually in the Lighting and Consumer Durables segment over the medium term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lighting & Consumer Durables Wire and Cable Revenue",
+          "horizon": "FY27",
+          "statement": "FY27 revenue target for Wire and Cable business is ₹260 crores, firmly on track with the three-year guidance of ₹500 crores to ₹600 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lighting & Consumer Durables EBITDA",
+          "horizon": "FY27",
+          "statement": "Target EBITDA of around ₹200 crores for the Lighting Division in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Consolidated EBITDA",
+          "horizon": "FY27",
+          "statement": "Target combined EBITDA of ₹680 crores to ₹700 crores for the entire company in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Q1FY27 Steel Volume",
+          "horizon": "Q1FY27",
+          "statement": "Expect Q1 FY27 volume of around 2.65 lakh tons, a growth of 27% to 28% over Q1 FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Q1FY27 Steel EBITDA",
+          "horizon": "Q1FY27",
+          "statement": "Expect Q1 FY27 EBITDA of ₹120 crores to ₹125 crores from the Steel Division.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Demerger timeline for Lighting and Consumer Durables business",
+        "Buyback plans"
+      ],
+      "margin_drivers": [
+        "Export growth in North America (value-added products with EBITDA of ₹9,000 to ₹10,000 per ton)",
+        "Value-added product mix (targeting 43%+ contribution to volume)",
+        "Phased commissioning of new capacities",
+        "Brand building and distribution penetration in Lighting segment",
+        "Cost rationalization and working capital optimization"
+      ]
+    },
+    "K2 Infragen": {
+      "company": "K2 Infragen",
+      "ticker": "K2INFRA",
+      "sector": "Industrials",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/K2INFRA_02062026190507_TranscriptH2FY26ConferenceCallReg30Disclosure.pdf",
+      "transcript_id": "k2-infragen_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T18:24:03.811Z",
+      "summary": "Management expects sustained growth with improving margins driven by shift to higher-margin direct government contracts and strategic focus on annuity-based models.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Maintain revenue growth of more than 25% YoY",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins to improve due to higher share of power transmission and railway projects (higher-margin segments)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book mix",
+          "horizon": "medium-term",
+          "statement": "Increase share of direct government contracts in order book to enhance margins and execution visibility",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book value",
+          "horizon": "FY27",
+          "statement": "Current unexecuted order book of ~Rs. 424 crores provides strong revenue visibility",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order pipeline",
+          "horizon": "FY27",
+          "statement": "Live bid pipeline of ~Rs. 500 crores across roads and railways; Rs. 160 crores of results already declared",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Project execution",
+          "horizon": "FY27",
+          "statement": "On-time project delivery rate of ~83% maintained in FY26; focus on less manpower-intensive projects (e.g., PSI in railways)",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Margin protection",
+          "horizon": "FY27",
+          "statement": "Power transmission and railway projects less impacted by geopolitical price hikes (e.g., bitumen, diesel) compared to roads",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash flow and receivables",
+          "horizon": "FY27",
+          "statement": "Improving cash flow and receivables due to direct government billing (milestone-based) and reduced subcontractor dependency",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capital expenditure",
+          "horizon": "FY27",
+          "statement": "Plans to add more construction machinery and acquire land for solar projects",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Annuity-based revenue",
+          "horizon": "medium-term",
+          "statement": "Explore opportunities under TBCB and HAM models to build stable annuity-based revenue streams",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical expansion",
+          "horizon": "medium-term",
+          "statement": "Actively expanding presence in power infrastructure segment (e.g., Rajasthan, Karnataka)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government payment risk mitigation",
+          "horizon": "medium-term",
+          "statement": "Mitigate payment delays by entering annuity-based businesses with defined late payment interest structures",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "specific capital infusion amounts",
+        "detailed breakdown of order book by client (e.g., KEC, Vindhya Telelinks)",
+        "exact EBITDA margin targets for FY27"
+      ],
+      "margin_drivers": [
+        "shift to direct government contracts (higher margins than subcontractor work)",
+        "increased share of power transmission and railway projects (less impacted by raw material price volatility)",
+        "adoption of TBCB and HAM models for annuity-based revenue",
+        "milestone-based billing to improve cash flow and receivables",
+        "focus on less manpower-intensive projects (e.g., PSI in railways)"
+      ]
     }
   },
-  "generated_at": "2026-06-24T16:32:53.313Z",
-  "count": 159
+  "generated_at": "2026-06-24T18:24:36.865Z",
+  "count": 164
 }
