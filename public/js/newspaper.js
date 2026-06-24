@@ -192,12 +192,12 @@ async function buildPages(X) {
         ${jargon}
         <div class="np-teasers">
           <div class="np-teaser-h">INSIDE THIS EDITION</div>
-          <div class="np-teaser">▸ The most-followed companies — pg 3</div>
-          <div class="np-teaser">▸ Busiest & quietest funds — pg 4</div>
-          <div class="np-teaser">▸ Sector-by-sector tour — pg 5</div>
-          <div class="np-teaser">▸ Who's gaining & losing attention — pg 6–7</div>
-          <div class="np-teaser">▸ What management is promising — pg 8</div>
-          <div class="np-teaser">▸ Fund spotlights & watch list — pg 9–10</div>
+          <div class="np-teaser">Most-followed companies · p3</div>
+          <div class="np-teaser">Busiest & quietest funds · p4</div>
+          <div class="np-teaser">Sector-by-sector tour · p5</div>
+          <div class="np-teaser">Gaining & losing attention · p6–7</div>
+          <div class="np-teaser">Management's promises · p8</div>
+          <div class="np-teaser">Spotlights & watch list · p9–10</div>
         </div>
       </div>
     </div>
@@ -413,26 +413,22 @@ async function buildPages(X) {
     </div>`);
   }
 
-  // page folios — insert just before each page's final closing </div>
-  return pages.map((p, i) => {
-    const folio = `<div class="np-folio">Munshot Newspaper · Page ${i + 1} of ${pages.length}</div>`;
-    const idx = p.lastIndexOf("</div>");
-    return idx < 0 ? p : p.slice(0, idx) + folio + p.slice(idx);
-  });
+  return pages;
 }
 
 // ---- styles (scoped) ------------------------------------------------------
 const STYLE = `
 #np-stage{position:absolute;left:-99999px;top:0;}
-.np-page{width:${PAGE_W}px;height:${PAGE_H}px;background:${CREAM};color:${INK};box-sizing:border-box;padding:38px 40px 30px;font-family:'Newsreader',Georgia,serif;position:relative;overflow:hidden;display:flex;flex-direction:column;}
+.np-page{width:${PAGE_W}px;height:${PAGE_H}px;background:${CREAM};color:${INK};box-sizing:border-box;padding:38px 40px 48px;font-family:'Newsreader',Georgia,serif;position:relative;overflow:hidden;display:flex;flex-direction:column;}
 .np-page *{box-sizing:border-box;}
+.np-inner{flex:1;min-height:0;overflow:hidden;transform-origin:top left;}
 .np-nameplate{text-align:center;}
 .np-plate-rule{height:5px;background:${INK};margin-bottom:6px;}
 .np-masthead{font-family:'Playfair Display',serif;font-weight:900;letter-spacing:.5px;font-size:52px;line-height:1;color:${INK};white-space:nowrap;}
 .np-tagline{font-family:'Newsreader',serif;font-style:italic;color:#4a4a55;font-size:13px;margin-top:4px;}
 .np-dateline{display:flex;justify-content:space-between;border-top:2px solid ${INK};border-bottom:2px solid ${INK};margin-top:8px;padding:4px 2px;font-family:'Space Grotesk',sans-serif;font-size:10.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#33333d;}
-.np-front{display:grid;grid-template-columns:1fr 250px;gap:22px;flex:1;min-height:0;margin-top:14px;}
-.np-front-main{display:flex;flex-direction:column;min-height:0;}
+.np-front{display:grid;grid-template-columns:1fr 250px;gap:22px;margin-top:14px;}
+.np-front-main{display:block;}
 .np-front-side{display:flex;flex-direction:column;gap:12px;border-left:2px solid #ddd4c2;padding-left:18px;}
 .np-kicker{display:inline-block;color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 9px;border-radius:3px;}
 .np-lead{font-family:'Fraunces','Playfair Display',serif;font-weight:900;font-size:40px;line-height:1.02;margin:8px 0 6px;letter-spacing:-.5px;}
@@ -442,7 +438,7 @@ const STYLE = `
 .np-body p,.np-cols-2 p{font-size:12.4px;line-height:1.5;text-align:justify;margin:0 0 7px;break-inside:avoid;}
 .np-note{background:#fff;border-left:3px solid ${C.rose};padding:7px 9px;font-size:11.6px !important;font-style:italic;color:#444;}
 .np-drop{float:left;font-family:'Playfair Display',serif;font-weight:900;font-size:46px;line-height:36px;padding:2px 7px 0 0;color:${C.indigo};}
-.np-hero{margin-top:auto;background:#fff;border:1px solid #e2dccc;border-radius:8px;padding:8px;}
+.np-hero{margin-top:12px;background:#fff;border:1px solid #e2dccc;border-radius:8px;padding:8px;}
 .np-take{background:#fff;border-left:4px solid ${C.emerald};border-radius:0 8px 8px 0;padding:8px 11px;font-size:12px;line-height:1.4;margin:9px 0;box-shadow:0 1px 0 #e7e0d2;}
 .np-take span{font-family:'Space Grotesk',sans-serif;font-weight:700;}
 .np-side{background:#fff;border-top:4px solid ${C.indigo};border-radius:0 0 8px 8px;padding:10px 12px;box-shadow:0 2px 8px -4px rgba(0,0,0,.15);}
@@ -456,8 +452,8 @@ const STYLE = `
 .np-teaser-h{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:11px;letter-spacing:1.5px;margin-bottom:6px;color:${C.amber};}
 .np-teaser{font-size:12px;line-height:1.7;border-bottom:1px solid #2c2c38;}
 .np-band{margin:4px 0 10px;}
-.np-h2{font-family:'Fraunces','Playfair Display',serif;font-weight:900;font-size:25px;line-height:1.05;margin:5px 0 4px;letter-spacing:-.3px;}
-.np-rule{height:3px;width:100%;border-radius:2px;}
+.np-h2{font-family:'Fraunces','Playfair Display',serif;font-weight:900;font-size:24px;line-height:1.15;margin:6px 0 10px;letter-spacing:-.3px;}
+.np-rule{height:3px;width:100%;border-radius:2px;margin-top:2px;}
 .np-lead-in{font-family:'Newsreader',serif;font-size:13px;font-style:italic;line-height:1.4;color:#3a3a44;margin-bottom:10px;background:#fff;border:1px solid #e7e0d2;border-left:4px solid ${C.indigo};padding:8px 11px;border-radius:0 6px 6px 0;}
 .np-tbl{width:100%;border-collapse:collapse;font-size:11.6px;}
 .np-tbl th{font-family:'Space Grotesk',sans-serif;font-size:9.5px;letter-spacing:.8px;text-transform:uppercase;color:#fff;background:${INK};padding:5px 7px;}
@@ -482,7 +478,7 @@ const STYLE = `
 .np-spot-secs{margin-bottom:6px;line-height:1.9;}
 .np-spot-names{font-size:11px;line-height:1.4;color:#333;}
 .np-spotlist{display:block;}
-.np-colophon{margin-top:auto;text-align:center;border-top:3px double ${INK};padding-top:12px;}
+.np-colophon{margin-top:18px;text-align:center;border-top:3px double ${INK};padding-top:12px;}
 .np-folio{position:absolute;bottom:10px;left:40px;right:40px;display:flex;justify-content:center;font-family:'Space Grotesk',sans-serif;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#9a9282;border-top:1px solid #ddd4c2;padding-top:5px;}
 `;
 
@@ -516,7 +512,30 @@ export async function buildNewspaper(onStatus = () => {}) {
 
   const stage = document.createElement("div"); stage.id = "np-stage"; stage.innerHTML = pages.join("");
   document.body.appendChild(stage);
-  await new Promise((r) => setTimeout(r, 120)); // let images/layout settle
+  await new Promise((r) => setTimeout(r, 160)); // let chart images + layout settle
+
+  // Wrap each page's content in .np-inner, add a folio, then AUTO-FIT: if the content
+  // is taller than the page, scale it down (centered) so it never clips or overlaps.
+  const pgs = stage.querySelectorAll(".np-page");
+  pgs.forEach((pg, i) => {
+    const inner = document.createElement("div"); inner.className = "np-inner";
+    while (pg.firstChild) inner.appendChild(pg.firstChild);
+    pg.appendChild(inner);
+    const folio = document.createElement("div"); folio.className = "np-folio";
+    folio.textContent = `Munshot Newspaper · Page ${i + 1} of ${pgs.length}`;
+    pg.appendChild(folio);
+  });
+  await new Promise((r) => setTimeout(r, 30));
+  pgs.forEach((pg) => {
+    const inner = pg.querySelector(".np-inner");
+    const avail = inner.clientHeight, need = inner.scrollHeight;
+    if (need > avail + 4) {
+      const sc = Math.max(0.5, avail / need);
+      inner.style.transformOrigin = "top center";
+      inner.style.transform = `scale(${sc})`;
+    }
+  });
+  await new Promise((r) => setTimeout(r, 30));
 
   onStatus("Printing the paper (this takes a few seconds)…");
   const issue = (X.meta.generated_at || new Date().toISOString()).slice(0, 10);
