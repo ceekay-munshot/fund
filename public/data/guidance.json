@@ -15505,8 +15505,832 @@
         "Cost optimization initiatives",
         "Premiumization and innovation-led offerings"
       ]
+    },
+    "V2 Retail": {
+      "company": "V2 Retail",
+      "ticker": "V2RETAIL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb79d1ab-44bf-4f53-92db-f06673a8046b.pdf",
+      "transcript_id": "v2-retail_2026-06-02",
+      "provider": "groq",
+      "generated_at": "2026-06-24T16:31:32.420Z",
+      "summary": "V2 Retail expects to sustain momentum in FY '27 and beyond, driven by investments in technology, store expansion, and customer engagement.",
+      "guidance": [
+        {
+          "metric": "Store openings",
+          "horizon": "FY27",
+          "statement": "Targeting 170-200 store openings",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "Next 2 years",
+          "statement": "Guiding for at least 50% revenue growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SSSG",
+          "horizon": "Medium-term",
+          "statement": "Aiming to maintain 8%-10% SSSG",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "Near-term",
+          "statement": "Expecting to maintain gross margin at 28%-30%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Price increase",
+          "horizon": "Near-term",
+          "statement": "Planning to pass on 3%-4% price increase to customers",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX per store",
+          "horizon": "FY27",
+          "statement": "Expecting CAPEX per store to increase to Rs. 2.7-2.8 crores",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Competitor comparison"
+      ],
+      "margin_drivers": [
+        "Inventory management",
+        "Supply chain responsiveness",
+        "Operational discipline",
+        "Product mix"
+      ]
+    },
+    "Transrail Light": {
+      "company": "Transrail Light",
+      "ticker": "TRANSRAILL",
+      "sector": "Industrials",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76172a81-6dbe-4c3d-aa78-e8a5fee0df72.pdf",
+      "transcript_id": "transrail-light_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T16:31:40.050Z",
+      "summary": "Management expects 20-22% revenue growth in FY27 with EBITDA margin around 11%, supported by strong order book visibility and disciplined execution despite geopolitical and supply chain challenges.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "20% to 22% revenue growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Around 11% EBITDA margin",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "New orders of INR10,000-11,000 crores expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book to revenue runway",
+          "horizon": "medium-term",
+          "statement": "Order book provides visibility for more than two years",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Project execution timelines",
+          "horizon": "FY27",
+          "statement": "Tower capacity expansion to hasten project execution by 1-2 months within contractual timelines",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LC discounting charges",
+          "horizon": "FY28",
+          "statement": "Expected reduction of 50-100 bps in LC discounting charges",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "International order book",
+          "horizon": "FY27",
+          "statement": "Africa orders ~20% of global order book; Bangladesh orders ~3-4%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Domestic bidding pipeline",
+          "horizon": "FY27",
+          "statement": "INR80,000-100,000 crores of new opportunity potential in India",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International bidding pipeline",
+          "horizon": "FY27",
+          "statement": "INR50,000+ crores of bidding pipeline internationally",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Additional capex of INR203 crores approved for construction productivity improvements",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT growth",
+          "horizon": "FY27",
+          "statement": "PAT growth to be proportional to revenue growth of 20-22%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Three-year growth target",
+          "horizon": "medium-term",
+          "statement": "Targeting 20-25% growth over three-year horizon",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "segmental revenue breakup for power, civil, and railways"
+      ],
+      "margin_drivers": [
+        "geopolitical risks",
+        "supply chain disruptions",
+        "commodity price inflation",
+        "fuel prices",
+        "shipment and insurance costs"
+      ]
+    },
+    "Sahasra Electro.": {
+      "company": "Sahasra Electro.",
+      "ticker": "SAHASRA",
+      "sector": "Industrials",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SAHASRA_02062026093538_final_transcript_uploaded_on_NSE.pdf",
+      "transcript_id": "sahasra-electro_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T16:31:48.724Z",
+      "summary": "Management expects strong growth driven by domestic demand, semiconductor initiatives, and capacity expansion, targeting Rs.275-300 Cr revenue and 15% PAT margin for the merged entity by FY27.",
+      "guidance": [
+        {
+          "metric": "Revenue (merged entity)",
+          "horizon": "FY27",
+          "statement": "Target revenue of Rs.275-300 Crores for the merged entity with 15% PAT margin.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (listed entity)",
+          "horizon": "FY27",
+          "statement": "Target revenue of ~Rs.160 Crores for the listed entity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (semiconductor business)",
+          "horizon": "FY27",
+          "statement": "Target revenue of ~Rs.50 Crores for the semiconductor business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (unlisted entity)",
+          "horizon": "FY27",
+          "statement": "Target revenue of ~Rs.85-90 Crores from the unlisted entity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin (consolidated)",
+          "horizon": "FY27",
+          "statement": "Target 15% PAT margin for the consolidated entity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin (consolidated, post-semiconductor breakeven)",
+          "horizon": "FY28",
+          "statement": "Target 16-17% PAT margin for the consolidated entity once semiconductor business turns profitable.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Semiconductor business breakeven",
+          "horizon": "FY27 end",
+          "statement": "Target EBITDA breakeven for the semiconductor business by FY27 end.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Semiconductor business cash breakeven",
+          "horizon": "FY27",
+          "statement": "Target cash breakeven for the semiconductor business at Rs.50 Crores revenue.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Semiconductor business revenue (long-term)",
+          "horizon": "3-5 years",
+          "statement": "Target semiconductor business revenue of Rs.150 Crores with 10% PAT margin.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peak revenue (semiconductor unit)",
+          "horizon": "3-5 years",
+          "statement": "Peak revenue potential for the semiconductor unit is Rs.250 Crores with current capacity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peak revenue (consolidated entity)",
+          "horizon": "3-5 years",
+          "statement": "Target consolidated peak revenue of Rs.600-650 Crores in the next 3-5 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book visibility",
+          "horizon": "near-term",
+          "statement": "Executable order book of ~Rs.68.5 Crores as of March 31, 2026, providing visibility for coming quarters.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "market share in specific verticals (semiconductor, SD cards, memory cards)",
+        "detailed capex breakdown for capacity expansion",
+        "timeline for ISM 2.0 scheme participation outcomes"
+      ],
+      "margin_drivers": [
+        "higher capacity utilization",
+        "domestic revenue diversification",
+        "operational efficiencies",
+        "improved product mix",
+        "cost optimization",
+        "scale in semiconductor business"
+      ]
+    },
+    "Chemplast Sanmar": {
+      "company": "Chemplast Sanmar",
+      "ticker": "CHEMPLASTS",
+      "sector": "Commodities",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c60a4498-b233-4fe2-9079-0b002f24c37e.pdf",
+      "transcript_id": "chemplast-sanmar_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T16:31:57.621Z",
+      "summary": "Management expects specialty chemicals to drive growth while commodity businesses face near-term volatility, with strategic initiatives underway to enhance long-term value.",
+      "guidance": [
+        {
+          "metric": "Specialty Chemicals Revenue",
+          "horizon": "FY27",
+          "statement": "Expect stronger performance driven by better fundamentals and prospects in the specialty business.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Custom Manufactured Chemicals Revenue",
+          "horizon": "FY27",
+          "statement": "Projected to reach INR1,100 crores based on current pipeline and commercialized products.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Custom Manufactured Chemicals Order Book",
+          "horizon": "FY27",
+          "statement": "Strong order book supporting medium-term growth, with 45 molecules in pipeline (17 commercial).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "R32 Refrigerant Gas Capacity",
+          "horizon": "Calendar Year 2026",
+          "statement": "Commercial production commenced at 2 kt swing plant; expansion to 14 kt capacity by year-end.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Suspension PVC Spreads",
+          "horizon": "Q1FY27",
+          "statement": "Spreads currently at neutral level on replacement cost basis; potential to move to positive side with softening VCM prices.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Suspension PVC Regulatory Support",
+          "horizon": "FY27",
+          "statement": "Hopeful for 7.5% duty to be reinstated by end of June 2026; exploring other trade measures like minimum import price.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Suspension PVC Margin Outlook",
+          "horizon": "FY27-FY28",
+          "statement": "Current margins breakeven; improvement contingent on geopolitical stabilization and regulatory support.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Caustic Soda Volumes",
+          "horizon": "FY27",
+          "statement": "Sequential improvement expected with better sales and inventory liquidation at Karaikal facility.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Paste PVC Demand",
+          "horizon": "FY27",
+          "statement": "Demand conditions stable from footwear segment; automotive and upholstery segments showing healthy traction.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "ADD Implementation for Paste PVC",
+          "horizon": "H1FY27",
+          "statement": "Final findings received from DGTR; implementation of ADD on EU and Japan imports expected in first half of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex for Expansion Projects",
+          "horizon": "FY27",
+          "statement": "Ongoing expansion projects to be executed timely; focus on operational efficiency and cost optimization.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Strategic Review Committee Findings",
+          "horizon": "Medium-term",
+          "statement": "Board committee examining strategic priorities, potential reorganization, and M&A opportunities to enhance long-term value.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Future EBITDA or PAT targets for the overall company",
+        "Timeline for reversal of INR898 crore impairment loss",
+        "Specific financial impact of regulatory measures on Suspension PVC"
+      ],
+      "margin_drivers": [
+        "Antidumping duties on imports",
+        "Regulatory support (QCOs, customs duty changes)",
+        "Geopolitical stabilization (Middle East war, VCM/ethylene availability)",
+        "Feedstock and energy cost fluctuations",
+        "Capacity utilization and operational efficiency",
+        "Customer diversification and new product development"
+      ]
+    },
+    "Indogulf Cropsci": {
+      "company": "Indogulf Cropsci",
+      "ticker": "IGCL",
+      "sector": "Commodities",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56de801e-6dc7-451f-a3f0-9f14eff591ee.pdf",
+      "transcript_id": "indogulf-cropsci_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T16:32:25.742Z",
+      "summary": "Management expects medium-term growth driven by integrated agri-solutions, export expansion, and biologicals/nutrients, while navigating near-term volatility from weather and geopolitical risks.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects gradual stabilization in industry conditions with improving demand across key markets as channel inventories normalize.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Revenue mix",
+          "horizon": "medium-term",
+          "statement": "Aiming to increase contribution from differentiated and higher-margin products, including biologicals and plant nutrients.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "FY27",
+          "statement": "Sees exports as a long-term growth lever; expects gradual stabilization in Q2 FY27 after potential Q1 impact from geopolitical tensions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Biologicals revenue",
+          "horizon": "medium-term",
+          "statement": "Biologicals and specialty plant nutrients expected to gain traction due to changing climatic conditions and crop stress management needs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material costs",
+          "horizon": "Q2 FY27",
+          "statement": "Prolonged volatility may affect procurement cycles and input costs in Q2 FY27, but expects price increases in products to offset some impact.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Capacity utilization expected to improve further from FY26 levels, with peak utilization of 80-100% during key season months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Manufacturing efficiency",
+          "horizon": "FY27",
+          "statement": "Continued focus on automation, process optimization, and manufacturing improvements to enhance operational competitiveness.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Distribution network",
+          "horizon": "FY27",
+          "statement": "Expansion of secondary distribution via AGPL to deepen rural penetration and support multi-brand strategy.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Regulatory capabilities",
+          "horizon": "medium-term",
+          "statement": "Strengthening regulatory systems and product registration portfolio to accelerate future product launches and portfolio expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D and innovation",
+          "horizon": "FY28",
+          "statement": "ICAR-IARI collaboration to generate scientific data on crop solutions, with potential product launches and solutions emerging from FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital management",
+          "horizon": "FY27",
+          "statement": "Planning for improved working capital flexibility through internal accruals, bank relations, and collection processes including early payment discounts.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inventory planning",
+          "horizon": "Q1 FY27",
+          "statement": "Sufficient inventories secured for Q1 FY27; potential impact on Q2 FY27 due to price escalation.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue or PAT growth targets for FY27",
+        "detailed capex guidance for FY27",
+        "exact EBITDA margin targets for future periods"
+      ],
+      "margin_drivers": [
+        "higher-margin differentiated products (biologicals, plant nutrients)",
+        "improving product mix",
+        "cost optimization initiatives",
+        "operational efficiencies and automation",
+        "backward integration for raw material pricing advantages"
+      ]
+    },
+    "Entero Healthcar": {
+      "company": "Entero Healthcar",
+      "ticker": "ENTERO",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e299570-e98e-4b7b-bd68-c3ecaaa2ff59.pdf",
+      "transcript_id": "entero-healthcar_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T16:32:34.679Z",
+      "summary": "Management expects FY27 revenue growth of 23% (ex-M&A) with EBITDA margin expansion to 5%, driven by MedTech integration and operational efficiencies, while maintaining disciplined M&A and cash flow discipline.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Consolidated revenue growth of 23% year-on-year excluding new acquisitions",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin of 5%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA to operating cash flow conversion",
+          "horizon": "FY27",
+          "statement": "At least 50% of EBITDA to convert to operating cash flow",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Minority interest (PAT pre-minority)",
+          "horizon": "FY27",
+          "statement": "Minority interest to be 25% to 27% of PAT before minority interest",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "MedTech revenue contribution",
+          "horizon": "FY27",
+          "statement": "MedTech revenue contribution to exceed 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MedTech revenue contribution (long-term)",
+          "horizon": "2-3 years",
+          "statement": "MedTech revenue contribution could reach 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tax rate",
+          "horizon": "FY27",
+          "statement": "Tax rate expected in the range of 22% to 23%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Finance cost",
+          "horizon": "FY27",
+          "statement": "Finance cost to remain stable in near term and reduce sequentially over next couple of years",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "FY27",
+          "statement": "Incremental working capital as a percentage of incremental revenue to reduce",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Acquisition valuation multiples",
+          "horizon": "future",
+          "statement": "Typical acquisition valuation of 5 to 7x enterprise value to EBITDA",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "GLP-1 revenue contribution",
+          "horizon": "FY27",
+          "statement": "GLP-1 distribution built into growth guidance due to disproportionate market share",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Organic growth (ex-M&A)",
+          "horizon": "FY27",
+          "statement": "Organic growth guidance factors in calendarization of acquisitions and business mix changes",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "magnitude of acquisitions in FY27",
+        "detailed breakdown of revenue growth drivers beyond stated organic and calendarization factors"
+      ],
+      "margin_drivers": [
+        "MedTech integration and higher margins from commercial roles",
+        "Operational efficiencies and procurement improvements",
+        "Business mix shift away from low-margin segments",
+        "GLP-1 distribution scale-up",
+        "Working capital optimization"
+      ]
+    },
+    "Inox Green": {
+      "company": "Inox Green",
+      "ticker": "INOXGREEN",
+      "sector": "Utilities",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78c64939-3c62-49ac-9827-562fd6465a1b.pdf",
+      "transcript_id": "inox-green_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T16:32:43.404Z",
+      "summary": "Management expects strong multi-year growth driven by group synergies, domestic manufacturing push, and shift to higher-margin equipment supply.",
+      "guidance": [
+        {
+          "metric": "Annual wind capacity addition",
+          "horizon": "next few years",
+          "statement": "Expect strong annual wind capacity addition of 8 to 10 GW driven by RTC, FDRE, and hybrid projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Clean Energy capacity addition",
+          "horizon": "FY29",
+          "statement": "Targeted capacity addition of 14 GW by FY'29, with ~3 GW+ added annually over the next few years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Wind order book mix",
+          "horizon": "next 4-5 years",
+          "statement": "2/3 of annual execution to come from Inox Clean and CESC, remaining 1/3 from other marquee customers.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inox Wind order book composition",
+          "horizon": "medium-term",
+          "statement": "Order book to shift from 50:50 turnkey-equipment supply to 75% equipment supply going forward.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inox Wind revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect consolidated revenue to grow by around 75% over FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Wind EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to be 20% to 20%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Inox Green EBITDA",
+          "horizon": "FY27",
+          "statement": "EBITDA guidance upwards of INR600 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Green O&M portfolio",
+          "horizon": "near future",
+          "statement": "Expected to become the largest renewable O&M company in India.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Green O&M portfolio",
+          "horizon": "2030",
+          "statement": "Expected to become one of the largest renewable O&M companies globally by 2030.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Green acquisitions EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Acquired O&M assets expected to contribute ~50% EBITDA margin.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Wind new turbine launch",
+          "horizon": "calendar year 2026",
+          "statement": "4.4-MW turbine launch on-track with expected commercial launch within the year.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inox Renewable Solutions demerger",
+          "horizon": "post approvals",
+          "statement": "IRSL to be automatically listed on the stock exchange post receipt of all approvals.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "top line and EBITDA profile for Inox Renewable business post demerger"
+      ],
+      "margin_drivers": [
+        "shift to equipment supply model",
+        "backward integration into power electronics, transformers, and cranes",
+        "group synergies from Inox Clean Energy's capacity additions",
+        "value-added services like life extension packages and digital initiatives (Agent AI)",
+        "elimination of evacuation infrastructure business from Inox Green's balance sheet"
+      ]
+    },
+    "Inox Wind": {
+      "company": "Inox Wind",
+      "ticker": "INOXWIND",
+      "sector": "Industrials",
+      "concall_date": "2026-06-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=848794f9-ab25-4f1b-a5d9-6942bd67b0ff.pdf",
+      "transcript_id": "inox-wind_2026-06-02",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T16:32:51.785Z",
+      "summary": "Strong growth outlook driven by 8-10 GW annual wind capacity additions, group synergies, and strategic pivot to equipment supply and O&M.",
+      "guidance": [
+        {
+          "metric": "Annual wind capacity additions",
+          "horizon": "next few years",
+          "statement": "Expect strong annual wind capacity addition of 8 to 10 GW driven by RTC, FDRE, and hybrid projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Clean Energy capacity addition",
+          "horizon": "FY29",
+          "statement": "Targeted capacity addition of 14 GW by FY'29, with ~3 GW+ added annually over the next few years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Clean Energy wind share",
+          "horizon": "next few years",
+          "statement": "About 20% to 30% of Inox Clean Energy's capacity addition is expected to be wind.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inox Wind order book growth",
+          "horizon": "next few years",
+          "statement": "Expect to further add to the 3.1 GW order book with recurring order inflows from Inox Clean Energy.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Wind execution mix",
+          "horizon": "next 4-5 years",
+          "statement": "2/3 of annual execution will be from Inox Clean and CESC, and the remaining 1/3 from other marquee customers.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inox Wind order book composition",
+          "horizon": "next few years",
+          "statement": "Plan to increase equipment supply share in order book from 50:50 to 75% going forward.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Wind new turbine launch",
+          "horizon": "calendar year 2026",
+          "statement": "Expect to launch the new 4.4-MW turbine within this calendar year.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inox Wind revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect consolidated revenue to grow by around 75% over FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Wind EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect EBITDA margin to be 20% to 20% (flat).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Inox Green EBITDA",
+          "horizon": "FY27",
+          "statement": "Maintain EBITDA guidance to be upwards of INR600 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Green O&M portfolio",
+          "horizon": "near future",
+          "statement": "Expected to become the largest renewable O&M company in India.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inox Green O&M portfolio",
+          "horizon": "2030",
+          "statement": "Expected to become one of the largest globally by 2030.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Inox Renewable Solutions top line and EBITDA profile post demerger",
+        "Specific EBITDA margin profile for acquired assets by Inox Green"
+      ],
+      "margin_drivers": [
+        "Backward integration (cranes, transformers, power electronics)",
+        "Shift to equipment supply model (75-80% of order book)",
+        "Group synergies (recurring orders from Inox Clean Energy)",
+        "Digital initiatives (Agent AI deployment)",
+        "Life extension packages for wind turbines",
+        "Value-added services (WTG overhauls)"
+      ]
     }
   },
-  "generated_at": "2026-06-24T13:51:27.917Z",
-  "count": 151
+  "generated_at": "2026-06-24T16:32:53.313Z",
+  "count": 159
 }
