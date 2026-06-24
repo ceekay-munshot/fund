@@ -16,6 +16,29 @@ import {
   moreList, wireMore, linkedinBtn, linkedinUrl,
   emptyState, countUp, makeChart, resizeCharts, refreshIcons,
 } from "./ui.js";
+import { buildNewspaper } from "./newspaper.js";
+
+// "Get Insight" → compose + download the Munshot Newspaper PDF.
+async function onGetInsight() {
+  const btn = document.getElementById("insight-btn");
+  if (!btn || btn.dataset.busy === "1") return;
+  const orig = btn.innerHTML;
+  btn.dataset.busy = "1";
+  const setStatus = (msg) => {
+    if (msg) btn.innerHTML = `<i data-lucide="loader" class="h-3.5 w-3.5 animate-spin"></i>${msg}`;
+    refreshIcons();
+  };
+  try {
+    await buildNewspaper(setStatus);
+  } catch (err) {
+    console.error("newspaper:", err);
+    alert("Couldn't build the newspaper: " + (err && err.message ? err.message : err));
+  } finally {
+    btn.dataset.busy = "";
+    btn.innerHTML = orig;
+    refreshIcons();
+  }
+}
 
 let DATA = null;
 const rendered = new Set();
@@ -1882,6 +1905,7 @@ async function boot() {
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDrill(); });
   document.getElementById("export-btn")?.addEventListener("click", exportData);
   document.getElementById("addfund-btn")?.addEventListener("click", openAddFund);
+  document.getElementById("insight-btn")?.addEventListener("click", onGetInsight);
 
   let t;
   window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(resizeCharts, 150); });

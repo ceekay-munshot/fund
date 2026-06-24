@@ -8,17 +8,21 @@
 
 ## What the dashboard shows
 
-Five tabs, each answering a distinct question:
+Seven tabs, each answering a distinct question:
 
 | Tab | The question it answers |
 |---|---|
-| **Radar** | The big picture — a Fund × Sector concentration heatmap, sector clustering treemap, and a "highest conviction" glance bar. |
-| **Funds** | Per‑fund view — a searchable board of all the funds; click a fund to drill into its companies, sector mix, dates, and transcripts. |
-| **Sectors** | Where smart money is concentrating by sector — a House View read, a ranked "funds per sector" bar, a sortable table (with trend ▲/▼ and Concentrated/Broad focus), and a sector drill of the top names. |
-| **Consensus** | The consensus book — companies ranked into conviction tiers (4+ / 3 / 2 funds), a "conviction building" strip when a new fund just joined a name, fund/sector filters, and a per‑fund evidence drill. |
-| **Recent Flags** | The chronological monitoring feed — newest first by discovery date, grouped Today / This week / Earlier, with a **First interest** vs **Repeat** novelty tag and a "first interest only" filter. |
+| **Radar** | The big picture — a Fund × Sector concentration heatmap (top 10 funds + expand), sector clustering treemap, and a "highest conviction" glance bar. |
+| **Funds** | Per‑fund view — a searchable board of all the funds; click a fund to drill into its companies, sector mix, dates, and analyst LinkedIn links. |
+| **Sectors** | Where smart money is concentrating by sector — a filter‑aware House View read, a ranked "funds per sector" bar, a sortable table, and a sector drill of the top names. |
+| **Consensus** | The consensus book — companies ranked into conviction tiers (4+ / 3 / 2 funds), a "conviction building" strip, fund/sector filters, and a per‑company drill (funds + extracted guidance). |
+| **Shifts** | Attention churn — funds that **lost interest** (attended earlier calls, absent from the latest) tiered strong/medium, and funds with **new interest**. |
+| **Guidance** | AI‑extracted **forward guidance** from each company's latest call — every item flagged *specific / vague / refused*, plus refused‑to‑guide topics and margin drivers. Click‑to‑expand. |
+| **Recent Flags** | The chronological feed — newest first by **concall date**, with a When dropdown (Today / week / month / quarter / all), a fund **dropdown** filter, and First‑interest vs Repeat tags. |
 
-Plus a **KPI strip** (engagements, active funds, companies tracked, concalls scanned) and an **Export** button (full sightings → Excel/CSV).
+Plus a **KPI strip**, an **Export** button (full sightings → Excel/CSV), and **Get Insight** — one click downloads the **Munshot Newspaper**: a long, colorful, plain‑English PDF digest of the whole dashboard (lead story, league tables, sector tour, attention movers, guidance digest, fund spotlights, watch list, methodology). Built client‑side as fixed A4 pages → html2canvas + jsPDF.
+
+Headlines across the filterable tabs (Flags, Consensus, Shifts, Guidance) recompute live from the current filter selection. Analyst names link to a LinkedIn people‑search (`"Name" AND "Firm"`).
 
 ---
 
