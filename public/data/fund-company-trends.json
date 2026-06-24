@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-24T16:38:24.202Z",
+  "generated_at": "2026-06-24T17:33:13.291Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 146,
+    "dropped": 147,
     "gained": 226,
-    "consistent": 436,
-    "companies_evaluated": 608
+    "consistent": 439,
+    "companies_evaluated": 616
   },
   "dropped": [
     {
@@ -313,6 +313,17 @@
       "sector": null,
       "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "unique",
+      "fund_name": "Unique PMS",
+      "company": "CIE Automotive",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-04-29",
+      "last_seen_date": "2026-04-01",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
