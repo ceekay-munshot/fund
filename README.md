@@ -20,7 +20,7 @@ Seven tabs, each answering a distinct question:
 | **Guidance** | AI‑extracted **forward guidance** from each company's latest call — every item flagged *specific / vague / refused*, plus refused‑to‑guide topics and margin drivers. Click‑to‑expand. |
 | **Recent Flags** | The chronological feed — newest first by **concall date**, with a When dropdown (Today / week / month / quarter / all), a fund **dropdown** filter, and First‑interest vs Repeat tags. |
 
-Plus a **KPI strip**, an **Export** button (full sightings → Excel/CSV), and **Get Insight** — one click downloads the **Munshot Newspaper**: a long, colorful, plain‑English PDF digest of the whole dashboard (lead story, league tables, sector tour, attention movers, guidance digest, fund spotlights, watch list, methodology). Built client‑side as fixed A4 pages → html2canvas + jsPDF.
+Plus a **KPI strip**, an **Export** button (full sightings → Excel/CSV), and **Get Insight** — one click downloads the **Munshot Insights**: a long, colorful, plain‑English PDF digest of the whole dashboard (lead story, league tables, sector tour, attention movers, guidance digest, fund spotlights, watch list, methodology). Built client‑side as fixed A4 pages → html2canvas + jsPDF.
 
 Headlines across the filterable tabs (Flags, Consensus, Shifts, Guidance) recompute live from the current filter selection. Analyst names link to a LinkedIn people‑search (`"Name" AND "Firm"`).
 

@@ -1,4 +1,4 @@
-// newspaper.js — Fund Tracker — MGA · "Get Insight" → the MUNSHOT NEWSPAPER
+// newspaper.js — Fund Tracker — MGA · "Get Insight" → the MUNSHOT INSIGHTS
 // ---------------------------------------------------------------------------
 // One click builds a long, colorful, plain-English newspaper PDF that mines the whole
 // dashboard: who the funds are watching, where consensus is forming, which sectors are
@@ -173,7 +173,7 @@ async function buildPages(X) {
   <div class="np-page">
     <div class="np-nameplate">
       <div class="np-plate-rule"></div>
-      <div class="np-masthead">MUNSHOT NEWSPAPER</div>
+      <div class="np-masthead">MUNSHOT INSIGHTS</div>
       <div class="np-tagline">Where India's smart money is paying attention — explained for everyone</div>
       <div class="np-dateline"><span>MUMBAI</span><span>${esc(spanTxt)}</span><span>VOL. 1, NO. 1</span><span>SMART-MONEY CHRONICLE</span></div>
     </div>
@@ -407,7 +407,7 @@ async function buildPages(X) {
       ${band("PARTING SHOT", "The one-paragraph summary", C.indigo)}
       <div class="np-body"><p>If you read nothing else: India's independent funds are most crowded around <b>${esc(topCo ? topCo.company : "—")}</b> and most active in <b>${esc(topSector ? topSector.sector : "—")}</b>. ${(X.trends.gained || []).length} fresh interests just appeared and ${(X.trends.dropped || []).length} relationships cooled — the changes, more than the totals, are where tomorrow's stories start.</p></div>
       <div class="np-colophon">
-        <div class="np-masthead" style="font-size:30px">MUNSHOT NEWSPAPER</div>
+        <div class="np-masthead" style="font-size:30px">MUNSHOT INSIGHTS</div>
         <div class="np-tagline">Generated automatically by the Fund Tracker dashboard · Source: BSE/NSE earnings-call transcripts via Screener.in · As of ${esc(issue)}</div>
       </div>
     </div>`);
@@ -522,7 +522,7 @@ export async function buildNewspaper(onStatus = () => {}) {
     while (pg.firstChild) inner.appendChild(pg.firstChild);
     pg.appendChild(inner);
     const folio = document.createElement("div"); folio.className = "np-folio";
-    folio.textContent = `Munshot Newspaper · Page ${i + 1} of ${pgs.length}`;
+    folio.textContent = `Munshot Insights · Page ${i + 1} of ${pgs.length}`;
     pg.appendChild(folio);
   });
   await new Promise((r) => setTimeout(r, 30));
@@ -540,7 +540,7 @@ export async function buildNewspaper(onStatus = () => {}) {
   onStatus("Printing the paper (this takes a few seconds)…");
   const issue = (X.meta.generated_at || new Date().toISOString()).slice(0, 10);
   try {
-    await exportPDF(stage, pages.length, `Munshot-Newspaper-${issue}.pdf`);
+    await exportPDF(stage, pages.length, `Munshot-Insights-${issue}.pdf`);
   } finally {
     stage.remove();
     onStatus("");
