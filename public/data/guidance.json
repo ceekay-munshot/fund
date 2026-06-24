@@ -13881,8 +13881,824 @@
         "Cost discipline",
         "Gradual price transmission to customers"
       ]
+    },
+    "AXISCADES Tech.": {
+      "company": "AXISCADES Tech.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-18",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ae65b22-fde7-4c93-b86a-371459d260ed.pdf",
+      "transcript_id": "axiscades-tech_2026-06-18",
+      "provider": "groq",
+      "generated_at": "2026-06-24T11:15:04.233Z",
+      "summary": "AXISCADES Technologies expects a strong FY27 with revenue growth driven by its core domains of aerospace, defense, and ESAI, and margin expansion through portfolio sharpening and supply chain improvements.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Consolidated revenue is trending towards 1,377 crores, representing a 52% growth on the retained business base of 903 crores in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting an EBITDA margin improvement of 150-200 bps year-on-year, driven by core verticals with average EBITDA of 20% plus.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book is strong, with 927 crores in orders currently under execution, and 284-285 crores in assured forecast visibility.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex will be disciplined, with a focus on operational infrastructure investments, such as the DAL, DAC, and MAC facilities.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Expecting a 10x scale-up in revenue by FY2030, driven by a shift from design-only to manufacturing and solutions.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Portfolio sharpening",
+        "Supply chain improvements",
+        "Core domains with high EBITDA margins"
+      ]
+    },
+    "Unimech Aero.": {
+      "company": "Unimech Aero.",
+      "ticker": "UNIMECH",
+      "sector": "Industrials",
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0564b7a5-8337-4b51-abf5-cc441a3eb5e8.pdf",
+      "transcript_id": "unimech-aero_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T11:15:21.393Z",
+      "summary": "Management expects FY27 to be a year of stronger growth and improved operating leverage, driven by aerospace normalization, nuclear orders, and Hobel Bellows contribution.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects meaningful growth over current levels with Q1 FY27 revenue to surpass Q4 FY26 revenues",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expects consolidated EBITDA margins to remain healthy and better than FY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order pipeline is healthy with contributions from offerings beyond Aero Tooling",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "30-36 months",
+          "statement": "Plant utilization levels are ~50% and expected to steadily improve over the next 30 to 36 months as order execution ramps up",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Nuclear orders",
+          "horizon": "FY27",
+          "statement": "Expected execution of nuclear-related orders, particularly in the second half of the year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hobel Bellows contribution",
+          "horizon": "FY27",
+          "statement": "Strong contribution from Hobel Bellows financials expected in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tariff sharing",
+          "horizon": "FY27",
+          "statement": "May continue to absorb approximately 5% tariff sharing on parts and tooling consumed within the U.S. market",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AS9100 certification timeline",
+          "horizon": "6-9 months",
+          "statement": "Plan to start AS9100 certification which may take 6-9 months to complete",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Kanoo JV CAPEX",
+          "horizon": "FY27",
+          "statement": "Expects large CAPEX addition into the Kanoo JV during the year as planned",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dheya engine orders",
+          "horizon": "medium-term",
+          "statement": "Opportunity could scale up to nearly 200 engines over time subject to successful qualification",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "medium-term",
+          "statement": "Working capital intensity may gradually increase towards 150 to 160 days range over time",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fixed assets turnover",
+          "horizon": "long-term",
+          "statement": "Fixed assets turnover for FY26 stood at ~1.4x and remains below long-term target utilization level",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Normalization in aerospace tooling demand",
+        "Ramp up in precision component opportunities across semiconductor and aerospace customers",
+        "Execution of nuclear-related orders",
+        "Strong contribution from Hobel Bellows",
+        "Improving operating leverage",
+        "Employee cost moderation as revenues scale up",
+        "Operating expenses normalization"
+      ]
+    },
+    "Venus Pipes": {
+      "company": "Venus Pipes",
+      "ticker": "VENUSPIPES",
+      "sector": "Industrials",
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f84d232-d01c-46f9-92dd-1df20124dbe6.pdf",
+      "transcript_id": "venus-pipes_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T11:15:31.701Z",
+      "summary": "Management expects strong growth in FY27 driven by new capacities, data center orders, and domestic demand, with EBITDA margins improving toward 17-18% by FY28.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "At least 20% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Higher than FY26 (16.3%)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY28",
+          "statement": "Targeting 17-18%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT growth",
+          "horizon": "FY27",
+          "statement": "Improvement expected as capex is fully commissioned",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Spooling business revenue",
+          "horizon": "FY27",
+          "statement": "Turnover of around 3x of INR70 crore capex expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Spooling business EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Higher than current business margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Spooling business timeline",
+          "horizon": "Q4CY26",
+          "statement": "Facility to be operational by end of calendar year 2026",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "FY27",
+          "statement": "INR185 crore data center LOI to be executed over 15 months",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY27",
+          "statement": "More than 30-35% of revenue expected",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Seamless pipes utilization >90-95%, welded pipes ~60-65%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "BHEL orders",
+          "horizon": "Next 30-45 days",
+          "statement": "INR50 crore order expected to be received",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BHEL orders",
+          "horizon": "Q2FY27",
+          "statement": "Additional orders expected from tenders opening in August-September",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material price outlook beyond FY27",
+        "Per megawatt spooling solution requirement for data centers",
+        "Unit economics per ton for spooling solutions"
+      ],
+      "margin_drivers": [
+        "Value-added products (fittings, spooling)",
+        "Forward integration into higher-margin segments (data centers)",
+        "Operational efficiency improvements",
+        "Backward integration for seamless pipes"
+      ]
+    },
+    "Nisus Finance": {
+      "company": "Nisus Finance",
+      "ticker": "544296",
+      "sector": "Financial Services",
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6a3dde0-e079-4ee4-9d05-9b5868f984ef.pdf",
+      "transcript_id": "nisus-finance_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T11:15:40.381Z",
+      "summary": "Management expects continued growth in FY27 with a scenario-based outlook, new fund launches, and strong execution in India and UAE despite near-term deferrals.",
+      "guidance": [
+        {
+          "metric": "Revenue (core business)",
+          "horizon": "FY27",
+          "statement": "Scenario framework provided in presentation; no single-point estimate given",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin (core business)",
+          "horizon": "FY27",
+          "statement": "Maintain healthy margins despite macro uncertainty",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin (core business)",
+          "horizon": "FY27",
+          "statement": "Maintain PAT margins at current levels",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "AUM",
+          "horizon": "FY27",
+          "statement": "Growth expected driven by India and UAE platforms",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book (NCCCL)",
+          "horizon": "FY27",
+          "statement": "Further growth expected with INR 870 crores added in first two months of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT (NCCCL)",
+          "horizon": "FY27",
+          "statement": "Continued improvement in profitability with better financial management",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (NCCCL)",
+          "horizon": "FY27",
+          "statement": "Improvement expected with tighter cost control and working capital management",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New fund launches (Neon Fund)",
+          "horizon": "Q2FY27",
+          "statement": "INR 1,800 crore fund with INR 500 crore green shoe option; management fees of INR 220 crores; tenure of 7.5 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "REIC Ops Fund closure",
+          "horizon": "FY27",
+          "statement": "Expected to close in FY27 with management fees booked thereafter",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "GCC pipeline (UAE)",
+          "horizon": "FY27",
+          "statement": "INR 2,000 crore pipeline under renegotiation for better entry points and returns",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Prop book investments",
+          "horizon": "FY27",
+          "statement": "Growth expected to INR 2,125 crores with focus on secure, high-value opportunities",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit rating (NCCCL)",
+          "horizon": "FY27",
+          "statement": "Maintain BBB+ stable rating from CareEdge",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Macro-economic outlook beyond scenario framework",
+        "Specific deferral amounts for India pipeline beyond INR 300 crores mentioned"
+      ],
+      "margin_drivers": [
+        "Shift towards fund income (asset management) from advisory",
+        "Tighter cost control and working capital management in NCCCL",
+        "Renewed focus on cash-flow-backed investments in India",
+        "Conservative counterparty selection and exposure management",
+        "Operational efficiency improvements in NCCCL (SAP HANA, digital tools)"
+      ]
+    },
+    "Shubhshree Bio.": {
+      "company": "Shubhshree Bio.",
+      "ticker": "SHUBHSHREE",
+      "sector": "Industrials",
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SHUBHSHREE_03062026165629_Shubhshree_Biofuels_Energy_FY26_Earnings_Call_Transcript.pdf",
+      "transcript_id": "shubhshree-bio_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T11:15:48.988Z",
+      "summary": "Strong growth outlook driven by India's biomass co-firing mandate, rising industrial demand for green energy, and capacity expansion plans.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting revenue of INR350+ crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Targeting revenue of INR500+ crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity",
+          "horizon": "FY27",
+          "statement": "Planning to establish five new plants, increasing total capacity to 1,000 metric tons per day",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planning capex of INR15-20 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Margin expansion expected due to torrefied biomass (higher calorific value) and integrated supply chain",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material cost",
+          "horizon": "2-3 years",
+          "statement": "Target to reduce raw material cost below INR2/kg from current INR2/kg",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Torrefied biomass realization",
+          "horizon": "FY27",
+          "statement": "Expected realization improvement from INR7/kg to INR12/kg (71% increase)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Plant utilization",
+          "horizon": "FY27",
+          "statement": "Current 80% utilization expected to reach 100% as raw material availability improves post-rainy season",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Targeting 150 power plants to conduct co-fire tests and 70-80 to start daily usage",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share",
+          "horizon": "medium-term",
+          "statement": "Aiming to capture 30% of biomass pellet blending market share in power plants (from current 5-8%)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Boiler O&M revenue contribution",
+          "horizon": "FY27",
+          "statement": "O&M and boiler operations to support integrated supply chain revenue growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material sourcing",
+          "horizon": "medium-term",
+          "statement": "Raw material cost expected to decline further due to improved aggregation technology and automation",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA margin for FY27",
+        "PAT guidance for FY27",
+        "Funding mix for capex (equity vs debt)",
+        "Detailed breakdown of revenue mix by segment for FY27"
+      ],
+      "margin_drivers": [
+        "Torrefied biomass (higher calorific value, premium pricing)",
+        "Integrated supply chain (end-to-end control over sourcing, processing, logistics)",
+        "Automation in raw material aggregation (cost reduction)",
+        "Long-term agreements with clients (margin stability)",
+        "Boiler management services (client retention, cross-selling)",
+        "Circular economy (ash reuse, cost efficiency)"
+      ]
+    },
+    "Ganesh Housing": {
+      "company": "Ganesh Housing",
+      "ticker": "GANESHHOU",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa03865c-088a-4aed-9c23-ceae7404afed.pdf",
+      "transcript_id": "ganesh-housing_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T11:15:59.078Z",
+      "summary": "Management expects FY27 to be a transformational year with strong contributions from lease income, premium residential sales, and land monetization, supported by robust internal accruals and selective debt.",
+      "guidance": [
+        {
+          "metric": "Lease income from Million Minds Phase 1",
+          "horizon": "FY27",
+          "statement": "Expected to exceed INR72 crores, potentially reaching INR75-77 crores annually once stabilized.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lease income from Million Minds Phase 1",
+          "horizon": "FY28 onwards",
+          "statement": "Full-year annual lease income expected to stabilize at INR75-77 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Malabar Retreat project completion and sales",
+          "horizon": "FY27",
+          "statement": "Project targeted for completion and handover by end of FY27, with bookings/sales commitments of INR175 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "One 91 Thaltej project launch",
+          "horizon": "Q1FY27",
+          "statement": "Project in advanced planning/design approval stages; specific details to be shared in Q1FY27 results.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Residential project launches",
+          "horizon": "FY27",
+          "statement": "Two new projects planned: one commercial (Phase 2 of Million Minds) in Q2FY27 and one residential project in Q3FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Land monetization revenue",
+          "horizon": "FY27",
+          "statement": "Significant land monetization opportunities expected to contribute to revenues, with Godhavi Township having potential for further monetization at INR14.1 crores per acre.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex for One 91 Thaltej",
+          "horizon": "FY27",
+          "statement": "Project has a sale value of INR2,100 crores and cost (including land) of INR1,500 crores; construction to be funded via internal accruals.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex for Million Minds residential Phase 1",
+          "horizon": "FY27",
+          "statement": "Costs to be incurred closer to launch (2 quarters away); funding to come from internal accruals and sales from completed projects.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Debt levels",
+          "horizon": "FY27",
+          "statement": "Selective debt expected to fund projects, leveraging existing comfortable gearing levels.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Revenues expected to be better than FY26, driven by lease income, Malabar Retreat sales, and land monetization.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin profile expected to remain strong, reflecting disciplined capital allocation and land bank strength.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Annuity income contribution",
+          "horizon": "Medium-term",
+          "statement": "Gradual increase in recurring lease rentals expected to strengthen earnings visibility and cash flow quality over medium to long term.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Top-line and EBITDA guidance for FY27 (management deferred to Q1FY27 results)",
+        "Specific launch timelines for One 91 Thaltej beyond Q1FY27",
+        "Exact capex amounts for upcoming Million Minds residential Phase 1"
+      ],
+      "margin_drivers": [
+        "Land bank strength and disciplined capital allocation",
+        "Premium residential and commercial project mix",
+        "Recurring lease income from Million Minds",
+        "Land monetization at premium realizations"
+      ]
+    },
+    "BEW Engg": {
+      "company": "BEW Engg",
+      "ticker": "BEWLTD",
+      "sector": "Industrials",
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/BEWENGINEERING_03062026172134_Reg_30_Intimation_of_Transcript_of_Earnings_call_BEW-S.pdf",
+      "transcript_id": "bew-engg_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T11:16:07.359Z",
+      "summary": "Management expects revenue growth and margin recovery in FY27 driven by capacity expansion, export focus, and operational efficiencies, though raw material volatility remains a near-term risk.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR 300 crores revenue with full capacity utilization post-expansion.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting EBITDA margin in the range of 8-10% for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY26 (Q1)",
+          "statement": "Q1 FY26 margins expected to be in a similar range as Q4 FY26 due to ongoing raw material and power cost pressures.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book conversion",
+          "horizon": "medium-term",
+          "statement": "Expecting at least 50% conversion of INR 200 crore pipeline orders.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY27",
+          "statement": "Focusing on increasing export revenue share to improve margin profile.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt level",
+          "horizon": "FY27",
+          "statement": "May raise additional short-term debt of INR 15-20 crores only if required for order execution.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational efficiency",
+          "horizon": "medium-term",
+          "statement": "SAP B1 implementation and process enhancements expected to improve production planning, inventory control, and working capital management.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product development",
+          "horizon": "medium-term",
+          "statement": "Expanding product portfolio to include continuous dryers and package orders (mixers, reactors, heat exchangers).",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Full capacity utilization expected to support revenue growth to INR 300 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material hedging",
+          "horizon": "medium-term",
+          "statement": "Considering hedging strategies for raw material procurement to mitigate volatility risks.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book of INR 65 crores with additional INR 60+ crores expected to close by end of next quarter.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin protection strategy",
+          "horizon": "medium-term",
+          "statement": "Three-pronged strategy: internal efficiency improvements, focus on high-margin orders, and better financial/operational management.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Normalized margins beyond FY27",
+        "Long-term debt levels beyond short-term needs",
+        "Specific hedging strategies for raw materials"
+      ],
+      "margin_drivers": [
+        "Export revenue growth",
+        "High-margin order focus",
+        "Operational efficiency improvements (SAP B1, process enhancements)",
+        "Raw material hedging",
+        "Product portfolio expansion (continuous dryers, package orders)",
+        "Customer advance management"
+      ]
+    },
+    "Apeejay Surrend.": {
+      "company": "Apeejay Surrend.",
+      "ticker": "PARKHOTELS",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1a9c6a7-eb3b-4fff-b6bc-ea1b72a40af7.pdf",
+      "transcript_id": "apeejay-surrend_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-24T11:16:15.873Z",
+      "summary": "Management expects strong long-term growth driven by asset-light expansion, premiumization, and lifestyle-led F&B scaling, targeting 6,635 keys by FY30.",
+      "guidance": [
+        {
+          "metric": "Total keys (hotel portfolio)",
+          "horizon": "FY30",
+          "statement": "Target to surpass 6,000 keys by FY30, with total keys expected to reach 6,635 (2x growth from current 2,677).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset-light model expansion",
+          "horizon": "FY27",
+          "statement": "Plan to add 12 hotels totaling 472 keys in FY27, with 8 asset-light properties to take total keys past 3,000 by FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hotel launches",
+          "horizon": "FY27-FY30",
+          "statement": "Double the number of hotels from 42 to 85 over the next four years, with 2x growth in owned hotels and 3x growth in asset-light models (Zone by the Park and Zone Connect).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ARR (Average Room Rate)",
+          "horizon": "medium-term",
+          "statement": "Focus on ARR improvement through room renovations (Chennai, Bangalore, Kolkata, Vishakhapatnam) and demand-supply gap supporting pricing strength.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy levels",
+          "horizon": "medium-term",
+          "statement": "Maintain industry-leading occupancy levels across portfolio.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Flurys outlets expansion",
+          "horizon": "next 10 months",
+          "statement": "Add 30 more outlets, reaching 140+ outlets, with 8 in Delhi NCR, 5 in Pune, and 4 in Bangalore.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Flurys revenue growth",
+          "horizon": "next four years",
+          "statement": "Plan to add 40-50 outlets of Flurys over the next four years to 2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Flurys format mix",
+          "horizon": "next 10 months",
+          "statement": "Expansion largely in cafe format with 1-2 flagship stores per market.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EM Bypass Kolkata cash flow improvement",
+          "horizon": "FY26",
+          "statement": "Expect additional cash flow improvement of ~70 crores from EM Bypass apartment sales during FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Kolkata market supply",
+          "horizon": "next five years",
+          "statement": "Limited supply expected in Kolkata (1,702 keys over next five years vs. current 5,101 keys).",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Kolkata market outlook",
+          "horizon": "medium-term",
+          "statement": "Positive outlook due to limited supply, government stability, and increased investment in West Bengal.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin improvement",
+          "horizon": "medium-term",
+          "statement": "Focus on sustained margin improvement through operational excellence and portfolio expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue growth target",
+        "FY27 EBITDA margin target",
+        "PAT guidance for future periods"
+      ],
+      "margin_drivers": [
+        "Room renovations (Chennai, Bangalore, Kolkata, Vishakhapatnam)",
+        "Asset-light expansion (Zone by the Park, Zone Connect)",
+        "Flurys scaling and revenue contribution",
+        "Demand-supply gap supporting pricing strength",
+        "Operational excellence and technology integration (e.g., Nor1 AI-driven upselling platform)",
+        "Limited supply growth in key markets (e.g., Kolkata)"
+      ]
     }
   },
-  "generated_at": "2026-06-24T08:02:46.255Z",
-  "count": 135
+  "generated_at": "2026-06-24T11:16:17.399Z",
+  "count": 143
 }
