@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-25T20:48:25.553Z",
+  "generated_at": "2026-06-25T22:25:52.795Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 173,
+    "dropped": 176,
     "gained": 260,
     "consistent": 460,
-    "companies_evaluated": 705
+    "companies_evaluated": 717
   },
   "dropped": [
     {
@@ -92,6 +92,17 @@
       "ticker": "LUMAXTECH",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-06-05",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "vaikarya",
+      "fund_name": "Vaikarya Capital",
+      "company": "Updater Services",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-04",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
       "tier": "strong"
@@ -625,6 +636,17 @@
       "tier": "medium"
     },
     {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "SPML Infra",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-04",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 2,
+      "tier": "medium"
+    },
+    {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
       "company": "Ashok Leyland",
@@ -643,6 +665,17 @@
       "sector": "Industrials",
       "latest_call_date": "2026-06-04",
       "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 2,
+      "tier": "medium"
+    },
+    {
+      "fund_id": "girik",
+      "fund_name": "Girik Capital",
+      "company": "Hikal",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-03",
+      "last_seen_date": "2025-11-01",
       "prior_calls_attended": 2,
       "tier": "medium"
     },
