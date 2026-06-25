@@ -19657,8 +19657,651 @@
         "Plastic and aluminum recycling initiatives",
         "Heat recovery systems for fuel efficiency"
       ]
+    },
+    "Galaxy Surfact.": {
+      "company": "Galaxy Surfact.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-25",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bc00aa0-4cdd-4c8e-bef8-65cdc6b0c7ab.pdf",
+      "transcript_id": "galaxy-surfact_2026-06-25",
+      "provider": "groq",
+      "generated_at": "2026-06-25T05:49:18.939Z",
+      "summary": "Galaxy Surfactants expects performance to improve sequentially in coming quarters, driven by resilient customer relationships, diversified geographic footprint, and strong India franchise.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "Q1FY27",
+          "statement": "Expecting volume growth at the higher end of 6% to 8% range",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per metric ton",
+          "horizon": "Q1FY27",
+          "statement": "Expecting EBITDA per metric ton at the higher end of INR19,000 to INR21,000 range",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty Ingredients mix",
+          "horizon": "long-term",
+          "statement": "Expecting Specialty Ingredients mix to be in the range of 60%-40% to 65%-35% by 2030",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Full-year volume growth guidance beyond Q1"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Mix improvement due to specialty products",
+        "Disciplined cost control measures"
+      ]
+    },
+    "Lords Chloro": {
+      "company": "Lords Chloro",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-05",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c7fdfa1-fcbc-4a9d-82a4-bb1a3e6ec5ea.pdf",
+      "transcript_id": "lords-chloro_2026-06-05",
+      "provider": "mistral",
+      "generated_at": "2026-06-25T05:49:34.429Z",
+      "summary": "Management expects sustained demand growth, margin stability from renewable energy integration, and capacity expansion to drive long-term value creation.",
+      "guidance": [
+        {
+          "metric": "Caustic soda volume growth",
+          "horizon": "FY27",
+          "statement": "Demand growth expected at 5% for India, 4%-5% for North India; no new capacity additions expected in North India for next 2-2.5 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Caustic soda capacity utilization",
+          "horizon": "FY27",
+          "statement": "Capacity utilization expected to remain around 80%-85% due to strong demand and no new capacity additions.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Renewable energy integration (40%-45% share) expected to improve margins sustainably and reduce energy costs per ton.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewable energy share in power consumption",
+          "horizon": "mid-2026",
+          "statement": "21 MW solar plant to be commissioned by mid-June 2026, taking total captive renewable capacity to 37 MW + 10 MW group captive (40%-45% of total power).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Energy cost per ton",
+          "horizon": "FY27",
+          "statement": "Renewable energy integration expected to reduce energy cost per ton and improve EBITDA margins.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Capex outlay",
+          "horizon": "FY24-FY28",
+          "statement": "Total capex of INR315 crores across FY24-FY28 remains on track; second phase includes 21 MW solar plant, CPW capacity expansion (50 to 100 TPD), and caustic soda expansion (100 TPD).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Installed capacity (caustic soda)",
+          "horizon": "FY28",
+          "statement": "Post-expansion, total installed capacity will be 360 TPD (after decommissioning a 40 TPD plant).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CPW capacity",
+          "horizon": "FY28",
+          "statement": "CPW capacity to expand from 50 to 100 TPD.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost of debt",
+          "horizon": "FY27",
+          "statement": "Current average cost of debt is ~7.9%; additional long-term debt of INR90 crores expected in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Interest cost",
+          "horizon": "FY27",
+          "statement": "Interest cost expected to reflect additional debt and new capacity utilization.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sulfuric acid project",
+          "horizon": "medium-term",
+          "statement": "Sulfuric acid project deferred due to volatile sulfur prices and global uncertainty; remains on the radar for prudent capital allocation.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "ESG/sustainability benefits",
+          "horizon": "medium-term",
+          "statement": "Renewable energy-led ESG positioning providing tangible commercial benefits as customers increasingly seek green credentials.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "future caustic soda prices beyond current trends",
+        "exact quantum of margin improvement from renewable energy",
+        "specific timeline for sulfuric acid project revival"
+      ],
+      "margin_drivers": [
+        "renewable energy integration (solar/wind)",
+        "operational efficiency improvements",
+        "energy cost reduction",
+        "product mix improvement (CPW)",
+        "pricing power in North India",
+        "demand growth from key end-user sectors (aluminum, paper, textiles, pharmaceuticals)"
+      ]
+    },
+    "Va Tech Wabag": {
+      "company": "Va Tech Wabag",
+      "ticker": "WABAG",
+      "sector": "Utilities",
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=360d4c02-f0d2-4772-932c-157c559808f1.pdf",
+      "transcript_id": "va-tech-wabag_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-25T05:49:50.422Z",
+      "summary": "Management expects continued profitable growth driven by strong order book visibility, O&M expansion, and new sectors like data centers and semiconductors, while navigating geopolitical and raw material volatility.",
+      "guidance": [
+        {
+          "metric": "Revenue CAGR",
+          "horizon": "medium-term (3-5 years)",
+          "statement": "Maintain 15% to 20% revenue CAGR",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term (3-5 years)",
+          "statement": "Maintain EBITDA margin in 13% to 15% band",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "next couple of years",
+          "statement": "Cross 20% ROCE",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "O&M revenue share",
+          "horizon": "medium-term (3-5 years)",
+          "statement": "Increase O&M revenue share to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book to remain at least 3x of revenues",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order intake",
+          "horizon": "FY27",
+          "statement": "Target INR 7,500 crore order intake",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Net cash position",
+          "horizon": "FY27",
+          "statement": "Maintain net cash positive position",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "New sectors (data centers, semiconductors)",
+          "horizon": "next 3-4 years",
+          "statement": "Focus on new sectors requiring ultra-pure water as a growth driver",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Green hydrogen and ammonia",
+          "horizon": "next 3-4 years",
+          "statement": "Expect more green hydrogen plants and ammonia production as sector becomes economically viable",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical diversification",
+          "horizon": "medium-term",
+          "statement": "Aim for 50:50 split between India and Rest of World (ROW) in order book",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "O&M order book share",
+          "horizon": "FY27",
+          "statement": "O&M order book to be ~40% of total order book",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "R&D investment",
+          "horizon": "ongoing",
+          "statement": "Continue investing a portion of revenues in R&D and technology upgrades",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific PAT or revenue guidance for FY27",
+        "capex outlook for future periods"
+      ],
+      "margin_drivers": [
+        "O&M revenue expansion",
+        "technology-led cost efficiencies",
+        "asset-light model",
+        "recurring annuity contracts",
+        "R&D and digitization"
+      ]
+    },
+    "M & B Engineer.": {
+      "company": "M & B Engineer.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=133864d2-3d8a-4d5d-aca7-d5a0b6bbcaf8.pdf",
+      "transcript_id": "m-b-engineer_2026-06-01",
+      "provider": "groq",
+      "generated_at": "2026-06-25T05:49:54.964Z",
+      "summary": "M&B Engineering expects 25% top-line growth in FY27, driven by a strong order book and increasing demand for pre-engineered buildings and self-supported roofing systems.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "25% year-on-year growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "FY27",
+          "statement": "Around INR300 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "No specific guidance due to uncertainty",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Around INR100 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "20%-25% growth in Phenix and 17.25 lakhs square meters in Proflex",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA margin for FY27"
+      ],
+      "margin_drivers": [
+        "Export incentives",
+        "Operating other income"
+      ]
+    },
+    "Hitachi Energy": {
+      "company": "Hitachi Energy",
+      "ticker": "POWERINDIA",
+      "sector": "Industrials",
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eaaedf53-be58-4291-950d-719797c5f5b1.pdf",
+      "transcript_id": "hitachi-energy_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-25T05:50:03.141Z",
+      "summary": "Management expects robust multi-year growth driven by energy transition, grid expansion, and data center demand, with capacity expansion and AI initiatives supporting margin resilience.",
+      "guidance": [
+        {
+          "metric": "Order book",
+          "horizon": "medium-term",
+          "statement": "Strong order backlog of Rs 29,555 crores provides revenue visibility for several quarters going forward.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY28",
+          "statement": "Additional investment of Rs 2,000 crores approved for a greenfield large power transformer facility in Karjan, Vadodara, to be completed by Q4 CY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term",
+          "statement": "Robust demand outlook supported by energy transition, grid expansion, and increasing electrification.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin resilience",
+          "horizon": "medium-term",
+          "statement": "Focus on operational efficiency and margin improvement despite geopolitical and supply chain challenges.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "AI acceleration",
+          "horizon": "medium-term",
+          "statement": "Kick-started AI Nexus program to harness data analytics and AI for smarter decisions and better outcomes.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Service business",
+          "horizon": "medium-term",
+          "statement": "Strengthening the service business in India to ensure continuity and resilience of energy systems.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export strategy",
+          "horizon": "medium-term",
+          "statement": "Export strategy includes allocated markets, global feeder factories, and component manufacturing for worldwide sales.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "HVDC transformers",
+          "horizon": "FY28",
+          "statement": "New transformer facility will manufacture large power transformers and HVDC converter transformers.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Data center demand",
+          "horizon": "medium-term",
+          "statement": "Strong pipeline in data centers and renewable segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Transmission investments",
+          "horizon": "medium-term",
+          "statement": "Significant investments expected across transmission, distribution, and grid infrastructure.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Industrial capex cycle",
+          "horizon": "medium-term",
+          "statement": "Visible industrial capex cycle expected to support growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV penetration",
+          "horizon": "medium-term",
+          "statement": "Early-stage but accelerating EV penetration to drive demand.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or order inflow numbers",
+        "HVDC revenue mix for future periods",
+        "Base order inflow (excluding HVDC and services) for FY27"
+      ],
+      "margin_drivers": [
+        "Operational efficiency",
+        "Product mix",
+        "AI and digital innovation",
+        "Cost management",
+        "Service business growth"
+      ]
+    },
+    "Ecos (India)": {
+      "company": "Ecos (India)",
+      "ticker": "ECOSMOBLTY",
+      "sector": "Services",
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c3e3af8-1fdf-43ac-a0b3-0a9e084d0a8b.pdf",
+      "transcript_id": "ecos-india_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-25T05:50:10.551Z",
+      "summary": "Management expects mid-teens revenue growth in FY27 with improving EBITDA margins driven by operating leverage and cost discipline, despite competitive pressures.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Management expects revenue growth of 18% to 20% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Management expects EBITDA margin to be in the range of 11% to 13% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost growth",
+          "horizon": "FY27",
+          "statement": "Management expects employee cost growth of 13% to 16% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Other expenses growth",
+          "horizon": "FY27",
+          "statement": "Management expects other expenses growth of 8% to 9% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue split (ETS vs CCR)",
+          "horizon": "FY27",
+          "statement": "Management expects ETS to contribute 58% and CCR 42% of total revenue in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "New client contribution to growth",
+          "horizon": "FY27",
+          "statement": "Management expects 60% to 65% of revenue growth to come from new client acquisitions in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Organic wallet share growth",
+          "horizon": "FY27",
+          "statement": "Management expects organic wallet share growth from existing clients to contribute 35% to 40% of revenue growth in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fuel cost pass-through",
+          "horizon": "FY27",
+          "statement": "Management expects most fuel cost increases to be passed through to clients, with minimal margin impact.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EVs in fleet",
+          "horizon": "medium-term",
+          "statement": "Management is cautiously ramping up EV fleet but will accelerate investments only if vehicle maturity and charging infrastructure improve.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "next 3 years",
+          "statement": "Management expects capex trend to continue at current levels unless EV investments accelerate.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Client retention",
+          "horizon": "FY27",
+          "statement": "Management expects minimal churn among top 200 clients (2% to 3%) in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Recovery of doubtful debt",
+          "horizon": "FY27",
+          "statement": "Management expects recovery of INR80 million provision in FY27 or FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "dividend policy",
+        "detailed breakdown of capex allocation by segment",
+        "specific targets for EV fleet penetration"
+      ],
+      "margin_drivers": [
+        "operating leverage from improved utilization",
+        "pass-through of fuel cost increases",
+        "reduction in manpower cost growth (13%-16% vs higher prior year)",
+        "recovery of one-time provisions (INR80 million)",
+        "client retention and wallet share expansion",
+        "technology-led efficiency improvements"
+      ]
+    },
+    "Indo Count Inds.": {
+      "company": "Indo Count Inds.",
+      "ticker": "ICIL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51a66ab3-c65a-4586-9d58-1b325a28f5c7.pdf",
+      "transcript_id": "indo-count-inds_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-25T05:50:19.074Z",
+      "summary": "Management expects FY27 to be a record year with strong revenue growth, margin expansion, and volume recovery, driven by new business scaling and core business normalization.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Target consolidated revenue of ~INR5,500 crores, implying >30% growth vs FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Target volumes of 105-110 million meters vs 94 million meters in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Target EBITDA margin of ~13% vs 11% in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New business revenue",
+          "horizon": "FY27",
+          "statement": "New business revenue to nearly double from INR792 crores in FY26 to ~INR1,500 crores in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-U.S. core business revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect non-U.S. revenues to grow by 20% in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "U.S. utility bedding utilization",
+          "horizon": "FY27",
+          "statement": "Target 60-65% utilization across all 3 U.S. utility bedding facilities",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA breakeven for new business",
+          "horizon": "FY27",
+          "statement": "New utility bedding business to turn EBITDA positive in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Core business EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Core business expected to achieve ~15% EBITDA margin in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Next 12-18 months",
+          "statement": "Plan capex outlay of INR250 crores, funded 75% by internal accruals and 25% by debt",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue target for 2028",
+          "horizon": "2028",
+          "statement": "Maintain target to double revenues vs FY25 by 2028",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "U.S. tariff normalization",
+          "horizon": "FY27",
+          "statement": "Expect normalization of U.S. trade environment and tariff overhang easing in FY27",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material cost impact",
+          "horizon": "FY27",
+          "statement": "Acknowledged global input cost increases (cotton, yarn, energy) but expect to reprice contracts to offset",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "specific impact of raw material cost increases on margins in rupee terms",
+        "Q4 FY27 margin trajectory beyond FY27 guidance"
+      ],
+      "margin_drivers": [
+        "operating leverage from volume growth",
+        "revenue diversification (new business scaling)",
+        "utilization improvement in U.S. assets",
+        "normalization of U.S. tariff environment",
+        "product mix shift to value-added offerings",
+        "cost optimization and efficiency improvements"
+      ]
     }
   },
-  "generated_at": "2026-06-25T01:37:05.088Z",
-  "count": 192
+  "generated_at": "2026-06-25T05:50:20.603Z",
+  "count": 199
 }
