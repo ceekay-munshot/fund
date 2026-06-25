@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-25T11:07:59.049Z",
+  "generated_at": "2026-06-25T13:35:52.538Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 165,
-    "gained": 250,
-    "consistent": 452,
-    "companies_evaluated": 667
+    "dropped": 166,
+    "gained": 251,
+    "consistent": 454,
+    "companies_evaluated": 673
   },
   "dropped": [
     {
@@ -731,6 +731,17 @@
       "sector": "Industrials",
       "latest_call_date": "2026-06-02",
       "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 2,
+      "tier": "medium"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Veranda Learning",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-01",
+      "last_seen_date": "2025-10-01",
       "prior_calls_attended": 2,
       "tier": "medium"
     },
@@ -3736,6 +3747,14 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-03-01"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "OCCL",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-02-01"
     },
     {
       "fund_id": "sapphire",
