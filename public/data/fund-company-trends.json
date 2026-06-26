@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-26T11:30:48.188Z",
+  "generated_at": "2026-06-26T13:44:18.650Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 197,
-    "gained": 288,
-    "consistent": 474,
-    "companies_evaluated": 781
+    "dropped": 199,
+    "gained": 289,
+    "consistent": 476,
+    "companies_evaluated": 786
   },
   "dropped": [
     {
@@ -17,6 +17,17 @@
       "latest_call_date": "2026-05-27",
       "last_seen_date": "2026-05-01",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Nitin Spinners",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-18",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -1258,6 +1269,17 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-05-14",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 2,
+      "tier": "medium"
+    },
+    {
+      "fund_id": "alfaccurate",
+      "fund_name": "AlfAccurate Advisors",
+      "company": "Balkrishna Inds",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 2,
       "tier": "medium"
@@ -2712,6 +2734,14 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-05-06"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Ratnaveer Precis",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "aequitas",
