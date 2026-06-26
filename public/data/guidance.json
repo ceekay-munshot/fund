@@ -25407,8 +25407,715 @@
         "workforce formalization and compliance under new labor codes (IFM)",
         "outcome-based contracts and measurable performance metrics (IFM)"
       ]
+    },
+    "Foods & Inns": {
+      "company": "Foods & Inns",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-04",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00ba0e98-dead-4a28-a279-3b3eb6fc95a1.pdf",
+      "transcript_id": "foods-inns_2026-06-04",
+      "provider": "groq",
+      "generated_at": "2026-06-26T00:21:44.823Z",
+      "summary": "Foods and Inns expects 18% volume growth in FY27, driven by frozen foods and new packaging solutions, with a focus on expanding value-added businesses and improving export competitiveness.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expecting 18% volume growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Frozen foods growth",
+          "horizon": "Medium-term",
+          "statement": "Expecting significant growth, driven by increasing demand from the US market",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tetra Recart business",
+          "horizon": "FY27",
+          "statement": "Expecting around INR20 crores business, with confirmed orders valued at INR8 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Spray-drying capacity expansion",
+          "horizon": "December, FY27",
+          "statement": "Commercial production expected to start, with 3 months benefit in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA margin",
+        "PAT",
+        "Capex"
+      ],
+      "margin_drivers": [
+        "Volume growth",
+        "Improving export competitiveness",
+        "Expanding value-added businesses"
+      ]
+    },
+    "JM Financial": {
+      "company": "JM Financial",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-04",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc758c6c-55df-4571-b8fc-e3aa3e8102c5.pdf",
+      "transcript_id": "jm-financial_2026-06-04",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T00:21:54.342Z",
+      "summary": "Management expects steady growth across core fee-based businesses with improved profitability over the next 2 years, despite near-term volatility in capital markets.",
+      "guidance": [
+        {
+          "metric": "IPO pipeline execution",
+          "horizon": "FY27",
+          "statement": "Second half of FY27 expected to be better than first half for IPO execution due to improved market conditions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Private Markets recovery",
+          "horizon": "FY27",
+          "statement": "Targeting INR250-300 crores of further recovery in FY27, aligning with prior guidance for FY26-FY28.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Private Markets loan book growth",
+          "horizon": "FY27",
+          "statement": "Loan book expected to grow at 15-20% year-on-year, reaching INR4,000-5,000 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Private Markets business model shift",
+          "horizon": "medium-term",
+          "statement": "Evolving toward a fee-based, syndication-led model with a target debt-equity ratio of 2:1 to 3:1.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Wealth Management productivity gains",
+          "horizon": "FY27",
+          "statement": "Productivity improvements expected to kick in over the next 3-6 months, enhancing recurring AUM and fees.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Wealth Management digital investment reduction",
+          "horizon": "FY27",
+          "statement": "Digital investments (e.g., BlinkX) to be trimmed significantly over the next 3-6 months, with savings visible in the next quarter.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Affordable Home Loans AUM growth",
+          "horizon": "FY27",
+          "statement": "Targeting 25% year-on-year AUM growth in the affordable home loans segment.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Affordable Home Loans IPO timeline",
+          "horizon": "2028-29",
+          "statement": "Planning to IPO the Affordable Home Loans business by 2028-29.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Corporate Advisory and Capital Markets revenue growth",
+          "horizon": "2-year horizon",
+          "statement": "Expecting to double the Corporate Advisory and Capital Markets business every 4-5 years from a peak-to-peak perspective.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset Management AIF fund raises",
+          "horizon": "FY27",
+          "statement": "Expecting to close the first pre-IPO fund at over INR1,000 crores and launch a PE fund with a similar target.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Group revenue growth",
+          "horizon": "2-year horizon",
+          "statement": "Targeting 15% revenue growth and 15% ROE at the end of the investment cycle for core businesses.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capital allocation for growth",
+          "horizon": "medium-term",
+          "statement": "Profits from CACM and Private Markets will fund growth in Wealth Management, Asset Management, and Affordable Home Loans.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "FPI flows and market timing for IPO execution",
+        "Specific quarterly revenue or PAT targets for FY27"
+      ],
+      "margin_drivers": [
+        "Shift to fee-based revenue in Private Markets",
+        "Productivity improvements in Wealth Management",
+        "Digital cost optimization",
+        "Syndication-led model in Private Markets",
+        "AUM growth in Affordable Home Loans"
+      ]
+    },
+    "Interglobe Aviat": {
+      "company": "Interglobe Aviat",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-04",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf",
+      "transcript_id": "interglobe-aviat_2026-06-04",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T00:22:02.269Z",
+      "summary": "IndiGo expects mid-teens unit revenue growth in Q1FY27 but faces elevated costs from fuel prices and rupee depreciation, while optimizing capacity and fleet mix.",
+      "guidance": [
+        {
+          "metric": "Capacity growth",
+          "horizon": "Q1FY27",
+          "statement": "Expecting to add capacity of around 3-4% in Q1FY27 as compared to the same period last year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Unit passenger revenue (PRASK)",
+          "horizon": "Q1FY27",
+          "statement": "Estimating a mid-teens improvement in unit passenger revenue in Q1FY27 vs Q1FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Load factors",
+          "horizon": "Q1FY27",
+          "statement": "Load factors improving in May after softness in April, with demand described as good for May.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Fleet strategy",
+          "horizon": "near-term",
+          "statement": "Planning to return most damp-leased aircraft due to higher costs and older technology, and phase out older-generation aircraft.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "International capacity (Middle East)",
+          "horizon": "Q2FY27",
+          "statement": "Capacity in the Middle East expected to recover to two-thirds of pre-crisis levels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fuel cost recovery",
+          "horizon": "Q1FY27",
+          "statement": "Attempting to pass on fuel cost increases through fuel charges and revenue management, but not fully offsetting elevated fuel prices.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AOG situation (Pratt & Whitney)",
+          "horizon": "end of FY26",
+          "statement": "Pratt and Whitney-related groundings expected to trend downwards to the 30s by the end of the year.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Widebody ACMI partner optimization",
+          "horizon": "near-term",
+          "statement": "In discussions with widebody ACMI partner to optimize long-haul operations due to airspace restrictions and elevated fuel costs.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity optimization",
+          "horizon": "Q2FY27",
+          "statement": "Adopting a measured approach to optimize capacity from mid-June onwards, including selective recalibration of routes and reducing usage of older-generation aircraft.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Domestic vs international mix",
+          "horizon": "Q1FY27",
+          "statement": "Q1FY27 expected to be more domestic-heavy due to seasonality, with international capacity (especially Middle East) ramping up in Q2.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Utilization rates",
+          "horizon": "Q1FY27",
+          "statement": "Utilization impacted by capacity cuts in the Middle East, with redeployment into domestic routes.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Long-term strategy execution",
+          "horizon": "long-term",
+          "statement": "Committed to disciplined execution of long-term strategy, focusing on scale with discipline, balance-sheet strength, and selective investments.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Future foreign exchange impact",
+        "Specific dividend policy for FY27",
+        "OEM guidance beyond Pratt & Whitney AOG situation"
+      ],
+      "margin_drivers": [
+        "Fuel prices",
+        "Rupee depreciation",
+        "Airspace restrictions",
+        "Damp-leased aircraft costs",
+        "Older-generation aircraft fuel efficiency",
+        "Annual contractual escalations (airport charges, maintenance)"
+      ]
+    },
+    "Singer India": {
+      "company": "Singer India",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78ccde6c-0e1d-430f-aedf-2501232b339c.pdf",
+      "transcript_id": "singer-india_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T00:22:17.324Z",
+      "summary": "Management expects sustained growth in sewing machines driven by market share gains and new product launches, while appliances segment recovery is contingent on normalcy in demand and supply chain.",
+      "guidance": [
+        {
+          "metric": "Revenue growth (Sewing Machines)",
+          "horizon": "FY27",
+          "statement": "Management expects to maintain current growth momentum in sewing machines, driven by market share gains across channels.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (Appliances)",
+          "horizon": "FY27",
+          "statement": "Management is confident about appliances segment recovery, expecting profitability in the coming year if conditions normalize.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government contract execution",
+          "horizon": "H2FY27",
+          "statement": "Balance of government orders (40%) expected to be completed before the beginning of H2FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex (ZigZag manufacturing facility)",
+          "horizon": "3 years",
+          "statement": "Total capex over 3 years for new ZigZag facility expected to be up to Rs. 90 crores, with phased implementation.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fan Business growth",
+          "horizon": "Q1FY27",
+          "statement": "Fan business grew 50% in Q4FY26; management expects continued traction but does not commit to profitability in Q1FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "E-commerce growth (Sewing Machines)",
+          "horizon": "FY27",
+          "statement": "E-commerce business in sewing machines continues to perform strongly with over 50% growth in Q4FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Industrial sewing machines growth",
+          "horizon": "FY27",
+          "statement": "Industrial sewing machines grew over 20% in FY26; management sees significant long-term opportunity in this category.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ZigZag machines growth",
+          "horizon": "FY27",
+          "statement": "ZigZag machines grew over 30% in Q4FY26; management expects continued strong performance with new India-made products.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Business mix (Sewing Machines vs Appliances)",
+          "horizon": "FY27",
+          "statement": "No dramatic shift expected in business mix; sewing machines to remain 75-80% and appliances 20-25% of revenue.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Raw material price absorption",
+          "horizon": "FY27",
+          "statement": "Fixed-price government contracts prevent passing on raw material price increases, requiring absorption of cost pressures.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "New product launches (Appliances)",
+          "horizon": "FY27",
+          "statement": "Multiple new products in appliances (e.g., Steaminator, Exhaust Fans) gaining traction; more listings planned to drive growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Experience Centers expansion",
+          "horizon": "FY27",
+          "statement": "Experience Centers will continue to expand as brand-building initiatives.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Promoter exit discussions",
+        "Second PMY order timeline beyond current execution",
+        "Raw material price inflation impact on margins",
+        "Specific profitability targets for appliances segment"
+      ],
+      "margin_drivers": [
+        "New product launches in sewing machines (ZigZag, Tailor Mate)",
+        "E-commerce growth in sewing machines",
+        "Government contract execution",
+        "Fan business growth",
+        "Dealer engagement and service improvements (Live Assist)",
+        "Make-in-India manufacturing shift"
+      ]
+    },
+    "RHI Magnesita": {
+      "company": "RHI Magnesita",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db5163a7-feec-42c4-af28-ae9e983d0ece.pdf",
+      "transcript_id": "rhi-magnesita_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T00:22:24.609Z",
+      "summary": "Management expects FY27 to deliver growth outperformance, margin recovery, and improved cash flows driven by price increases, cost optimization, and new industrial segments.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Outperform market growth by 2% in volume terms",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Target 13% EBITDA margin for the full year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q1FY27",
+          "statement": "Q1 expected to be a strong quarter for margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Price increases",
+          "horizon": "FY27",
+          "statement": "Progressive implementation of price increases across selected products and customer segments",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost optimization",
+          "horizon": "FY27",
+          "statement": "Continued cost optimization through recipes, recycling, and strategic sourcing programs",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Fixed cost absorption",
+          "horizon": "FY27",
+          "statement": "Improved fixed cost absorption supported by stronger coke oven projects order book",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "18 months",
+          "statement": "Strong order book secured for the next 18 months, including one of the largest coke oven projects",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Coke oven projects",
+          "horizon": "3-4 years",
+          "statement": "Expect to secure 2 more coke oven projects out of 5 upcoming in the next 2-3 years, ensuring continuous high-level production",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Volume growth of 9% if market grows by 6-7%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned capex of INR 150 crores, with maintenance capex of INR 40-50 crores",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "4PRO platform penetration",
+          "horizon": "FY27",
+          "statement": "Greater penetration of 4PRO platform enabling high value-added solutions and improved realizations",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New industrial segments",
+          "horizon": "FY27",
+          "statement": "Expansion into new industrial segments including petrochemicals following RESCO acquisition",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "future restructuring plans beyond current completion",
+        "detailed breakdown of revenue/margins for Dalmia assets post-FY26",
+        "specific leverage targets beyond current net cash position"
+      ],
+      "margin_drivers": [
+        "price increases",
+        "cost optimization (recipes, recycling, strategic sourcing)",
+        "fixed cost absorption (coke oven projects)",
+        "4PRO platform penetration",
+        "new industrial segments (petrochemicals)",
+        "automation and robotics deployment"
+      ]
+    },
+    "Hikal": {
+      "company": "Hikal",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f23c3f14-a68a-4b55-935a-914cd0c15692.pdf",
+      "transcript_id": "hikal_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T00:22:32.659Z",
+      "summary": "Management expects sustainable growth and margin improvement driven by strategic investments, diversified segments, and improving industry demand over medium to long term.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect FY27 to be a stronger and more positive year compared to FY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect FY27 margins to sustain at improved levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "DMF filings",
+          "horizon": "annual",
+          "statement": "Targeting 5 to 6 DMF filings annually compared to 2 to 3 historically",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "HPAPI manufacturing facility",
+          "horizon": "FY28",
+          "statement": "Planned HPAPI manufacturing facility in Pune targeted for FY28",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Pharma CDMO revenue visibility",
+          "horizon": "medium-term",
+          "statement": "Several programs advancing from early-stage development to scale-up phases, significantly improving medium-term revenue visibility",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Animal Health business scale",
+          "horizon": "medium-term",
+          "statement": "Expect Animal Health business to scale meaningfully over the next several years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Crop Protection margins",
+          "horizon": "FY27",
+          "statement": "Higher volume absorptions and improved realization will contribute positively to operating leverage and margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Crop Protection contract manufacturing engagements",
+          "horizon": "medium-term",
+          "statement": "Actively progressing deep contract manufacturing engagements, co-development R&D projects, and long-term supply agreements with global innovators",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty Chemicals and Personal Care segment revenue",
+          "horizon": "coming years",
+          "statement": "Expect to progress in Specialty Chemicals and Personal Care segments over the coming years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pharma product launches in Japan and Brazil",
+          "horizon": "FY27 and FY28",
+          "statement": "Key product launches in Japan and Brazil are planned for FY27 and FY28",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material price pass-through",
+          "horizon": "Q1FY27",
+          "statement": "Expect customer-supported price pass-through mechanisms to partially offset near-term raw material cost pressures",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Debt-to-equity ratio",
+          "horizon": "medium-term",
+          "statement": "Capital allocation prioritizes high ROI projects to maintain fiscal agility for long-term expansion plans",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or EBITDA margin targets",
+        "FY27 capital expenditure guidance",
+        "FY27 order book size"
+      ],
+      "margin_drivers": [
+        "product mix improvement",
+        "operational leverage through better utilization",
+        "higher-value Specialty Chemicals and Personal Care segments",
+        "contract manufacturing engagements in Crop Protection",
+        "Animal Health CDMO commercialization",
+        "strategic technology investments in complex chemistries",
+        "raw material price pass-through mechanisms"
+      ]
+    },
+    "Steel Exchange": {
+      "company": "Steel Exchange",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c08302c2-7243-40f3-99b2-0f8b363bef83.pdf",
+      "transcript_id": "steel-exchange_2026-06-03",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T00:22:41.418Z",
+      "summary": "Steel Exchange expects strong growth in FY27 driven by capacity expansion, strategic investments, and improved operational efficiencies, with potential debt reduction and margin expansion.",
+      "guidance": [
+        {
+          "metric": "Production capacity",
+          "horizon": "FY27",
+          "statement": "Production capacities will be ramped up drastically, likely doubling from current levels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Volumes are expected to double starting from the next quarter onwards.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "EBITDA per ton is expected to remain in the same range as FY26 (INR6,800-INR7,000 average).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "FY27",
+          "statement": "Debt is expected to reduce to negligible levels, potentially making the company debt-free.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Finance cost",
+          "horizon": "FY27",
+          "statement": "Finance cost is expected to reduce to around INR11-INR12 crores per quarter, down from current levels.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Raw material sourcing",
+          "horizon": "FY27",
+          "statement": "IMR Group's investment will secure raw material sourcing globally and enable green steel manufacturing.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Logistics park",
+          "horizon": "medium-term",
+          "statement": "The logistics park in Vizag is expected to enhance EBITDAs and support strategic acquisitions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Green steel manufacturing",
+          "horizon": "medium-term",
+          "statement": "The company plans to announce initiatives for green steel manufacturing as part of future growth.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Land bank expansion",
+          "horizon": "medium-term",
+          "statement": "The company aims to expand its land bank to 650-700 acres for manufacturing and logistics.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "1 million ton green steel plant",
+          "horizon": "medium-term",
+          "statement": "The company has entered MOUs for a 1 million ton green steel plant as part of future investments.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Trading operations expansion",
+          "horizon": "FY27",
+          "statement": "The company plans to expand trading operations by acquiring conversion units in other states.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export markets",
+          "horizon": "FY27",
+          "statement": "With IMR Group's global presence, the company expects to export large quantities of steel to European and other markets.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operational efficiencies",
+        "Raw material sourcing",
+        "Capacity expansion",
+        "Debt reduction",
+        "Green steel manufacturing",
+        "Logistics park development"
+      ]
     }
   },
-  "generated_at": "2026-06-25T23:03:11.583Z",
-  "count": 248
+  "generated_at": "2026-06-26T00:22:42.945Z",
+  "count": 255
 }
