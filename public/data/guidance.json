@@ -26817,8 +26817,723 @@
         "tariff normalization and FTAs",
         "geopolitical stability in Middle East"
       ]
+    },
+    "Amber Enterp.": {
+      "company": "Amber Enterp.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-25",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e758d7f3-9942-4baf-b20b-0e80b2d6971a.pdf",
+      "transcript_id": "amber-enterp_2026-06-25",
+      "provider": "groq",
+      "generated_at": "2026-06-26T08:34:41.696Z",
+      "summary": "Amber Enterprises expects to commence trial production of mobile phones in Q4 FY27 and commercial production in Q1 FY28, with a target of 8 million units in the first year and 13-15 million units in the second year.",
+      "guidance": [
+        {
+          "metric": "Volume",
+          "horizon": "FY28",
+          "statement": "Target of 8 million units in the first year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY29",
+          "statement": "Target of 13-15 million units in the second year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Short-term",
+          "statement": "Minimal capex requirements to start with, below INR50 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Medium-term",
+          "statement": "Returns will be in line with industry standards, with margin improvement anticipated as operating scale and local value addition increase",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Local value addition",
+          "horizon": "5-6 years",
+          "statement": "Target to increase local value addition to 30-35%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "Medium-term",
+          "statement": "Expect ROCE of more than 30-35% on a standalone basis",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "PLI structure"
+      ],
+      "margin_drivers": [
+        "Operating scale",
+        "Local value addition",
+        "Component business"
+      ]
+    },
+    "Aarti Drugs": {
+      "company": "Aarti Drugs",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-23",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d1723fb-ae4d-49db-9672-de5fd77bdbde.pdf",
+      "transcript_id": "aarti-drugs_2026-06-23",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T08:34:50.406Z",
+      "summary": "Management expects improved operational leverage, margin expansion, and volume growth driven by backward integration, regulated market expansion, and formulation scale-up, though antibiotic pricing remains a risk.",
+      "guidance": [
+        {
+          "metric": "Methylamine plant utilization (Sayakha)",
+          "horizon": "FY27",
+          "statement": "Target utilization of 70%+ within a year from current ramp-up phase.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Internal target of 10% to 15% volume growth, with 8% to 10% considered achievable in near term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Realization variance (pricing)",
+          "horizon": "short-term",
+          "statement": "Positive realization variance expected due to elevated crude prices and regulated market contribution growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin improvement",
+          "horizon": "FY27",
+          "statement": "Target of at least 100 basis points improvement in gross contribution margins due to utilization ramp-up and cost efficiencies.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Regulated market contribution",
+          "horizon": "12-18 months",
+          "statement": "Increased flow from US FDA-approved plants and European CEP-approved products expected within 12-18 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Formulation revenue run rate",
+          "horizon": "FY27",
+          "statement": "Current INR90 crore quarterly run rate considered maintainable in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Formulation business scale",
+          "horizon": "3-5 years",
+          "statement": "Target to grow formulation business to INR1,000 crore in the next 3-5 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex plan",
+          "horizon": "next 2-3 years",
+          "statement": "Planned capex of INR300-400 crore, primarily for brownfield/quasi-greenfield expansions to enhance existing capabilities.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Metformin backward integration",
+          "horizon": "FY27",
+          "statement": "US FDA approval for metformin expected post ramp-up, with cost competitiveness improving due to backward integration.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Salicylic acid restart",
+          "horizon": "near-term",
+          "statement": "Production restart planned after equipment installation and cost optimization, with forward integration into derivatives to follow.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Antidumping duty application",
+          "horizon": "ongoing",
+          "statement": "Application for salicylic acid antidumping duty is in process and ongoing.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Gross margin stability",
+          "horizon": "FY27",
+          "statement": "No significant movement expected in gross margins; stabilization at current levels targeted.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Backward integration (methylamine, metformin)",
+        "Regulated market contribution growth (US/EU)",
+        "Formulation export growth (non-oncology)",
+        "Energy efficiency and process optimization",
+        "Cost reduction through alternate sourcing",
+        "Utilization ramp-up in new facilities"
+      ]
+    },
+    "Biocon": {
+      "company": "Biocon",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6697876b-b9de-4a2f-aad9-1b7918f96bad.pdf",
+      "transcript_id": "biocon_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T08:35:15.679Z",
+      "summary": "Biocon expects progressive performance improvement in FY27 driven by biosimilars launches, operating leverage, and deleveraging, with full-year benefits visible from FY27.",
+      "guidance": [
+        {
+          "metric": "Biosimilars revenue growth",
+          "horizon": "FY27-FY28",
+          "statement": "Recent launches in biosimilars are beginning to scale, supporting continued growth and operating leverage, with ramp-up expected in the second half of FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Biosimilars EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins in biosimilars segment are expected to improve further due to revenue mix and operating leverage benefits.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Generics profitability",
+          "horizon": "FY27",
+          "statement": "Focus will be on improving profitability as newer assets stabilize and utilization improves.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CRDMO (Syngene) performance",
+          "horizon": "FY27",
+          "statement": "Focus remains on execution and translating recent investments into more stable performance.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CRDMO EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Operating EBITDA margin for CRDMO is expected to be in line with revised full-year guidance.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net debt",
+          "horizon": "FY27",
+          "statement": "Net debt is expected to hover between $1.1 billion to $1.2 billion, with free cash flow primarily used for deleveraging.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Interest cost savings",
+          "horizon": "FY27",
+          "statement": "Annualized interest cost savings of INR300 crores are expected, with INR70-75 crores per quarter reflected in the P&L.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "U.S. biosimilars launches",
+          "horizon": "FY27",
+          "statement": "Aspart (insulin aspart) ramp-up expected in the second half of FY27, with meaningful market share gains.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "U.S. aflibercept (Yesafili) launch",
+          "horizon": "H2 FY27",
+          "statement": "Biosimilar aflibercept (Yesafili) launch in the U.S. expected in the second half of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D investment",
+          "horizon": "FY27",
+          "statement": "R&D investments are expected to remain at ~7% of revenues, reaffirming commitment to innovation and pipeline advancement.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Advanced markets vs. emerging markets revenue split",
+          "horizon": "FY27",
+          "statement": "Revenue distribution expected to remain roughly 75%-25% between advanced markets and emerging markets.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Syngene audits and compliance",
+          "horizon": "FY27",
+          "statement": "Syngene aims to maintain high audit and compliance standards, with 85 audits completed in FY26 and GCP NABL accreditation obtained.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue/EBITDA/PAT numbers",
+        "FY28 revenue/EBITDA/PAT numbers",
+        "CRDMO revenue growth in FY27"
+      ],
+      "margin_drivers": [
+        "operating leverage",
+        "revenue mix",
+        "utilization improvement",
+        "interest cost savings",
+        "portfolio scaling"
+      ]
+    },
+    "Gujarat Fluoroch": {
+      "company": "Gujarat Fluoroch",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=037ba3fe-59c4-4ff6-8db3-65d0698d79b0.pdf",
+      "transcript_id": "gujarat-fluoroch_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T08:35:25.429Z",
+      "summary": "Management expects sustained growth in fluoropolymers and battery materials, with significant capex planned for FY27 to expand capacities and achieve long-term margin targets.",
+      "guidance": [
+        {
+          "metric": "Fluoropolymers revenue growth",
+          "horizon": "FY27",
+          "statement": "Expects 15-20% revenue growth year-on-year in fluoropolymers segment",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fluoropolymers capex",
+          "horizon": "FY27",
+          "statement": "Plans INR250 crores capex for new fluoropolymer capacities",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Refrigerant gas (R-32) capacity",
+          "horizon": "FY27",
+          "statement": "Plans INR150 crores capex to expand R-32 capacity to 20,000 tons",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Electronic specialty chemicals (semiconductor)",
+          "horizon": "FY27",
+          "statement": "Plans INR222 crores capex for new high-purity electronic specialty chemicals for semiconductor sector",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery materials revenue potential",
+          "horizon": "Medium-term",
+          "statement": "Expects 2x asset turnover and EBITDA margins of over 25% for battery materials portfolio",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery materials cumulative capex",
+          "horizon": "FY28",
+          "statement": "Committed to INR6,000 crores cumulative capex by FY28 across battery materials portfolio",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery materials revenue ramp-up",
+          "horizon": "FY27-FY29",
+          "statement": "Full earnings potential of battery materials investments expected to be realized by FY29 as facilities ramp up and achieve optimum utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery materials (LiPF6) commercial sales",
+          "horizon": "FY27",
+          "statement": "Commercial sales of LiPF6 scaling up in line with plans, with orders in place for FY27 and beyond",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery materials (LFP cathode) qualification",
+          "horizon": "Q3FY27",
+          "statement": "Final qualification for LFP cathode expected by end of Q3FY27, followed by commercial supply",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery materials (natural graphite anode) capex",
+          "horizon": "FY27",
+          "statement": "Plans capex for natural graphite anode active material facility as part of next phase of growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bulk chemicals (caustic soda) demand outlook",
+          "horizon": "FY27",
+          "statement": "Demand outlook for caustic soda expected to remain stable in FY27 with range-bound pricing",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Fluoromethane business performance",
+          "horizon": "Near-term",
+          "statement": "Performance expected to remain range-bound amid moderate demand conditions and competitive dynamics",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Customer-specific contract details (take-or-pay terms, pricing, or customer names)",
+        "Breakdown of fluoropolymers growth between PTFE and new fluoropolymers"
+      ],
+      "margin_drivers": [
+        "Value-added specialty grades in fluoropolymers",
+        "High-purity electronic specialty chemicals for semiconductor sector",
+        "LiPF6 salt and LFP cathode in battery materials",
+        "Natural graphite anode active material in battery materials",
+        "Energy transition themes (hydrogen, fuel cells, electrolyzers, solar) for fluoropolymers demand",
+        "Global AI/data center demand driving cooling infrastructure and refrigerant gas (R-32) demand"
+      ]
+    },
+    "Mallcom (India)": {
+      "company": "Mallcom (India)",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6dc2a3ac-a1fc-4ad9-8063-16bc087d7ea2.pdf",
+      "transcript_id": "mallcom-india_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T08:35:34.146Z",
+      "summary": "Management expects domestic-led growth with margin recovery in medium-term, contingent on raw material stability and trade policy improvements.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expecting at least 10-12% revenue growth, with domestic market outperforming exports.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Targeting return to pre-investment EBITDA margin levels (historically ~14-15%).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt levels",
+          "horizon": "next 3-4 years",
+          "statement": "Aiming to reduce debt to near-zero levels with cash generation and lower capex.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Raw material prices",
+          "horizon": "near-term",
+          "statement": "Expecting margin recovery once raw material prices stabilize and demand improves.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "U.S. market share",
+          "horizon": "FY27",
+          "statement": "Hoping to regain U.S. market share post-tariff reductions, but timeline uncertain due to trade policy and supply chain shifts.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Domestic market growth",
+          "horizon": "FY27",
+          "statement": "Domestic market growth is sustainable due to formalization of labor sector, BIS regulations, and increased worker awareness.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export market recovery",
+          "horizon": "FY27",
+          "statement": "South America, Australia, Russia, and Middle East markets performing well; Europe and U.S. remain challenging.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "New product margins",
+          "horizon": "near-term",
+          "statement": "New products like PU gloves and PVC gumboots are competitive with imports and maintain company-level margins.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Organized vs. unorganized market share",
+          "horizon": "medium-term",
+          "statement": "Current inflationary environment is favorable for organized players like Mallcom to gain market share from unorganized players.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Labor formalization impact",
+          "horizon": "medium-term",
+          "statement": "Formalization of labor sector is a welcome change and will benefit Mallcom and the industry.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex utilization",
+          "horizon": "FY27",
+          "statement": "New manufacturing units (Sanand, Gujarat and Chandipur, West Bengal) are ramping up utilization and will drive volume-led growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Trade agreements (FTA with Europe/U.S.)",
+          "horizon": "FY27",
+          "statement": "Hoping for FTA with Europe to provide respite; U.S. market recovery depends on trade deal negotiations.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "precise timeline for U.S. market recovery",
+        "exact revenue or EBITDA figures for FY27",
+        "specific capex plans for FY27"
+      ],
+      "margin_drivers": [
+        "raw material price stability",
+        "demand recovery in export markets (U.S., Europe)",
+        "pass-through of cost increases to customers",
+        "new product launches (PU gloves, PVC gumboots)",
+        "formalization of labor sector",
+        "BIS regulations tightening",
+        "organized vs. unorganized market dynamics"
+      ]
+    },
+    "Techera Enginee.": {
+      "company": "Techera Enginee.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/TECHERA_01062026164035_TechEra_Earning_call_transcript.pdf",
+      "transcript_id": "techera-enginee_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T08:35:41.263Z",
+      "summary": "Management expects recovery and growth in FY27 driven by defense/aerospace orders, improved asset utilization, and new customer additions despite FY26 challenges.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Management expects revenue to exceed last year's levels, targeting INR75-80 crores for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Current order book of INR46-47 crores, with INR40 crores to be executed in FY27; additional INR30-40 crores expected by end of FY27 from RFQs in discussion.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue CAGR",
+          "horizon": "3 years",
+          "statement": "Management indicates a conservative 30%-40% year-on-year revenue growth over the next 3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT growth",
+          "horizon": "3 years",
+          "statement": "PAT expected to increase annually due to improved team skill levels and operational leverage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense/Aerospace revenue share",
+          "horizon": "FY27",
+          "statement": "70%-75% of revenue expected from aerospace and defense segments.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "New customer acquisition",
+          "horizon": "FY27",
+          "statement": "Focus on adding 10-15 new customers, with international customer acquisition as a key strategy.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "HAL insourcing projects",
+          "horizon": "next 60 days",
+          "statement": "Expect to add more insourcing capacity and capability for HAL projects within the next 60 days.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Aircraft tooling set completion",
+          "horizon": "September 2026",
+          "statement": "Entire aircraft tooling set for a private aircraft OEM to be completed by end of September 2026.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Air Force certification and orders",
+          "horizon": "2-3 months",
+          "statement": "Certified as authorized vendors for Air Force; expect to start receiving orders and licenses for equipment supply within 2-3 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset utilization",
+          "horizon": "FY27",
+          "statement": "Focus on improving asset utilization and converting opportunities into sustainable growth in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash flow",
+          "horizon": "FY27",
+          "statement": "Management aims to strengthen cash flow in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Profitability",
+          "horizon": "FY27",
+          "statement": "Focus on strengthening profitability in FY27 after capacity investments in FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific details on geopolitical risks or recovery timeline for the lost Turkish Aerospace order",
+        "timeline for potential subsidiary formation for HAL outsourcing projects",
+        "exact EBITDA margin or PAT targets for FY27"
+      ],
+      "margin_drivers": [
+        "improved team skill levels and operational leverage",
+        "increased customer base and order book",
+        "defense and aerospace sector tailwinds",
+        "new customer acquisition, including international clients"
+      ]
+    },
+    "Zuari Industries": {
+      "company": "Zuari Industries",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0aba5d86-72c7-475d-9dea-6a423b143db2.pdf",
+      "transcript_id": "zuari-industries_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T08:35:51.579Z",
+      "summary": "Management expects deleveraging from Dubai project inflows and operational improvements, while sugar/ethanol margins face near-term pressure but long-term optimism remains.",
+      "guidance": [
+        {
+          "metric": "Dubai project inflows",
+          "horizon": "FY26",
+          "statement": "INR800-900 crores expected over next 6 months, primarily in Q2-Q3 FY26, to be used entirely for deleveraging",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Net debt post Dubai inflows",
+          "horizon": "FY26",
+          "statement": "Net debt expected to reduce to INR700-800 crores by FY26 end",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Zuari Infraworld profit from Dubai project",
+          "horizon": "FY26",
+          "statement": "Estimated profit share of INR600+ crores from Dubai project",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Zuari Infraworld Dubai project capex",
+          "horizon": "past",
+          "statement": "Capital invested in Dubai project was INR270-275 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Sugar recovery improvement initiatives",
+          "horizon": "upcoming season",
+          "statement": "Multi-year varietal replacement program (238 variety) and farmer education initiatives to improve recovery rates",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Ethanol price revision expectation",
+          "horizon": "near-term",
+          "statement": "Expectation of ethanol price revision from government, long overdue per industry representations",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Sugar price stability",
+          "horizon": "near-term",
+          "statement": "Sugar prices expected to remain stable due to closing stocks of ~5.6 million tons (2 months of consumption)",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Zuari Finserv scaling priorities",
+          "horizon": "medium-term",
+          "statement": "Expansion of customer base in financial product distribution leveraging technology and offering a range of instruments",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Zuari Insurance Brokers growth strategy",
+          "horizon": "medium-term",
+          "statement": "Growth in both corporate and non-corporate insurance segments, leveraging North India market opportunities",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Zuari Finserv tech platform implementation",
+          "horizon": "ongoing",
+          "statement": "Implementation of new tech platform to distribute financial products",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Goa land bank monetization",
+          "horizon": "future",
+          "statement": "No monetization expected from Goa land banks in future plans due to political and regulatory challenges",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "OMC ethanol tender expectations",
+          "horizon": "coming quarters",
+          "statement": "Expectation of OMC tenders (second and third rounds) to materialize in coming quarters to support ethanol business",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Zuari group's overall performance outlook beyond operational updates",
+        "Texmaco Rail's future financials or share price trajectory",
+        "Delhi project details from Texmaco Infra Holdings"
+      ],
+      "margin_drivers": [
+        "ethanol price revision",
+        "sugar recovery rates",
+        "input price trends in sugar business",
+        "stagnant ethanol prices",
+        "operational efficiencies in sugar division"
+      ]
     }
   },
-  "generated_at": "2026-06-26T04:55:21.776Z",
-  "count": 262
+  "generated_at": "2026-06-26T08:35:53.105Z",
+  "count": 269
 }
