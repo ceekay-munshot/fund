@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-26T00:04:03.305Z",
+  "generated_at": "2026-06-26T04:24:28.506Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 178,
-    "gained": 261,
-    "consistent": 460,
-    "companies_evaluated": 728
+    "dropped": 182,
+    "gained": 268,
+    "consistent": 462,
+    "companies_evaluated": 745
   },
   "dropped": [
     {
@@ -169,6 +169,17 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-05-28",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "vallum",
+      "fund_name": "Vallum Capital",
+      "company": "Juniper Hotels",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-27",
       "last_seen_date": "2026-05-01",
       "prior_calls_attended": 3,
       "tier": "strong"
@@ -966,6 +977,17 @@
       "tier": "medium"
     },
     {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "H.G. Infra Engg.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-29",
+      "last_seen_date": "2025-11-01",
+      "prior_calls_attended": 2,
+      "tier": "medium"
+    },
+    {
       "fund_id": "white-pine",
       "fund_name": "White Pine Investment Management",
       "company": "Camlin Fine",
@@ -1087,6 +1109,17 @@
       "tier": "medium"
     },
     {
+      "fund_id": "abakkus",
+      "fund_name": "Abakkus",
+      "company": "Juniper Hotels",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-27",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 2,
+      "tier": "medium"
+    },
+    {
       "fund_id": "sameeksha",
       "fund_name": "Sameeksha Capital",
       "company": "Nephrocare Health Services",
@@ -1171,6 +1204,17 @@
       "sector": null,
       "latest_call_date": "2026-05-14",
       "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 2,
+      "tier": "medium"
+    },
+    {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "company": "Speciality Rest.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01",
+      "last_seen_date": "2025-11-01",
       "prior_calls_attended": 2,
       "tier": "medium"
     },
@@ -1969,12 +2013,36 @@
   ],
   "gained": [
     {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Prince Pipes",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-25"
+    },
+    {
       "fund_id": "carnelian",
       "fund_name": "Carnelian",
       "company": "Pakka",
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-06-25"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "KDDL Ltd",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-22"
+    },
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "KDDL Ltd",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-06-22"
     },
     {
       "fund_id": "boring",
@@ -2471,6 +2539,30 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-05-06"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Speciality Rest.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Grasim Inds",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "boring",
+      "fund_name": "Boring AMC",
+      "company": "Eureka Forbes",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "crown",
@@ -3951,6 +4043,14 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-03-31"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Chatha Foods",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-03-01"
     },
     {
       "fund_id": "sapphire",
