@@ -29399,8 +29399,568 @@
         "Cost discipline and automation investments",
         "Export business growth"
       ]
+    },
+    "SMS Pharma.": {
+      "company": "SMS Pharma.",
+      "ticker": "SMSPHARMA",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2c53f14-d702-4dfe-bcca-baaf1c32d852.pdf",
+      "transcript_id": "sms-pharma_2026-05-30",
+      "provider": "groq",
+      "generated_at": "2026-06-26T18:02:24.241Z",
+      "summary": "SMS Pharma expects 15% revenue growth in FY27, with potential for higher growth if the external environment stabilizes, and aims to improve EBITDA margins beyond 20%.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "15% revenue growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "improve upon FY26 EBITDA margin of 20%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY28 and beyond",
+          "statement": "targeting at least 22% EBITDA margin",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28 and FY29",
+          "statement": "expecting at least 20% to 25% growth rate",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "High-value product share",
+          "horizon": "medium term",
+          "statement": "expecting high-value product share to increase to around 60%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY28",
+          "statement": "expecting capacity utilization to reach a high level",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New APIs",
+          "horizon": "FY27 and FY28",
+          "statement": "filing 10 additional DMFs and CEPS in FY27 and further 10 filings planned for FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peptides",
+          "horizon": "FY29 onwards",
+          "statement": "expecting meaningful contributions from peptides",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "backward integration",
+        "new product launches",
+        "brownfield expansion",
+        "peptide platform",
+        "CDMO initiatives"
+      ]
+    },
+    "MMP Industries": {
+      "company": "MMP Industries",
+      "ticker": "MMP",
+      "sector": "Commodities",
+      "concall_date": "2026-05-30",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/MMP_30052026125911_MMPEarningcallTranscript.pdf",
+      "transcript_id": "mmp-industries_2026-05-30",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T18:02:32.546Z",
+      "summary": "MMP Industries expects medium-term growth driven by power infrastructure expansion, export traction, and new product launches, with margin improvement from operational efficiencies and backward integration.",
+      "guidance": [
+        {
+          "metric": "Revenue (Aluminium Powder)",
+          "horizon": "FY27",
+          "statement": "Expect revenue growth of 13% to 15% during FY27, supported by improving demand conditions, diversified customer presence, healthy export opportunities, and operational efficiencies.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Aluminium Foil)",
+          "horizon": "FY27",
+          "statement": "Expect around 15% year-on-year growth during FY27, supported by improving utilization levels, increasing contribution from printed foil, and upcoming launches of security printing and leading foil products.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin (Aluminium Foil)",
+          "horizon": "FY27",
+          "statement": "Gradual improvement in margins expected due to increasing utilization of printed foils and value-added product launches.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Conductors & Cables)",
+          "horizon": "FY27",
+          "statement": "Gradual improvement in demand conditions expected, supported by continued investment across transmission and distribution infrastructure, traction in AL59 conductors, and initial contribution from LT Cable Initiative.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Polymer Insulators)",
+          "horizon": "Q3FY27 onwards",
+          "statement": "Meaningful revenue ramp-up expected from Q3 FY27 onwards, supported by vendor approvals, EPC registration, and transmission utility qualifications.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin (Polymer Insulators)",
+          "horizon": "FY27",
+          "statement": "Targeting around 20% EBITDA margin for the insulator business based on current data.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (Conductors & Cables)",
+          "horizon": "Next 2 to 2.5 years",
+          "statement": "Planned investment of INR85 crores to INR90 crores for LT power cables and covered conductors facility at MIDC Umred, with first phase expected to commence gradually from FY27 onwards.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (Backward Integration - Aluminium Wire Rods)",
+          "horizon": "Next 2 to 2.5 years",
+          "statement": "Planned investment of INR13 crores to INR15 crores for backward integration into aluminium wire rods to improve supply chain integration and operational efficiencies.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (Group Captive Solar Power)",
+          "horizon": "Q3FY27",
+          "statement": "7-megawatt group captive solar power project under open access model expected to be fully rolled out during Q3 FY27, reducing power costs over the long term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Polymer Insulators - Export)",
+          "horizon": "Medium-term",
+          "statement": "Commercial supplies to Nepal have commenced, with customer inquiries and RFQs from the U.S. and Latin American markets progressing positively.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Aluminium Powder - Export)",
+          "horizon": "Medium-term",
+          "statement": "Encouraging traction across export markets with increasing customer inquiries and opportunities across multiple geographies.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Conductors & Cables - AL59 Conductors)",
+          "horizon": "H1FY27",
+          "statement": "BIS approval received for AL59 bare conductors, with meaningful traction expected in this segment beginning H1 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Realization per KV class for polymer insulators",
+        "Total revenue breakdown by KV class for polymer insulators"
+      ],
+      "margin_drivers": [
+        "Increasing contribution from printed foils and value-added products in aluminium foil business",
+        "Operational efficiencies and cost optimization from backward integration into aluminium wire rods",
+        "Commissioning of group captive solar power project to reduce power costs",
+        "Improving product mix and operational leverage across businesses",
+        "Healthy export traction and diversified customer base"
+      ]
+    },
+    "Kaveri Seed Co.": {
+      "company": "Kaveri Seed Co.",
+      "ticker": "KSCL",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c83a97c-688a-43dc-a4c0-c35216263b5b.pdf",
+      "transcript_id": "kaveri-seed-co_2026-05-30",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T18:02:39.385Z",
+      "summary": "Management expects FY27 revenue growth of 15-20% driven by volume growth, with cotton leading at 20%+ and margins improving due to lower production costs.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expecting 15-plus percent growth at the top line, with overall revenue growth between 15% to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Cotton)",
+          "horizon": "FY27",
+          "statement": "Cotton should grow more than 20-odd percent",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume Growth",
+          "horizon": "FY27",
+          "statement": "Majority of revenue growth will come from volume growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin",
+          "horizon": "FY27",
+          "statement": "Margin should go up this year compared to last year due to lower production costs and stable prices",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross Margin",
+          "horizon": "FY27",
+          "statement": "Might increase gross margin this year as cost of production is slightly lower and prices remain at last year levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cotton New Products Contribution",
+          "horizon": "FY27",
+          "statement": "Most of the growth anticipated this year should come from new products, which may become 50% plus of cotton business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cotton Pricing",
+          "horizon": "FY27",
+          "statement": "May not be able to increase prices like last year due to high inventory levels",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export Business",
+          "horizon": "FY27",
+          "statement": "Export business performance is expected to remain strong",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Maize Growth",
+          "horizon": "FY27",
+          "statement": "Will grow in maize even in tough conditions, targeting pockets where the company is not strong",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Maize New Product Launches",
+          "horizon": "FY27",
+          "statement": "New products launched in the last 2-3 years will be major contributors for this year and next year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Monsoon Impact",
+          "horizon": "FY27",
+          "statement": "Delay in monsoon may impact cropping patterns, but the company may mitigate the risk due to product mix",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Illegal BT Cotton (Gujarat)",
+          "horizon": "FY27",
+          "statement": "Illegal BT cotton is still continuing in Gujarat, but the company is confident about cotton sales growth",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "BG-III trails timeline",
+        "Tax litigation outcomes beyond current favorable appellate level"
+      ],
+      "margin_drivers": [
+        "Lower production costs",
+        "Stable prices",
+        "Volume growth",
+        "New product launches",
+        "Product mix diversification"
+      ]
+    },
+    "Goldiam Intl.": {
+      "company": "Goldiam Intl.",
+      "ticker": "GOLDIAM",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7472c96c-c885-475a-86c1-33f4e86e0f68.pdf",
+      "transcript_id": "goldiam-intl_2026-05-30",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T18:02:48.855Z",
+      "summary": "Management expects double-digit revenue growth in FY27 with margin expansion driven by hybrid casting model and ORIGEM store expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting double-digit growth in overall revenue for FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ORIGEM Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting an exit revenue of INR7 crores per month for ORIGEM business in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ORIGEM Store Count",
+          "horizon": "Exit FY27",
+          "statement": "Aiming for 45 to 50 COCO stores by exit FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ORIGEM Store Breakeven",
+          "horizon": "6-9 months post-opening",
+          "statement": "Targeting breakeven within 6-9 months of store opening, with mature stores achieving INR18-20 lakh monthly sales.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ORIGEM Store-Level Sales Target",
+          "horizon": "3-year horizon",
+          "statement": "Long-term target of INR35-45 lakh monthly sales per store over 2-3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ORIGEM Store Capex",
+          "horizon": "per store",
+          "statement": "Approximately INR3.5 crores to open one ORIGEM store.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA Margin",
+          "horizon": "FY27",
+          "statement": "Expecting margins to increase steadily, with FY27 margins higher than Q4 FY26 levels.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hybrid Casting Model Impact",
+          "horizon": "FY27",
+          "statement": "Hybrid casting model to enhance margin profile and provide tariff agnostic advantage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ORIGEM Marketing Expense",
+          "horizon": "H1 FY27",
+          "statement": "Planning to spend INR4-4.5 crores on marketing for the first half of FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ORIGEM Sales Enablers",
+          "horizon": "FY27",
+          "statement": "Introducing sales enablers like 360 3D Digital Ring Builder, old gold exchange, and purchase plans to boost per-store revenue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "High ASP Fashion Jewelry",
+          "horizon": "FY27",
+          "statement": "Introducing high ASP fashion jewelry, specifically tennis bracelets and tennis necklaces, to add growth and value.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Lab-Grown Diamond Jewelry Demand",
+          "horizon": "FY27",
+          "statement": "Demand for lab-grown diamond jewelry expected to remain robust, particularly in the U.S. market.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Marketing expense as a percentage of revenue beyond H1 FY27",
+        "Top-line revenue guidance for FY28"
+      ],
+      "margin_drivers": [
+        "Hybrid casting model (U.S. production leveraging strong manufacturing network)",
+        "Introduction of high ASP fashion jewelry (tennis bracelets and necklaces)",
+        "Sales enablers (360 3D Digital Ring Builder, old gold exchange, purchase plans)",
+        "Tariff agnostic operations (SEZ benefits)",
+        "Operational efficiencies and scale in ORIGEM stores"
+      ]
+    },
+    "KSH Internationa": {
+      "company": "KSH Internationa",
+      "ticker": "KSHINTL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3edba481-7ce9-4989-b273-c6fb23e6127d.pdf",
+      "transcript_id": "ksh-internationa_2026-05-30",
+      "provider": "groq",
+      "generated_at": "2026-06-26T18:02:53.656Z",
+      "summary": "KSH International expects to sustain volume growth and EBITDA per ton in FY27, driven by demand from the T&D sector and exports.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expected to sustain at least last year's growth rate of 21%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Expected to sustain in the range of INR 65,000 to 70,000",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY28",
+          "statement": "Expected to reach 85% of installed capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Production",
+          "horizon": "FY28",
+          "statement": "Expected to be around 85% of installed capacity of 59,000 metric tons",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "CTC volume",
+        "Margin breakdown by product category"
+      ],
+      "margin_drivers": [
+        "Volume growth in higher value-added products",
+        "Volume increases in export",
+        "Weaker rupee",
+        "Product mix"
+      ]
+    },
+    "H.G. Infra Engg.": {
+      "company": "H.G. Infra Engg.",
+      "ticker": "HGINFRA",
+      "sector": "Industrials",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.hginfra.com/pdf/earnings_call_transcripts_q4_and_fy26.pdf",
+      "transcript_id": "h-g-infra-engg_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-26T18:03:03.145Z",
+      "summary": "Management expects FY27 to be a recovery year with order inflows of INR11,000-12,000 crores, revenue of INR6,500+ crores, and margin normalization toward 14% despite near-term cost pressures.",
+      "guidance": [
+        {
+          "metric": "Order inflows",
+          "horizon": "FY27",
+          "statement": "Targeting INR11,000-12,000 crores of order inflows for FY27, with ~70% from roads and railways and 30% from renewables and transmission.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting revenue of INR6,500+ crores for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting EBITDA margin to normalize to ~14% in FY27 despite margin pressures from geopolitical and supply chain disruptions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Road sector order inflows",
+          "horizon": "FY27",
+          "statement": "Expects road sector order inflows of INR7,000-8,000 crores against a bid pipeline of INR72,000 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS project revenues",
+          "horizon": "Post-commissioning",
+          "statement": "Upon commissioning of all BESS projects, expects to generate annual revenues of ~INR225 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power transmission project revenues",
+          "horizon": "Next 3-5 years",
+          "statement": "Two recent transmission projects (INR310 crores and INR910 crores EPC) expected to contribute INR160 crores annually to top line once commissioned.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "HAM project monetization proceeds",
+          "horizon": "FY27",
+          "statement": "Expecting INR935 crores from monetization of HAM projects in H1FY27, including INR203 crores already received in April 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction (standalone)",
+          "horizon": "H1FY27",
+          "statement": "Expecting standalone debt to reduce from INR1,627 crores to INR800-1,000 crores by H1FY27 due to monetization proceeds.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Equity infusion (HAM + BESS)",
+          "horizon": "FY27-FY29",
+          "statement": "Total equity requirement of INR1,200 crores, with INR414 crores in HAM and INR345 crores in BESS/energy/transmission in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar project debt release",
+          "horizon": "Q2FY27",
+          "statement": "INR350 crores of debt to be released to SPVs post-commissioning of solar plants, reducing temporary leverage.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Project execution progress",
+          "horizon": "FY27",
+          "statement": "Expecting improved execution with INR5,500 crores of orders secured in first 2 months of FY27, supporting revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin recovery timing",
+          "horizon": "FY27",
+          "statement": "Margin normalization expected gradually, with corrections in Q4FY26 spillovers likely realized in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "long-term margin targets beyond FY27",
+        "specific commodity price or forex assumptions"
+      ],
+      "margin_drivers": [
+        "geopolitical and supply chain disruptions (metal, fuel, bitumen, cement, logistics)",
+        "project execution delays and appointed date postponements",
+        "claim settlements for operational projects",
+        "shift toward higher-margin sectors (BESS, transmission)",
+        "digitalization and technology-led project execution for cost control"
+      ]
     }
   },
-  "generated_at": "2026-06-26T15:58:37.569Z",
-  "count": 287
+  "generated_at": "2026-06-26T18:03:04.678Z",
+  "count": 293
 }
