@@ -37866,8 +37866,667 @@
         "milestone-based billing cycles",
         "fixed cost absorption due to project delays"
       ]
+    },
+    "Balrampur Chini": {
+      "company": "Balrampur Chini",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-06-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67360f51-0ce7-4b37-8ccc-fa2797093647.pdf",
+      "transcript_id": "balrampur-chini_2026-06-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T20:18:31.737Z",
+      "summary": "Balrampur Chini expects stable sugar pricing and margin support from ethanol blending, while PLA margins are targeted at 35% EBITDA with scale, though ethanol price revisions remain uncertain.",
+      "guidance": [
+        {
+          "metric": "Sugar pricing",
+          "horizon": "FY27",
+          "statement": "Domestic sugar prices expected to remain steady and gradually inch up due to balanced supply and low inventory levels.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sugar inventory",
+          "horizon": "FY27",
+          "statement": "Closing inventory expected to reduce to 4.3 million tonnes from 5 million tonnes due to limited exports and balanced demand-supply.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Ethanol blending program",
+          "horizon": "FY27",
+          "statement": "Government mandates for higher ethanol blending (E20, E85, E100) are progressing, with OEMs and OMCs ready for infrastructure development.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Ethanol production capacity",
+          "horizon": "FY27",
+          "statement": "Existing capacity can reach 34-35 crore liters, but actual production depends on ethanol pricing and cane diversion decisions.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Ethanol price revision",
+          "horizon": "FY27",
+          "statement": "Positive conversations with government on ethanol price revision expected, but no timeline or quantum provided.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PLA margins",
+          "horizon": "medium-term",
+          "statement": "Targeting 35% EBITDA margins for PLA, excluding incentives, with scale and cost advantages from integrated sugar and bagasse supply.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PLA offtake agreements",
+          "horizon": "FY27",
+          "statement": "Customer mandates and offtake agreements for PLA are progressing well, with production nearing commercialization.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "PLA capex timeline",
+          "horizon": "Q3FY26",
+          "statement": "PLA project to be commissioned in Q3FY26, with future expansions possible within 12-18 months.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PLA cost position",
+          "horizon": "medium-term",
+          "statement": "Company expects to be among the lowest-cost PLA producers globally due to integrated feedstock and energy advantages.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Sugar seed varieties",
+          "horizon": "medium-term",
+          "statement": "New seed varieties show promise but replicating 0238 recovery levels appears tough; recovery likely to bottom out.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gutka packaging mandate",
+          "horizon": "FY27",
+          "statement": "Government mandates for non-plastic packaging (including UP state) are in progress, with biodegradable solutions being tested.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Water availability for crops",
+          "horizon": "FY27",
+          "statement": "Company expects sufficient water availability for sugarcane crops, but yield impact from fertilizer availability remains uncertain until September-October.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Ethanol price revision quantum",
+        "PLA offtake agreement details",
+        "Gutka packaging barrier shelf life validation"
+      ],
+      "margin_drivers": [
+        "Sugar pricing stability",
+        "Ethanol blending mandates (E20, E85, E100)",
+        "PLA cost advantages (integrated sugar/bagasse supply, energy savings)",
+        "Government ethanol price revision",
+        "Customer mandates for PLA and gutka packaging"
+      ]
+    },
+    "International Ge": {
+      "company": "International Ge",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3382a906-e500-4de2-b3d8-656935be2864.pdf",
+      "transcript_id": "international-ge_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T20:18:45.743Z",
+      "summary": "Management expects sustained growth driven by lab-grown diamond certification expansion, natural diamond strength, and AGL integration, with revenue and EBITDA growth guidance for FY27.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect 15% revenue growth for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "Expect 20% EBITDA growth for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect margins to remain at same levels as last year",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Lab-grown diamond certification revenue",
+          "horizon": "FY27",
+          "statement": "Major growth expected from increased capacity build-up in lab-grown diamonds",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Natural diamond certification revenue",
+          "horizon": "FY27",
+          "statement": "Continued strength expected in natural diamond certification despite macroeconomic uncertainty",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Lab-grown jewelry certification revenue",
+          "horizon": "FY27",
+          "statement": "Traction expected from increased capacities and retail expansion initiatives",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AGL (color stone certification) revenue",
+          "horizon": "medium-term",
+          "statement": "Plan to expand AGL to other markets for color stones to enhance brand presence and garner higher market share",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI/ML integration",
+          "horizon": "medium-term",
+          "statement": "Working towards integrating AI and ML to enhance service quality, improve customer turnaround times, increase operational efficiencies, and reduce redundancies",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Brand building investments",
+          "horizon": "FY27",
+          "statement": "Significant investments planned in brand building and consumer awareness initiatives",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "US market leadership",
+          "horizon": "medium-term",
+          "statement": "Building leadership in the US market with new recruitments and fortifying the sales organization",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Lab-grown diamond capacity additions",
+          "horizon": "medium-term",
+          "statement": "Industry expected to double capacity over the next three years due to strong demand",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Natural diamond jewelry demand",
+          "horizon": "near-term",
+          "statement": "Expect normalization of natural diamond jewelry demand as gold price volatility settles down",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Pricing per segment beyond current stability",
+        "Subsidiary-specific financial targets beyond qualitative commentary"
+      ],
+      "margin_drivers": [
+        "Mix shift towards higher ASP categories (LGD and ND loose stones)",
+        "Operational efficiencies from AI/ML integration",
+        "Brand building and consumer awareness investments",
+        "AGL integration synergies",
+        "Employee benefit expense growth (hiring for growth initiatives)"
+      ]
+    },
+    "DEE Development": {
+      "company": "DEE Development",
+      "ticker": "DEEDEV",
+      "sector": "Industrials",
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b2fc2a1-85b8-4c7f-9292-6235d88855e7.pdf",
+      "transcript_id": "dee-development_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T20:18:54.900Z",
+      "summary": "Management expects strong multi-year growth driven by core piping and fabrication segments, with improved margins and cash flows from completed CAPEX and order book visibility.",
+      "guidance": [
+        {
+          "metric": "Order inflow",
+          "horizon": "FY27",
+          "statement": "Expecting order inflow of more than Rs. 2,000 Cr in FY27, with 60% from power sector and 40% from oil & gas.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order mix",
+          "horizon": "FY27",
+          "statement": "60-65% of orders expected to be domestic, 35-40% export in FY27.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Power sector revenue contribution",
+          "horizon": "FY27",
+          "statement": "65-70% of total revenue expected from power sector in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power sector order book",
+          "horizon": "Current",
+          "statement": "Power sector order book exceeds Rs. 1,000 Cr, with substantial portion from thermal (India) and HRSG (abroad).",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Anjar fabrication facility expected to reach optimal utilization in FY27; seamless plant to ramp to 60-70% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Core business EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Core business EBITDA margin expected to be above 19% at consolidated level.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "FY27",
+          "statement": "Working capital cycle expected to reduce to around 200 days in FY27, with inventory days down by 15-20 days, payable days above 70-75 days.",
+          "specificity": "specific",
+          "direction": "improving"
+        },
+        {
+          "metric": "Debtor days",
+          "horizon": "FY27",
+          "statement": "Debtor days expected to remain stable between 95-100 days in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue target",
+          "horizon": "FY30",
+          "statement": "Target revenue of Rs. 2,500 Cr from existing facilities by FY30, potentially achievable earlier with increased order flow.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX",
+          "horizon": "FY27",
+          "statement": "No significant CAPEX required for existing facilities to execute current orders; minor nominal CAPEX may be needed.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "Medium-term",
+          "statement": "Improved cash flows and operating performance expected to support gradual reduction in debt levels going forward.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Non-core segment (power & biomass)",
+          "horizon": "FY27",
+          "statement": "Combined revenue from power and biomass pellet expected to be around Rs. 47.71 Cr in FY27; biomass facility commissioned to stabilize segment profitability.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Alloy mix and product vs. job work contribution breakdown for outstanding order book",
+        "Commodity inflation impact on gross margins on a quarterly basis",
+        "Specific details on Middle Eastern reconstruction opportunities (size, timing, CAPEX needs)"
+      ],
+      "margin_drivers": [
+        "Operating leverage from higher utilization of Anjar and seamless facilities",
+        "Shift towards higher-margin power sector orders (65-70% of revenue in FY27)",
+        "Job work vs. material supply mix (30% job work, 70% with material)",
+        "Alloy steel mix (55-60% of core business)",
+        "Biomass pellet facility to offset power segment losses and improve sustainability"
+      ]
+    },
+    "Century Enka": {
+      "company": "Century Enka",
+      "ticker": "CENTENKA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7b5459f-fff6-4e07-be27-ff119c61c76a.pdf",
+      "transcript_id": "century-enka_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T20:19:04.421Z",
+      "summary": "Management expects margin improvement and growth in FY27 driven by renewable energy, value-added products, and polyester tire cord fabric commercialization, though demand remains cautiously optimistic due to geopolitical and inflation risks.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Management expects operating margin to improve to 7%-10% range (previously 6%-8%) due to cost reductions and renewable energy projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewable energy power share",
+          "horizon": "FY27",
+          "statement": "Renewable energy share of total power consumption to increase from 36% in FY26 to 48% post additional capacity commissioning.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Polyester tire cord fabric (PTF) commercial sales",
+          "horizon": "H2FY27",
+          "statement": "Commercial sales of PTF expected to commence in the second half of FY27 following approval process progress.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX outlay",
+          "horizon": "FY27",
+          "statement": "Total CAPEX of over Rs. 100 crores planned for FY27, primarily for value-added products, Mother Yarn expansion, efficiency improvements, and safety upgrades.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Management aims to repeat Q4FY26 volumes but notes this is dependent on external factors like demand and geopolitical conditions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Margin improvement timeline",
+          "horizon": "End of FY27",
+          "statement": "Margin improvements from initiatives (renewable energy, efficiency, safety) expected to reflect by end of FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Value-added products revenue share",
+          "horizon": "Medium-term",
+          "statement": "Management intends to convert majority of commodity products to value-added products to improve margins and reduce import competition.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PTF capacity addition",
+          "horizon": "FY27",
+          "statement": "Capacity for PTF expected to increase by 2-2.5 KT post CAPEX deployment in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power cost reduction impact",
+          "horizon": "FY27",
+          "statement": "Renewable energy expansion expected to reduce power costs, though exact monetary impact not quantified.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Safety and fire risk CAPEX",
+          "horizon": "FY27",
+          "statement": "Significant budget allocated for reconfiguration of machinery to reduce fire risk in old plants.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "New product segments evaluation",
+          "horizon": "Medium-term",
+          "statement": "Board evaluating projects in technical textiles and new segments for potential large CAPEX beyond FY27.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inventory and raw material cost pass-through",
+          "horizon": "FY27",
+          "statement": "Management expects continued ability to pass through raw material cost increases to customers, though geopolitical volatility remains a risk.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue growth targets",
+        "PAT or net profit guidance",
+        "Break-up of EBITDA margin drivers (e.g., inventory gains vs. volumes)",
+        "Specific quarterly margin or PAT numbers",
+        "Dividend policy or capital allocation beyond growth investments",
+        "Buyback decisions"
+      ],
+      "margin_drivers": [
+        "Renewable energy power share increase (to 48% in FY27)",
+        "Value-added products conversion (20% additional margin on conversion costs)",
+        "Efficiency improvements and power cost reduction",
+        "Safety and fire risk CAPEX reducing operational disruptions",
+        "Polyester tire cord fabric commercialization (PTF)",
+        "Mother Yarn project expansion",
+        "Anti-dumping duty on Chinese imports (DGTR favorable ruling awaited)",
+        "Raw material cost pass-through to customers"
+      ]
+    },
+    "Allied Digital": {
+      "company": "Allied Digital",
+      "ticker": "ADSL",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4eae997-9ef4-4c70-90a3-8c4c140c9edb.pdf",
+      "transcript_id": "allied-digital_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T20:19:13.135Z",
+      "summary": "Management expects 20-25% revenue growth in FY27 with improving EBITDA margins to 12.5-13% near-term and 13-15% long-term, supported by AI-led cost optimization and strong order pipeline.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "20% to 25% year-over-year growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "near-term",
+          "statement": "target of 12.5% to 13%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "long-term",
+          "statement": "target of 13% to 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Government revenue",
+          "horizon": "FY27-FY28",
+          "statement": "meaningful rebound expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q2FY27",
+          "statement": "Rs. 150-200 crore Mumbai Government contract expected to be announced in 2-3 weeks",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Rs. 2,000 crore pipeline in Maharashtra alone",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Services vs Solutions mix",
+          "horizon": "medium-term",
+          "statement": "targeting 75% to 80% of revenue from Services for consistency",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI-led cost optimization",
+          "horizon": "ongoing",
+          "statement": "AI and AIOps implementations reducing client costs and improving margins post-onboarding",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Audit qualifications resolution",
+          "horizon": "next 2 quarters",
+          "statement": "expecting clean audit opinion after RBI approvals for loan conversions",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Profitability",
+          "horizon": "FY27",
+          "statement": "confident of improving margins and bottom line with cleaner financial reporting",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewal momentum",
+          "horizon": "ongoing",
+          "statement": "healthy traction in multiyear renewals across sectors",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International business",
+          "horizon": "medium-term",
+          "statement": "improving traction across global markets and deeper customer engagement",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Western Railways project update"
+      ],
+      "margin_drivers": [
+        "AI-led cost optimization",
+        "scale and operating leverage",
+        "multiyear transformation engagements",
+        "Services revenue mix (75-80% target)",
+        "renewal momentum across sectors"
+      ]
+    },
+    "XPRO India": {
+      "company": "XPRO India",
+      "ticker": "XPROINDIA",
+      "sector": "Industrials",
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ac96774-8bcb-4536-bc88-d8356e51dcd4.pdf",
+      "transcript_id": "xpro-india_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T20:19:23.073Z",
+      "summary": "Management expects growth in dielectric films driven by structural demand in EV, solar, and industrial applications, with capacity expansion at Barjora and UAE ramping up in FY27.",
+      "guidance": [
+        {
+          "metric": "Capacity utilization (Barjora dielectric line)",
+          "horizon": "FY26",
+          "statement": "Target at least 50% utilization during the year for the new Barjora dielectric film line.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA break-even (Barjora dielectric line)",
+          "horizon": "FY26",
+          "statement": "Management has worked on scenarios but declined to disclose EBITDA break-even capacity due to competitive sensitivity.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export share (dielectric films)",
+          "horizon": "FY26-FY27",
+          "statement": "Initial production from new lines will primarily target export markets due to limited domestic demand for ultrathin films.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer validation timeline (dielectric films)",
+          "horizon": "FY26-FY27",
+          "statement": "Validation timelines vary from zero to many months depending on customer and application, with focus on building volume initially.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "UAE plant commercialization",
+          "horizon": "FY26",
+          "statement": "Expect trial production by August-September 2026 and full capacity utilization in FY27, subject to geopolitical and market conditions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth (dielectric films)",
+          "horizon": "FY27-FY28",
+          "statement": "Expect to supply significant volumes from the two new lines (Barjora and UAE) combined in FY27 and FY28.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pricing (dielectric films)",
+          "horizon": "FY26",
+          "statement": "Prices are moving up steeply, with modal prices exceeding INR550/kg, driven by polymer cost inflation and supply chain disruptions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue mix (Biax vs. Coex)",
+          "horizon": "FY26",
+          "statement": "Biax (dielectric films) share of revenue increased to 29% in FY26 from 25% in FY25 due to Coex volume decline.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "FY26",
+          "statement": "Export revenue increased to INR22.5 crores in FY26 from INR14.2 crores in FY25.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material prices (polymers)",
+          "horizon": "FY26-FY27",
+          "statement": "Polymer prices have risen steeply due to West Asia crisis and shipping disruptions, impacting input costs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geopolitical risk (UAE operations)",
+          "horizon": "FY26",
+          "statement": "Project execution in UAE remains on track, but geopolitical conditions in West Asia remain fluid with elevated risks.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Dividend policy",
+          "horizon": "FY26",
+          "statement": "Board recommended a dividend of INR2 per equity share on the expanded capital.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA margin guidance for the new dielectric film line",
+        "Detailed production or marketing plans for the Barjora dielectric line",
+        "Specific customer-wise or application-wise revenue breakdown for dielectric films",
+        "Long-term debt levels or capital structure beyond existing disclosures"
+      ],
+      "margin_drivers": [
+        "Polymer price inflation",
+        "Capacity utilization at new lines (Barjora and UAE)",
+        "Customer validation and ramp-up timelines for dielectric films",
+        "Pricing power in dielectric films segment",
+        "Geopolitical risks impacting supply chains and costs",
+        "Export growth in high-margin dielectric films"
+      ]
     }
   },
-  "generated_at": "2026-06-27T18:51:18.413Z",
-  "count": 371
+  "generated_at": "2026-06-27T20:19:24.598Z",
+  "count": 377
 }
