@@ -35400,8 +35400,619 @@
         "GCC gross margins of 40-50%",
         "increased client wallet share from existing customers"
       ]
+    },
+    "Info Edg.(India)": {
+      "company": "Info Edg.(India)",
+      "ticker": "NAUKRI",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
+      "transcript_id": "info-edg-india_2026-05-28",
+      "provider": "groq",
+      "generated_at": "2026-06-27T14:53:23.672Z",
+      "summary": "Info Edge expects growth to recover in Q1 and accelerate in FY27, driven by its recruitment, real estate, and matchmaking businesses, with a focus on AI-driven initiatives and investments.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Growth to accelerate, operating leverage to play out, and the business to turn cash-generative",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage",
+          "horizon": "FY27",
+          "statement": "To play out as growth accelerates",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash generation",
+          "horizon": "FY27",
+          "statement": "Business to turn cash-generative",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "99acres billings",
+          "horizon": "Q1FY27",
+          "statement": "Growth to recover",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Recruitment business",
+          "horizon": "FY27",
+          "statement": "Focused on improving hiring volume, share of hiring, and revenue per hire",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-Rex",
+          "horizon": "FY27",
+          "statement": "Scaling client base and deepening usage within existing accounts is a near-term priority",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "AI-driven initiatives",
+        "Operating leverage",
+        "Cash generation",
+        "Improved execution in 99acres",
+        "Growth in recruitment business"
+      ]
+    },
+    "GMM Pfaudler": {
+      "company": "GMM Pfaudler",
+      "ticker": "GMMPFAUDLR",
+      "sector": "Industrials",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b898ceb5-6fa9-44e1-b612-1fc569d993c6.pdf",
+      "transcript_id": "gmm-pfaudler_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T14:53:32.360Z",
+      "summary": "Management expects steady improvement in profitability and cash flow in FY27 driven by strong order backlog, cost restructuring, and diversification, while remaining cautious on macroeconomic uncertainties.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Further improvement in EBITDA margins expected next year due to operational improvements and restructuring measures.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "Confidence in improving EBITDA year-over-year, building on FY26 performance.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Free cash flow",
+          "horizon": "FY27",
+          "statement": "Expectation of continued strong free cash flow generation, maintaining ratio above 90% of EBITDA.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net debt to adjusted EBITDA",
+          "horizon": "FY27",
+          "statement": "Target to maintain net debt to adjusted EBITDA ratio significantly below 0.5x.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "Medium-term (3 years)",
+          "statement": "Plans to grow revenue at least double-digit over the next three years through market share gains, regional expansion, and new industries.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost structure",
+          "horizon": "FY27",
+          "statement": "Significant cost reductions achieved in Europe through restructuring, with further efficiency improvements expected.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Order intake",
+          "horizon": "FY27",
+          "statement": "Strong order backlog provides visibility, but management avoids bullish guidance due to macroeconomic uncertainties and long conversion cycles.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Tax rate",
+          "horizon": "FY27",
+          "statement": "Tax rate expected to improve closer to 30% for international business as Luxembourg entity issues are resolved.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Margin stability",
+          "horizon": "FY27",
+          "statement": "Expectation to maintain or grow margins next year, with FY26 margins improved over prior year.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "China operations",
+          "horizon": "FY27",
+          "statement": "China facility remains important; some cost reductions implemented but no plans for closure.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Segment reporting",
+          "horizon": "Q1FY27",
+          "statement": "New segment reporting format to be introduced from next quarter for better clarity.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Three-year strategy",
+          "horizon": "Medium-term",
+          "statement": "Board-approved three-year plan in place; management aims to articulate strategy to investors in next few quarters.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27/FY28 revenue or EBITDA absolute numbers",
+        "FY27/FY28 PAT guidance",
+        "FY27/FY28 capex guidance",
+        "Specific growth drivers by product/industry for FY27/FY28"
+      ],
+      "margin_drivers": [
+        "Cost restructuring in Europe (Germany, Poland, UK)",
+        "Operational efficiency improvements",
+        "Diversification into non-traditional industries (semiconductors, defence, oil & gas, petrochemicals, metals & minerals)",
+        "Pass-through clauses in long-term contracts for material cost inflation",
+        "Low-cost manufacturing from Poland facility"
+      ]
+    },
+    "Excelsoft Tech.": {
+      "company": "Excelsoft Tech.",
+      "ticker": "EXCELSOFT",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80636cf6-fa82-410b-ab1f-36c3d5b58ee7.pdf",
+      "transcript_id": "excelsoft-tech_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T14:53:40.113Z",
+      "summary": "Management expects sustained growth driven by AI-enabled assessment and learning solutions, with near-term margin normalization post one-off US hiring costs.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Strong revenue growth expected from global digital assessment and AI-led learning solutions, particularly in North America and Europe.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margins expected to normalize to 30-31% range, recovering from Q4 FY26 dip due to one-off US hiring costs.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Continued investment in AI infrastructure, cybersecurity, and talent to support growth and innovation.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-driven product revenue",
+          "horizon": "medium-term",
+          "statement": "AI capabilities expected to drive new product launches and client wins, with 38 AI concepts, 16 prototypes, and 4 commercially deployed products.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Nearshore services revenue",
+          "horizon": "FY27",
+          "statement": "Nearshore US team (30 professionals) already generating revenue; expected to further boost domain-based AI tech services revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical revenue mix",
+          "horizon": "FY27",
+          "statement": "North America to remain largest market (~65%), with Europe and UK contributing ~23% of revenue.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Client concentration",
+          "horizon": "FY27",
+          "statement": "Top 5 clients expected to contribute ~68% of revenue, with growth from existing clients and new client additions.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Public sector and institutional assessment contracts",
+          "horizon": "FY27",
+          "statement": "Expansion in public sector and institutional assessment space, including large-scale digital exams in Southeast Asia and UK.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Vocational and certification testing contracts",
+          "horizon": "FY27",
+          "statement": "Growing demand for vocational and certification testing solutions, with multi-year engagements like VTCT Skills in the UK.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI governance and compliance",
+          "horizon": "medium-term",
+          "statement": "Continued focus on responsible AI, governance frameworks, and compliance to meet evolving regulatory standards.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Strategic acquisitions",
+          "horizon": "medium-term",
+          "statement": "Evaluating selective inorganic opportunities to accelerate access to new markets and capabilities, particularly overseas.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Learning design and content solutions revenue",
+          "horizon": "FY27",
+          "statement": "Growth expected in learning design and content solutions, driven by AI-led content transformation capabilities.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or PAT targets",
+        "Specific AI revenue contribution breakdown",
+        "Timeline for margin recovery beyond FY27",
+        "Details on potential acquisitions"
+      ],
+      "margin_drivers": [
+        "AI-led automation reducing infrastructure costs",
+        "Nearshore-offshore model improving service delivery efficiency",
+        "Scaling of AI-driven products and solutions",
+        "Disciplined capital allocation and balance sheet strength"
+      ]
+    },
+    "Happy Forgings": {
+      "company": "Happy Forgings",
+      "ticker": "HAPPYFORGE",
+      "sector": "Industrials",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4c943e1-4b9d-419c-8957-1db5aebbcb7e.pdf",
+      "transcript_id": "happy-forgings_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T14:53:48.278Z",
+      "summary": "Management expects late-teen volume growth in FY27 with EBITDA margins broadly stable, supported by diversified order book and operational strengths despite near-term cost inflation challenges.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expect late-teen volume growth for the business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain EBITDA margins broadly in line with FY26 levels",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Total capex expected in the range of Rs.450-500 crores",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "2-3 years",
+          "statement": "Order book of Rs.950 crores to be executed over next 2-3 years, with Rs.250 crores for heavyweight forgings (700 kg to 1.8 tons)",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Segment mix (Commercial Vehicles)",
+          "horizon": "2-3 years",
+          "statement": "Commercial vehicle contribution expected to reduce from 37% to around 27%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Segment mix (Industrials)",
+          "horizon": "2-3 years",
+          "statement": "Industrials expected to grow from 11% to around 30%-31%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Segment mix (Passenger Vehicles)",
+          "horizon": "2-3 years",
+          "statement": "Passenger vehicles contribution expected to improve from 6% to almost 10%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Realization per kg",
+          "horizon": "Medium-term",
+          "statement": "New order book realization expected at Rs.340-350 per kg vs current average of Rs.240-245 per kg",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export demand (CV segment)",
+          "horizon": "FY27",
+          "statement": "Export CV segment expected to grow by mid-single digit",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export demand (Industrial segment)",
+          "horizon": "FY27",
+          "statement": "Export industrial segment expected to grow due to currency favorability and competitiveness",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Price hikes from customers",
+          "horizon": "FY27",
+          "statement": "Expecting around 3.5% to 4% increase in selling price from customers to cover cost inflation",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex outlay (next 2 years)",
+          "horizon": "FY27-FY28",
+          "statement": "Planned capex for next 2 years expected to be Rs.800 crores, including solar capex",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Higher realization from new industrial and passenger vehicle segments",
+        "Increasing machining mix (89% in FY26 vs 73% in FY21)",
+        "Operational leverage and efficiency improvements",
+        "Pass-through of raw material costs to OEMs",
+        "Cost recovery negotiations with customers for manufacturing expenses",
+        "Scrap price improvements"
+      ]
+    },
+    "Vaibhav Global": {
+      "company": "Vaibhav Global",
+      "ticker": "VAIBHAVGBL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b8fd910-eb5d-415d-95fa-ec794ad1412a.pdf",
+      "transcript_id": "vaibhav-global_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T14:53:55.207Z",
+      "summary": "Management expects steady revenue growth and margin expansion in FY27, driven by digital scaling, in-house brands, and international profitability.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect revenue growth of 9% to 11%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Improvement of 50 to 100 basis points",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital mix",
+          "horizon": "End of FY27",
+          "statement": "Reach 50% of B2C sales",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Germany profitability",
+          "horizon": "FY27 onwards",
+          "statement": "Germany expected to contribute positively to group profitability",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "In-house brand contribution",
+          "horizon": "Foreseeable future",
+          "statement": "Will continue to increase as a share of sales",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tax rate",
+          "horizon": "FY27",
+          "statement": "Tax rate expected to remain steady around 22%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "TV broadcasting expense",
+          "horizon": "FY27",
+          "statement": "Expected to remain around 20% of revenue",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Expected to improve further as digital share expands",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage",
+          "horizon": "FY27",
+          "statement": "Improvement expected from HR, SG&A, and shipping cost platforms",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Lab-grown diamonds contribution",
+          "horizon": "Foreseeable future",
+          "statement": "Will continue to grow as a share of retail revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Lifestyle product share",
+          "horizon": "Medium-term",
+          "statement": "Target of 50% of total sales",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "FY27",
+          "statement": "Expected to improve further backed by PAT growth",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "precise peak EBITDA margin target",
+        "India market entry timeline",
+        "exact in-house brand contribution target beyond FY27"
+      ],
+      "margin_drivers": [
+        "in-house brand contribution",
+        "digital scaling",
+        "Germany profitability turnaround",
+        "technology and AI adoption",
+        "operating leverage from HR and SG&A",
+        "lab-grown diamonds growth",
+        "pricing discipline and sourcing efficiencies"
+      ]
+    },
+    "Tinna Rubber": {
+      "company": "Tinna Rubber",
+      "ticker": "TINNARUBR",
+      "sector": "Industrials",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f35ad6e2-c478-4f67-8ebd-6d1ea557d82e.pdf",
+      "transcript_id": "tinna-rubber_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T14:54:03.238Z",
+      "summary": "Management expects sustained growth with margin expansion driven by capacity additions, new product initiatives, and global expansion, targeting INR1,000 crore revenue and >18% EBITDA margin by FY29.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects 20% to 25% revenue growth in FY27 from FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY29",
+          "statement": "Targets EBITDA margins of over 18% by FY29.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY29",
+          "statement": "Aims to achieve revenue of INR1,000 crores by FY29.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tire processing capacity",
+          "horizon": "FY27",
+          "statement": "Targeting tire-crush capacity of 235,000 tons per annum in India by FY27, representing a 27% increase from current levels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY28",
+          "statement": "Earmarked INR100 crores of capex over FY27 and FY28.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Renewable energy share",
+          "horizon": "FY27",
+          "statement": "Nearly 50% of power requirements expected to be met through renewable sources from FY27 onwards.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PCMB revenue contribution",
+          "horizon": "FY27",
+          "statement": "PCMB business contribution expected to increase to 8% to 10% of overall turnover in FY27 from 4% currently.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PCMB revenue",
+          "horizon": "FY27",
+          "statement": "Budgeting revenue of approximately INR75 crores from PCMB in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pyrolysis and rCB plant revenue",
+          "horizon": "FY27",
+          "statement": "Projecting top-line contribution of INR50-55 crores from pyrolysis and rCB plants in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pyrolysis and rCB plant EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expects EBITDA margins of 15% to 19% from pyrolysis and rCB plants once stabilized.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Oman plant GCC sales share",
+          "horizon": "Q1FY27",
+          "statement": "GCC markets expected to contribute 80% of Oman plant sales by end of Q1 FY27 from 60% currently.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "South Africa project breakeven",
+          "horizon": "Q2FY27",
+          "statement": "South Africa project expected to achieve breakeven from Q2 FY27 onwards.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue breakup by segment for FY29",
+        "Realization per ton for FY28/FY29",
+        "Tax rate outlook beyond FY26",
+        "Working capital days outlook"
+      ],
+      "margin_drivers": [
+        "Capacity expansion in tire processing and polymer compounding",
+        "Renewable energy adoption (50% power from renewables from FY27)",
+        "Product mix optimization (PCMB contribution to 8-10% in FY27)",
+        "Cost discipline and operational efficiencies",
+        "Sustainability-led investments (pyrolysis and rCB plants)",
+        "Global expansion (Oman, South Africa, Saudi Arabia)",
+        "Price realization benefits from high virgin polymer prices driving demand for recycled rubber"
+      ]
     }
   },
-  "generated_at": "2026-06-27T12:55:22.237Z",
-  "count": 347
+  "generated_at": "2026-06-27T14:54:04.766Z",
+  "count": 353
 }
