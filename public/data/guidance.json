@@ -34276,8 +34276,558 @@
         "Focus on higher value-added products (critical equipment, nuclear, clean energy)",
         "Working capital optimization (target ~3 turns)"
       ]
+    },
+    "Aelea Commoditi.": {
+      "company": "Aelea Commoditi.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a95ddc5-df5b-4f4f-bffc-55ac9539bff9.pdf",
+      "transcript_id": "aelea-commoditi_2026-05-28",
+      "provider": "groq",
+      "generated_at": "2026-06-27T11:14:36.757Z",
+      "summary": "Aelea Commodities expects to continue its growth rate in FY27, with a focus on deepening its value chain and increasing its top line and bottom line.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Significant increase in top line",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Industry margin of 10-11%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Finance cost",
+          "horizon": "FY27",
+          "statement": "Similar or higher finance cost",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "current",
+          "statement": "Roughly 94-95% fully utilized",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "CNSL oil revenue",
+          "horizon": "H2 FY27",
+          "statement": "Expect revenue from oil extraction",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY28 guidance"
+      ],
+      "margin_drivers": [
+        "Deepening value chain",
+        "Increasing operational efficiency",
+        "Scale benefits"
+      ]
+    },
+    "Life Insurance": {
+      "company": "Life Insurance",
+      "ticker": "LICI",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f67c5ee-c7fe-4697-b0cc-b86825ca59b1.pdf",
+      "transcript_id": "life-insurance_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T11:14:44.699Z",
+      "summary": "Management expects continued growth in VNB margins and non-par savings products, with digital initiatives and channel diversification supporting long-term profitability.",
+      "guidance": [
+        {
+          "metric": "VNB margin",
+          "horizon": "FY27",
+          "statement": "VNB margin is expected to remain strong, supported by non-par business growth and product mix improvements.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-par savings products (APE share)",
+          "horizon": "FY27",
+          "statement": "Non-par savings products are expected to maintain their ~35% share of individual APE.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Bancassurance and Alternate Channels (new business premium)",
+          "horizon": "FY27",
+          "statement": "Bancassurance and Alternate Channels are expected to continue growing, building on the INR5,000 crore milestone achieved in FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital initiatives (ANANDA app policies)",
+          "horizon": "FY27",
+          "statement": "Digital initiatives like the ANANDA app are expected to drive further growth in policy issuance and agent productivity.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Persistency ratios",
+          "horizon": "medium-term",
+          "statement": "Management aims to improve persistency across all cohorts, particularly in lower ticket-size products, over the medium term.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Expense ratio",
+          "horizon": "FY27",
+          "statement": "Expense ratio is expected to remain controlled, continuing the trend of reduction seen in FY26.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Bima Sakhi coverage",
+          "horizon": "FY27",
+          "statement": "Management aims to appoint Bima Sakhis in at least one Gram Panchayat per Panchayat, covering 100% of Panchayats over time.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product mix (non-par vs. par)",
+          "horizon": "FY27",
+          "statement": "Non-par business is expected to continue gaining share in the product mix, supported by strong product performance like Jeevan Utsav.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Future solvency ratio targets",
+        "Future dividend payout ratios",
+        "Specific growth targets for group business",
+        "Future embedded value (IEV) growth"
+      ],
+      "margin_drivers": [
+        "Non-par business growth",
+        "Product mix shift towards higher-margin products",
+        "Expense ratio reduction",
+        "Digital adoption (ANANDA app, MyLIC, Super Sales Saathi)",
+        "Bancassurance and Alternate Channels expansion"
+      ]
+    },
+    "Alpex Solar": {
+      "company": "Alpex Solar",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/ALPEXSOLAR_28052026143559_Transcript.pdf",
+      "transcript_id": "alpex-solar_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T11:14:51.545Z",
+      "summary": "Alpex Solar expects strong growth driven by backward integration, capacity expansion, and policy tailwinds, targeting Rs 10,000 crore revenue by FY30 with expanding margins.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue expected to exceed Rs 3,000 crore, surpassing prior 2x growth guidance.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY30",
+          "statement": "Targeting Rs 10,000 crore revenue by FY2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Module capacity",
+          "horizon": "FY27",
+          "statement": "Module capacity to expand from 2.4 GW to 3.6 GW.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cell capacity",
+          "horizon": "FY27",
+          "statement": "2.2 GW TOPCon solar cell line to commence full-scale production within 90 days (by August 2026).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to reach 25% on a company-wide basis (including cell and module business).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin (cells)",
+          "horizon": "FY27",
+          "statement": "PAT margin on cells expected to exceed 16%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Wafer and ingot capacity",
+          "horizon": "FY28",
+          "statement": "2.5 GW wafer and ingot manufacturing facility to be operational by June 2028.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Wafer and ingot capacity",
+          "horizon": "FY29-30",
+          "statement": "Total 5 GW wafer and ingot manufacturing capacity planned by FY2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar glass capacity",
+          "horizon": "FY30",
+          "statement": "5 GW solar glass manufacturing facility planned by FY2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cell EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Cell business EBITDA margin expected to be around 35%-36%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Module EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Module business EBITDA margin expected to be around 24%-25%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX (wafer and ingot)",
+          "horizon": "FY28-30",
+          "statement": "CAPEX for 2.5 GW wafer and ingot facility to be funded from internal accruals and loans; finalized numbers to be disclosed soon.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue or margin impact from solar glass",
+        "Detailed breakup of module sales by quarter",
+        "Specific CAPEX numbers for wafer and ingot expansion"
+      ],
+      "margin_drivers": [
+        "Backward integration into cells, wafers, and ingots",
+        "Technology shift to TOPCon cells (25.5%-26.5% efficiency)",
+        "Policy-driven demand (ALMM, DCR mandates)",
+        "Operational efficiency from SAP S/4HANA integration",
+        "Automation and LECO laser technology in cell manufacturing"
+      ]
+    },
+    "Regaal Resources": {
+      "company": "Regaal Resources",
+      "ticker": "REGAAL",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4b7aacc-4dbc-4673-b3d1-e12463875d1f.pdf",
+      "transcript_id": "regaal-resources_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T11:15:00.531Z",
+      "summary": "Regaal Resources expects margin expansion and volume growth from new capacities and value-added products, though formal earnings guidance is deferred until H1 FY27.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Balance capex of ~INR 140 crores to be incurred in FY27 for dextrose anhydrous, dextrose monohydrate, hydrol, and modified starches.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Value-added product revenue share",
+          "horizon": "H1 FY27",
+          "statement": "White-labeling volumes expected to increase significantly within H1 FY27, contributing meaningfully to revenue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Value-added product portfolio",
+          "horizon": "FY27",
+          "statement": "New products (dextrose anhydrous, dextrose monohydrate, hydrol, cationic starch, carboxymethyl starch, pre-gel starch) to be launched progressively by Q4 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin improvement",
+          "horizon": "FY27",
+          "statement": "Value-added products and economies of scale from brownfield expansion to drive margin accretion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material cost",
+          "horizon": "FY27",
+          "statement": "Softening in maize prices expected to improve global cost competitiveness.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Working capital intensity",
+          "horizon": "FY27",
+          "statement": "Cash conversion cycle to range between 50-75 days, with Q1 typically the heaviest period for inventory build-up.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "FY27",
+          "statement": "Recent export orders secured to strengthen near-term export revenue visibility.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employment generation",
+          "horizon": "FY27",
+          "statement": "Expansion to create 475 additional direct employment opportunities.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue outlook",
+        "FY27 EBITDA margin",
+        "FY27 PAT",
+        "FY27 sales volume"
+      ],
+      "margin_drivers": [
+        "Value-added product portfolio expansion",
+        "Economies of scale from brownfield expansion",
+        "Improved raw material cost competitiveness",
+        "Increased procurement scale and bargaining power",
+        "Captive co-generation power plant expansion"
+      ]
+    },
+    "S Chand & Compan": {
+      "company": "S Chand & Compan",
+      "ticker": "SCHAND",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d68d8d9e-7cef-4a40-82bd-d250519ce0c7.pdf",
+      "transcript_id": "s-chand-compan_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T11:15:08.199Z",
+      "summary": "Management expects FY27 revenue growth of 10-15% with EBITDA margin of 17-19%, driven by K-12 syllabus adoption, AI content licensing expansion, and international curriculum growth, while facing cost pressures from paper/logistics inflation.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting 10%-15% revenue growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin guidance band of 17%-19%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Operating cash flow",
+          "horizon": "FY27",
+          "statement": "Expect to deliver OCF of over Rs1,000m",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Content licensing revenue",
+          "horizon": "FY27",
+          "statement": "Targeting revenues more than Rs400m in content licensing opportunities",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI content licensing revenue",
+          "horizon": "3-5 years",
+          "statement": "Potential to build AI content licensing business to at least Rs100cr",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International curriculum revenue",
+          "horizon": "3-4 years",
+          "statement": "Potential to be an USD8-USD10Mn business in a few years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Paper prices",
+          "horizon": "FY27",
+          "statement": "Expect paper prices to grow by 10%-15% this year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product pricing",
+          "horizon": "FY27",
+          "statement": "Expect to take price hike in the range of 6%-8%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net cash position",
+          "horizon": "FY27",
+          "statement": "Expect net cash position around Rs130cr-Rs135cr",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NCF implementation",
+          "horizon": "FY27",
+          "statement": "NCF rollout expected to be completed this year or early next year",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "M&A opportunities",
+          "horizon": "medium-term",
+          "statement": "Open to evaluate M&A opportunities to fill gaps in portfolio",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Working capital metrics",
+          "horizon": "1HFY27",
+          "statement": "Expect receivables and inventory to normalize during the 1H of FY27",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "margin details for AI content licensing due to client confidentiality clauses"
+      ],
+      "margin_drivers": [
+        "paper/logistics/transportation/packaging cost inflation",
+        "NCF implementation benefits",
+        "AI content licensing margins (90% for in-house content)",
+        "product mix improvements"
+      ]
+    },
+    "Excel Industries": {
+      "company": "Excel Industries",
+      "ticker": "EXCELINDUS",
+      "sector": "Commodities",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c02cb2c6-7732-4dca-98e9-55ea889269b2.pdf",
+      "transcript_id": "excel-industries_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T11:15:15.946Z",
+      "summary": "Management expects growth driven by capacity additions, contract manufacturing, and biocides, with margin improvement from portfolio shift, but remains cautious on near-term agrochemical demand due to monsoon uncertainty.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY28",
+          "statement": "INR200-300 crores capex planned over next 2-3 years with expected fixed asset turnover of 1-1.5x and ROI of 15-20%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Contract manufacturing capacity",
+          "horizon": "July 2026",
+          "statement": "Dedicated line for contract manufacturing agreement expected to be completed by July 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Biocides product launches",
+          "horizon": "H2FY27",
+          "statement": "Plans to launch one more biocide product in the second half of FY27 to enhance product offerings.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (agrochemical intermediates)",
+          "horizon": "FY27",
+          "statement": "Agrochemical intermediate proportion expected to reduce going forward as other businesses grow.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Margin improvement",
+          "horizon": "FY27-FY28",
+          "statement": "Additional non-agro businesses expected to be value and margin accretive.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Performance Solutions growth",
+          "horizon": "FY27-FY28",
+          "statement": "Biocides identified as fastest-growing segment within Performance Solutions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "YP derivatives growth",
+          "horizon": "FY27-FY28",
+          "statement": "YP derivatives identified as a growth area for capex deployment.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Phosphonates market share",
+          "horizon": "FY27",
+          "statement": "Domestic market share in phosphonates estimated at 50-55%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export markets (EU/US)",
+          "horizon": "FY27-FY28",
+          "statement": "Exploring opportunities in EU market post India-EU FTA ratification.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material price pass-through",
+          "horizon": "Q1FY27",
+          "statement": "Largely able to pass on raw material price increases in April and May 2026.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Anti-dumping case (HCDP/ATMP)",
+          "horizon": "September 2026",
+          "statement": "Preliminary findings expected by September 2026 for ongoing DGTR investigations.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Contract manufacturing customer qualifications",
+          "horizon": "FY27",
+          "statement": "Existing contract manufacturing agreements progressing; new opportunities being explored.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue growth CAGR",
+        "Breakdown of INR200-300 crores capex by segment",
+        "Percentage of revenue affected by anti-dumping case",
+        "Specific impact of China VAT refund removal on landed prices",
+        "Raw material cost breakdown (sulfur/YP)",
+        "Future PAT margins",
+        "Future EBITDA margins",
+        "Volume growth in polymer inputs segment",
+        "Impact of global polycarbonate slowdown on volumes"
+      ],
+      "margin_drivers": [
+        "Portfolio shift away from agrochemical intermediates",
+        "Value accretive non-agro businesses (Performance Solutions, YP derivatives, contract manufacturing)",
+        "Biocides growth within Performance Solutions",
+        "Raw material price pass-through",
+        "Contract manufacturing agreements (less impacted by raw material fluctuations)"
+      ]
     }
   },
-  "generated_at": "2026-06-27T09:40:43.802Z",
-  "count": 335
+  "generated_at": "2026-06-27T11:15:17.474Z",
+  "count": 341
 }
