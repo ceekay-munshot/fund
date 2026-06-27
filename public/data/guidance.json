@@ -32466,8 +32466,582 @@
         "Working capital discipline and DSO improvement",
         "Rate escalations in PPP contracts (2%-5%)"
       ]
+    },
+    "Omnitech Engg.": {
+      "company": "Omnitech Engg.",
+      "ticker": "OMNI",
+      "sector": "Industrials",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bd3b520-6e06-465e-ba43-5dc7e789561f.pdf",
+      "transcript_id": "omnitech-engg_2026-05-29",
+      "provider": "groq",
+      "generated_at": "2026-06-27T04:39:24.198Z",
+      "summary": "Omnitech Engineering expects to continue its growth trajectory, driven by a strong order book and expansion of manufacturing capabilities.",
+      "guidance": [
+        {
+          "metric": "Order book",
+          "horizon": "FY27 and beyond",
+          "statement": "The order book stands at over INR 3,000 crores, with a strong pipeline and growth visibility.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "The company expects to execute the large order book, with a gradual ramp-up in revenue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "FY27",
+          "statement": "The company is expanding its manufacturing capabilities, with new facilities in Hyderabad and Chhapara.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "The company expects margins to revert back to earlier levels, after a one-time compression in Q4.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific revenue growth numbers for FY27",
+        "Detailed breakdown of order book by customer and geography"
+      ],
+      "margin_drivers": [
+        "Disciplined execution",
+        "Operational excellence",
+        "Capacity expansion"
+      ]
+    },
+    "Time Technoplast": {
+      "company": "Time Technoplast",
+      "ticker": "TIMETECHNO",
+      "sector": "Industrials",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.timetechnoplast.com/wp-content/uploads/2026/06/q4-and-year-ended-transcript-2026.pdf",
+      "transcript_id": "time-technoplast_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T04:39:31.989Z",
+      "summary": "Management expects sustained growth driven by volume expansion, value-added product mix shift, automation, and green energy adoption, with PAT growth likely exceeding revenue growth over the medium term.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Targeting 15% annual volume growth on a consolidated basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Revenue growth may differ based on polymer prices (derivative of oil and gas), but absolute EBITDA per ton is expected to be maintained",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA growth",
+          "horizon": "FY27 and beyond",
+          "statement": "EBITDA growth expected to exceed volume growth by ~2% (e.g., 17% vs 15% volume growth)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT growth",
+          "horizon": "FY27 and beyond",
+          "statement": "PAT growth expected to be at least 21% annually, potentially higher due to declining interest costs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Composite product growth",
+          "horizon": "3 years",
+          "statement": "Composite product segment expected to grow over 25% annually, increasing its share in total sales",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Value-added product share",
+          "horizon": "2-3 years",
+          "statement": "Targeting to increase value-added product share from current 29% to higher levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27 and beyond",
+          "statement": "EBITDA margin expected to improve by 20-30 basis points annually due to automation, consolidation, and value-added product mix shift",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE improvement",
+          "horizon": "FY27 and beyond",
+          "statement": "Targeting 1.5% to 2% annual improvement in ROCE through automation, re-engineering, and consolidation",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "12-18 months",
+          "statement": "Committed to becoming debt-free within the next 12 to 18 months",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Green energy adoption",
+          "horizon": "2 years",
+          "statement": "Committed to transitioning 75% of power consumption to green energy through solar power partnerships",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Non-core asset realization",
+          "horizon": "18-24 months",
+          "statement": "Targeting realization of INR134 crores from identified non-core assets over the next 18 to 24 months",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27 and beyond",
+          "statement": "Normal capex requirement expected to be INR250-300 crores annually for brownfield expansion and growth",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "West Asia geopolitical impact on overseas operations",
+        "Specific LPG cylinder tender timelines from government PSUs"
+      ],
+      "margin_drivers": [
+        "Automation and re-engineering of machinery",
+        "Consolidation of products and manufacturing units",
+        "Shift towards higher-margin value-added products (composite products, IBCs)",
+        "Reduction in energy expenses via green energy adoption",
+        "Reduction in finance costs through debt reduction",
+        "Operational leverage from capacity optimization",
+        "Pass-through of polymer price increases to customers"
+      ]
+    },
+    "ICRA": {
+      "company": "ICRA",
+      "ticker": "ICRA",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8223cab5-58c3-45d8-8a4b-dffae80d6836.pdf",
+      "transcript_id": "icra_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T04:39:40.495Z",
+      "summary": "ICRA expects FY27 revenue growth to be driven by Ratings segment growth and Research & Analytics expansion, with margin improvement from operating leverage and product-led offerings, though macro headwinds may moderate growth.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Ratings segment expected to grow double-digit driven by bank credit growth, while Research & Analytics growth to be supported by regulatory-driven demand for risk modeling and compliance solutions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Ratings revenue growth",
+          "horizon": "FY27",
+          "statement": "Bank credit expected to drive bulk of growth, with bond market activity subdued due to elevated yields.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Research & Analytics revenue growth",
+          "horizon": "medium-term",
+          "statement": "Regulatory developments (e.g., banks transition to expected credit loss framework from April 2027) expected to sustain demand for risk modeling, data infrastructure, and compliance-oriented solutions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Ratings segment margins expected to improve with double-digit revenue growth due to operating leverage and technology investments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Research & Analytics)",
+          "horizon": "medium-term",
+          "statement": "Product-led businesses (BankTech, CapTech) expected to achieve 20-35% EBITDA margins, with margin improvement driven by revenue mix shift away from lower-margin KnowTech services.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI integration",
+          "horizon": "medium-term",
+          "statement": "AI-powered agents and tools being deployed to enhance operational efficiency and client value proposition, with deep domain expertise remaining core.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Global footprint expansion",
+          "horizon": "medium-term",
+          "statement": "Focus on deeper global engagement and client base expansion to support long-term growth in Research & Analytics.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "KnowTech segment growth",
+          "horizon": "FY27",
+          "statement": "Knowledge services business expected to see moderation in growth due to discontinuation of certain engagements and automation trends.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Fintellix/D2K synergies",
+          "horizon": "next 2 years",
+          "statement": "Deeper integration of Fintellix and D2K acquisitions expected to drive customer relationship expansion and solution offering growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Moody's-related knowledge services growth",
+          "horizon": "FY27",
+          "statement": "Growth expected to moderate, with no expectation of higher double-digit growth.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Capital allocation",
+          "horizon": "FY27",
+          "statement": "Management will continue to evaluate capital allocation options, including dividends and buybacks, considering tax rule changes.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "FY27",
+          "statement": "Consistent increase in dividend payout observed over the last 3 years, with INR 70 per share normal dividend declared for FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific revenue growth numbers for FY27",
+        "Exact EBITDA margin targets for Ratings segment",
+        "Organic vs. inorganic growth split for Research & Analytics",
+        "Quantitative impact of AI integration on margins or productivity"
+      ],
+      "margin_drivers": [
+        "Operating leverage from double-digit revenue growth",
+        "Shift in revenue mix toward higher-margin product-led businesses (BankTech, CapTech)",
+        "Technology investments and AI integration",
+        "Consolidation of acquisitions (Fintellix, D2K)",
+        "Global footprint expansion"
+      ]
+    },
+    "Divi's Lab.": {
+      "company": "Divi's Lab.",
+      "ticker": "DIVISLAB",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=935b6619-ebf7-48e4-bb29-d5197eadec03.pdf",
+      "transcript_id": "divi-s-lab_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T04:39:49.619Z",
+      "summary": "Management expects mid-single-digit revenue growth with stable margins in FY27, supported by capacity additions and custom synthesis projects, while navigating supply chain and cost pressures.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Management expects regular revenue growth, aiming for double-digit growth historically and continuing this trend.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin outlook",
+          "horizon": "FY27",
+          "statement": "Management expects margins to remain stable, declining to provide a specific figure due to current uncertainties.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capital work in progress stands at ₹2,113 crores, with ₹600 crores already capitalized at Kakinada for a ₹1,500 crores expansion plan.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material availability",
+          "horizon": "Q1FY27",
+          "statement": "Management is securing supplies on a quarterly basis to ensure continuity, with no production stoppages but ongoing challenges in sourcing materials like methanol and solvents.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Freight cost pressures",
+          "horizon": "near term",
+          "statement": "Freight-related cost pressures are expected to continue in the near term and have been incorporated into planning for the coming quarters.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Custom synthesis project pipeline",
+          "horizon": "medium-term",
+          "statement": "Project pipeline remains active with molecules progressing through development to near commercialization, positioning the company to participate meaningfully in opportunities.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Peptide business capacity",
+          "horizon": "medium-term",
+          "statement": "Investments in solid phase and liquid phase synthesis capabilities are ongoing to support customer requirements across multiple phases of development.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Unit 3 capacity utilization",
+          "horizon": "medium-term",
+          "statement": "Operations at Unit 3 are steadily progressing, with gradual transfer of select activities from Unit 1 and Unit 2 to free up GMP space and optimize capacity.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory levels",
+          "horizon": "Q1FY27",
+          "statement": "Inventory levels are expected to increase in Q1FY27 as material is secured to ensure production continuity and supply reliability.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic procurement",
+          "horizon": "medium-term",
+          "statement": "Efforts to strengthen domestic procurement network are ongoing to navigate volatility and reduce dependency on imports.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Generic pricing pressure",
+          "horizon": "FY27",
+          "statement": "Generic business faces slight pricing pressure, but customers are understanding and discussions are ongoing to manage pricing at both ends.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Long-term contracts with variability clauses",
+          "horizon": "ongoing",
+          "statement": "Most generic APIs are backed by long-term contracts with variability clauses that protect against raw material price increases.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "specific timeline for custom synthesis project commercialization",
+        "exact margin percentage for FY27",
+        "percentage shift of products from Unit 1/Unit 2 to Unit 3",
+        "specific impact of GLP-led capex on global demand"
+      ],
+      "margin_drivers": [
+        "custom synthesis business mix",
+        "raw material cost inflation",
+        "freight cost pressures",
+        "generic pricing pressure",
+        "supply chain resilience and domestic procurement",
+        "capacity optimization and Unit 3 utilization"
+      ]
+    },
+    "Power Mech Proj.": {
+      "company": "Power Mech Proj.",
+      "ticker": "POWERMECH",
+      "sector": "Industrials",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a55e7df9-dd14-4a87-955f-fd0eb9d01487.pdf",
+      "transcript_id": "power-mech-proj_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T04:39:57.920Z",
+      "summary": "Management expects sustained growth driven by strong order pipeline, diversification into high-margin O&M and EPC segments, and visibility through FY30.",
+      "guidance": [
+        {
+          "metric": "Order inflow",
+          "horizon": "FY27",
+          "statement": "Targeting order inflow of around INR 12,000 crores for FY27, up from FY26's INR 7,210 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order backlog",
+          "horizon": "FY27",
+          "statement": "Total order backlog stands at approximately INR 55,151 crores, providing multiyear revenue visibility.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Projecting 21% revenue growth for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting EBITDA margin to improve to 12.5% in FY27, including other income.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MDO revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Projecting INR 500 crores revenue from MDO in FY27 and INR 1,250 crores in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MDO EBITDA margin",
+          "horizon": "FY27-FY29",
+          "statement": "Blended EBITDA margin for MDO projects expected to reach 20% at peak capacity by FY29-FY30, with 1% YoY improvement.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "KBP mine revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Projecting INR 350 crores revenue from KBP mine in FY27 and INR 500 crores in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tasra mine revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Projecting INR 150 crores revenue from Tasra mine in FY27 and INR 750 crores in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MDO revenue mix",
+          "horizon": "FY27-FY28",
+          "statement": "MDO mix expected to be 7% in FY27 and 13% in FY28 revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "O&M revenue growth",
+          "horizon": "FY27",
+          "statement": "Expecting high-value orders in O&M division in FY27, with increased focus on high-margin recurring business.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EPC revenue growth",
+          "horizon": "FY27",
+          "statement": "Expecting more revenue from EPC business in FY27 as it scales up.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Thermal BOP EPC orders",
+          "horizon": "FY27",
+          "statement": "Aiming to secure one more BOP EPC order worth INR 15,000 crores in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material inflation impact on margins beyond FY27",
+        "Specific capex plans for FY27-FY28",
+        "Dividend policy for FY27"
+      ],
+      "margin_drivers": [
+        "Increase in high-margin O&M business share",
+        "Scaling up of EPC business",
+        "Ramp-up of MDO projects to peak capacity",
+        "Improved realization of receivables and working capital management",
+        "Release of funds for water division certification delays",
+        "Escalation clauses in contracts to offset raw material inflation"
+      ]
+    },
+    "AIA Engineering": {
+      "company": "AIA Engineering",
+      "ticker": "AIAENG",
+      "sector": "Industrials",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69b2fe4b-4344-4d6a-9375-c6eb9833ddd0.pdf",
+      "transcript_id": "aia-engineering_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T04:40:05.633Z",
+      "summary": "Management expects medium-term growth driven by solution-based offerings (linings + discharge systems) and capacity expansion, though near-term volume guidance remains vague.",
+      "guidance": [
+        {
+          "metric": "Realization per kg",
+          "horizon": "FY27",
+          "statement": "Sustainable realization expected around INR165/kg, considering product mix and excluding one-off currency benefits.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Current utilization at ~55%, with potential to reach 70%-75% within existing capacity; incremental capacity additions possible in 6-12 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating margin (excluding other income)",
+          "horizon": "FY27",
+          "statement": "Operating margins expected in the range of 24%-26% as volume grows and product mix tilts toward higher-volume grinding media.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Total maintenance capex and renewable balancing investment expected between INR100-150 crores.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Renewable energy portfolio",
+          "horizon": "June-July 2026",
+          "statement": "60%-65% of power to come from renewable sources once new installations are operational.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solution-based offerings (linings + discharge systems)",
+          "horizon": "Medium-term",
+          "statement": "Strategy shift to focus on solution-based offerings (linings + discharge systems) to drive disproportionate customer benefits and volume growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "Medium-term",
+          "statement": "Potential for significant volume growth as solution-based offerings gain traction, though no specific volume guidance provided.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Addressable market",
+          "horizon": "Medium-term",
+          "statement": "Addressable market for gold and copper mining solutions estimated at 800,000-1,000,000 tons, with potential for rapid adoption once critical mass of references is achieved.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "specific volume growth for FY27",
+        "order book details beyond immediate next orders",
+        "timeline for Ghana and China plant investments",
+        "takeover or buyout plans",
+        "detailed breakdown of metallic vs. composite mill liner utilization"
+      ],
+      "margin_drivers": [
+        "solution-based offerings (linings + discharge systems)",
+        "product mix shift toward grinding media",
+        "renewable energy portfolio reducing power costs",
+        "currency benefits (if INR remains weak)",
+        "cost-saving initiatives and balancing equipment upgrades"
+      ]
     }
   },
-  "generated_at": "2026-06-27T00:19:32.240Z",
-  "count": 317
+  "generated_at": "2026-06-27T04:40:07.160Z",
+  "count": 323
 }
