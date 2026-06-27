@@ -39179,8 +39179,610 @@
         "bio-based formulations",
         "cost discipline"
       ]
+    },
+    "Jubilant Pharmo": {
+      "company": "Jubilant Pharmo",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71a29434-2d98-42bc-81c9-221b412a83a7.pdf",
+      "transcript_id": "jubilant-pharmo_2026-05-27",
+      "provider": "groq",
+      "generated_at": "2026-06-27T22:42:46.885Z",
+      "summary": "Jubilant Pharmova expects growth momentum to strengthen in FY2027, with EBITDA margin improving from H2 FY2027 onwards.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY2027",
+          "statement": "Low double-digit growth expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "H2 FY2027 onwards",
+          "statement": "Expected to start strengthening",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Line 3 revenue",
+          "horizon": "FY2027",
+          "statement": "Expected to generate $80-90 million",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Radiopharma revenue",
+          "horizon": "FY2028",
+          "statement": "Expected to return to regular growth rate",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "MIBG approval",
+          "horizon": "H2 FY2027",
+          "statement": "Expected to file NDA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY2027",
+          "statement": "Similar to FY2026, around Rs.1,668 Crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net debt",
+          "horizon": "FY2030",
+          "statement": "Aim to achieve net debt zero",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Allergy business revenue",
+          "horizon": "FY2027",
+          "statement": "Growth driven by non-US markets and higher share in US market",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific numbers for FY2029",
+        "Priority review voucher for MIBG"
+      ],
+      "margin_drivers": [
+        "Custom manufacturing revenue",
+        "Improved utilization of CMO Montreal",
+        "Growth in Ruby-Fill business"
+      ]
+    },
+    "Samhi Hotels": {
+      "company": "Samhi Hotels",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41038cc4-c2a5-46e3-bde1-6bf931f1ceae.pdf",
+      "transcript_id": "samhi-hotels_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T22:42:55.541Z",
+      "summary": "Management expects strong free cash flow growth over FY27-FY31 driven by same-store revenue growth, new openings, and capital recycling, while targeting net debt-to-EBITDA of ~2.5x and disciplined capital allocation.",
+      "guidance": [
+        {
+          "metric": "Same-store revenue growth",
+          "horizon": "FY27",
+          "statement": "Comfortably grow in the range of 9% to 10% year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Total revenue growth",
+          "horizon": "FY27",
+          "statement": "Underwritten in the range of 10% to 11% year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Same-store revenue growth",
+          "horizon": "FY28",
+          "statement": "Expected to add 6% to 7% year-on-year growth due to new W Hyderabad opening",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to be around 38% or so, maintaining 38%-plus margins at group level",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Interest cost",
+          "horizon": "FY27",
+          "statement": "Guiding towards INR 135-odd crores to INR 140 crores, factoring in potential 25 bps interest rate increase",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Allocated INR 250 crores to INR 270 crores, primarily for W Hyderabad and Westin Bangalore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY28",
+          "statement": "Expected to maintain similar range of INR 250 crores to INR 270 crores, directed towards Westin Bangalore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net debt-to-EBITDA",
+          "horizon": "Medium to long-term",
+          "statement": "Targeting net debt-to-EBITDA of approximately 2.5x",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Free cash flow",
+          "horizon": "FY27-FY31",
+          "statement": "Cumulative free cash flow of more than INR 3,000 crores over the 5-year period",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Free cash flow",
+          "horizon": "FY27",
+          "statement": "Base free cash flow of INR 315 crores on a run-rate basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capital recycling",
+          "horizon": "Ongoing",
+          "statement": "Will continue to evaluate capital recycling within the portfolio to maximize returns and accelerate deleveraging",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "M&A and variable leases",
+          "horizon": "Ongoing",
+          "statement": "Will allocate investable surplus for tactical mergers and acquisitions and adding long-term variable leases where returns are attractive",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Detailed breakdown of revenue growth beyond FY28",
+        "Specific EBITDA margin guidance beyond FY27",
+        "Exact timing of future asset monetizations or acquisitions"
+      ],
+      "margin_drivers": [
+        "Same-store revenue growth",
+        "New hotel openings (e.g., W Hyderabad, Westin Bangalore)",
+        "Capital recycling and deleveraging",
+        "Operational efficiency improvements",
+        "GST normalization from FY27 onwards"
+      ]
+    },
+    "Star Imaging": {
+      "company": "Star Imaging",
+      "ticker": "544482",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a61fd50-4115-48bf-b028-813d0ca5a5e8.pdf",
+      "transcript_id": "star-imaging_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T22:43:03.134Z",
+      "summary": "Management expects 25%-30% revenue growth over FY27-FY28 with stable EBITDA margins and INR20-25 crore capex for expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27-FY28",
+          "statement": "25%-30% growth expected annually",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Targeting INR110-120 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Sustainable at current levels (~37.5%)",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "Stable around 21.6%-22%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "INR20-25 crores planned for new centres and equipment",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New diagnostic centres",
+          "horizon": "FY27",
+          "statement": "One new centre opening in next two months; additional projects in pipeline",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dwarka centre",
+          "horizon": "FY27",
+          "statement": "Expected revenue INR5-6 crores annually; EBITDA margin ~35%-40%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Payback period",
+          "horizon": "FY27",
+          "statement": "2.5-3 years for new centres",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Break-even period",
+          "horizon": "FY27",
+          "statement": "6-8 months for most centres; 12 months for high-investment centres like Dwarka",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Debt",
+          "horizon": "FY27-FY28",
+          "statement": "No additional debt expected unless large government tenders require it",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Working capital",
+          "horizon": "Next quarter",
+          "statement": "Further normalisation expected as government payment cycle improves",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "B2C segment focus",
+          "horizon": "Medium-term",
+          "statement": "Primary growth driver; B2G dependent on tenders",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Promoter stake increase plans"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Business mix improvement",
+        "Cost optimization",
+        "Volume growth in B2C segment"
+      ]
+    },
+    "E to E Transportation": {
+      "company": "E to E Transportation",
+      "ticker": "E2ERAIL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/ETOETRANS_27052026230134_Investor_Meet_Transcript_27052026.pdf",
+      "transcript_id": "e-to-e-transportation_2026-05-27",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T22:43:10.943Z",
+      "summary": "Management expects 45-50% revenue CAGR with sustainable profitability and improved cash flow cycles in FY27, driven by strong order book and NOVA's future contributions.",
+      "guidance": [
+        {
+          "metric": "Revenue CAGR",
+          "horizon": "FY27",
+          "statement": "Maintain 45% to 50% growth momentum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Target new orders of INR1,000 crores in FY27, with INR350 crores already secured in first 45 days",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Executable order book including L1 positions stands at approximately INR860 crores plus GST (INR1,000 crores including GST)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Medium-term margin trajectory remains positive with future expansions driven by NOVA product integration, higher engineering contribution, and O&M revenues",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating cash flow",
+          "horizon": "FY27",
+          "statement": "Expect operating cash flow quality to improve materially over coming quarters as order cycle stabilizes and billing distribution normalizes",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating cash flow",
+          "horizon": "FY27",
+          "statement": "Target operating cash flow neutral by end of FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "FY27",
+          "statement": "Debtor days for railway receivables around 60 to 70 days, with efforts to normalize working capital cycles",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "NOVA capex",
+          "horizon": "FY27",
+          "statement": "Investment plan of around INR15 crores into NOVA in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NOVA revenue contribution",
+          "horizon": "FY28",
+          "statement": "Field trial orders (INR15-20 crores) for NOVA to start reflecting revenue from Q1 FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NOVA order book inclusion",
+          "horizon": "Q4 FY27",
+          "statement": "Kavach order book to reflect in order book in Q4 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "O&M/AMC annuity revenue",
+          "horizon": "FY27/FY28",
+          "statement": "Actively working with metros to expand annuity revenue from O&M and AMC contracts",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International opportunities",
+          "horizon": "medium-term",
+          "statement": "Evaluating international opportunities in Southeast Asia, Middle East, and Africa, though approach remains cautious and calibrated",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue or margin targets for FY28 and beyond",
+        "Specific details on international market entry timelines or revenue contributions"
+      ],
+      "margin_drivers": [
+        "NOVA product integration",
+        "Higher engineering contribution through EDRC",
+        "O&M revenues",
+        "Stronger signaling mix",
+        "B2B segment growth with lower working capital intensity"
+      ]
+    },
+    "Classic Electrod": {
+      "company": "Classic Electrod",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-26",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/CLASSICELECTRODES_26052026140552_CLASSIC_TRANSCRIPT_Signed.pdf",
+      "transcript_id": "classic-electrod_2026-05-26",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T22:43:18.227Z",
+      "summary": "Management expects revenue growth in FY27 driven by new product lines and improved margins, contingent on normalization of global supply chain disruptions.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Anticipated revenue between INR330 crores to INR350 crores on standalone basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (ERC business)",
+          "horizon": "FY27",
+          "statement": "ERC business to contribute INR30 crores to INR35 crores starting July",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Flux-cored wire)",
+          "horizon": "FY27",
+          "statement": "Flux-cored wire to contribute INR20 crores to top line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Associate company)",
+          "horizon": "FY27",
+          "statement": "Associate company expected to generate INR200 crores revenue, with 15% contribution to Classic",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Targeting gross margin improvement to 15% from 12% in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Implied EBITDA margin of ~11-12% if gross margin reaches 15%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization (Flux-cored wire)",
+          "horizon": "FY27",
+          "statement": "Flux-cored wire capacity utilization expected to improve from 15% to optimal levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New facility (South India)",
+          "horizon": "medium-term",
+          "statement": "New facility near Nagpur or Chennai remains on cards but land identification is pending",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material price pass-through",
+          "horizon": "FY27",
+          "statement": "Efforts to pass on raw material price fluctuations to customers to safeguard margins",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Demand outlook",
+          "horizon": "H1FY27",
+          "statement": "Pressure on direct supplies to wagon builders but dealer distribution network stable",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact EBITDA or PAT figures for FY27",
+        "Specific EBITDA margin range for FY27",
+        "Quantitative details on margin improvement drivers beyond gross margin target"
+      ],
+      "margin_drivers": [
+        "Flux-cored wire scale-up",
+        "Raw material price pass-through",
+        "Operational efficiency improvements",
+        "Product mix shift towards higher-margin manufacturing"
+      ]
+    },
+    "Parth Electrical": {
+      "company": "Parth Electrical",
+      "ticker": "PARTH",
+      "sector": "Industrials",
+      "concall_date": "2026-05-26",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/PARTH_26052026203242_Intimation_of_transcript_signed.pdf",
+      "transcript_id": "parth-electrical_2026-05-26",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T22:43:25.388Z",
+      "summary": "Management expects 25-30% revenue growth over the next 3-5 years driven by new product launches, export expansion, and government-led power sector investments.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "next 3-5 years",
+          "statement": "Expect at least 25% to 30% growth in revenue over the next three to five years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Strong order book of INR271 crores to be executed mostly in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "INR20 crores capex planned for Karachiya GIS factory in Baroda and INR19 crores for Odisha facility",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export markets",
+          "horizon": "FY27",
+          "statement": "Intensified focus on newer geographies with products dispatched to USA, Zambia, Bhutan, and Nepal",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "FY27",
+          "statement": "33kV RMU, medium voltage panels, 220kV and 400kV control and protection relay panels to be added to portfolio",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GIS manufacturing facility",
+          "horizon": "September 2026",
+          "statement": "GIS manufacturing facility inauguration planned for September 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Odisha facility timeline",
+          "horizon": "October 2026",
+          "statement": "Odisha facility timeline shortened from May 2027 to October 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Data center business",
+          "horizon": "FY27 and beyond",
+          "statement": "Significant contribution expected from data center business in India and abroad (Africa, Middle East)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Skill Development Center",
+          "horizon": "ongoing",
+          "statement": "Skill Development Center inaugurated on May 26, 2026, to enhance workforce skills and reduce training costs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Training investment",
+          "horizon": "ongoing",
+          "statement": "Continuing to invest in training, including INR30-35 lakhs spent last year in Switzerland",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital",
+          "horizon": "FY27",
+          "statement": "Working capital requirement reduced from INR33 crores to INR17 crores, with INR15 crores used for short-term borrowings repayment",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Value-added order booking",
+          "horizon": "ongoing",
+          "statement": "Focus on value-added order booking to drive top-line and bottom-line growth",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "new product launches (33kV RMU, medium voltage panels, 220kV/400kV relay panels)",
+        "export market expansion (USA, Zambia, Bhutan, Nepal, Africa, Middle East)",
+        "government-led power sector investments (RDSS scheme, National Electricity Plan capex of INR9.16 lakh crores)",
+        "data center demand growth",
+        "value-added services (refurbishment, after-sales support, specialized services)",
+        "order book execution (INR271 crores)",
+        "operational efficiency (working capital reduction, capex optimization)"
+      ]
     }
   },
-  "generated_at": "2026-06-27T21:42:31.250Z",
-  "count": 383
+  "generated_at": "2026-06-27T22:43:26.915Z",
+  "count": 389
 }
