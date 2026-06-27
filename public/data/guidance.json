@@ -31868,8 +31868,606 @@
         "Private label portfolio",
         "Integrated manufacturing-to-retail model"
       ]
+    },
+    "Vertis Infra.": {
+      "company": "Vertis Infra.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/HIGHWAYS_29052026144159_SE_Intimation_Vertis_Audio_Call_and_Transcript.pdf",
+      "transcript_id": "vertis-infra_2026-05-29",
+      "provider": "groq",
+      "generated_at": "2026-06-27T00:18:51.035Z",
+      "summary": "Vertis Infrastructure Trust expects to continue delivering scale, performance, and financial discipline in the future, with a focus on long-term cash flow quality and resilience.",
+      "guidance": [
+        {
+          "metric": "Traffic growth",
+          "horizon": "Medium-term",
+          "statement": "Portfolio has strong traffic growth of 7.2% on a 7-year CAGR basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost of debt",
+          "horizon": "FY27",
+          "statement": "Reduced cost of debt to 7.32% in FY26, with a goal to maintain low cost of borrowing",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Distribution per unit (DPU)",
+          "horizon": "FY27",
+          "statement": "Aim to continue distributing cash to unit holders, with a DPU of INR 12 per unit in FY26",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net debt to AUM",
+          "horizon": "Medium-term",
+          "statement": "Net debt to AUM at 41.3%, with significant headroom for growth",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintained a healthy EBITDA margin of 88% in FY26",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operational focus",
+        "Technology intervention",
+        "Strong corporate finance capabilities"
+      ]
+    },
+    "Pennar Industrie": {
+      "company": "Pennar Industrie",
+      "ticker": "PENIND",
+      "sector": "Industrials",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14e3ce75-dcf9-4306-bc0f-b34da2f0d874.pdf",
+      "transcript_id": "pennar-industrie_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T00:18:59.319Z",
+      "summary": "Management expects continued revenue and profitability growth in FY27 driven by strong order backlogs, mix shift to high-margin businesses, and operational discipline.",
+      "guidance": [
+        {
+          "metric": "PAT growth",
+          "horizon": "FY27",
+          "statement": "Management committed to 20% PAT growth for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Management expects double-digit revenue growth, with PEB India capacity utilization and order backlog improving quarter-on-quarter.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PEB India order backlog",
+          "horizon": "next 3 months",
+          "statement": "Management expects order backlog to reach a higher level in the next 3 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PEB India revenue growth",
+          "horizon": "FY27",
+          "statement": "Management expects PEB India to grow at a double-digit rate in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PEB U.S. revenue momentum",
+          "horizon": "FY27",
+          "statement": "Management expects continued momentum in PEB U.S. as Ascent Structural scales.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin trajectory",
+          "horizon": "FY27",
+          "statement": "Management expects PAT margins to continue improving as revenue mix shifts toward higher-margin businesses.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin trajectory",
+          "horizon": "FY27",
+          "statement": "Management expects EBITDA margins to continue improving year-on-year.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "next few quarters",
+          "statement": "Management aims to reduce working capital days from 82 to 75 in the next few quarters.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Consolidated tax rate",
+          "horizon": "FY27",
+          "statement": "Management guides to a consolidated tax rate of approximately 25.5% (25%-26%).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Boilers and process equipment order pipeline",
+          "horizon": "FY27",
+          "statement": "Management expects boilers and process equipment to be a major growth lever for the company entering FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Engineering Services growth",
+          "horizon": "FY27",
+          "statement": "Management expects Engineering Services to continue outperforming, supported by U.S. sales investments and AI-assisted design adoption.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE and ROE",
+          "horizon": "FY27",
+          "statement": "Management expects ROCE and ROE to improve further as performance scales and capital allocation remains disciplined.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue or margin forecast for specific quarters within FY27",
+        "Exact percentage contribution of new vs. legacy revenue streams beyond qualitative ranges"
+      ],
+      "margin_drivers": [
+        "Shift in revenue mix toward higher-margin businesses (PEB U.S., Engineering Services, Hydraulics, BIW)",
+        "Operating leverage from increased capacity utilization",
+        "AI-assisted design and detailing in Engineering Services",
+        "Disciplined working capital management",
+        "Capital allocation into businesses with clear 'right to play' and 'right to win'"
+      ]
+    },
+    "Max Healthcare": {
+      "company": "Max Healthcare",
+      "ticker": "MAXHEALTH",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+      "transcript_id": "max-healthcare_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T00:19:07.080Z",
+      "summary": "Management expects sustained growth driven by phased commissioning of new capacities, integration of acquisitions, and capital discipline, with EBITDA margins supported by operating leverage and cost discipline.",
+      "guidance": [
+        {
+          "metric": "Capacity addition (brownfield)",
+          "horizon": "next 2-3 months",
+          "statement": "Over 20% additional brownfield capacity across Mohali, Nanavati (Mumbai), and Max Smart (Delhi) to be operationalized in the next 2-3 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition (greenfield)",
+          "horizon": "FY27",
+          "statement": "500-bed greenfield hospital in Sector 56, Gurgaon to be commissioned by the end of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition (greenfield)",
+          "horizon": "FY28",
+          "statement": "100-bed hospital in Nagpur expected to be commissioned by FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition (greenfield)",
+          "horizon": "FY28",
+          "statement": "400-bed hospital in Zirakpur, Mohali expected to be commissioned by FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition (greenfield)",
+          "horizon": "24 months post approval",
+          "statement": "260-bed hospital in Dwarka expected to take 24 months to complete post building plan submission.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition (greenfield)",
+          "horizon": "24 months post approval",
+          "statement": "200-bed hospital in Vaishali expected to take 24 months to complete post receipt of approvals.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition (greenfield)",
+          "horizon": "FY29",
+          "statement": "400-bed hospital in Patparganj expected to be commissioned by FY29.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition (greenfield)",
+          "horizon": "FY27",
+          "statement": "700-bed greenfield hospital at Shaheed Path, Lucknow with INR 1,400 crore investment approved by the Board.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Significant operating leverage expected as newly commissioned capacities ramp up, improving EBITDA margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy",
+          "horizon": "next 2-3 months",
+          "statement": "Newly commissioned beds expected to achieve high occupancy levels quickly, supporting revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Kalinga Hospital (Bhubaneswar) EBITDA",
+          "horizon": "FY27",
+          "statement": "Kalinga Hospital expected to contribute INR 10 crore annual EBITDA post-acquisition.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gurgaon greenfield breakeven",
+          "horizon": "FY28",
+          "statement": "Gurgaon greenfield hospital expected to break even within FY28, with phased operationalization starting with ~200 beds.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue growth targets for FY27",
+        "net debt or leverage targets beyond current disclosures",
+        "detailed capex breakdown beyond announced projects"
+      ],
+      "margin_drivers": [
+        "phased commissioning of new capacities",
+        "operating leverage from ramp-up of new beds",
+        "integration of Kalinga Hospital",
+        "cost discipline in doctor hiring and operations",
+        "CGHS rate revisions (partially flowed through)",
+        "shift from low-margin oncology drugs to other specialties"
+      ]
+    },
+    "Ajmera Realty": {
+      "company": "Ajmera Realty",
+      "ticker": "AJMERA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b0c9d39-1b1b-4592-b015-a824fb2cfea3.pdf",
+      "transcript_id": "ajmera-realty_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T00:19:15.039Z",
+      "summary": "Ajmera Realty expects disciplined growth in FY27 with a presales target of INR2,200 crore, driven by a strong launch pipeline and asset-light strategy, while maintaining financial prudence.",
+      "guidance": [
+        {
+          "metric": "Presales",
+          "horizon": "FY27",
+          "statement": "Targeting presales of around INR2,200 crore for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Project additions",
+          "horizon": "FY27",
+          "statement": "Targeting INR1,800 crore of highly selective project additions",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-to-equity ratio",
+          "horizon": "FY27",
+          "statement": "Guidance to move debt-to-equity ratio to 1.00x",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue visibility",
+          "horizon": "FY27-FY31",
+          "statement": "Overall revenue visibility of INR10,432 crore, including INR6,324 crore from upcoming launch pipeline",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Collections",
+          "horizon": "FY27",
+          "statement": "Expecting significant collections from a GDV of INR19,518 crore across strategic land bank and launch pipeline",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Kanjurmarg project launch",
+          "horizon": "H2FY27",
+          "statement": "Aiming to launch the Kanjurmarg project in H2FY27, subject to regulatory clearances",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Boutique offices launch",
+          "horizon": "Q3FY27",
+          "statement": "Planning to launch boutique offices in Wadala in Q3FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Manhattan Phase 3 launch",
+          "horizon": "FY27",
+          "statement": "Manhattan Phase 3 is part of further launches planned within FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Borivali redevelopment launch",
+          "horizon": "Q3FY27",
+          "statement": "Borivali redevelopment project expected to launch in Q3FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Business development pipeline",
+          "horizon": "FY27",
+          "statement": "Focus on new project launches and existing project expansions; no specific target disclosed",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin sustainability",
+          "horizon": "5-6 years",
+          "statement": "Confident that EBITDA margin is sustainable given strong presales and cash generation visibility",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Unsold inventory",
+          "horizon": "FY27",
+          "statement": "INR2,200 crore worth of unsold inventory as of March 2026, expected to reduce with project launches",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Capex plan",
+        "Detailed breakup of property, plant, and equipment increase"
+      ],
+      "margin_drivers": [
+        "Asset-light strategy",
+        "Disciplined execution",
+        "Strong project launches",
+        "Revenue visibility from committed sales and upcoming pipeline"
+      ]
+    },
+    "AWFIS Space": {
+      "company": "AWFIS Space",
+      "ticker": "AWFIS",
+      "sector": "Services",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8198e684-76ed-496c-b1bc-97efeea5f493.pdf",
+      "transcript_id": "awfis-space_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T00:19:22.573Z",
+      "summary": "Strong forward outlook driven by premiumization, multi-format supply growth, GCC demand tailwinds, and adjacency businesses like Transform and Frame.",
+      "guidance": [
+        {
+          "metric": "Revenue (Coworking & Allied Services)",
+          "horizon": "FY27",
+          "statement": "Comfortably met revenue guidance for FY26; expects continued strong growth trajectory in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin (Coworking & Allied Services)",
+          "horizon": "FY27",
+          "statement": "EBITDA margins expanded in FY26; expects further margin expansion as premium centers mature.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Premium Portfolio (Gold & Elite Centers)",
+          "horizon": "FY27",
+          "statement": "35 Gold and Elite centers as of FY26; expects further scaling of premium footprint.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Managed Aggregation Supply (Forward Leasing)",
+          "horizon": "Q2 FY28",
+          "statement": "Pre-committed over 4 lakh square feet under managed aggregation model through Q2 FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Developer Partnership Model Supply",
+          "horizon": "FY27-FY28",
+          "statement": "Expects partnerships with marquee developers to become a meaningful supply pillar.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Partial Managed Office (MO) Centers",
+          "horizon": "FY27",
+          "statement": "Several partial MO centers to go live soon with marquee anchor clients secured in Pune, Mumbai, Bangalore.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Awfis Transform (Design & Build) Revenue",
+          "horizon": "FY27",
+          "statement": "INR130 crores of mandates already won for delivery across next 6-7 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Frame by Awfis (Furniture Business)",
+          "horizon": "H1 FY27",
+          "statement": "Majority of new coworking centers to deploy Frame furniture by H1 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Frame by Awfis (External Mandates)",
+          "horizon": "H2 FY27",
+          "statement": "Expects to close 2-3 large external mandates with corporate clients where Awfis is not engaged in Flex or D&B.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GCC Client Base",
+          "horizon": "FY27",
+          "statement": "Closed 14 major GCC mandates in FY26; 6 already committed for FY27 and another 7 in advanced stages.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "FY27",
+          "statement": "Sustained ROCE at 60%+; expects continued strong capital efficiency.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net Cash Position",
+          "horizon": "FY27",
+          "statement": "Maintained net cash position in FY26; expects to continue disciplined capital deployment.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Consolidated revenue growth for FY27",
+        "PAT guidance for FY27",
+        "Capex guidance for FY27"
+      ],
+      "margin_drivers": [
+        "Premiumization of portfolio",
+        "Enterprise and GCC client mix",
+        "Operating leverage from mature centers",
+        "Allied services (IT, F&B, transport, business support)",
+        "Multi-format supply strategy",
+        "Awfis Transform cross-sell flywheel"
+      ]
+    },
+    "Krsnaa Diagnost.": {
+      "company": "Krsnaa Diagnost.",
+      "ticker": "KRSNAA",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60ea65bf-0b96-45c3-9c78-f61b38495fd3.pdf",
+      "transcript_id": "krsnaa-diagnost_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T00:19:30.715Z",
+      "summary": "Management expects FY27 to be a year of integration of investments with growth in Rajasthan, retail scaling to double digits, and margin stability despite upfront costs.",
+      "guidance": [
+        {
+          "metric": "Rajasthan revenue (annualized)",
+          "horizon": "FY27",
+          "statement": "Revenue potential from Rajasthan to be in the range of INR100 crores to INR150 crores on a full-year basis.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail revenue contribution",
+          "horizon": "FY27",
+          "statement": "Retail contribution to scale up to double digits.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain current level of EBITDA margins, with some impact in Q1 due to upfront manpower deployment (e.g., Rajasthan adding ~5,000 people).",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "DSO (Days Sales Outstanding)",
+          "horizon": "FY27",
+          "statement": "Improvement journey to sub-120 days remains on track.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned total capital investment of INR5,000 million in FY27, including carryforward commitments from FY26 and fresh investments.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Radiology center additions (MRI)",
+          "horizon": "Q1-Q2 FY27",
+          "statement": "Approximately 10 MRI centers to go live in the coming weeks/months, with installations expected to be completed by Q2 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Organic growth (like-to-like PPP projects)",
+          "horizon": "FY26",
+          "statement": "Organic growth for like-to-like projects continuing is around 13% for the full year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Rate escalations in PPP contracts",
+          "horizon": "Ongoing",
+          "statement": "PPP tenders include rate escalations ranging from 2% to 5%, some annually or every alternate year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail network expansion",
+          "horizon": "FY27",
+          "statement": "Retail network to expand to over 3,500 touchpoints across the country, including 500-plus franchises and collection centers across 5 states.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New geographies expansion (PPP and retail)",
+          "horizon": "FY27",
+          "statement": "Exploring opportunities to expand in newer geographies beyond existing PPP operational states through strategic alliances and selective acquisitions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Apulki Healthcare (oncology/cardiac care) contribution",
+          "horizon": "Medium-term",
+          "statement": "Strategic investment in Apulki Healthcare positions Krsnaa in oncology and cardiac care, representing a significant long-term healthcare opportunity.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Bad debt",
+          "horizon": "Ongoing",
+          "statement": "Maintain virtually 0 bad debt since inception, with delays being administrative in nature, not credit risk.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantum of new PPP orders in FY27",
+        "Specific revenue breakup between pathology and radiology for FY27",
+        "Quantum of delayed receivables (e.g., Karnataka, Himachal Pradesh) beyond 6 months"
+      ],
+      "margin_drivers": [
+        "Operational efficiencies and scalability of integrated diagnostic platforms",
+        "Upfront manpower deployment (e.g., Rajasthan adding ~5,000 people)",
+        "Retail network expansion and deeper customer engagements",
+        "Working capital discipline and DSO improvement",
+        "Rate escalations in PPP contracts (2%-5%)"
+      ]
     }
   },
-  "generated_at": "2026-06-26T22:49:34.717Z",
-  "count": 311
+  "generated_at": "2026-06-27T00:19:32.240Z",
+  "count": 317
 }
