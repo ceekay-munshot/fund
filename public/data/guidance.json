@@ -33040,8 +33040,594 @@
         "currency benefits (if INR remains weak)",
         "cost-saving initiatives and balancing equipment upgrades"
       ]
+    },
+    "Sharda Motor": {
+      "company": "Sharda Motor",
+      "ticker": "SHARDAMOTR",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5514ea3-1249-4ffb-8b94-9224060802fc.pdf",
+      "transcript_id": "sharda-motor_2026-05-29",
+      "provider": "groq",
+      "generated_at": "2026-06-27T07:39:15.251Z",
+      "summary": "Sharda Motor expects steady demand in FY27, driven by growth contributors including full-year revenues from earlier lightweighting suspension orders and export ramp-up.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Steady demand expected, driven by growth contributors including full-year revenues from earlier lightweighting suspension orders and export ramp-up.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Lightweighting vertical growth",
+          "horizon": "FY27 and FY28",
+          "statement": "Expected to grow extremely well, driven by orders booked in FY27 and FY28.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export business",
+          "horizon": "FY27",
+          "statement": "Expected to grow, driven by new orders and ramp-up of existing orders.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Content per vehicle",
+          "horizon": "FY27 onwards",
+          "statement": "Expected to increase by INR 4,000 to INR 10,000, driven by portfolio enhancement in lightweighting.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Lightweighting vertical growth",
+        "Export business growth",
+        "Portfolio enhancement in lightweighting"
+      ]
+    },
+    "Blue Jet Health": {
+      "company": "Blue Jet Health",
+      "ticker": "BLUEJET",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5b24d9a-3c05-4b84-b190-b88aec78fd0b.pdf",
+      "transcript_id": "blue-jet-health_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T07:39:23.933Z",
+      "summary": "Blue Jet Healthcare expects a transition from investment phase to commercialization and growth cycle in FY27, driven by capacity expansion, R&D pipeline, and improved customer visibility.",
+      "guidance": [
+        {
+          "metric": "Revenue (Contrast Media segment)",
+          "horizon": "FY27",
+          "statement": "Expected to grow at mid-single digit based on customer forecast.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (PI/API segment)",
+          "horizon": "FY27",
+          "statement": "Expected to normalize and grow over peak sales achieved in FY25 as destocking normalizes.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Contrast Media segment)",
+          "horizon": "FY27",
+          "statement": "Expected to achieve double-digit growth with 1-2 validations and 1 commercial launch.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches (Contrast Media)",
+          "horizon": "FY26-FY27",
+          "statement": "Expecting 3-4 new product launches in the current year (FY26) and additional launches in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches (PI/API segment)",
+          "horizon": "FY26-FY27",
+          "statement": "Expecting new product launches in PI segment over the next 1-2 years.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "RFP pipeline (PI/API segment)",
+          "horizon": "FY26-FY27",
+          "statement": "Tracking approximately 20 active RFPs, with 2 expected to move into commercialization phase in the current year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D investments",
+          "horizon": "FY27",
+          "statement": "Hyderabad R&D center to go live in H2 FY27 with INR40 crore investment, focusing on peptide intermediates, GLP-1, biocatalysts, and CDMO programs.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (Vizag greenfield project)",
+          "horizon": "FY27-FY29",
+          "statement": "Total capex of INR1,000 crore over 3 years for Vizag project, with INR400 crore planned for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (Mahad backward integration)",
+          "horizon": "H2 FY27",
+          "statement": "Mahad facility expected to commence production in H2 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Contrast Media backward integration",
+          "horizon": "FY27",
+          "statement": "Backward integration plant for key raw material in contrast media portfolio to go onstream in FY27 with slow ramp-up.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lateral entry opportunities (PI/API segment)",
+          "horizon": "FY28 onwards",
+          "statement": "2 high-conviction commercial stage opportunities expected to evolve into strategic lateral entries with dedicated capacity at Vizag.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "High-intensity sweetener validation",
+          "horizon": "FY26-FY27",
+          "statement": "One high-volume product under validation with trial quantities expected to be shipped in coming quarters.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "margin outlook for FY27 due to evolving cost structures and geopolitical uncertainties",
+        "quantitative details on lateral entry opportunities (therapeutic areas, peak volumes)",
+        "specific revenue contribution from iodinated contrast media molecule",
+        "detailed breakdown of goods-in-transit normalization impact on quarterly revenue"
+      ],
+      "margin_drivers": [
+        "backward integration in contrast media (raw material supply chain reliability)",
+        "renewable energy adoption (70% of energy consumption)",
+        "R&D investments (peptide intermediates, GLP-1, biocatalysts)",
+        "customer engagement and deeper partnerships in contrast media",
+        "pass-through mechanisms for geopolitical cost pressures"
+      ]
+    },
+    "Chetana Educa.": {
+      "company": "Chetana Educa.",
+      "ticker": "CHETANA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/CHETANA_29052026130436_Investor_Meet_Transcript_26052026_Chetana.pdf",
+      "transcript_id": "chetana-educa_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T07:39:33.902Z",
+      "summary": "Management expects double-digit revenue growth and 15-20% PAT growth in FY27, driven by digital initiatives, new syllabus changes, and Smart School Project expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect at least double-digit growth in top line",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "Expect around 15% to 20% PAT growth from current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Next 3 years",
+          "statement": "Target at least 50% to 60% jump in top line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "Next 3 years",
+          "statement": "Expect PAT margin to improve to 15% to 16% from current ~12.5%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "OTT platform revenue",
+          "horizon": "Next 2-3 years",
+          "statement": "Expect three to fourfold growth in OTT platform revenue from current INR1 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "OTT platform schools",
+          "horizon": "Next 2 years",
+          "statement": "Aim to onboard at least 1,000 schools on OTT platform",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "OTT platform students",
+          "horizon": "Next 3 years",
+          "statement": "Target 5 lakh to 10 lakh students on OTT platform",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "OTT platform revenue per student",
+          "horizon": "Next 3 years",
+          "statement": "Revenue model is INR360 per child per year",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Stationery revenue",
+          "horizon": "FY27",
+          "statement": "Expect stationery division to contribute 5% to 7% of overall turnover",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Stationery revenue",
+          "horizon": "FY28",
+          "statement": "Expect stationery division to contribute more than 10% of overall turnover",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Smart School Project schools",
+          "horizon": "Next year",
+          "statement": "Expect at least 300 schools to adopt Smart School Project",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dividend policy",
+          "horizon": "FY27 onwards",
+          "statement": "First dividend expected to start from FY27 onwards after eligibility for main board listing",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Unit economics of OTT platform (average annual renewal per school and gross margin)",
+        "Revenue split between traditional and OTT business in 5 years"
+      ],
+      "margin_drivers": [
+        "Smart School Project (IFP panels with 15-20% margin)",
+        "OTT platform adoption (booster to sell educational books)",
+        "Stationery division (5-7% revenue contribution in FY27, >10% in FY28)",
+        "New syllabus changes (double-digit growth in publishing)"
+      ]
+    },
+    "Cosmo First": {
+      "company": "Cosmo First",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd5c229c-aae8-4eea-bb19-e3cd1dbc9533.pdf",
+      "transcript_id": "cosmo-first_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T07:39:42.412Z",
+      "summary": "Management expects double-digit revenue growth in FY27 driven by specialty films, new businesses, and US tariff benefits, with debt reduction and ROCE improvement as key priorities.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Double-digit topline growth expected due to enhanced utilization of BOPP and CPP capacity added in FY25-26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Industry margins for BOPET and BOPP may remain volatile in the current year as new capacity comes; focus on mix and cost to insulate blended margins",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "US operations profitability",
+          "horizon": "FY27",
+          "statement": "Improved profitability expected from USA operations due to recently announced reduction in USA tariff",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "US business growth",
+          "horizon": "FY27",
+          "statement": "Minimum 15%-20% growth expected in US business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty Films growth",
+          "horizon": "medium-term",
+          "statement": "Speciality Films expected to grow at 10% CAGR; share to reach 70% in 18-24 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty Chemicals EBITDA",
+          "horizon": "FY27",
+          "statement": "Plastech business expected to achieve high single-digit EBITDA in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty Chemicals EBITDA",
+          "horizon": "FY28",
+          "statement": "Plastech business expected to achieve high or mid-teens EBITDA in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cosmo Consumer revenue",
+          "horizon": "medium-term",
+          "statement": "Cosmo Consumer expected to reach INR 100 crores benchmark with 50%+ CAGR",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cosmo Consumer profitability",
+          "horizon": "FY27",
+          "statement": "Cosmo Consumer expected to continue making losses in FY27 due to aggressive brand building; profitability expected in 2+ years",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Net debt",
+          "horizon": "next 2 years",
+          "statement": "Clear roadmap to reduce net debt; debt expected to come down further in FY27 and FY28",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Net debt/EBITDA",
+          "horizon": "12-18 months",
+          "statement": "Net debt/EBITDA expected to reduce below current 2.4x within next 12-18 months",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "US tariff refund",
+          "horizon": "FY27",
+          "statement": "Refund process for US tariff expected to take 6-12 months; refund quantum expected to be more than INR 60 crores",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "industry-wide BOPET/BOPP margins",
+        "PAT guidance for FY27",
+        "employee cost growth beyond Q4 run rate"
+      ],
+      "margin_drivers": [
+        "specialty films growth",
+        "US tariff reduction benefits",
+        "cost control and lowest cost producer status",
+        "mix optimization",
+        "new business verticals (Plastech, Cosmo Consumer, Specialty Chemicals)"
+      ]
+    },
+    "Borosil": {
+      "company": "Borosil",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e4f522b-f306-44e5-a468-a575e61602f9.pdf",
+      "transcript_id": "borosil_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T07:39:51.080Z",
+      "summary": "Management expects long-term growth trajectory to remain strong despite near-term headwinds, with multiple capacity expansions and cost-saving initiatives underway.",
+      "guidance": [
+        {
+          "metric": "Vacuum-insulated flask production capacity",
+          "horizon": "Q1FY27, Q2FY27",
+          "statement": "Commercial production from first 2 lines to commence in next few days (Q1FY27), third line by end of Q2FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar plant EBITDA savings",
+          "horizon": "FY27",
+          "statement": "INR28 crores EBITDA savings expected from 20-MW solar plant with battery storage.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Furnace capacity expansion",
+          "horizon": "FY27 or FY28",
+          "statement": "Expansion from 25 tonnes/day to 32 tonnes/day with third forming line, capex INR50 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bharuch glassware facility",
+          "horizon": "Q3FY27",
+          "statement": "Glassware manufacturing at Bharuch plant to commence by end of Q3FY27, capex INR42 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power cost reduction",
+          "horizon": "FY27",
+          "statement": "Solar plant to cover 61% of power requirements post commissioning.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Anti-dumping duty timeline",
+          "horizon": "6-9 months from present",
+          "statement": "Investigation timeline expected to conclude in 6-9 months.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Opalware demand outlook",
+          "horizon": "Next 1-2 years",
+          "statement": "Expect muted growth in opalware segment due to weak customer sentiment and lack of differentiation.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Glassware margin pressure",
+          "horizon": "Short-term",
+          "statement": "Margin pressure expected to persist due to high gas prices and China dumping, though price hikes should cover cost inflation.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Non-glassware capex",
+          "horizon": "FY27 onwards",
+          "statement": "Potential capex in non-glassware space, including appliances, under discussion for future approvals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Maintenance capex",
+          "horizon": "Annual",
+          "statement": "Maintenance capex of INR20-25 crores per year to continue.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Total FY27 capex",
+          "horizon": "FY27",
+          "statement": "Approved capex of INR90+ crores for FY27, excluding maintenance capex.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BIS certification impact",
+          "horizon": "FY27",
+          "statement": "Company has built inventory to mitigate sales reduction from BIS certification deadlines.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue growth CAGR beyond FY26",
+        "EBITDA margin targets beyond FY27",
+        "Market share in specific categories"
+      ],
+      "margin_drivers": [
+        "Solar power cost savings",
+        "Gas price inflation",
+        "China dumping pressure",
+        "Price hikes to cover cost inflation",
+        "Capacity expansions to improve operating leverage"
+      ]
+    },
+    "PNC Infratech": {
+      "company": "PNC Infratech",
+      "ticker": "PNCINFRA",
+      "sector": "Industrials",
+      "concall_date": "2026-05-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6836d8ab-9d7b-4282-b11d-00b81a130636.pdf",
+      "transcript_id": "pnc-infratech_2026-05-28",
+      "provider": "mistral",
+      "generated_at": "2026-06-27T07:40:00.805Z",
+      "summary": "Management expects strong revenue growth over FY27-FY28 driven by diversified order book, with EBITDA margins remaining stable around 12% despite margin pressures from commodity volatility.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Guidance of ~30% growth, translating to ~INR 6,000 crores top line.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Guidance of ~25% growth from FY27, translating to ~INR 7,500 crores top line.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Guidance of ~12% EBITDA margin.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book inflow",
+          "horizon": "FY27",
+          "statement": "Guidance of ~INR 15,000 crores new order book, with 60-70% from highways sector.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book inflow (renewable energy)",
+          "horizon": "FY27",
+          "statement": "Additional ~INR 6,000 crores expected from renewable energy projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Equity infusion (HAM projects)",
+          "horizon": "FY27-FY28",
+          "statement": "INR 542 crores remaining equity infusion, with ~INR 350 crores in FY27 and balance in FY28.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Equity infusion (solar/BESS)",
+          "horizon": "FY27-FY28",
+          "statement": "INR 400 crores total equity requirement for solar, with ~INR 120 crores in FY27.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Revenue (solar)",
+          "horizon": "FY27",
+          "statement": "Targeting ~INR 600 crores revenue from solar projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (solar)",
+          "horizon": "FY28",
+          "statement": "Targeting ~INR 1,400 crores revenue from solar projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Jal Jeevan Mission)",
+          "horizon": "FY27",
+          "statement": "Targeting ~INR 750 crores revenue from Jal Jeevan Mission projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (commodity volatility impact)",
+          "horizon": "Q3-Q4FY27",
+          "statement": "Margin pressure expected in near term due to geopolitical tensions and commodity volatility, but relief expected from NHAI's cost escalation compensation mechanism.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Order book (bids submitted)",
+          "horizon": "Q2FY27",
+          "statement": "INR 14,000 crores worth of bids submitted (15 EPC, 1 HAM) to be opened before end of current month and June.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "NHAI's cost escalation compensation mechanism for bitumen price volatility",
+        "Diversification into non-highways sectors (renewable energy, water, mining) with similar margin targets",
+        "Reduced competition in HAM and BOT-Toll segments vs. EPC",
+        "Geopolitical tensions and commodity price volatility (bitumen, fuel, logistics)"
+      ]
     }
   },
-  "generated_at": "2026-06-27T04:40:07.160Z",
-  "count": 323
+  "generated_at": "2026-06-27T07:40:02.334Z",
+  "count": 329
 }
