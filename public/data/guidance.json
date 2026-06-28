@@ -43329,8 +43329,555 @@
         "Cost control measures",
         "Service business diversification in international markets"
       ]
+    },
+    "Indo Farm Equip.": {
+      "company": "Indo Farm Equip.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f565a914-6e62-44bf-841c-faa864ebb967.pdf",
+      "transcript_id": "indo-farm-equip_2026-05-29",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T16:22:53.898Z",
+      "summary": "Management expects strong growth in FY27 driven by new capacity additions, dealer expansion, and new product launches, though margins may face near-term pressure from ramp-up costs.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Overall revenue growth of 20–25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue - Tractor segment",
+          "horizon": "FY27",
+          "statement": "Tractor revenue growth of 25–30%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue - Crane segment (existing plant)",
+          "horizon": "FY27",
+          "statement": "Crane revenue growth of 15–20% from existing plant",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Operating EBITDA margin expected around 12.5%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "EBIT margin - Tractor segment",
+          "horizon": "FY27",
+          "statement": "Tractor segment EBIT margin around 10%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Pick-and-carry crane commercial production",
+          "horizon": "Q2 FY27",
+          "statement": "Commercial production of pick-and-carry crane at Bhud site to commence in Q2 FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Tower crane commercial production",
+          "horizon": "Q2 FY27",
+          "statement": "Commercial production of tower crane to commence in Q2 FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Tower crane volume",
+          "horizon": "Next 6 months (FY27)",
+          "statement": "Expecting 60–80 tower crane units in next six months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tower crane capacity utilization",
+          "horizon": "FY27",
+          "statement": "First-year capacity utilization expected at 50–60%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Crane segment volume (new facility)",
+          "horizon": "FY27",
+          "statement": "Expecting 500–600 crane units from new facility in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Crane segment capacity utilization (new facility)",
+          "horizon": "FY27",
+          "statement": "First six months utilization of new crane facility expected at 30–35%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex for new projects",
+          "horizon": "FY27",
+          "statement": "Total capex of ₹70+ crore for tower crane and new crane projects, with ₹25 crore already spent",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Cash flow improvement steps",
+        "New product segments beyond current focus (e.g., crawler cranes, truck-mounted cranes)",
+        "Full-year tower crane margin trajectory beyond initial estimates"
+      ],
+      "margin_drivers": [
+        "Ramp-up costs for new facilities",
+        "Dealer expansion and market penetration costs",
+        "Emission norm compliance costs (initially absorbed)",
+        "Steel price inflation (passed on to customers)",
+        "NBFC provisioning impact on tractor segment margins"
+      ]
+    },
+    "Pelatro": {
+      "company": "Pelatro",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-14",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/PELATRO_14052026182719_Investor_meet_Transcript_and_covering_letter.pdf",
+      "transcript_id": "pelatro_2026-05-14",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T16:23:09.750Z",
+      "summary": "Management expects strong organic growth driven by AI integration, market penetration, and product expansion, with revenue growth of at least 15% annually over the next five years and EBITDA margin expansion toward 30% in 2-3 years.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27-FY31",
+          "statement": "Commitment to at least 15% annual organic revenue growth over the next five years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "2-3 years",
+          "statement": "Targeting EBITDA margin of 30% in the next 2-3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI integration impact",
+          "horizon": "18-24 months",
+          "statement": "AI adoption in software development will reduce cost per dollar of revenue and improve quality, visible in 18-24 months.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Market penetration",
+          "horizon": "4-5 years",
+          "statement": "Expected market penetration to increase from 10% to 20%-25% over the next four to five years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product penetration per telco",
+          "horizon": "4-5 years",
+          "statement": "Objective to increase product penetration from 1.3 to 2-2.5 products per telco over the next four to five years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Repeat revenue ratio",
+          "horizon": "ongoing",
+          "statement": "Expect repeat revenue (recurring + reoccurring) to remain above 75% of total revenue.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Managed services penetration",
+          "horizon": "ongoing",
+          "statement": "Continuous increase in penetration of managed services within existing customers.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Estel division EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Expect Estel division's EBITDA margin to grow and come closer to CVM division's margin over the next few years.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue visibility",
+          "horizon": "FY27",
+          "statement": "For FY27, 82% of expected revenue is already contracted, providing high visibility.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Non-linearity effect",
+          "horizon": "ongoing",
+          "statement": "Non-linearity in business model to further increase due to AI-driven cost efficiencies and revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost per dollar of revenue",
+          "horizon": "18-24 months",
+          "statement": "AI usage expected to reduce cost per dollar of revenue, improving margins.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "AI product leadership",
+          "horizon": "ongoing",
+          "statement": "Continuous delivery of AI features (e.g., Gen AI, LLM-driven agents) to maintain product leadership and drive higher growth.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific AI adoption metrics or quantified cost savings from AI",
+        "timeline for achieving 30% EBITDA margin beyond 'next 2-3 years'",
+        "quantified impact of acquisitions on revenue growth beyond organic commitment"
+      ],
+      "margin_drivers": [
+        "AI integration in product and development",
+        "non-linearity in business model",
+        "managed services penetration",
+        "Estel division margin expansion",
+        "repeat revenue ratio"
+      ]
+    },
+    "Expleo Solutions": {
+      "company": "Expleo Solutions",
+      "ticker": "EXPLEOSOL",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-14",
+      "transcript_url": "https://investors.expleo.com/wp-content/documents/Earnings%20Call%20Transcript%20Q4%202025-26.pdf",
+      "transcript_id": "expleo-solutions_2026-05-14",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T16:23:18.759Z",
+      "summary": "Management expects sustainable double-digit revenue growth in FY27 with EBITDA margins remaining in the 15-16% range despite AI-driven ticket size compression.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Sustainable double-digit growth expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Remain at current levels (15-16% range)",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "AI-influenced revenue",
+          "horizon": "FY27",
+          "statement": "60% of revenue to be influenced by AI (up from 15% currently)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee AI qualification",
+          "horizon": "FY27",
+          "statement": "Target 95-100% AI qualification by September/October 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New logo acquisition",
+          "horizon": "FY27",
+          "statement": "Aggressive partner-led growth initiative with 15+ partners for joint go-to-market strategy",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Egypt market revenue",
+          "horizon": "FY27",
+          "statement": "No specific revenue target; focus on market penetration and pipeline building",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "M&A activity",
+          "horizon": "Q1FY27",
+          "statement": "Likely to close 1 acquisition in the upcoming quarter from 3 under due diligence",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "U.S. market focus",
+          "horizon": "FY27",
+          "statement": "Acquisitions to strengthen U.S. market presence and complement services (AI/data/Salesforce)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Payments sector focus",
+          "horizon": "FY27",
+          "statement": "Significant investments in payment industry solutions ahead of 2028 regulatory deadlines",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Aerospace & defense focus",
+          "horizon": "FY27",
+          "statement": "Increased demand from India (Make in India) and Israel; new facility in Bangalore for test bench production",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Attrition rate",
+          "horizon": "FY27",
+          "statement": "Attrition to remain challenging at ~15%, particularly for 5-10 year experienced professionals",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI productivity gains",
+          "horizon": "FY27",
+          "statement": "Productivity gains range from 20-60% depending on service; minimal reinvestment from clients",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative revenue growth target for FY27",
+        "Specific EBITDA margin excluding other income",
+        "Revenue contribution from Egypt market"
+      ],
+      "margin_drivers": [
+        "AI infusion in services",
+        "Operational efficiency improvements",
+        "Wage increments",
+        "Forex gains",
+        "Sector focus (BFSI payments, aerospace & defense)",
+        "Employee AI qualification"
+      ]
+    },
+    "H P C L": {
+      "company": "H P C L",
+      "ticker": "HINDPETRO",
+      "sector": "Energy",
+      "concall_date": "2026-05-13",
+      "transcript_url": "https://www.hindustanpetroleum.com/documents/pdf/Post%20Earning%20Concall%20Transript%20-%20Q4FY26.pdf",
+      "transcript_id": "h-p-c-l_2026-05-13",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T16:23:27.217Z",
+      "summary": "Management expects Q1FY27 to be loss-making due to high crude prices and low product prices, but remains confident in balance sheet strength and long-term transformation agenda.",
+      "guidance": [
+        {
+          "metric": "Q1FY27 PAT",
+          "horizon": "Q1FY27",
+          "statement": "Q1FY27 is expected to be loss-making due to high crude prices and low product prices with significant volatility.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Balance sheet strength",
+          "horizon": "medium-term",
+          "statement": "Strong financial year improvement in balance sheet provides headroom to manage current volatility.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Samriddhi 2.0 cost savings",
+          "horizon": "FY27",
+          "statement": "Guidance on Samriddhi 2.0 cost savings will be provided in the next earnings call as current environment is too volatile.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "RUF ramp-up benefits",
+          "horizon": "Q2FY27",
+          "statement": "Incremental benefits from RUF are expected to start coming in from end of Q1FY27 or early Q2FY27 as the unit ramps up fully.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "HRRL commissioning and ramp-up",
+          "horizon": "Q2FY27",
+          "statement": "HRRL is expected to achieve COD shortly, operate at ~60% capacity in June, and ramp up fully by Q2FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "HRRL petchem integration",
+          "horizon": "medium-term",
+          "statement": "Petchem integration at HRRL will be rolled out gradually after refinery stabilization.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Chhara port utilization",
+          "horizon": "FY27",
+          "statement": "Chhara port is expected to run at full capacity for 10.5-11 months in FY27, barring monsoon season.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "2G ethanol project start",
+          "horizon": "next 2-3 months",
+          "statement": "2G ethanol project is expected to start in the next 2-3 months after achieving mechanical completion.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Refinery throughput growth",
+          "horizon": "FY27",
+          "statement": "Refinery throughput is expected to grow further with HRRL and RUF contributing to higher volumes.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail brand strengthening (Abhyuday 2.0)",
+          "horizon": "FY27",
+          "statement": "Abhyuday 2.0 retail initiative is aimed at improving throughput and brand strength in FY27.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Renewables and gas investments",
+          "horizon": "medium-term",
+          "statement": "Focus on renewables and gas investments to continue with an aim to make existing investments pay off and plan next wave.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Digital transformation initiatives",
+          "horizon": "FY27",
+          "statement": "Significant progress is expected in digital transformation driving efficiencies and ease of operations in FY27.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Q1FY27 PAT magnitude",
+        "Samriddhi 2.0 cost savings target",
+        "Inventory gains/losses quantification",
+        "LPG under-recoveries for Q1FY27",
+        "Crude supply security duration beyond current visibility"
+      ],
+      "margin_drivers": [
+        "RUF ramp-up benefits",
+        "HRRL commissioning and operational ramp-up",
+        "Samriddhi cost reduction program",
+        "Trading and product diversification savings",
+        "Refinery throughput growth",
+        "Digital transformation efficiencies"
+      ]
+    },
+    "Filatex India": {
+      "company": "Filatex India",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-12",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73d3f69d-22dd-498b-a194-3ac3e852591b.pdf",
+      "transcript_id": "filatex-india_2026-05-12",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T16:23:35.514Z",
+      "summary": "Medium-term outlook remains positive driven by structural PTA capacity additions, EU FTA benefits, and CAPEX-led margin expansion despite near-term demand and cost volatility.",
+      "guidance": [
+        {
+          "metric": "Production volume",
+          "horizon": "Q1FY27",
+          "statement": "Production in Q1FY27 expected to be 20-25% lower than 1 lakh tons per quarter due to cautious market conditions.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Hedging for FX exposure",
+          "horizon": "FY27",
+          "statement": "Company will increase hedging to mitigate foreign exchange fluctuations on raw material imports.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Debt levels",
+          "horizon": "FY27",
+          "statement": "Debt expected to be INR 350-360 crores by FY27 end.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Return on Equity (ROE)",
+          "horizon": "FY27",
+          "statement": "Targeting to add 100-200 basis points to current ROE of 12.96% by end of FY27 if conditions normalize.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA impact from CAPEX",
+          "horizon": "FY27-FY28",
+          "statement": "Planned CAPEX of INR 690 crores expected to deliver annual EBITDA impact of INR 218-230 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steam distribution project",
+          "horizon": "Q3FY27",
+          "statement": "Steam distribution project expected to be online by mid-July 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Textile-to-textile recycling project",
+          "horizon": "Q3FY27",
+          "statement": "Recycling project expected to start by end of September 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EU FTA benefits",
+          "horizon": "CY2026",
+          "statement": "EU FTA expected to be operational by end of CY2026, providing duty advantages for exports.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PTA capacity additions",
+          "horizon": "CY2026-CY2027",
+          "statement": "GAIL and Indian Oil PTA plants to add 2.4 million tons capacity by CY2026, Reliance to add 3.2 million tons by end of CY2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Industry capacity utilization",
+          "horizon": "FY27",
+          "statement": "Industry expected to operate at around 60% capacity utilization, company at ~75%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue from Greenfield recycling project",
+          "horizon": "FY27",
+          "statement": "Greenfield recycling project expected to generate INR 350-400 crores revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from Brownfield expansion",
+          "horizon": "FY27",
+          "statement": "Brownfield expansion expected to generate INR 500 crores revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "PTA capacity additions reducing import dependence",
+        "Automation and operational efficiency improvements",
+        "Renewable energy transition increasing green power share",
+        "Steam distribution initiative monetizing surplus steam",
+        "Shift towards higher-margin product segments",
+        "EU FTA reducing export duties",
+        "Textile-to-textile recycling project enhancing sustainability and margins"
+      ]
     }
   },
-  "generated_at": "2026-06-28T14:55:59.397Z",
-  "count": 423
+  "generated_at": "2026-06-28T16:23:37.039Z",
+  "count": 428
 }
