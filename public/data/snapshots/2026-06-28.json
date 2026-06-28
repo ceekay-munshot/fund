@@ -1,17 +1,17 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T16:03:57.712Z",
+  "generated_at": "2026-06-28T17:31:04.090Z",
   "totals": {
-    "sightings": 3060,
-    "companies": 936,
+    "sightings": 3068,
+    "companies": 939,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 581,
-      "company_count": 373,
+      "sighting_count": 585,
+      "company_count": 374,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -180,6 +180,7 @@
         "Kore Digital",
         "Krishana Phosch.",
         "Krishival Foods",
+        "Kriti Industries",
         "Kross Ltd",
         "Kuantum Papers",
         "Kwality Pharma",
@@ -1001,8 +1002,8 @@
     {
       "fund_id": "icici-prudential",
       "fund_name": "ICICI Prudential AMC",
-      "sighting_count": 99,
-      "company_count": 62,
+      "sighting_count": 100,
+      "company_count": 63,
       "companies": [
         "Aadhar Hsg. Fin.",
         "Affle 3i",
@@ -1029,6 +1030,7 @@
         "Honasa Consumer",
         "Huhtamaki India",
         "ICICI AMC",
+        "ICICI Bank",
         "ICICI Lombard",
         "ICICI Pru Life",
         "Indegene",
@@ -1794,8 +1796,8 @@
     {
       "fund_id": "boring",
       "fund_name": "Boring AMC",
-      "sighting_count": 44,
-      "company_count": 30,
+      "sighting_count": 46,
+      "company_count": 31,
       "companies": [
         "Acutaas Chemical",
         "Archean Chemical",
@@ -1814,6 +1816,7 @@
         "Indoco Remedies",
         "Indostar Capital",
         "Jindal Stain.",
+        "Kriti Industries",
         "Lumax Auto Tech.",
         "Mazagon Dock",
         "Minda Corp",
@@ -2072,6 +2075,32 @@
       ]
     },
     {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "sighting_count": 24,
+      "company_count": 18,
+      "companies": [
+        "Apollo Micro Sys",
+        "Bharat Forge",
+        "Century Plyboard",
+        "Glottis",
+        "Go Fashion (I)",
+        "Greenpanel Inds.",
+        "Intellect Design",
+        "Inventurus Knowl",
+        "JK Tyre & Indust",
+        "KRBL",
+        "Kalyan Jewellers",
+        "Nath Bio-Genes",
+        "RHI Magnesita",
+        "Refex Industries",
+        "S C I",
+        "Senco Gold",
+        "Speciality Rest.",
+        "Sri Lotus"
+      ]
+    },
+    {
       "fund_id": "aequitas",
       "fund_name": "Aequitas",
       "sighting_count": 23,
@@ -2094,31 +2123,6 @@
         "Steel Str. Wheel",
         "Technocraf.Inds.",
         "Transport Corp."
-      ]
-    },
-    {
-      "fund_id": "nafa",
-      "fund_name": "Nafa Asset Managers",
-      "sighting_count": 23,
-      "company_count": 17,
-      "companies": [
-        "Apollo Micro Sys",
-        "Bharat Forge",
-        "Century Plyboard",
-        "Glottis",
-        "Go Fashion (I)",
-        "Greenpanel Inds.",
-        "Intellect Design",
-        "Inventurus Knowl",
-        "JK Tyre & Indust",
-        "KRBL",
-        "Kalyan Jewellers",
-        "RHI Magnesita",
-        "Refex Industries",
-        "S C I",
-        "Senco Gold",
-        "Speciality Rest.",
-        "Sri Lotus"
       ]
     },
     {
@@ -2398,8 +2402,8 @@
   "per_sector": [
     {
       "sector": "Unknown",
-      "sighting_count": 1436,
-      "company_count": 494
+      "sighting_count": 1444,
+      "company_count": 497
     },
     {
       "sector": "Industrials",
@@ -2494,6 +2498,18 @@
       "concall_date": "2025-08-01"
     },
     {
+      "fund_name": "Boring AMC",
+      "company": "Kriti Industries",
+      "sector": "Unknown",
+      "concall_date": "2026-03-31"
+    },
+    {
+      "fund_name": "Boring AMC",
+      "company": "Kriti Industries",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
       "fund_name": "Bowhead India",
       "company": "NTPC",
       "sector": "Unknown",
@@ -2570,6 +2586,12 @@
       "company": "PSP Projects",
       "sector": "Unknown",
       "concall_date": "2026-02-01"
+    },
+    {
+      "fund_name": "ICICI Prudential AMC",
+      "company": "ICICI Bank",
+      "sector": "Unknown",
+      "concall_date": "2025-07-01"
     },
     {
       "fund_name": "ICICI Prudential AMC",
@@ -2692,6 +2714,12 @@
       "concall_date": "2025-10-01"
     },
     {
+      "fund_name": "Nafa Asset Managers",
+      "company": "Nath Bio-Genes",
+      "sector": "Unknown",
+      "concall_date": "2026-05-01"
+    },
+    {
       "fund_name": "Negen Capital",
       "company": "HEG",
       "sector": "Unknown",
@@ -2772,6 +2800,30 @@
     {
       "fund_name": "Sapphire Capital",
       "company": "Kesar Petroprod.",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Kriti Industries",
+      "sector": "Unknown",
+      "concall_date": "2026-03-31"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Kriti Industries",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Kriti Industries",
+      "sector": "Unknown",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Kriti Industries",
       "sector": "Unknown",
       "concall_date": "2025-08-01"
     },
