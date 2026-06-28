@@ -40428,8 +40428,489 @@
         "Marketing efficiency improvements despite scaling",
         "Supply chain integration and sourcing economics from Bihar facility"
       ]
+    },
+    "Lenskart Solut.": {
+      "company": "Lenskart Solut.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e24d35c9-8fcf-4a55-84ff-42038bf5fc0b.pdf",
+      "transcript_id": "lenskart-solut_2026-05-27",
+      "provider": "groq",
+      "generated_at": "2026-06-28T01:39:11.438Z",
+      "summary": "Lenskart Solutions expects continued growth driven by expansion into Tier 2 and beyond, international markets, and premiumization, with a focus on AI-driven transformation and customer experience.",
+      "guidance": [
+        {
+          "metric": "Net new store additions",
+          "horizon": "FY27",
+          "statement": "Expected to be around FY26 levels",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA pre-Ind AS margin",
+          "horizon": "Long-term",
+          "statement": "Expected to reach approximately 25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Trailing 12-month volume growth is the cleanest measure of underlying market expansion",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Vertical integration",
+        "Premiumization",
+        "Operating leverage"
+      ]
+    },
+    "Hind.Aeronautics": {
+      "company": "Hind.Aeronautics",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+      "transcript_id": "hind-aeronautics_2026-05-22",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T01:39:20.802Z",
+      "summary": "HAL expects double-digit revenue growth in FY27 with stable EBITDA margins around 30-31%, driven by LCA Mark-1A and HTT-40 deliveries, while addressing execution risks and supply chain constraints.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Double-digit revenue growth expected in FY27, with manufacturing sales playing a dominant role if LCA and HTT-40 deliveries commence.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin to be maintained around 30-31%, similar to current levels.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "LCA Mark-1A deliveries",
+          "horizon": "FY27",
+          "statement": "Planning to deliver around 20 LCA Mark-1A aircraft in FY27, contingent on engine supply and testing completion.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LCA Mark-1A delivery timeline",
+          "horizon": "Q2-Q3 FY27",
+          "statement": "Aiming to start deliveries by August or September FY27 after resolving testing refinements.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tejas Mark-II rollout",
+          "horizon": "Q4 FY26",
+          "statement": "Expecting prototype rollout of Tejas Mark-II by March FY27 (last quarter of FY26).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LCH deliveries",
+          "horizon": "FY27-FY28",
+          "statement": "LCH Prachand deliveries expected as per contract timeline, with first deliveries in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sukhoi-30 upgrade program",
+          "horizon": "FY27 onwards",
+          "statement": "Design phase for Su-30 upgrade to take 5-6 years; production and revenue recognition to commence post-design completion.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Sukhoi-30 MKI deliveries",
+          "horizon": "FY28-FY29",
+          "statement": "1 aircraft in FY28 and 11 aircraft in FY29 as per contract for Su-30 MKI upgrades.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book additions",
+          "horizon": "Next 2 years",
+          "statement": "Expecting to receive orders worth INR90,000 crores, including ROH orders, over the next 2 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex investment",
+          "horizon": "By 2030",
+          "statement": "Planning to invest around INR12,000 crores in capacity expansion and infrastructure for LCA Mark-II, GE 414 engines, IMRH engines, SSLV, and indigenization projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Manufacturing revenue growth",
+          "horizon": "FY27",
+          "statement": "Manufacturing revenue expected to grow significantly if LCA Mark-1A and HTT-40 deliveries commence, contributing dominantly to overall revenue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Supply chain risks",
+          "horizon": "FY27",
+          "statement": "Minor delays expected in supply chain due to global geopolitical situation, but confident of meeting delivery timelines.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative breakdown of revenue growth drivers beyond manufacturing and LCA Mark-1A contributions",
+        "Specific margin impact from potential commodity cost increases post FY27",
+        "Detailed order values for pending programs like ALH 137, Dornier upgrades, or UH-M aircraft"
+      ],
+      "margin_drivers": [
+        "Cost pass-through clauses in contracts for exchange rate variations and material escalations",
+        "Inventory built-up for LCA Mark-1A and HTT-40 programs to mitigate cost increases",
+        "Efficiency improvements through in-sourcing and outsourcing strategies",
+        "Stable ROH margins due to existing platform mix"
+      ]
+    },
+    "Indo SMC": {
+      "company": "Indo SMC",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e38b5639-a7e8-45a9-b8bc-53b61b6b1d64.pdf",
+      "transcript_id": "indo-smc_2026-05-22",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T01:39:28.577Z",
+      "summary": "Management expects strong growth in utilities and electrical segments driven by infrastructure development, with revenue target of INR450-500 crore in FY27 and long-term revenue goal of INR1,000+ crore by FY29, supported by margin expansion and export initiatives.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting revenue of INR450 crore to INR500 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "medium-term (3 years)",
+          "statement": "Targeting revenue of INR1,000+ crore by FY29",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "current year and beyond",
+          "statement": "Targeting EBITDA margin above 15%, aiming to increase slightly from current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book of INR237 crore as of March 31, 2026, with INR125 crore fresh orders received post-March, targeting completion of orders within 3-6 months",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity (SMC)",
+          "horizon": "medium-term",
+          "statement": "Targeting SMC capacity increase to 6,000 tons plus",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (FRP)",
+          "horizon": "medium-term",
+          "statement": "Targeting additional 300 tons production in FRP unit (pultrusions and gratings)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Exports",
+          "horizon": "medium-term",
+          "statement": "Focusing on increasing exports, targeting participation in global markets including Gulf, Africa, Europe, and US",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Railways revenue contribution",
+          "horizon": "medium-term (3 years)",
+          "statement": "Railways orders expected to grow over next 3 years, contributing significantly to revenue target of INR1,000+ crore",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material strategy",
+          "horizon": "ongoing",
+          "statement": "Taking shorter orders (2-3 months) to manage price fluctuations and passing on costs to customers",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "1-2 years",
+          "statement": "Working capital cycle expected to remain at 40-45 days as per government/MSME rules",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Initial capex target of INR25 crore for IPO-mandated machinery and facilities",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product mix shift",
+          "horizon": "ongoing",
+          "statement": "Focusing on higher-margin products like CTPT, LTCT, busducts, meter cubicles, and switchgear over SMC and FRP",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "detailed breakdown of segment-wise revenue growth percentages for next two years",
+        "specific funding plan for working capital beyond FY27",
+        "exact timeline for export market penetration"
+      ],
+      "margin_drivers": [
+        "Shift to higher-margin products (CTPT, LTCT, busducts, meter cubicles, switchgear)",
+        "Improved purchasing power and order selectivity",
+        "Passing on raw material cost fluctuations to customers",
+        "Focus on system integration and own-branded products",
+        "Railways and export market expansion"
+      ]
+    },
+    "Electronics Mart": {
+      "company": "Electronics Mart",
+      "ticker": "EMIL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25446a37-98a3-49e9-931c-b2d415dd97a5.pdf",
+      "transcript_id": "electronics-mart_2026-05-22",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T01:39:39.387Z",
+      "summary": "Management expects steady growth in FY27 driven by store maturation, category expansion, and selective geographic expansion, with margin improvement from operating leverage and cost discipline.",
+      "guidance": [
+        {
+          "metric": "Store additions",
+          "horizon": "FY27",
+          "statement": "Plan to add 12-15 stores organically, primarily in NCR, AP, and Telangana, with 4-5 in Delhi NCR and 3-4 in South.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Store additions in new geography",
+          "horizon": "FY27",
+          "statement": "Enter Eastern India with 5-7 stores in Calcutta by end of Q2 or start of Q3 to capture festive season demand.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex per store",
+          "horizon": "FY27",
+          "statement": "Average capex per store to remain INR3-4 crores, with store sizes averaging 8,000-10,000 sq. ft.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin improvement (mature stores)",
+          "horizon": "next 2 years",
+          "statement": "Mature stores (83 stores) currently at ~7.3% EBITDA margin; newer stores (140 stores) at ~3.1% to mature over next 2 years, improving overall margins.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (NCR region)",
+          "horizon": "coming quarters",
+          "statement": "NCR operations now EBITDA positive on full-year basis; further margin improvement expected as store-level throughput improves and fixed costs are absorbed better.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital efficiency",
+          "horizon": "FY27",
+          "statement": "Working capital requirement has come down; expect further improvement in working capital cycles by end of Q1 FY27.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Gross margin stability/improvement",
+          "horizon": "FY27",
+          "statement": "Gross margins expected to remain stable or improve due to better category mix, higher-margin product penetration (e.g., built-in appliances, accessories), and improved throughput across regions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mobile phone category growth",
+          "horizon": "next phase of demand cycle",
+          "statement": "Mobile category expected to grow driven by technology upgrades and AI integration in devices, supporting both ASP and volume growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Large appliance category growth",
+          "horizon": "FY27",
+          "statement": "Large appliances (e.g., washing machines, refrigerators, panel TVs) to continue double-digit growth trajectory, supported by GST benefits and festive demand.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory days outstanding",
+          "horizon": "FY27",
+          "statement": "Inventory days to remain well-calibrated, with focus on efficient inventory management and carry-forward of high-margin models.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Market share in AP/Telangana",
+          "horizon": "FY27",
+          "statement": "Expect to sustain and gain market share in Andhra Pradesh and Telangana despite new competition, supported by matured stores and category diversification.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer experience investment",
+          "horizon": "ongoing",
+          "statement": "Continued investment in customer experience to remain a priority, underpinning long-term brand reputation and growth.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue growth expectation",
+        "FY27 EBITDA margin target",
+        "FY27 PAT guidance",
+        "Loan repayment schedule beyond property-backed loans",
+        "Specific capex allocation beyond store additions"
+      ],
+      "margin_drivers": [
+        "Store maturation (operating leverage)",
+        "Category mix shift (higher-margin products like built-in appliances, accessories)",
+        "GST reduction benefits",
+        "Festive season demand tailwinds",
+        "Supply chain and inventory optimization",
+        "Fixed cost absorption in matured stores",
+        "Direct sourcing from OEMs (margins unaffected but logistics efficiency)",
+        "Price pass-through in inflationary environment (focus on percentage margins)"
+      ]
+    },
+    "India Glycols": {
+      "company": "India Glycols",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee0fd2a1-60d1-4359-bc99-952a6b3e22b8.pdf",
+      "transcript_id": "india-glycols_2026-05-21",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T01:39:47.488Z",
+      "summary": "Management expects continued growth in Bio-Fuels and Potable Spirits, with potential policy-driven demand boosts, while Chemicals and Ennature Biopharma are positioned for margin recovery and volume growth.",
+      "guidance": [
+        {
+          "metric": "Bio-Fuels volume growth",
+          "horizon": "FY27",
+          "statement": "Government may increase ethanol blending beyond 20% to 21-22%, and flexi vehicles could drive further demand.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Bio-Fuels profitability",
+          "horizon": "FY27",
+          "statement": "Policy is long-term, and industry margins are expected to remain healthy with adjustments.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Potable Spirits IMFL premiumization growth",
+          "horizon": "FY27",
+          "statement": "Strong growth expected in premium segments with new brands and geographical expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Potable Spirits EBIT margin",
+          "horizon": "FY27",
+          "statement": "Management expects continued improvement in EBIT margins for IMFL.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Chemicals performance chemicals growth",
+          "horizon": "medium-term",
+          "statement": "Performance chemicals segment expected to drive growth in Chemicals business.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Chemicals margin recovery",
+          "horizon": "FY27",
+          "statement": "Quality of Chemicals business expected to improve with streamlining and higher-value focus.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Ennature Biopharma recovery",
+          "horizon": "FY27",
+          "statement": "Business expected to recover in volume and profitability with new certifications and branded nutraceuticals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Ethanol price stability",
+          "horizon": "FY27",
+          "statement": "Domestic ethanol prices expected to remain stable or dip slightly, supporting margins.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Crude price firmness",
+          "horizon": "FY27",
+          "statement": "Crude prices expected to stay firm due to geopolitical factors and US energy policies.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EO price competitiveness",
+          "horizon": "FY27",
+          "statement": "EO price competitiveness relative to Reliance expected to be maintained due to crude and ethanol dynamics.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CSD business growth",
+          "horizon": "FY27",
+          "statement": "CSD business expected to grow with new brand approvals and expanded coverage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "FY27",
+          "statement": "Company aims to continue reducing debt levels through cash flows and prepaid loans.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact EBITDA margin for Potable Spirits in FY27",
+        "Specific capex plans for future periods",
+        "Detailed ethanol blending targets beyond FY27"
+      ],
+      "margin_drivers": [
+        "Ethanol price stability",
+        "Crude price firmness",
+        "EO price competitiveness",
+        "Premiumization in Potable Spirits",
+        "Performance chemicals growth in Chemicals",
+        "New certifications and branded nutraceuticals in Ennature Biopharma"
+      ]
     }
   },
-  "generated_at": "2026-06-27T23:41:47.855Z",
-  "count": 395
+  "generated_at": "2026-06-28T01:39:56.089Z",
+  "count": 400
 }
