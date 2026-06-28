@@ -42842,8 +42842,495 @@
         "dry-type transformers for data centers",
         "order selection discipline"
       ]
+    },
+    "Schaeffler India": {
+      "company": "Schaeffler India",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-19",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50f0ef40-e00f-4bb7-be2d-3a419f019f6a.pdf",
+      "transcript_id": "schaeffler-india_2026-05-19",
+      "provider": "groq",
+      "generated_at": "2026-06-28T14:55:22.124Z",
+      "summary": "Schaeffler India expects to sustain double-digit growth momentum despite strong headwinds on the supply chain front due to geopolitical situations.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY26",
+          "statement": "Double-digit growth momentum expected to be sustained",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Exports",
+          "horizon": "FY26",
+          "statement": "Expected to be around 10% to 12% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Automotive Technology",
+          "horizon": "CY26",
+          "statement": "Demand trend expected to remain robust",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Industrial business",
+          "horizon": "CY26",
+          "statement": "Demand slowdown seen in the aftermarket side due to liquidity crunch",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26",
+          "statement": "Remains on track, with a focus on investing in the right portfolio for the right market",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Gross margin improvement",
+        "Cost corrections",
+        "Localization efforts"
+      ]
+    },
+    "OneSource Speci.": {
+      "company": "OneSource Speci.",
+      "ticker": "ONESOURCE",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d5854cf-1073-4e17-9207-4cd759d11191.pdf",
+      "transcript_id": "onesource-speci_2026-05-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T14:55:31.408Z",
+      "summary": "Management reaffirms long-term revenue and EBITDA margin guidance for FY28 while highlighting strong commercial momentum in Semaglutide and capacity expansion plans for FY27.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "US$400 million organic revenue target",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY28",
+          "statement": "40% EBITDA margin target",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Sequential improvement in revenue expected to continue and strengthen as commercial launches ramp up across all markets",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "Q2FY27",
+          "statement": "Second line capacity to be available for commercialization in Q2FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "FY27",
+          "statement": "Three lines to be operational by end of FY27, with additional capacity to support sequential revenue growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Strong visibility on commercial ramp-up for Semaglutide across regulated and emerging markets throughout FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Biologics contribution",
+          "horizon": "FY28",
+          "statement": "Meaningful contribution from biologics business expected in FY28, with commercial manufacturing starting post-FY28",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "Medium-term",
+          "statement": "Expectation to build towards 50% plus ROCE in the medium term",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "US$100 million capex plan on track, fully funded through incremental borrowings",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital",
+          "horizon": "FY27",
+          "statement": "Elevated working capital levels expected to normalize during FY27 as launches materialize",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27-FY28",
+          "statement": "Biologics funnel expanded 4x YoY, with multiple global partners added, supporting future order book growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Compliance track record",
+          "horizon": "Ongoing",
+          "statement": "Continued focus on compliance with strong regulatory audit track record, including successful FDA inspections",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "profit-sharing terms with specific customers",
+        "detailed breakdown of non-CDMO business EBITDA margins",
+        "Brazil market growth potential with local manufacturing requirements"
+      ],
+      "margin_drivers": [
+        "capacity expansion and operational leverage",
+        "commercialization of Semaglutide and other high-margin products",
+        "biologics business growth",
+        "cost optimization and scale benefits from new lines",
+        "compliance and regulatory approvals driving customer confidence"
+      ]
+    },
+    "Infinity Infoway": {
+      "company": "Infinity Infoway",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b54907ad-53fd-4589-841e-14c23589e784.pdf",
+      "transcript_id": "infinity-infoway_2026-05-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T14:55:40.176Z",
+      "summary": "Management expects strong growth driven by ZeroTouch, international expansion, and AI integration, with revenue growth of 60-70% in FY27 and margin expansion from higher-margin ZeroTouch.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expecting 60% to 70% revenue growth over current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue contribution from ZeroTouch",
+          "horizon": "FY27",
+          "statement": "Expecting 20% to 22% revenue contribution from ZeroTouch",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ZeroTouch revenue contribution",
+          "horizon": "Medium-term (3-5 years)",
+          "statement": "Aiming to capture 10% market share in the ZeroTouch market",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ZeroTouch margin",
+          "horizon": "FY27",
+          "statement": "Expecting 50% to 60% margins on ZeroTouch operations",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ZeroTouch machine deployment",
+          "horizon": "FY27",
+          "statement": "Planning to deploy 30% of the first 3,000 machines (900 machines)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ZeroTouch machine capacity",
+          "horizon": "Medium-term",
+          "statement": "Capacity to build 3,000 to 4,000 machines in short term and over 10,000 in longer run",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International expansion",
+          "horizon": "FY27",
+          "statement": "Targeting UAE first, followed by Saudi Arabia and Bahrain in GCC market",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "TimePay prepaid card revenue",
+          "horizon": "Current quarter/next quarter",
+          "statement": "Expecting meaningful revenue contribution from TimePay initiative by quarter end or early next quarter",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI integration in ERP",
+          "horizon": "FY27",
+          "statement": "Planning to introduce two new AI-based products and upgrade existing ERP with AI capabilities",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical expansion in India",
+          "horizon": "FY27",
+          "statement": "Expanding presence to Rajasthan, Karnataka, Odisha, and UP",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins may increase due to higher-margin ZeroTouch but difficult to maintain at scale",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Market size for ZeroTouch",
+          "horizon": "Current",
+          "statement": "ZeroTouch market in India is over $3 billion annually",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "ZeroTouch (50-60% margins)",
+        "AI integration in ERP",
+        "Patented process (ZeroTouch)",
+        "Geographical expansion (international and domestic)"
+      ]
+    },
+    "Orient Electric": {
+      "company": "Orient Electric",
+      "ticker": "ORIENTELEC",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cad512c9-ca93-4354-ab11-3570ac8b190f.pdf",
+      "transcript_id": "orient-electric_2026-05-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T14:55:49.578Z",
+      "summary": "Management expects demand recovery in Q1FY27 driven by a hotter summer, with continued focus on premiumization, cost discipline, and margin protection amid volatile commodity prices.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "Q1FY27",
+          "statement": "Demand expected to improve in Q1FY27 supported by a forecast of a hotter and more prolonged summer.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pricing actions",
+          "horizon": "FY27",
+          "statement": "Calibrated price increases implemented early in Q1FY27 to address commodity price inflation; further steps to be evaluated based on market conditions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Committed to path to double-digit EBITDA margins, with actions, cost discipline, and multi-engine growth aligning to achieve this target.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Targeting 32% to 34% gross margin, though recent commodity inflation and supply disruptions have impacted margins by ~100-150 bps.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share gains",
+          "horizon": "FY27",
+          "statement": "Gained ~30-40 bps market share in fans, with secular gains across channels and categories; expects further gains from new product launches like Aero O2.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Premium mix (domestic fans)",
+          "horizon": "FY27",
+          "statement": "Premium mix in domestic fans increased to ~35% in FY26; aiming to improve further toward 40% over the next few years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BLDC fan portfolio",
+          "horizon": "FY27",
+          "statement": "BLDC portfolio grew over 50% YoY in FY26 and now contributes 25% of domestic ceiling fans revenue; expects continued growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sanchay program cost savings",
+          "horizon": "FY27",
+          "statement": "Sanchay program delivered INR68 crores in cost savings in FY26; described as a continuous journey with ongoing opportunities for savings.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Exports growth",
+          "horizon": "FY27",
+          "statement": "Exports business grew at a double-digit rate in FY26; expects continued growth with Hyderabad plant serving as a key hub for exports.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "TPW fans production",
+          "horizon": "FY27",
+          "statement": "TPW production split between Kolkata and Hyderabad; early signs of TPW traction in South India, with Hyderabad plant expected to support export growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Appliances portfolio growth",
+          "horizon": "FY27",
+          "statement": "Appliances portfolio sustained high double-digit growth in FY26, led by heating and garment care categories; expects continued growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ECD segment growth",
+          "horizon": "FY27",
+          "statement": "ECD segment grew 7.6% YoY in FY26 despite industry softness; expects continued growth driven by deep penetration in DTM states and premiumization.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantification of future price hikes beyond calibrated actions taken in Q1FY27",
+        "Specific utilization levels or capacity expansion plans for the Hyderabad plant",
+        "Detailed breakdown of Sanchay program cost savings by material vs. non-material components",
+        "Regional or category-specific revenue growth targets for FY27"
+      ],
+      "margin_drivers": [
+        "Premiumization and innovation-led product launches",
+        "Cost discipline through Sanchay program",
+        "Operational efficiency and execution rigor",
+        "Calibrated pricing actions to offset commodity inflation",
+        "Diversification into high-margin categories (e.g., BLDC fans, switches, wires)",
+        "Direct-to-market (DTM) distribution model for deeper penetration and market share gains"
+      ]
+    },
+    "Kirl. Brothers": {
+      "company": "Kirl. Brothers",
+      "ticker": "KIRLOSBROS",
+      "sector": "Industrials",
+      "concall_date": "2026-05-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87321cc3-12ee-47b3-bac0-dd454ba256f7.pdf",
+      "transcript_id": "kirl-brothers_2026-05-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T14:55:57.877Z",
+      "summary": "Management expects double-digit growth in FY27 driven by strong order book, operational improvements, and new product launches, though geopolitical risks remain a concern.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Strive for double-digit growth in FY27, though geopolitical risks and gas shortages could impact",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic order book",
+          "horizon": "medium-term",
+          "statement": "Strong order book growth driven by building and construction, marine, defense, oil and gas, power, and water and irrigation sectors",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International order book",
+          "horizon": "medium-term",
+          "statement": "Strong order book growth driven by Dutch entity, South African entity, SPP U.K., and SPP U.S.A.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (international)",
+          "horizon": "Q3FY26 (calendar year)",
+          "statement": "Margins expected to realign back to desired levels closer to Q3 of the calendar year as sales mix improves",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (international)",
+          "horizon": "FY27",
+          "statement": "Aim to achieve target margin levels on a full-year basis",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Nuclear sector opportunity",
+          "horizon": "medium-term",
+          "statement": "Opportunity for large orders in nuclear power sector, including Fast Breeder Reactors and Bharat Small Modular Reactors, with government targeting 100-200 GW of nuclear power generation",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Data center pump demand",
+          "horizon": "medium-term",
+          "statement": "Growing demand for pumps in data centers, particularly in HVAC and booster systems, with potential for significant value contribution",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ERP implementation impact",
+          "horizon": "FY27",
+          "statement": "ERP implementation in foundry operations expected to improve operational efficiency, cost control, and order execution",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Jal Jeevan Mission (JJM) 2.0",
+          "horizon": "FY27",
+          "statement": "Any infrastructure spend under JJM 2.0 will be an opportunity for the business, with lessons learned from past challenges",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Product portfolio strength",
+          "horizon": "medium-term",
+          "statement": "Company's product portfolio recognized for efficiency and lifecycle cost benefits, with customers willing to pay premiums for superior products",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense sector growth",
+          "horizon": "medium-term",
+          "statement": "Growth expected in defense sector as government emphasizes domestic defense industry",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Power sector growth",
+          "horizon": "medium-term",
+          "statement": "Growth expected in power sector due to demand from coal-fired and nuclear power stations",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Outstanding JJM funds at country level",
+        "Specific revenue or margin targets for FY27",
+        "Impact of geopolitical scenarios on operations"
+      ],
+      "margin_drivers": [
+        "Operational efficiency improvements from ERP implementation",
+        "Sales mix improvement in international markets",
+        "New product launches and premium pricing for efficient pumps",
+        "Cost control measures",
+        "Service business diversification in international markets"
+      ]
     }
   },
-  "generated_at": "2026-06-28T13:04:40.634Z",
-  "count": 418
+  "generated_at": "2026-06-28T14:55:59.397Z",
+  "count": 423
 }
