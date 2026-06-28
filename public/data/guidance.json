@@ -41455,8 +41455,536 @@
         "Service network expansion",
         "AMC contracts with corporate clients"
       ]
+    },
+    "Capital Infra": {
+      "company": "Capital Infra",
+      "ticker": "CAPINVIT",
+      "sector": "Industrials",
+      "concall_date": "2026-05-20",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=077223ed-6158-42ad-99b0-bdc661255fc0.pdf",
+      "transcript_id": "capital-infra_2026-05-20",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T09:29:19.846Z",
+      "summary": "Management expects stable and growing cash flows with clear FY27 DPU guidance, supported by sponsor-backed acquisitions and debt-funded growth while maintaining conservative leverage and margin discipline.",
+      "guidance": [
+        {
+          "metric": "DPU (Distributions Per Unit)",
+          "horizon": "FY27",
+          "statement": "FY27 DPU guidance of INR 9.0 to INR 9.25 per unit, translating to a cash yield of 13% to 13.5% based on March 2026 unit price.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "DPU (Distributions Per Unit)",
+          "horizon": "FY28",
+          "statement": "FY28 DPU expected to increase by at least 10% over FY27 guidance.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AUM (Assets Under Management)",
+          "horizon": "FY27",
+          "statement": "Targeting INR 10,000 crores AUM in FY27, supported by sponsor-backed ROFO pipeline and selective third-party acquisitions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisitions (Sponsor ROFO assets)",
+          "horizon": "FY27",
+          "statement": "Targeting acquisition completion of 4 to 5 out of 8 advanced-stage sponsor ROFO assets in FY27, with collective BPC of INR 7,100 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisitions (Third-party assets)",
+          "horizon": "medium-term",
+          "statement": "Targeting IRRs of around 12% for future third-party acquisitions, with focus on eliminating indemnity risks to align with sponsor asset IRRs.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Cost of Debt",
+          "horizon": "ongoing",
+          "statement": "Continuing to optimize blended cost of debt through active refinancing, with current effective annualized interest rate at 7.24% (down from 7.33%).",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Debt Leverage",
+          "horizon": "post-June 2026",
+          "statement": "Post-June distribution, eligible to enhance debt leverage to 70% from current 49%, enabling acquisitions of INR 900-1,000 crores via external debt without equity dilution.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NAV (Net Asset Value)",
+          "horizon": "FY27",
+          "statement": "Aiming to strengthen NAV growth by December 2027 through debt-funded acquisitions, avoiding equity dilution to protect NAV for existing unitholders.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-taxable DPU component",
+          "horizon": "FY27",
+          "statement": "FY27 non-taxable DPU component expected to be 25% to 30% of total distributions, with stability over the financial year despite quarterly variations in heads.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "GST CIL Indemnity",
+          "horizon": "Q2 FY28",
+          "statement": "Expected receipt of INR 24 crores GST CIL indemnity value by Q2 FY28, providing potential upside not captured in reported NAV.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "O&M Costs",
+          "horizon": "ongoing",
+          "statement": "O&M costs remain fixed under long-term contracts, insulating the Trust from inflationary pressures on commodities or vehicular movement.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Portfolio Mix (Rigid Pavements)",
+          "horizon": "ongoing",
+          "statement": "Current 35% rigid pavement portfolio benefits from lower annual O&M expenses, with no plans to unilaterally change rigid/flexible mix due to NHAI design approvals.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "exact valuation discounts for future sponsor asset acquisitions",
+        "specific timing or quantum of third-party acquisitions beyond IRR targets",
+        "equity capital raise plans post-FY27"
+      ],
+      "margin_drivers": [
+        "fixed-price O&M contracts",
+        "annuity-based revenue streams linked to bank rates (natural hedge in rising rate scenarios)",
+        "cost optimization via debt refinancing",
+        "predictable cash flows from operational HAM assets",
+        "reserve management for debt repayments and maintenance"
+      ]
+    },
+    "Sh.Pushkar Chem.": {
+      "company": "Sh.Pushkar Chem.",
+      "ticker": "SHREEPUSHK",
+      "sector": "Commodities",
+      "concall_date": "2026-05-19",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f090ce6-8876-4a7f-8b28-0a33657f19dc.pdf",
+      "transcript_id": "sh-pushkar-chem_2026-05-19",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T09:29:28.912Z",
+      "summary": "Management expects subdued FY27 revenue due to raw material price volatility and delayed new unit commissioning, with potential recovery in FY28 contingent on market stabilization.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue expected around Rs. 1,250-1,300 crores, lower than prior Rs. 1,500 crores expectation due to foregone Kharif season and raw material price volatility.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Q1FY27",
+          "statement": "Q1FY27 revenue expected to be better than past quarters due to liquidation of held-back inventories from Q4FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to improve sequentially in FY27 as raw material price volatility stabilizes and inventory liquidation benefits materialize.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Unit 5 and Unit 6 commissioning delayed; no revenue expected from these units in FY27 due to raw material price volatility and supply chain disruptions.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Plant utilization expected to remain at 65%-70% in FY27, similar to prior quarters, due to ongoing market uncertainties.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Rs. 350 crores capex planned for Madhya Bharat Phosphates facility; funding mix to include internal accruals and up to 30% term loan.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Solar capacity",
+          "horizon": "FY27",
+          "statement": "10 MW solar plant at Nanded remains on track, expected to add to renewable energy capacity in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material prices",
+          "horizon": "FY27",
+          "statement": "Raw material prices (e.g., ammonia, sulphur) remain volatile; no near-term normalization expected, with prices likely to settle at higher levels than pre-crisis.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Fertiliser segment",
+          "horizon": "FY27",
+          "statement": "Fertiliser segment revenue impacted by raw material price volatility; government subsidy increases insufficient to offset cost pressures.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Chemical segment",
+          "horizon": "FY27",
+          "statement": "Chemical segment volumes expected to grow, but pricing pressure from raw material costs may limit margin expansion.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Profitability",
+          "horizon": "FY27",
+          "statement": "Profitability expected to improve sequentially in FY27 as inventory liquidation benefits materialize and raw material price volatility stabilizes.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt levels",
+          "horizon": "FY27",
+          "statement": "Company maintains minimal leverage (net debt-to-equity -0.01x); no major debt expected for planned capex, prioritizing internal accruals.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA or PAT for FY27 in absolute terms",
+        "Timeline for commercial production of Unit 5 and Unit 6 beyond Q1/Q2FY27",
+        "Impact of potential raw material price normalization on margins",
+        "Detailed breakdown of revenue contribution by segment for FY27"
+      ],
+      "margin_drivers": [
+        "Raw material price volatility (ammonia, sulphur)",
+        "Inventory liquidation benefits",
+        "Renewable energy initiatives (solar capacity)",
+        "Government subsidy levels for fertiliser segment",
+        "Plant utilization rates (65%-70%)"
+      ]
+    },
+    "Vilas Transcore": {
+      "company": "Vilas Transcore",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-19",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/VILAS_19052026133709_NSE_earningscalltranscript_VILAS19526.pdf",
+      "transcript_id": "vilas-transcore_2026-05-19",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T09:29:36.803Z",
+      "summary": "Vilas Transcore expects sustainable growth driven by expanded capacities, higher value-added products, and improved utilization, with margins stabilizing in the 10%-11% EBITDA range.",
+      "guidance": [
+        {
+          "metric": "CRGO lamination volume growth",
+          "horizon": "FY27",
+          "statement": "Targeting 45% to 50% growth in CRGO lamination volume as utilization improves across expanded capacity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Revenue expected to increase by 30% to 40% based on CRGO price trends.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to remain at present levels or improve, targeting minimum 10%-11%.",
+          "specificity": "specific",
+          "direction": "flat/up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "PAT margin expected to remain stable or improve from current levels.",
+          "specificity": "vague",
+          "direction": "flat/up"
+        },
+        {
+          "metric": "Copper conductor revenue",
+          "horizon": "H2FY27",
+          "statement": "Targeting INR110-120 crores revenue from copper conductor business in FY27, with trial production by September 2026 and commercial sales from October 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Copper conductor capacity utilization",
+          "horizon": "FY27",
+          "statement": "Planning to produce around 1,000 metric tons in the current year, scaling up gradually.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Radiator revenue",
+          "horizon": "FY27",
+          "statement": "Targeting around INR25 crores revenue from radiator business in FY27, with 20%-25% capacity utilization.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Radiator margin",
+          "horizon": "FY27",
+          "statement": "Radiator margins expected to be in the range of 18%-20%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "CRGO price trend",
+          "horizon": "FY27",
+          "statement": "CRGO prices expected to improve gradually, supporting margin recovery.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planning capex of INR30-40 crores for the next financial year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CRGO lamination capacity utilization",
+          "horizon": "FY27",
+          "statement": "Targeting 30,000 metric tons capacity utilization in FY27, up from 19,500 metric tons in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "FY27",
+          "statement": "Working capital cycle expected to stabilize around 95-100 days as sales grow.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "CRGO price hedging feasibility",
+        "Anti-dumping duty impact on CRGO prices"
+      ],
+      "margin_drivers": [
+        "CRGO price trends",
+        "Capacity utilization improvements",
+        "Value-added product mix (nanocrystalline cores, radiators, copper conductors)",
+        "Customer acceptance and order flow for new products"
+      ]
+    },
+    "VRL Logistics": {
+      "company": "VRL Logistics",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-19",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f56c45a6-601a-444c-b42e-bf4bc79d18aa.pdf",
+      "transcript_id": "vrl-logistics_2026-05-19",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T09:29:45.038Z",
+      "summary": "Management expects gradual volume recovery with sustained profitability in FY27, supported by network expansion and cost discipline.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expecting 6% to 7% volume growth on a full-year basis for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "Q1FY27",
+          "statement": "Expecting at least 2% sequential quarterly volume growth in Q1FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q1FY27",
+          "statement": "Expecting to maintain EBITDA margin around 21% plus in Q1FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting to maintain EBITDA margin around 20% level in FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Expecting capital expenditure of around INR300 crores to INR350 crores for FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Branch expansion",
+          "horizon": "FY27",
+          "statement": "Expecting to open 100 plus new branches in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Branch net addition",
+          "horizon": "FY27",
+          "statement": "Expecting net addition of around 100 branches in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Depreciation",
+          "horizon": "Next 2 years",
+          "statement": "Depreciation cost will not increase significantly due to high land value and longer depreciation periods for new facilities",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Vehicle additions",
+          "horizon": "FY27",
+          "statement": "Expecting addition of around 500 vehicles in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fuel cost impact",
+          "horizon": "FY27",
+          "statement": "Expecting to pass on fuel cost increases to customers selectively to maintain margins",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "New branch contribution",
+          "horizon": "FY27",
+          "statement": "New branches may contribute around 2% to 3% to tonnage on a full-year basis in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Existing customer growth",
+          "horizon": "FY27",
+          "statement": "Expecting around 4% volume growth from existing customers or new customers in current operating areas in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "tonnage contribution from specific commodities",
+        "kilometer-wise tonnage data"
+      ],
+      "margin_drivers": [
+        "yield improvement",
+        "cost control",
+        "asset utilization",
+        "selective freight rate increases",
+        "own infrastructure facilities"
+      ]
+    },
+    "Maxvolt Energy": {
+      "company": "Maxvolt Energy",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-19",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/MAXVOLT2019_19052026221804_MEIL_Earning_Call_Transcript_Cover_Letter_H2FY26.pdf",
+      "transcript_id": "maxvolt-energy_2026-05-19",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T09:29:52.137Z",
+      "summary": "Maxvolt Energy expects strong growth driven by capacity expansion, recycling initiatives, and OEM partnerships, with medium-term EBITDA margins of 18-20% from recycling operations.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Total capex for Aligarh recycling plant (Phase 1) estimated at INR74-75 crores, with full plant cost of INR282 crores across phases.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Black mass processing and separation plant expected to generate INR225-250 crores revenue by FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27-FY28",
+          "statement": "EBITDA margins from recycling operations expected to be 18-20%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Production capacity",
+          "horizon": "FY27",
+          "statement": "Commercial production at Aligarh plant expected to start by December 2026 or January 2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Production capacity",
+          "horizon": "FY27",
+          "statement": "Full-fledged capacity of 2.2-2.5 GWh expected post-commissioning of all machines.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Production capacity",
+          "horizon": "FY26",
+          "statement": "Current operational capacity is 500 MWh, with 80-100% utilization achieved.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "OEM partnerships",
+          "horizon": "FY27",
+          "statement": "Gradual addition of OEM partnerships aligned with production capacity expansion (Phase 1 and Phase 2).",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dealer/distributor network",
+          "horizon": "FY27",
+          "statement": "Gradual expansion of dealer/distributor network aligned with production capacity growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory levels",
+          "horizon": "FY27",
+          "statement": "Inventory levels to remain elevated at 4-5 months of turnover to secure supply chain.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margins",
+          "horizon": "FY27",
+          "statement": "Gross margins expected to stabilize as supply chain risks are mitigated through hedging and supplier discussions.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue contribution from Aligarh recycling plant for FY27",
+        "Repeat rate of OEM and dealer/distributor clients",
+        "Quarterly financial reporting cadence"
+      ],
+      "margin_drivers": [
+        "Supply chain security and hedging",
+        "Recycling operations (black mass processing)",
+        "OEM and dealer/distributor expansion",
+        "Capacity utilization (80-100%)"
+      ]
     }
   },
-  "generated_at": "2026-06-28T06:01:04.519Z",
-  "count": 405
+  "generated_at": "2026-06-28T09:29:53.666Z",
+  "count": 410
 }
