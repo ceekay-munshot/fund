@@ -42417,8 +42417,433 @@
         "export market growth",
         "operational efficiency"
       ]
+    },
+    "Cantabil Retail": {
+      "company": "Cantabil Retail",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-18",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e3d4f36-d58b-4d8a-919d-d6dea493df6b.pdf",
+      "transcript_id": "cantabil-retail_2026-05-18",
+      "provider": "groq",
+      "generated_at": "2026-06-28T13:04:16.710Z",
+      "summary": "Cantabil Retail expects to maintain its growth momentum, with same-store sales growth of 5-6% and gross margin of around 60% in the medium term.",
+      "guidance": [
+        {
+          "metric": "Same-store sales growth",
+          "horizon": "FY27",
+          "statement": "Expecting 5-6% same-store sales growth",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "medium-term",
+          "statement": "Aiming to maintain gross margin at around 60%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting EBITDA margin to be around 30%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Aiming for revenue of INR1,000 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Store count",
+          "horizon": "FY27",
+          "statement": "Targeting 725 stores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lease rent cost",
+          "horizon": "FY27",
+          "statement": "Expecting lease rent cost to be around INR108-110 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Footwear sales",
+          "horizon": "FY27",
+          "statement": "Aiming to increase footwear sales to 3-4% of total sales",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Kids wear sales",
+          "horizon": "FY27",
+          "statement": "Expecting kids wear sales to be around 4% of total sales",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "E-commerce sales",
+          "horizon": "FY27",
+          "statement": "Aiming to grow e-commerce sales, with a focus on footwear",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "FY27",
+          "statement": "Aiming to maintain working capital cycle at around 105 days",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Expecting capex to be lower due to new furniture fixture design",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Efficiency in procurement",
+        "Better product mix",
+        "Pricing corrections",
+        "GST benefits"
+      ]
+    },
+    "Hoac Foods": {
+      "company": "Hoac Foods",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-18",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/HOAC_18052026122810_Announcement_transcript_Earning_call.pdf",
+      "transcript_id": "hoac-foods_2026-05-18",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T13:04:23.542Z",
+      "summary": "Management expects sustainable growth with improving margins and capacity expansion over the medium term.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Management expects EBITDA margins to improve to 15%-16% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "upcoming cycles",
+          "statement": "EBITDA margins will be much better in future cycles due to inventory optimization and operational efficiency.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Store count",
+          "horizon": "FY27",
+          "statement": "Management plans to open 9-10 new stores in FY27, potentially more.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Store profitability",
+          "horizon": "medium-term",
+          "statement": "New stores typically break even in 5-10 months depending on location.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue mix",
+          "horizon": "FY27",
+          "statement": "Management expects revenue mix to improve with better contributions from B2B and exports.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Online revenue",
+          "horizon": "FY27",
+          "statement": "Online revenue (website and app) is expected to double to INR6 crores in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "FY27",
+          "statement": "15-20 new marginal products (ready-to-eat, peanut oil, etc.) to be launched in FY27 with better margins.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peanut oil capacity",
+          "horizon": "FY27",
+          "statement": "Peanut oil plant to have 4,000 liters per day capacity in the new factory.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Atta plant capacity",
+          "horizon": "FY27",
+          "statement": "Atta plant capacity to increase to 40-50 tons per day (one shift) in the new factory.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue potential",
+          "horizon": "FY27",
+          "statement": "Fully utilized new Atta capacity could generate revenue above INR200 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export margins",
+          "horizon": "FY27",
+          "statement": "Export margins are expected to improve once market hold strengthens in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Quarterly updates",
+          "horizon": "medium-term",
+          "statement": "Management plans to announce quarterly results soon for better investor updates.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue guidance in exact numbers",
+        "B2B and B2C revenue split for future periods",
+        "Average revenue per store guidance"
+      ],
+      "margin_drivers": [
+        "Operational efficiency improvements",
+        "New product launches (ready-to-eat, peanut oil, etc.)",
+        "Inventory optimization",
+        "Scale-up from new Atta plant capacity",
+        "Export market penetration",
+        "B2B channel expansion",
+        "Peanut oil and spices margins",
+        "Online channel growth"
+      ]
+    },
+    "Tatva Chintan": {
+      "company": "Tatva Chintan",
+      "ticker": "TATVA",
+      "sector": "Commodities",
+      "concall_date": "2026-05-16",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9cff656-09d7-4ce2-81f8-ae496d449d8c.pdf",
+      "transcript_id": "tatva-chintan_2026-05-16",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T13:04:31.972Z",
+      "summary": "Management expects 20-25% revenue growth and 20-22% EBITDA margin in FY27, with multiple segments (ESS, SDA, PASC, Pharma) driving growth and new capacity (Jolva) contributing from FY28.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Revenue growth of around 25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin in the range of 20% to 22%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Electrolyte Salts revenue contribution",
+          "horizon": "FY27",
+          "statement": "Electrolyte Salts segment to contribute 8% to 10% of total revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Electrolyte Salts run rate",
+          "horizon": "FY27",
+          "statement": "Electrolyte Salts revenue to sustain at current quarterly levels for the next 4 quarters",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Structure Directing Agents (SDA) revenue",
+          "horizon": "FY27",
+          "statement": "SDA revenue to reach INR250 crores to INR300 crores in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SDA growth rate",
+          "horizon": "FY27",
+          "statement": "SDA segment to grow at least 20% in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pharma revenue",
+          "horizon": "FY27",
+          "statement": "Pharma revenue to be in the range of INR70 crores to INR75 crores in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Jolva plant commercialization",
+          "horizon": "FY28",
+          "statement": "Jolva plant to commence commercial production around January 2028",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Jolva plant revenue potential (Phase 1)",
+          "horizon": "FY28",
+          "statement": "Phase 1 of Jolva plant to generate INR400 crores to INR500 crores revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Jolva plant capex",
+          "horizon": "FY28",
+          "statement": "Jolva plant capex to be in the range of INR250 crores to INR270 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dahej facility revenue potential",
+          "horizon": "FY27",
+          "statement": "Dahej facility to reach revenue potential of INR850 crores to INR900 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Semiconductor chemicals commercialization",
+          "horizon": "CY28-CY29",
+          "statement": "Semiconductor chemicals to begin commercialization around 2028-2029",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material price impact on EBITDA beyond FY27",
+        "Tax rate guidance beyond current quarter"
+      ],
+      "margin_drivers": [
+        "Raw material price pass-through to customers",
+        "Operating leverage from higher plant utilization",
+        "Product mix improvement",
+        "Process optimization and efficiency gains",
+        "New capacity ramp-up at Dahej and Jolva facilities"
+      ]
+    },
+    "Danish Power": {
+      "company": "Danish Power",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-16",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/DANISH_16052026152831_Intimation_to_Exchange.pdf",
+      "transcript_id": "danish-power_2026-05-16",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T13:04:39.111Z",
+      "summary": "Danish Power expects strong revenue growth in FY27 with sustained EBITDA margins, driven by capacity expansion, diversified order book, and export focus, while higher-voltage transformers and BESS segments will contribute meaningfully from FY28 onwards.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect revenue to be more than INR700 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Sustain EBITDA margins in the range of 19%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Power transformer segment to become a meaningful contributor to revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Expect revenue in the range of INR900 crores to INR1,000 crores with existing capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Peak utilization expected in H2 FY27 and beyond",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY27",
+          "statement": "Target export revenue share of 15% to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY26",
+          "statement": "Current export revenue share is 8% to 9%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Target volume of 7,000 MVA to 8,000 MVA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY28",
+          "statement": "Target volume of more than 10,000 MVA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS revenue contribution",
+          "horizon": "FY26",
+          "statement": "BESS projects contribute approximately 20% to 25% of current order book",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY26",
+          "statement": "Confirmed order book stands at over INR500 crores with deliveries spread over next six to nine months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Margin improvement remains a key focus area despite temporary impacts from new segments",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific timeline for next phase of capacity expansion"
+      ],
+      "margin_drivers": [
+        "power transformer segment scale-up",
+        "export growth",
+        "BESS segment contribution",
+        "backward integration (sheet metal fabrication)",
+        "dry-type transformers for data centers",
+        "order selection discipline"
+      ]
     }
   },
-  "generated_at": "2026-06-28T11:24:16.392Z",
-  "count": 414
+  "generated_at": "2026-06-28T13:04:40.634Z",
+  "count": 418
 }
