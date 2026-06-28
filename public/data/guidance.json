@@ -44915,8 +44915,395 @@
         "Strong content slate driving occupancy and revenue growth",
         "Advertising revenue growth in H2 FY27 due to mega titles"
       ]
+    },
+    "Aarti Industries": {
+      "company": "Aarti Industries",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a23d262-8f44-44db-b093-8c277e6c9b3a.pdf",
+      "transcript_id": "aarti-industries_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-06-28T21:16:05.484Z",
+      "summary": "Aarti Industries has a cautious optimism for FY27, driven by improved capacity utilization, strong order visibility, and progress on growth initiatives.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex is expected to be in the range of INR700 crore to INR800 crore",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "No specific revenue guidance provided",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "No specific EBITDA guidance provided",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Volume growth expected, driven by strong order visibility and improved capacity utilization",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Strong order visibility, with long-term contracts providing earnings visibility",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Net debt",
+          "horizon": "FY27",
+          "statement": "Net debt expected to decline, driven by lower capex intensity and improving cash flow",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue",
+        "EBITDA"
+      ],
+      "margin_drivers": [
+        "Operational efficiency",
+        "Product diversification",
+        "Deeper customer engagement",
+        "Long-term contracts",
+        "Improved capacity utilization"
+      ]
+    },
+    "Batliboi": {
+      "company": "Batliboi",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02d2ca05-9e3a-4cce-bf9d-0c44451220d4.pdf",
+      "transcript_id": "batliboi_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T21:16:13.634Z",
+      "summary": "Management expects improved performance across divisions in FY27 driven by strong order backlog, export focus, and new initiatives in green hydrogen and ZLD solutions.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Improved performance expected in top-line and bottom-line for FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order backlog",
+          "horizon": "FY27",
+          "statement": "Order backlog improved to INR593 crores as of March 2026, with strong order inflows of INR990 crores in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Additional capex of around INR10 crores planned for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Quickmill performance",
+          "horizon": "FY27",
+          "statement": "Quickmill expected to deliver much better performance in FY27 with focus on export markets outside North America",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Bioconserve Renewables (ZLD solutions)",
+          "horizon": "FY27",
+          "statement": "Performance expected to be better than the first year of operation, with targeted major new ZLD projects",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Green hydrogen business",
+          "horizon": "next 2-3 quarters",
+          "statement": "Pursuing 2-3 active inquiries for green hydrogen projects, with potential progress in the next 2-3 quarters",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Machine tool division revenue",
+          "horizon": "FY27",
+          "statement": "Machine tool division to benefit from investments made, with sufficient capacity to handle expected export business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Textile machinery division",
+          "horizon": "medium-term",
+          "statement": "Continuous process to launch new products and tie-ups to improve efficiency in textile industry, focusing on processing and water conservation",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Environmental Engineering group performance",
+          "horizon": "FY27",
+          "statement": "Division expects improved performance for the whole year with healthy order backlog of INR32 crores",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Fan division productivity",
+          "horizon": "FY27",
+          "statement": "Production capacity in fan division increased by nearly 40% this year, with further improvements expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Quickmill expansion capex",
+          "horizon": "next 2 quarters",
+          "statement": "Planned expansion capex of CAD 4 million (~INR25-30 crores) for Quickmill in Canada, subject to regulatory approvals",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating margin improvement",
+          "horizon": "FY27",
+          "statement": "Operating margin expected to improve with volume increase and operational efficiency initiatives",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "division-wise profitability breakdown",
+        "quantum of operating profit improvement by division",
+        "bifurcation of direct vs. indirect order backlog in detail"
+      ],
+      "margin_drivers": [
+        "volume growth",
+        "operational efficiency improvements",
+        "export market focus",
+        "new product launches in textile and environmental segments",
+        "investments in machine tool division"
+      ]
+    },
+    "Indus Inf. Trust": {
+      "company": "Indus Inf. Trust",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a228bedc-aaac-4c5d-aeaf-64543efe7ec1.pdf",
+      "transcript_id": "indus-inf-trust_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T21:16:20.470Z",
+      "summary": "Management expects FY27 DPU of INR 14 with AUM growth to INR 17,500-18,000 crs via acquisitions, funded 40-45% equity and 55-60% debt.",
+      "guidance": [
+        {
+          "metric": "DPU",
+          "horizon": "FY27",
+          "statement": "Minimum DPU guidance of INR 14 per unit for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "DPU split (Interest)",
+          "horizon": "FY27",
+          "statement": "Ballpark 55%-60% of DPU to be interest",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "DPU split (Capital repayment)",
+          "horizon": "FY27",
+          "statement": "Ballpark 40% of DPU to be capital repayment",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "DPU split (Dividend)",
+          "horizon": "FY27",
+          "statement": "Ballpark 5%-8% of DPU to be dividend",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AUM",
+          "horizon": "FY27",
+          "statement": "Incremental AUM addition of INR 8,000-8,500 crs in FY27, taking total AUM to INR 17,500-18,000 crs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Equity fundraising",
+          "horizon": "FY27",
+          "statement": "Plans to raise INR 3,800-4,000 crs equity in FY27 to fund AUM growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-to-AUM ratio",
+          "horizon": "FY27",
+          "statement": "Target debt-to-AUM ratio of 55%-60% for new acquisitions",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "IRR on acquisitions",
+          "horizon": "FY27",
+          "statement": "Target IRR of 12%-13.5% on new acquisitions",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "DPU accretion from acquisitions",
+          "horizon": "FY27",
+          "statement": "New acquisitions to be DPU accretive for unitholders",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "TOT assets exploration",
+          "horizon": "medium-term",
+          "statement": "Will explore TOT assets as part of growth strategy once size is achieved",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Cost of debt (marginal)",
+          "horizon": "near-term",
+          "statement": "Marginal cost of debt may be higher than current 6.9%-7% due to yield movements",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset life extension",
+          "horizon": "medium-term",
+          "statement": "Focus on extending asset life and enhancing long-term distribution visibility",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "yield-accretive asset acquisitions",
+        "stable annuity cash flows",
+        "debt refinancing at lower rates",
+        "operating asset monetization",
+        "long-duration yield visibility"
+      ]
+    },
+    "Nath Bio-Genes": {
+      "company": "Nath Bio-Genes",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ef0466c-b125-4204-ad87-197489ed8c9b.pdf",
+      "transcript_id": "nath-bio-genes_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-28T21:16:29.791Z",
+      "summary": "Management expects 15-20% revenue growth in FY27 with stable margins, driven by strong crop diversification and international expansion, while cautiously navigating El Nino risks.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Top line expected to grow between 15-20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to maintain a slightly upward trend",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "Net profit margin expected to maintain a slightly upward trend",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cotton Bt volume growth",
+          "horizon": "FY27",
+          "statement": "Cotton Bt volumes expected to grow around 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Paddy volume growth",
+          "horizon": "FY27",
+          "statement": "Paddy volumes expected to grow beyond 20-25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Maize volume growth",
+          "horizon": "FY27",
+          "statement": "Maize volumes expected to continue strong growth trajectory",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International revenue (Uzbekistan JV)",
+          "horizon": "Next 2-3 years",
+          "statement": "Aiming for 10-15% of total revenue from international operations",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International revenue (Uzbekistan JV)",
+          "horizon": "FY27",
+          "statement": "INR 150 crores target from international operations if total revenue reaches INR 1,000 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "El Nino impact",
+          "horizon": "FY27",
+          "statement": "Expect to maintain overall growth despite El Nino, with balanced product and geographical spread",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Effective tax rate",
+          "horizon": "FY27",
+          "statement": "Effective tax rate expected to stabilize around 1.5% higher than FY26 (11%)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Gross margin expected to stabilize in the 53-54% range",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "CapEx",
+          "horizon": "FY27",
+          "statement": "Minimal CapEx planned, primarily for land bank and vehicles; no major investments in processing plants or storages",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue and EBITDA guidance for specific crops (e.g., cotton Bt, paddy, maize) beyond directional growth statements"
+      ],
+      "margin_drivers": [
+        "R&D investment in resilient, disease-resistant seeds",
+        "Crop diversification (paddy, maize, vegetables)",
+        "International expansion (Uzbekistan JV)",
+        "Production stability and supply chain optimization",
+        "Pricing discipline and premium product mix"
+      ]
     }
   },
-  "generated_at": "2026-06-28T19:44:17.296Z",
-  "count": 438
+  "generated_at": "2026-06-28T21:16:33.477Z",
+  "count": 442
 }
