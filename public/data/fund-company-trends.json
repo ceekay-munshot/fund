@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-27T23:57:22.596Z",
+  "generated_at": "2026-06-28T04:31:33.793Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 210,
+    "dropped": 212,
     "gained": 316,
-    "consistent": 503,
-    "companies_evaluated": 857
+    "consistent": 504,
+    "companies_evaluated": 861
   },
   "dropped": [
     {
@@ -246,6 +246,28 @@
       "ticker": "CARYSIL",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-27",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "singularity",
+      "fund_name": "Singularity AMC",
+      "company": "HEG",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "unique",
+      "fund_name": "Unique PMS",
+      "company": "Manappuram Fin.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
       "tier": "strong"
