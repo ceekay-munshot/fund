@@ -1,17 +1,17 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T04:31:33.888Z",
+  "generated_at": "2026-06-28T10:48:10.069Z",
   "totals": {
-    "sightings": 3017,
-    "companies": 919,
+    "sightings": 3023,
+    "companies": 923,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 568,
-      "company_count": 365,
+      "sighting_count": 569,
+      "company_count": 366,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -19,6 +19,7 @@
         "AXISCADES Tech.",
         "Aakaar Medical",
         "Aarti Drugs",
+        "Abans Financial",
         "Accretion Pha.",
         "Adisoft Technol.",
         "Admach Systems",
@@ -658,8 +659,8 @@
     {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
-      "sighting_count": 172,
-      "company_count": 111,
+      "sighting_count": 173,
+      "company_count": 112,
       "companies": [
         "ACME Solar Hold.",
         "ASM Technologies",
@@ -725,6 +726,7 @@
         "Network People",
         "Neuland Labs.",
         "Onward Technolog",
+        "PSP Projects",
         "Pace Digitek",
         "Parag Milk Foods",
         "Pine Labs",
@@ -1056,8 +1058,8 @@
     {
       "fund_id": "vaikarya",
       "fund_name": "Vaikarya Capital",
-      "sighting_count": 92,
-      "company_count": 52,
+      "sighting_count": 93,
+      "company_count": 53,
       "companies": [
         "ADF Foods",
         "Aeroflex",
@@ -1096,6 +1098,7 @@
         "Jubilant Ingrev.",
         "M B Agro Prod.",
         "Nippon Life Ind.",
+        "PSP Projects",
         "Parag Milk Foods",
         "Pennar Industrie",
         "Pitti Engg.",
@@ -1116,8 +1119,8 @@
     {
       "fund_id": "maximal",
       "fund_name": "Maximal Capital",
-      "sighting_count": 78,
-      "company_count": 49,
+      "sighting_count": 79,
+      "company_count": 50,
       "companies": [
         "AWFIS Space",
         "Anantam Highways",
@@ -1135,6 +1138,7 @@
         "H.G. Infra Engg.",
         "Heritage Foods",
         "IRB InvIT Fund",
+        "IndiGrid Trust",
         "Jagsonpal Pharma",
         "Krsnaa Diagnost.",
         "Landmark Cars",
@@ -1850,10 +1854,11 @@
     {
       "fund_id": "wallfort",
       "fund_name": "Wallfort PMS",
-      "sighting_count": 40,
-      "company_count": 28,
+      "sighting_count": 41,
+      "company_count": 29,
       "companies": [
         "Aeroflex",
+        "Agarwal Indl.",
         "Anant Raj",
         "Anlon Tech",
         "Antony Waste han",
@@ -1993,6 +1998,34 @@
       ]
     },
     {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "sighting_count": 25,
+      "company_count": 20,
+      "companies": [
+        "Alembic Pharma",
+        "Antony Waste han",
+        "Cantabil Retail",
+        "Chemplast Sanmar",
+        "Epigral",
+        "Fineotex Chem",
+        "HFCL",
+        "IFGL Refractori.",
+        "Inox Green",
+        "Inox Wind",
+        "J Kumar Infra",
+        "Kirl. Ferrous",
+        "PSP Projects",
+        "Sejal Glass",
+        "T R I L",
+        "Tata Power Co.",
+        "Tatva Chintan",
+        "Tiger Logistics",
+        "Tinna Rubber",
+        "Zydus Wellness"
+      ]
+    },
+    {
       "fund_id": "solidarity",
       "fund_name": "Solidarity",
       "sighting_count": 25,
@@ -2014,33 +2047,6 @@
         "Singer India",
         "Vedanta",
         "Yasho Industries"
-      ]
-    },
-    {
-      "fund_id": "green-portfolio",
-      "fund_name": "Green Portfolio",
-      "sighting_count": 24,
-      "company_count": 19,
-      "companies": [
-        "Alembic Pharma",
-        "Antony Waste han",
-        "Cantabil Retail",
-        "Chemplast Sanmar",
-        "Epigral",
-        "Fineotex Chem",
-        "HFCL",
-        "IFGL Refractori.",
-        "Inox Green",
-        "Inox Wind",
-        "J Kumar Infra",
-        "Kirl. Ferrous",
-        "Sejal Glass",
-        "T R I L",
-        "Tata Power Co.",
-        "Tatva Chintan",
-        "Tiger Logistics",
-        "Tinna Rubber",
-        "Zydus Wellness"
       ]
     },
     {
@@ -2368,8 +2374,8 @@
   "per_sector": [
     {
       "sector": "Unknown",
-      "sighting_count": 1394,
-      "company_count": 478
+      "sighting_count": 1400,
+      "company_count": 482
     },
     {
       "sector": "Industrials",
@@ -2482,6 +2488,12 @@
       "concall_date": "2025-10-01"
     },
     {
+      "fund_name": "Green Portfolio",
+      "company": "PSP Projects",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
       "fund_name": "ICICI Prudential AMC",
       "company": "Voltas",
       "sector": "Unknown",
@@ -2537,6 +2549,12 @@
     },
     {
       "fund_name": "Maximal Capital",
+      "company": "IndiGrid Trust",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
+    },
+    {
+      "fund_name": "Maximal Capital",
       "company": "Muthoot Cap.Serv",
       "sector": "Unknown",
       "concall_date": "2025-08-01"
@@ -2556,6 +2574,12 @@
     {
       "fund_name": "Niveshaay",
       "company": "ACME Solar Hold.",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
+    },
+    {
+      "fund_name": "Niveshaay",
+      "company": "PSP Projects",
       "sector": "Unknown",
       "concall_date": "2025-08-01"
     },
@@ -2588,6 +2612,12 @@
       "company": "Smartworks Cowor",
       "sector": "Unknown",
       "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Abans Financial",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Sapphire Capital",
@@ -2656,10 +2686,22 @@
       "concall_date": "2025-08-01"
     },
     {
+      "fund_name": "Vaikarya Capital",
+      "company": "PSP Projects",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
       "fund_name": "ValueQuest",
       "company": "Vardhman Textile",
       "sector": "Unknown",
       "concall_date": "2025-07-01"
+    },
+    {
+      "fund_name": "Wallfort PMS",
+      "company": "Agarwal Indl.",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
     }
   ]
 }
