@@ -1,17 +1,17 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-06-29T19:18:05.485Z",
+  "generated_at": "2026-06-29T21:09:45.233Z",
   "totals": {
-    "sightings": 3145,
-    "companies": 971,
+    "sightings": 3150,
+    "companies": 972,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 594,
-      "company_count": 379,
+      "sighting_count": 595,
+      "company_count": 380,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -64,6 +64,7 @@
         "Blue Cloud Soft.",
         "Blue Jet Health",
         "Blue Water",
+        "Bluspring Enter.",
         "Borana Weaves",
         "Capacit'e Infra.",
         "Capital Small",
@@ -1161,13 +1162,14 @@
     {
       "fund_id": "maximal",
       "fund_name": "Maximal Capital",
-      "sighting_count": 93,
-      "company_count": 56,
+      "sighting_count": 94,
+      "company_count": 57,
       "companies": [
         "AWFIS Space",
         "Anantam Highways",
         "Arman Financial",
         "Baazar Style",
+        "Bluspring Enter.",
         "Cantabil Retail",
         "Capital Infra",
         "CreditAcc. Gram.",
@@ -2247,6 +2249,28 @@
       ]
     },
     {
+      "fund_id": "negen",
+      "fund_name": "Negen Capital",
+      "sighting_count": 19,
+      "company_count": 14,
+      "companies": [
+        "Allcargo Logist.",
+        "Anupam Rasayan",
+        "B.R.Goyal Infra.",
+        "Bluspring Enter.",
+        "Canara Robeco",
+        "Chandan Healthca",
+        "Diffusion Eng",
+        "Grand Continent",
+        "HEG",
+        "JM Financial",
+        "Raymond Realty",
+        "Shankara Buildpro",
+        "Veranda Learning",
+        "Vikran Engg."
+      ]
+    },
+    {
       "fund_id": "finavenue",
       "fund_name": "Finavenue",
       "sighting_count": 18,
@@ -2329,27 +2353,6 @@
         "Quality Power El",
         "Schneider Elect.",
         "Solar Industries"
-      ]
-    },
-    {
-      "fund_id": "negen",
-      "fund_name": "Negen Capital",
-      "sighting_count": 16,
-      "company_count": 13,
-      "companies": [
-        "Allcargo Logist.",
-        "Anupam Rasayan",
-        "B.R.Goyal Infra.",
-        "Canara Robeco",
-        "Chandan Healthca",
-        "Diffusion Eng",
-        "Grand Continent",
-        "HEG",
-        "JM Financial",
-        "Raymond Realty",
-        "Shankara Buildpro",
-        "Veranda Learning",
-        "Vikran Engg."
       ]
     },
     {
@@ -2459,8 +2462,8 @@
   "per_sector": [
     {
       "sector": "Unknown",
-      "sighting_count": 1506,
-      "company_count": 524
+      "sighting_count": 1511,
+      "company_count": 525
     },
     {
       "sector": "Industrials",
@@ -2523,5 +2526,36 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Maximal Capital",
+      "company": "Bluspring Enter.",
+      "sector": "Unknown",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Negen Capital",
+      "company": "Bluspring Enter.",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
+      "fund_name": "Negen Capital",
+      "company": "Bluspring Enter.",
+      "sector": "Unknown",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Negen Capital",
+      "company": "Bluspring Enter.",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Bluspring Enter.",
+      "sector": "Unknown",
+      "concall_date": "2025-11-01"
+    }
+  ]
 }

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-29T19:18:05.021Z",
+  "generated_at": "2026-06-29T21:09:45.164Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 223,
-    "gained": 330,
+    "dropped": 224,
+    "gained": 331,
     "consistent": 515,
-    "companies_evaluated": 910
+    "companies_evaluated": 911
   },
   "dropped": [
     {
@@ -268,6 +268,17 @@
       "ticker": "CARYSIL",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-27",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "negen",
+      "fund_name": "Negen Capital",
+      "company": "Bluspring Enter.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
       "tier": "strong"
@@ -2998,6 +3009,14 @@
       "ticker": null,
       "sector": null,
       "latest_call_date": "2026-05-06"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "Bluspring Enter.",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "crown",
