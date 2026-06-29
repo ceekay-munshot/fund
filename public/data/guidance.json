@@ -46210,8 +46210,513 @@
         "collections efficiency (99%+)",
         "digital adoption"
       ]
+    },
+    "Karnataka Bank": {
+      "company": "Karnataka Bank",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f06e396f-8378-4dfc-a852-e23c1e71ac12.pdf",
+      "transcript_id": "karnataka-bank_2026-05-27",
+      "provider": "groq",
+      "generated_at": "2026-06-29T04:56:41.438Z",
+      "summary": "Karnataka Bank expects to sustain healthy growth and enhance overall financial performance in the periods ahead, with a focused strategic roadmap and improving business momentum.",
+      "guidance": [
+        {
+          "metric": "Business growth",
+          "horizon": "FY27",
+          "statement": "15% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "10% to 15% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Advance growth",
+          "horizon": "FY27",
+          "statement": "15% to 20% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CASA percentage",
+          "horizon": "FY27",
+          "statement": "33% plus",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CD ratio",
+          "horizon": "FY27",
+          "statement": "80%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY27",
+          "statement": "1% plus",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost-to-income ratio",
+          "horizon": "FY27",
+          "statement": "52% to 53%",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Employee expenses"
+      ],
+      "margin_drivers": [
+        "Accelerating retail growth",
+        "Stabilizing corporate portfolio",
+        "High-quality and better-yielding assets"
+      ]
+    },
+    "Punjab Natl.Bank": {
+      "company": "Punjab Natl.Bank",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb734f20-0be0-428e-8272-6cbea6e792e9.pdf",
+      "transcript_id": "punjab-natl-bank_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-29T04:56:56.403Z",
+      "summary": "PNB expects steady growth in FY27 with improving NIMs, asset quality, and digital-led efficiency, supported by CASA and RAM portfolio expansion.",
+      "guidance": [
+        {
+          "metric": "NIM",
+          "horizon": "FY27",
+          "statement": "Global NIM expected in the range of 2.6% to 2.7% for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NIM",
+          "horizon": "Q1FY27",
+          "statement": "Expects Q-o-Q increase in NIM from Q4 FY26 levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Branches",
+          "horizon": "FY27",
+          "statement": "Plan to open 250 more branches, primarily in Southern and Western regions",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit growth",
+          "horizon": "FY27",
+          "statement": "Core RAM (Retail, Agri, MSME) portfolio target of 58% in FY27, aiming for 60% long-term",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CASA ratio",
+          "horizon": "FY27",
+          "statement": "Focus on enhancing individual savings account balances to strengthen CASA base",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Slippage ratio",
+          "horizon": "FY27",
+          "statement": "Committed to keeping slippage ratio below 1%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "LCR",
+          "horizon": "FY27",
+          "statement": "Target to maintain LCR at around 125%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Digital lending",
+          "horizon": "FY27",
+          "statement": "Aim to scale digital lending with end-to-end digital journeys across most products",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "MSME growth",
+          "horizon": "FY27",
+          "statement": "Expects 20% quarterly growth in MSME portfolio",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Agri growth",
+          "horizon": "FY27",
+          "statement": "Agriculture priority sector growth target of 16% for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail growth",
+          "horizon": "FY27",
+          "statement": "Retail (excl. IBPC) growth target of 18% for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost-to-income ratio",
+          "horizon": "FY27",
+          "statement": "Aim to improve cost-to-income ratio further from FY26 levels",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "ECL provisioning impact post-April 2027",
+        "Impact of West Asian crisis on MSMEs",
+        "Dividend payout for FY27"
+      ],
+      "margin_drivers": [
+        "CASA growth",
+        "RAM portfolio expansion (Retail, Agri, MSME)",
+        "Digital lending scalability",
+        "Deposit cost optimization"
+      ]
+    },
+    "SBI": {
+      "company": "SBI",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a3280a0-5ce9-445e-a881-6b7c505e9a90.pdf",
+      "transcript_id": "sbi_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-29T04:57:03.483Z",
+      "summary": "SBI expects resilient profitability with NIM >3% in FY27, credit growth of 13-15%, and stable asset quality despite global uncertainties.",
+      "guidance": [
+        {
+          "metric": "Net Interest Margin (NIM)",
+          "horizon": "FY27",
+          "statement": "Maintain domestic NIM above 3% for the full year",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Credit growth",
+          "horizon": "FY27",
+          "statement": "Credit growth guidance of 13-15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "System deposit growth expected at 11-12%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY27",
+          "statement": "Stick to credit cost guidance of 50 basis points",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Slippages",
+          "horizon": "FY27",
+          "statement": "No structural asset quality concerns; Q4 slippages seasonal and pulled back 850 crores",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "ECL transition impact",
+          "horizon": "Medium-term (4 years)",
+          "statement": "Smooth transition to ECL guidelines without impacting credit growth or capital ratios",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Treasury income",
+          "horizon": "FY27",
+          "statement": "Yields expected in 6.75-6.9% range; no significant pain from yield movements",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY27",
+          "statement": "Maintain ROA consistently greater than 1%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "FY27",
+          "statement": "ROE target of 18.5% at the end of Q4 FY26",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Yield on advances",
+          "horizon": "FY27",
+          "statement": "Yield on advances likely to have some uptick; repo rate cuts unlikely this year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Floating rate loans (corporate book)",
+          "horizon": "FY27",
+          "statement": "Shift from T-bill linked to MCLR to normalize yields",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "ECLGS utilization",
+          "horizon": "FY27",
+          "statement": "Assessment of 30-40% utilization of Rs 70,000-80,000 crore ECLGS limit",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "gross slippages",
+        "specific Middle East retail portfolio size",
+        "ECL transition impact in absolute numbers"
+      ],
+      "margin_drivers": [
+        "CASA growth",
+        "shift from T-bill linked to MCLR loans",
+        "stability in repo rates",
+        "operating efficiency improvements"
+      ]
+    },
+    "Westlife Food": {
+      "company": "Westlife Food",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af2eb688-bfe8-4cba-8391-e1d5cb02deb6.pdf",
+      "transcript_id": "westlife-food_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-29T04:57:11.126Z",
+      "summary": "Management expects profitable growth through network expansion, digital adoption, and cost discipline, with cautious optimism on demand recovery.",
+      "guidance": [
+        {
+          "metric": "Restaurant openings",
+          "horizon": "FY27",
+          "statement": "Plan to open 60+ restaurants annually",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Maintain near historic high levels of ~68%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Price increases",
+          "horizon": "FY27",
+          "statement": "No immediate plan for price increases; maintain 2-4% annual price pass-through",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Same-store sales growth",
+          "horizon": "Q1FY27",
+          "statement": "Momentum continuing into April; sustained revival yet to be confirmed",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Digital sales contribution",
+          "horizon": "FY27",
+          "statement": "Balance growth between dine-in and delivery channels",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Guest count growth",
+          "horizon": "FY27",
+          "statement": "Focus on volume-led growth with mid-single-digit guest count growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Store closures",
+          "horizon": "FY27",
+          "statement": "Continue portfolio optimization with 6-7 store closures annually",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "McCafé loyalty",
+          "horizon": "medium-term",
+          "statement": "Leverage coffee subscription program to drive repeat visits",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sustainability initiatives",
+          "horizon": "medium-term",
+          "statement": "Embed sustainability at the core of long-term growth strategy",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Supply chain efficiency",
+          "horizon": "FY27",
+          "statement": "Mitigate inflationary pressures through supply chain initiatives",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Merchandise-led campaigns",
+          "horizon": "medium-term",
+          "statement": "Continue leveraging digital media for Gen Z engagement",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Restaurant operating margin",
+          "horizon": "FY27",
+          "statement": "Maintain operating EBITDA stability at ~13%",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Breakdown of unique vs. repeat customer growth",
+        "Detailed timeline for BIS-certified toy reintroduction",
+        "Quantitative impact of LPG disruptions on margins"
+      ],
+      "margin_drivers": [
+        "Supply chain efficiencies",
+        "Cost optimization projects",
+        "Everyday value platform",
+        "Digital sales scaling",
+        "Store modernization and capability upgrades"
+      ]
+    },
+    "Sheela Foam": {
+      "company": "Sheela Foam",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32933025-1ad9-4a59-89e8-e9d8c90b704f.pdf",
+      "transcript_id": "sheela-foam_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-29T04:57:19.080Z",
+      "summary": "Management expects continued growth momentum with margin expansion driven by volume growth, price pass-through, and operational efficiencies across segments.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expecting revenue growth to be better than 15% driven by product line strengthening and complementary business lines",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "3-5 years",
+          "statement": "Objective to achieve growth in related product categories to become a full product player and increase market penetration",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Opportunity for margin expansion due to raw material cost pass-through and operational efficiencies",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material prices (polyol, TDI)",
+          "horizon": "FY27",
+          "statement": "Polyols expected to be around INR120/kg and TDI around INR240/kg based on 5-year average, but currently above these levels",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Price pass-through",
+          "horizon": "FY27",
+          "statement": "Able to pass on raw material cost increases across B2C, industrial foam, and partly B2B channels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Depreciation",
+          "horizon": "FY27",
+          "statement": "Consolidated depreciation expected to be INR140-145 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex expected to be INR125-150 crores including maintenance, marketing (new stores), and debottlenecking",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Furlenco revenue",
+          "horizon": "FY27",
+          "statement": "Furlenco targeting INR500 crores revenue next year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Furlenco IPO timing",
+          "horizon": "3-4 months",
+          "statement": "Decision on Furlenco IPO timing expected in next 3-4 months",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Furlenco integrated stores",
+          "horizon": "current year",
+          "statement": "Target to cross 100 integrated stores (Furlenco + Sleepwell/Kurlon) during current year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction (India)",
+          "horizon": "1-1.5 years",
+          "statement": "INR300+ crores debt in India expected to be paid off in next 1-1.5 years using cash flows",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "U2O (Unorganized to Organized) growth",
+          "horizon": "medium-term",
+          "statement": "U2O and e-commerce segments to remain strong focus areas for deeper penetration in India's mattress market",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material price forecasts beyond 5-year averages",
+        "Quantitative margin targets beyond FY27",
+        "Specific ROE/ROCE targets for Furlenco"
+      ],
+      "margin_drivers": [
+        "Volume growth",
+        "Price pass-through on raw material increases",
+        "Operational efficiencies",
+        "Debottlenecking capex",
+        "Integrated platform benefits from Kurlon acquisition",
+        "Cost discipline in Furlenco"
+      ]
     }
   },
-  "generated_at": "2026-06-28T23:45:42.944Z",
-  "count": 451
+  "generated_at": "2026-06-29T04:57:20.608Z",
+  "count": 456
 }
