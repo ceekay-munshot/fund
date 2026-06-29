@@ -47153,8 +47153,307 @@
         "gold price fluctuations monitoring",
         "fixed rate loan book mix improvement"
       ]
+    },
+    "ESAF Small Fin": {
+      "company": "ESAF Small Fin",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38293954-001c-4fed-9b88-291c96065229.pdf",
+      "transcript_id": "esaf-small-fin_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-29T14:17:47.693Z",
+      "summary": "Management expects steady growth, improved asset quality, and margin expansion with ROA targeting 2% by FY28.",
+      "guidance": [
+        {
+          "metric": "Secured assets mix",
+          "horizon": "March 2027",
+          "statement": "Targeting 70% secured assets by March 2027",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Secured assets mix",
+          "horizon": "Long-term",
+          "statement": "Planning to cap unsecured book at 30%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY28",
+          "statement": "Steady-state credit cost expected to be 2%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY27",
+          "statement": "Some backlog of provisioning will continue in FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY28",
+          "statement": "Targeting ROA of 2%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "Next 2 quarters",
+          "statement": "Expecting traction in ROA improvement in the next couple of quarters",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Loan book growth",
+          "horizon": "Steady-state",
+          "statement": "Expecting 20% to 25% growth on a steady-state basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost-to-income ratio",
+          "horizon": "Steady-state",
+          "statement": "Cost-to-income ratio guidance around 55%, plus or minus 2%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net Interest Margin (NIM)",
+          "horizon": "Steady-state",
+          "statement": "NIM expected to be around 7%, plus or minus half percentage",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Disbursements growth",
+          "horizon": "FY27",
+          "statement": "Growth is back and asset quality problems are almost over, expecting better performance going forward",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology implementation",
+          "horizon": "Q3 FY27",
+          "statement": "ESAF 2.0 – StratoNeXt digital transformation program expected to be completed before end of this calendar year (Q3 FY27)",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CASA ratio",
+          "horizon": "Gradual",
+          "statement": "Expecting CASA traction to gradually improve",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue growth",
+        "FY27 PAT",
+        "FY27 EBITDA margin"
+      ],
+      "margin_drivers": [
+        "Shift towards secured assets (MARG portfolio)",
+        "Improved asset quality and reduced slippages",
+        "Cost discipline and operating efficiency",
+        "Technology-led operational improvements (ESAF 2.0)",
+        "Portfolio mix transition (Gold loans, Mortgage loans)"
+      ]
+    },
+    "Central Bank": {
+      "company": "Central Bank",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e73d3cbd-034b-4566-9304-0da2cd77bce0.pdf",
+      "transcript_id": "central-bank_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-29T14:17:55.914Z",
+      "summary": "Management expects steady growth in FY27 with improved asset quality, NIM stability, and profitability supported by tax benefits and digital investments.",
+      "guidance": [
+        {
+          "metric": "Credit growth",
+          "horizon": "FY27",
+          "statement": "Guidance of 14% to 16% credit growth for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "Guidance of 10% to 12% deposit growth for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Slippage ratio",
+          "horizon": "FY27",
+          "statement": "Guidance to keep slippage ratio less than 1% in FY27",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "NIM",
+          "horizon": "FY27",
+          "statement": "Expects NIM stability with improved treasury returns",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "CASA ratio",
+          "horizon": "FY27",
+          "statement": "CASA ratio maintained at 47.30% with continued focus on CASA mobilization",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "CD ratio",
+          "horizon": "FY27",
+          "statement": "CD ratio expected to improve to ~74% from 73.80%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Recovery from written-off accounts",
+          "horizon": "FY27",
+          "statement": "Estimated recovery of INR2,200 crores to INR2,500 crores from written-off accounts in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ECL transition impact",
+          "horizon": "FY27",
+          "statement": "Ongoing credit cost under ECL framework estimated at INR600 crores to INR650 crores annually",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Tax regime transition benefit",
+          "horizon": "FY27",
+          "statement": "Expected benefit of INR600 crores to INR800 crores from transition to new tax regime (25% vs 35%)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital spend",
+          "horizon": "FY27",
+          "statement": "Budgeted digital spend of INR1,442 crores (capital) and INR1,276 crores (revenue) for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "RAM vs Corporate mix",
+          "horizon": "FY27",
+          "statement": "Maintaining RAM to Corporate ratio at 65%:35% (+/-5%)",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Insurance JV income",
+          "horizon": "FY27",
+          "statement": "Opportunity to leverage insurance JV for higher fee-based income",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Sanction pipeline and undisbursed credit limits",
+        "Technology development report and spending breakdown"
+      ],
+      "margin_drivers": [
+        "Treasury optimization",
+        "Fee-based income from wealth management and insurance JV",
+        "Tax regime transition benefit (10% reduction)",
+        "Digital investments and process improvements",
+        "CASA ratio stability"
+      ]
+    },
+    "IndiGrid Trust": {
+      "company": "IndiGrid Trust",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.indigrid.co.in/wp-content/uploads/2025/07/IndiGrid-Q4-FY26-Earnings-Call-Transcript.pdf",
+      "transcript_id": "indigrid-trust_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-29T14:18:03.554Z",
+      "summary": "IndiGrid expects steady DPU growth driven by value-accretive acquisitions, greenfield projects, and disciplined capital deployment over the medium term.",
+      "guidance": [
+        {
+          "metric": "DPU",
+          "horizon": "FY27",
+          "statement": "Guided DPU of INR16.48 per unit for FY27, implying ~3% YoY growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "DPU sustainability",
+          "horizon": "FY27-FY31/32",
+          "statement": "INR16.48 DPU can be maintained without additional acquisitions until FY31/32, supported by under-construction pipeline.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Under-construction pipeline",
+          "horizon": "12-24 months",
+          "statement": "INR7,500-8,000 crores of under-construction projects expected to be commissioned over 12-24 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AUM growth",
+          "horizon": "medium-term",
+          "statement": "Expects sizable investment in energy transmission and battery storage over the next decade, with market size potentially exceeding INR9-10 lakh crores.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS capacity",
+          "horizon": "coming year",
+          "statement": "Aims to be one of the largest independent BESS players in India in the coming year.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "DPU growth band",
+          "horizon": "annual",
+          "statement": "Historical DPU growth band of 3%-5%, reflecting sustainable cash flow growth opportunities.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Leverage ratio",
+          "horizon": "medium-term",
+          "statement": "Focus on optimizing interest costs and elongating debt tenure profile for refinancing and acquisitions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Asset availability",
+          "horizon": "ongoing",
+          "statement": "Aim to sustain minimum 99.5% availability across the portfolio.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "NAV per unit",
+        "DPU breakup (interest vs. dividend vs. capital repayment)",
+        "Refinancing schedule beyond current disclosed profile",
+        "Exact timing of asset additions to AUM"
+      ],
+      "margin_drivers": [
+        "Value-accretive acquisitions",
+        "Greenfield project execution",
+        "Disciplined capital deployment",
+        "Operational efficiency (99.5%+ availability)",
+        "Synergistic greenfield opportunities via EnerGrid"
+      ]
     }
   },
-  "generated_at": "2026-06-29T09:57:53.014Z",
-  "count": 460
+  "generated_at": "2026-06-29T14:18:07.411Z",
+  "count": 463
 }
