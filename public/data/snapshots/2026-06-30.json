@@ -1,17 +1,17 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-06-29T21:09:45.233Z",
+  "generated_at": "2026-06-29T22:28:32.397Z",
   "totals": {
-    "sightings": 3150,
-    "companies": 972,
+    "sightings": 3154,
+    "companies": 974,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 595,
-      "company_count": 380,
+      "sighting_count": 597,
+      "company_count": 381,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -318,6 +318,7 @@
         "Skipper",
         "Smarten Power",
         "Softtech Enginee",
+        "Solara Active",
         "Solarium Green",
         "Solarworld Ene.",
         "Sri Lotus",
@@ -811,8 +812,8 @@
     {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
-      "sighting_count": 146,
-      "company_count": 115,
+      "sighting_count": 147,
+      "company_count": 116,
       "companies": [
         "AGI Greenpac",
         "Aditya Infotech",
@@ -895,6 +896,7 @@
         "Saatvik Green",
         "Sahana Systems",
         "Salzer Electron.",
+        "Sammaan Capital",
         "Sanjiv.Parant.",
         "Satin Creditcare",
         "Senores Pharma.",
@@ -2293,6 +2295,29 @@
       ]
     },
     {
+      "fund_id": "singularity",
+      "fund_name": "Singularity AMC",
+      "sighting_count": 18,
+      "company_count": 15,
+      "companies": [
+        "Alpex Solar",
+        "Centum Electron",
+        "Clean Max Enviro",
+        "Emmvee Photovol.",
+        "Ganesh Consumer",
+        "HEG",
+        "Indo Farm Equip.",
+        "Indostar Capital",
+        "Kirl.Pneumatic",
+        "Rossell Techsys",
+        "Saatvik Green",
+        "Sammaan Capital",
+        "Vikram Solar",
+        "Waaree Energies",
+        "Yash Highvoltage"
+      ]
+    },
+    {
       "fund_id": "sundaram-alternates",
       "fund_name": "Sundaram Alternates",
       "sighting_count": 18,
@@ -2309,28 +2334,6 @@
         "Northern Arc",
         "Pricol Ltd",
         "TD Power Systems"
-      ]
-    },
-    {
-      "fund_id": "singularity",
-      "fund_name": "Singularity AMC",
-      "sighting_count": 17,
-      "company_count": 14,
-      "companies": [
-        "Alpex Solar",
-        "Centum Electron",
-        "Clean Max Enviro",
-        "Emmvee Photovol.",
-        "Ganesh Consumer",
-        "HEG",
-        "Indo Farm Equip.",
-        "Indostar Capital",
-        "Kirl.Pneumatic",
-        "Rossell Techsys",
-        "Saatvik Green",
-        "Vikram Solar",
-        "Waaree Energies",
-        "Yash Highvoltage"
       ]
     },
     {
@@ -2462,8 +2465,8 @@
   "per_sector": [
     {
       "sector": "Unknown",
-      "sighting_count": 1511,
-      "company_count": 525
+      "sighting_count": 1515,
+      "company_count": 527
     },
     {
       "sector": "Industrials",
@@ -2528,6 +2531,12 @@
   ],
   "new_today": [
     {
+      "fund_name": "Crown Capital",
+      "company": "Sammaan Capital",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
+    },
+    {
       "fund_name": "Maximal Capital",
       "company": "Bluspring Enter.",
       "sector": "Unknown",
@@ -2556,6 +2565,24 @@
       "company": "Bluspring Enter.",
       "sector": "Unknown",
       "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Solara Active",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Solara Active",
+      "sector": "Unknown",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Singularity AMC",
+      "company": "Sammaan Capital",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
     }
   ]
 }
