@@ -50181,8 +50181,182 @@
         "operational deleverage reduction in Pizza Hut",
         "international business margin expansion"
       ]
+    },
+    "Epack Durable": {
+      "company": "Epack Durable",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5a868e9-d33d-4d9b-bd3f-5b9a4d50ebf4.pdf",
+      "transcript_id": "epack-durable_2026-05-27",
+      "provider": "groq",
+      "generated_at": "2026-06-30T05:52:15.391Z",
+      "summary": "EPACK Durable expects a relatively more encouraging FY27, supported by improved customer conditions and normalization in industry inventory levels.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected to outgrow the industry growth of 15%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX",
+          "horizon": "FY27",
+          "statement": "Rs. 170-200 crores planned over the next 9-12 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "medium-term",
+          "statement": "Expected to double",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin",
+          "horizon": "FY27",
+          "statement": "May see some margin pressure due to commodity hikes and FX changes",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Price increase",
+          "horizon": "FY27",
+          "statement": "15-20% price increase passed on to customers",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margins",
+          "horizon": "medium-term",
+          "statement": "Expected to improve",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative numbers for subsidiaries or the parent company"
+      ],
+      "margin_drivers": [
+        "Diversification",
+        "Localization",
+        "Component ecosystem",
+        "Scale efficiencies"
+      ]
+    },
+    "Oriental Aromat.": {
+      "company": "Oriental Aromat.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ebf1040-16a7-428a-9633-86a568c6d5ca.pdf",
+      "transcript_id": "oriental-aromat_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T05:52:35.127Z",
+      "summary": "Management expects FY27 to be challenging with margin recovery dependent on cost normalization and Mahad ramp-up, targeting EBITDA margins around 10% over the medium term.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Endeavor to return to EBITDA margins around 10%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Target structurally rebuilding margins through internal efficiency programs",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Focus on preservation of profits and growth with current assets; no specific revenue guidance provided",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Mahad ramp-up impact",
+          "horizon": "FY27",
+          "statement": "Mahad to add INR 50-65 crore to top line at current prices and utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material costs",
+          "horizon": "next few quarters",
+          "statement": "Input cost inflation and currency depreciation to continue impacting margins before normalizing",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Peak revenue (excluding Mahad)",
+          "horizon": "current",
+          "statement": "Peak revenue at current price realizations expected between INR 1200-1250 crore",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Peak revenue (including Mahad)",
+          "horizon": "current",
+          "statement": "Incremental addition from Mahad at full capacity around INR 50-65 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Camphor market dynamics",
+          "horizon": "medium-term",
+          "statement": "Overcapacity in Indian camphor market to persist; natural camphor imports from China to remain a challenge",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Segmental revenue split",
+          "horizon": "FY27",
+          "statement": "Segmental revenue split to remain broadly 33%:33%:33% across divisions",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order flow from North America",
+          "horizon": "H2FY26",
+          "statement": "Gradual recovery in order flow from North America as tariffs overhang has eased",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "RFQ cycles",
+          "horizon": "H2FY26",
+          "statement": "RFQ cycles for H2FY26 looking constructive on volumes though pricing remains tight",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Cost management initiatives",
+          "horizon": "next few quarters",
+          "statement": "Benefits from process re-engineering, yield optimization, and disciplined cost management to accrue progressively",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "absolute peak capacity utilization revenue number",
+        "specific timeline for margin recovery to 10%",
+        "details on government actions regarding camphor imports"
+      ],
+      "margin_drivers": [
+        "input cost inflation",
+        "currency depreciation",
+        "Mahad ramp-up drag",
+        "process re-engineering and yield optimization",
+        "backward integration into Aroma Ingredients",
+        "raw material availability and pricing volatility"
+      ]
     }
   },
-  "generated_at": "2026-06-30T01:37:01.789Z",
-  "count": 489
+  "generated_at": "2026-06-30T05:52:40.944Z",
+  "count": 491
 }
