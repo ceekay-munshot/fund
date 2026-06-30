@@ -52404,8 +52404,402 @@
         "New product launches and portfolio refresh to drive higher ASPs within sub-INR1,000 range",
         "Focus on value-added bottom-wear portfolio (70% of revenues)"
       ]
+    },
+    "Fairchem Organic": {
+      "company": "Fairchem Organic",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=319a8838-0c70-4afe-88d8-9b4cb112a8e6.pdf",
+      "transcript_id": "fairchem-organic_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-06-30T21:18:39.555Z",
+      "summary": "The company expects improvement in revenue and margins driven by reduced Chinese dumping, better price realization, and increased capacity utilization.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected to reach 75%-80% capacity utilization, implying a significant increase in revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Targeting to reach 8% margins",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export contribution",
+          "horizon": "FY27",
+          "statement": "Expected to increase from 8%-9% to around 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Expected to reach 75%-80% capacity utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product revenue",
+          "horizon": "FY29-30",
+          "statement": "Expected to generate Rs. 800-1000 crores revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product margin",
+          "horizon": "FY29-30",
+          "statement": "Expected to have margins of 15%-18%",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact timeline for meaningful export volumes to resume",
+        "Quantitative impact of rupee depreciation on export realization"
+      ],
+      "margin_drivers": [
+        "Better price realization due to reduced Chinese dumping",
+        "Increased capacity utilization",
+        "Operating leverage",
+        "New product with higher margins"
+      ]
+    },
+    "HFCL": {
+      "company": "HFCL",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf",
+      "transcript_id": "hfcl_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T21:18:50.464Z",
+      "summary": "HFCL expects sustained revenue growth and margin expansion driven by strong order book, defense expansion, data center interconnect solutions, and backward integration.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects revenue growth of 20% to 25% over FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expects 3% to 4% increase in blended EBITDA margin",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Data center interconnect solutions revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Expected to contribute Rs.400 crore in FY27 and Rs.800 crore in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense revenue",
+          "horizon": "FY27",
+          "statement": "Expected to be Rs.500 crore to Rs.600 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense margin",
+          "horizon": "FY27",
+          "statement": "Expected to be a couple of percentage points higher than current margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Optical Fibre capacity",
+          "horizon": "December 2026",
+          "statement": "Optical Fibre capacity to increase from 28 mn fkm to 33.9 mn fkm",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Optical Fibre Cable capacity",
+          "horizon": "December 2026",
+          "statement": "Optical Fibre Cable capacity to increase from 34 mn fkm to 42.36 mn fkm",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Preform manufacturing facility capex",
+          "horizon": "2 years",
+          "statement": "Facility to be set up with Rs.580 crore capex, reducing preform cost by 15% to 20%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Preform manufacturing facility timeline",
+          "horizon": "2 years",
+          "statement": "Facility expected to be operational in at least 2 years",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book execution timeline",
+          "horizon": "5 years",
+          "statement": "Rs.18,000 crore of product orders to be delivered within 1 to 5 years",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EPC business profitability",
+          "horizon": "FY27",
+          "statement": "EPC business expected to turn profitable from FY27 onwards",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense aerospace acquisition timeline",
+          "horizon": "2026",
+          "statement": "Definitive agreements for defense aerospace acquisition expected by May 31, 2026, with closing in the current calendar year",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "PAT guidance for FY27",
+        "Breakdown of IBR capacity turnover",
+        "Demerger timeline for project business"
+      ],
+      "margin_drivers": [
+        "Backward integration into preform manufacturing",
+        "Defense sector expansion",
+        "Data center interconnect solutions",
+        "High-margin product mix shift",
+        "Export-led revenue growth"
+      ]
+    },
+    "Digitide Solutio": {
+      "company": "Digitide Solutio",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22245082-1bfe-4c10-b2b7-ab0cea6f9c82.pdf",
+      "transcript_id": "digitide-solutio_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T21:18:59.056Z",
+      "summary": "Digitide Solutions expects accelerated double-digit revenue growth, margin expansion, and scaled AI monetization in FY27, driven by Tech and Digital services and international expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Accelerated double-digit revenue growth led by high-value Tech and Digital and international expansion",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "100-basis point expansion by the time we exit FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tech and Digital revenue mix",
+          "horizon": "FY27",
+          "statement": "Continued improvement in Tech and Digital revenue mix as a percentage of total revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International revenue mix",
+          "horizon": "FY27",
+          "statement": "Continued scaling of international revenue contribution",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI monetization",
+          "horizon": "FY27",
+          "statement": "Scaled AI monetization as primary platforms and enterprise COEs enter full production",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational cash flow conversion",
+          "horizon": "FY27",
+          "statement": "Target normalized cash conversion of ~70% of EBITDA",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "TCV bookings",
+          "horizon": "FY27",
+          "statement": "Velocity in deal closures backed by global alliances",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hyperscaler-led revenue contribution",
+          "horizon": "FY27",
+          "statement": "Approximately 15% of overall pipeline is hyperscaler-led, contributing to Tech and Digital growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Healthcare outsourcing demand",
+          "horizon": "FY27",
+          "statement": "Healthcare outsourcing demand translating into revenue and expansion, with new deals won in US",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue per FTE",
+          "horizon": "FY27",
+          "statement": "Continued improvement in revenue per FTE supported by AI-led delivery and pyramid optimization",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "DSO improvement",
+          "horizon": "FY27",
+          "statement": "Maintain DSO discipline as a key operating metric",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "CAPEX",
+          "horizon": "FY27",
+          "statement": "Continued focus on technology platforms, AI capabilities, and infrastructure scale-up",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "USD revenue growth in FY27",
+        "Breakdown of revenue growth between existing and new clients for FY27",
+        "Comparison of standalone Digitide vs. consolidated Digitide profitability excluding Alldigi Tech"
+      ],
+      "margin_drivers": [
+        "Tech and Digital revenue mix expansion",
+        "International revenue contribution scaling",
+        "Operational leverage from AI-led delivery",
+        "Completion of legacy investment phase",
+        "Pricing discipline across portfolio",
+        "Productivity initiatives (revenue per FTE improvement)",
+        "Segment margin expansion (BPM and Tech and Digital)",
+        "AI monetization scaling"
+      ]
+    },
+    "IIFL Finance": {
+      "company": "IIFL Finance",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=765cc355-56b1-44af-9506-2367aa8be5c1.pdf",
+      "transcript_id": "iifl-finance_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T21:19:09.329Z",
+      "summary": "IIFL Finance expects sustainable capital-efficient growth driven by secured lending, co-lending, and AI-led productivity gains, with improved asset quality and ROA expansion.",
+      "guidance": [
+        {
+          "metric": "Gold loan AUM growth",
+          "horizon": "FY27",
+          "statement": "20% to 25% AUM growth if gold prices remain stable",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY27",
+          "statement": "Credit cost to decline to 1.5% to 1.7% from 2.7% to 3% in FY26",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY27",
+          "statement": "ROA expected to improve to 3% to 3.5% due to lower credit costs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Home loan AUM growth",
+          "horizon": "FY27",
+          "statement": "18% to 20% AUM growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Home loan disbursement growth",
+          "horizon": "FY27",
+          "statement": "25% to 27% disbursement growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Co-lending AUM proportion",
+          "horizon": "medium-term",
+          "statement": "Co-lending to grow to 20% of total AUM from current 13-15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Off-book AUM proportion (DA + co-lending)",
+          "horizon": "medium-term",
+          "statement": "Target 40% to 45% of total AUM",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gold loan underwriting compliance",
+          "horizon": "FY27",
+          "statement": "Fully compliant with RBI's new gold loan guidelines from April 1, including cash flow assessment for loans above INR2.5 lakh",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Branch expansion for gold loans",
+          "horizon": "FY27",
+          "statement": "Free to expand branch network to penetrate underserved segments",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tax assessment outcome",
+          "horizon": "near-term",
+          "statement": "No material adverse outcome expected from tax assessment orders; any demand will be contested",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI-led productivity gains",
+          "horizon": "medium-term",
+          "statement": "AI improving conversion rates, reducing credit costs, and enhancing operating efficiency across lead generation, underwriting, collections, and cross-sell",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset quality improvement",
+          "horizon": "FY27",
+          "statement": "Further improvement in asset quality expected as portfolio resets complete",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "timeline for IIFL Home Finance demerger",
+        "specific tax liability amount from special audit"
+      ],
+      "margin_drivers": [
+        "lower credit costs",
+        "AI-led productivity gains",
+        "shift to secured lending (gold loans, mortgages)",
+        "co-lending and off-book partnerships",
+        "improved underwriting in housing finance"
+      ]
     }
   },
-  "generated_at": "2026-06-30T19:24:43.459Z",
-  "count": 511
+  "generated_at": "2026-06-30T21:19:10.858Z",
+  "count": 515
 }
