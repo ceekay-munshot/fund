@@ -52046,8 +52046,366 @@
         "Strategic acquisitions (e.g., Beryl) enhancing service portfolio",
         "Productivity improvements and team expansion in civil division"
       ]
+    },
+    "Niva Bupa Health": {
+      "company": "Niva Bupa Health",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1111d55-b08b-40ba-a4cd-494f3c7c62d4.pdf",
+      "transcript_id": "niva-bupa-health_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-06-30T19:24:12.475Z",
+      "summary": "Niva Bupa Health Insurance expects to continue its strong growth momentum, driven by its multichannel distribution architecture, expansion into newer customer segments, and strategic focus on Bharat through its virtual agency and bank distribution.",
+      "guidance": [
+        {
+          "metric": "Combined Operating Ratio",
+          "horizon": "FY29",
+          "statement": "Expected to be around 99%, with loss ratio stable or inching up by 100-150 basis points, and expense ratio driving the savings",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Return on Equity (ROE)",
+          "horizon": "medium-term",
+          "statement": "Expected to be in the mid-to-high teens, close to 11% currently",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail Health Growth",
+          "horizon": "5-year view",
+          "statement": "Expected to continue at a CAGR of 17-19%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Expense Ratio",
+          "horizon": "long-term",
+          "statement": "Expected to improve, driven by operating leverage, economies of scale, and investments in technology and analytics",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Commission regulations and potential impact on the business"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Economies of scale",
+        "Investments in technology and analytics"
+      ]
+    },
+    "Gem Aromatics": {
+      "company": "Gem Aromatics",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b94d6ff8-ffba-410c-8f41-99cbe0756dbb.pdf",
+      "transcript_id": "gem-aromatics_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T19:24:19.735Z",
+      "summary": "Management expects gradual recovery in FY27 with strong growth visibility in FY28 driven by Dahej ramp-up, diversification, and margin expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Consolidated revenue guidance of INR1,050-1,100 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY28",
+          "statement": "EBITDA margin target in the range of 16%-18%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dahej facility asset turn",
+          "horizon": "medium-term",
+          "statement": "Asset turn of 3-3.5x expected from Dahej facility",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dahej facility revenue potential",
+          "horizon": "medium-term",
+          "statement": "Peak potential revenue of INR800 crores from Dahej unit",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Phenol-based derivatives production",
+          "horizon": "Q1-Q2 FY27",
+          "statement": "Expect to ramp up phenol vertical production once raw material prices stabilize",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage benefits",
+          "horizon": "FY27",
+          "statement": "Expect operating leverage to support margin and profitability improvement",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mint and clove business revenue",
+          "horizon": "FY26",
+          "statement": "Combined mint and clove business revenue to exceed INR500 crores (FY25 level)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Utilization levels",
+          "horizon": "H2 FY26",
+          "statement": "Will provide utilization numbers for Dahej facility closer to H2 FY26",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "GST fuel headwind",
+          "horizon": "FY26",
+          "statement": "GST fuel headwind has normalized and business is back to pre-GST levels",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue and EBITDA margin guidance",
+        "Utilization levels for FY27",
+        "Specific margins for phenol-based derivatives",
+        "Raw material pricing outlook beyond stabilization comments"
+      ],
+      "margin_drivers": [
+        "Operating leverage from Dahej facility ramp-up",
+        "Healthier product mix across key categories",
+        "Improving volumes and price realization",
+        "Diversification into non-mint products (clove, cooling agents)",
+        "EcoVadis Platinum sustainability rating benefits"
+      ]
+    },
+    "Tata Chemicals": {
+      "company": "Tata Chemicals",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50e85ee1-258f-4561-983f-e26dfac2762c.pdf",
+      "transcript_id": "tata-chemicals_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T19:24:28.616Z",
+      "summary": "Management expects margin recovery in medium-term driven by cost pass-through, supply-side discipline, and shift to domestic demand, while prioritizing non-soda ash growth and disciplined capex.",
+      "guidance": [
+        {
+          "metric": "Soda ash pricing",
+          "horizon": "near-term",
+          "statement": "Pricing expected to remain range-bound, reacting primarily to energy cost increases which producers may pass on.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Soda ash demand-supply balance",
+          "horizon": "near-term",
+          "statement": "Imports to India have slowed significantly due to Middle East conflict, with customers increasing domestic sourcing share.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Soda ash margins",
+          "horizon": "Q1FY27",
+          "statement": "Margins in Q4FY26 are not necessarily the bottom if costs stabilize, but near-term pressure may persist due to shipping and energy costs.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material availability (HFO for Kenya)",
+          "horizon": "next 3 months",
+          "statement": "Kenya unit has 40-day HFO supply; next shipment expected to extend cover beyond 45 days.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Ammonia supply constraints (India)",
+          "horizon": "near-term",
+          "statement": "Ammonia supply for non-fertilizer users is being monitored closely; government intervention expected to resolve constraints.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Cost pass-through (energy, logistics)",
+          "horizon": "near-term",
+          "statement": "Cost increases in energy and logistics have been transparently communicated and passed on to customers across geographies.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Non-soda ash revenue growth",
+          "horizon": "long-term",
+          "statement": "Company remains focused on growing non-soda ash revenue in line with long-term strategic objective.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (new projects)",
+          "horizon": "12-14 months",
+          "statement": "INR 100 crore capacity expansion to come on stream in 12-14 months with IRR >20%. Precipitated silica plant IRR 15-20%, Valinokkam salt project IRR ~20%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (US soda ash)",
+          "horizon": "medium-term",
+          "statement": "No new capex planned for US soda ash business until cycle improves.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "FY27",
+          "statement": "Working capital cycle expected to improve as focus shifts to domestic markets and unremunerative exports are exited.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "China soda ash inventory levels",
+          "horizon": "near-term",
+          "statement": "China inventories remain elevated at ~1.8 million tons; no significant impact on market yet.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "China soda ash capacity utilization",
+          "horizon": "near-term",
+          "statement": "Early signs of movement in China with some plants running at lower utilization or taking maintenance closures.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative targets for FY27 or beyond",
+        "Specific EBITDA/PAT margins for any future period",
+        "Detailed breakdown of capex allocation beyond announced projects",
+        "Timeline for resolution of Middle East conflict impact"
+      ],
+      "margin_drivers": [
+        "Energy cost pass-through",
+        "Shift to domestic demand (India)",
+        "Reduced unremunerative exports (Southeast Asia)",
+        "Logistics cost recovery",
+        "Rupeedepreciation (natural protection for Indian market)",
+        "Supply-side discipline (China/US capacity closures)"
+      ]
+    },
+    "Go Fashion (I)": {
+      "company": "Go Fashion (I)",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adeec232-4403-4265-b0ed-d9fdf2ce3ee9.pdf",
+      "transcript_id": "go-fashion-i_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T19:24:41.936Z",
+      "summary": "Management expects FY27 to mark a recovery phase with positive same-store sales growth, store format consolidation, and new product/category initiatives driving long-term growth.",
+      "guidance": [
+        {
+          "metric": "Store network expansion (square feet)",
+          "horizon": "FY27",
+          "statement": "Net addition of at least 10% more square feet in FY27, primarily through larger 700+ sq ft stores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Same-store sales growth (SSSG)",
+          "horizon": "FY27",
+          "statement": "Target to turn SSSG positive by end of FY27, moving from negative SSSG in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "FY27",
+          "statement": "Plan to add 10 to 12 new refreshing products, including new formats to open new purchase occasions.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Daily Wear concept store count",
+          "horizon": "FY27",
+          "statement": "Expand Daily Wear concept to 25-30 stores by end of FY27, up from 10 stores as of March 31, 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Store closures (small stores)",
+          "horizon": "Q1FY27 and beyond",
+          "statement": "Plan to shut another 50 small stores in Q1FY27, consolidating overlapping catchments into larger stores.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "LFS channel recovery",
+          "horizon": "FY27",
+          "statement": "Expect LFS channel to stabilize and show meaningful recovery in FY27, improving from Q4FY26 decline.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Maintain gross margins between 62.5% and 63.5% in FY27, similar to current levels.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Brand ambassador initiative",
+          "horizon": "June 2026",
+          "statement": "Launch a brand ambassador in June 2026 to amplify brand salience and improve store traction.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International expansion (Middle East)",
+          "horizon": "medium-term",
+          "statement": "Continue measured and data-driven scaling of international stores in the Middle East based on unit economics and consumer response.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Working capital and cash flows",
+          "horizon": "FY27 and beyond",
+          "statement": "Commit to maintaining a healthy working capital position and generating sufficient internal cash flows for further expansion.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Store format strategy (700+ sq ft)",
+          "horizon": "medium-term",
+          "statement": "Focus on larger 700+ sq ft stores to improve consumer experience and product display, with long-term store sizes designed to avoid future inadequacy.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inventory levels",
+          "horizon": "FY27",
+          "statement": "Inventory levels expected to stabilize back to 3 months in FY27 from current 4 months, auto-correcting with sales recovery.",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Net store count additions (number of stores)",
+        "Revenue or EBITDA growth targets for FY27",
+        "PAT or ROCE/ROE targets for FY27",
+        "Capex guidance for FY27"
+      ],
+      "margin_drivers": [
+        "No discounting policy",
+        "Larger store formats (700+ sq ft) for better product display and consumer experience",
+        "New product launches and portfolio refresh to drive higher ASPs within sub-INR1,000 range",
+        "Focus on value-added bottom-wear portfolio (70% of revenues)"
+      ]
     }
   },
-  "generated_at": "2026-06-30T17:27:56.510Z",
-  "count": 507
+  "generated_at": "2026-06-30T19:24:43.459Z",
+  "count": 511
 }
