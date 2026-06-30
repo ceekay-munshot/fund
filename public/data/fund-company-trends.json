@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-30T06:29:54.983Z",
+  "generated_at": "2026-06-30T10:23:43.478Z",
   "min_prior_calls": 2,
   "summary": {
-    "dropped": 225,
+    "dropped": 226,
     "gained": 336,
     "consistent": 520,
-    "companies_evaluated": 922
+    "companies_evaluated": 923
   },
   "dropped": [
     {
@@ -268,6 +268,17 @@
       "ticker": "CARYSIL",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-27",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Sapphire Foods",
+      "ticker": null,
+      "sector": null,
+      "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
       "tier": "strong"
