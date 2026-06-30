@@ -49680,8 +49680,509 @@
         "CGTMSE insurance coverage expansion",
         "Gold loan yield at 15% with granular customer acquisition"
       ]
+    },
+    "Laxmi Organic": {
+      "company": "Laxmi Organic",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b9719d1-1d55-4f90-92a3-5caa5b77bd92.pdf",
+      "transcript_id": "laxmi-organic_2026-05-29",
+      "provider": "groq",
+      "generated_at": "2026-06-30T01:36:19.013Z",
+      "summary": "Laxmi Organic expects a decent start to the current financial year, with prudent working capital management and investments in growth projects.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects revenues to increase with the manifestation of the Dahej project in the second half and ramp-up into FY28 and beyond.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Expects revenues to increase further with the ramp-up of the Dahej project.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Ethyl Acetate Spreads",
+          "horizon": "next 1-2 quarters",
+          "statement": "Expects spreads to be sustainable around $150-$160 range.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Specialties Segment Revenue",
+          "horizon": "FY27 and FY28",
+          "statement": "Expects growth in the Specialties segment with the ramp-up of the Dahej capacity and improvement in pricing.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dahej Project Revenue",
+          "horizon": "FY27 and FY28",
+          "statement": "Expects revenues from the Dahej project to increase in the second half of FY27 and ramp up further in FY28.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hitachi Project Revenue",
+          "horizon": "FY27",
+          "statement": "Expects revenues from the Hitachi project to manifest in quarter 3 of FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Absolute revenue numbers for FY27 and FY28"
+      ],
+      "margin_drivers": [
+        "Improvement in ethyl acetate spreads",
+        "Pricing improvement in the Specialties segment",
+        "Ramp-up of the Dahej project"
+      ]
+    },
+    "NOCIL": {
+      "company": "NOCIL",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-15",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=260a108b-964b-4cdc-9eb5-2fde52811dcc.pdf",
+      "transcript_id": "nocil_2026-05-15",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T01:36:34.317Z",
+      "summary": "Management expects sustained volume growth momentum, margin recovery from pricing actions, and capacity additions to drive long-term growth despite near-term raw material volatility.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Expects positive volume momentum to sustain in coming quarters, building on Q4 FY26 volumes as a base.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth expected to improve with sustained volume growth and pricing actions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q1FY27",
+          "statement": "Pricing actions taken in March 2026 should reflect in improved margins in the coming quarter.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "H1FY28",
+          "statement": "Rs.130 crore capex for integrated specialty rubber chemicals facility to be completed by H1FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26 (already incurred)",
+          "statement": "TDQ capex at Dahej completed with trial production underway; total capex less than Rs.250 crore.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "New capex to add merchant sales volumes, leveraging available capacity.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material costs",
+          "horizon": "Q1FY27",
+          "statement": "Raw material price volatility to persist near-term due to geopolitical and energy market uncertainties.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Antidumping duty (ADD)",
+          "horizon": "Q2FY27",
+          "statement": "DGTR recommendations for TDQ and Sulphenamides approved; central government approval expected by mid-June 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Antidumping duty (ADD)",
+          "horizon": "FY27",
+          "statement": "Pilflex 13 ADD recommendation expected in next 1-2 months; impact assessment to follow.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "6PPD alternatives",
+          "horizon": "Medium-term",
+          "statement": "Working on alternatives to 6PPD due to EU/US regulatory bans; products in trial/testing stages.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Price hikes",
+          "horizon": "Q1FY27",
+          "statement": "Price hikes implemented in March 2026 to offset raw material cost increases.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational efficiency",
+          "horizon": "FY27",
+          "statement": "Continued focus on operational and efficiency improvement initiatives to drive long-term margin expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantum of price hikes in specific terms",
+        "Structural impact of ADD on spreads or volumes post-implementation",
+        "Timeline for 6PPD alternative commercialization"
+      ],
+      "margin_drivers": [
+        "Pricing actions to offset raw material cost inflation",
+        "Antidumping duty implementation (TDQ and Sulphenamides)",
+        "Operational efficiency initiatives",
+        "Volume growth and capacity utilization improvements",
+        "Inventory management and legacy cost normalization"
+      ]
+    },
+    "Zim Laboratories": {
+      "company": "Zim Laboratories",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afad52f8-c8b7-4d4f-8848-f2a17cef637b.pdf",
+      "transcript_id": "zim-laboratories_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T01:36:43.319Z",
+      "summary": "Management expects FY27 revenue recovery and margin expansion post-EU GMP reinstatement, contingent on geopolitical stability and regulatory outcomes.",
+      "guidance": [
+        {
+          "metric": "EU GMP reinstatement",
+          "horizon": "Q2FY27",
+          "statement": "Draft inspection report expected in coming days; positive outcome anticipated based on wrap-up meeting findings.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "NIP and OTF revenue",
+          "horizon": "Q4FY27",
+          "statement": "Revenue expected to start showing impact from Q4FY27 post-EU GMP reinstatement.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dabigatran capsules market opportunity",
+          "horizon": "FY27",
+          "statement": "European market opportunity estimated at $400 million, with Italy alone at $60 million.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "R&D spend",
+          "horizon": "FY27",
+          "statement": "R&D spend expected to remain at similar percentage of revenue (~8.3%) as FY26.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "24-36 months",
+          "statement": "Upper teens EBITDA margins projected once regulated markets scale up.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Nutraceutical business growth",
+          "horizon": "24 months",
+          "statement": "Steady growth of 10-15% annually expected in nutraceutical business post-geopolitical stabilization.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Commercialization timeline for 5 approved NIP/OTF products",
+          "horizon": "Q4FY26",
+          "statement": "Commercial supplies expected to commence from January following EU GMP reinstatement in next 2-3 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Alternate CMO revenue allocation",
+          "horizon": "FY27",
+          "statement": "Revenue allocation to alternate CMO partner not finalized; margins expected to be marginally lower than in-house manufacturing.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "MENA region revenue recovery",
+          "horizon": "FY27",
+          "statement": "MENA region revenue expected to recover as geopolitical conditions stabilize.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "TGA Australia inspection outcome",
+          "horizon": "FY27",
+          "statement": "Positive outcome expected for TGA Australia inspection conducted during regulatory transition period.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CapEx for NIP/OTF product commercialization",
+          "horizon": "FY27",
+          "statement": "No additional CapEx anticipated for commercialization of 17 NIP/OTF products; current CapEx cycle near completion.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "International business development team",
+          "horizon": "FY27",
+          "statement": "International business development function fully staffed and operational, expected to strengthen emerging market business.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact addressable revenue opportunity for NIP/OTF products post-EU GMP reinstatement",
+        "Timing and revenue contribution of dabigatran capsules commercialization",
+        "Revenue split between regulated and ROW markets for innovative products",
+        "Margin differentials for alternate CMO manufacturing"
+      ],
+      "margin_drivers": [
+        "Regulatory compliance and CAPA implementation",
+        "Product mix improvement",
+        "Operating leverage from scale",
+        "Digitalization and automation to reduce data integrity risks",
+        "Cost discipline in execution phase"
+      ]
+    },
+    "Keystone Realtor": {
+      "company": "Keystone Realtor",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fd2c498-9e16-4544-99f7-d3f14dc7ce23.pdf",
+      "transcript_id": "keystone-realtor_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T01:36:52.268Z",
+      "summary": "Management reaffirms ambitious growth trajectory with INR10,000 crore presales target by FY30, supported by disciplined execution, asset-light model, and expansion into premium segments and commercial annuities.",
+      "guidance": [
+        {
+          "metric": "Presales",
+          "horizon": "FY27",
+          "statement": "Target of INR5,000 crore presales for FY27, representing ~25% YoY growth from FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Presales",
+          "horizon": "FY30",
+          "statement": "Commitment to achieve INR10,000 crore presales by FY30, requiring ~26% annual CAGR from FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Project launches (GDV)",
+          "horizon": "FY27",
+          "statement": "Target of INR8,000 crore project launches (GDV) in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisitions (GDV)",
+          "horizon": "FY27",
+          "statement": "Target of INR8,000-plus crore acquisitions (GDV) in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross debt-to-equity ratio",
+          "horizon": "FY27",
+          "statement": "Gross debt-to-equity ratio to be capped at 0.75:1 in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Commercial annuity income",
+          "horizon": "2030",
+          "statement": "Aspiration to generate INR100 crore annual lease income from commercial annuity portfolio by 2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ESG targets",
+          "horizon": "2030",
+          "statement": "Target of 100% green-certified portfolio by 2030.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ESG workforce diversity",
+          "horizon": "2029",
+          "statement": "Target of 22% women workforce participation by 2029.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Construction technology adoption",
+          "horizon": "medium-term",
+          "statement": "Deployment of advanced precast construction technology to improve quality, reduce wastage (~30%), and lower labor requirements (~40%).",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Revenue mix shift",
+          "horizon": "FY27",
+          "statement": "Expectation that legacy project revenue overhang will be fully behind by FY27, improving reported margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sales trajectory pattern",
+          "horizon": "ongoing",
+          "statement": "Maintain sales pattern: 35% by plinth stage, 40% during construction, 25% post-OC, with ability to reprice unsold inventory to cover input cost inflation.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Redevelopment opportunity",
+          "horizon": "2030",
+          "statement": "Mumbai redevelopment opportunity estimated at INR130,000 crore by 2030, with company targeting 5% market share in MMR.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "IRR or margin targets for specific projects or segments",
+        "Breakdown of capex requirements for FY27 or beyond",
+        "Timeline for transition to 100% POCM revenue recognition",
+        "Details on construction finance line utilization or limits"
+      ],
+      "margin_drivers": [
+        "Shift from legacy low-margin projects to high-margin new projects",
+        "Asset-light redevelopment model with capped equity at ~10% of project GDV",
+        "Premium and emerging premium segment focus (94% of pipeline)",
+        "Adoption of precast construction technology to reduce wastage and improve efficiency",
+        "Commercial annuity portfolio for stable income streams",
+        "ESG initiatives to enhance portfolio value and reduce costs"
+      ]
+    },
+    "Devyani Intl.": {
+      "company": "Devyani Intl.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3c9eb0b-f218-4100-93d5-6dd594604628.pdf",
+      "transcript_id": "devyani-intl_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T01:37:00.263Z",
+      "summary": "Management expects growth acceleration in FY27 driven by store expansion, digital transformation, and merger synergies, though macro risks remain.",
+      "guidance": [
+        {
+          "metric": "Store additions",
+          "horizon": "FY27",
+          "statement": "Expect to add approximately 200-225 net new stores, with KFC contributing 100-110 stores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Store quality reset",
+          "horizon": "FY27",
+          "statement": "Focus on shutting loss-making stores and opening higher-quality stores, leading to negative net additions in Q4FY26.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "KFC SSSG sustainability",
+          "horizon": "Q1FY27",
+          "statement": "Current SSSG trends maintained for 45 days post-Q4, with confidence in sustaining initiatives though macro remains uncertain.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "KFC gross margin",
+          "horizon": "FY27",
+          "statement": "Gross margin improvement driven by favorable raw material environment and optimized promotions/discounting structure favoring dine-in.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pizza Hut strategy",
+          "horizon": "FY27",
+          "statement": "New marketing leadership to focus on portfolio consolidation, operational discipline, and product/pricing reassessment.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Digital kiosk penetration",
+          "horizon": "FY27",
+          "statement": "Over 80% digital kiosk penetration achieved in KFC stores, enhancing customer experience and engagement.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "DIL Commerce platform",
+          "horizon": "FY27",
+          "statement": "Strong progress on unified technology platform to strengthen operational execution and customer engagement.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Merger completion",
+          "horizon": "FY26 (current fiscal year)",
+          "statement": "Merger with Sapphire Foods expected to complete by end of current fiscal year.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Leadership team formation",
+          "horizon": "Next quarter",
+          "statement": "New management team largely in place by next quarter, with focus on experienced professionals for transformation.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology-led operations",
+          "horizon": "FY27",
+          "statement": "Automation and AI-led operations transformation to drive efficiency and scalability.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International business growth",
+          "horizon": "FY27",
+          "statement": "International business (Nepal, Thailand) to continue strong and consistent growth trajectory.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex per store",
+          "horizon": "FY27",
+          "statement": "No significant changes expected in capex per store; tech investments to be managed within existing budgets.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "specific inflation outlook",
+        "menu price increase timing",
+        "quantified synergy targets from Sapphire Foods merger"
+      ],
+      "margin_drivers": [
+        "favorable raw material environment",
+        "optimized promotions/discounting structure favoring dine-in",
+        "operational deleverage reduction in Pizza Hut",
+        "international business margin expansion"
+      ]
     }
   },
-  "generated_at": "2026-06-29T23:42:54.731Z",
-  "count": 484
+  "generated_at": "2026-06-30T01:37:01.789Z",
+  "count": 489
 }
