@@ -50355,8 +50355,230 @@
         "backward integration into Aroma Ingredients",
         "raw material availability and pricing volatility"
       ]
+    },
+    "DCW": {
+      "company": "DCW",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f8828d9-e4e0-4bb4-8d91-0a0b8ea1cdf7.pdf",
+      "transcript_id": "dcw_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T09:58:59.286Z",
+      "summary": "DCW expects FY27 to benefit from expanded C-PVC capacity, renewable energy savings, and deleveraging, but remains cautious on capex and margin outlook due to volatile commodity prices and geopolitical risks.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex will be focused on specialty/niche segments (e.g., C-PVC, SIOP) for growth, with no volume-driven capex in commodities; timing dependent on geopolitical clarity.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "C-PVC volumes",
+          "horizon": "FY27",
+          "statement": "C-PVC volumes expected to grow further with expanded capacity (50,000 tons) and additional 10,000 tons commissioned by March 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "EBITDA guidance of Rs.400 crores previously shared may be derailed due to pricing pressures in commodity and specialty segments.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Finance cost",
+          "horizon": "FY27",
+          "statement": "Finance cost expected to reduce by Rs.12-13 crores YoY to ~Rs.50 crores or sub-Rs.50 crores, contingent on working capital borrowings.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Net debt",
+          "horizon": "FY27",
+          "statement": "Net debt expected to turn negative (net cash) by FY27-end after scheduled repayments of ~Rs.130 crores.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Renewable energy savings",
+          "horizon": "FY27",
+          "statement": "Power cost savings from solar estimated at Rs.23-24 crores in FY26; further investments paused due to regulatory uncertainty and geopolitical risks.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Spreads (PVC-CPVC)",
+          "horizon": "Q1FY27",
+          "statement": "Spreads have normalized to pre-war levels; contraction in Q4FY26 expected to reverse in coming quarters.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Soda ash prices",
+          "horizon": "near-term",
+          "statement": "Soda ash prices likely to remain elevated due to supply disruptions in Southeast Asia and geopolitical factors, but no specific timeline provided.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Caustic soda prices",
+          "horizon": "near-term",
+          "statement": "Caustic soda prices elevated due to production interruptions in Southeast Asia and supply-demand imbalance; expected to persist until normalization.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PVC prices",
+          "horizon": "near-term",
+          "statement": "PVC prices may remain range-bound (85-95) but no clear forecast due to uncertainty around Chinese export policies and geopolitical disruptions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Synthetic rutile inventory",
+          "horizon": "FY27",
+          "statement": "Synthetic rutile inventory pressure reduced in FY26; focus on customer engagement and dispatch planning to sustain improvements.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Specialty chemicals margin",
+          "horizon": "FY27",
+          "statement": "Specialty chemicals margins moderated in FY26 due to C-PVC realization corrections; volume growth in C-PVC (10k to 20k to 40k tons) aimed at offsetting margin pressure.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Soda ash government support",
+        "PVC price forecast beyond near-term",
+        "Global C-PVC capacity additions and demand-supply balance",
+        "Breakup of power/fuel costs (Rs.307 crores)",
+        "Solar capex plans for FY27"
+      ],
+      "margin_drivers": [
+        "C-PVC volume growth and capacity expansion",
+        "Renewable energy (solar) power cost savings",
+        "Specialty chemicals contribution (C-PVC, SIOP)",
+        "Operating discipline and utilization improvements",
+        "Spread normalization (PVC-CPVC)",
+        "Debt reduction and lower finance costs"
+      ]
+    },
+    "Shadowfax Technologies": {
+      "company": "Shadowfax Technologies",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1847ec7d-159f-455f-97ac-54cdfd43e756.pdf",
+      "transcript_id": "shadowfax-technologies_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-06-30T09:59:09.253Z",
+      "summary": "Management expects strong growth and margin expansion in FY27 driven by digital penetration, strategic investments, and AI-led efficiency gains.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects continued strong growth across all segments, with digital penetration driving demand.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin expansion expected as operating leverage kicks in from investments made in FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "Aims to further improve profitability with continued focus on value-added services and cost optimization.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Plans to continue investing in automation and sortation centers, with capex intensity remaining high.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pin code coverage",
+          "horizon": "FY27",
+          "statement": "Targets 17,000 pin codes by end of FY27, up from 15,600 currently.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Large shipment coverage",
+          "horizon": "FY27",
+          "statement": "Aims to expand large shipment delivery to 10,000 pin codes in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dark stores for vertical quick commerce",
+          "horizon": "FY27",
+          "statement": "Plans to set up 100 dark stores in FY27 to cater to vertical quick commerce demand.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital penetration growth",
+          "horizon": "FY27-FY30",
+          "statement": "Expects digital penetration to grow 120-150 bps annually, reaching 14%-15% by FY30.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "D2C and SME business growth",
+          "horizon": "FY27",
+          "statement": "D2C and SME segment to remain a key focus with higher incremental margins (15%-20% higher than enterprises).",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI adoption impact on profitability",
+          "horizon": "Medium-term",
+          "statement": "AI adoption expected to drive meaningful profitability gains in mid-term and long-term.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share in 3PL industry",
+          "horizon": "FY27",
+          "statement": "Aims to maintain market share gains, targeting ~28%-29% in the 3PL segment.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Real estate expansion",
+          "horizon": "FY27",
+          "statement": "Real estate space (last mile and sortation centers) expected to expand further, supporting growth.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact capex allocation for FY27",
+        "Specific EBITDA margin target for FY27",
+        "Timeline for stabilization of market share gains post FY28"
+      ],
+      "margin_drivers": [
+        "Value-added services (same-day, next-day delivery, reverse logistics)",
+        "AI-led efficiency gains in routing, rider acquisition, and marketing",
+        "Automation in sortation centers and last-mile hubs",
+        "D2C and SME segment with higher incremental margins",
+        "Large shipment and vertical quick commerce expansion",
+        "Operating leverage from investments made in FY26"
+      ]
     }
   },
-  "generated_at": "2026-06-30T05:52:40.944Z",
-  "count": 491
+  "generated_at": "2026-06-30T09:59:10.787Z",
+  "count": 493
 }
