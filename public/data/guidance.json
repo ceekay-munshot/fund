@@ -54776,8 +54776,396 @@
         "pass-through of raw material inflation",
         "inventory cushion for raw material price changes"
       ]
+    },
+    "Utkarsh Small F.": {
+      "company": "Utkarsh Small F.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6eb0cb8-71d5-4fb6-a98e-bf1b4ae6d4f1.pdf",
+      "transcript_id": "utkarsh-small-f_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-01T17:33:06.772Z",
+      "summary": "Utkarsh Small Finance Bank expects to achieve loan book growth of 25-30% in the coming years, with a focus on secured lending and maintaining NIMs above 8%.",
+      "guidance": [
+        {
+          "metric": "Loan book growth",
+          "horizon": "medium-term",
+          "statement": "25-30% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Secured lending",
+          "horizon": "medium-term",
+          "statement": "comprising around 55% of the portfolio",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NIMs",
+          "horizon": "medium-term",
+          "statement": "maintaining above 8%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "medium-term",
+          "statement": "delivering around 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY '27",
+          "statement": "around 3%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY '28",
+          "statement": "around 2-2.5%",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "strengthened field execution",
+        "targeted collection initiatives",
+        "structural de-risking of unsecured exposure",
+        "pivot toward secured and higher yield, lower risk portfolios"
+      ]
+    },
+    "Huhtamaki India": {
+      "company": "Huhtamaki India",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab85a0ce-1a5e-4ea5-b82d-d1187c19442e.pdf",
+      "transcript_id": "huhtamaki-india_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T17:33:17.216Z",
+      "summary": "Management expects profitable growth with margin stability and selective volume expansion, supported by cost pass-through and sustainability initiatives.",
+      "guidance": [
+        {
+          "metric": "EBIT margin",
+          "horizon": "medium-term",
+          "statement": "Management believes current EBIT margin levels (8%) are sustainable and indicative of a strong position for future growth.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Raw material cost pass-through",
+          "horizon": "Q2CY26",
+          "statement": "Raw material cost increases are being swiftly passed through to customers, with most future orders already priced at new levels by end of March.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar captive electricity project",
+          "horizon": "H2CY26",
+          "statement": "Solar captive electricity project at Khopoli plant is expected to go live in the next few months, with benefits starting in H2CY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Zero liquid discharge status",
+          "horizon": "medium-term",
+          "statement": "Plants like Khopoli, Rudrapur, and Silvassa are progressing toward zero liquid discharge status.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Post-consumer recycled (PCR) content adoption",
+          "horizon": "medium-term",
+          "statement": "Increasing adoption of PCR content in products to meet long-term sustainability goals and ahead of regulations.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Solvent consumption reduction",
+          "horizon": "medium-term",
+          "statement": "All plants are reducing solvent consumption through installed equipment and capital expenditure on solvent cooling.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "medium-term",
+          "statement": "Management expects growth in line with market expectations, driven by selective participation in higher-value segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share",
+          "horizon": "medium-term",
+          "statement": "Focus on innovation, premiumization, and sustainability may result in selective market share gains in aligned segments.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "FX impact on margins",
+          "horizon": "Q2CY26",
+          "statement": "FX movements (rupee depreciation) will have both positive and negative effects on margins due to import exposure and export gains.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capital allocation",
+          "horizon": "medium-term",
+          "statement": "Disciplined capital allocation remains a core strategy for future growth.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Safety incidents",
+          "horizon": "medium-term",
+          "statement": "Year-on-year improvement in safety incidents (67% reduction) reflects behavioral and process improvements.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Profitability growth",
+          "horizon": "medium-term",
+          "statement": "Management is laser-focused on profitable growth, with a strong team and customer-centric innovation driving results.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact percentage cost increase in raw materials (paper and packaging films)",
+        "Future implications of FX movements on margins",
+        "Quantification of future margin improvements beyond current levels"
+      ],
+      "margin_drivers": [
+        "Sales mix improvement",
+        "Operational efficiency",
+        "Cost pass-through to customers",
+        "Sustainability initiatives (solar energy, zero liquid discharge, PCR content)",
+        "Solvent consumption reduction",
+        "Selective participation in higher-value segments"
+      ]
+    },
+    "Aether Industri.": {
+      "company": "Aether Industri.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dab49d2c-1db9-4ab7-b474-61b507fee8d3.pdf",
+      "transcript_id": "aether-industri_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T17:33:25.006Z",
+      "summary": "Aether Industries expects sustained medium-term revenue growth driven by strong pricing, new site ramp-ups, and CRAMS/CEM expansion, with EBITDA margins supported by high-margin product mix and disciplined execution.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "medium-term",
+          "statement": "Demand resilient with meaningful pricing potential, especially in large-scale manufacturing; expect 70%+ sales contribution from CRAMS and CEM in coming years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Exports expected to recover to 50-60% of total top line as CEM customer uncertainties resolve",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Pricing environment sustainable in medium term; margins to benefit from high-margin product mix and operating leverage",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CRAMS/CEM revenue share",
+          "horizon": "FY30",
+          "statement": "Targeting 70%+ of revenues from CRAMS and contract exclusive manufacturing by FY30",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New site ramp-up",
+          "horizon": "Q1FY27",
+          "statement": "Three new large-scale manufacturing products (2 pharma, 1 agrochemical) from Site 5 to be commissioned by May end/June 1st week",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D capacity expansion",
+          "horizon": "Q2FY27",
+          "statement": "Interim R&D expansion (2 new labs, 18 fume hoods, 400 MHz NMR) to commence commercialization from Q2FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D capacity expansion",
+          "horizon": "Q2FY28",
+          "statement": "New R&D plant with 15 labs and 140 fume hoods (2x expansion) expected to be commissioned in Q2FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Semiconductor materials opportunity",
+          "horizon": "2030",
+          "statement": "Semiconductor materials opportunity expected to triple by 2030",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex expected at INR3,000-3,500 million, primarily for Site 5 and new R&D site",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "FY27",
+          "statement": "Expect working capital days to decline as revenues from Site 3++ and Site 5 commence",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "New chemistry competency",
+          "horizon": "current",
+          "statement": "Focusing on integrated polymerizations as a new core competency to tap CRAMS opportunities in material science and oil & gas",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Customer diversification",
+          "horizon": "current",
+          "statement": "Completed 50+ customer and certification audits, added 19 marquee clients; multiple customers pre-auditing Site 5",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "high-margin CRAMS/CEM business model",
+        "pricing power in large-scale manufacturing",
+        "operating leverage from new site ramp-ups (Site 3++, Site 5)",
+        "product mix shift toward high-margin segments (e.g., semiconductor materials)",
+        "disciplined execution and operating cash flow focus"
+      ]
+    },
+    "Balkrishna Inds": {
+      "company": "Balkrishna Inds",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f04b4362-5754-422c-8519-2d9f812b0d92.pdf",
+      "transcript_id": "balkrishna-inds_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T17:33:33.715Z",
+      "summary": "Management expects sustainable growth with margin discipline despite raw material cost pressures, supported by capacity expansions and new product launches in on-highway segments.",
+      "guidance": [
+        {
+          "metric": "Volume (OHT)",
+          "horizon": "FY27",
+          "statement": "Targeting U.S. volume to return to ~10% of total OHT volumes in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material price increase",
+          "horizon": "Q1FY27",
+          "statement": "Expecting raw material prices to rise by ~7-8% in Q1FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Price hikes taken",
+          "horizon": "Q1FY27",
+          "statement": "Price hikes of 3-5% already taken; targeting ~2% additional hikes by end of current month",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Freight cost",
+          "horizon": "Q1FY27",
+          "statement": "Freight costs expected to rise marginally (~4.5-5% of revenue in Q4FY26)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Carbon black capacity",
+          "horizon": "Q1FY27",
+          "statement": "Balance of carbon black capacity to come on stream in Q1FY27, taking total to 360,000 MTPA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "TBR capacity",
+          "horizon": "FY27",
+          "statement": "TBR capacity to increase from 800 tyres/day (Phase 1) to ~3,800 tyres/day",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PCR capacity",
+          "horizon": "FY27",
+          "statement": "PCR tyres to launch by end of calendar year with initial capacity of ~6,700 tyres/day",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (FY27)",
+          "horizon": "FY27",
+          "statement": "Total capex expected between INR1,500-1,800 crores for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (INR6,800 crores)",
+          "horizon": "FY27-FY29",
+          "statement": "INR6,800 crores capex plan includes ~INR3,000 crores already spent; remaining INR3,800 crores to be spent over FY27-FY29",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting margin pressure in near term due to raw material cost pressures, though price hikes may partially mitigate",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Revenue growth (5-year CAGR)",
+          "horizon": "FY26-FY30",
+          "statement": "Five-year CAGR target of 17% to reach INR5,000 crores revenue by FY30",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (sustained)",
+          "horizon": "medium-term",
+          "statement": "Company aims to maintain sustained EBITDA margins of 23-25% despite on-highway scale-up",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Volume guidance for OHT business in FY27",
+        "Volume guidance for CV radial tyres in FY27",
+        "Export demand growth guidance for Europe in FY27"
+      ],
+      "margin_drivers": [
+        "Raw material price trends",
+        "Price hikes implementation",
+        "Freight cost management",
+        "Product mix and premium positioning",
+        "Carbon black integration for efficiency",
+        "AI-enabled automation for cost efficiency",
+        "Sustainability initiatives for long-term resilience"
+      ]
     }
   },
-  "generated_at": "2026-07-01T15:24:46.228Z",
-  "count": 535
+  "generated_at": "2026-07-01T17:33:35.238Z",
+  "count": 539
 }
