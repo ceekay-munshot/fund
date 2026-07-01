@@ -55164,8 +55164,513 @@
         "AI-enabled automation for cost efficiency",
         "Sustainability initiatives for long-term resilience"
       ]
+    },
+    "Jindal Saw": {
+      "company": "Jindal Saw",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e0d21c7-c4e9-4b13-aba7-28b179c3052c.pdf",
+      "transcript_id": "jindal-saw_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-01T19:23:04.084Z",
+      "summary": "Jindal Saw's management expects the company's performance to be impacted by the ongoing crisis in the MENA region, but sees new opportunities emerging in the region and in India, particularly in the energy security and pipeline infrastructure segments.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Expected to be around INR500 crores to INR600 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY28",
+          "statement": "Expected to be around INR400 crores to INR500 crores",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected to be impacted by the deferment of export shipments to the MENA region",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Margins",
+          "horizon": "Medium-term",
+          "statement": "May not have bottomed out due to various risks and uncertainties",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export shipments",
+          "horizon": "FY27",
+          "statement": "Expected to resume once the situation in the MENA region improves",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Medium-term",
+          "statement": "Provides visibility of approximately 9 months of operations",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific timeline for approval of API monogram on seamless pipes",
+        "Exact impact of the MENA region crisis on the company's performance"
+      ],
+      "margin_drivers": [
+        "Raw material prices",
+        "Fixed overheads",
+        "Export shipments",
+        "Debt equity ratio",
+        "Project costs"
+      ]
+    },
+    "Ratnaveer Precis": {
+      "company": "Ratnaveer Precis",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c88ba41-cef3-4db5-8fb7-d2fa484d76f9.pdf",
+      "transcript_id": "ratnaveer-precis_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T19:23:13.528Z",
+      "summary": "Management expects strong growth driven by new CCL project, inorganic expansion, and sustained stainless steel business momentum over medium-term.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Target consolidated revenue of INR 2,500 crore, with INR 1,800 crore from existing business (25% CAGR) and INR 750 crore from CCL project over next 2-3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Existing Business)",
+          "horizon": "FY28",
+          "statement": "Existing stainless steel and related businesses to grow at 25% CAGR to reach INR 1,800 crore in next 3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (CCL Project)",
+          "horizon": "FY28",
+          "statement": "CCL project to contribute INR 750 crore revenue with 69% capacity utilization across 5 lines.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CCL Project Timeline",
+          "horizon": "Q3FY27",
+          "statement": "First line of CCL project to commence production by November 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CCL Project Capacity",
+          "horizon": "FY28",
+          "statement": "CCL project to have 5 lines with capacity to reach INR 750 crore revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inorganic Growth (Acquisition)",
+          "horizon": "10-12 months from announcement",
+          "statement": "Acquisition of European precision components company expected to close in 10-12 months, pending due diligence and statutory compliance.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fundraising (QIP)",
+          "horizon": "FY27",
+          "statement": "Planned QIP of INR 330 crore to fund CCL project capital expenditure and working capital requirements.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Promoter Holding",
+          "horizon": "Post QIP and warrant conversion",
+          "statement": "Promoter holding to reduce to 42-43% post INR 330 crore QIP and full warrant conversion.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Greenfield/Brownfield Capex",
+          "horizon": "Medium-term",
+          "statement": "Company committed to growth through greenfield and brownfield projects in coming years.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational Cash Flow",
+          "horizon": "Post-Capex deployment",
+          "statement": "Operational cash flows expected to stabilize once major capex and working capital are fully deployed.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Working Capital",
+          "horizon": "FY27",
+          "statement": "Working capital requirements to increase to INR 800-1,500 crore range for current business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Government Incentives (CCL)",
+          "horizon": "FY27-FY28",
+          "statement": "CCL project protected by INR 338 crore ECMS scheme incentives and Gujarat government GEP scheme subsidies.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "BIS certification timeline for CCL beyond November 2026",
+        "Detailed breakdown of revenue contribution by top 5 industries beyond qualitative statements"
+      ],
+      "margin_drivers": [
+        "CCL project margins expected to be competitive with Chinese imports",
+        "Cost savings from automated CCL production lines",
+        "Government subsidies and incentives for CCL project",
+        "Inorganic growth via European acquisition to leverage lower production costs",
+        "Economies of scale from existing stainless steel business growth"
+      ]
+    },
+    "Electrost.Cast.": {
+      "company": "Electrost.Cast.",
+      "ticker": "ELECTCAST",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed5e8260-1cc6-41eb-bfb4-de0d00a9d913.pdf",
+      "transcript_id": "electrost-cast_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T19:23:21.840Z",
+      "summary": "Management expects gradual recovery in domestic water infrastructure demand from Q2FY27 onwards, driven by JJM 2.0 and other initiatives, while export growth faces headwinds from Middle East geopolitical issues.",
+      "guidance": [
+        {
+          "metric": "Domestic DI Pipe demand recovery",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Demand momentum to strengthen gradually as execution under JJM 2.0 accelerates and government spending gains pace, with Q3 & Q4 FY27 expected to show improvement.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "JJM 2.0 budget outlay impact",
+          "horizon": "FY27-FY28",
+          "statement": "JJM 2.0 budget outlay of INR 8.69 lakh crores (INR 3.59 lakh crores central contribution) up to December 2028 expected to restore demand by early Q2 of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY27",
+          "statement": "Export revenue share expected to decline to 17%-18% from 23% in Q4FY26 due to Middle East geopolitical issues.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Export volume growth (Middle East)",
+          "horizon": "Q1FY27 onwards",
+          "statement": "Export volumes to Middle East expected to face downward pressure starting March 2026 due to US-Iran conflict.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "FY27 pipe dispatch volume",
+          "horizon": "FY27",
+          "statement": "Expected dispatch of ~7.4 lakh tons of pipes (including exports) for FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "FY27 EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Approximately 13%-14% EBITDA margin achievable for FY27, considering slower Q1 & Q2 and better Q3 & Q4.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "T.I.S. Italy revenue growth",
+          "horizon": "Next 4 years",
+          "statement": "Vision to double revenue of T.I.S. Italy in the next 4 years (calendar year basis).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "T.I.S. Italy revenue (FY27)",
+          "horizon": "FY27",
+          "statement": "Projected revenue of INR 440-INR 450 crores for T.I.S. Italy in FY27 (calendar year basis).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "T.I.S. Italy EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected EBITDA margin of 14%-15% for T.I.S. Italy in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Valve plant setup in India",
+          "horizon": "FY27",
+          "statement": "Valve plant in India expected to commence production soon, contributing to diversification.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Paint plant capex",
+          "horizon": "FY27",
+          "statement": "Some funds to be deployed in setting up a paint plant in India.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost pressures (freight, coking coal, energy)",
+          "horizon": "FY27",
+          "statement": "Cost pressures from freight, coking coal (imported), and energy costs (up 70%-80%) expected to persist, with delayed pass-through to selling prices.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantum of funds stuck in JJM receivables",
+        "Coal block asset soft cost timeline",
+        "Promoter stake acquisition plans beyond current investment"
+      ],
+      "margin_drivers": [
+        "JJM 2.0 execution and government spending acceleration",
+        "Domestic DI pipe demand recovery",
+        "Export diversification (valves, paints)",
+        "Cost pass-through timelines",
+        "Supply chain and freight cost normalization"
+      ]
+    },
+    "Welspun Living": {
+      "company": "Welspun Living",
+      "ticker": "WELSPUNLIV",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.welspunliving.com/uploads/investor_data/investorreport_8970.pdf",
+      "transcript_id": "welspun-living_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T19:23:31.309Z",
+      "summary": "FY27 guided for double-digit revenue growth and EBITDA margins in the teens, driven by FTA tailwinds, branded portfolio expansion, and U.S. manufacturing ramp-up.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting double-digit growth in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margins advancing into the teens in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (U.S. pillow plants)",
+          "horizon": "FY27",
+          "statement": "Nevada pillow facility revenue expected to double to ~USD 60 million in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Utilization (towels, sheets, bath rugs)",
+          "horizon": "FY27",
+          "statement": "Utilization expected to exceed 86% across towels, sheets, and bath rugs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic consumer business revenue",
+          "horizon": "FY27",
+          "statement": "Domestic consumer business expected to grow at 26% to 30%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Global branded portfolio revenue",
+          "horizon": "medium-term",
+          "statement": "Global brands (Christy, Welhome) positioned for double-digit growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Advanced Textiles revenue",
+          "horizon": "medium-term",
+          "statement": "Medium-term outlook for Advanced Textiles remains constructive due to FTA-driven access to European markets",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Soft flooring margin",
+          "horizon": "FY27",
+          "statement": "Soft flooring has positive margin potential of 20% plus and CAGR potential growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "FY27 capex expected in range of INR 400-500 crores, focused on modernization, automation, and debottlenecking",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Domestic flooring revenue",
+          "horizon": "FY27",
+          "statement": "Domestic flooring expected to grow with focus on commercial opportunities and specification-led demand",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-U.S. revenue share",
+          "horizon": "FY27",
+          "statement": "Non-U.S. markets expected to contribute meaningfully to growth with FTA openings in U.K. and Europe",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sustainability commitments",
+          "horizon": "FY30",
+          "statement": "On track towards FY30 commitments of 100% renewable energy and 100% sustainable cotton",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "tariff refund clarity beyond current customer negotiations",
+        "peak revenue potential in existing capacities beyond INR11,500-12,000 crores",
+        "hedging policy specifics or hedge cover for FY27"
+      ],
+      "margin_drivers": [
+        "operating leverage",
+        "product mix improvement",
+        "cost rationalization",
+        "tariff competitiveness via FTAs",
+        "branded portfolio expansion",
+        "U.S. local manufacturing ramp-up",
+        "sustainability-led premiumization"
+      ]
+    },
+    "DCM Shriram": {
+      "company": "DCM Shriram",
+      "ticker": "DCMSHRIRAM",
+      "sector": "Diversified",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15369ce9-6022-4af2-af69-ae4dd091357a.pdf",
+      "transcript_id": "dcm-shriram_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T19:23:39.980Z",
+      "summary": "Management expects growth across chemicals and agri-inputs, with capex-led capacity additions in advanced materials and renewable energy, while navigating volatile commodity markets and policy uncertainties.",
+      "guidance": [
+        {
+          "metric": "Caustic soda capacity utilization",
+          "horizon": "FY27",
+          "statement": "Capacity utilization expected to remain robust despite global volatility",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "ECH plant utilization",
+          "horizon": "FY27",
+          "statement": "Plant running at 60-70% capacity in Q1FY27, ramping up to higher levels in next 1-2 quarters",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ECH margin profile",
+          "horizon": "FY27",
+          "statement": "Margin profile dependent on crude glycerine prices and customer approvals",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Renewable power capacity at Bharuch plant",
+          "horizon": "Q1FY28",
+          "statement": "Additional 48 MW renewable power supply to be commissioned, taking total to 98.4 MW",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Epoxy formulated resins capacity",
+          "horizon": "Q2FY28",
+          "statement": "Capacity expansion by 36 KTPA to reach 50 KTPA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PVC pricing stability",
+          "horizon": "post-June 2026",
+          "statement": "Hopeful for import duty reinstatement (11%) from July 2026 to stabilize domestic pricing",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "PVC industry protection measures",
+          "horizon": "medium-term",
+          "statement": "Industry pursuing MIP and ADD applications with government for long-term protection",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Sugar and ethanol profitability",
+          "horizon": "FY27",
+          "statement": "Profitability under pressure due to rising sugarcane costs and ethanol allocation constraints",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Ethanol sector policy support",
+          "horizon": "medium-term",
+          "statement": "Need for calibrated policy interventions to align sugar/ethanol prices with sugarcane costs and expand sugarcane-based ethanol targets",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Fenesta Building Systems order book",
+          "horizon": "FY27",
+          "statement": "Order book up 15% YoY, with expansion in new business platforms like facade and wooden doors",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Shriram Farm Solutions growth",
+          "horizon": "FY27",
+          "statement": "Sustained double-digit growth trajectory with 13 new product launches in crop protection and specialty plant nutrition",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Bioseed new product launches",
+          "horizon": "FY27",
+          "statement": "Strong pipeline of new product launches across key crops with increasing farmer acceptance",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Global caustic soda price trajectory",
+        "PVC price forecast beyond short-term volatility",
+        "Specific capex allocation for strategic partnerships",
+        "Detailed financial targets for FY27"
+      ],
+      "margin_drivers": [
+        "Renewable energy integration (cost savings)",
+        "Operational efficiency and cost discipline",
+        "Customer approvals for ECH product",
+        "Crude glycerine prices (impacting ECH margins)",
+        "Policy interventions for PVC industry protection",
+        "Sugarcane cost inflation (impacting sugar/ethanol margins)"
+      ]
     }
   },
-  "generated_at": "2026-07-01T17:33:35.238Z",
-  "count": 539
+  "generated_at": "2026-07-01T19:23:41.506Z",
+  "count": 544
 }
