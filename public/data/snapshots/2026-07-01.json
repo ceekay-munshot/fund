@@ -1,17 +1,17 @@
 {
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T09:06:02.697Z",
+  "generated_at": "2026-07-01T15:25:22.501Z",
   "totals": {
-    "sightings": 3225,
-    "companies": 995,
+    "sightings": 3230,
+    "companies": 996,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 618,
-      "company_count": 394,
+      "sighting_count": 620,
+      "company_count": 395,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -377,6 +377,7 @@
         "Unimech Aero.",
         "Uniparts India",
         "Usha Martin",
+        "Utkarsh Small F.",
         "VRL Logistics",
         "Vardhman Special",
         "Veefin Solutions",
@@ -1049,6 +1050,74 @@
       ]
     },
     {
+      "fund_id": "vaikarya",
+      "fund_name": "Vaikarya Capital",
+      "sighting_count": 106,
+      "company_count": 60,
+      "companies": [
+        "ADF Foods",
+        "Aeroflex",
+        "Afcons Infrastr.",
+        "Ahluwalia Contr.",
+        "Ajanta Pharma",
+        "Ajax Engineering",
+        "Akums Drugs",
+        "Alivus Life",
+        "Allied Blenders",
+        "Amanta Healthcar",
+        "Apollo Hospitals",
+        "Aptus Value Hou.",
+        "Archean Chemical",
+        "Bharat Parenter.",
+        "Biocon",
+        "Blue Jet Health",
+        "Camlin Fine",
+        "Capacit'e Infra.",
+        "Capital Small",
+        "Cohance Life",
+        "Dr Agarwal's Hea",
+        "Emcure Pharma",
+        "Entero Healthcar",
+        "Equitas Sma. Fin",
+        "Fedbank Financi.",
+        "GSP Crop Science",
+        "Ganesha Ecosphe.",
+        "Health X Platform",
+        "Hindware Home In",
+        "Indostar Capital",
+        "Innova Captab",
+        "Inox Green",
+        "Inox Wind",
+        "Interarch Build.",
+        "Ivalue Infosolut",
+        "Jana Small Finan",
+        "Jindal Steel",
+        "Jubilant Ingrev.",
+        "M B Agro Prod.",
+        "Nippon Life Ind.",
+        "Niva Bupa Health",
+        "PSP Projects",
+        "Parag Milk Foods",
+        "Pennar Industrie",
+        "Pitti Engg.",
+        "SG Mart",
+        "Sakar Healthcare",
+        "Shankara Building",
+        "Shankara Buildpro",
+        "Sigachi Indust.",
+        "Suryoday Small",
+        "TVS Motor Co.",
+        "Tarsons Products",
+        "Tata Comm",
+        "Technocraf.Inds.",
+        "Updater Services",
+        "Utkarsh Small F.",
+        "Varroc Engineer",
+        "Waaree Renewab.",
+        "Windlas Biotech"
+      ]
+    },
+    {
       "fund_id": "icici-prudential",
       "fund_name": "ICICI Prudential AMC",
       "sighting_count": 103,
@@ -1120,73 +1189,6 @@
         "Vertis Infra.",
         "Voltas",
         "Waaree Renewab."
-      ]
-    },
-    {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "sighting_count": 103,
-      "company_count": 59,
-      "companies": [
-        "ADF Foods",
-        "Aeroflex",
-        "Afcons Infrastr.",
-        "Ahluwalia Contr.",
-        "Ajanta Pharma",
-        "Ajax Engineering",
-        "Akums Drugs",
-        "Alivus Life",
-        "Allied Blenders",
-        "Amanta Healthcar",
-        "Apollo Hospitals",
-        "Aptus Value Hou.",
-        "Archean Chemical",
-        "Bharat Parenter.",
-        "Biocon",
-        "Blue Jet Health",
-        "Camlin Fine",
-        "Capacit'e Infra.",
-        "Capital Small",
-        "Cohance Life",
-        "Dr Agarwal's Hea",
-        "Emcure Pharma",
-        "Entero Healthcar",
-        "Equitas Sma. Fin",
-        "Fedbank Financi.",
-        "GSP Crop Science",
-        "Ganesha Ecosphe.",
-        "Health X Platform",
-        "Hindware Home In",
-        "Indostar Capital",
-        "Innova Captab",
-        "Inox Green",
-        "Inox Wind",
-        "Interarch Build.",
-        "Ivalue Infosolut",
-        "Jana Small Finan",
-        "Jindal Steel",
-        "Jubilant Ingrev.",
-        "M B Agro Prod.",
-        "Nippon Life Ind.",
-        "Niva Bupa Health",
-        "PSP Projects",
-        "Parag Milk Foods",
-        "Pennar Industrie",
-        "Pitti Engg.",
-        "SG Mart",
-        "Sakar Healthcare",
-        "Shankara Building",
-        "Shankara Buildpro",
-        "Sigachi Indust.",
-        "Suryoday Small",
-        "TVS Motor Co.",
-        "Tarsons Products",
-        "Tata Comm",
-        "Technocraf.Inds.",
-        "Updater Services",
-        "Varroc Engineer",
-        "Waaree Renewab.",
-        "Windlas Biotech"
       ]
     },
     {
@@ -2514,8 +2516,8 @@
   "per_sector": [
     {
       "sector": "Unknown",
-      "sighting_count": 1583,
-      "company_count": 547
+      "sighting_count": 1588,
+      "company_count": 548
     },
     {
       "sector": "Industrials",
@@ -2694,10 +2696,40 @@
       "concall_date": "2025-11-01"
     },
     {
+      "fund_name": "Sapphire Capital",
+      "company": "Utkarsh Small F.",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Utkarsh Small F.",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
+    },
+    {
       "fund_name": "Vaikarya Capital",
       "company": "Technocraf.Inds.",
       "sector": "Industrials",
       "concall_date": "2026-06-03"
+    },
+    {
+      "fund_name": "Vaikarya Capital",
+      "company": "Utkarsh Small F.",
+      "sector": "Unknown",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Vaikarya Capital",
+      "company": "Utkarsh Small F.",
+      "sector": "Unknown",
+      "concall_date": "2026-02-01"
+    },
+    {
+      "fund_name": "Vaikarya Capital",
+      "company": "Utkarsh Small F.",
+      "sector": "Unknown",
+      "concall_date": "2025-11-01"
     }
   ]
 }
