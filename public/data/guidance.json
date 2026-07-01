@@ -56379,8 +56379,280 @@
         "sales acceleration",
         "Day-Care center expansion"
       ]
+    },
+    "Orient Bell": {
+      "company": "Orient Bell",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=504aed32-5f4f-4f8a-8ca3-9c8538273a10.pdf",
+      "transcript_id": "orient-bell_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-01T23:54:08.159Z",
+      "summary": "Orient Bell expects sustainable and profitable growth going forward, driven by strategic initiatives and favorable long-term industry tailwinds, despite short-term uncertainties and volatility.",
+      "guidance": [
+        {
+          "metric": "Margin",
+          "horizon": "Q1FY27 and beyond",
+          "statement": "Expect margin trajectory to continue, with ability to pass on cost increases to consumers",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Price increases",
+          "horizon": "FY27",
+          "statement": "Expect gradual push upwards in prices due to energy pricing and secondary cost pushes",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expect volume growth, driven by demand generation, premiumization, and strengthening brand visibility",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "No significant incremental capex expected, with adequate available capacity to support future growth",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Marketing spend",
+          "horizon": "FY27",
+          "statement": "Expect marketing spend to increase, potentially closer to 4% of revenue",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Capacity utilization targets for FY27"
+      ],
+      "margin_drivers": [
+        "Operating leverages",
+        "Manufacturing efficiencies",
+        "Disciplined cost management initiatives"
+      ]
+    },
+    "Yasho Industries": {
+      "company": "Yasho Industries",
+      "ticker": "YASHO",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94c27946-8a3a-411a-9e09-611400c008b2.pdf",
+      "transcript_id": "yasho-industries_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T23:54:17.556Z",
+      "summary": "Management expects revenue growth driven by capacity utilization expansion, new customer contracts, and long-term agreements, with EBITDA margin expansion in FY27 and FY28.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Target revenue of INR1,500 crores by FY28, driven by 75%+ plant utilization, new customer contracts, and commercialization of a long-term project.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Plant utilization",
+          "horizon": "FY27",
+          "statement": "Target plant utilization of over 75% in FY27, up from ~60% in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect EBITDA margin to improve by 2-3 percentage points compared to FY26 (17.4%) due to operational efficiencies and higher utilization.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned capex of INR125 crores for FY27, fully funded through internal accruals.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue from long-term contract",
+          "horizon": "FY28",
+          "statement": "Revenue from a 15-year long-term agreement (INR51.4 crores advance received) expected to start realizing in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-to-EBITDA ratio",
+          "horizon": "medium-term",
+          "statement": "Target debt-to-EBITDA ratio of 2.5x as a comfort zone.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "next 6-12 months",
+          "statement": "Aim to reduce working capital days from ~190 to 170-175 in the next 6-12 months.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "R&D facility",
+          "horizon": "ongoing",
+          "statement": "R&D facility fully operational since October 2025, accelerating innovation and portfolio strengthening.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Pakhajan plant capacity expansion",
+          "horizon": "medium-term",
+          "statement": "Pakhajan plant has potential for additional production buildings (up to 4 more), with capex of INR100 crores planned for expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographic demand",
+          "horizon": "FY27 onwards",
+          "statement": "Americas market expected to remain steady; Europe slowdown offset by Asian market penetration.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "New molecules/R&D focus",
+          "horizon": "beyond FY28",
+          "statement": "Exploring performance chemicals and new chemistries to drive future growth beyond traditional segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer diversification",
+          "horizon": "ongoing",
+          "statement": "Expanding customer base domestically and internationally, with new customers contributing to revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "absolute debt levels",
+        "semiconductor or data center-specific R&D plans",
+        "crystal ball predictions on supply chain disruptions"
+      ],
+      "margin_drivers": [
+        "operational efficiencies",
+        "higher plant utilization",
+        "product mix optimization",
+        "cost rationalization",
+        "sourcing team efforts",
+        "manufacturing and sales team coordination"
+      ]
+    },
+    "Bharat Parenter.": {
+      "company": "Bharat Parenter.",
+      "ticker": "541096",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7bf5110-79a8-434d-a578-3ecec92f64ca.pdf",
+      "transcript_id": "bharat-parenter_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-01T23:54:23.758Z",
+      "summary": "FY27 is positioned as a year of commercial inflection with revenue growth guided across all segments, led by Innoxel and Varenyam Healthcare.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Standalone business revenue growth of 10% to 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Standalone business EBITDA margins in the 10% to 15% range",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book of INR 171 crores provides visibility",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Innoxel revenue growth of 35% to 45%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Innoxel EBITDA margins of 20% to 25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Out-licensing income",
+          "horizon": "FY27",
+          "statement": "Out-licensing income expected between INR 70 crores to INR 90 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Varenyam Healthcare revenue growth of 20% to 25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Varenyam Healthcare EBITDA margins of 8% to 13%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Field force expansion",
+          "horizon": "FY27",
+          "statement": "Field force to expand upwards of 250 people",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product launches",
+          "horizon": "FY27",
+          "statement": "Seven new product launches including Remishot and a second division in gynecology",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Commercialization timeline",
+          "horizon": "FY27",
+          "statement": "First commercial CMO supply from Innoxel starting Q2 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Regulatory milestones",
+          "horizon": "FY27",
+          "statement": "Two to three CMO products commercializing during the year",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "regulatory clearances",
+        "operating leverage",
+        "product mix shift",
+        "field force expansion",
+        "commercial CMO supply",
+        "out-licensing milestones"
+      ]
     }
   },
-  "generated_at": "2026-07-01T22:40:14.320Z",
-  "count": 551
+  "generated_at": "2026-07-01T23:54:25.283Z",
+  "count": 554
 }
