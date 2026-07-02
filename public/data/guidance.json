@@ -60339,8 +60339,458 @@
         "FTAs with EU and UK",
         "Solar power savings reducing costs"
       ]
+    },
+    "Sagility": {
+      "company": "Sagility",
+      "ticker": "SAGILITY",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e5122ac-26d0-4bac-b46a-48636fccd5b4.pdf",
+      "transcript_id": "sagility_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-02T21:48:42.992Z",
+      "summary": "Sagility expects low double-digit growth in constant currency for FY27, with adjusted EBITDA margin guidance between 24% and 25%",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "low double-digit growth in constant currency",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Adjusted EBITDA margin",
+          "horizon": "FY27",
+          "statement": "between 24% and 25%",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "operational efficiencies",
+        "reducing finance costs",
+        "higher other income, including forex"
+      ]
+    },
+    "Mold-Tek Pack.": {
+      "company": "Mold-Tek Pack.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33af4f06-5a31-4be5-9caf-fab88a138ad5.pdf",
+      "transcript_id": "mold-tek-pack_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T21:48:51.631Z",
+      "summary": "Management expects 13-15% value growth in FY27 led by Pharma and Paint segments, with capacity expansion focused on brownfield projects and debt reduction.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR1,000 crores sales mark for FY27 with 13-15% value growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pharma Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR50-55 crores for Pharma segment (50% growth from FY26)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (Pharma)",
+          "horizon": "FY27",
+          "statement": "Pharma capacity to increase from 1,500 tons to 2,500 tons in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (Total)",
+          "horizon": "FY27",
+          "statement": "Total capacity to reach 67,000-70,000 tons by end of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planning capex of INR80-85 crores for FY27 (down from INR140 crores in prior years)",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Debt",
+          "horizon": "FY27",
+          "statement": "Debt expected to remain flat or decrease with repayment from internal accruals",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Paint Volume Growth",
+          "horizon": "FY27",
+          "statement": "Paint segment volume growth expected to remain in double digits for next couple of years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross Margin",
+          "horizon": "FY27",
+          "statement": "Expect to maintain 46-47% gross margin levels in coming quarters",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "New Pharma Products",
+          "horizon": "FY27",
+          "statement": "Adding 5-10 new products every quarter in Pharma segment",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New Pharma Plant",
+          "horizon": "FY28",
+          "statement": "New Pharma plant expected to start commercial production by beginning of FY28 (Jan 2028)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Vibe Revenue Contribution",
+          "horizon": "Q4FY27",
+          "statement": "Vibe contract revenue expected to start adding from Q4FY27 (2-3 quarters after pilot molds)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw Material Price Pass-Through",
+          "horizon": "FY27",
+          "statement": "Clients accepting price hikes and adjusting pricing terms to monthly/fortnightly cycles",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "IML and non-IML mix for future periods",
+        "Breakdown of Paint volume growth between Asian Paints and ABG for FY27"
+      ],
+      "margin_drivers": [
+        "Raw material price pass-through to clients",
+        "Capacity utilization improvements in Paint and Pharma segments",
+        "Shift to higher-margin Pharma segment",
+        "Preventive maintenance investments to support recycled plastic mandates"
+      ]
+    },
+    "Dilip Buildcon": {
+      "company": "Dilip Buildcon",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1463c43b-83a5-479d-a3ce-2a74a3b1b4b3.pdf",
+      "transcript_id": "dilip-buildcon_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T21:48:59.251Z",
+      "summary": "Dilip Buildcon expects a structural shift toward asset-light, long-term revenue streams with 75% of profits from assets by FY29, supported by disciplined EPC execution and InvIT monetization.",
+      "guidance": [
+        {
+          "metric": "Profit split (assets vs EPC)",
+          "horizon": "FY29",
+          "statement": "Three-fourths of profits to come from long-term assets, with only one-fourth from EPC business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Targeting INR10,000 crores to INR12,000 crores of new order inflow in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (standalone)",
+          "horizon": "FY27",
+          "statement": "30% to 40% growth from FY26 revenue of INR7,005 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (standalone)",
+          "horizon": "FY27",
+          "statement": "Targeting 11% to 12% EBITDA margin.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "FY27",
+          "statement": "Anticipate reducing debt by INR600 crores to INR800 crores in FY27.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Net debt position",
+          "horizon": "FY28",
+          "statement": "Aim to achieve near net debt-free status by FY28.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "MDO revenue",
+          "horizon": "FY27-FY29",
+          "statement": "MDO revenue expected to grow from INR1,600 crores in FY26 to INR2,500 crores in FY27, INR3,000+ crores in FY28, and INR4,000 crores in FY29.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MDO profitability",
+          "horizon": "FY27-FY29",
+          "statement": "Blended margins to stabilize around 24%-25%, with potential improvement post coal handling plant commissioning.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Coal production",
+          "horizon": "FY29",
+          "statement": "Targeting annual coal production of ~57 million metric tons by FY29.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "InvIT monetization",
+          "horizon": "FY27",
+          "statement": "Next tranche of 11 assets to require <INR200 crores investment, generating INR1,800 crores of InvIT units (net equity value creation of INR1,500-1,600 crores).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Transmission/solar equity commitment",
+          "horizon": "FY27-FY28",
+          "statement": "DBL to commit 15% equity in transmission/solar projects, with 85% equity raised from investors; target IRR in high teens.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin (transmission/solar)",
+          "horizon": "FY27-FY28",
+          "statement": "EBITDA margin for transmission projects to be upward of 24%.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific payback timelines for renewable projects",
+        "Potential investors for transmission/solar assets"
+      ],
+      "margin_drivers": [
+        "Economies of scale in MDO operations",
+        "Coal handling plant commissioning (higher revenue share)",
+        "InvIT monetization (structured deleveraging)",
+        "Selective EPC project prioritization (margin visibility)",
+        "Operational efficiencies and execution discipline"
+      ]
+    },
+    "Afcons Infrastr.": {
+      "company": "Afcons Infrastr.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96ae1749-9a59-4e37-96de-8bd3d73e07ce.pdf",
+      "transcript_id": "afcons-infrastr_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T21:49:09.845Z",
+      "summary": "Management expects FY27 to be a recovery year driven by order book growth and execution normalization, but refrains from providing specific financial guidance due to geopolitical and payment uncertainties.",
+      "guidance": [
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Target of INR 30,000 crores in order book for FY27, including INR 15,000 crores already booked and INR 15,000 crores expected from L1 positions to be converted in Q1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned capex of INR 725 crores for FY27.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "No specific revenue growth guidance provided due to geopolitical uncertainty, elongated award cycles, and payment delays.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "No specific EBITDA margin guidance provided; margin outlook depends on cost recovery in overseas markets and execution normalization.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order inflows (L1 positions)",
+          "horizon": "Q1FY27",
+          "statement": "Expects conversion of INR 15,000 crores of L1 orders into firm orders in Q1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Execution momentum",
+          "horizon": "Q1FY27",
+          "statement": "Expects execution pace to normalize from Q4FY26, with improved project progress in Q1FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Payment realization",
+          "horizon": "near-term",
+          "statement": "Expects improvement in realization of stuck payments and receipt of interest-free advances in international orders.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Overseas project execution",
+          "horizon": "near-term",
+          "statement": "Sees challenges persisting in overseas markets due to energy price volatility and supply chain disruptions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Domestic project execution",
+          "horizon": "near-term",
+          "statement": "Domestic projects also impacted by energy availability issues, but less severe than overseas.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Tunneling operations (Mumbai-Ahmedabad HSR)",
+          "horizon": "Q1FY27",
+          "statement": "Expects tunneling operations to commence before the end of next quarter (Q1FY27) on the Mumbai-Ahmedabad high-speed rail C2 project.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Project-specific disruptions",
+          "horizon": "near-term",
+          "statement": "Management views current disruptions as timing-related and external rather than structural issues in execution capabilities.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order pipeline visibility",
+          "horizon": "FY27",
+          "statement": "Addressable pipeline remains robust across key segments (transportation, marine, underground, hydro, water, industrial infrastructure).",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue growth for FY27",
+        "EBITDA margin for FY27",
+        "PAT guidance for FY27",
+        "Working capital trends for FY27",
+        "Order book beyond FY27",
+        "Segment-wise revenue/EBITDA guidance"
+      ],
+      "margin_drivers": [
+        "Cost recovery in overseas markets (fixed-price contracts)",
+        "Execution normalization post Q4FY26 disruptions",
+        "Payment realization improvements",
+        "Energy price volatility impact on overseas projects",
+        "Fixed cost under-recovery due to lower turnover",
+        "Finance cost reduction from improved credit rating and borrowing costs"
+      ]
+    },
+    "Parag Milk Foods": {
+      "company": "Parag Milk Foods",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd976f87-9821-4d38-b0a0-583abc615857.pdf",
+      "transcript_id": "parag-milk-foods_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T21:49:17.945Z",
+      "summary": "Management expects continued growth in new age business, margin expansion, and double-digit EBITDA margins in the medium term despite inflationary pressures.",
+      "guidance": [
+        {
+          "metric": "New Age business revenue contribution",
+          "horizon": "3-5 years",
+          "statement": "New Age business to contribute 20-25% of overall revenues",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New Age business revenue",
+          "horizon": "FY29",
+          "statement": "New Age business to reach INR1,000 crores, though no precise commitment given",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cheese capacity",
+          "horizon": "near-term",
+          "statement": "Capacity to increase from 60 metric tons to 80 metric tons, with further expansion possible via adjacency capex",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Core categories volume growth",
+          "horizon": "FY27",
+          "statement": "Aspire for double-digit volume growth in core categories",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Aim to achieve double-digit EBITDA margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "medium-term",
+          "statement": "Gross margins to improve with favorable product mix and distribution expansion",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Distribution expansion",
+          "horizon": "medium-term",
+          "statement": "Focus on expanding distribution in North and South India for core categories",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee expenses",
+          "horizon": "FY27",
+          "statement": "Employee cost run rate of INR54 crores per quarter to be considered, with one-offs in Q4 FY26",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Incentives (SGST reimbursement)",
+          "horizon": "FY27",
+          "statement": "Incentives to reduce marginally further to INR40-45 crores annually",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Yearly guidance for core categories volume growth",
+        "Product-wise or category-wise EBITDA margins",
+        "Precise revenue target for New Age business in FY29",
+        "Separation of New Age business for valuation purposes"
+      ],
+      "margin_drivers": [
+        "Favorable product mix",
+        "Distribution expansion",
+        "Pricing and promotion strategy",
+        "Cost controls",
+        "New Age business growth (higher margins than traditional dairy)"
+      ]
     }
   },
-  "generated_at": "2026-07-02T20:37:28.693Z",
-  "count": 591
+  "generated_at": "2026-07-02T21:49:19.471Z",
+  "count": 596
 }
