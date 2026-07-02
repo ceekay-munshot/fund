@@ -1156,22 +1156,24 @@ const FLAG_WINDOWS = [["today", "Today"], ["week", "This week"], ["month", "This
 const flagWindowCutoff = () => ({ today: ymdAgo(0), week: ymdAgo(7), month: ymdAgo(30), quarter: ymdAgo(92), all: "0000-01-01" }[flagWindow] || "0000-01-01");
 
 function buildFlags() {
-  // first_seen = when it appeared on our radar (gets more granular as daily runs
-  // add flags over time). Fall back to concall_date.
-  const pairFirst = new Map(); // fund|company -> earliest flag date
+  // "First interest" = a fund's EARLIEST call on a company, keyed on the real concall
+  // date (not first_seen). first_seen is when we scraped it, so when a backfill pulls a
+  // fund's Q1/Q2/Q3 calls together they'd share one first_seen and all mislabel as
+  // "first interest" — using concall_date makes the novelty tag backfill-proof.
+  const pairFirst = new Map(); // fund|company -> earliest concall date
   const pairCount = new Map();
   for (const s of DATA.sightings) {
     const k = s.fund_id + "|" + s.company;
-    const fd = s.first_seen || s.concall_date || "";
-    if (!pairFirst.has(k) || fd < pairFirst.get(k)) pairFirst.set(k, fd);
+    const cd = s.concall_date || s.first_seen || "";
+    if (!pairFirst.has(k) || cd < pairFirst.get(k)) pairFirst.set(k, cd);
     pairCount.set(k, (pairCount.get(k) || 0) + 1);
   }
   return DATA.sightings
     .map((s) => {
       const k = s.fund_id + "|" + s.company;
-      const fd = s.first_seen || s.concall_date || "";
-      const firstInterest = !(pairCount.get(k) > 1 && fd > pairFirst.get(k));
-      return { ...s, flagDate: fd, firstInterest };
+      const cd = s.concall_date || s.first_seen || "";
+      const firstInterest = !(pairCount.get(k) > 1 && cd > pairFirst.get(k));
+      return { ...s, flagDate: cd, firstInterest };
     })
     .sort((a, b) => (b.flagDate || "").localeCompare(a.flagDate || "") || (b.concall_date || "").localeCompare(a.concall_date || ""));
 }
@@ -1632,18 +1634,20 @@ const EXPORT_COLS = [
 ];
 
 function exportRows() {
+  // First interest keyed on the real concall date (see buildFlags) — first_seen is
+  // scrape time, which a backfill collapses so repeats would misread as first-time.
   const pairFirst = new Map(), pairCount = new Map();
   for (const s of DATA.sightings) {
     const k = s.fund_id + "|" + s.company;
-    const fd = s.first_seen || s.concall_date || "";
-    if (!pairFirst.has(k) || fd < pairFirst.get(k)) pairFirst.set(k, fd);
+    const cd = s.concall_date || s.first_seen || "";
+    if (!pairFirst.has(k) || cd < pairFirst.get(k)) pairFirst.set(k, cd);
     pairCount.set(k, (pairCount.get(k) || 0) + 1);
   }
   const fbc = fundsByCompany();
   return DATA.sightings.map((s) => {
     const k = s.fund_id + "|" + s.company;
-    const fd = s.first_seen || s.concall_date || "";
-    const first = !(pairCount.get(k) > 1 && fd > pairFirst.get(k));
+    const cd = s.concall_date || s.first_seen || "";
+    const first = !(pairCount.get(k) > 1 && cd > pairFirst.get(k));
     return {
       fund_id: s.fund_id, // for styling only (not a column)
       fund: s.fund_name || "", company: s.company || "", ticker: s.ticker || "",
