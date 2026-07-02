@@ -677,6 +677,22 @@ let sectorSort = { key: "funds", dir: -1 };
 const fundName = (id) => (DATA.funds.find((f) => f.id === id) || {}).name || id;
 const ymdAgo = (days) => new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
 
+// The Indian fiscal quarter a concall REPORTS ON, from its YYYY-MM-DD date.
+// A call is named by the quarter it discusses, not when it was held: Indian
+// companies report ~1 quarter late (Q4 FY26 results land in Apr–May 2026), so we
+// shift the date back 3 months before bucketing. FY runs Apr 1 – Mar 31
+// (Q1 Apr–Jun, Q2 Jul–Sep, Q3 Oct–Dec, Q4 Jan–Mar; FY26 = Apr 2025 – Mar 2026).
+// `key` sorts chronologically as a plain string; `label` is the display form.
+function reportingQuarter(ymd) {
+  const [y, m] = String(ymd || "").split("-").map(Number);
+  if (!y || !m) return null;
+  let mm = m - 3, yy = y;              // shift back a quarter (report lag)
+  if (mm <= 0) { mm += 12; yy -= 1; }
+  const q = mm >= 4 ? Math.floor((mm - 4) / 3) + 1 : 4;
+  const fy = mm >= 4 ? yy + 1 : yy;
+  return { key: `${fy}-Q${q}`, label: `Q${q} FY${String(fy).slice(2)}` };
+}
+
 // Per-sector signal metrics (null sector → "Unclassified", bucketed last).
 function sectorStats() {
   const d45 = ymdAgo(45), d90 = ymdAgo(90); // trend: last 45d vs prior 45d (by concall_date)
@@ -885,35 +901,49 @@ function sectorCompanyRow(c, col) {
 
 // ===========================================================================
 // OVERLAP — the consensus book: which names have the most smart-money funds,
-// where conviction is BUILDING (a fund just joined), and who's in each name.
+// where conviction is BUILDING (more funds than the prior quarter), and who's in each name.
 // ===========================================================================
 let _book = [];
 let overlapSector = "all";
 let overlapMin = 2;
-const ordinal = (n) => { const s = ["th", "st", "nd", "rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
 
 function consensusBook() {
-  const cutoff14 = ymdAgo(14);
   const map = new Map();
   for (const s of DATA.sightings) {
-    if (!map.has(s.company)) map.set(s.company, { company: s.company, ticker: s.ticker, sector: s.sector, industry: s.industry, _latest: "", funds: new Map() });
+    if (!map.has(s.company)) map.set(s.company, { company: s.company, ticker: s.ticker, sector: s.sector, industry: s.industry, _latest: "", funds: new Map(), quarters: new Map() });
     const a = map.get(s.company);
     const cd = s.concall_date || "";
     if (cd >= a._latest) { a._latest = cd; a.ticker = s.ticker; a.sector = s.sector; a.industry = s.industry; }
     let pf = a.funds.get(s.fund_id);
-    if (!pf) { pf = { fund_id: s.fund_id, firstSeen: s.first_seen || "", date: cd, quote: s.quote, transcript_url: s.transcript_url }; a.funds.set(s.fund_id, pf); }
-    if (s.first_seen && (!pf.firstSeen || s.first_seen < pf.firstSeen)) pf.firstSeen = s.first_seen;
+    if (!pf) { pf = { fund_id: s.fund_id, date: cd, quote: s.quote, transcript_url: s.transcript_url }; a.funds.set(s.fund_id, pf); }
     if (cd >= pf.date) { pf.date = cd; pf.quote = s.quote; pf.transcript_url = s.transcript_url; }
+    // Distinct funds per REAL reporting quarter (keyed on the concall date) — the basis for "building".
+    const fq = reportingQuarter(cd);
+    if (fq) {
+      if (!a.quarters.has(fq.key)) a.quarters.set(fq.key, { label: fq.label, funds: new Set() });
+      a.quarters.get(fq.key).funds.add(s.fund_id);
+    }
   }
   const out = [];
   for (const a of map.values()) {
     const funds = [...a.funds.values()];
     if (funds.length < 2) continue;
-    const earliest = funds.reduce((m, f) => (!m || (f.firstSeen && f.firstSeen < m) ? f.firstSeen || m : m), "");
-    // A fund "just joined" = its first_seen is later than the name's earliest fund AND within ~14 days.
-    const newFunds = new Set(funds.filter((f) => f.firstSeen && earliest && f.firstSeen.slice(0, 10) > earliest.slice(0, 10) && f.firstSeen >= cutoff14).map((f) => f.fund_id));
+    // "Building" = more of our funds turned up on this company's MOST RECENT quarter's call
+    // than on its previous quarter with data (e.g. 2 → 3). Measured on real concall dates, so
+    // a backfill/scrape can't fake it the way the old first_seen "within 14 days" rule did.
+    // Needs >= 2 quarters of history, so a name we've only seen once is never flagged.
+    const qKeys = [...a.quarters.keys()].sort(); // string keys sort chronologically
+    let building = false, newFunds = new Set(), qPrevLabel = "", qLatestLabel = "", prevCount = 0, latestCount = 0;
+    if (qKeys.length >= 2) {
+      const prev = a.quarters.get(qKeys[qKeys.length - 2]);
+      const latest = a.quarters.get(qKeys[qKeys.length - 1]);
+      qPrevLabel = prev.label; qLatestLabel = latest.label;
+      prevCount = prev.funds.size; latestCount = latest.funds.size;
+      newFunds = new Set([...latest.funds].filter((id) => !prev.funds.has(id)));
+      building = latestCount > prevCount;
+    }
     funds.sort((x, y) => (y.date || "").localeCompare(x.date || ""));
-    out.push({ company: a.company, ticker: a.ticker, sector: a.sector, industry: a.industry, fundIds: funds.map((f) => f.fund_id), fundCount: funds.length, lastDate: a._latest, perFund: funds, newFunds, building: newFunds.size > 0 });
+    out.push({ company: a.company, ticker: a.ticker, sector: a.sector, industry: a.industry, fundIds: funds.map((f) => f.fund_id), fundCount: funds.length, lastDate: a._latest, perFund: funds, newFunds, building, qPrevLabel, qLatestLabel, prevCount, latestCount });
   }
   out.sort((x, y) => y.fundCount - x.fundCount || (y.lastDate || "").localeCompare(x.lastDate || "") || x.company.localeCompare(y.company));
   return out;
@@ -923,15 +953,15 @@ function overlapHouseView(items, min) {
   if (!items.length) return `No companies with ${min}+ smart-money funds in this selection.`;
   const top = items.reduce((a, b) => (b.fundCount > a.fundCount ? b : a));
   const parts = [`${items.length} ${items.length === 1 ? "company has" : "companies have"} ${min}+ smart-money funds.`, `Highest conviction: ${top.company} (${top.fundCount} funds).`];
-  const building = items.filter((b) => b.building).sort((a, b) => b.fundCount - a.fundCount)[0];
-  if (building) parts.push(`Conviction is building in ${building.company} — a ${ordinal(building.fundCount)} fund just appeared this week.`);
+  const building = items.filter((b) => b.building).sort((a, b) => (b.latestCount - b.prevCount) - (a.latestCount - a.prevCount))[0];
+  if (building) parts.push(`Conviction is building in ${building.company} — up from ${building.prevCount} to ${building.latestCount} of our funds between ${building.qPrevLabel} and ${building.qLatestLabel}.`);
   return parts.join(" ");
 }
 
 function fundAvatars(ids, newSet) {
   const shown = ids.slice(0, 8).map((id) => {
     const nw = newSet && newSet.has(id);
-    return `<span title="${escapeHtml(fundName(id))}${nw ? " (just joined)" : ""}" class="grid h-7 w-7 place-items-center rounded-full text-[10px] font-bold text-white ring-2 ${nw ? "ring-amber-400" : "ring-white"}" style="background:${fundColor(id)}">${escapeHtml(initials(fundName(id)))}</span>`;
+    return `<span title="${escapeHtml(fundName(id))}${nw ? " (new this quarter)" : ""}" class="grid h-7 w-7 place-items-center rounded-full text-[10px] font-bold text-white ring-2 ${nw ? "ring-amber-400" : "ring-white"}" style="background:${fundColor(id)}">${escapeHtml(initials(fundName(id)))}</span>`;
   }).join("");
   const more = ids.length > 8 ? `<span class="grid h-7 w-7 place-items-center rounded-full bg-slate-200 text-[10px] font-bold text-slate-500 ring-2 ring-white">+${ids.length - 8}</span>` : "";
   return `<div class="flex -space-x-1.5">${shown}${more}</div>`;
@@ -943,19 +973,23 @@ function renderOverlap() {
   const sectors = [...new Set(_book.map((b) => b.sector || "Unclassified"))].sort();
   const buildingNames = _book.filter((b) => b.building).slice(0, 4);
 
-  const strip = buildingNames.length
-    ? `<div class="mb-4">
-        <div class="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-600"><i data-lucide="sparkles" class="h-3.5 w-3.5"></i>Conviction building this week</div>
-        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+  const strip = `<div class="mb-4">
+        <div class="mb-2 flex flex-wrap items-center gap-2">
+          <span class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-600"><i data-lucide="sparkles" class="h-3.5 w-3.5"></i>Conviction building</span>
+          <button type="button" data-building-note title="What 'building' means — and what it doesn't" class="inline-flex items-center gap-1 rounded-full bg-white px-2 py-0.5 text-[11px] font-medium text-slate-500 shadow-sm ring-1 ring-slate-200 transition hover:text-indigo-600 hover:ring-indigo-200"><i data-lucide="info" class="h-3 w-3"></i>How we read this</button>
+        </div>
+        ${buildingNames.length
+          ? `<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           ${buildingNames.map((c) => `
           <button type="button" data-co="${escapeHtml(c.company)}" class="card card-hover p-4 text-left ring-1 ring-amber-200" style="box-shadow:0 0 0 1px rgba(245,158,11,.25),0 14px 32px -18px rgba(245,158,11,.5)">
             <div class="flex items-center gap-2"><span class="truncate font-semibold text-slate-800">${escapeHtml(c.company)}</span>${c.ticker ? `<span class="font-mono text-[11px] uppercase" style="color:${sectorColor(c.sector || null)}">${escapeHtml(c.ticker)}</span>` : ""}</div>
             <div class="mt-1.5">${sectorPill(c.sector, c.industry)}</div>
-            <div class="mt-3 flex items-center justify-between">${fundAvatars(c.fundIds, c.newFunds)}<span class="font-mono text-xs font-semibold text-slate-600">${c.fundCount} funds</span></div>
+            <div class="mt-2 flex items-center gap-1.5 font-mono text-[11px] text-slate-500" title="Distinct funds on the call, quarter on quarter"><span class="text-slate-400">${escapeHtml(c.qPrevLabel)}</span><span class="font-semibold text-slate-600">${c.prevCount}</span><i data-lucide="arrow-right" class="h-3 w-3 text-amber-500"></i><span class="text-slate-400">${escapeHtml(c.qLatestLabel)}</span><span class="font-semibold text-emerald-600">${c.latestCount}</span></div>
+            <div class="mt-3 flex items-center justify-between">${fundAvatars(c.fundIds, c.newFunds)}<span class="rounded-full bg-emerald-50 px-2 py-0.5 font-mono text-xs font-semibold text-emerald-600">+${c.latestCount - c.prevCount} fund${c.latestCount - c.prevCount === 1 ? "" : "s"}</span></div>
           </button>`).join("")}
-        </div>
-      </div>`
-    : "";
+        </div>`
+          : `<div class="rounded-2xl bg-white/70 px-4 py-3 text-xs text-slate-400 shadow-sm ring-1 ring-slate-100">No company added a fund versus its prior quarter in the fully-loaded quarters yet — <button type="button" data-building-note class="font-medium text-indigo-500 hover:text-indigo-600">why?</button></div>`}
+      </div>`;
 
   const minBtn = (n, label) => `<button type="button" data-min="${n}" class="rounded-lg px-3 py-1.5 text-xs font-medium transition ${overlapMin === n ? "bg-indigo-600 text-white shadow-sm" : "text-slate-600 hover:bg-white"}">${label}</button>`;
 
@@ -985,6 +1019,7 @@ function renderOverlap() {
   sel.value = overlapSector;
   sel.addEventListener("change", () => { overlapSector = sel.value; updateOverlapBook(); });
   root.addEventListener("click", (e) => { const t = e.target.closest("[data-co]"); if (t) openCompanyDrill(t.dataset.co); });
+  root.querySelectorAll("[data-building-note]").forEach((b) => b.addEventListener("click", openBuildingNote));
 
   updateOverlapBook();
   refreshIcons();
@@ -1074,6 +1109,38 @@ function openCompanyDrill(company) {
   revealModal();
   wireShowMore(document.getElementById("drill-content"));
   refreshIcons();
+}
+
+// Client-facing note: what the "Conviction building" signal is — and, honestly, what
+// it isn't. Opened from the "How we read this" button on the Consensus tab.
+function openBuildingNote() {
+  const row = (icon, color, title, body) => `
+    <div>
+      <div class="mb-1 flex items-center gap-1.5 font-semibold text-slate-800"><i data-lucide="${icon}" class="h-4 w-4 ${color}"></i>${title}</div>
+      <p class="text-slate-600">${body}</p>
+    </div>`;
+  document.getElementById("drill-content").innerHTML = `
+    <div class="flex items-start justify-between gap-3 border-b border-slate-100 p-5">
+      <div class="flex items-center gap-2">
+        <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-amber-100 text-amber-600"><i data-lucide="sparkles" class="h-5 w-5"></i></span>
+        <div>
+          <div class="font-display text-lg font-semibold text-slate-800">How we read “Conviction building”</div>
+          <div class="text-xs text-slate-400">What this signal is — and what it isn't</div>
+        </div>
+      </div>
+      <button id="drill-close" class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700"><i data-lucide="x" class="h-5 w-5"></i></button>
+    </div>
+    <div class="scroll-area flex-1 space-y-4 overflow-y-auto p-5 text-sm leading-relaxed">
+      ${row("check-circle-2", "text-emerald-500", "What “building” means",
+        "A company is flagged <b>building</b> when <b>more of the funds we track showed up on its most recent quarter's earnings call than on the quarter before</b> — for example <b>2 funds in Q2 FY26 → 3 in Q3 FY26</b>. A growing crowd of independent funds asking questions on the same name is a classic early sign of interest.")}
+      ${row("calendar-clock", "text-indigo-500", "Measured on real call dates",
+        "The comparison uses each call's <b>actual concall date</b> — <b>not</b> the day we scraped it — so going back to pull older transcripts can no longer make months-old attendance look brand new. Each call is filed under the quarter it <b>reports on</b> (a call held in May is the Q4 results call), matching how the Street refers to it.")}
+      ${row("history", "text-slate-500", "It's history, not a forecast",
+        "This is a <b>backward-looking</b> read of what already happened on past calls. Concall attention tends to show up <i>before</i> a position appears in official filings, so it's an <b>early</b> signal — but it is <b>not</b> a prediction that the stock will rise, or proof these funds hold it.")}
+      ${row("alert-triangle", "text-amber-500", "Needs complete quarters",
+        "A quarter-vs-quarter jump is only trustworthy once <b>both quarters are fully uploaded</b>. The newest quarter keeps filling in through results season, so treat very fresh quarters as provisional. A name we've only seen in one quarter is never flagged — there's nothing to compare it to.")}
+    </div>`;
+  revealModal();
 }
 
 // ===========================================================================
