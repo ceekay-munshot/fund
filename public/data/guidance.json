@@ -59021,8 +59021,414 @@
         "Shift toward higher-margin product-led and RFP businesses",
         "Employee cost management tied to project revenue"
       ]
+    },
+    "Sakar Healthcare": {
+      "company": "Sakar Healthcare",
+      "ticker": "SAKAR",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SAKAR_22052026162504_Announcement_-_Transcript.pdf",
+      "transcript_id": "sakar-healthcare_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T17:15:52.246Z",
+      "summary": "Sakar Healthcare expects strong growth driven by oncology exports, targeting INR380 crore revenue in FY27 with EBITDA margins of 25-30% in the medium term.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR380 crore revenue with ~40% YoY growth, driven by oncology exports and tech transfers.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Oncology Revenue",
+          "horizon": "FY27",
+          "statement": "Aiming to double oncology sales to ~INR200 crore in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Oncology Revenue",
+          "horizon": "Q1FY27",
+          "statement": "Tech transfer projects (5 approved) to commence commercialization from Q1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Oncology Exports",
+          "horizon": "FY27",
+          "statement": "Expecting substantial growth in oncology exports based on pipeline of 300+ dossiers.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Oncology Exports",
+          "horizon": "Next 2 years",
+          "statement": "Potential revenue from Accord partnership: INR50-100 crore over next two years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin",
+          "horizon": "Medium-term",
+          "statement": "Oncology EBITDA margins expected in 25-30% range.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA Margin",
+          "horizon": "FY27",
+          "statement": "Maintaining healthy EBITDA margins with operational efficiencies and cost discipline.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity Utilization",
+          "horizon": "Next 2 years",
+          "statement": "Oncology plant utilization to increase from ~29% to 50-55% in next two years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dossier Approvals",
+          "horizon": "Next 2 years",
+          "statement": "Aiming to cross 300 dossier approvals globally.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Overseas Business Contracts",
+          "horizon": "Next 2 years",
+          "statement": "Targeting over 100 overseas business contracts.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Long-term Oncology Revenue",
+          "horizon": "4-5 years",
+          "statement": "Bavla oncology facility can generate INR800-1,000 crore at optimal utilization without significant incremental capex.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic Oncology Revenue",
+          "horizon": "FY27",
+          "statement": "Domestic oncology revenue expected to be similar or higher than Q4FY26 (INR31 crore).",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operational efficiencies",
+        "Cost of production reduction",
+        "Fixed expense absorption",
+        "Higher margin oncology products",
+        "Inventory optimization"
+      ]
+    },
+    "Motil.Oswal.Fin.": {
+      "company": "Motil.Oswal.Fin.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8abe68d4-a1d2-4755-a12c-f254e9d2a718.pdf",
+      "transcript_id": "motil-oswal-fin_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T17:16:00.201Z",
+      "summary": "Management expects continued growth driven by rising financialization of savings, annuity revenue expansion, and strategic investments in technology and adjacencies.",
+      "guidance": [
+        {
+          "metric": "Asset Management AUM growth",
+          "horizon": "FY27",
+          "statement": "AUM growth supported by SIP run-rate of ₹1,500 crore per month, new product launches, and collections from NFOs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset Management revenue yields",
+          "horizon": "FY27",
+          "statement": "Revenue yields expected to remain stable or slightly improve as regulatory impacts subside and product mix normalizes",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Private Wealth Management ARR AUM",
+          "horizon": "FY27",
+          "statement": "Focus on growing ARR AUM to ₹46,000 crore through advisory solutions, leverage solutions, and exclusive co-investments",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Private Wealth Management lending assets",
+          "horizon": "FY27",
+          "statement": "Lending assets expected to grow as part of strategy to enhance yields for UHNI clients and family offices",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "MTF book growth",
+          "horizon": "FY27",
+          "statement": "MTF book expected to grow strongly, leveraging leadership in cash market share and strong balance sheet",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Brokerage revenue",
+          "horizon": "FY27",
+          "statement": "Brokerage revenue expected to catch up as regulatory impacts subside and volumes improve",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Alternates AUM growth",
+          "horizon": "FY27",
+          "statement": "AUM growth supported by larger fund raises, entry into adjacencies, and more funds entering variable additional returns recognition threshold",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Housing Finance AUM growth",
+          "horizon": "2-3 years",
+          "statement": "Housing Finance business expected to witness strong growth due to strong leadership team and capital adequacy",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Investment book IRR",
+          "horizon": "long-term",
+          "statement": "Investment book has historically generated 18% IRR, with long-term compounding at 40% per annum post buybacks/dividends",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Annuity revenue share",
+          "horizon": "medium-term",
+          "statement": "Annuity businesses expected to continue rising, contributing over 60% of group revenues",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Group Operating PAT growth",
+          "horizon": "next decade",
+          "statement": "Decadal track record of 33% compounded Operating PAT growth expected to continue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Group ROE",
+          "horizon": "next decade",
+          "statement": "Average ROE of 23% expected to be maintained",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "carry income for FY27 or FY28"
+      ],
+      "margin_drivers": [
+        "rising annuity revenues",
+        "operating leverage from AUM growth",
+        "improving market share in net flows",
+        "SIP run-rate growth",
+        "product launches and vintage crossing 3 years",
+        "alternates AUM growth and IRR delivery",
+        "housing finance growth",
+        "cost-to-income improvement via operating leverage"
+      ]
+    },
+    "Medplus Health": {
+      "company": "Medplus Health",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c632aaf-471a-4c9f-964b-605bef4513c8.pdf",
+      "transcript_id": "medplus-health_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T17:16:07.158Z",
+      "summary": "Management expects stable FY27 performance with growth in private label and franchisee-led expansion, while maintaining current EBITDA margins.",
+      "guidance": [
+        {
+          "metric": "Store additions",
+          "horizon": "FY27",
+          "statement": "Plan to open 800 net new stores, including franchisee outlets",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Private label sales growth",
+          "horizon": "FY27",
+          "statement": "Guidance of 20-30 bps quarterly growth on private label sales remains intact",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aim to stabilize and deliver 5.7% to 5.8% operating EBITDA margin for the year",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "SSSG growth (mature stores)",
+          "horizon": "FY27",
+          "statement": "Target 9% to 10% annualized SSSG growth for stores older than 12 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Private label non-pharma expansion",
+          "horizon": "medium-term",
+          "statement": "Focus on adding more assortment in private label non-pharma to boost top-line and bottom-line",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Franchisee model profitability",
+          "horizon": "FY27",
+          "statement": "Franchisee stores expected to be profitable from day one with store-level EBITDA margins similar to company-owned stores",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Warehouse additions",
+          "horizon": "FY27",
+          "statement": "Minimal new warehouse additions required for 800 stores if concentrated in existing states; new states may require planning",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Gross margin trajectory",
+          "horizon": "FY27",
+          "statement": "Expect to maintain current gross margin levels with potential improvements from private label share growth",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "GLP-1 market impact on MedPlus",
+        "Specific revenue or EBITDA growth for FY27 beyond stabilization",
+        "Detailed breakdown of store additions between company-owned and franchisee for FY27"
+      ],
+      "margin_drivers": [
+        "Private label sales growth (pharma and non-pharma)",
+        "Franchisee model expansion (store-level EBITDA accretion)",
+        "Supply chain and supplier contract benefits",
+        "Non-pharma private label manufacturing in-house",
+        "Store maturity (mature stores >12 months with 13.1% store-level EBITDA margin)"
+      ]
+    },
+    "Alembic Pharma": {
+      "company": "Alembic Pharma",
+      "ticker": "APLLTD",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e5987cb-3bd7-4832-852e-ec765d86c045.pdf",
+      "transcript_id": "alembic-pharma_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T17:16:15.275Z",
+      "summary": "FY27 outlook is cautiously optimistic with low double-digit revenue growth, margin improvement, and disciplined capex/R&D investments.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Consolidated top-line growth expected in low double-digit range.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (International Generic)",
+          "horizon": "FY27",
+          "statement": "International generic business expected to grow in low to mid-teen range.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (API)",
+          "horizon": "FY27",
+          "statement": "API business expected to grow in high single or low double-digit range.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (U.S. Branded)",
+          "horizon": "FY27",
+          "statement": "U.S. branded business (e.g., Pivya) expected to scale up with selective product additions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Ex-U.S. Markets)",
+          "horizon": "FY27",
+          "statement": "Ex-U.S. markets expected to grow with new product additions, collaborations, and territorial expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (India Business)",
+          "horizon": "FY27",
+          "statement": "India business expected to improve growth momentum and be closer to market growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin",
+          "horizon": "FY27",
+          "statement": "Margin improvement expected from core business to offset U.S. branded business launch phase impact.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin (U.S. Branded Business)",
+          "horizon": "FY27",
+          "statement": "100-150 bps drag expected from Pivya in FY27, offset by core business margins.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "R&D Spend",
+          "horizon": "FY27",
+          "statement": "R&D investments expected to be INR750-800 crores (9% of revenue).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex expected in range of INR300-350 crores, primarily for capacity, debottlenecking, and replacement.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "U.S. Branded Business Scale",
+          "horizon": "Next few quarters",
+          "statement": "Pivya franchise expected to scale to a meaningful revenue profile in next few quarters.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Facility Utilization (F2/F3)",
+          "horizon": "FY27",
+          "statement": "F2 and F3 facilities expected to see higher utilization with meaningful contributions and day 1 launches.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Facility-wise cost breakdown for F2/F3",
+        "Quantitative EBITDA margin guidance for FY27",
+        "IRR metrics for past R&D spends",
+        "Prescription metrics for U.S. branded business"
+      ],
+      "margin_drivers": [
+        "Core business margin improvement",
+        "Operating leverage from higher capacity utilization",
+        "Working capital discipline",
+        "Cost savings initiatives",
+        "Selective high-value product launches"
+      ]
     }
   },
-  "generated_at": "2026-07-02T15:29:27.039Z",
-  "count": 578
+  "generated_at": "2026-07-02T17:16:16.798Z",
+  "count": 582
 }
