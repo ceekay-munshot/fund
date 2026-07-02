@@ -1,17 +1,17 @@
 {
   "date": "2026-07-03",
-  "generated_at": "2026-07-02T19:09:58.716Z",
+  "generated_at": "2026-07-02T21:56:24.446Z",
   "totals": {
-    "sightings": 3109,
-    "companies": 979,
+    "sightings": 3113,
+    "companies": 980,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 611,
-      "company_count": 394,
+      "sighting_count": 612,
+      "company_count": 395,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -120,6 +120,7 @@
         "Flair Writing",
         "Foods & Inns",
         "Fredun Pharma",
+        "Frog Innovations",
         "Fusion Finance",
         "GLEN Industries",
         "GP Eco Solutions",
@@ -412,8 +413,8 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "sighting_count": 243,
-      "company_count": 143,
+      "sighting_count": 244,
+      "company_count": 144,
       "companies": [
         "ABS Marine",
         "Aditya Vision",
@@ -460,6 +461,7 @@
         "Fairchem Organic",
         "Fineotex Chem",
         "FratelliVineyard",
+        "Frog Innovations",
         "G S F C",
         "GHCL Textiles",
         "Gabion Technol.",
@@ -2012,6 +2014,38 @@
       ]
     },
     {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "sighting_count": 29,
+      "company_count": 24,
+      "companies": [
+        "Alembic Pharma",
+        "Antony Waste han",
+        "Cantabil Retail",
+        "Chemplast Sanmar",
+        "Epigral",
+        "Fineotex Chem",
+        "Frog Innovations",
+        "HFCL",
+        "IFGL Refractori.",
+        "Inox Green",
+        "Inox Wind",
+        "J Kumar Infra",
+        "Kirl. Ferrous",
+        "PCBL Chemical",
+        "PSP Projects",
+        "SBI",
+        "Sejal Glass",
+        "Sh. Digvijay Cem",
+        "T R I L",
+        "Tata Power Co.",
+        "Tatva Chintan",
+        "Tiger Logistics",
+        "Tinna Rubber",
+        "Zydus Wellness"
+      ]
+    },
+    {
       "fund_id": "malabar",
       "fund_name": "Malabar Investments",
       "sighting_count": 29,
@@ -2033,37 +2067,6 @@
         "RBZ Jewellers Lt",
         "Shringar House",
         "Sky Gold & Diam."
-      ]
-    },
-    {
-      "fund_id": "green-portfolio",
-      "fund_name": "Green Portfolio",
-      "sighting_count": 27,
-      "company_count": 23,
-      "companies": [
-        "Alembic Pharma",
-        "Antony Waste han",
-        "Cantabil Retail",
-        "Chemplast Sanmar",
-        "Epigral",
-        "Fineotex Chem",
-        "HFCL",
-        "IFGL Refractori.",
-        "Inox Green",
-        "Inox Wind",
-        "J Kumar Infra",
-        "Kirl. Ferrous",
-        "PCBL Chemical",
-        "PSP Projects",
-        "SBI",
-        "Sejal Glass",
-        "Sh. Digvijay Cem",
-        "T R I L",
-        "Tata Power Co.",
-        "Tatva Chintan",
-        "Tiger Logistics",
-        "Tinna Rubber",
-        "Zydus Wellness"
       ]
     },
     {
@@ -2451,8 +2454,8 @@
   "per_sector": [
     {
       "sector": "Unknown",
-      "sighting_count": 1505,
-      "company_count": 535
+      "sighting_count": 1509,
+      "company_count": 536
     },
     {
       "sector": "Industrials",
@@ -2515,5 +2518,30 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Frog Innovations",
+      "sector": "Unknown",
+      "concall_date": "2025-12-01"
+    },
+    {
+      "fund_name": "Green Portfolio",
+      "company": "Frog Innovations",
+      "sector": "Unknown",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Green Portfolio",
+      "company": "Frog Innovations",
+      "sector": "Unknown",
+      "concall_date": "2025-12-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Frog Innovations",
+      "sector": "Unknown",
+      "concall_date": "2026-05-01"
+    }
+  ]
 }
