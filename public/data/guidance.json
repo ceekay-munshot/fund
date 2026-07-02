@@ -58646,8 +58646,383 @@
         "Scale benefits (capacity utilization, distribution network expansion)",
         "Cost leadership in cement (structural cost levers)"
       ]
+    },
+    "Eureka Forbes": {
+      "company": "Eureka Forbes",
+      "ticker": "EUREKAFORB",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caeb7bdb-7ca3-4ec8-9233-c07e855b987e.pdf",
+      "transcript_id": "eureka-forbes_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-02T15:28:50.841Z",
+      "summary": "Eureka Forbes expects to continue delivering sustained profitable growth, with a focus on stepping up revenue growth and driving efficiency, despite an uncertain macro environment.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Step up revenue growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin",
+          "horizon": "FY27",
+          "statement": "At least hold margins",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Service revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect service revenue growth to step up",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Filter sales opportunity",
+          "horizon": "medium-term",
+          "statement": "Unlocking filter sales opportunity is a key growth driver",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Pricing",
+        "Mix management",
+        "COGS initiatives"
+      ]
+    },
+    "Manba Finance": {
+      "company": "Manba Finance",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52853f88-5a41-4d62-a298-d223fbd91608.pdf",
+      "transcript_id": "manba-finance_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T15:29:00.114Z",
+      "summary": "Management expects sustainable growth with disciplined expansion, improving product mix diversification, and controlled asset quality despite macroeconomic challenges.",
+      "guidance": [
+        {
+          "metric": "AUM growth",
+          "horizon": "FY27",
+          "statement": "Targeting 25% to 30% AUM growth annually, aiming for INR 2,300-2,400 crore by FY27 end.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product mix (2-Wheeler share)",
+          "horizon": "3 years",
+          "statement": "2-Wheeler portfolio share expected to reduce from 84% to ~65%, with 35% from other products (3-Wheeler, used car, small business loans, MSME LAP).",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Geographical expansion",
+          "horizon": "FY27",
+          "statement": "Expansion into Karnataka in Q2FY27, with potential entry into West Bengal by end-FY27 or FY28; focus on UP and MP for diversification.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MSME LAP disbursements",
+          "horizon": "FY27",
+          "statement": "Disbursements already started in Mumbai and Pune; next expansion to Nasik and Ahmedabad in Q1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost of borrowing",
+          "horizon": "Q1FY27",
+          "statement": "Current incremental borrowing cost at 10.50%, with efforts to reduce further by 20-50 bps in Q1FY27.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Yield on MSME LAP",
+          "horizon": "current",
+          "statement": "Gross yield on MSME LAP at 18-19% due to secured nature of the asset.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EV financing (2-Wheeler)",
+          "horizon": "FY27",
+          "statement": "EV 2-Wheeler portfolio share expected to grow in line with industry (~7-8%), with focus on reputed OEMs like iQube, Bajaj Chetak, Ather.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV financing (3-Wheeler)",
+          "horizon": "FY27",
+          "statement": "3-Wheeler EV portfolio to grow cautiously, with focus on select OEMs like Piaggio, Greeves, TVS; book size not specified.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dealer network expansion",
+          "horizon": "FY27",
+          "statement": "Dealer count increased to 1,650; incremental disbursements from network expansion expected to have major impact in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit policy tightening",
+          "horizon": "current",
+          "statement": "Credit policy tightened for new customer onboarding as a precautionary measure amid macroeconomic challenges.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Provision coverage ratio (PCR)",
+          "horizon": "FY27",
+          "statement": "PCR increased to 26% to strengthen balance sheet; management aims to maintain prudent provisioning trends.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Collection efficiency (AI-driven)",
+          "horizon": "FY27",
+          "statement": "AI initiatives implemented for collection prioritization and dynamic pricing; expected to improve efficiency and reduce losses.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "EV 2-Wheeler book size for FY27",
+        "Specific NPA trends for EV segments",
+        "Exact timeline for West Bengal expansion beyond Q2FY27"
+      ],
+      "margin_drivers": [
+        "Reduction in 2-Wheeler concentration (higher-margin products like 3-Wheeler, MSME LAP)",
+        "AI-driven dynamic pricing and collection efficiency",
+        "Lower cost of borrowing (currently 10.50%)",
+        "Prudent credit policy and LTV management (20-25% down payment, 70-75% LTV for new customers)",
+        "Geographical diversification (UP, MP, Karnataka) with controlled IRR in new markets"
+      ]
+    },
+    "Equitas Sma. Fin": {
+      "company": "Equitas Sma. Fin",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://ir.equitas.bank.in/wp-content/uploads/2026/05/EquitasSFB-Earningscalltranscript-Q4FY26.pdf",
+      "transcript_id": "equitas-sma-fin_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T15:29:15.801Z",
+      "summary": "Management expects sustained advances growth (~20% YoY) with stable NIMs (~7%) and normalized credit costs (~1.5%) in FY27, though ROA may moderate to 1.2-1.25% due to seasonal slippage and higher cost of funds.",
+      "guidance": [
+        {
+          "metric": "Advances growth",
+          "horizon": "FY27",
+          "statement": "Expects 20% plus year-on-year growth in advances",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NIM",
+          "horizon": "FY27",
+          "statement": "Sustainable NIMs expected to stabilize around 7% to 7.1%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY27",
+          "statement": "Credit cost expected to normalize to around 1.5% for the full year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY27",
+          "statement": "Expects to deliver a 1.2% to 1.25% ROA for the full year",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "ROA (exit Q4)",
+          "horizon": "Q4FY27",
+          "statement": "Expects to exit Q4 with an ROA of about 1.5%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Microfinance portfolio contribution",
+          "horizon": "medium-term",
+          "statement": "Expects to maintain Microfinance portfolio contribution at similar levels of 10%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Small business loans growth",
+          "horizon": "FY27",
+          "statement": "Small business loans expected to grow at 20% year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Micro LAP growth",
+          "horizon": "FY27",
+          "statement": "Micro LAP segment expected to grow at double-digit rates",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost of funds",
+          "horizon": "Q1FY27",
+          "statement": "Cost of funds expected to increase due to higher TD and savings account rates",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "Expects deposit growth to improve from the muted 8% YoY seen in Q4",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "House of Elite customer base",
+          "horizon": "FY27",
+          "statement": "Aims to double the number of families under House of Elite to 56,000-58,000 and add 3,000-4,000 ARTHA customers",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "FCNR deposits",
+          "horizon": "FY27",
+          "statement": "Crossed $30 million in FCNR deposits and plans to expand to more currencies",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "exact NPA slippage levels for FY27",
+        "specific ROE guidance for FY27",
+        "precise capital adequacy ratio target for FY27"
+      ],
+      "margin_drivers": [
+        "NIM stability around 7%",
+        "Credit cost normalization to ~1.5%",
+        "Advances growth of ~20% YoY",
+        "Cost of funds increase due to rate hikes on TD and savings accounts",
+        "Microfinance portfolio contribution at ~10%",
+        "All products turning profitable"
+      ]
+    },
+    "Protean eGov": {
+      "company": "Protean eGov",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbdf0827-fed4-42c7-a6a4-475f03048857.pdf",
+      "transcript_id": "protean-egov_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T15:29:25.515Z",
+      "summary": "Protean eGov expects sustained growth driven by expanding digital public infrastructure opportunities, with margin expansion and new project revenues contributing to long-term value creation.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth expected to be supported by new projects like Aadhaar Seva Kendra, Bima Sugam, and CERSAI, with full-scale revenue potential from Aadhaar Seva Kendra by FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term (2-3 years)",
+          "statement": "Management aims to improve margins significantly over the next 2-3 years through automation, technology deployment, and operating leverage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Aadhaar Seva Kendra revenue",
+          "horizon": "FY27",
+          "statement": "Full-scale revenue potential from 190 Aadhaar Seva Kendras expected by February-March 2027, with annual revenue estimated at ~INR 200 crores over the 5-year contract.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost",
+          "horizon": "FY27",
+          "statement": "Employee cost to increase due to deployment of ~2,000 employees for Aadhaar Seva Kendras, with costs directly tied to project revenue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Processing charges as % of revenue",
+          "horizon": "FY27",
+          "statement": "Processing charges expected to remain in the range of 35% to 38%, depending on transaction types (online vs. assisted online vs. physical).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Bima Sugam traction",
+          "horizon": "FY27",
+          "statement": "Bima Sugam platform expected to go live within 3-4 months, with potential to increase insurance penetration and open adjacencies beyond the project.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Outstanding order book of >INR 1,500 crores provides visibility for future revenue streams.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAN 2.0 impact",
+          "horizon": "FY27",
+          "statement": "Distribution business for PAN 2.0 expected to continue, with no significant change in Protean's role; rollout timelines remain uncertain.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "New Businesses revenue",
+          "horizon": "FY27",
+          "statement": "New Businesses segment (e.g., CERSAI, Bima Sugam, Aadhaar Seva Kendra) to contribute meaningfully to revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage",
+          "horizon": "FY27",
+          "statement": "Focus on improving operating leverage through scaling product-led and RFP businesses, with strong balance sheet supporting investments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex expected to be managed within cash flows, with investments prioritized for technology, innovation, and platform expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PFRDA reforms impact",
+          "horizon": "medium-term",
+          "statement": "NPS Sanchay and other PFRDA reforms expected to significantly improve pension inclusion, particularly from the informal sector (~90% of workforce).",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Segment-wise EBITDA split",
+        "Margin for specific projects (e.g., Aadhaar Seva Kendra, Bima Sugam) due to confidentiality clauses",
+        "Revenue contribution from PAN card issuances excluding Aadhaar-PAN linkage",
+        "Working capital cycle for new projects"
+      ],
+      "margin_drivers": [
+        "Automation and technology deployment",
+        "Operating leverage from scaling businesses",
+        "Shift toward higher-margin product-led and RFP businesses",
+        "Employee cost management tied to project revenue"
+      ]
     }
   },
-  "generated_at": "2026-07-02T13:05:28.755Z",
-  "count": 574
+  "generated_at": "2026-07-02T15:29:27.039Z",
+  "count": 578
 }
