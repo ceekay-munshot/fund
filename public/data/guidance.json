@@ -59805,8 +59805,542 @@
         "Investments in AI for super loads",
         "Shift from investment to cash flow generation in vehicle finance"
       ]
+    },
+    "Piramal Finance.": {
+      "company": "Piramal Finance.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb0da61c-42b7-4e6c-882f-a5a38c99e39a.pdf",
+      "transcript_id": "piramal-finance_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T20:36:50.497Z",
+      "summary": "Management expects strong growth in AUM and profits in FY27 with improving margins and asset quality, supported by AI adoption and liability cost benefits from credit rating upgrades.",
+      "guidance": [
+        {
+          "metric": "Total AUM growth",
+          "horizon": "FY27",
+          "statement": "Approximately 25% growth in total AUM",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Consolidated net profit growth",
+          "horizon": "FY27",
+          "statement": "Approximately 50% growth in consolidated net profit",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Return on AUM (RoAUM)",
+          "horizon": "FY27",
+          "statement": "Exit FY27 with RoAUM of approximately 2.5% (vs. 2.1% in Q4 FY26)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost of borrowing",
+          "horizon": "Next 3 years",
+          "statement": "AA+ rating to lower cost of borrowing by 50-80 basis points as liability stack churns out",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Gold loan branch expansion",
+          "horizon": "FY27",
+          "statement": "Open 180 more gold loan branches to take total to approximately 200 branches",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Unsecured loan mix increase",
+          "horizon": "Medium-term",
+          "statement": "Increase unsecured loan mix by 400-500 basis points compared to current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail opex to AUM ratio",
+          "horizon": "FY27",
+          "statement": "Potential to take retail opex to AUM slightly lower than current levels (3.6%)",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Legacy book size",
+          "horizon": "End of FY27",
+          "statement": "Legacy book to become irrelevant by latter half of FY27 (currently <3% of AUM)",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Wholesale 2.0 AUM growth",
+          "horizon": "FY27",
+          "statement": "Continued strong growth in Wholesale 2.0 AUM",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "NIM expansion",
+          "horizon": "Medium-term",
+          "statement": "NIMs to expand due to product mix shift and liability cost benefits",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Fee income (retail)",
+          "horizon": "Near-term",
+          "statement": "Fee income to normalize and improve from current low levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Leverage (AUM to equity)",
+          "horizon": "FY27",
+          "statement": "Progress towards goal of 4.5-5x leverage (currently 3.6x)",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific dates for Legacy book consolidation into Growth segment",
+        "detailed breakdown of fee income normalization timeline",
+        "exact impact of AI adoption on profitability metrics"
+      ],
+      "margin_drivers": [
+        "unsecured loan mix increase",
+        "gold loan expansion",
+        "liability cost reduction from AA+ rating",
+        "fee income normalization",
+        "opex efficiency gains",
+        "product mix shift toward higher-yielding assets"
+      ]
+    },
+    "V-Mart Retail": {
+      "company": "V-Mart Retail",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f448eb8d-4c3e-4775-8bb1-73ca1038f7f5.pdf",
+      "transcript_id": "v-mart-retail_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T20:36:58.410Z",
+      "summary": "Management expects continued healthy consumption trends in India with controlled inflation and rising per capita income, though raw material cost pressures (especially polyester yarn) may impact margins in near term.",
+      "guidance": [
+        {
+          "metric": "Store expansion (net area addition)",
+          "horizon": "FY27",
+          "statement": "Guidance remains at 13%-15% net area addition annually, net of 1%-2% closures.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Estimated capex of INR170-180 crore for the next year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material inflation impact",
+          "horizon": "FY27",
+          "statement": "10% crude price increase translates to ~5% yarn cost increase and ~3%-4% apparel cost increase; 70%-75% polyester mix in forward sourcing.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expects margin expansion if mid-single-digit LFL growth is achieved, driven by efficiencies and cost management.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "LimeRoad profitability",
+          "horizon": "FY27",
+          "statement": "Marketplace business remains profitable at CM3 levels in high single digits and contributes to customer loyalty and repeat rates.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Inventory health",
+          "horizon": "FY27",
+          "statement": "Improved inventory health expected to result in better gross margins due to higher proportion of fresher merchandise, lower discounting, and improved product mix.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Same-store sales growth (LFL)",
+          "horizon": "FY27",
+          "statement": "Aims for mid-single-digit or higher LFL growth to drive margin expansion and profitability.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share gains",
+          "horizon": "FY27",
+          "statement": "Strategy to increase market share by attracting consumers from competitors, especially in weaker demand scenarios.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI and technology adoption",
+          "horizon": "medium-term",
+          "statement": "Focus on AI, agentic workflows, and large language models to improve scalability, efficiency, and consumer intelligence.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "South market scaling (Unlimited format)",
+          "horizon": "medium-term",
+          "statement": "Remains confident in scaling South markets with strong revenue growth and EBITDA improvement.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative impact of geopolitical risks (e.g., crude oil price volatility) on future margins",
+        "Specific margin targets for FY27",
+        "Detailed breakdown of cost absorption strategies for raw material inflation"
+      ],
+      "margin_drivers": [
+        "Efficiency gains from AI and technology adoption",
+        "Improved inventory health and lower discounting",
+        "Supply chain and warehouse dispatch optimizations",
+        "Operational efficiencies and productivity gains",
+        "Product mix improvements and fresher merchandise",
+        "Loyalty-based traffic through digital interventions"
+      ]
+    },
+    "Bharat Forge": {
+      "company": "Bharat Forge",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79d30263-5564-4bc9-9ee2-afe775518d5e.pdf",
+      "transcript_id": "bharat-forge_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T20:37:07.889Z",
+      "summary": "Management expects strong growth in FY27 driven by aerospace, defense, and automotive, with India operations growing ~25% and capex of INR800-850 crore over 15-18 months.",
+      "guidance": [
+        {
+          "metric": "India business growth",
+          "horizon": "FY27",
+          "statement": "Close to 25% growth in India business, barring geopolitical crises",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Higher growth expected from aerospace, defense, and automotive (components) businesses",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Aerospace revenue",
+          "horizon": "FY27",
+          "statement": "Strong double-digit growth in aerospace, significantly higher than overall company growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense revenue",
+          "horizon": "FY27",
+          "statement": "Defense business to see stable revenue accretion over next 3-4 years with order book of ~INR11,000 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "15-18 months from FY26",
+          "statement": "INR800-850 crore capex across forging, casting, and products platforms",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ATAGS production",
+          "horizon": "H2FY27",
+          "statement": "Testing to complete in H2FY27, production and supplies to start thereafter",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CQB carbine production",
+          "horizon": "FY27",
+          "statement": "Production to start and ramp up in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Explosives facility capex",
+          "horizon": "FY28",
+          "statement": "Ground-breaking in current month, construction by end of FY27, pilot production in ~24 months (FY28)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fortuna Engineering revenue",
+          "horizon": "FY27",
+          "statement": "Fortuna has INR380 crore revenue and is expected to grow multiple-fold with new machining lines",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "JSA casting business growth",
+          "horizon": "Medium-term",
+          "statement": "JSA to become a multi-thousand crore business with manufacturing shift from Europe to India",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense order book milestones",
+          "horizon": "FY27-FY29",
+          "statement": "ATAGS FOPM and production ramp-up, CQB carbine production, and naval/drone system orders to drive revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "U.S. and India CV demand",
+          "horizon": "FY27",
+          "statement": "Strong outlook for both U.S. and India commercial vehicle markets",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "marginal shares for 155mm artillery",
+        "detailed breakdown of revenue growth by segment (defense, U.S. exports, non-auto, domestic)",
+        "commodity cost trajectory beyond energy",
+        "data center business specifics"
+      ],
+      "margin_drivers": [
+        "aerospace growth (higher margins)",
+        "defense business expansion",
+        "energy cost negotiations with customers",
+        "cost absorption in India CV market",
+        "JSA casting business growth in India"
+      ]
+    },
+    "Shyam Metalics": {
+      "company": "Shyam Metalics",
+      "ticker": "SHYAMMETL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69887390-4060-450a-82b0-d8d1ed335288.pdf",
+      "transcript_id": "shyam-metalics_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T20:37:17.995Z",
+      "summary": "Management expects sustained growth through capacity expansions, premiumization, and cost efficiency, with INR2,700 crore capex targeting higher-margin specialty products over the next 2-3 years.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY29",
+          "statement": "INR2,700 crore capex approved for specialty wire/bar mill (INR900 crore) and stainless steel downstream facility (INR1,800 crore) at Kharagpur and Sambalpur, targeting commissioning by March 2029.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "0.5 million tonne iron-making facility (DRI) and CRM complex Galvalume line commissioning expected to drive volume growth, with color-coated volumes doubling YoY.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Aluminum margins",
+          "horizon": "FY27",
+          "statement": "Margins to improve with backward integration (foil stock production) and pass-through of elevated aluminum prices, though realization may remain aligned with market trends.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Stainless steel EBITDA/tonne",
+          "horizon": "FY27-FY29",
+          "statement": "New stainless steel plant in Odisha (6 million tonnes capacity) to enhance margins via higher value-added products and integrated raw material sourcing, targeting INR12,000-15,000/tonne EBITDA.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power cost reduction",
+          "horizon": "FY27",
+          "statement": "New power plants and waste heat recovery systems to reduce grid power dependence, improving cost efficiency.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Revenue mix shift",
+          "horizon": "medium-term",
+          "statement": "Continued focus on higher value-added products (CR coil, stainless steel, aluminum) to improve blended margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q4FY26",
+          "statement": "Q4FY26 EBITDA margin of 14.4% reflects current strength, with potential for slight expansion (1-2%) depending on monsoon and demand dynamics.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Specialty wire/bar mill capacity",
+          "horizon": "FY29",
+          "statement": "8 lakh tonnes specialty wire/bar mill at Kharagpur to be commissioned by March 2029.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Stainless steel downstream capacity",
+          "horizon": "FY29",
+          "statement": "6 million tonnes stainless steel capacity expansion at Sambalpur with downstream facilities (cold rolling, pickling, bright annealing) to be commissioned by March 2029.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash flow generation",
+          "horizon": "FY27",
+          "statement": "Strong operating cash flow (INR2,000+ crore in FY26) to fund capex while maintaining balance sheet discipline.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE/ROE",
+          "horizon": "FY27",
+          "statement": "ROCE of 16% and ROE of 13% in FY26 to be sustained or improved through profitable growth and capital efficiency.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "West Bengal industrial growth",
+          "horizon": "medium-term",
+          "statement": "Optimistic about West Bengal's industrialization and infrastructure development supporting faster company growth and value addition.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Global steel price trajectory beyond near-term",
+        "Specific volume targets for FY27 beyond stated expansions",
+        "Dividend payout ratio or policy beyond FY26 recommendation"
+      ],
+      "margin_drivers": [
+        "Premiumization (higher value-added products like CR coil, stainless steel, aluminum foil)",
+        "Backward integration (foil stock production, power generation, waste heat recovery)",
+        "Cost efficiency (power cost reduction, operational discipline)",
+        "Product mix shift (toward specialty alloys, stainless steel, aluminum)",
+        "Downstream integration (CRM complex, Galvalume line, stainless steel downstream facilities)"
+      ]
+    },
+    "Sportking India": {
+      "company": "Sportking India",
+      "ticker": "SPORTKING",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f899bf6-5424-4f0a-ba06-0347d04b9297.pdf",
+      "transcript_id": "sportking-india_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T20:37:27.166Z",
+      "summary": "Management expects margin expansion over the next 2-3 quarters driven by strong spreads and demand, with new capacity ramping up by Q3FY27 and FTAs providing long-term tailwinds.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Next 2-3 quarters",
+          "statement": "Expects margins to expand meaningfully due to higher spreads and long-term sales book",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Next 2-3 quarters",
+          "statement": "Expects quarter-on-quarter margin expansion of at least 15%-20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Next 3 quarters",
+          "statement": "Expects top line to increase by 7%-10% due to higher yarn prices",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "Next 3 quarters",
+          "statement": "Does not expect volume increase as already operating at full capacity",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Q3FY27",
+          "statement": "Greenfield expansion of ~150,000 spindles to commence commercial operations",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar power savings",
+          "horizon": "Next year (FY27)",
+          "statement": "40MW solar power supply to save INR14-15 crores annually",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects total revenue of INR2,700-2,800 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expects to achieve 15%+ margins in H1FY27 based on current visibility",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "FTAs (EU & UK)",
+          "horizon": "By end of FY27",
+          "statement": "Expects EU and UK FTAs to be effective within the financial year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Industry consolidation",
+          "horizon": "Medium-term",
+          "statement": "Expects ongoing consolidation in the spinning sector with inefficient players shutting down",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export share",
+          "horizon": "Medium-term",
+          "statement": "Expects export share to remain around 50% but may pivot based on opportunities",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Cotton yarn spread",
+          "horizon": "Next 2-3 quarters",
+          "statement": "Cotton yarn spread currently at >$1, expected to remain strong",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Cotton inventory levels",
+        "Detailed margin impact of acquisitions"
+      ],
+      "margin_drivers": [
+        "Higher yarn realization",
+        "Strong demand from China and Bangladesh",
+        "Cotton spreads at 3-year highs",
+        "Rupee depreciation improving competitiveness",
+        "FTAs with EU and UK",
+        "Solar power savings reducing costs"
+      ]
     }
   },
-  "generated_at": "2026-07-02T19:03:11.749Z",
-  "count": 586
+  "generated_at": "2026-07-02T20:37:28.693Z",
+  "count": 591
 }
