@@ -58155,8 +58155,499 @@
         "inventory and channel discipline",
         "R&D-led innovation"
       ]
+    },
+    "Dr Agarwal's Hea": {
+      "company": "Dr Agarwal's Hea",
+      "ticker": "AGARWALEYE",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=327275b6-f9eb-4265-9f67-077691b429c3.pdf",
+      "transcript_id": "dr-agarwal-s-hea_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-02T13:04:50.560Z",
+      "summary": "Dr. Agarwal's Healthcare expects growth to sustain at a similar pace compared to the previous year, driven by deeper penetration of existing micro markets, expansion into new geographies, and the accelerated adoption of innovative surgical procedures and advanced technologies.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Total outflow of about INR 380 crores to INR 400 crores, including capex for new facilities and CMS facility",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Facilities addition",
+          "horizon": "FY27",
+          "statement": "60 new facilities to be added, with 40 being surgical centers and 20 being clinics",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to stay stable, despite aggressive greenfield expansion",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expected to sustain at a similar pace compared to the previous year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisition-related payments",
+          "horizon": "FY27",
+          "statement": "Approximately INR 60 crores to INR 65 crores",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operating leverage",
+        "Disciplined execution"
+      ]
+    },
+    "Century Plyboard": {
+      "company": "Century Plyboard",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=622198af-f75a-4ba6-9764-7fb10f4b77ea.pdf",
+      "transcript_id": "century-plyboard_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T13:05:00.867Z",
+      "summary": "Management remains optimistic on medium- to long-term growth driven by capacity expansions and structural industry drivers, but refrains from providing explicit FY27 guidance due to fluid geopolitical and cost environment.",
+      "guidance": [
+        {
+          "metric": "Plywood capacity expansion",
+          "horizon": "FY27-FY29",
+          "statement": "Hoshiarpur plant to add ~30% capacity in FY27; UP plant expected to be commissioned by Q1 FY29; Orissa plant planned for 1-2 years after UP; Chennai plant to add ~40,000 NA (25-30k CBM) by July FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MDF capacity expansion",
+          "horizon": "Q1 FY27",
+          "statement": "Brownfield expansion in South plant to unlock 60,000-70,000 cubic meters/year additional capacity by end of Q1 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "MDF EBITDA margin (steady state)",
+          "horizon": "medium-term",
+          "statement": "Targeting high-teens EBITDA margin in steady state once chemical supply chain stabilizes.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Particle Board capacity",
+          "horizon": "FY27+",
+          "statement": "New greenfield Particle Board plant planned in Orissa (timeline and capacity not finalized); old plant scrapped.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Port business cash flow",
+          "horizon": "Q1 FY27",
+          "statement": "Port business (Century Ports) expected to turn cash positive in Q1 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Plywood price hikes",
+          "horizon": "Q4 FY26-Q1 FY27",
+          "statement": "7% price increase taken in April FY27 to offset higher timber and chemical costs; further hikes dependent on market conditions.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "MDF price hikes",
+          "horizon": "Q4 FY26-Q1 FY27",
+          "statement": "Industry-wide 15% price increase taken to offset chemical cost disruptions; sustainability uncertain.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex allocation",
+          "horizon": "FY27-FY28",
+          "statement": "Major capex directed towards Hoshiarpur plant; UP plant commissioning expected over next 2 years; no major frozen capex for MDF/Particle Board.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-to-EBITDA (long-term debt)",
+          "horizon": "medium-term",
+          "statement": "Long-term debt to remain below 1:1 EBITDA; focus on balance sheet discipline.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Plywood growth (planned)",
+          "horizon": "FY27",
+          "statement": "Planning muted growth of 10-12% for Plywood in FY27 due to capacity constraints and raw material sourcing.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Timber prices",
+          "horizon": "FY27",
+          "statement": "Timber prices expected to remain stable with seasonal variations; no significant correction anticipated.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROE/ROCE improvement",
+          "horizon": "medium-term",
+          "statement": "Expect further improvement in ROE and ROCE as assets are utilized more efficiently.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 segment-wise revenue/EBITDA guidance",
+        "Particle Board capacity expansion timeline/costs (Orissa plant)",
+        "Specific FY27 volume/margin guidance for Plywood/Laminates/Particle Board",
+        "Impact of geopolitical disruptions on FY27 margins"
+      ],
+      "margin_drivers": [
+        "Operational efficiencies",
+        "Capacity utilization improvements",
+        "Product mix and value-added products",
+        "Cost optimization and strategic sourcing",
+        "Price pass-through on raw material inflation",
+        "New capacity additions (scale benefits)"
+      ]
+    },
+    "Dishman Carbogen": {
+      "company": "Dishman Carbogen",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a5593e8-ca1c-4d94-b065-04844b80be5d.pdf",
+      "transcript_id": "dishman-carbogen_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T13:05:09.080Z",
+      "summary": "Management expects continued growth driven by ADC linker-payload demand, tech transfers to India, and Vitamin D analogs, with improved margins and lower interest costs post-debt refinancing.",
+      "guidance": [
+        {
+          "metric": "Revenue (Swiss entity - tech transfer)",
+          "horizon": "FY27-FY28",
+          "statement": "Annual revenue of CHF 20-25 million from Swiss tech transfer to India",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (India - innovator molecule)",
+          "horizon": "FY27-FY28",
+          "statement": "Additional CHF 20-25 million annual revenue opportunity from innovator molecule in India",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ADC linker-payload revenue",
+          "horizon": "FY27-FY28",
+          "statement": "CHF 30-40 million annual revenue from ADC linker-payload contracts",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (ADC linker-payload)",
+          "horizon": "FY27-FY28",
+          "statement": "EBITDA margins on ADC linker-payload significantly higher than consolidated margins (potentially double)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Interest cost",
+          "horizon": "FY26 (Q2/Q3 onwards)",
+          "statement": "Interest cost to reduce to INR 30-35 crores per quarter from current levels",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Effective tax rate",
+          "horizon": "FY27",
+          "statement": "Effective tax rate expected around 40% for FY27",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Effective tax rate",
+          "horizon": "FY28",
+          "statement": "Effective tax rate expected around 30% for FY28",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Effective tax rate",
+          "horizon": "3 years",
+          "statement": "Effective tax rate expected to stabilize between 15-20% in 3 years",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "India business revenue scale-up",
+          "horizon": "12-18 months",
+          "statement": "India business expected to scale up by INR 500 crores within 12-18 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "India business order conversion",
+          "horizon": "next 6 months",
+          "statement": "30-35% conversion expected from INR 1,100-1,200 crores RFP pipeline",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Swiss engineering activities (co-investments)",
+          "horizon": "FY27",
+          "statement": "Co-investments in Switzerland on track with engineering activities expected to complete as planned",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Lean management initiatives",
+          "horizon": "ongoing",
+          "statement": "Lean management initiatives rigorously pursued to increase efficiency, productivity, and reduce cost base",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact quarterly revenue recognition for ADC linker-payload orders",
+        "Specific details on other ADC pipeline molecules beyond the one mentioned"
+      ],
+      "margin_drivers": [
+        "ADC linker-payload (high-margin products)",
+        "Vitamin D analogs (high-margin products)",
+        "Tech transfers to India (margin improvement)",
+        "Lean management initiatives (cost reduction)",
+        "Supplier diversification and contract renegotiations (cost reduction)"
+      ]
+    },
+    "Speciality Rest.": {
+      "company": "Speciality Rest.",
+      "ticker": "SPECIALITY",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc5632cb-61f8-4fb1-9aaf-4f49d6b3b1d5.pdf",
+      "transcript_id": "speciality-rest_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T13:05:18.018Z",
+      "summary": "Management expects steady growth in FY27 driven by store expansions, brand focus, and cost optimization, with cautious optimism on demand despite inflationary pressures.",
+      "guidance": [
+        {
+          "metric": "SSG (Same Store Sales Growth)",
+          "horizon": "FY27",
+          "statement": "SSG expected to be double-digit going forward, supported by store renovations and improved dine-in covers",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "INR 40 crores allocated for renovations and new store openings",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New store openings",
+          "horizon": "FY27",
+          "statement": "8 new restaurants, 15 new Walters, and 10 new Sweet Bengals planned for the year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex for new stores",
+          "horizon": "FY27",
+          "statement": "INR 32 crores for new restaurant expansions and INR 5 crores for QSR and confectionery",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Brand expansion (Mainland China, Asia Kitchen)",
+          "horizon": "next 5 years",
+          "statement": "Close to scaling Mainland China and Asia Kitchen to 50 restaurants each over the next 5 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Premium brand expansion (Gong)",
+          "horizon": "FY27",
+          "statement": "Gong to expand to Pune and Delhi in the next few months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fuel cost optimization",
+          "horizon": "next 20 days",
+          "statement": "100% of restaurants to transition to non-fuel energy sources (induction-based woks) to mitigate LPG/PNG supply risks",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Price hikes",
+          "horizon": "FY27",
+          "statement": "No further price hikes planned beyond the 4% taken in FY26 to avoid burdening customers",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Franchisee royalties",
+          "horizon": "ongoing",
+          "statement": "Franchisees contribute 6% of top-line as royalty, with no new franchise expansions planned",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Focus brands",
+          "horizon": "FY27",
+          "statement": "Mainland China, Asia Kitchen, Haka, Gong, Siciliana, Walters, and Sweet Bengal are the focus brands; no expansion for other brands",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Rental escalation",
+          "horizon": "annual",
+          "statement": "General rental escalation of 5% annually or 15% every 3 years depending on lease terms",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tactical promotions",
+          "horizon": "Q2FY27",
+          "statement": "Redemption coupons and tactical promotions to be introduced to ease consumer pockets and drive footfall",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "share buyback plans",
+        "EBITDA margin guidance for FY27",
+        "PAT guidance for FY27"
+      ],
+      "margin_drivers": [
+        "store renovations and refurbishments",
+        "cost optimization (fuel substitution)",
+        "focus on high-margin brands (Mainland China, Asia Kitchen, Gong)",
+        "delivery-first model (Haka)",
+        "tactical promotions to drive footfall"
+      ]
+    },
+    "Grasim Inds": {
+      "company": "Grasim Inds",
+      "ticker": "GRASIM",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e57c46f9-e2c3-4887-88d1-59faf74c3afc.pdf",
+      "transcript_id": "grasim-inds_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T13:05:27.229Z",
+      "summary": "Grasim's forward outlook is positive with strong growth momentum in paints, B2B e-commerce, and cellulosic fibers, offset by raw material cost volatility and cautious demand outlook.",
+      "guidance": [
+        {
+          "metric": "Revenue (Birla Opus)",
+          "horizon": "FY27",
+          "statement": "Targeting INR10,000 crores profitable revenue in the third year of full-scale operations.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue market share (Birla Opus)",
+          "horizon": "medium-term",
+          "statement": "Aiming to drive revenue market share in line with capacity share (24% of industry capacity).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Birla Pivot)",
+          "horizon": "FY27",
+          "statement": "Ahead of annual revenue guidance of INR8,500 crores; revenue more than doubled YoY in Q4 FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (UltraTech Cement)",
+          "horizon": "March 2028",
+          "statement": "On track to reach 240+ million tons per annum capacity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton (UltraTech Cement)",
+          "horizon": "medium-term",
+          "statement": "Margin improvement expected to continue due to structural cost levers like fuel mix optimization and logistics efficiency.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Lyocell capacity (Cellulosic Fibers)",
+          "horizon": "Phase 1 completion",
+          "statement": "Phase 1 Lyocell capacity at Harihar of 55,000 tons per annum progressing well.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Cellulosic Fibers)",
+          "horizon": "FY27",
+          "statement": "Structural shift in cellulosic fibers demand expected to continue, driven by sustainability and cotton constraints.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material costs (Birla Opus)",
+          "horizon": "FY27",
+          "statement": "Raw material prices linked to crude derivatives remain unstable and unpredictable; potential further escalation if geopolitical tensions persist.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Price hikes (Birla Opus)",
+          "horizon": "Q1FY27",
+          "statement": "Second and third phase of price increases staggered for implementation within Q1 FY27 to offset input cost escalation.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Demand elasticity (Birla Opus)",
+          "horizon": "H2FY27",
+          "statement": "Impact of price rise on consumer and contractor demand to be felt in H2 FY27; demand elasticity curve to be tested.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Aditya Birla Capital capital raise",
+          "horizon": "FY27",
+          "statement": "Board has approved a capital raise of INR4,000 crores to support growth initiatives.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty chemicals revenue mix",
+          "horizon": "medium-term",
+          "statement": "Revenue mix evolving towards higher value downstream products (specialty chemicals now 27%, chlorine derivatives 22%).",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Future raw material price trends beyond current volatility",
+        "Specific EBITDA margin targets for Birla Opus or Birla Pivot",
+        "Detailed capex plans for new businesses (Birla Opus, Birla Pivot)",
+        "Macro-economic assumptions (e.g., crude oil prices, currency movement) beyond current commentary"
+      ],
+      "margin_drivers": [
+        "Raw material cost management (crude-linked inputs)",
+        "Operational efficiency (fuel mix optimization, logistics efficiency)",
+        "Product mix shift towards higher value segments (specialty chemicals, premium paints)",
+        "Scale benefits (capacity utilization, distribution network expansion)",
+        "Cost leadership in cement (structural cost levers)"
+      ]
     }
   },
-  "generated_at": "2026-07-02T10:51:40.111Z",
-  "count": 569
+  "generated_at": "2026-07-02T13:05:28.755Z",
+  "count": 574
 }
