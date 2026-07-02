@@ -56651,8 +56651,479 @@
         "commercial CMO supply",
         "out-licensing milestones"
       ]
+    },
+    "Archean Chemical": {
+      "company": "Archean Chemical",
+      "ticker": "ACI",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ca6dd20-fd39-4f5d-a04d-9ece597467e2.pdf",
+      "transcript_id": "archean-chemical_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-02T04:18:10.409Z",
+      "summary": "Archean Chemical expects a positive demand outlook in the medium term, despite current challenges, and is focused on consolidating its core salt and bromine business, scaling up derivatives and oilfield businesses, and investing in long-term opportunities.",
+      "guidance": [
+        {
+          "metric": "Bromine production",
+          "horizon": "FY27",
+          "statement": "Expected to be around 20,000-21,000 metric tons, assuming daily production of 55 tons",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bromine production growth",
+          "horizon": "medium-term",
+          "statement": "Expected to grow 15%-20% per year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Salt business growth",
+          "horizon": "medium-term",
+          "statement": "Expected to grow 10%-12% per year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Acume business growth",
+          "horizon": "FY27",
+          "statement": "Expected to see significant improvement, driven by product development, market penetration, and process optimization",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Semiconductor project timeline",
+          "horizon": "FY27-30",
+          "statement": "Expected to start substructure work from July, with production expected in 24-30 months",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Pricing actions",
+        "Volume growth",
+        "Cost reduction",
+        "Process optimization"
+      ]
+    },
+    "Indoco Remedies": {
+      "company": "Indoco Remedies",
+      "ticker": "INDOCO",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f65f385e-5874-4358-b52d-5d365fa7ad07.pdf",
+      "transcript_id": "indoco-remedies_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T04:18:18.021Z",
+      "summary": "Management expects continued growth in international formulations, particularly in regulated markets, while domestic performance remains seasonal and dependent on market conditions.",
+      "guidance": [
+        {
+          "metric": "International formulations revenue growth",
+          "horizon": "FY27",
+          "statement": "Expects continued traction in international business, especially in regulated markets like the US and Europe, driven by existing product basket and order book.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "US business growth",
+          "horizon": "FY27",
+          "statement": "Growth in the US is expected to continue despite unresolved FDA plant issues, supported by sterile products from alternate sites and solid orals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic formulations performance",
+          "horizon": "FY27",
+          "statement": "Domestic performance is expected to improve as seasonal factors normalize, with prescription growth translating to sales over time.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "OTC business growth",
+          "horizon": "FY27",
+          "statement": "OTC business (Warren Remedies) is expected to grow with new product launches and increased field force focus, though profitability remains dependent on API business validation.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "API business validation timelines",
+          "horizon": "medium-term",
+          "statement": "API business (Warren Remedies) is expected to turn around in a couple of quarters as validations and approvals are completed.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "FY27",
+          "statement": "Management aims to reduce borrowings as performance improves, with a focus on servicing debt alongside maintaining EBITDA levels.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Operating expense control",
+          "horizon": "FY27",
+          "statement": "Tight control on operating expenses and CAPEX is expected to continue to improve financial performance.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Emerging markets growth",
+          "horizon": "FY27",
+          "statement": "Emerging markets are expected to continue growing, though collections may remain elongated due to longer credit periods.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "FDA plant resolution",
+          "horizon": "FY27",
+          "statement": "Management is actively working to resolve the FDA plant issue to avoid future approval delays.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific revenue or margin targets for future periods",
+        "Exact timeline for FDA plant resolution",
+        "Detailed CAPEX breakdown for future years"
+      ],
+      "margin_drivers": [
+        "International formulations growth (regulated markets)",
+        "OTC business expansion (Warren Remedies)",
+        "Operating expense control",
+        "Debt reduction",
+        "API business validation and approvals"
+      ]
+    },
+    "Balaji Amines": {
+      "company": "Balaji Amines",
+      "ticker": "BALAMINES",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e86c7bfe-95ec-4057-a852-261fc6bba6a1.pdf",
+      "transcript_id": "balaji-amines_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T04:18:25.465Z",
+      "summary": "Management expects gradual growth in FY27 driven by new product launches, volume expansion, and specialty chemicals ramp-up, with EBITDA margins sustainable at 22-23%.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Minimum 25% to 30% volume growth from current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Sustainable between 22% to 23% on total sales",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "DME plant utilization",
+          "horizon": "FY27",
+          "statement": "30% to 40% utilization in current financial year, 50% to 60% by year-end, 80% to 90% in coming years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "DME revenue potential",
+          "horizon": "FY27",
+          "statement": "At 80% capacity (80,000 tons) and INR80-90 per ton price, revenue potential of INR640-720 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "DME EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Similar to other chemical margins, around 22%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Balaji Specialty Chemicals revenue",
+          "horizon": "FY28",
+          "statement": "Targeting INR3,000 crores revenue by FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Balaji Specialty Chemicals capex (Phase 1)",
+          "horizon": "FY27",
+          "statement": "INR350-400 crores spending in first phase",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Consolidated capex",
+          "horizon": "FY27",
+          "statement": "INR275-290 crores on consolidated basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Standalone capex (DME, NMM, ACN)",
+          "horizon": "FY27",
+          "statement": "Remaining INR20 crores for all 3 products combined",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Volume growth drivers",
+          "horizon": "FY27",
+          "statement": "Driven by new plants (DME, NMM, ACN) and battery industry ramp-up",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material availability",
+          "horizon": "FY27",
+          "statement": "Sufficient arrangements to maintain plant operations at current run rate",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Pricing stability",
+          "horizon": "FY27",
+          "statement": "Prices and spreads remain volatile due to geopolitical situation; margins maintained through alert procurement and sales strategies",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Average price hikes taken in current quarter",
+        "Quantification of risk from large metformin customer",
+        "Normalized 'other expenses' for FY27 modeling"
+      ],
+      "margin_drivers": [
+        "Integrated manufacturing model",
+        "Diversified product portfolio",
+        "Value-added products (TETA, TEPA, AEEA, AEP)",
+        "Import substitution strategy",
+        "Operating leverage from new capacities",
+        "Stable demand across key end-user industries"
+      ]
+    },
+    "Amanta Healthcar": {
+      "company": "Amanta Healthcar",
+      "ticker": "AMANTA",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b4a3e89-e3b2-477f-ab43-10c479683654.pdf",
+      "transcript_id": "amanta-healthcar_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T04:18:34.825Z",
+      "summary": "Amanta Healthcare expects improved profitability and margin expansion driven by capacity expansion, cost optimization, and product mix shift towards higher-value offerings.",
+      "guidance": [
+        {
+          "metric": "SteriPort capacity",
+          "horizon": "FY27",
+          "statement": "Expansion from 6.6 crore to 12 crore bottles per year to be commissioned by June 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Targeting EBITDA margin of 25%+ as capacity utilization improves",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power cost savings",
+          "horizon": "FY27",
+          "statement": "10.8 MW captive solar project expected to reduce power costs meaningfully from FY27 onwards",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "PAT margin expected to improve further as operating leverage kicks in",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "medium-term",
+          "statement": "Plan to replace INR30-40 crore of debt with lower interest rates in next six months",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Finance cost",
+          "horizon": "FY27",
+          "statement": "Finance cost expected to drop significantly as debt is refinanced at lower rates",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Two-port system demand growth",
+          "horizon": "medium-term",
+          "statement": "Two-port system demand expected to grow at 12-13% annually, driven by conversion from conventional packs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SteriPort market share",
+          "horizon": "2030",
+          "statement": "Targeting 20-25% market share in two-port system by 2030",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "IV fluid demand growth",
+          "horizon": "medium-term",
+          "statement": "IV fluid demand in India growing at 8-10% annually, with potential to reach 250-270 crore bottles",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product pipeline",
+          "horizon": "FY27",
+          "statement": "20 products in pipeline to drive future growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export expansion",
+          "horizon": "FY27",
+          "statement": "Focus on expanding export opportunities in both advanced and semi-regulated markets",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Regulatory approvals",
+          "horizon": "FY27",
+          "statement": "Prioritizing regulatory approvals and product registrations for selective entry into regulated markets",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material price trends beyond current adjustments",
+        "Detailed breakdown of inventory impact on margins",
+        "Specific timeline for achieving full capacity utilization post-expansion"
+      ],
+      "margin_drivers": [
+        "Capacity expansion and operating leverage",
+        "Shift towards higher-value product mix (SVP portfolio)",
+        "Cost optimization through energy efficiency (solar power)",
+        "Debt refinancing at lower interest rates",
+        "Price adjustments to offset raw material cost increases"
+      ]
+    },
+    "S D Retail": {
+      "company": "S D Retail",
+      "ticker": "SDREAMS",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SDRETAIL_23052026133521_Transcript.pdf",
+      "transcript_id": "s-d-retail_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-02T04:18:42.991Z",
+      "summary": "Management expects high double-digit revenue growth in FY27 driven by EBO expansion and omnichannel integration, with EBITDA margins improving gradually as scale and efficiencies increase.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Aim to double revenue from current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "High double-digit growth expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBO count",
+          "horizon": "FY27",
+          "statement": "To cross 100 EBOs by end of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBO openings per quarter",
+          "horizon": "FY27",
+          "statement": "Continue to open 8-9 EBOs per quarter",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Company-level EBITDA margin still some time away from double digits due to growth investments",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex of INR6-7 crore if opening 20 COCO stores; depends on store format mix",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Store size",
+          "horizon": "FY27",
+          "statement": "Focus on opening larger stores (1,000-1,200 sq ft) for operational efficiency and higher top line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "FY27",
+          "statement": "Target to reduce working capital cycle by 10 days annually",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Sales per sq ft",
+          "horizon": "FY27",
+          "statement": "Aim for double-digit growth in sales per sq ft",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Same-store sales growth",
+          "horizon": "FY27",
+          "statement": "SSSG of 13.5%-14% expected to continue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Productivity per store",
+          "horizon": "FY27",
+          "statement": "Target INR80-90 lakhs productivity per store per annum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Franchise expansion",
+          "horizon": "FY27",
+          "statement": "Continue adding franchise partners to expand footprint",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Payback period for new stores",
+        "Benchmark EBITDA margin target",
+        "Equity raising plans beyond immediate horizon"
+      ],
+      "margin_drivers": [
+        "EBO expansion",
+        "Omnichannel integration",
+        "Store size optimization",
+        "Operational efficiencies",
+        "Brand strength leverage"
+      ]
     }
   },
-  "generated_at": "2026-07-01T23:54:25.283Z",
-  "count": 554
+  "generated_at": "2026-07-02T04:18:44.518Z",
+  "count": 559
 }
