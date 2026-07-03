@@ -27,7 +27,7 @@ const SIGHTINGS_PATH = join(PUBLIC_DATA, "fund-sightings.json");
 const PROCESSED_PATH = join(PUBLIC_DATA, "processed-concalls.json");
 const TRENDS_PATH = join(PUBLIC_DATA, "fund-company-trends.json");
 
-const MIN_PRIOR = Number(process.env.TRENDS_MIN_PRIOR || 2); // only flag a drop after >= this many prior calls
+const MIN_PRIOR = Number(process.env.TRENDS_MIN_PRIOR || 3); // only flag "lost interest" after >= this many prior calls attended, then absent
 const stripDate = (id) => id.replace(/_\d{4}-\d{2}-\d{2}$/, "");
 
 async function readJson(p, fallback) {

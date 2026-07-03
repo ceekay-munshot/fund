@@ -93,7 +93,6 @@ function renderKpis() {
   const fundTotal = DATA.meta.fund_count ?? DATA.funds.length ?? 13;
   const companies = DATA.meta.company_count ?? new Set(s.map((x) => x.company)).size;
   const cards = [
-    { label: "Engagements", value: s.length, icon: "radar", grad: "from-indigo-500 to-violet-500" },
     { label: "Active Funds", value: activeFunds, suffix: ` / ${fundTotal}`, icon: "briefcase", grad: "from-emerald-500 to-teal-500", action: "funds" },
     { label: "Companies Tracked", value: companies, icon: "building-2", grad: "from-sky-500 to-blue-500" },
     { label: "Concalls Scanned (4 qtrs)", value: DATA.meta.concalls_scanned ?? 0, icon: "file-text", grad: "from-amber-500 to-orange-500" },
@@ -1151,9 +1150,11 @@ let _flags = [];
 let flagFunds = new Set(); // selected fund_ids (empty = all)
 let flagSector = "all";
 let flagFirstOnly = false;
-let flagWindow = "month"; // today | week | month | quarter | all
-const FLAG_WINDOWS = [["today", "Today"], ["week", "This week"], ["month", "This month"], ["quarter", "This quarter"], ["all", "All time"]];
-const flagWindowCutoff = () => ({ today: ymdAgo(0), week: ymdAgo(7), month: ymdAgo(30), quarter: ymdAgo(92), all: "0000-01-01" }[flagWindow] || "0000-01-01");
+let flagWindow = "month"; // recency: today|week|month|all — OR a fiscal-quarter key like "2026-Q4"
+const FLAG_WINDOWS = [["today", "Today"], ["week", "This week"], ["month", "This month"], ["all", "All time"]];
+const flagWindowCutoff = () => ({ today: ymdAgo(0), week: ymdAgo(7), month: ymdAgo(30), all: "0000-01-01" }[flagWindow] || "0000-01-01");
+const isQuarterKey = (v) => /^\d{4}-Q[1-4]$/.test(v || "");
+const quarterLabelFromKey = (k) => { const m = /^(\d{4})-Q([1-4])$/.exec(k || ""); return m ? `Q${m[2]} FY${m[1].slice(2)}` : k; };
 
 function buildFlags() {
   // "First interest" = a fund's EARLIEST call on a company, keyed on the real concall
@@ -1198,6 +1199,13 @@ function renderFlags() {
   const activeFunds = DATA.funds.filter((f) => DATA.sightings.some((s) => s.fund_id === f.id));
   const sectors = [...new Set(_flags.map((f) => f.sector || "Unclassified"))].sort();
 
+  // Fiscal quarters present in the data (newest first) → discrete quarter filters.
+  const qMap = new Map();
+  _flags.forEach((f) => { const q = reportingQuarter(f.concall_date); if (q) qMap.set(q.key, q.label); });
+  const quarterKeys = [...qMap.keys()].sort().reverse();
+  const windowOptionsHtml = `<optgroup label="Recency">${FLAG_WINDOWS.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}</optgroup>`
+    + (quarterKeys.length ? `<optgroup label="Quarter">${quarterKeys.map((k) => `<option value="${k}">${escapeHtml(qMap.get(k))}</option>`).join("")}</optgroup>` : "");
+
   // selected funds → removable chips; the rest live in the "add fund" dropdown
   const selChips = activeFunds.filter((f) => flagFunds.has(f.id)).map((f) => {
     const c = fundColor(f.id);
@@ -1224,7 +1232,7 @@ function renderFlags() {
         <div class="flex items-center gap-2 text-sm">
           <span class="text-slate-400">When</span>
           <select id="flag-window" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
-            ${FLAG_WINDOWS.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}
+            ${windowOptionsHtml}
           </select>
         </div>
         <div class="flex items-center gap-2 text-sm">
@@ -1265,14 +1273,15 @@ function updateFlagsFeed() {
   const feed = document.getElementById("flags-feed");
   if (!feed) return;
   const fbc = fundsByCompany();
+  const q = isQuarterKey(flagWindow);
   const cutoff = flagWindowCutoff();
   let items = _flags.filter((f) =>
-    (f.concall_date || "") >= cutoff &&
+    (q ? (reportingQuarter(f.concall_date)?.key === flagWindow) : (f.concall_date || "") >= cutoff) &&
     (!flagFunds.size || flagFunds.has(f.fund_id)) &&
     (flagSector === "all" || (f.sector || "Unclassified") === flagSector) &&
     (!flagFirstOnly || f.firstInterest)
   );
-  const label = (FLAG_WINDOWS.find(([v]) => v === flagWindow) || [, "this period"])[1].toLowerCase();
+  const label = q ? `in ${quarterLabelFromKey(flagWindow)}` : (FLAG_WINDOWS.find(([v]) => v === flagWindow) || [, "this period"])[1].toLowerCase();
   items = items.slice().sort((a, b) => (b.concall_date || "").localeCompare(a.concall_date || ""));
   const hl = document.getElementById("flag-headline");
   if (hl) hl.textContent = flagsHouseView(items, label);
