@@ -36,7 +36,7 @@ export function sectorColor(sector) {
   return `hsl(${hueOf(sector)}, 68%, 56%)`;
 }
 export function sectorPill(sector, industry) {
-  const label = sector || "Unknown";
+  const label = sector || "Unclassified";
   const hue = sector ? hueOf(sector) : 220;
   const sat = sector ? 68 : 10;
   return `<span class="inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium"

@@ -904,7 +904,7 @@ function sectorCompanyRow(c, col) {
 // ===========================================================================
 let _book = [];
 let overlapSector = "all";
-let overlapMin = 2;
+let overlapMin = 4; // default to high-conviction (4+ funds); user can drop to 3+/2+
 
 function consensusBook() {
   const map = new Map();

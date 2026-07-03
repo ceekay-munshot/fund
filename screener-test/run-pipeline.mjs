@@ -9,7 +9,8 @@
 //   3. match-funds.mjs
 //   4. enrich-sectors.mjs
 //   5. build-store.mjs         (MUST succeed)
-//   6. write-snapshot.mjs      (ALWAYS runs, non-fatal — daily snapshot trail)
+//   6. backfill-sectors.mjs    (creds-free public-Screener fill for gaps enrich missed; self-exits 0)
+//   7. write-snapshot.mjs      (ALWAYS runs, non-fatal — daily snapshot trail)
 //
 // Steps 1–5 exiting non-zero abort the pipeline and report which step failed.
 // Per-transcript failures are swallowed inside step 2. Step 6 is non-fatal: the
@@ -49,6 +50,7 @@ const STEPS = [
   "match-funds.mjs",
   "enrich-sectors.mjs",
   "build-store.mjs",
+  "backfill-sectors.mjs", // creds-free: fill any sector/ticker gaps enrich-sectors missed, via Screener's public search + page (self-exits 0, so it never blocks)
   "analyze-trends.mjs", // pure data: attention-churn insight from the store (never blocks)
 ];
 
