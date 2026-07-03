@@ -65128,8 +65128,476 @@
         "Pass-through of raw material cost escalations",
         "Structural improvement in earnings quality"
       ]
+    },
+    "M & M": {
+      "company": "M & M",
+      "ticker": "M&M",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+      "transcript_id": "m-m_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-03T22:39:21.078Z",
+      "summary": "Mahindra & Mahindra expects strong growth driven by the Indian economy's consumption, infrastructure, and reforms, with a focus on accelerating in uncertainty and leveraging AI for transformation.",
+      "guidance": [
+        {
+          "metric": "EPS growth",
+          "horizon": "next 5 years",
+          "statement": "expects strong year-over-year growth, but not as high as 57% annualized growth achieved in the last 5 years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "India's GDP growth",
+          "horizon": "next 5 years",
+          "statement": "expected to grow at 6.4% to 8% per annum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "medium-term",
+          "statement": "target is to maintain 18% ROE while driving growth",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "AUM growth",
+          "horizon": "FY27",
+          "statement": "Mahindra Finance aims to drive AUM growth further",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "AI adoption",
+        "resilience in supply chains",
+        "strong foundation in systems and data",
+        "diversification into mortgage and SME lending"
+      ]
+    },
+    "Vardhman Special": {
+      "company": "Vardhman Special",
+      "ticker": "VSSL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14d42f75-6751-4cd9-831f-9040ceb69f96.pdf",
+      "transcript_id": "vardhman-special_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-03T22:39:31.197Z",
+      "summary": "Management expects steady volume growth, improving EBITDA per ton, and significant capacity expansion over the next 2-7 years driven by new plants and process improvements.",
+      "guidance": [
+        {
+          "metric": "Rolled product volume",
+          "horizon": "FY27",
+          "statement": "Targeting 250,000 tons for FY27, up from 225,000 tons in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Guiding EBITDA per ton range of INR8,000 to INR11,000 for FY27, up from INR7,000 to INR10,000 previously.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "2 years from now",
+          "statement": "Expecting EBITDA per ton range to increase to INR9,000 to INR12,000 in 2 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Rolling capacity",
+          "horizon": "FY27",
+          "statement": "Rolling capacity to reach 270,000 tons in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Melting production capacity",
+          "horizon": "medium-term",
+          "statement": "Planning to increase melting production from 300,000 tons to 360,000 tons if environmental approval is received.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New steel plant commissioning",
+          "horizon": "July 2029",
+          "statement": "New steel plant expected to commission by July 2029 with capacity of 500,000 to 600,000 tons.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Forging plant commissioning",
+          "horizon": "Q3 FY28",
+          "statement": "Forging plant expected to commission in Q3 FY28 with initial capex of INR475 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Total capex",
+          "horizon": "FY27-FY28",
+          "statement": "Ballpark capex of INR700-800 crores for FY27-FY28 for new plants and expansions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-automotive steel share",
+          "horizon": "10 years",
+          "statement": "Targeting 30% non-automotive steel share in portfolio over the next 10 years, up from current levels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product mix change",
+          "horizon": "5-7 years",
+          "statement": "Gradual shift in product mix toward non-automotive and specialized steels over 5-7 years.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Ramp-up period for new plant",
+          "horizon": "medium-term",
+          "statement": "Expecting 5-6 years to reach full capacity utilization for the new greenfield plant.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Environmental approval timeline",
+          "horizon": "6-9 months",
+          "statement": "Expecting environmental approval for capacity expansion within 6-9 months.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "project-wise ROCE or IRR for forging plant",
+        "detailed realization assumptions beyond EBITDA per ton guidance",
+        "exact capex breakdown beyond ballpark figures"
+      ],
+      "margin_drivers": [
+        "volume growth",
+        "cost optimization",
+        "process improvements",
+        "new reheating furnace",
+        "solar plant power savings",
+        "productivity gains from new 210X210 section",
+        "heat size increase from 37 to 40 tons",
+        "reduction in rework and rejection rates",
+        "shift toward higher-margin non-automotive and specialized steels"
+      ]
+    },
+    "Team Lease Serv.": {
+      "company": "Team Lease Serv.",
+      "ticker": "TEAMLEASE",
+      "sector": "Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49317241-e9e9-48aa-9af4-38d43db3a3f0.pdf",
+      "transcript_id": "team-lease-serv_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-03T22:39:39.558Z",
+      "summary": "Management expects FY27 to be characterized by profitable growth, operating leverage, and strategic investments in high-margin digital and apprenticeship businesses amid a supportive macro environment.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Outlook remains positive with employment outlook report showing 4.7% net employment change for H1 FY27 and 58% of surveyed employers planning to expand workforces.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin expansion expected to continue due to operating leverage, even if volume growth moderates, driven by fixed cost absorption and tech-led efficiencies.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Headcount growth",
+          "horizon": "H1 FY27",
+          "statement": "Confident of ending H1 FY27 with positive headcount after planned exit of ~10,000 low-margin mandates in Q1-Q2 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "General staffing headcount",
+          "horizon": "Q4 FY26 to FY27",
+          "statement": "Closed Q4 FY26 at 2.87 lakh associates with net sequential addition of 4,500; underlying business added ~14,000 associates in FY26 after adjusting for NBFC insourcing.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialized staffing headcount",
+          "horizon": "FY27",
+          "statement": "Closed Q4 FY26 with 7,500 associates, net addition of 1,000 in FY26, and 300 in Q4.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Apprenticeship headcount",
+          "horizon": "FY27",
+          "statement": "Net addition of ~1,000 apprentices in Q4 FY26; long-term growth expected to accelerate due to policy and industry developments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "GCC revenue contribution",
+          "horizon": "FY27",
+          "statement": "GCC segment contributed ~67% of specialized staffing revenues in FY26; focus remains on scaling this model with profitability and productivity.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital business MRR",
+          "horizon": "FY27",
+          "statement": "Combined digital and services MRR of RegTech verticals stood at INR3.6 crores/month; HCM platform expected to not drag group margins as it scales.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Cost to hire",
+          "horizon": "FY27",
+          "statement": "Structural reduction of ~20% in cost to hire year-on-year achieved in FY26; focus on cost variabilization and in-house hiring platform to continue in FY27.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Recruiter productivity",
+          "horizon": "FY27",
+          "statement": "Recruiter productivity improved 20% YoY in specialized staffing; investments in upskilling, AI-led efficiencies, and ATS to drive further gains.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Global business revenue",
+          "horizon": "FY27",
+          "statement": "Global business grew 200% in revenue in FY26; now integrated with India delivery, margin accretive, and built as capability extension.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Buyback",
+          "horizon": "FY27",
+          "statement": "Board approved buyback of up to 25% of free reserves at INR1,600/share, funded from INR600 crores free cash, reflecting capital discipline and undervaluation.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue or EBITDA targets for FY27",
+        "impact of labor code transition costs on FY27 margins",
+        "geopolitical risk quantification",
+        "detailed breakdown of segment-wise revenue growth for FY27"
+      ],
+      "margin_drivers": [
+        "operating leverage from fixed cost absorption",
+        "tech-led efficiencies and process optimization",
+        "cost variabilization and in-house hiring platform",
+        "shift to higher-margin digital and apprenticeship businesses",
+        "structural reduction in cost to hire",
+        "improved recruiter productivity and utilization",
+        "pricing discipline and variable market structures",
+        "margin accretion from GCC segment",
+        "EdTech seasonality billing in Q4"
+      ]
+    },
+    "Epigral": {
+      "company": "Epigral",
+      "ticker": "EPIGRAL",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e1ac43b-018f-46b6-b77d-b273134ebc2a.pdf",
+      "transcript_id": "epigral_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-03T22:39:47.821Z",
+      "summary": "Management expects FY27 to show volume-led growth with gradual normalization of raw material costs, though geopolitical risks remain a key uncertainty.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Targeting 10% to 12% volume growth from current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27 vs FY26",
+          "statement": "FY27 revenue expected to be better than FY26 due to volume growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect to maintain current EBITDA margin range",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Caustic soda ECU",
+          "horizon": "Q1FY27",
+          "statement": "Current ECU around INR37,000; expects gradual normalization over 4-5 months post-conflict resolution",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Chlorine captive consumption",
+          "horizon": "FY28",
+          "statement": "Expected to reach 90% to 95% captive consumption after commissioning of ECH and CPVC capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Chlorotoluene utilization",
+          "horizon": "FY28",
+          "statement": "Optimum utilization range of 70% to 75%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Chlorotoluene contribution",
+          "horizon": "FY27",
+          "statement": "FY27 expected to see sizeable contribution from Chlorotoluene as ramp-up continues",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewable energy share",
+          "horizon": "medium-term",
+          "statement": "Current renewable energy share at 8%-9%; target to reach 15% post-commissioning of 19.50 MW wind-solar hybrid plant",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material inflation impact",
+          "horizon": "coming quarters",
+          "statement": "Inflationary pressures from West Asia conflict expected to reflect in coming quarters",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CPVC demand",
+          "horizon": "FY27",
+          "statement": "Demand for CPVC projected to maintain double-digit CAGR growth over coming years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Epichlorohydrin demand",
+          "horizon": "coming years",
+          "statement": "Demand for Epichlorohydrin projected to maintain double-digit CAGR growth over coming years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Plant utilization",
+          "horizon": "FY27",
+          "statement": "Expect FY27 to be on a better side with volume growth and plant utilization at optimum levels",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue or EBITDA margin numbers for FY27",
+        "average price realizations for Hydrogen Peroxide, CPVC, and ECH",
+        "impact of US-Israel-Iran war on future revenues",
+        "CPVC price trends in specific numbers"
+      ],
+      "margin_drivers": [
+        "diversified product portfolio resilience",
+        "volume growth from higher-value products",
+        "renewable energy adoption (8% to 15% share)",
+        "chlorine captive consumption increase (75% to 90%-95%)",
+        "capacity expansion in Epichlorohydrin and CPVC"
+      ]
+    },
+    "Muthoot Finance": {
+      "company": "Muthoot Finance",
+      "ticker": "MUTHOOTFIN",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce354a9d-c348-4f4a-bc26-bb5d9a158d87.pdf",
+      "transcript_id": "muthoot-finance_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-03T22:39:55.088Z",
+      "summary": "Management expects steady AUM growth with cautious optimism on margins, while avoiding explicit profit guidance and downplaying competitive threats.",
+      "guidance": [
+        {
+          "metric": "AUM growth (standalone Muthoot Finance)",
+          "horizon": "FY27",
+          "statement": "Guidance of 15% AUM growth for the first quarter, with potential revision in Q1 or Q2.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AUM growth (consolidated)",
+          "horizon": "FY27",
+          "statement": "Guidance of 15% AUM growth for the first quarter, with potential revision in Q1 or Q2.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Branch expansion (Muthoot Finance standalone)",
+          "horizon": "FY27",
+          "statement": "Plans to open 200-300 branches this year, up from 177 last year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Branch expansion (Belstar Microfinance - gold branches)",
+          "horizon": "FY27",
+          "statement": "Plans to open ~200 gold loan branches in Belstar Microfinance.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Yield on gold loans",
+          "horizon": "Q4FY26 onward",
+          "statement": "Yield increased by 0.5% to 1% in the last quarter due to pricing changes; no immediate plans to reduce yields despite high yields.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Median-term ROI",
+          "horizon": "medium-term",
+          "statement": "Maintains a median-term ROI guidance of around 3.5%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Competitive intensity in gold finance",
+          "horizon": "medium-term",
+          "statement": "Management believes new entrants will face operational challenges and may lose interest over time.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Employee attrition",
+          "horizon": "medium-term",
+          "statement": "Attrition remains steady with no alarming trends; staff count stable at ~30,000.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Topline revenue",
+        "Margins",
+        "Profit after tax (PAT)",
+        "Gold price impact on business",
+        "Operational challenges faced by competitors"
+      ],
+      "margin_drivers": [
+        "Pricing adjustments on gold loans",
+        "Auction income (INR 50 crore)",
+        "ARC income (INR 35 crore)",
+        "Gold price movements",
+        "Customer mix shift to higher ticket sizes"
+      ]
     }
   },
-  "generated_at": "2026-07-03T21:22:06.125Z",
-  "count": 640
+  "generated_at": "2026-07-03T22:39:56.616Z",
+  "count": 645
 }
