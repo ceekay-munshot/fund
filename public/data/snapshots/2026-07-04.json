@@ -1,9 +1,9 @@
 {
   "date": "2026-07-04",
-  "generated_at": "2026-07-03T18:33:41.691Z",
+  "generated_at": "2026-07-03T21:31:06.256Z",
   "totals": {
-    "sightings": 3127,
-    "companies": 987,
+    "sightings": 3131,
+    "companies": 989,
     "active_funds": 49
   },
   "per_fund": [
@@ -828,8 +828,8 @@
     {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
-      "sighting_count": 133,
-      "company_count": 105,
+      "sighting_count": 134,
+      "company_count": 106,
       "companies": [
         "AGI Greenpac",
         "Aditya Infotech",
@@ -919,6 +919,7 @@
         "Suraj Estate",
         "Suryoday Small",
         "TVS Supply",
+        "Tejas Networks",
         "Tembo Global",
         "Texmaco Rail",
         "The Anup Enginee",
@@ -1590,8 +1591,8 @@
     {
       "fund_id": "girik",
       "fund_name": "Girik Capital",
-      "sighting_count": 58,
-      "company_count": 42,
+      "sighting_count": 59,
+      "company_count": 43,
       "companies": [
         "AWFIS Space",
         "Apcotex Industri",
@@ -1632,6 +1633,7 @@
         "Suprajit Engg.",
         "Syrma SGS Tech.",
         "Tarsons Products",
+        "Tejas Networks",
         "Thyrocare Tech.",
         "UPL",
         "Zota Health Care"
@@ -1929,8 +1931,8 @@
     {
       "fund_id": "wallfort",
       "fund_name": "Wallfort PMS",
-      "sighting_count": 41,
-      "company_count": 29,
+      "sighting_count": 42,
+      "company_count": 30,
       "companies": [
         "Aeroflex",
         "Agarwal Indl.",
@@ -1956,6 +1958,7 @@
         "Standard Engineering Technology",
         "Supreme Power",
         "Tara Chand Infra",
+        "Tejas Networks",
         "Tinna Rubber",
         "Uniparts India",
         "Welspun Enterp",
@@ -2322,8 +2325,8 @@
     {
       "fund_id": "sundaram-alternates",
       "fund_name": "Sundaram Alternates",
-      "sighting_count": 16,
-      "company_count": 11,
+      "sighting_count": 17,
+      "company_count": 12,
       "companies": [
         "Bandhan Bank",
         "Blue Star",
@@ -2335,6 +2338,7 @@
         "Motil.Oswal.Fin.",
         "Northern Arc",
         "Pricol Ltd",
+        "Quadrant Future",
         "TD Power Systems"
       ]
     },
@@ -2520,8 +2524,8 @@
     },
     {
       "sector": "Unknown",
-      "sighting_count": 4,
-      "company_count": 2
+      "sighting_count": 8,
+      "company_count": 4
     },
     {
       "sector": "Diversified",
@@ -2529,5 +2533,30 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Crown Capital",
+      "company": "Tejas Networks",
+      "sector": "Unknown",
+      "concall_date": "2026-04-01"
+    },
+    {
+      "fund_name": "Girik Capital",
+      "company": "Tejas Networks",
+      "sector": "Unknown",
+      "concall_date": "2026-04-01"
+    },
+    {
+      "fund_name": "Sundaram Alternates",
+      "company": "Quadrant Future",
+      "sector": "Unknown",
+      "concall_date": "2025-08-01"
+    },
+    {
+      "fund_name": "Wallfort PMS",
+      "company": "Tejas Networks",
+      "sector": "Unknown",
+      "concall_date": "2026-04-01"
+    }
+  ]
 }
