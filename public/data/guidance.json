@@ -68696,8 +68696,390 @@
         "employee cost control",
         "raw material inflation"
       ]
+    },
+    "Sundram Fasten.": {
+      "company": "Sundram Fasten.",
+      "ticker": "SUNDRMFAST",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b0ebecf-3ef4-429b-847f-7c058e106b00.pdf",
+      "transcript_id": "sundram-fasten_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-04T15:19:06.742Z",
+      "summary": "Sundram Fasteners expects a strong outlook with growth driven by exports, domestic OEM demand, and non-auto segments.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27 and FY28",
+          "statement": "Double-digit growth expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "FY27",
+          "statement": "15% to 20% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-auto revenue",
+          "horizon": "Medium-term",
+          "statement": "INR 100 crores visibility in railway segment",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "No specific guidance, but expected to be stable",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27 and FY28",
+          "statement": "INR 300 crores investment per year",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Detailed segment-wise order book"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Raw material price stability",
+        "Pass-through mechanism for raw material price increases"
+      ]
+    },
+    "TVS Motor Co.": {
+      "company": "TVS Motor Co.",
+      "ticker": "TVSMOTOR",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
+      "transcript_id": "tvs-motor-co_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T15:19:15.117Z",
+      "summary": "Management expects growth ahead of industry in FY27 driven by strong domestic demand, international momentum, and EV expansion, while cautiously monitoring commodity costs and supply chain risks.",
+      "guidance": [
+        {
+          "metric": "Industry growth",
+          "horizon": "FY27",
+          "statement": "Expects single-digit industry growth for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic 2-wheeler growth",
+          "horizon": "FY27",
+          "statement": "Expects scooters and EVs to grow faster than industry; premium/super-premium segments to perform well; economy segment to face challenges",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International 2-wheeler growth",
+          "horizon": "FY27",
+          "statement": "Expects momentum to continue with demand remaining strong despite geopolitical challenges",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV 2-wheeler growth",
+          "horizon": "FY27",
+          "statement": "EV penetration expected to increase further with Orbiter and iQube driving adoption",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV 3-wheeler growth",
+          "horizon": "FY27",
+          "statement": "Aiming for prominent market share in EV passenger and cargo segments; partnership with Hyundai to commercialize electric 3-wheeler",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity addition",
+          "horizon": "12-24 months",
+          "statement": "Planning to increase 2-wheeler capacity by 1.5 million units to reach ~8.3 million units; additional capacity expansions under consideration for FY28-29",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EV capacity",
+          "horizon": "FY27",
+          "statement": "Current EV capacity ~30,000-32,000 units/month; targeting 40,000 units/month soon and 50,000 units/month thereafter",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Plans capex of ~INR3,500 crores for FY27, including INR2,000 crores for product development and INR1,000+ crores for capacity expansion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Investments in subsidiaries",
+          "horizon": "FY27",
+          "statement": "Investments in overseas subsidiaries (primarily Norton) to be significantly lower at ~INR500-600 crores in FY27 vs INR2,400 crores in FY26",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Commodity inflation impact",
+          "horizon": "Q1FY27",
+          "statement": "Expects 3-5% commodity inflation as a percentage of revenue; offset partially by price increases and product mix improvements",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Supply chain recovery",
+          "horizon": "Q1FY27",
+          "statement": "Confident of overcoming supply chain disruptions (labor, raw material availability) by end of May/June; expects Q1 to grow ahead of industry",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aims to improve EBITDA margin through scale benefits, better product mix, cost reduction, and price increases",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "PLI (Production-Linked Incentive) for future periods",
+        "Channel stock levels for future periods beyond immediate recovery"
+      ],
+      "margin_drivers": [
+        "Scale benefits",
+        "Product mix improvement",
+        "Cost reduction initiatives",
+        "Price increases",
+        "Commodity inflation management"
+      ]
+    },
+    "GHCL": {
+      "company": "GHCL",
+      "ticker": "GHCL",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4ec88b3-0102-47b2-ad3b-803779599cc4.pdf",
+      "transcript_id": "ghcl_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T15:19:23.012Z",
+      "summary": "FY27 to benefit from commissioned value-added products, stabilizing soda ash pricing, and reduced import competition, though global oversupply and geopolitical risks persist.",
+      "guidance": [
+        {
+          "metric": "Revenue (from bromine & vacuum salt projects)",
+          "horizon": "FY27",
+          "statement": "Bromine and vacuum salt projects to contribute ~INR 120 crores in FY27, ramping up to ~INR 170 crores at full utilization.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (from bromine & vacuum salt projects)",
+          "horizon": "FY27",
+          "statement": "EBITDA margin for bromine and vacuum salt projects expected in 40-45% range.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Soda ash pricing",
+          "horizon": "medium-term",
+          "statement": "Pricing environment stabilizing with import restrictions due to higher freight costs and geopolitical disruptions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Soda ash volume growth",
+          "horizon": "FY27",
+          "statement": "Volume growth expected to improve with domestic demand tailwinds, particularly from solar glass capacity additions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Greenfield soda ash project capex",
+          "horizon": "FY27-FY29",
+          "statement": "Project to be funded via mix of internal accruals and debt, with debt-equity ratio capped at 1.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Greenfield soda ash project timeline",
+          "horizon": "FY27-FY29",
+          "statement": "Construction timeline dependent on land acquisitions and conversions; no specific start date provided.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material availability",
+          "horizon": "FY27",
+          "statement": "Sufficient raw material inventory (4-5 months) to avoid supply disruptions.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Energy costs (coal)",
+          "horizon": "FY27",
+          "statement": "Energy costs (e.g., coal) expected to remain elevated at ~$136/tonne.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Limestone costs",
+          "horizon": "FY27",
+          "statement": "Limestone costs increased due to higher freight from Middle East.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic soda ash demand growth",
+          "horizon": "FY27",
+          "statement": "Indian demand growth expected to be ~6%, led by solar glass and other end segments.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Shareholder returns (dividend/buyback)",
+          "horizon": "FY27",
+          "statement": "Future payouts to depend on project progress and capital allocation needs.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity expansion (bromine/vacuum salt)",
+          "horizon": "post-FY27",
+          "statement": "Post-stabilization, capacity expansion will be evaluated based on market outlook.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact timeline for Greenfield soda ash project construction start",
+        "Future shareholder return ratios beyond FY26's 87% of PAT"
+      ],
+      "margin_drivers": [
+        "Cost discipline and operational efficiencies",
+        "Pass-through of cost increases to customers",
+        "Value-added product margins (40-45%)",
+        "Domestic pricing support from reduced import competition",
+        "Rupee depreciation offsetting landed cost pressure"
+      ]
+    },
+    "Ratnamani Metals": {
+      "company": "Ratnamani Metals",
+      "ticker": "RATNAMANI",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03bac5da-1f60-490f-9fcf-1a86d67bf7a3.pdf",
+      "transcript_id": "ratnamani-metals_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T15:19:32.831Z",
+      "summary": "Management expects improved demand visibility and revenue growth in FY27 driven by subsidiary momentum, expansion projects, and long-term industry tailwinds, despite near-term challenges.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Standalone revenue guidance of INR4,800-5,000 crores, assuming normalization of export shipments and demand recovery.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Consolidated revenue expected to benefit from subsidiary growth (Ravi Technoforge and RFSS) and new facility contributions from H2FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "medium-term",
+          "statement": "Order book of INR2,160 crores (as of May 1, 2026) with INR700 crores exports, providing revenue visibility.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Debottlenecking capex in stainless-steel division (including tube mill for welded products) and routine capex; no significant separate allocation.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Middle East facility",
+          "horizon": "March 2027",
+          "statement": "Greenfield Middle East plant expected to start contributing revenues from H2FY27, with trials completed by March 2027; potential 3-month delay if geopolitical conditions persist.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins expected to sustain in the 16%-18% range due to better capacity utilization and product mix optimization.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Stainless-steel demand",
+          "horizon": "FY27-FY28",
+          "statement": "Demand expected to improve in domestic and international markets (including Middle East) for stainless-steel tubes/pipes post-geopolitical normalization, driven by refinery, petrochemical, and power sector capex.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Carbon steel demand",
+          "horizon": "FY27",
+          "statement": "Carbon steel volumes expected to recover with normalization, particularly in oil & gas and Jal Jeevan Mission projects, supporting margin recovery.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "RFSS (pipe spooling) capacity",
+          "horizon": "H2FY27",
+          "statement": "New manufacturing facility for RFSS progressing well, expected to start contributing revenues from H2FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ravi Technoforge capacity",
+          "horizon": "medium-term",
+          "statement": "Expansion projects at Ravi Technoforge enhancing capacity, automation, and precision capabilities to support growth in new customer segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export mix",
+          "horizon": "FY27",
+          "statement": "Export contribution to remain significant (INR700 crores in order book), with physical exports for Ravi Technoforge at 35%-40% and substantial deemed exports via domestic customers.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Nuclear power plant demand",
+          "horizon": "medium-term",
+          "statement": "RFSS positioned as sole nuclear-approved facility for NPCIL and approved for projects in Egypt, Turkey, and Hungary, with potential for large order inflows for new nuclear plants.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact volume/tonnage split for CS vs SS in forward guidance",
+        "Detailed realization per ton for CS vs SS",
+        "Specific capex allocation breakdown for stainless-steel vs other divisions",
+        "Forecasted net cash position or debt levels for next two years"
+      ],
+      "margin_drivers": [
+        "Higher capacity utilization",
+        "Product mix optimization (higher value-added products)",
+        "Subsidiary growth (Ravi Technoforge and RFSS)",
+        "Export recovery and normalization of shipping costs",
+        "Debottlenecking capex in stainless-steel division"
+      ]
     }
   },
-  "generated_at": "2026-07-04T13:55:50.405Z",
-  "count": 676
+  "generated_at": "2026-07-04T15:19:34.359Z",
+  "count": 680
 }
