@@ -66631,8 +66631,390 @@
         "Operating leverage from new facility ramp-up",
         "Depreciation and overhead costs"
       ]
+    },
+    "Iris Clothings": {
+      "company": "Iris Clothings",
+      "ticker": "IRISDOREME",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/IRISDOREME_14052026172506_Iris_Transcript_12052026.pdf",
+      "transcript_id": "iris-clothings_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-04T05:28:08.919Z",
+      "summary": "Iris Clothings expects 30-35% revenue growth in the next year, driven by expansion of distribution network, strengthening of brand equity, and scaling of digital capabilities.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "Next year",
+          "statement": "Expecting 30-35% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Medium-term",
+          "statement": "Targeting 19-20% margin",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital revenue",
+          "horizon": "Next 2-3 years",
+          "statement": "Expecting 20-25% of overall revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "Next 2 years",
+          "statement": "Expecting around 65%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Next 2 years",
+          "statement": "INR 50 crores for Greenfield expansion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBO expansion",
+          "horizon": "Next year",
+          "statement": "Adding 8-10 new stores",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Funding plans for expansion"
+      ],
+      "margin_drivers": [
+        "Scaling of digital capabilities",
+        "Improvement in operational efficiencies",
+        "Expansion of product categories"
+      ]
+    },
+    "Latent View": {
+      "company": "Latent View",
+      "ticker": "LATENTVIEW",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e2cb9cd-4371-4826-b931-09a6c5b58c99.pdf",
+      "transcript_id": "latent-view_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T05:28:17.634Z",
+      "summary": "Management expects continued growth driven by AI-led services, Databricks partnership, and BFSI vertical, with cautious optimism on technology vertical recovery.",
+      "guidance": [
+        {
+          "metric": "AI revenue share",
+          "horizon": "FY27",
+          "statement": "AI revenue share expected to increase further in the current year beyond the 49% achieved in FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Databricks partnership traction",
+          "horizon": "medium-term",
+          "statement": "Partnership with Databricks expected to yield profits in the current year and beyond.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BFSI vertical growth",
+          "horizon": "FY27",
+          "statement": "BFSI practice expected to continue delivering strong growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology vertical recovery",
+          "horizon": "next 1-2 quarters",
+          "statement": "Expect to recoup 50-60% of the $6.5M-$7M revenue lost in the top technology account.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology vertical sentiment",
+          "horizon": "FY27",
+          "statement": "General sentiment in technology vertical improving due to AI-driven cost efficiencies and revived client interest.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Healtheon investment traction",
+          "horizon": "coming months and quarters",
+          "statement": "Expect more traction from Healtheon investment as agentic suite and technical solution are built out.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Agentic workflow adoption",
+          "horizon": "FY27",
+          "statement": "Agentic workflows and orchestration expected to yield visible business impact for clients.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Forward-deployed engineers hiring",
+          "horizon": "coming quarters",
+          "statement": "Continued investment in hiring forward-deployed engineers with AI and domain capabilities.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Databricks professional services partnership",
+          "horizon": "coming months and quarters",
+          "statement": "Evaluating inorganic acquisition opportunities to strengthen Databricks professional services partnership.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI partnerships",
+          "horizon": "medium-term",
+          "statement": "Doubling down on AI partnerships, including Anthropic, to drive growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical diversification",
+          "horizon": "FY27",
+          "statement": "Revenue share from rest of the world expected to continue expanding beyond 15%.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Vertical diversification",
+          "horizon": "FY27",
+          "statement": "Share of technology vertical expected to decline further as other verticals like BFSI and CPG retail grow.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "AI-led services",
+        "Databricks partnership",
+        "BFSI vertical growth",
+        "Agentic workflows and orchestration",
+        "Forward-deployed engineers hiring"
+      ]
+    },
+    "Kross Ltd": {
+      "company": "Kross Ltd",
+      "ticker": "KROSS",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6eee0059-7e15-4f8e-94bf-d12de757cf5a.pdf",
+      "transcript_id": "kross-ltd_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T05:28:29.736Z",
+      "summary": "Management expects healthy growth in FY27 driven by strong order books, capacity expansions, and sustained demand across commercial vehicles, trailers, and tractors.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expects steep revenue increase in FY27, targeting growth trajectory similar to Q4FY26 (22% YoY)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tractor segment revenue contribution",
+          "horizon": "next two years",
+          "statement": "Aim to increase tractor segment contribution to ~15% of total revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tipping Jacks revenue",
+          "horizon": "Q1FY27-Q3FY27",
+          "statement": "Targeting 300 units by end of Q1FY27, 500 units in Q2FY27, and 500 units in Q3FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Axle Beam Extrusion plant production",
+          "horizon": "May 2026",
+          "statement": "Axle Beam Extrusion plant commissioned; production trials progressing; sales to commence in May 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Seamless Tube facility completion",
+          "horizon": "Q4FY26",
+          "statement": "Seamless Tube facility construction complete; first equipment dispatch by end of May 2026; completion expected by Q4FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "High Pressure Mold Line capacity",
+          "horizon": "September 2026",
+          "statement": "High Pressure Mold Line to be operational by September 2026, doubling existing casting capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Robotic Forging facility for Rear Axle Shafts",
+          "horizon": "September 2026",
+          "statement": "Robotic Forging facility for Rear Axle Shafts to be commissioned by September 2026, ready to supply axles to customers",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue contribution",
+          "horizon": "next two years",
+          "statement": "Confident of increasing export contribution from 4% of FY26 revenue to higher levels, having secured orders from European Tier-1 customers",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expects EBITDA margins to remain between 14% to 15% in upcoming quarters, subject to commodity price settlements",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Commercial Vehicles (M&HCV) demand",
+          "horizon": "FY27",
+          "statement": "Momentum in M&HCV segment expected to sustain throughout FY27 due to healthy order books and OEM projections",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Trailer segment volume growth",
+          "horizon": "FY27",
+          "statement": "Trailer segment volumes increased dramatically in Q4FY26; expects continued growth in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX for FY27",
+          "horizon": "FY27",
+          "statement": "Plans INR 100 crores CAPEX for seamless tube unit in FY27; INR 20-25 crores for other businesses",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "quantified revenue growth for next two to three years beyond FY27",
+        "detailed margin impact from seamless tube plant post-FY28"
+      ],
+      "margin_drivers": [
+        "backward integration (seamless tube, extrusion, casting, forging)",
+        "export orders from European Tier-1 customers",
+        "tipping jacks and new product launches",
+        "pass-through of commodity price increases to customers"
+      ]
+    },
+    "Diffusion Eng": {
+      "company": "Diffusion Eng",
+      "ticker": "DIFFNKG",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2e04086-004f-4bf7-b72b-028465d22a6d.pdf",
+      "transcript_id": "diffusion-eng_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T05:28:37.634Z",
+      "summary": "Diffusion Engineers expects multi-year growth driven by capacity expansions, new segments (railways, defense), and 20%+ revenue CAGR with improving EBITDA margins toward 15-16%.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue to grow by more than 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Gradual improvement in EBITDA margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Medium-term",
+          "statement": "Targeting INR650 crores+ revenue platform with sustainable EBITDA margins of 15-16%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q1FY27",
+          "statement": "Order book remains healthy at approximately INR200 crores as of April 30, 2026",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "New capacities (wear plate, heavy engineering) to stabilize and improve utilization over next 24-36 months",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Heavy engineering revenue",
+          "horizon": "FY27",
+          "statement": "Heavy engineering business expected to continue growing in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Railway orders",
+          "horizon": "FY27",
+          "statement": "Substantial revenue from railway projects expected from next year (FY27)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Railway project timeline",
+          "horizon": "6-9 months",
+          "statement": "Execution of developmental railway orders to take 6-9 months",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International revenue share",
+          "horizon": "Next 2-3 years",
+          "statement": "International revenue share expected to reach 15% in the next 1-2 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International revenue growth",
+          "horizon": "FY27",
+          "statement": "International sales expected to grow at higher than 20% year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Segment mix shift",
+          "horizon": "FY27",
+          "statement": "Wear plates, wear parts, and heavy engineering to grow faster than welding consumables",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Current and next year",
+          "statement": "Total capex planned for current and next year aligns with IPO proceeds (INR100 crores)",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material price volatility impact on margins beyond FY27",
+        "Defense sector revenue timeline beyond prototype approvals"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Backward integration benefits",
+        "Richer product mix",
+        "Pass-through of raw material costs to customers"
+      ]
     }
   },
-  "generated_at": "2026-07-04T01:14:22.676Z",
-  "count": 655
+  "generated_at": "2026-07-04T05:28:39.162Z",
+  "count": 659
 }
