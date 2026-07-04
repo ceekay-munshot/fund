@@ -1,17 +1,17 @@
 {
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T15:07:06.676Z",
+  "generated_at": "2026-07-04T15:36:13.897Z",
   "totals": {
-    "sightings": 3135,
-    "companies": 993,
+    "sightings": 3139,
+    "companies": 995,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 616,
-      "company_count": 398,
+      "sighting_count": 618,
+      "company_count": 400,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -67,6 +67,7 @@
         "Blue Water",
         "Bluspring Enter.",
         "Borana Weaves",
+        "CMR Green Tech.",
         "Capacit'e Infra.",
         "Capital Small",
         "CapitalNumbers",
@@ -267,6 +268,7 @@
         "Protean eGov",
         "Proventus Agro.",
         "Punjab Chemicals",
+        "Q-Line Biotech",
         "QMS Medical",
         "Quality Power El",
         "R K Swamy",
@@ -709,8 +711,8 @@
     {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
-      "sighting_count": 173,
-      "company_count": 114,
+      "sighting_count": 174,
+      "company_count": 115,
       "companies": [
         "ACME Solar Hold.",
         "ASM Technologies",
@@ -732,6 +734,7 @@
         "Balaji Amines",
         "Borosil Renew.",
         "C.E. Info System",
+        "CMR Green Tech.",
         "Carysil",
         "Ceinsys Tech",
         "Centum Electron",
@@ -2090,11 +2093,12 @@
     {
       "fund_id": "xponent-tribe",
       "fund_name": "Xponent Tribe",
-      "sighting_count": 26,
-      "company_count": 19,
+      "sighting_count": 27,
+      "company_count": 20,
       "companies": [
         "Aeroflex",
         "Azad Engineering",
+        "CMR Green Tech.",
         "Data Pattern",
         "Gravita India",
         "Indian Metals",
@@ -2473,18 +2477,18 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 835,
-      "company_count": 249
+      "sighting_count": 840,
+      "company_count": 252
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 763,
-      "company_count": 234
+      "sighting_count": 769,
+      "company_count": 238
     },
     {
       "sector": "Healthcare",
-      "sighting_count": 340,
-      "company_count": 96
+      "sighting_count": 341,
+      "company_count": 97
     },
     {
       "sector": "Commodities",
@@ -2508,8 +2512,8 @@
     },
     {
       "sector": "Services",
-      "sighting_count": 156,
-      "company_count": 56
+      "sighting_count": 157,
+      "company_count": 57
     },
     {
       "sector": "Utilities",
@@ -2523,13 +2527,8 @@
     },
     {
       "sector": "Telecommunication",
-      "sighting_count": 20,
-      "company_count": 8
-    },
-    {
-      "sector": "Unknown",
-      "sighting_count": 12,
-      "company_count": 8
+      "sighting_count": 23,
+      "company_count": 9
     },
     {
       "sector": "Diversified",
@@ -2541,50 +2540,74 @@
     {
       "fund_name": "Counter Cyclical",
       "company": "Dhruv Consultanc",
-      "sector": "Unknown",
+      "sector": "Services",
       "concall_date": "2025-11-01"
     },
     {
       "fund_name": "Counter Cyclical",
       "company": "Kaya Ltd",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Crown Capital",
       "company": "Tejas Networks",
-      "sector": "Unknown",
+      "sector": "Telecommunication",
       "concall_date": "2026-04-01"
     },
     {
       "fund_name": "Girik Capital",
       "company": "Tejas Networks",
-      "sector": "Unknown",
+      "sector": "Telecommunication",
       "concall_date": "2026-04-01"
+    },
+    {
+      "fund_name": "Niveshaay",
+      "company": "CMR Green Tech.",
+      "sector": "Industrials",
+      "concall_date": "2026-07-04"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "CMR Green Tech.",
+      "sector": "Industrials",
+      "concall_date": "2026-07-04"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Jain Irrigat-DVR",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Q-Line Biotech",
+      "sector": "Healthcare",
+      "concall_date": "2026-06-30"
     },
     {
       "fund_name": "Sundaram Alternates",
       "company": "Quadrant Future",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Vaikarya Capital",
       "company": "Ather Energy",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Wallfort PMS",
       "company": "Tejas Networks",
-      "sector": "Unknown",
+      "sector": "Telecommunication",
       "concall_date": "2026-04-01"
+    },
+    {
+      "fund_name": "Xponent Tribe",
+      "company": "CMR Green Tech.",
+      "sector": "Industrials",
+      "concall_date": "2026-07-04"
     }
   ]
 }
