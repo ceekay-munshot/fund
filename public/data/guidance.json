@@ -69078,8 +69078,376 @@
         "Export recovery and normalization of shipping costs",
         "Debottlenecking capex in stainless-steel division"
       ]
+    },
+    "CMR Green Tech.": {
+      "company": "CMR Green Tech.",
+      "ticker": "CMRGREEN",
+      "sector": "Industrials",
+      "concall_date": "2026-07-04",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51d95cd1-10e0-406d-9c2a-942ce4b1b38e.pdf",
+      "transcript_id": "cmr-green-tech_2026-07-04",
+      "provider": "groq",
+      "generated_at": "2026-07-04T16:35:58.091Z",
+      "summary": "CMR Green Technologies expects to maintain similar growth in volumes and improve EBITDA through economies of scale, technological improvements, and diversification into new sectors.",
+      "guidance": [
+        {
+          "metric": "Capacity",
+          "horizon": "FY27",
+          "statement": "Capacity to increase to nearly 7 lakh tons, with 80% being aluminum and 20% non-aluminum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "medium-term",
+          "statement": "Expect EBITDA to improve through technological improvements and diversification",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expect similar growth to FY26, which was 25%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex of around INR 200 crores",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "economies of scale",
+        "technological improvements",
+        "diversification into new sectors"
+      ]
+    },
+    "Q-Line Biotech": {
+      "company": "Q-Line Biotech",
+      "ticker": "QLINE",
+      "sector": "Healthcare",
+      "concall_date": "2026-06-30",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/QLINEBIOTECH_30062026214959_Q-Line-H2FY26_Earnings_Call_Transcript_.pdf",
+      "transcript_id": "q-line-biotech_2026-06-30",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T16:36:06.705Z",
+      "summary": "Q-Line Biotech expects strong revenue growth of 30-35% in FY27 driven by reagent sales, instrument installations, and international expansion, while maintaining focus on profitability and capital efficiency.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting revenue growth of approximately 30% to 35%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Reagent revenue growth",
+          "horizon": "FY27",
+          "statement": "Expecting 30% to 35% increase in reagent revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Manufactured reagent margin",
+          "horizon": "FY27",
+          "statement": "Gross margin for manufactured reagents is about 60% to 65%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Unit 4 capacity utilization",
+          "horizon": "FY27",
+          "statement": "Expect to utilize about 25% to 30% of Unit 4 capacity by end of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Instrument installations",
+          "horizon": "FY27",
+          "statement": "Planning to add more than 2,000 instruments in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue growth",
+          "horizon": "FY27",
+          "statement": "Expecting exports to grow more than 5x in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CDMO revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR10 crores from CDMO business in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Reagent consumption per instrument",
+          "horizon": "FY27",
+          "statement": "Expecting 25,000 to 30,000 reagent units per instrument per month",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Lifetime reagent revenue per instrument",
+          "horizon": "10 years",
+          "statement": "Lifetime revenue potential per instrument is approximately INR30 lakhs",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Manufacturing capacity scalability",
+          "horizon": "Medium-term",
+          "statement": "Existing facility can support 3x to 4x current business without additional capital",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Reagent vs instrument revenue mix",
+          "horizon": "FY27-FY28",
+          "statement": "Targeting 65% to 70% revenue from reagents and 30% to 35% from instruments",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintaining focus on profitability alongside revenue growth",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Higher sales of manufactured reagents",
+        "Improved product mix",
+        "Better manufacturing efficiencies and operating leverage",
+        "Increased domestic manufacturing and reduced import dependency"
+      ]
+    },
+    "Patil Automation": {
+      "company": "Patil Automation",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/PAL_18052026132355_Transcript_of_concall.pdf",
+      "transcript_id": "patil-automation_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T16:36:36.924Z",
+      "summary": "Management expects strong revenue growth in FY27 with improved margins, supported by robust order book and capacity expansion, while planning further capex for future growth.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Planning to achieve INR260 crores to INR270 crores in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT Margin",
+          "horizon": "FY27",
+          "statement": "Targeting PAT margin of 10% plus, aiming for up to 11%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order Book",
+          "horizon": "Current",
+          "statement": "Order book of INR118 crores in hand, with INR14 crores to INR18 crores in subsidiaries.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Bid Pipeline",
+          "horizon": "Current",
+          "statement": "Bid pipeline exceeds INR800 crores, with ongoing negotiations.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity Utilization",
+          "horizon": "FY27",
+          "statement": "Current capacity of INR260 crores to INR300 crores, with plans to utilize fully.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Subsidiary Revenue Target",
+          "horizon": "3-4 years",
+          "statement": "Both MII Robotics and Pentaco Automation are expected to exceed INR100 crores each in revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex Deployment",
+          "horizon": "Next 3-4 months",
+          "statement": "Pending INR18.5 crores of IPO proceeds to be deployed in current facility for mezzanine floors and equipment.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "New Facility Capex",
+          "horizon": "Next 12 months",
+          "statement": "Planning further capex for new sheds or greenfield expansion, decision expected in 4-5 months.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Data Center Project Revenue",
+          "horizon": "Per project",
+          "statement": "Revenue per data center project ranges from INR15 crores to INR30 crores.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Data Center Project Timeline",
+          "horizon": "Per project",
+          "statement": "Delivery time for complete turnkey data center project is 4.5 to 6 months.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Automotive vs Non-Automotive Split",
+          "horizon": "Current",
+          "statement": "60% to 62% of order book is automotive, 40% to 42% is non-automotive (including defence and data centers).",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EV Business Share",
+          "horizon": "FY26",
+          "statement": "EV business contributes over 33% of automotive revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "geographic revenue split for FY26",
+        "detailed competitor-specific market share"
+      ],
+      "margin_drivers": [
+        "design capabilities expansion",
+        "subsidiary integration synergies",
+        "order book execution leverage",
+        "automation line turnkey projects",
+        "raw material price negotiation flexibility"
+      ]
+    },
+    "EPL Ltd": {
+      "company": "EPL Ltd",
+      "ticker": "EPL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7c64201-f762-41f6-a85a-b820de8a624b.pdf",
+      "transcript_id": "epl-ltd_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T16:36:47.680Z",
+      "summary": "Management expects low double-digit revenue growth with margin resilience despite near-term cost pressures, supported by Beauty & Cosmetics momentum and strategic investments.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Low double-digit revenue growth guidance of 11-13% maintained for a longish period.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Confident of delivering robust absolute EBITDA growth despite cost pressures from Middle East crisis.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material cost pass-through",
+          "horizon": "Q1FY27-Q3FY27",
+          "statement": "Over 50% of business covered under contractual pass-through arrangements; no lag expected in cost recovery for non-contractual customers.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Supply availability",
+          "horizon": "Q2FY27",
+          "statement": "Secured supplies till at least mid-July with weekly inventory expansions; competitive advantage in securing raw materials.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Beauty & Cosmetics growth",
+          "horizon": "FY27",
+          "statement": "Sustained growth momentum in Beauty & Cosmetics with strong headroom due to capacity, innovation, and new technologies.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AMESA (India) performance",
+          "horizon": "FY27",
+          "statement": "Optimistic about India's recovery in Oral Care and sustained Beauty & Cosmetics momentum.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex to remain ahead of depreciation to support growth; investments primarily in Beauty & Cosmetics and Thailand expansion.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Thailand plant traction",
+          "horizon": "FY27",
+          "statement": "Thailand plant gaining traction with strong pipeline and new customer acquisitions; significant long-term potential.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tax rate",
+          "horizon": "FY27",
+          "statement": "Steady-state tax rate expected in the range of 18-22% with FY26 at 18% (lower end).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Inorganic growth",
+          "horizon": "FY27",
+          "statement": "Continued focus on inorganic opportunities leveraging balance sheet strength and customer relationships.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Sustainability tube formats",
+          "horizon": "FY27",
+          "statement": "Sustainable tube formats contributed 38% of total sales; progress in customer adoption expected to continue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Net debt to EBITDA",
+          "horizon": "FY27",
+          "statement": "Healthy cash flow generation enabling further deleveraging; net debt to EBITDA improved to 0.52x in FY26.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantification of Middle East crisis cost inflation impact on margins",
+        "Specific margin bottom-out level during the crisis",
+        "Detailed breakup of FY27 capex beyond Beauty & Cosmetics and Thailand"
+      ],
+      "margin_drivers": [
+        "Beauty & Cosmetics growth",
+        "Raw material cost pass-through model",
+        "Scale benefits and efficiency projects",
+        "Investments in innovation and front-end specialization",
+        "Contractual pass-through arrangements (50%+ coverage)"
+      ]
     }
   },
-  "generated_at": "2026-07-04T15:19:34.359Z",
-  "count": 680
+  "generated_at": "2026-07-04T16:36:49.208Z",
+  "count": 684
 }
