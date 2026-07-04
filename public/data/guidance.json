@@ -66146,8 +66146,493 @@
         "Patent-led IP moat",
         "Composable architecture scalability"
       ]
+    },
+    "Kamat Hotels": {
+      "company": "Kamat Hotels",
+      "ticker": "KAMATHOTEL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2305be40-f4c8-4f29-a9ad-d490ee45b1a0.pdf",
+      "transcript_id": "kamat-hotels_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-04T01:13:48.310Z",
+      "summary": "Kamat Hotels is cautiously optimistic about the future, expecting growth in domestic demand and new project executions, despite challenges in material supply availability and geopolitical uncertainties.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Top line may see degrowth due to loss of IRA Mumbai's INR 50 crore revenue",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "EBITDA may see a minimal impact from the loss of IRA Mumbai, with a potential increase of INR 1-2 crore",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy",
+          "horizon": "FY27",
+          "statement": "Fort Jadhavgadh's occupancy is expected to improve with new strategies in place",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New project executions",
+          "horizon": "medium-term",
+          "statement": "New project executions will be challenging due to material supply availability issues",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific target occupancy for Jadhavgadh Fort in FY27"
+      ],
+      "margin_drivers": [
+        "Labor cost management",
+        "Rationalization of expenses",
+        "Performance of new hotels"
+      ]
+    },
+    "CCL Products": {
+      "company": "CCL Products",
+      "ticker": "CCL",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ffd2b71-d0a0-4e18-ae35-20959e9de72e.pdf",
+      "transcript_id": "ccl-products_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T01:13:56.131Z",
+      "summary": "Management expects stable 15% volume and EBITDA growth in FY27, with capacity sufficient for 2 years and potential strategic tie-ups for incremental needs.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "15% volume growth guidance maintained",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA growth",
+          "horizon": "FY27",
+          "statement": "EBITDA growth to be in line with volume growth (~15%)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic branded business growth",
+          "horizon": "FY27",
+          "statement": "25% volume growth target for branded business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY28",
+          "statement": "No major capex planned for next 2 years; only maintenance capex of INR25-35 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27-FY28",
+          "statement": "Annual utilization around 65%-70%; sufficient for next 2 years",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "FY27",
+          "statement": "Debt expected to reduce further from INR1,073 crores, potentially to INR1,100-1,200 crores",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Inventory days",
+          "horizon": "medium-term",
+          "statement": "No specific guidance on further improvement; ongoing operational efficiencies to continue",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Green coffee prices",
+          "horizon": "next few quarters",
+          "statement": "Prices expected to soften with Brazilian crop supply; stable as of now",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "D2C business contribution",
+          "horizon": "FY27",
+          "statement": "20%-25% of sales expected to come from online channel",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Freeze-dried capacity utilization",
+          "horizon": "FY27",
+          "statement": "Better utilization observed; potential strategic tie-ups or capacity underwriting for incremental needs",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Long-term contracts",
+          "horizon": "FY27",
+          "statement": "Shift towards long-term contracts due to stable coffee prices; supports guidance",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Brand visibility initiatives",
+          "horizon": "FY27",
+          "statement": "Focus on markets with maximum impact (e.g., South India, North, West) for brand building",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact capex amount for FY27 beyond maintenance capex",
+        "Specific plans for greenfield vs. brownfield capex"
+      ],
+      "margin_drivers": [
+        "Freeze-dried coffee proportion",
+        "Operational efficiencies",
+        "Long-term contracts",
+        "Branded business growth",
+        "Volume growth"
+      ]
+    },
+    "Krishival Foods": {
+      "company": "Krishival Foods",
+      "ticker": "KRISHIVAL",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f19f3103-6dbf-4f4c-9794-ca8225b95cb2.pdf",
+      "transcript_id": "krishival-foods_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T01:14:04.163Z",
+      "summary": "Krishival Foods expects strong growth in both segments with 50% top-line and 50%+ bottom-line growth in FY27, driven by capacity expansion, distribution deepening, and brand investments while maintaining profitability.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect around 50% top-line growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bottom-line growth",
+          "horizon": "FY27",
+          "statement": "Expect 50% plus bottom-line growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Nuts)",
+          "horizon": "next two years",
+          "statement": "Target maintaining 15% plus EBITDA margin",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin (Nuts)",
+          "horizon": "next two years",
+          "statement": "Target maintaining 10% plus PAT margin",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin (Ice Cream)",
+          "horizon": "FY27-FY28",
+          "statement": "EBITDA will keep increasing beyond current 7%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Ice Cream)",
+          "horizon": "Q1FY29",
+          "statement": "Target 14% to 15% EBITDA at full capacity utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin (Ice Cream)",
+          "horizon": "FY27",
+          "statement": "PAT will enhance beyond 3% minimum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization (Nuts)",
+          "horizon": "FY27",
+          "statement": "Existing 10 MT/day capacity to be utilized almost fully (90%)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion (Nuts)",
+          "horizon": "FY27-FY28",
+          "statement": "Capacity to increase from 20 MT/day to 30 MT/day next year and 40 MT/day in following year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization (Ice Cream)",
+          "horizon": "Q1FY29",
+          "statement": "Target full capacity utilization of 1 lakh litres per day by Q1FY29",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Distribution expansion (Ice Cream)",
+          "horizon": "FY27",
+          "statement": "Continuous investment in deep freezers network to expand further",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Franchise outlets (Ice Cream)",
+          "horizon": "FY27",
+          "statement": "Plan to open 25 franchise-owned, company-operated Mellow & Co. ice cream outlets in Mumbai and Pune starting July-August",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material cost trends beyond Q4FY26",
+        "Exact capex allocation for future periods",
+        "Market share targets for nuts beyond 10% long-term goal"
+      ],
+      "margin_drivers": [
+        "Capacity utilization improvements",
+        "Operating leverage from scale",
+        "Premiumization and higher SKU realization",
+        "Branding and marketing investments driving revenue growth",
+        "Supply chain integration and distribution expansion"
+      ]
+    },
+    "Zen Technologies": {
+      "company": "Zen Technologies",
+      "ticker": "ZENTEC",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48eebac2-93bf-420d-8b1a-57f4fbc44c32.pdf",
+      "transcript_id": "zen-technologies_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T01:14:13.480Z",
+      "summary": "Strong growth outlook driven by anti-drone systems, simulators, and new products like UGV and ammunition, with FY27 revenue guidance of Rs.4,000 crore and export potential.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Cumulative revenue guidance of Rs.4,000 crore for FY27 and FY28 combined.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Majority of Rs.1,000 crore order book (out of Rs.1,336 crore) expected to convert into revenue in Q2 and Q3 of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book expected to touch Rs.3,000 crore at some point during FY27 to support revenue guidance.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Anti-drone systems demand",
+          "horizon": "Medium-term",
+          "statement": "Demand for anti-drone systems has exceeded expectations by 2x minimum, with focus shifting to hard kill options and AI-native products.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "FY27",
+          "statement": "Commercial launch of Vrishabh UGV in FY27 with capacity to produce 5,000 units/month initially, scalable to 15,000 units/month.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "HyperStrike interceptor drone",
+          "horizon": "FY27",
+          "statement": "Production of HyperStrike interceptor drone to commence in FY27 with initial capacity of 5,000 units/month, scalable to 15,000 units/month.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export orders",
+          "horizon": "Medium-term",
+          "statement": "Export orders expected to play a major role, particularly in simulators and anti-drone systems, with products ranked in top 3 globally.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational EBITDA margin",
+          "horizon": "Long-term",
+          "statement": "Long-term guidance of 35% operational EBITDA margin remains intact despite short-term margin compression.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "Long-term",
+          "statement": "Long-term guidance of 25% PAT margin remains intact despite short-term margin compression.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "R&D investment",
+          "horizon": "FY27",
+          "statement": "Higher R&D investments expected to continue, reflecting structural commitment to future product portfolio.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "IDDM policy impact",
+          "horizon": "2026 onwards",
+          "statement": "Government's IDDM policy expected to favor indigenously designed, developed, and manufactured products, benefiting private innovators.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Ammunition segment contribution",
+          "horizon": "FY28 onwards",
+          "statement": "Ammunition segment (30-mm RF-based) expected to contribute meaningfully to revenues from FY28 onwards.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact timing of export order flows",
+        "Breakdown of revenue contribution by new vs. legacy products in FY27",
+        "Specific order book targets for FY27 beyond Rs.3,000 crore"
+      ],
+      "margin_drivers": [
+        "AI integration in products",
+        "Indigenization of components (e.g., radar, propulsion systems)",
+        "Shift to higher-margin products (anti-drone systems, simulators)",
+        "Scale benefits from new product launches (UGV, HyperStrike)",
+        "Export market expansion"
+      ]
+    },
+    "KRN Heat Exchan": {
+      "company": "KRN Heat Exchan",
+      "ticker": "KRN",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da91a495-e4aa-44f6-acc9-eb65e2975e49.pdf",
+      "transcript_id": "krn-heat-exchan_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T01:14:21.148Z",
+      "summary": "Management expects steady growth driven by new product launches, export expansion, and capacity ramp-up, with margin expansion from PLI, RIFS incentives, and operating leverage.",
+      "guidance": [
+        {
+          "metric": "New facility capacity utilization",
+          "horizon": "FY27",
+          "statement": "Expect 50% utilization of new facility in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New facility capacity utilization",
+          "horizon": "FY28",
+          "statement": "Expect 80% utilization of new facility in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "FY27",
+          "statement": "Planning to achieve almost double the export revenue compared to last year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export order book",
+          "horizon": "FY27",
+          "statement": "Order book of approximately Rs.120 crores for export including data center orders",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Data center revenue contribution",
+          "horizon": "Q4FY26",
+          "statement": "Q4FY26 data center revenue contribution was 18.7% of total revenue",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Bus AC revenue",
+          "horizon": "FY27",
+          "statement": "Expecting at least 15% market share in bus AC segment this year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bus AC revenue",
+          "horizon": "FY26",
+          "statement": "Achieved around Rs.10 crores from bus AC in FY26",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27-FY28",
+          "statement": "Expect slight margin increase due to PLI, RIFS incentives, export mix, and solar savings, offset by higher depreciation and overheads",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PLI incentive",
+          "horizon": "FY26",
+          "statement": "Received 5% PLI incentive on heat exchanger production this year",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "RIFS approval",
+          "horizon": "FY26",
+          "statement": "Expect RIFS approval within this month, enabling 1.56% of top line incentive for next 10 years",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material cost pass-through",
+          "horizon": "Quarterly",
+          "statement": "Able to pass on 100% of copper LME, aluminum LME, and USD-INR fluctuations to customers on a quarter-on-quarter basis",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Railways segment entry",
+          "horizon": "FY27",
+          "statement": "Expect to receive orders from railways in this financial year after six-month field trials and L1 tenders",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "QIP proceeds utilization details",
+        "Specific industry or geography breakdown of export orders",
+        "Percentage revenue contribution from non-fin-and-tube products in Q4FY26"
+      ],
+      "margin_drivers": [
+        "PLI incentive (5%)",
+        "RIFS incentive (1.56% of top line for 10 years)",
+        "Export mix (higher margins)",
+        "Solar electricity savings",
+        "Operating leverage from new facility ramp-up",
+        "Depreciation and overhead costs"
+      ]
     }
   },
-  "generated_at": "2026-07-03T23:40:54.640Z",
-  "count": 650
+  "generated_at": "2026-07-04T01:14:22.676Z",
+  "count": 655
 }
