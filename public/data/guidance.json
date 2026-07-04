@@ -67013,8 +67013,484 @@
         "Richer product mix",
         "Pass-through of raw material costs to customers"
       ]
+    },
+    "Deep Industries": {
+      "company": "Deep Industries",
+      "ticker": "DEEPINDS",
+      "sector": "Energy",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49c56f22-6c78-43f8-a25b-78897451fe58.pdf",
+      "transcript_id": "deep-industries_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-04T08:14:08.770Z",
+      "summary": "Deep Industries expects a bright and promising future with excellent growth, driven by a solid foundation, operational excellence, and a sharp focus on cost optimization and innovation.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27, FY28",
+          "statement": "Expected to grow by 25% to 30% year-on-year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY28",
+          "statement": "Could be around INR450 crores to INR500 crores",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "short-term",
+          "statement": "Expected to increase with new opportunities and higher capacity rigs",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PEC contracts",
+          "horizon": "FY27",
+          "statement": "Expected to increase with a recent tender and a good chance of winning",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gas prices",
+          "horizon": "FY27",
+          "statement": "Increase in gas prices can increase the order book",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Cost optimization",
+        "Operational excellence",
+        "Innovation"
+      ]
+    },
+    "Welspun Enterp": {
+      "company": "Welspun Enterp",
+      "ticker": "WELENT",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b040669-10ed-4b31-abec-360a5cb80499.pdf",
+      "transcript_id": "welspun-enterp_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T08:14:19.013Z",
+      "summary": "Management expects steady medium-term growth driven by a strong INR20,000 crore order book, disciplined execution, and asset monetization, with cautious optimism on FY27 revenue growth.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "medium-term",
+          "statement": "Backed by consolidated order book of INR20,000 crores and strong bid pipeline, company remains well positioned to deliver medium-term revenue targets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Management maintains guidance range of 15% to 20% revenue growth for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Management expects EBITDA margins to remain resilient, supported by operational efficiencies and project mix.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book stands at INR20,000 crores, providing steady revenue visibility ahead.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book (Water vertical)",
+          "horizon": "FY27",
+          "statement": "Water business order book, including tunnels and O&Ms, stands at around INR14,000 crores.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book (Transport vertical)",
+          "horizon": "FY27",
+          "statement": "Transportation order book stands at approximately INR6,000 crores, including EPC value of Pune-Shirur.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Pune-Shirur Elevated Road project",
+          "horizon": "FY27-FY31",
+          "statement": "Project involves 4 years of construction followed by 25 years of tolling; targeting equity IRR upwards of 18%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pune-Shirur Elevated Road project revenue",
+          "horizon": "FY27",
+          "statement": "Expected to contribute INR500 crores to INR600 crores to FY27 revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Aunta-Simaria monetization",
+          "horizon": "H1 FY27",
+          "statement": "Targeting monetization of Aunta-Simaria project in H1 FY27, subject to achieving right valuation.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "SNRP monetization",
+          "horizon": "FY28",
+          "statement": "Targeting monetization of SNRP project post-completion and receipt of first annuity.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "WMEL growth",
+          "horizon": "next 3 years",
+          "statement": "Targeting CAGR growth of over 25% for WMEL over the next 3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SmartOps revenue potential",
+          "horizon": "next 3 to 5 years",
+          "statement": "Management is positive about SmartOps, with focus on expanding technology applications in wastewater treatment and industrial segments.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Project IRR details for Pune-Shirur beyond 'upwards of 18%'",
+        "Detailed tolling economics for Pune-Shirur",
+        "Specific monetization timelines for future BOT projects beyond SNRP",
+        "Exact revenue potential and margin profile for SmartOps beyond qualitative statements"
+      ],
+      "margin_drivers": [
+        "Operational efficiencies",
+        "Project mix",
+        "Cost optimization initiatives",
+        "Disciplined execution",
+        "Digital transformation initiatives"
+      ]
+    },
+    "Sanghvi Movers": {
+      "company": "Sanghvi Movers",
+      "ticker": "SANGHVIMOV",
+      "sector": "Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8227bf5-2995-4d5b-a170-80b49430e0ba.pdf",
+      "transcript_id": "sanghvi-movers_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T08:14:25.661Z",
+      "summary": "Management expects continued growth in crane rental and renewables segments with strong order book visibility, though blended EBITDA margins may remain under pressure due to shift in revenue mix.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Targeting similar growth level as FY26 (~36.9%)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Crane rental revenue growth",
+          "horizon": "FY27",
+          "statement": "Targeting 30% growth in crane rental business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "KSA EBITDA positivity",
+          "horizon": "Q1/Q2 FY27",
+          "statement": "Cumulative EBITDA and cash flow positivity expected in KSA business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "KSA capex",
+          "horizon": "FY27",
+          "statement": "Planning to spend ~INR 320 crores in KSA (Saudi Arabia and Qatar)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book conversion",
+          "horizon": "3-6 months",
+          "statement": "Aiming for good conversion from INR 4,000 crore inquiry pipeline",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Diesel cost pass-through",
+          "horizon": "FY27",
+          "statement": "50% of clients provide free fuel; discussions underway with balance 50% for price increase",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Wind energy segment growth",
+          "horizon": "FY27",
+          "statement": "Revenue from wind segment expected to grow, but will be selective to maintain healthy margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Net debt-to-equity ratio",
+          "horizon": "FY27",
+          "statement": "Net debt-to-equity ratio expected to increase slightly due to planned capex",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization (India)",
+          "horizon": "FY27",
+          "statement": "Expecting continued strong asset utilization in crane rental business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewables segment contribution",
+          "horizon": "FY27",
+          "statement": "Renewables segment (Sangreen) is a key growth engine with high ROCE (~70%)",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Blended EBITDA margin target",
+        "Revenue split by business segments",
+        "Exact revenue or EBITDA numbers for FY27"
+      ],
+      "margin_drivers": [
+        "Shift in revenue mix from high-margin crane rental to asset-light renewables segment",
+        "Diesel cost pass-through negotiations",
+        "Selective project acceptance in renewables to maintain margins"
+      ]
+    },
+    "Alkyl Amines": {
+      "company": "Alkyl Amines",
+      "ticker": "ALKYLAMINE",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d440c8ac-9c93-47ac-a332-2e78aecb07fb.pdf",
+      "transcript_id": "alkyl-amines_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T08:14:34.340Z",
+      "summary": "Management expects cautious optimism with potential volume growth of 5-10% and margin recovery, though raw material volatility and competitive dynamics remain key risks.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expects 5% to 10% volume growth aligned with industry growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin recovery",
+          "horizon": "medium-term",
+          "statement": "Optimistic that margins have seen the worst and will improve, though not to pre-February levels soon",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material prices (ammonia)",
+          "horizon": "next 3-6 months",
+          "statement": "Prices expected to stabilize after 3-6 months as supply chain sorts itself out",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Project commissioning (Kurkumbh)",
+          "horizon": "Q1FY27",
+          "statement": "Project delayed to beginning of next quarter (July-September) with mechanical completion by end of June",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Acetonitrile pricing",
+          "horizon": "near-term",
+          "statement": "Current pricing around INR200-250/kg, up from INR140-150/kg last year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ethylamines margins",
+          "horizon": "near-term",
+          "statement": "Margins have improved and stabilized due to alcohol price increases and reduced competition",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Methylamines competition",
+          "horizon": "medium-term",
+          "statement": "New competitor (Aarti) has increased overcapacity; absorption will take time",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Pharma demand (acetonitrile/peptides)",
+          "horizon": "FY27",
+          "statement": "Optimistic about volume growth in acetonitrile and peptides, though actual growth remains uncertain",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Agrochemical demand",
+          "horizon": "FY27",
+          "statement": "Some concern about agro demand due to El Nino and monsoon uncertainty",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material contract terms",
+          "horizon": "near-term",
+          "statement": "Ammonia contracts are short-term due to high prices and uncertainty",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "R&D product launches",
+          "horizon": "medium-term",
+          "statement": "New product launches from R&D pipeline expected in July; further investments deferred due to market volatility",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization (ethylamines)",
+          "horizon": "FY27",
+          "statement": "Sufficient capacity for ethylamines for next 4-5 years at 5-10% growth",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA margin targets",
+        "PAT guidance",
+        "Capex outlook beyond confirmed projects",
+        "Long-term raw material price trends"
+      ],
+      "margin_drivers": [
+        "Raw material price stabilization (ammonia, methanol)",
+        "Reduced Chinese competition (antidumping duties, capacity cuts)",
+        "Pass-through of cost increases to customers",
+        "Ethylamines margin recovery (alcohol price increases)",
+        "Acetonitrile pricing recovery (antidumping duty benefits)"
+      ]
+    },
+    "Kalpataru Proj.": {
+      "company": "Kalpataru Proj.",
+      "ticker": "KPIL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://kalpataruprojects.com/api/view-file/KPILQ4_FY26_Earnings_Call_Transcript_final.pdf",
+      "transcript_id": "kalpataru-proj_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T08:14:42.473Z",
+      "summary": "Management expects robust FY27 growth with order inflows >INR30,000 crores, 15%+ revenue growth, and 75-100 bps PBT margin expansion, driven by strong T&D, B&F, Oil & Gas, and Urban Infra segments.",
+      "guidance": [
+        {
+          "metric": "Order inflows",
+          "horizon": "FY27",
+          "statement": "Order wins expected to exceed INR30,000 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "15% plus top line growth guided",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Consolidated PBT margin",
+          "horizon": "FY27",
+          "statement": "75 basis point expansion in consol PBT margins",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Standalone PBT margin",
+          "horizon": "FY27",
+          "statement": "75 basis points improvement on standalone level",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "T&D order inflows",
+          "horizon": "FY27",
+          "statement": "T&D order inflow expected around INR13,000-INR14,000 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "T&D revenue growth",
+          "horizon": "FY27",
+          "statement": "Robust growth trajectory expected in T&D business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Oil & Gas tendering activity",
+          "horizon": "FY27",
+          "statement": "Tendering activity to accelerate sharply in FY27, led by Middle East",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex expected to be INR800 crores plus",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Commodity hedging (aluminum)",
+          "horizon": "FY27",
+          "statement": "90% hedged on aluminum exposure, with half hedged for beyond 18 months",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Forex hedging",
+          "horizon": "FY27",
+          "statement": "85% of forex exposure hedged",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Segmental EBITDA margins (T&D, B&F, Oil & Gas)",
+          "horizon": "FY27",
+          "statement": "Double-digit EBITDA margins expected to continue",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Water business receivables trend",
+          "horizon": "FY27",
+          "statement": "Positive receivables trend expected to continue",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact segment-wise revenue split for FY27",
+        "Impact of diesel price volatility on margins beyond Q1/Q2 FY27"
+      ],
+      "margin_drivers": [
+        "Operating leverage from scale",
+        "Business mix shift towards high-margin projects (design-build, solar EPC)",
+        "Operational rigor and capital discipline",
+        "Commodity hedging (aluminum, steel, copper)",
+        "Forex hedging",
+        "Debt reduction and lower finance costs"
+      ]
     }
   },
-  "generated_at": "2026-07-04T05:28:39.162Z",
-  "count": 659
+  "generated_at": "2026-07-04T08:14:43.995Z",
+  "count": 664
 }
