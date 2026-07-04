@@ -70467,8 +70467,503 @@
         "Automation and modernization of SDF Industries plant in Kerala",
         "Cost savings from in-house malt production"
       ]
+    },
+    "Eveready Inds.": {
+      "company": "Eveready Inds.",
+      "ticker": "EVEREADY",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4490fdea-d2f1-4044-a95d-57b02780ef31.pdf",
+      "transcript_id": "eveready-inds_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-04T21:12:16.678Z",
+      "summary": "Eveready Industries expects to maintain its EBITDA margin in FY27 despite headwinds, driven by calibrated pricing actions, cost governance, and manufacturing efficiencies.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain around 11.5% EBITDA margin",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Growth consistency",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Jammu facility production",
+          "horizon": "FY27",
+          "statement": "Production of more than 100 million units in the first year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "FY27",
+          "statement": "Continue debt reduction journey",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Tax rate",
+          "horizon": "FY27",
+          "statement": "Transition to 22% tax rate",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific EBITDA margin trajectory",
+        "Detailed tax provision for FY27"
+      ],
+      "margin_drivers": [
+        "Calibrated pricing actions",
+        "Cost governance",
+        "Manufacturing efficiencies",
+        "Premiumization trends",
+        "Improved product mix"
+      ]
+    },
+    "Laurus Labs": {
+      "company": "Laurus Labs",
+      "ticker": "LAURUSLABS",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d12ab627-2b3d-4940-85ec-b46d30fb9f3d.pdf",
+      "transcript_id": "laurus-labs_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T21:12:25.233Z",
+      "summary": "Laurus Labs expects sustained growth driven by CDMO expansion, capacity additions, and margin improvement over the next 2-3 years.",
+      "guidance": [
+        {
+          "metric": "CDMO revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect positive growth in CDMO business in the coming years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain or improve current EBITDA margins of ~29%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Operational leverage",
+          "horizon": "FY27",
+          "statement": "Expect operational leverage to play out over the next 2 years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Reactor volume expansion",
+          "horizon": "FY27-FY28",
+          "statement": "Unit 7 first production ready by March '27; four additional manufacturing units in FY28 with combined reactor volume of over 2,000 cubic meters",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peptide manufacturing capacity",
+          "horizon": "Q2 FY27",
+          "statement": "Commercial scale peptide manufacturing block ready for validation",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fermentation capacity (Laurus Bio)",
+          "horizon": "End of 2026",
+          "statement": "Phase 1 fermentation greenfield site for Laurus Bio to start by end of 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Formulation facility (KRKA JV)",
+          "horizon": "Mid-2027",
+          "statement": "Phase 1 of formulation facility under KRKA joint venture in Hyderabad to be completed by mid-2027",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Animal Health capacity",
+          "horizon": "FY27",
+          "statement": "Additional capacities at Unit 10 (LSPL Unit 2) for Animal Health",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D spend to sales ratio",
+          "horizon": "FY27",
+          "statement": "Expect similar R&D spend to sales ratio of ~4.1% as in FY26",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Gross margins expected to remain similar across development and commercial phases for NCE programs",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Supply chain disruptions",
+          "horizon": "Q1FY27",
+          "statement": "No supply disruptions expected till end of June 2026",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt/EBITDA ratio",
+          "horizon": "FY27",
+          "statement": "Debt/EBITDA ratio expected to remain around current levels (~1.25x)",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "CDMO revenue visibility by program in FY27",
+        "EBITDA margin breakdown by segment",
+        "Specific revenue targets for CDMO or other segments"
+      ],
+      "margin_drivers": [
+        "Operational leverage from capacity expansion",
+        "Gross margin improvement from raw material price softening and process improvements",
+        "Product mix shift towards higher-margin CDMO and complex APIs",
+        "Increased capacity utilization in fermentation and peptide manufacturing"
+      ]
+    },
+    "Sejal Glass": {
+      "company": "Sejal Glass",
+      "ticker": "SEJALLTD",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9669e00-298b-427f-9a74-2b237db124e1.pdf",
+      "transcript_id": "sejal-glass_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T21:12:32.406Z",
+      "summary": "Management expects 25-40% revenue growth in FY27 with EBITDA margin expansion to 17.5-18%, driven by India capacity ramp-up, new product launches, and UAE recovery.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Minimum 25% growth; could exceed 40% if UAE situation improves",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Target of 17.5% to 18% (vs 16.55% in FY26)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue mix (India vs UAE)",
+          "horizon": "FY27",
+          "statement": "Shift from 70% UAE to 60% UAE and 40% India; long-term target 50-50",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "India revenue",
+          "horizon": "FY27",
+          "statement": "Expected to double from current levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Glasstech revenue",
+          "horizon": "FY27",
+          "statement": "Expected to exceed INR 100 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "India EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected at 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product revenue contribution",
+          "horizon": "FY26",
+          "statement": "5% to 7% of total revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product revenue contribution",
+          "horizon": "FY27",
+          "statement": "Expected to reach 15% to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "UAE revenue (Q1FY27)",
+          "horizon": "Q1FY27",
+          "statement": "Expected around AED 31 million",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "UAE revenue (Q2FY27)",
+          "horizon": "Q2FY27",
+          "statement": "Expected around AED 35 million with improved conditions",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "UAE order book",
+          "horizon": "Q1FY27",
+          "statement": "Current order book of AED 60 million",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Glasstech capacity utilization",
+          "horizon": "FY27",
+          "statement": "Tempering to exceed 50%; IG and lamination to contribute around 30%",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "timelines for second acquisition",
+        "detailed capex plans for UAE expansions",
+        "exact debt reduction targets beyond current repayment schedule"
+      ],
+      "margin_drivers": [
+        "value-added products (fire-rated, laminated, IG glass)",
+        "product mix shift from plain tempered to high-margin products",
+        "operational efficiency improvements",
+        "pass-through of raw material cost increases",
+        "capacity utilization improvements in new facilities"
+      ]
+    },
+    "AWL Agri Busine.": {
+      "company": "AWL Agri Busine.",
+      "ticker": "AWL",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79a54ff8-7ca1-471d-9603-3570ad4a0228.pdf",
+      "transcript_id": "awl-agri-busine_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T21:12:41.488Z",
+      "summary": "Management expects FY27 to be a year of volume-led growth with margin discipline, despite cost pressures and macro volatility.",
+      "guidance": [
+        {
+          "metric": "Volume growth (Food segment)",
+          "horizon": "FY27",
+          "statement": "Targeting mid-teens volume growth in Food segment, prioritizing top-line over margins initially.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth (Edible Oil segment)",
+          "horizon": "FY27",
+          "statement": "Expects continued volume growth in Edible Oil, supported by market share gains and premium product launches.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth (Industry Essentials segment)",
+          "horizon": "FY27",
+          "statement": "New installations at Krishnapatnam to add volume to Industry Essentials, with specialty chemicals contributing 7-8% of segment revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (Consolidated)",
+          "horizon": "FY27",
+          "statement": "Revenue growth expected to outpace volume growth due to premiumization and price adjustments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Aiming to maintain or improve EBITDA per ton metrics through operational efficiencies and premium product mix.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Alternate channel contribution (Edible Oil)",
+          "horizon": "FY27",
+          "statement": "Alternate channel to contribute ~15% of Edible Oil volumes, growing at 40-44% YoY.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Alternate channel contribution (Food segment)",
+          "horizon": "FY27",
+          "statement": "Alternate channel to contribute ~25% of Food segment volumes, with higher profitability than general trade.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Kohinoor brand growth",
+          "horizon": "FY27",
+          "statement": "Kohinoor brand expected to continue growth momentum, with expansion into new markets and HoReCa segment.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost inflation impact (Q1FY27)",
+          "horizon": "Q1FY27",
+          "statement": "Q1FY27 to reflect elevated costs (packing material, chemicals, coal) due to March volatility, with demand recovery expected in May-June.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Edible oil price pass-through",
+          "horizon": "Q1FY27",
+          "statement": "10% edible oil price increase passed on to consumers in March; packing material cost impact to be addressed gradually.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Distribution reach expansion",
+          "horizon": "Medium-term",
+          "statement": "Targeting expansion of direct and indirect reach to 4+ million outlets (currently 2.6 million) over next 2-3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Agri inflation outlook",
+          "horizon": "FY27",
+          "statement": "CPI inflation expected to remain in 3.5-3.75% range if edible oil complex prices stabilize; demand resilient due to essential nature of products.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "capex for new projects beyond Krishnapatnam installation",
+        "specific EBITDA margin targets for FY27",
+        "detailed breakdown of margin drivers by segment for FY27"
+      ],
+      "margin_drivers": [
+        "premiumization in edible oil and food segments",
+        "alternate channel profitability",
+        "operational efficiencies",
+        "cost pass-through in edible oil prices",
+        "volume growth in high-margin segments (HoReCa, branded exports)"
+      ]
+    },
+    "Fineotex Chem": {
+      "company": "Fineotex Chem",
+      "ticker": "FCL",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d09e527b-4baa-4ef7-842f-dc69b9a1fef2.pdf",
+      "transcript_id": "fineotex-chem_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-04T21:12:49.434Z",
+      "summary": "Management expects strong growth in specialty chemicals, driven by US oilfield expansion, textile recovery, and margin expansion to 18-20% in medium-term.",
+      "guidance": [
+        {
+          "metric": "Revenue (CCT US business)",
+          "horizon": "FY28",
+          "statement": "Target of $200 million revenue for CCT business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (CCT US business)",
+          "horizon": "medium-term",
+          "statement": "Comfortably at 15% EBITDA margin for CCT",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (consolidated)",
+          "horizon": "FY27",
+          "statement": "Blended EBITDA margin target of 18-20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (CCT expansion)",
+          "horizon": "FY26-FY27",
+          "statement": "Capex of ~$7 million already spent by Fineotex; additional ~$7 million extended to CCT",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Textile Specialty Chemicals)",
+          "horizon": "FY27",
+          "statement": "Growth expected due to recovery in apparel exports, home textiles, and technical textiles",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Stake in CCT",
+          "horizon": "January 2028",
+          "statement": "Further 25% stake to be acquired, taking total to ~79-80%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (CCT US business)",
+          "horizon": "FY27",
+          "statement": "Doubling of manufacturing capacity in CrudeChem to cater to larger contracts",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Market size (US Oil & Gas specialty chemicals)",
+          "horizon": "current",
+          "statement": "North American market size ~$3.5-4 billion for products Fineotex is in",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International revenue contribution",
+          "horizon": "FY27",
+          "statement": "Continued increase in international revenue contribution (70% in Q4 FY26)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational efficiencies (CCT)",
+          "horizon": "FY27",
+          "statement": "Improved operational efficiencies and stronger business momentum across acquired operations",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sustainability focus",
+          "horizon": "medium-term",
+          "statement": "Leveraging ESG-driven philosophy across combined platform for long-term value",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Cross-selling opportunities",
+          "horizon": "medium-term",
+          "statement": "Meaningful opportunities for cross-selling and product innovation across combined platform",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 consolidated revenue guidance",
+        "FY27 PAT guidance",
+        "Detailed product-wise revenue split for CCT"
+      ],
+      "margin_drivers": [
+        "Operational efficiencies",
+        "Capacity utilization",
+        "Technology transfers from Fineotex to CCT",
+        "Customer wallet share expansion",
+        "Sustainable solutions and technical services",
+        "Logistics and freight cost normalization"
+      ]
     }
   },
-  "generated_at": "2026-07-04T19:52:22.178Z",
-  "count": 694
+  "generated_at": "2026-07-04T21:12:50.963Z",
+  "count": 699
 }
