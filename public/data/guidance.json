@@ -76668,8 +76668,341 @@
         "Certification and professional charges (one-time impact in FY26)",
         "Order book execution pace"
       ]
+    },
+    "Himadri Special": {
+      "company": "Himadri Special",
+      "ticker": "HSCL",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d692690-5309-49f1-9328-33ae32723066.pdf",
+      "transcript_id": "himadri-special_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-05T21:16:32.186Z",
+      "summary": "Himadri Speciality Chemicals expects strong growth driven by its expanding presence in advanced materials, particularly within the lithium-ion battery ecosystem, and the steady development of Birla Tyres.",
+      "guidance": [
+        {
+          "metric": "LFP cathode active material capacity",
+          "horizon": "FY27",
+          "statement": "Targeting 2,000 metric tons capacity by Q3 FY27, with balance Phase 1 capacity to be progressively brought onstream over the next 12 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LFP cathode active material capacity",
+          "horizon": "long-term",
+          "statement": "Aims to build a scaled globally relevant LFP platform with 200,000 metric tons capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Anode business",
+          "horizon": "future",
+          "statement": "Still working on the growth trajectory, will come up with figures and investment required in due course",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Birla Tyres revenue",
+          "horizon": "next 4 years",
+          "statement": "Expects to reach INR 3,000 crores top line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY28",
+          "statement": "Aims to double PAT to INR 1,100 plus crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Top line growth",
+          "horizon": "FY27",
+          "statement": "Expects top line growth to start, but no specific growth number provided",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Year-on-year EBITDA margin guidance",
+        "Specific growth numbers for top line"
+      ],
+      "margin_drivers": [
+        "Value-added portfolio",
+        "Operational discipline",
+        "In-house innovation"
+      ]
+    },
+    "Mphasis": {
+      "company": "Mphasis",
+      "ticker": "MPHASIS",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa45ef77-1b90-42d3-bcb1-d985fe550f70.pdf",
+      "transcript_id": "mphasis_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T21:16:38.938Z",
+      "summary": "Strong AI-led demand to drive high single-digit to low double-digit revenue growth in FY27 with margins maintained within 14.75%-15.75% band.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect high single-digit to low double-digit growth supported by disciplined execution and increasing demand for AI-led transformation.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBIT margin",
+          "horizon": "FY27",
+          "statement": "Committed to operating within the target band of 14.75% to 15.75%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Operating cash flow to net income conversion ratio",
+          "horizon": "FY27",
+          "statement": "Expect to maintain an operating cash flow to net income conversion ratio of approximately 80%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Pipeline growth",
+          "horizon": "FY27",
+          "statement": "Building on FY26’s record TCV performance as we enter FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led pipeline share",
+          "horizon": "FY27",
+          "statement": "69% of the pipeline is AI-led, reflecting structural shift in client demand.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net new TCV",
+          "horizon": "FY27",
+          "statement": "Building on FY26’s record net new TCV of $2.12Bn.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Direct revenue growth",
+          "horizon": "FY27",
+          "statement": "Direct business momentum to continue, supported by strong deal conversion and AI-driven transformation programs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BFS vertical growth",
+          "horizon": "FY27",
+          "statement": "BFS and Insurance verticals continue to lead growth, driven by AI-led transformation programs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "TMT vertical recovery",
+          "horizon": "coming quarters",
+          "statement": "Expect TMT vertical to return to sequential growth in the coming quarters.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Client pyramid expansion",
+          "horizon": "FY27",
+          "statement": "Strengthening client pyramid, particularly across middle tiers, driven by wallet share gains and disciplined ramp-up of large deal wins.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "exact budget allocation shifts between IT and business functions for top 100 enterprises",
+        "specific DSO target beyond current normalization trend"
+      ],
+      "margin_drivers": [
+        "AI-led modernization programs",
+        "NeoIP platform investments",
+        "Decision Intelligence platform (Continuum AI) integration",
+        "Operational efficiency gains from automation"
+      ]
+    },
+    "Railtel Corpn.": {
+      "company": "Railtel Corpn.",
+      "ticker": "RAILTEL",
+      "sector": "Telecommunication",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d0658d1-f60c-441b-8e1a-efd416679fb5.pdf",
+      "transcript_id": "railtel-corpn_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T21:16:44.916Z",
+      "summary": "Management expects steady growth in telecom and IT services with focus on expanding order book and digital infrastructure projects.",
+      "guidance": [
+        {
+          "metric": "Order book",
+          "horizon": "medium-term",
+          "statement": "Management expects order book to grow driven by expansion in telecom and IT services segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Management anticipates revenue growth in FY27 supported by new projects and existing contracts.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned capital expenditure will be aligned with growth opportunities and project requirements.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Digital infrastructure projects",
+          "horizon": "medium-term",
+          "statement": "Management aims to expand presence in digital infrastructure projects including data centers and smart city initiatives.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Telecom services",
+          "horizon": "FY27",
+          "statement": "Telecom services segment expected to see steady growth in revenue and customer base.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "IT services",
+          "horizon": "FY27",
+          "statement": "IT services segment to continue contributing positively to overall growth.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA margin",
+        "PAT",
+        "Volume growth",
+        "Specific capex numbers",
+        "Dividend policy"
+      ],
+      "margin_drivers": [
+        "Expansion in high-margin segments like IT services",
+        "Efficiency improvements in project execution",
+        "Leveraging existing infrastructure for new contracts"
+      ]
+    },
+    "Coromandel Inter": {
+      "company": "Coromandel Inter",
+      "ticker": "COROMANDEL",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f638cc7f-0c1c-42f0-a0c6-d9abd30f7a37.pdf",
+      "transcript_id": "coromandel-inter_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T21:16:54.484Z",
+      "summary": "Management expects improved profitability and volume growth in FY27 driven by subsidy support, raw material normalization, and synergy realization from NACL acquisition.",
+      "guidance": [
+        {
+          "metric": "Subsidy support",
+          "horizon": "FY27",
+          "statement": "Industry expects additional subsidy compensation for elevated raw material costs (Ammonia, Sulphur) due to Middle East supply disruptions; discussions with government are ongoing.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Fertilizer margins",
+          "horizon": "FY27",
+          "statement": "Margins expected to improve with subsidy pass-through and raw material price normalization; potential MRP corrections if gaps persist.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material availability",
+          "horizon": "Q1FY27",
+          "statement": "Industry efforts to maximize supplies in Q1; early resolution of West Asian crisis expected to ease availability and pricing.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Phosphoric acid plant capacity",
+          "horizon": "FY27",
+          "statement": "Kakinada phosphoric acid plant (200,000 tons/year) expected to operate at desired capacity from April-May onwards.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Senegal rock phosphate output",
+          "horizon": "FY27",
+          "statement": "Planning to increase Senegal rock phosphate output by 30%-40% in the current year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Granulation capacity expansion",
+          "horizon": "FY27",
+          "statement": "Granulation capacity expansion project expected to be commissioned by December of this financial year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NACL margins",
+          "horizon": "FY27",
+          "statement": "NACL margins expected to stabilize around 9%-10% in the next year with new product introductions and synergy realization.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Crop protection revenue",
+          "horizon": "FY27",
+          "statement": "Consolidated crop protection business (including NACL) expected to reach INR 4,000 crores revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NACL revenue growth",
+          "horizon": "FY27",
+          "statement": "NACL revenue expected to grow further with improved capacity utilization and cross-selling synergies.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty nutrients revenue",
+          "horizon": "medium-term",
+          "statement": "Investments in Technical MAP plant and seaweed granulation capacity expected to generate revenue in coming years.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Nano business volume",
+          "horizon": "FY27",
+          "statement": "Nano business volumes expected to expand further with increased market share and international expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail business growth",
+          "horizon": "FY27",
+          "statement": "Retail business expected to continue strong growth with expansion into new markets and technology-driven solutions.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact subsidy amounts or MRP adjustments for FY27",
+        "Specific EBITDA or PAT targets for FY27",
+        "Detailed capex breakdown for FY27"
+      ],
+      "margin_drivers": [
+        "Subsidy pass-through",
+        "Raw material price normalization",
+        "NACL synergy realization",
+        "New product introductions in crop protection and specialty nutrients",
+        "Improved capacity utilization in technical plants"
+      ]
     }
   },
-  "generated_at": "2026-07-05T19:57:13.290Z",
-  "count": 755
+  "generated_at": "2026-07-05T21:16:56.013Z",
+  "count": 759
 }
