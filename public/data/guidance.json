@@ -77203,8 +77203,173 @@
         "Operational efficiency and scalability",
         "Refurbishment volume and mix"
       ]
+    },
+    "Data Pattern": {
+      "company": "Data Pattern",
+      "ticker": "DATAPATTNS",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5abfea9-bcf3-4a36-9b12-f8e4d38ffcfe.pdf",
+      "transcript_id": "data-pattern_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-05T23:40:25.246Z",
+      "summary": "Data Patterns expects strong revenue growth driven by a robust order book and increasing demand for its products and services.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "short term",
+          "statement": "20-25% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "short term",
+          "statement": "38-40% margin expected",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "INR3,500-4,000 crores expected by year-end",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "FY27",
+          "statement": "expected to increase",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash conversion cycle",
+          "horizon": "next 2-3 years",
+          "statement": "expected to settle down at 320-340 days",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "exact order book size at the end of FY27"
+      ],
+      "margin_drivers": [
+        "strong in-house design and engineering capabilities",
+        "increasing demand for products and services",
+        "operational efficiencies"
+      ]
+    },
+    "Kajaria Ceramics": {
+      "company": "Kajaria Ceramics",
+      "ticker": "KAJARIACER",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8b60fb2-c7f1-4b9d-8e82-ce1ccfef5d04.pdf",
+      "transcript_id": "kajaria-ceramics_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T23:40:33.270Z",
+      "summary": "Management expects strong volume growth and margin stability in FY27 driven by multi-locational plant advantage, price hikes, and cost optimization despite gas price volatility.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Volume growth expected to be much better than FY26 due to strong demand momentum and multi-locational plant advantage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to be maintained between 18% to 19%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Price realization",
+          "horizon": "Q1FY27",
+          "statement": "Price realization expected to increase due to price hikes taken in early March and April.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gas prices",
+          "horizon": "Q1FY27",
+          "statement": "Gas prices in North increased to INR62.5 per SCM in April, with South and West at INR81 and INR79 respectively.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Production capacity",
+          "horizon": "Q1FY27",
+          "statement": "All plants running at full capacity from April 16, with outsourcing from Morbi expected to normalize as plants restart.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Outsourcing from Morbi",
+          "horizon": "Q1FY27",
+          "statement": "Outsourcing from Morbi expected to reduce initially but normalize as plants restart; current outsourcing at 27-28% of total supply.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "FY27",
+          "statement": "Focus on further reduction of working capital cycle beyond the 14-day improvement in Q4FY26.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Cost optimization",
+          "horizon": "FY27",
+          "statement": "Cost increases expected to be marginal and offset by volume growth and price hikes; administrative costs as a percentage of sales to decline.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Adhesive segment growth",
+          "horizon": "FY27",
+          "statement": "Adhesive segment revenues expected to grow further as the business scales up.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Bathware segment",
+          "horizon": "FY27",
+          "statement": "Bathware segment to benefit from strategic investments and market demand.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export competitiveness",
+          "horizon": "FY27",
+          "statement": "Domestic market demand expected to remain strong; Morbi plants facing higher costs and operational challenges may reduce export competitiveness.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Fuel mix",
+          "horizon": "FY27",
+          "statement": "Biofuel mix in North plants around 30%, providing cost advantage over Morbi.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or PAT targets",
+        "Quarterly volume or revenue guidance",
+        "Market share or competitive intensity in detail"
+      ],
+      "margin_drivers": [
+        "Gas price volatility and cost pass-through",
+        "Price hikes in North and Morbi regions",
+        "Volume growth and operational efficiencies",
+        "Cost optimization and administrative expense control",
+        "Biofuel mix in fuel consumption"
+      ]
     }
   },
-  "generated_at": "2026-07-05T22:36:49.240Z",
-  "count": 761
+  "generated_at": "2026-07-05T23:40:34.792Z",
+  "count": 763
 }
