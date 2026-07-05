@@ -72788,8 +72788,477 @@
         "EV and alternate fuel adoption",
         "Market share gains in core segments"
       ]
+    },
+    "Indegene": {
+      "company": "Indegene",
+      "ticker": "INDGN",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73ad56ca-dd91-464b-ae69-0ae768c03572.pdf",
+      "transcript_id": "indegene_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-05T07:46:21.040Z",
+      "summary": "Indegene expects significant growth in FY27 driven by its strategic partnerships, AI-led innovations, and expanding customer base.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expecting visible growth from the largest customer, potentially crossing $50 million",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting improvement in profitability and EBITDA margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "Expecting significant upward movement in PAT",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tectonic engagement",
+          "horizon": "FY27",
+          "statement": "Tectonic is on track to become a material growth driver for enterprise commercial",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "AI-led innovations",
+        "expanding customer base",
+        "strategic partnerships",
+        "improvement in operating cash flows"
+      ]
+    },
+    "Fabtech Techn.": {
+      "company": "Fabtech Techn.",
+      "ticker": "544332",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e864be8-21aa-40d4-8f2f-6c75968931ff.pdf",
+      "transcript_id": "fabtech-techn_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T07:46:30.533Z",
+      "summary": "Management expects strong growth in FY27 driven by expanding order book and strategic investments, with near-term margin pressure easing as newer segments mature.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Order book of ~199 crores expected to rise to 275-300 crores within 15-20 days, implying strong revenue growth trajectory.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "medium-term",
+          "statement": "Focus on data centers, solar, and semiconductors as high-growth segments with multi-year investment visibility.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Gradual expansion of margins as newer segments (solar, data centers, semiconductors) mature and execution efficiency improves.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Pipeline of 480 crores provides visibility; solar segment currently dominant but diversification into semicon and data centers expected.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "Bottom-line improvement expected as legacy issues (Altair write-off, NCLT impact) are resolved and operational efficiencies scale.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Continued investment in infrastructure (e.g., Hyderabad facility expansion, automated panel production line) to support growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Stake in subsidiaries",
+          "horizon": "FY27",
+          "statement": "Stake in Kelvin to be increased to 70-72%; Aart stake increase planned when compliance and performance metrics are met.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin drivers",
+          "horizon": "FY27",
+          "statement": "Supply chain innovations, procurement improvements, and factory automation to enhance margins over time.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order execution",
+          "horizon": "FY27",
+          "statement": "Large solar project (68 crores) to be commissioned by July 2026, serving as a reference for future orders.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sector diversification",
+          "horizon": "medium-term",
+          "statement": "Non-pharma segments (solar, data centers, semiconductors) to grow faster than pharma, with semicon expected to gain traction.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Vision 2030",
+          "horizon": "FY27",
+          "statement": "FY2027 marks the year where Vision 2030 becomes visible in financial numbers, indicating accelerated growth trajectory.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Turnkey projects",
+          "horizon": "FY27",
+          "statement": "Pharma sector to remain mainstay with consolidation in turnkey life science projects alongside non-pharma segments.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 PAT or EPS in absolute terms",
+        "Specific margin percentages for FY27",
+        "Breakdown of revenue by segment for FY27"
+      ],
+      "margin_drivers": [
+        "Supply chain innovations and procurement improvements",
+        "Factory automation and capacity expansion (Hyderabad facility)",
+        "Execution efficiency gains from lessons learned in FY26",
+        "Resolution of legacy issues (Altair write-off, NCLT impact)",
+        "Strategic investments in subsidiaries (Kelvin, Advantek, Aart)"
+      ]
+    },
+    "GPT Healthcare": {
+      "company": "GPT Healthcare",
+      "ticker": "GPTHEALTH",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cf3a915-3463-4255-9ed7-5ff689a06e50.pdf",
+      "transcript_id": "gpt-healthcare_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T07:46:36.629Z",
+      "summary": "GPT Healthcare expects 15% revenue growth in FY27 with improving margins, driven by mature hospital performance and gradual ramp-up of new facilities.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect 15% increase in overall revenue for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Expect 15% increase in overall revenue for FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ARPOB",
+          "horizon": "FY27",
+          "statement": "ARPOB to grow by around 8% through tariff increase and specialty optimization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ARPOB",
+          "horizon": "Jamshedpur Hospital",
+          "statement": "ARPOB expected to be in the mid INR35,000 for Jamshedpur Hospital",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Occupancy",
+          "horizon": "FY27",
+          "statement": "Raipur Hospital expected to close FY27 at around 30% occupancy",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy",
+          "horizon": "FY27",
+          "statement": "Jamshedpur Hospital expected to follow similar ramp-up trend as Raipur Hospital",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy",
+          "horizon": "Q4FY27",
+          "statement": "Salt Lake Hospital occupancy expected to move towards 70%-73%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy",
+          "horizon": "Q4FY27",
+          "statement": "Dumdum Hospital occupancy expected to move towards 72%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy",
+          "horizon": "Early next year",
+          "statement": "ILS Agartala occupancy expected to hit 60% mark",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to improve by around 100 basis points in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex per bed",
+          "horizon": "FY27",
+          "statement": "Capex per bed for Jamshedpur Hospital expected to be around INR70 lakhs",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Breakeven",
+          "horizon": "Q3FY27",
+          "statement": "Raipur Hospital expected to break even on a monthly basis by Q3FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "improved occupancy across mature hospitals",
+        "higher patient throughput",
+        "stronger specialty mix",
+        "tariff increases",
+        "operational efficiency improvements",
+        "insurance empanelment completion"
+      ]
+    },
+    "OBSC Perfection": {
+      "company": "OBSC Perfection",
+      "ticker": "OBSCP",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/OBSCPERFECTION_25052026164158_Disclosure_Transcript_25th_May_2026.pdf",
+      "transcript_id": "obsc-perfection_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T07:46:45.111Z",
+      "summary": "Management expects accelerated growth driven by export expansion, new verticals (defence, aerospace, humanoids), and capacity additions, with cautious margin improvement amid geopolitical risks.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Order book of INR1,200 crore to convert at INR100-200 crore per year over 5-6 years, with most projects starting in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Target to grow margins by 1% YoY, supported by higher exports and defence/non-auto revenue growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (shock absorber rods)",
+          "horizon": "FY27",
+          "statement": "New Sanand plant for Tenneco to contribute ~INR40 crore revenue, doubling current share.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (humanoids)",
+          "horizon": "FY27",
+          "statement": "Humanoid parts expected to become a very large part of revenue this year itself.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (defence)",
+          "horizon": "medium-term",
+          "statement": "Defence projects (ammunition casings, ignition primers, bomb fins) to drive significant business growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (aerospace)",
+          "horizon": "FY27",
+          "statement": "AS9100D certification expected within 2 months, enabling aerospace orders.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY27",
+          "statement": "Majority of U.S. export orders to start in next 2-3 months, with surge in export volumes.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion (Supa plant)",
+          "horizon": "FY27-FY28",
+          "statement": "Phased, frugal expansion in Supa mega factory to minimize depreciation overheads.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term",
+          "statement": "Expects growth to accelerate from current levels due to export opportunities and India's China+1 advantage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin sustainability",
+          "horizon": "FY27",
+          "statement": "Committed to sustaining current margins at minimum, with potential for improvement.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue (medical devices)",
+          "horizon": "FY27",
+          "statement": "Orthopedic surgical implants (cast parts) to contribute to revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (EV components)",
+          "horizon": "FY27",
+          "statement": "EV-related components contributed ~INR40 crore to FY26 revenue, expected to grow.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "timelines for Supa plant commissioning",
+        "exact revenue/EBITDA for FY27",
+        "detailed capex breakdown"
+      ],
+      "margin_drivers": [
+        "higher export share",
+        "defence revenue growth",
+        "non-automotive revenue (humanoids, medical, aerospace)",
+        "INR depreciation improving competitiveness",
+        "phased capacity expansion to minimize depreciation"
+      ]
+    },
+    "Indus Towers": {
+      "company": "Indus Towers",
+      "ticker": "INDUSTOWER",
+      "sector": "Telecommunication",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55d79cdd-7dbd-4f98-83b5-13500c817fe9.pdf",
+      "transcript_id": "indus-towers_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T07:46:54.428Z",
+      "summary": "Management expects steady growth driven by 5G rollout, cost optimization, and Africa expansion, with disciplined capital allocation and progressive dividend distribution.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "medium-term",
+          "statement": "70% of capex is growth-oriented, while 25% is for replacement/maintenance; order book remains healthy.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Dividend distribution",
+          "horizon": "FY26 and beyond",
+          "statement": "Board aims for steady and progressive distribution of free cash flow, with FY26 dividend at INR 14 per share.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Africa expansion capex",
+          "horizon": "medium-term",
+          "statement": "Africa expansion is a long-term strategy; initial capex is not expected to be significant.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Energy cost optimization",
+          "horizon": "medium-term",
+          "statement": "Structural reduction in diesel dependency through solar integration and battery augmentation to improve energy margins.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Tenancy ratio",
+          "horizon": "medium-term",
+          "statement": "Stability in tenancy ratio is expected, with potential improvement as second customer expands network.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "5G network capacity",
+          "horizon": "medium-term",
+          "statement": "Incremental capacity on existing infrastructure is needed to support sustained loading-led revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Smart meter deployment",
+          "horizon": "medium-term",
+          "statement": "Collaboration with stakeholders to deploy smart meters across cities to enhance operational efficiency and optimize energy costs.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Solar site deployment",
+          "horizon": "medium-term",
+          "statement": "Continued scaling of solar integration, with solar access provided to ~28,000 sites over the last 2 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital/AI-led transformation",
+          "horizon": "medium-term",
+          "statement": "Over 85% of sites are digitally connected, with AI/ML enabling proactive issue resolution and improved productivity.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Debt levels",
+          "horizon": "FY26 and beyond",
+          "statement": "Management aims to maintain debt levels while balancing capital allocation and growth opportunities.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact future revenue growth rates",
+        "Specific EBITDA margin targets",
+        "Future PAT guidance",
+        "Order book size in Africa",
+        "Impact of customer contract expirations"
+      ],
+      "margin_drivers": [
+        "Energy cost optimization (solar, batteries)",
+        "Operational efficiencies (digital tools, AI/ML)",
+        "Cost discipline (supply chain, partner rationalization)",
+        "Network uptime and reliability",
+        "Sustainability initiatives (ESG, decarbonization)"
+      ]
     }
   },
-  "generated_at": "2026-07-05T04:19:14.899Z",
-  "count": 717
+  "generated_at": "2026-07-05T07:46:55.952Z",
+  "count": 722
 }
