@@ -75711,8 +75711,446 @@
         "Inventory turn improvement",
         "Gold price fluctuations (absolute margin maintenance)"
       ]
+    },
+    "RBZ Jewellers Lt": {
+      "company": "RBZ Jewellers Lt",
+      "ticker": "RBZJEWEL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eed1d438-06d5-4720-8d52-d9e2702efc72.pdf",
+      "transcript_id": "rbz-jewellers-lt_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T17:42:33.548Z",
+      "summary": "Management expects continued growth momentum in FY27 driven by retail expansion, wedding season demand, and operational efficiency, though gold price volatility and policy changes pose near-term risks.",
+      "guidance": [
+        {
+          "metric": "Retail expansion",
+          "horizon": "Q2-Q4 FY27",
+          "statement": "Two new large-format retail stores (Surat and Rajkot) targeted to commence operations by Q2 FY27, with additional mid-sized stores (5,000 sq ft) in Eastern Ahmedabad and Gandhinagar planned.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory for new stores",
+          "horizon": "FY27",
+          "statement": "Each new large-format store requires INR125-150 crores of inventory, with total peak debt expected at ~1:1.2 leverage ratio for these stores in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "B2B demand mix (job work vs wholesale)",
+          "horizon": "FY27",
+          "statement": "B2B segment (job work + wholesale) to remain robust, with preference shifting toward job work due to gold price volatility; absolute value of merchandise expected to increase.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Wedding season demand",
+          "horizon": "Q1-Q2 FY27",
+          "statement": "Steady consumer demand in occasion wear segment ahead of wedding season, with focus on lightweight and budget-friendly products.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gold hedging strategy",
+          "horizon": "FY27",
+          "statement": "Exploring Gold Metal Loans (GML) for new gold purchases, maintaining weighted inventory 15-25% below current market prices to hedge price corrections.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Regional festive demand",
+          "horizon": "FY27",
+          "statement": "Continued focus on Gujarat markets due to white space in organized retail presence, with potential expansion beyond Gujarat post scaling in-state.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital marketing spend",
+          "horizon": "FY27",
+          "statement": "Ongoing digital campaigns to strengthen brand visibility and customer engagement, particularly in occasion and daily wear segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "Q1 FY27 onwards",
+          "statement": "In-house production of daily wear jewellery to commence from Q1 FY27, with 730 new designs launched in Q4 FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt levels",
+          "horizon": "FY27",
+          "statement": "Targeting debt-to-equity ratio of 1:1 to 1.2:1 at peak for new store expansions, funded through debt, inventory transfers, and profit gains.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory gains from gold price appreciation",
+          "horizon": "FY27",
+          "statement": "Anticipated inventory gains of INR10-12 crores if gold prices remain elevated, though exact number not yet quantified.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Receivables normalization",
+          "horizon": "Q1 FY27",
+          "statement": "Receivables spike in Q4 FY26 (INR56 crores) expected to normalize to ~30-day collection cycles in wholesale segment.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Profitability (PAT margins)",
+          "horizon": "FY27",
+          "statement": "Continued improvement in operating efficiency and margin expansion expected, though exact PAT margin target not disclosed.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Impact of customs duty changes on volumes/margins",
+        "Quantitative order book for job work or wholesale segments",
+        "Exact inventory gain numbers from gold price appreciation",
+        "Timeline for third and fourth store openings beyond FY27",
+        "Strategic plans for expansion beyond Gujarat"
+      ],
+      "margin_drivers": [
+        "Shift toward job work (higher margins)",
+        "Retail expansion (higher margins than wholesale)",
+        "Digital marketing efficiency",
+        "Inventory management (weighted average below market prices)",
+        "Lightweight/budget-friendly product mix",
+        "Operational efficiency improvements"
+      ]
+    },
+    "EPack PrefabTech": {
+      "company": "EPack PrefabTech",
+      "ticker": "EPACKPEB",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ff95c6e-662e-410b-9187-4a9659ed615f.pdf",
+      "transcript_id": "epack-prefabtech_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T17:42:41.126Z",
+      "summary": "Management expects 30% revenue growth in Prefab division for FY27 with stable 10%+ EBITDA margins, supported by capacity additions and strong order book visibility.",
+      "guidance": [
+        {
+          "metric": "Revenue (Prefab division)",
+          "horizon": "FY27",
+          "statement": "30% growth in Prefab division revenue to INR1,920-1,950 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain 10%+ EBITDA margin throughout the year",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Target INR2,000+ crores order book for the year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book composition",
+          "horizon": "FY27",
+          "statement": "35%-38% of order book from renewables, data centers, semiconductors, and logistics",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization (structural steel)",
+          "horizon": "FY27",
+          "statement": "Incremental capacity additions to be absorbed significantly in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sandwich panel utilization (Mambattu)",
+          "horizon": "FY27",
+          "statement": "At least 75%-80% utilization for Mambattu sandwich panel line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sandwich panel revenue contribution",
+          "horizon": "FY27",
+          "statement": "Adds INR70-90 crores to revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Total capex of INR150 crores for capacity ramp-up",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gujarat greenfield capacity",
+          "horizon": "Q4FY27",
+          "statement": "50,000 tons capacity addition in Gujarat to start utilization from next FY",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "PAT margin to improve to ~6.5% due to lower finance costs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sandwich panel capex (Ghiloth)",
+          "horizon": "FY27",
+          "statement": "INR90 crores capex for sandwich panel line in Ghiloth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "FY27",
+          "statement": "INR1,117+ crores order book fully executable within FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue breakup between PEB and sandwich panel",
+        "Margin profile bifurcation for sandwich panel vs. Prefab"
+      ],
+      "margin_drivers": [
+        "Steel price pass-through in contracts",
+        "Inventory management to mitigate raw material cost volatility",
+        "Sandwich panel line utilization improvement",
+        "Order mix from high-growth sectors (renewables, data centers, semiconductors)",
+        "Capacity utilization efficiency"
+      ]
+    },
+    "Sahaj Solar": {
+      "company": "Sahaj Solar",
+      "ticker": "SAHAJSOLAR",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SahajSolar_22052026173133_220526SSLTranscript.pdf",
+      "transcript_id": "sahaj-solar_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T17:42:49.644Z",
+      "summary": "Management expects 30%+ revenue growth over the next 3 years with stable 12%+ EBITDA margins, driven by solar+BESS projects, international expansion, and new product lines like bulk milk chillers.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "next 3 years",
+          "statement": "30% plus growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "next 3 years",
+          "statement": "12% plus EBITDA margin to be maintained",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "FY27",
+          "statement": "INR402 crore order book will be fully executed during FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "At least 30% plus growth expected for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Interest cost",
+          "horizon": "medium-term",
+          "statement": "Interest cost expected to reduce to 9%-10% from current 11%-12%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Operating cash flow",
+          "horizon": "FY27",
+          "statement": "Operating cash flow expected to turn positive by end of third quarter of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Zambia project contribution",
+          "horizon": "FY27",
+          "statement": "Zambia 10 MW EPC project to be completed by FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bulk milk chiller orders",
+          "horizon": "next 3 years",
+          "statement": "10,000 bulk milk chillers to be deployed over next 3 years with orders starting from H2FY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Module manufacturing capacity",
+          "horizon": "medium-term",
+          "statement": "Existing 100 MW capacity utilized at ~60%; no immediate expansion plans in India",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "International revenue contribution",
+          "horizon": "medium-term",
+          "statement": "International projects (Zambia, Mauritius) to contribute higher margins than Indian market",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PM KUSUM Scheme impact",
+          "horizon": "FY27",
+          "statement": "Growth guidance not significantly impacted even if PM KUSUM Scheme is delayed or not renewed",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Debt-equity ratio",
+          "horizon": "medium-term",
+          "statement": "Comfortable with current 1.27x ratio; no target reduction mentioned",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "exact percentage contribution of bulk milk chiller orders to revenue growth",
+        "timeline for significant international revenue flows beyond FY27"
+      ],
+      "margin_drivers": [
+        "solar plus BESS (Battery Energy Storage System) projects",
+        "off-grid solutions (e.g., Border Security Forces projects)",
+        "anti-soil and nano technology coatings for panels",
+        "improved payment cycles from government agencies",
+        "international projects (Zambia, Mauritius)"
+      ]
+    },
+    "Birlasoft Ltd": {
+      "company": "Birlasoft Ltd",
+      "ticker": "BSOFT",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=535823ab-5719-4fcf-92b1-3752dd161482.pdf",
+      "transcript_id": "birlasoft-ltd_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T17:42:58.803Z",
+      "summary": "Management expects FY27 to be a recovery year with improved revenue growth driven by sales team expansion and AI-led deals, though no explicit revenue guidance is provided.",
+      "guidance": [
+        {
+          "metric": "Sales team strength",
+          "horizon": "by mid-FY27",
+          "statement": "Sales team strength expected to increase by 30% to 40% YoY by mid-FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order booking expected to improve significantly with expanded sales team and pipeline generation",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Management expects FY27 to be better than FY26, with bad news behind them, but no explicit revenue guidance provided",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Steady-state EBITDA margin expected to be upward of 15%, with margin erosion from investments in growth",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "AI-led deals",
+          "horizon": "FY27",
+          "statement": "Focus on AI-led deals and AI-first operating model to drive growth and efficiency",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ERP business",
+          "horizon": "FY27",
+          "statement": "ERP business expected to improve with new leadership and continued client interest in ERP landscape",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin impact from growth investments",
+          "horizon": "FY27",
+          "statement": "Investments in sales, leadership, AI orchestration, and capabilities will drain margins initially",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Margin impact from productivity benefits",
+          "horizon": "FY27",
+          "statement": "Front-ending of productivity benefits for new and existing clients will initially drain margins",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Effective tax rate",
+          "horizon": "FY27",
+          "statement": "ETR expected to settle closer to historical levels starting FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "H1 vs H2 revenue",
+          "horizon": "FY27",
+          "statement": "H1 expected to be softer than H2 for order booking, with revenue trajectory dependent on pipeline and order book",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Impact of exiting low-margin business",
+          "horizon": "FY27",
+          "statement": "Exiting low-margin, non-strategic deals impacted FY26 growth by ~200 bps; benefits expected to continue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net new TCV",
+          "horizon": "Q1FY27",
+          "statement": "Net new TCV expected to improve as client decision-making delays are resolved in current quarter",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "explicit revenue growth numbers for FY27",
+        "quarterly revenue growth trajectory for FY27",
+        "exact deal intake numbers required for sustainable QoQ growth"
+      ],
+      "margin_drivers": [
+        "AI-led deals and productivity benefits",
+        "investments in sales team expansion",
+        "leadership additions across verticals and service lines",
+        "AI orchestration layer and capability enhancements",
+        "front-ending of productivity benefits for clients",
+        "currency tailwinds (historical context)"
+      ]
     }
   },
-  "generated_at": "2026-07-05T16:39:48.320Z",
-  "count": 746
+  "generated_at": "2026-07-05T17:43:00.333Z",
+  "count": 750
 }
