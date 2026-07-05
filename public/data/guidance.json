@@ -72396,8 +72396,400 @@
         "Cost competitiveness and operational resilience",
         "Life cycle cost considerations in customer decisions favoring stainless steel"
       ]
+    },
+    "Pearl Global Ind": {
+      "company": "Pearl Global Ind",
+      "ticker": "PGIL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0df2202-9962-4061-a631-a763ad8ff410.pdf",
+      "transcript_id": "pearl-global-ind_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-05T04:18:48.372Z",
+      "summary": "Pearl Global Industries expects growth momentum to continue beyond FY28, driven by its diversified footprint and comprehensive market access across geographies.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to maintain 10% EBITDA margin",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "India EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to generate double-digit EBITDA in Q4 and high single-digit EBITDA for the full year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Guatemala operations",
+          "horizon": "FY27",
+          "statement": "Expected to achieve breakeven",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "FY27-28",
+          "statement": "Expected to increase capacity by 6-7 million pieces in Bangladesh and establish new capacity in Vietnam",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Expected to be in the range of INR200-250 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Realization",
+          "horizon": "FY27",
+          "statement": "Expected to sustain at INR635-640 per garment",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Cost restructuring",
+        "Improved operational efficiency",
+        "Removal of U.S. tariffs",
+        "India-EU FTA and U.K. FTA"
+      ]
+    },
+    "South West Pinn.": {
+      "company": "South West Pinn.",
+      "ticker": "SOUTHWEST",
+      "sector": "Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccc91fb5-feb9-4366-b56b-f3fd0ae6aea3.pdf",
+      "transcript_id": "south-west-pinn_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T04:18:56.476Z",
+      "summary": "Management expects strong revenue growth with disproportionate profitability improvement in the short to medium term, driven by order book expansion and operational efficiency.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "short to medium term",
+          "statement": "Expect around 20% year-on-year growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Profitability (bottom line)",
+          "horizon": "short to medium term",
+          "statement": "Substantial increase in bottom line with disproportionate growth relative to revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "short to medium term",
+          "statement": "EBITDA margin should increase due to fixed cost coverage and improved operational efficiency",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Participated in tenders worth INR 500-700 crores; new orders expected in next 1-2 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hindustan Zinc order execution",
+          "horizon": "FY27",
+          "statement": "INR 300 crore order to be executed over 4 years; aim to complete earlier; expected revenue contribution of INR 75 crores per year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Reliance contract contribution",
+          "horizon": "FY27",
+          "statement": "Reliance portfolio to contribute 35% to 40% of total revenue",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Coal block CAPEX (Phase 1)",
+          "horizon": "FY27",
+          "statement": "INR 200 crores CAPEX for Phase 1, primarily funded through internal accruals, bank loans, and offtake agreements",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Coal block IRR",
+          "horizon": "FY27",
+          "statement": "Expected IRR of 40% to 45% based on coal index price of INR 3,100 per ton",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Coal block EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected EBITDA margin of around 46%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Oman JV CAPEX",
+          "horizon": "next 3-5 years",
+          "statement": "INR 15-20 crores investment in Oman JV operations",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Rig count expansion",
+          "horizon": "next 3-6 months",
+          "statement": "Four new rigs to be delivered in next 3-6 months, expanding current fleet of 40 rigs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Underground Coal Gasification (UCG)",
+          "horizon": "coming years",
+          "statement": "Government impetus expected to drive growth in UCG sector; company is engaging with clients",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "quantification of margins on a project-to-project basis",
+        "total CAPEX breakdown for individual rigs",
+        "specific timeline for execution of all contracts in the order book"
+      ],
+      "margin_drivers": [
+        "fixed cost coverage with revenue growth",
+        "improved operational efficiency",
+        "shift toward private sector clients (two-thirds of order book)",
+        "exploration sector growth driven by geopolitical uncertainties and supply chain disruptions",
+        "government impetus on critical minerals and energy security"
+      ]
+    },
+    "Beta Drugs Ltd": {
+      "company": "Beta Drugs Ltd",
+      "ticker": "BETA",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/BETA_22052026202630_transcript.pdf",
+      "transcript_id": "beta-drugs-ltd_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T04:19:03.057Z",
+      "summary": "Management expects strong growth across multiple segments with a Vision 2030 target of INR900+ crores revenue by FY30, driven by exports, branded oncology, cosmetology, and the Nivian IVF acquisition.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Growth of 20% to 25% annually, including Nivian acquisition; Vision 2030 target of INR900+ crores by FY30.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin to improve to 23%-24%, including other income.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Exports revenue",
+          "horizon": "FY27",
+          "statement": "Exports to grow >50% in FY27; target to contribute 30% of total revenue by FY30.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Exports revenue",
+          "horizon": "FY28",
+          "statement": "Target of INR200 crores exports by FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Branded oncology revenue growth",
+          "horizon": "3-4 years",
+          "statement": "Branded oncology business to grow 20%-25% annually.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cosmetology revenue growth",
+          "horizon": "3-4 years",
+          "statement": "Cosmetology division to grow 30%-40% annually.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Nivian IVF revenue growth",
+          "horizon": "3-4 years",
+          "statement": "Nivian to grow at 30% annually.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CDMO revenue growth",
+          "horizon": "3-4 years",
+          "statement": "CDMO business to grow 5%-6% annually.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "3-4 years",
+          "statement": "20-25 new products to be launched in oncology, including 2 new NDDS in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "API intermediate plant commercialization",
+          "horizon": "FY27",
+          "statement": "API intermediate plant to be commercialized by end of FY27, with potential 1-1.5% margin improvement.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY28",
+          "statement": "Total capex not expected to exceed INR25 crores over next 2 years.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Borrowings",
+          "horizon": "FY27",
+          "statement": "Working capital facilities to be INR7-10 crores, term loans INR20 crores.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "geopolitical impact on raw material prices beyond stockpiling",
+        "top three export geographies by revenue",
+        "detailed breakdown of Nivian's FY27 revenue contribution"
+      ],
+      "margin_drivers": [
+        "export growth",
+        "branded oncology expansion",
+        "cosmetology margin improvement",
+        "Nivian IVF synergies",
+        "API intermediate plant commercialization",
+        "new NDDS launches"
+      ]
+    },
+    "Uno Minda": {
+      "company": "Uno Minda",
+      "ticker": "UNOMINDA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e74dee4a-934d-42b9-96b2-5e15565efbc0.pdf",
+      "transcript_id": "uno-minda_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-05T04:19:13.372Z",
+      "summary": "Management expects FY27 to sustain automotive industry growth with continued investment in core and emerging EV/alternate fuel segments.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned total capex of ~INR 1,750 crores, split into ~INR 650 crores sustaining capex and ~INR 1,100 crores growth capex.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain stable EBITDA margins despite input cost volatility through operational efficiencies.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Green mobility revenue",
+          "horizon": "FY27",
+          "statement": "Targeting continued growth in green mobility segment, leveraging EV and alternate fuel opportunities.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV powertrain revenue",
+          "horizon": "FY27-H2",
+          "statement": "Phase 1 commissioning of high-voltage EV powertrain facility in H2FY27 with initial supplies already started.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EV powertrain revenue",
+          "horizon": "FY28",
+          "statement": "Second EV powertrain plant in Chhatrapati Sambhajinagar to be commissioned by Q2FY28 with INR 550 crores investment.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sunroof order book",
+          "horizon": "FY27",
+          "statement": "Sunroof manufacturing facility expected to be commissioned by end of FY27 with order book potential exceeding INR 350 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "IVI revenue",
+          "horizon": "FY29-Q3",
+          "statement": "Secured INR 600 crores order for Android-based IVI platform with SOP expected in Q3FY29.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "2-wheeler lighting revenue",
+          "horizon": "FY28-H2",
+          "statement": "New order for unserved models with annual peak value of ~INR 450 crores, SOP in H2FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Seating export orders",
+          "horizon": "FY28",
+          "statement": "New export orders worth ~INR 390 crores from Europe and North America in CV segment, SOP in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CNG penetration in PV segment",
+          "horizon": "medium-term",
+          "statement": "CNG penetration in Indian PV market expected to continue rising, supporting alternate fuel business growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Alloy wheel penetration",
+          "horizon": "medium-term",
+          "statement": "Gradual but consistent increase in alloy wheel penetration across vehicle segments expected over time.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewable energy adoption",
+          "horizon": "2030",
+          "statement": "Targeting 60% renewable energy share by 2030 as part of sustainability roadmap.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue growth",
+        "FY27 PAT growth",
+        "FY27 EBITDA growth",
+        "Market share gains by segment",
+        "Specific EV penetration targets"
+      ],
+      "margin_drivers": [
+        "Operational efficiencies",
+        "Volume expansion",
+        "Premiumization in switching and lighting systems",
+        "EV and alternate fuel adoption",
+        "Market share gains in core segments"
+      ]
     }
   },
-  "generated_at": "2026-07-05T00:12:39.774Z",
-  "count": 713
+  "generated_at": "2026-07-05T04:19:14.899Z",
+  "count": 717
 }
