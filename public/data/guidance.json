@@ -77694,8 +77694,175 @@
         "cost management",
         "price increases (2% in Q1FY27, 3%-4% expected in Q2FY27)"
       ]
+    },
+    "Emcure Pharma": {
+      "company": "Emcure Pharma",
+      "ticker": "EMCURE",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f1abb03-c58e-4e1f-a940-1226258e5c51.pdf",
+      "transcript_id": "emcure-pharma_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-06T10:59:29.910Z",
+      "summary": "Emcure Pharmaceuticals expects strong performance in FY27, driven by domestic market growth, semaglutide partnership, and international market expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Low to mid-teen revenue growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expansion of 75 to 100 basis points",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic business growth",
+          "horizon": "FY27",
+          "statement": "Growth above industry rate, likely in low double-digits",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International market growth",
+          "horizon": "FY27",
+          "statement": "Continued growth, led by market share gains, new launches, and expanded portfolio",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Europe business growth",
+          "horizon": "Next 2 years",
+          "statement": "Mid-teens growth as a CAGR",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margins",
+          "horizon": "FY27",
+          "statement": "Expected to remain around 60%",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operating leverage",
+        "Productivity gains",
+        "Better business mix"
+      ]
+    },
+    "Genus Power": {
+      "company": "Genus Power",
+      "ticker": "GENUSPOWER",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=891de5bd-e344-4899-91a0-97a381cef1f7.pdf",
+      "transcript_id": "genus-power_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T10:59:37.648Z",
+      "summary": "Strong growth outlook for FY27 with revenue guidance of INR6,000-6,500 crores and EBITDA margin guidance of 18%, supported by smart metering demand and export initiatives.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue guidance of INR6,000 crores to INR6,500 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin guidance of 18%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "No major capex expected; only INR10-20 crores for regular maintenance",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "Next 2-3 years",
+          "statement": "Targeting INR500 crores revenue from exports",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gas meter market opportunity",
+          "horizon": "Next 3-4 years",
+          "statement": "INR35,000-36,000 crores market opportunity in India",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Water meter market opportunity",
+          "horizon": "Medium-term",
+          "statement": "Water metering seen as a significant long-term opportunity globally",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Working capital days",
+          "horizon": "FY27",
+          "statement": "Expect improvement of another 50-75 days in working capital days",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Net debt",
+          "horizon": "FY28 onwards",
+          "statement": "Net debt expected to start reducing from FY28 onwards",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Peak net borrowing",
+          "horizon": "FY28",
+          "statement": "Expected peak net borrowing of INR2,000 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Investment in JV platform",
+          "horizon": "FY27-FY29",
+          "statement": "Expect investment of INR600-700 crores in JV platform over next 2 years (FY27, FY28, Q1FY29)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tender pipeline",
+          "horizon": "FY27",
+          "statement": "Expect tenders of 9 crore meters in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share",
+          "horizon": "FY27",
+          "statement": "Confident of maintaining current market share",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "FY28 revenue and EBITDA guidance"
+      ],
+      "margin_drivers": [
+        "Raw material prices (petroleum, chips, electronics)",
+        "Exchange rate fluctuations",
+        "Product mix shift towards project business",
+        "Operating leverage and scale efficiencies"
+      ]
     }
   },
-  "generated_at": "2026-07-06T06:09:57.263Z",
-  "count": 767
+  "generated_at": "2026-07-06T10:59:39.170Z",
+  "count": 769
 }
