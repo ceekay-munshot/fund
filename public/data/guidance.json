@@ -78182,8 +78182,507 @@
         "operational efficiency",
         "store quality improvement"
       ]
+    },
+    "Navin Fluo.Intl.": {
+      "company": "Navin Fluo.Intl.",
+      "ticker": "NAVINFLUOR",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1440596d-ed29-441c-b785-0c8dbf3b5dbd.pdf",
+      "transcript_id": "navin-fluo-intl_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-06T19:21:53.628Z",
+      "summary": "Navin Fluorine International Limited expects to maintain its growth momentum, driven by its diversified product portfolio, strong balance sheet, and increasing demand across key segments.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expecting growth driven by contribution across business verticals",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting expansion driven by operating leverage and pricing actions",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Net working capital days",
+          "horizon": "FY27",
+          "statement": "Expected to be in the range of 75 to 80 days",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Additional HFC capacity expansion equivalent to 15,000 metric tons per annum of R32 remains on track for commissioning in Q3 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Robust pipeline with 80% capacity utilization visibility",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CDMO revenue",
+          "horizon": "FY27",
+          "statement": "Expecting growth, with a target of $100 million",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Pricing for Fermion portfolio"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Pricing actions",
+        "Currency tailwind"
+      ]
+    },
+    "Jagsonpal Pharma": {
+      "company": "Jagsonpal Pharma",
+      "ticker": "JAGSNPHARM",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=721f1437-9b61-4f9f-ab4f-e10de53e812a.pdf",
+      "transcript_id": "jagsonpal-pharma_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T19:22:01.999Z",
+      "summary": "Management expects sustained growth acceleration driven by execution improvements, brand focus, and inorganic opportunities, with a target of 1.5x IPM growth and disciplined capital returns.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Targeting 1.5x the Indian Pharma Market (IPM) growth, which is currently 6%-9%, implying 12%-15% revenue growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27 and beyond",
+          "statement": "Maintaining stable margins with disciplined cost management, though no explicit margin guidance provided.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Confidence in sustaining and accelerating profitability growth driven by revenue growth and cost discipline.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "MR productivity",
+          "horizon": "Next 2-3 quarters",
+          "statement": "Expecting continued improvement in MR productivity through structured training, upskilling, and better resource allocation.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "Next 2-3 quarters",
+          "statement": "Volume growth expected to match or exceed industry levels (0.5%-1.3% monthly), with internal efforts to improve further.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "FY27",
+          "statement": "Planning 9-10 new product launches (including brand extensions), with half focused on rejuvenating legacy brands and half on new therapies.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share",
+          "horizon": "FY27 and beyond",
+          "statement": "Aiming to outperform the IPM by 1.5x, reflecting confidence in gaining market share.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inorganic growth (acquisitions)",
+          "horizon": "Medium-term",
+          "statement": "Capable of funding acquisitions up to INR400 crores with current balance sheet strength (INR190 crores cash + INR200 crores debt capacity).",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "FY27",
+          "statement": "Committed to disciplined capital returns, including buyback and dividend, to improve ROE and ROCE.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "FY27",
+          "statement": "Maintaining a net working capital cycle of ~11 days, reflecting financial discipline.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROE improvement",
+          "horizon": "Post buyback (FY27)",
+          "statement": "ROE expected to increase from ~16% to ~18% post-INR40 crores buyback.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE improvement",
+          "horizon": "Post buyback (FY27)",
+          "statement": "ROCE expected to improve from ~22% to ~26% post-INR40 crores buyback.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "exact breakup of revenue growth by therapy segments",
+        "specific quantitative thresholds for MR productivity growth or volume growth beyond the stated industry metrics"
+      ],
+      "margin_drivers": [
+        "MR productivity improvements",
+        "brand investments in high-potential therapies (Gynaecology, Dermatology)",
+        "disciplined cost management",
+        "price growth (6.5%-7%)",
+        "new product launches (3%+ contribution)",
+        "field force stability and retention"
+      ]
+    },
+    "Skipper": {
+      "company": "Skipper",
+      "ticker": "SKIPPER",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba4f9419-be44-4c0c-b49e-32becf9f6ee7.pdf",
+      "transcript_id": "skipper_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T19:22:09.988Z",
+      "summary": "Management expects FY27 revenue growth of 15% with 30% PAT growth, supported by strong domestic order book and gradual export recovery, while targeting long-term EBITDA margin of 12%.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "15% year-on-year growth guidance",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "Approximately 30% year-on-year growth guidance",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aim to improve margins despite cost pressures, targeting long-term aspirational margin of 12%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Guidance of INR250 crores, similar to previous years",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity",
+          "horizon": "FY27",
+          "statement": "Add 75,000 metric tons capacity by FY27 end, reaching 525,000 metric tons",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity",
+          "horizon": "FY28",
+          "statement": "Add another 75,000 metric tons in FY28, reaching 600,000 metric tons",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order inflow",
+          "horizon": "medium-term",
+          "statement": "Historical conversion ratio of 20-25% from INR33,000 crore bidding pipeline",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export order book",
+          "horizon": "long-term",
+          "statement": "Target to increase export order book to 25% and eventually 50% of total",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic order book mix",
+          "horizon": "current",
+          "statement": "Current order book is 90% domestic and 10% export",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Bidding pipeline mix",
+          "horizon": "current",
+          "statement": "Bidding pipeline is 60-65% domestic and balance exports",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "PGCIL capex",
+          "horizon": "FY27-FY28",
+          "statement": "PGCIL guided for INR37,000 crore capex in FY27 and INR45,000 crore in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order award acceleration",
+          "horizon": "FY27",
+          "statement": "Order awarding expected to accelerate significantly from FY27, approaching FY25 levels",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact EBITDA margin improvement for FY27"
+      ],
+      "margin_drivers": [
+        "Operating leverage from capacity expansion",
+        "Higher quality order execution",
+        "Mix of variable price and firm price contracts",
+        "Export diversification away from Middle East",
+        "Substation segment addition to portfolio"
+      ]
+    },
+    "Zensar Tech.": {
+      "company": "Zensar Tech.",
+      "ticker": "ZENSARTECH",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.zensar.com/assets/files/44UzGb8qI8JxcDiZaKEn8c/Earnings-Call-Transcript-Q4-FY26.pdf",
+      "transcript_id": "zensar-tech_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T19:22:21.108Z",
+      "summary": "Zensar expects growth recovery in Q1FY27 driven by BFSI and EU/SA regions, with AI-led deals and large deal ramp-up supporting medium-term performance despite TMT headwinds.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "Q1FY27",
+          "statement": "Management does not expect a degrowth quarter in Q1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "FY27 performance will be contingent on the successful ramp-up of the mega deal.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Large deal ramp-up",
+          "horizon": "Q1FY27-Q3FY27",
+          "statement": "Revenue from the large deal will start in Q1FY27, with full-fledged revenue expected from Q3FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q1FY27-Q2FY27",
+          "statement": "Margin pressure expected in Q1 and Q2 due to deal-related costs and transition phases.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "short-term",
+          "statement": "Order book excluding large deals is expected to remain between $180M-$200M.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "AI-led deals",
+          "horizon": "medium-term",
+          "statement": "All large deals now include a significant AI component, enhancing competitiveness and deal pipeline.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Attrition",
+          "horizon": "FY27",
+          "statement": "Attrition expected to remain business-as-usual outside the top TMT client.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Employee cost",
+          "horizon": "Q1FY27-Q2FY27",
+          "statement": "Deal-related employee cost addition expected to be ~0.5%-0.6% in Q1, with further increase in Q2.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "TMT vertical",
+          "horizon": "next few quarters",
+          "statement": "TMT vertical will remain under pressure due to industry-wide cost-cutting and in-sourcing trends.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "BFSI vertical",
+          "horizon": "FY27",
+          "statement": "BFSI vertical expected to continue growing.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Healthcare/Life Sciences vertical",
+          "horizon": "FY27",
+          "statement": "Healthcare/Life Sciences vertical expected to be under stress due to account consolidation.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "EU and SA regions",
+          "horizon": "Q1FY27",
+          "statement": "EU and SA regions expected to show good growth.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "exact revenue contribution from the mega deal in Q2FY27",
+        "exact employee cost increase in Q1FY27 beyond deal-related additions",
+        "specific AI deal sizes or pure-play AI service revenue targets"
+      ],
+      "margin_drivers": [
+        "AI-led productivity gains",
+        "deal-related transition costs",
+        "employee cost inflation",
+        "large deal ramp-up timing",
+        "TMT vertical pressure"
+      ]
+    },
+    "DOMS Industries": {
+      "company": "DOMS Industries",
+      "ticker": "DOMS",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13ff58e7-7fe9-47ef-b8a7-261edd6b1b8f.pdf",
+      "transcript_id": "doms-industries_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T19:22:29.533Z",
+      "summary": "DOMS expects FY27 revenue growth of 17-20% with capex of INR250-275 crore, while near-term margins face pressure from volatile raw material costs but long-term profile remains intact.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue to grow by 17% to 20% at consolidated level with planned capacity expansion and current demand trends.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned capex between INR250 crores to INR275 crores for FY27.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q1FY27",
+          "statement": "Margins in Q1 to remain slightly under pressure versus corresponding period last year due to raw material cost volatility.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Management does not view current margin pressure as structural and expects long-term margin profile to remain intact.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Raw material inflation impact",
+          "horizon": "near-term",
+          "statement": "Raw material cost increase of approximately 15% to 20% with pricing actions of 4% to 5% passed on to consumers.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Pricing actions",
+          "horizon": "near-term",
+          "statement": "Calibrated and gradual pricing actions including channel margin rationalization and selective MRP increases to mitigate cost inflation.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "Q2FY27",
+          "statement": "First building of 45-acre facility to be completed in June 2027 with commercial production expected to commence towards the end of Q2 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product categories growth",
+          "horizon": "FY27",
+          "statement": "Office supplies segment (pens, highlighters) and writing instruments to continue growing with new capacity additions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share",
+          "horizon": "3-5 years",
+          "statement": "Significant headroom to grow in office supply segment with capacity plans to increase market share.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Brand engagement",
+          "horizon": "ongoing",
+          "statement": "Social media community scaling with YouTube subscribers crossing 4 million and Instagram followers over 170,000.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost efficiencies",
+          "horizon": "near-term",
+          "statement": "Focus on cost efficiencies through marketing spend rationalization and operational improvements to mitigate margin pressure.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Supply chain continuity",
+          "horizon": "ongoing",
+          "statement": "Priority to maintain continuity of manufacturing and safeguard supply chain amid geopolitical disruptions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "absolute market share in organized office supply space",
+        "definitive margin profile for FY27",
+        "exact price increase percentages beyond 4-5%",
+        "Uniclan margins beyond current quarter"
+      ],
+      "margin_drivers": [
+        "raw material cost volatility (crude-linked inputs)",
+        "e-commerce sales mix in baby hygiene (Uniclan)",
+        "channel margin rationalization and discount schemes",
+        "marketing and advertising spend efficiency",
+        "new product launches and capacity additions",
+        "geopolitical disruptions in West Asia"
+      ]
     }
   },
-  "generated_at": "2026-07-06T17:24:37.685Z",
-  "count": 773
+  "generated_at": "2026-07-06T19:22:31.064Z",
+  "count": 778
 }
