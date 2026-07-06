@@ -79223,8 +79223,554 @@
         "Geopolitical issues",
         "Top-line growth offsetting cost pressures"
       ]
+    },
+    "True Colors": {
+      "company": "True Colors",
+      "ticker": "544531",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b835cfa6-d985-4ade-9509-3dbd975ad5e8.pdf",
+      "transcript_id": "true-colors_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T22:48:31.094Z",
+      "summary": "Management expects mid-20% revenue growth with profitability outpacing sales over the medium term, driven by ecosystem expansion and backward integration.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term",
+          "statement": "Expect to grow at around 20% to 22% over the medium term",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Profitability growth should outpace the top line",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Sustainable margin range is 14% to 16%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "In-house ink manufacturing capacity",
+          "horizon": "FY27",
+          "statement": "Phase-1 targets 150 tons per month with INR 40-45 crore capex",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "In-house ink manufacturing capacity",
+          "horizon": "FY28",
+          "statement": "Phase-2 targets 500 tons per month with additional INR 20-25 crore capex",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "In-house ink manufacturing capacity",
+          "horizon": "long-term",
+          "statement": "Phase-3 targets 1000 tons per month across sublimation, reactive, disperse, pigment inks",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sublimation paper capacity utilization",
+          "horizon": "FY27",
+          "statement": "FY26 utilization was 52% on 2 crore meters per month capacity, providing headroom for growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Recurring revenue share",
+          "horizon": "3-5 years",
+          "statement": "Recurring revenue will increase as more machines are installed, though dominance may take longer",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Installed base growth",
+          "horizon": "5 years",
+          "statement": "India is at 7-8% digital printing penetration vs 85-90% in Europe, implying significant growth potential",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex for ink manufacturing",
+          "horizon": "FY27-FY28",
+          "statement": "Total capex of INR 100-115 crore across three phases for ink manufacturing",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Addressable market expansion",
+          "horizon": "medium-term",
+          "statement": "Global brands diversifying from China under China Plus One strategy will expand addressable market",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin uplift from ink manufacturing",
+          "horizon": "FY27-FY28",
+          "statement": "Manufacturing will improve margins compared to distribution and provide formulation control",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue or EBITDA numbers for FY27 beyond the medium-term growth range"
+      ],
+      "margin_drivers": [
+        "backward integration into ink manufacturing",
+        "increased recurring revenue from consumables",
+        "expansion of sublimation paper capacity",
+        "formulation control for ink",
+        "China Plus One demand for Indian-made inks"
+      ]
+    },
+    "Alivus Life": {
+      "company": "Alivus Life",
+      "ticker": "ALIVUS",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0ba0e04-82cd-4b3e-b8a9-ad4deec0d0e5.pdf",
+      "transcript_id": "alivus-life_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T22:48:39.166Z",
+      "summary": "Management expects sustained margin resilience and steady growth driven by non-GPL expansion, capex-led capacity additions, and backward integration, despite macro headwinds.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain EBITDA margins in the range of 30% to 32%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Plan to incur capex of about INR540 crores, fully funded through internal accruals",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (API)",
+          "horizon": "FY28",
+          "statement": "Capacity to increase from 1,198 KL in FY24 to a planned 2,690 KL by FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-GPL revenue growth",
+          "horizon": "FY27",
+          "statement": "Non-GPL business to continue growing at double-digit rates",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Solapur utilization",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Solapur to start with 40% to 50% utilization, ramping to 60% to 70% in the following year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Backward integration contribution",
+          "horizon": "FY27 onwards",
+          "statement": "Backward integration at Solapur to contribute to margin improvement once operational",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Price erosion (non-GPL, non-CDMO)",
+          "horizon": "FY27",
+          "statement": "Price erosion of about 5.5% expected in base non-GPL, non-CDMO business",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "High-potent API revenue contribution",
+          "horizon": "FY27",
+          "statement": "High-potent API revenue contribution to remain limited until patent expiries post-2028",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "GPL revenue stability",
+          "horizon": "FY27",
+          "statement": "GPL revenues expected to remain relatively stable",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "R&D expenditure",
+          "horizon": "FY27",
+          "statement": "R&D expenditure to remain around 3.6% of sales",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Solapur Phase 1 operational timeline",
+          "horizon": "Q2FY27",
+          "statement": "Solapur Phase 1 expected to be operational in Q2 of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Regulatory inspection for Solapur",
+          "horizon": "FY27",
+          "statement": "Plan to pursue regulatory inspection for Solapur to expand into regulated markets",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "inorganic acquisition targets or timelines",
+        "detailed revenue growth CAGR beyond FY27"
+      ],
+      "margin_drivers": [
+        "backward integration",
+        "operational efficiencies",
+        "product mix shift toward high-value differentiated products",
+        "cost management",
+        "new product launches",
+        "CDMO business growth"
+      ]
+    },
+    "Mayur Uniquoters": {
+      "company": "Mayur Uniquoters",
+      "ticker": "MAYURUNIQ",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2eb17089-84af-433a-808a-e083e8d720c6.pdf",
+      "transcript_id": "mayur-uniquoters_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T22:48:46.120Z",
+      "summary": "Management expects sustained growth in export-led value terms with stable margins, though raw material volatility remains a near-term risk.",
+      "guidance": [
+        {
+          "metric": "Revenue (export)",
+          "horizon": "next 2-3 years",
+          "statement": "Increased momentum in export orders, particularly from US OEMs, expected to continue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (domestic)",
+          "horizon": "FY27",
+          "statement": "Domestic growth expected between 8%-10% in value terms",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (export)",
+          "horizon": "FY27",
+          "statement": "Export growth expected between 15%-20% in value terms",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue mix (export vs domestic)",
+          "horizon": "FY27",
+          "statement": "Export revenue expected to be 40%-45% of total revenue",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin expected to be maintained around 25%-26% for the year as a whole",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "long-term",
+          "statement": "Margin could range between 25%-30% due to higher export margins and currency benefits",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material prices",
+          "horizon": "next 2-3 months",
+          "statement": "No increase expected in near future; prices have softened from March highs",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Price hikes (domestic)",
+          "horizon": "Q1FY27-Q2FY27",
+          "statement": "Price hikes taken for domestic customers in footwear open market; automotive price increases to reflect in Q1FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PU business",
+          "horizon": "medium-term",
+          "statement": "Business still muted; ongoing discussions with brands but no commercial settlements yet",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Ford business",
+          "horizon": "coming months",
+          "statement": "Volume with Ford increasing; more platforms added and expected to grow further",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee expenses",
+          "horizon": "FY27",
+          "statement": "Labor code impact and new hires will contribute to higher employee expenses",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory levels (US)",
+          "horizon": "ongoing",
+          "statement": "Maintaining 8 weeks inventory in US due to extended shipment times",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "exact margin for Q1FY27",
+        "quarterly revenue/EBITDA guidance",
+        "specific PU business volume targets"
+      ],
+      "margin_drivers": [
+        "export mix",
+        "currency depreciation",
+        "raw material price pass-through",
+        "product mix",
+        "freight cost reduction"
+      ]
+    },
+    "Pricol Ltd": {
+      "company": "Pricol Ltd",
+      "ticker": "PRICOLLTD",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ceafd440-d32e-4124-b0d8-0986c8098710.pdf",
+      "transcript_id": "pricol-ltd_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T22:48:55.340Z",
+      "summary": "Management expects softening in automotive sector earnings due to geopolitical headwinds but remains confident on long-term growth, R&D investments, and selective M&A despite near-term margin pressures.",
+      "guidance": [
+        {
+          "metric": "Market share (instrument clusters)",
+          "horizon": "next 3 years",
+          "statement": "Management expects to maintain market share by volume and increase by value, with confirmed LOIs for most programs.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Management expects to grow at higher than market growth rate despite industry softening.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "P3L revenue",
+          "horizon": "3 years",
+          "statement": "Aims to double P3L's turnover in three years, likely to exceed the target.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ACFMS revenue growth",
+          "horizon": "FY27",
+          "statement": "Previously guided 30%-35% growth, but now uncertain due to headwinds; may not meet target.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Exports as % of revenue",
+          "horizon": "medium-term",
+          "statement": "Aims to increase exports to 10% of revenue from current ~7%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "P3L EBITDA margin",
+          "horizon": "2 years",
+          "statement": "Margins to soften over two years due to forward investments in technology and new plants before normalizing to ~10%.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Cost recovery from OEMs",
+          "horizon": "next quarter",
+          "statement": "Actively engaging with top 10-12 customers to recover cost increases; recovery will be tripartite with OEMs and company absorbing some shock.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "BOE Varitronix (backward integration) production",
+          "horizon": "10-12 months",
+          "statement": "Production of backlight modules to commence in 10-12 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domino partnership commercial sales",
+          "horizon": "18-24 months",
+          "statement": "Early stages of revenue will start trickling in from Domino partnership in 18-24 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "M&A activity",
+          "horizon": "medium-term",
+          "statement": "Evaluating multiple M&A opportunities cautiously, with active negotiations and due diligence in progress; selective approach based on quality of asset and ROI.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "R&D and technology investments",
+          "horizon": "medium-term",
+          "statement": "No scaling back on critical capital investments or R&D to maintain long-term growth and competitive edge.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Dividend policy",
+          "horizon": "next 6 months",
+          "statement": "Board decided to retain 200% dividend for FY26 and will reassess dividend policy after six months based on performance.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "crude oil prices",
+        "rupee movement",
+        "geopolitical developments (e.g., West Asia crisis duration)",
+        "specific revenue/EBITDA/PAT numbers for FY27",
+        "content per vehicle trends over 3-5 years"
+      ],
+      "margin_drivers": [
+        "FOREX impact on costs",
+        "polymer prices (+55%)",
+        "aluminum prices (+62%)",
+        "semiconductor prices (+35%)",
+        "freight costs (spiraling)",
+        "cost recovery negotiations with OEMs",
+        "R&D investments in P3L",
+        "new plant commissioning costs"
+      ]
+    },
+    "Centum Electron": {
+      "company": "Centum Electron",
+      "ticker": "CENTUM",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2e13b4a-a546-4ba2-bce3-1ba3a602e781.pdf",
+      "transcript_id": "centum-electron_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T22:49:03.306Z",
+      "summary": "Management expects medium-term growth of 25-30% with EBITDA margins of 13-15% at standalone level, supported by strong order book and strategic focus on defense, aerospace, and semiconductor segments.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term",
+          "statement": "Targeting 25% to 30% revenue growth at standalone level",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Targeting EBITDA margin of 13% to 15% at standalone level",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting better margins in EMS business in FY27 due to improved product mix",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book trajectory to continue with increased focus on BTS segment, growing at ~20% CAGR over 3 years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BTS order inflows",
+          "horizon": "FY26",
+          "statement": "Booked over INR 400 crores in BTS business in FY26",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Expecting capex of INR 40-45 crores in FY27, with ~50% allocated to BTS segment for R&D capabilities",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Semiconductor revenue",
+          "horizon": "2-3 years",
+          "statement": "Progressing broadly in line with expectations to reach USD 30 million annual revenue in semiconductor segment",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense & aerospace revenue mix",
+          "horizon": "ongoing",
+          "statement": "Defense and aerospace segment contributes to both BTS and EMS, with BTS almost entirely defense and space",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Margin profile - BTS",
+          "horizon": "ongoing",
+          "statement": "BTS segment carries EBITDA margin of around 20%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Margin profile - EMS",
+          "horizon": "ongoing",
+          "statement": "EMS segment EBITDA margin hovers around 9-11%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book growth",
+          "horizon": "3 years",
+          "statement": "Order book grew by 1.7x with 20% CAGR over 3 years at entity level",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book growth - BTS",
+          "horizon": "3 years",
+          "statement": "BTS order book grew by 2.3x with 32% CAGR over 3 years",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Realization from sale of European subsidiaries",
+        "Tax benefits from historical losses on subsidiaries"
+      ],
+      "margin_drivers": [
+        "Product mix in EMS business",
+        "BTS vs EMS revenue mix",
+        "Defense and aerospace segment contribution",
+        "Operating leverage and execution efficiency"
+      ]
     }
   },
-  "generated_at": "2026-07-06T21:14:31.245Z",
-  "count": 783
+  "generated_at": "2026-07-06T22:49:04.831Z",
+  "count": 788
 }
