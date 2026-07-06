@@ -77861,8 +77861,165 @@
         "Product mix shift towards project business",
         "Operating leverage and scale efficiencies"
       ]
+    },
+    "Dachepalli Pub.": {
+      "company": "Dachepalli Pub.",
+      "ticker": "544667",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=651b2523-eca8-47b4-9eb8-fcf3f6562a04.pdf",
+      "transcript_id": "dachepalli-pub_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-06T14:34:51.945Z",
+      "summary": "Dachepalli Publishers expects to achieve a turnover of INR 150 crores in FY '27, driven by growth in textbook business and e-commerce vertical.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY '27",
+          "statement": "Expected to achieve a turnover of INR 150 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY '27",
+          "statement": "Estimated to be around INR 25 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY '27",
+          "statement": "Implied to be around 16-17% of PAT",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "E-commerce revenue",
+          "horizon": "FY '27",
+          "statement": "Expected to be around INR 60 crores",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Backward integration and manufacturing capabilities",
+        "Technology and digital ecosystem",
+        "Geographical expansion"
+      ]
+    },
+    "Shakti Pumps": {
+      "company": "Shakti Pumps",
+      "ticker": "SHAKTIPUMP",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be28e4e9-7623-41f5-874d-7ae67ed0bb3f.pdf",
+      "transcript_id": "shakti-pumps_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T14:35:01.428Z",
+      "summary": "Management expects sustainable growth driven by KUSUM 2.0 rollout, export expansion, and new segments like rooftop solar and EV components, while margins are seen improving as raw material prices normalize.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Management expects year-on-year growth without specifying a number, citing strong order book and policy momentum.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins expected to improve as geopolitical-driven raw material inflation normalizes, though no specific target provided.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material prices",
+          "horizon": "FY27",
+          "statement": "6% to 7% impact from inflated metal prices expected to normalize going forward.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Magel Tyala realization impact",
+          "horizon": "FY27",
+          "statement": "3% to 4% impact on realizations from Magel Tyala tenders noted as a past impact.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "Q1FY27-Q2FY27",
+          "statement": "Current order book of INR 1,500 crores sufficient for next two quarters; KUSUM 2.0 expected to start in Q2FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "KUSUM 2.0 rollout",
+          "horizon": "Q2FY27",
+          "statement": "KUSUM 2.0 expected to roll out by end of Q1FY27 with orders starting in Q2FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar pump installations",
+          "horizon": "FY27",
+          "statement": "Target for FY27 to be assessed based on KUSUM 2.0 and tender materialization, with quarterly updates.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar rooftop business",
+          "horizon": "FY27",
+          "statement": "FY27 expected to be a good year for rooftop solar, with EBITDA margins around 15% once scaled.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export growth",
+          "horizon": "FY27",
+          "statement": "Exports expected to grow despite geopolitical challenges, with focus on Europe and emerging markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex for solar cell/module capacity",
+          "horizon": "Q2FY27-March 2028",
+          "statement": "0.5 GW solar cell/module capacity expected from Q2FY27; 2.2 GW solar cell capacity targeted by March 2028.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EV motor/controller business",
+          "horizon": "next 6-12 months",
+          "statement": "Breakthroughs expected in EV motor/controller business with vehicle-level trials underway; revenue to start in next 6-12 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export margins",
+          "horizon": "FY27",
+          "statement": "Export margins expected to be around 10% higher than domestic margins.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue or PAT targets for FY27",
+        "exact margin percentage for FY27",
+        "detailed breakdown of order book by state beyond current INR 1,500 crores"
+      ],
+      "margin_drivers": [
+        "normalization of raw material prices (copper, stainless steel, silicone sheets)",
+        "diversified order book reducing state-specific margin pressure",
+        "export margins higher than domestic",
+        "operating leverage from revenue growth",
+        "Magel Tyala realization impact (3-4%)",
+        "solar rooftop margins (~15% EBITDA)"
+      ]
     }
   },
-  "generated_at": "2026-07-06T10:59:39.170Z",
-  "count": 769
+  "generated_at": "2026-07-06T14:35:02.953Z",
+  "count": 771
 }
