@@ -77368,8 +77368,169 @@
         "Cost optimization and administrative expense control",
         "Biofuel mix in fuel consumption"
       ]
+    },
+    "IIFL Capital": {
+      "company": "IIFL Capital",
+      "ticker": "IIFLCAPS",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85248744-e00b-4d75-b8c1-1244b33d1023.pdf",
+      "transcript_id": "iifl-capital_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-06T01:21:03.856Z",
+      "summary": "IIFL Capital expects to grow with its current net worth and has enough dry powder to support its growth ambitions over the next 3 years.",
+      "guidance": [
+        {
+          "metric": "AUM growth",
+          "horizon": "FY27",
+          "statement": "Aim to increase AUM, no specific target given",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Wealth RMs headcount",
+          "horizon": "FY27",
+          "statement": "Plan to increase wealth RMs headcount, no specific number given",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Net interest margin",
+          "horizon": "medium-term",
+          "statement": "Expect net interest margin to be around 4%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Growth",
+          "horizon": "next 2 years",
+          "statement": "Expect to grow by 20% with current net worth and borrowing limits",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Acquisition by Fairfax",
+        "New product categories like full-fledged AMC"
+      ],
+      "margin_drivers": [
+        "Increase in AUM",
+        "Growth in wealth management",
+        "Insurance-related revenue",
+        "Placement of NCDs and fixed income"
+      ]
+    },
+    "Quess Corp": {
+      "company": "Quess Corp",
+      "ticker": "QUESS",
+      "sector": "Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57792063-4601-4365-9e78-0dfb4c9a7d79.pdf",
+      "transcript_id": "quess-corp_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T01:21:12.844Z",
+      "summary": "Management expects margin-led growth with sustained focus on high-margin segments (Professional Staffing, Overseas) and disciplined execution in FY27 and medium-term.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Targeting 2% EBITDA margin as new baseline, with potential to reach 2.2% in FY27 and 2.4% in medium-term (3 years)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Professional Staffing margin",
+          "horizon": "medium-term",
+          "statement": "Expect margins to remain in 11-12% range for medium-term",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Overseas business margin",
+          "horizon": "medium-term",
+          "statement": "Targeting blended margin of 6%+ for overseas business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "General Staffing margin",
+          "horizon": "FY27",
+          "statement": "Anticipating higher clip rate growth in headcount, which may pressure margins temporarily",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Revenue growth (Professional Staffing)",
+          "horizon": "FY27",
+          "statement": "Focus on scaling Professional Staffing business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (Overseas business)",
+          "horizon": "FY27",
+          "statement": "Focus on scaling Overseas business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led solutions investment",
+          "horizon": "next 3 years",
+          "statement": "Building AI-driven recruitment and workforce solutions with a 3-year plan",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Blue-collar marketplace development",
+          "horizon": "next 3 years",
+          "statement": "Developing a blue-collar marketplace as part of digital platforms strategy",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "GCC contribution to Professional Staffing headcount",
+          "horizon": "FY27",
+          "statement": "GCCs account for 71% of headcount in Professional Staffing; no further upside guidance provided",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Discontinued projects impact",
+          "horizon": "FY27",
+          "statement": "No further known discontinued projects of similar scale expected in FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Middle East business",
+          "horizon": "FY27",
+          "statement": "Continued monitoring of geopolitical situation; portfolio diversification expected to mitigate risks",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Return on Equity (ROE)",
+          "horizon": "FY27",
+          "statement": "Focus on driving higher return on capital",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue growth targets for FY27",
+        "impact of US headcount reductions on GCCs",
+        "detailed capex allocation for AI-led solutions"
+      ],
+      "margin_drivers": [
+        "shift towards higher-margin segments (Professional Staffing, Overseas)",
+        "GCC-led engagements in Professional Staffing",
+        "portfolio diversification in overseas markets",
+        "pricing discipline and cost control",
+        "operational efficiency and delivery improvements",
+        "AI-led solutions and technology investments"
+      ]
     }
   },
-  "generated_at": "2026-07-05T23:40:34.792Z",
-  "count": 763
+  "generated_at": "2026-07-06T01:21:14.373Z",
+  "count": 765
 }
