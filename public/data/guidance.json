@@ -78018,8 +78018,172 @@
         "Magel Tyala realization impact (3-4%)",
         "solar rooftop margins (~15% EBITDA)"
       ]
+    },
+    "Matrix Geo Sol.": {
+      "company": "Matrix Geo Sol.",
+      "ticker": "MGSL",
+      "sector": "Information Technology",
+      "concall_date": "2026-07-06",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/MATRIXGEO_06072026173708_MGSL_Earnings_call_Transcript.pdf",
+      "transcript_id": "matrix-geo-sol_2026-07-06",
+      "provider": "groq",
+      "generated_at": "2026-07-06T17:23:56.498Z",
+      "summary": "The company expects strong growth driven by its technology-led infrastructure intelligence business, with a target of INR 500 crores in revenue within the next five years.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected revenue of around INR 65 crores, representing a YoY growth of 60-65%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "next five years",
+          "statement": "Targeting INR 500 crores in revenue, with a CAGR of 50%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Confirmed order of around INR 18 crores, with an active bid pipeline of INR 32 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Maintaining healthy profitability, with EBITDA margins above 33%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "medium-term",
+          "statement": "Maintaining PAT margins over 25%",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "strict selection of projects",
+        "operational efficiency",
+        "efficient use of technology"
+      ]
+    },
+    "Vedant Fashions": {
+      "company": "Vedant Fashions",
+      "ticker": "MANYAVAR",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c63b2931-c687-47be-87cb-847744a4c20f.pdf",
+      "transcript_id": "vedant-fashions_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-06T17:24:36.154Z",
+      "summary": "Management expects sustainable long-term growth driven by improved SSG, strategic store expansion, and disciplined cost management despite input cost pressures.",
+      "guidance": [
+        {
+          "metric": "SSG (Same Store Growth)",
+          "horizon": "FY27",
+          "statement": "Focus on improving SSG through campaigns, conversion rate enhancements, ASP improvements, and basket size growth; no specific target provided.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New store openings",
+          "horizon": "FY27",
+          "statement": "Gross openings to remain stable with net additions expected to improve as consolidation continues; quality of new stores to be better than closed ones.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Input cost inflation",
+          "horizon": "FY27",
+          "statement": "Anticipates 50-150 bps increase in total cost due to fabric and other inputs; expects to manage this well over time.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GST impact on revenue vs. retail sales gap",
+          "horizon": "FY27",
+          "statement": "GST-related gap between retail sales and net sales should normalize from FY27 onwards.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Inventory ASP in new stores",
+          "horizon": "FY27",
+          "statement": "Newer stores have slightly higher ASPs due to larger store sizes and inclusion of Mohey in many new locations.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Marketing campaigns",
+          "horizon": "Medium-term",
+          "statement": "Big milestone campaigns (e.g., celebrity-driven) to continue every 1-2 years; podcasts and influencer marketing to support SSG.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Diwas physical store expansion",
+          "horizon": "FY27",
+          "statement": "No plans for standalone Diwas physical stores; piloting differentiated Manyavar kurta stores in high-throughput neighborhoods.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Competitive intensity",
+          "horizon": "FY27",
+          "statement": "Regional competition expected to reduce as weaker players close stores; national players' dynamics remain unchanged.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Footfalls and conversions",
+          "horizon": "Q4FY26 onwards",
+          "statement": "Footfalls improved by low single digits in Q4FY26; conversions stable at high levels; average basket size improved by ~1.5%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Wedding dates impact",
+          "horizon": "FY27",
+          "statement": "No major wedding date challenges expected; normalization in Navratri timing and Adhik Maas impact.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross retail area addition",
+          "horizon": "FY26",
+          "statement": "Added ~1 lakh square feet of gross retail area in FY26.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Consumer sentiment",
+          "horizon": "FY27",
+          "statement": "Consumer sentiments turning positive; potential green shoots in FY27 if current trends continue.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific SSG target for FY27",
+        "exact number of new stores to open in FY27",
+        "quantitative impact of marketing campaigns on SSG"
+      ],
+      "margin_drivers": [
+        "fabric cost inflation",
+        "GST normalization",
+        "ASP improvement",
+        "basket size growth",
+        "operational efficiency",
+        "store quality improvement"
+      ]
     }
   },
-  "generated_at": "2026-07-06T14:35:02.953Z",
-  "count": 771
+  "generated_at": "2026-07-06T17:24:37.685Z",
+  "count": 773
 }
