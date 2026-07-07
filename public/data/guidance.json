@@ -80266,8 +80266,375 @@
         "Pass-through of raw material costs",
         "Operating leverage from capacity expansion"
       ]
+    },
+    "Neuland Labs.": {
+      "company": "Neuland Labs.",
+      "ticker": "NEULANDLAB",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06f04201-decf-48dd-9d57-0f661e796dfc.pdf",
+      "transcript_id": "neuland-labs_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-07T04:36:33.444Z",
+      "summary": "Neuland Labs expects long-term growth driven by its existing pipeline, with visible growth over the next 2-3 years and a promising outlook beyond that horizon.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term",
+          "statement": "18% to 20% CAGR over time, not necessarily linearly",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margins",
+          "horizon": "FY27 or FY28",
+          "statement": "Conservative margin expectations, with a trend line that is slightly better than expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "medium-term",
+          "statement": "Longer capital deployment cycle, with a focus on strategic priorities and returns",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Peptide business growth",
+          "horizon": "medium-term",
+          "statement": "Growth driven by existing pipeline, with a focus on complex peptides and investments in manufacturing infrastructure",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative elements of growth and margins for specific years"
+      ],
+      "margin_drivers": [
+        "Favorable exchange rate movements",
+        "Business mix",
+        "Cost and process improvements"
+      ]
+    },
+    "KPIT Technologi.": {
+      "company": "KPIT Technologi.",
+      "ticker": "KPITTECH",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+      "transcript_id": "kpit-technologi_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T04:36:41.525Z",
+      "summary": "KPIT expects robust medium-term growth driven by AI-infused solutions, software-defined vehicles, and adjacency expansion, despite near-term revenue moderation.",
+      "guidance": [
+        {
+          "metric": "Revenue growth from solutions and products",
+          "horizon": "medium-term",
+          "statement": "Expect 30%+ growth rate in solutions and products segment, starting from a small base",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-infused solutions and products revenue",
+          "horizon": "medium-term",
+          "statement": "Accelerated pipeline generation in AI-infused solutions and products",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Software-defined machines (SDM) for trucks and off-highway",
+          "horizon": "medium-term",
+          "statement": "Early move and traction in software-defined machines for trucks and off-highway segment",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Autonomous driving programs (L3, L4)",
+          "horizon": "medium-term",
+          "statement": "Traction in autonomous L3, L4 programs",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital cockpit solutions",
+          "horizon": "medium-term",
+          "statement": "Engagement with leading Japanese tier-1 to deliver next-generation digital cockpit solutions for 3 OEMs, expanding to 5 OEMs",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "After-sales solutions",
+          "horizon": "medium-term",
+          "statement": "Investment in after-sales solutions, including strategic acquisition in California (Helm.ai), to build expertise and preferred relationships",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Micromobility market",
+          "horizon": "by 2032",
+          "statement": "Micromobility expected to become a very big part of the business by 2032",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D investment",
+          "horizon": "ongoing",
+          "statement": "Continued investment in R&D at 5% of revenue, beyond the $400 million strategic M&A investments",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Market share expansion",
+          "horizon": "medium-term",
+          "statement": "Targeting 10-11% market share with headroom for growth in existing accounts, new accounts, and adjacencies",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographic expansion",
+          "horizon": "medium-term",
+          "statement": "Expansion into new geographies including India (potential top 2 market in 10 years), Middle East, Vietnam, and China",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Integration and validation revenues",
+          "horizon": "next two years",
+          "statement": "Demand for integration and validation services expected to increase in the next two years due to delayed vehicle programs",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Automotive software spend growth",
+          "horizon": "by 2030",
+          "statement": "Automotive software spend expected to grow 2x by 2030, with AD/ADAS spend growing 3x",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "specific revenue or margin targets for FY27",
+        "detailed capex outlook for FY27",
+        "breakdown of revenue growth by segment for FY27"
+      ],
+      "margin_drivers": [
+        "AI-infused solutions and products",
+        "software-defined vehicles (SDV/SDM)",
+        "digital cockpit platforms",
+        "after-sales solutions",
+        "validation and integration services",
+        "autonomous driving programs",
+        "cost reduction solutions (e.g., Caresoft platforms)",
+        "ecosystem of complementary partners"
+      ]
+    },
+    "CARE Ratings": {
+      "company": "CARE Ratings",
+      "ticker": "CARERATING",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.careratings.com/Uploads/newsfiles/FinancialReports/1779359014_CARE%20Ratings%20Limited_Q4FY26%20Earnings%20Call%20Transcript.pdf",
+      "transcript_id": "care-ratings_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T04:36:50.061Z",
+      "summary": "Management expects moderate growth in FY27 with potential headwinds from geopolitical tensions and energy prices, while emphasizing long-term structural opportunities in India's credit ratings market.",
+      "guidance": [
+        {
+          "metric": "India GDP growth",
+          "horizon": "FY27",
+          "statement": "Projected real GDP growth of around 6.7% for FY27, assuming global crude oil prices average ~US$90 per barrel.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Corporate bond issuances",
+          "horizon": "FY27",
+          "statement": "Expects continued softness in corporate bond issuances, though bank credit offtake may provide offsetting support.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Initial ratings assignments",
+          "horizon": "FY27",
+          "statement": "Maintains market share in incremental ratings assignments, with surveillance revenue contributing meaningfully to growth.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "ESG ratings market share",
+          "horizon": "medium-term",
+          "statement": "Aims to maintain leadership in ESG ratings with 58% market share among Category 1 providers and expand third-party review services.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI adoption in operations",
+          "horizon": "medium-term",
+          "statement": "Targets sustained adoption of AI tools, with 60% of employees currently using enterprise AI tools and plans to expand AI agents for repetitive tasks.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-ratings revenue contribution",
+          "horizon": "FY27",
+          "statement": "Non-ratings businesses (Advisory, Analytics, ESG) expected to continue contributing meaningfully to overall growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International ratings expansion",
+          "horizon": "FY27",
+          "statement": "CareEdge Global aims to expand sovereign ratings coverage and corporate debt ratings, including overseas clients.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Regulatory accreditation",
+          "horizon": "FY27",
+          "statement": "Continues to pursue regulatory expansions, including ESG ratings license in GIFT City and RBI accreditation for non-resident corporates.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology investments",
+          "horizon": "FY27",
+          "statement": "Plans to further embed AI into workflows and expand AI-powered platforms (CredEdge, IntelEdge, Kalypto) for clients.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "FY27",
+          "statement": "Board recommended a final dividend of INR14 per share (total INR22 per share for FY26), implying continued commitment to shareholder returns.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Impact of geopolitical tensions on corporate capex plans",
+        "Concrete outlook for bond market vs. bank loan rating revenue mix",
+        "Specific quantitative targets for surveillance revenue growth",
+        "Detailed sector-wise credit quality outlook for H1FY27"
+      ],
+      "margin_drivers": [
+        "Operating leverage from scale benefits",
+        "AI-driven efficiency improvements",
+        "Growth in non-ratings businesses (Advisory, Analytics, ESG)",
+        "Surveillance revenue contribution",
+        "Disciplined cost management"
+      ]
+    },
+    "Nazara Technolo.": {
+      "company": "Nazara Technolo.",
+      "ticker": "NAZARA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf",
+      "transcript_id": "nazara-technolo_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T04:37:01.301Z",
+      "summary": "Management expects strong revenue and EBITDA growth in FY27 driven by gaming scale, AI integration, and Centers of Excellence, with potential divestments of non-core assets.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Existing businesses expected to drive organic growth, with Bluetile adding significant scale; no specific guidance provided but bullish on overall performance.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin expansion expected due to Centers of Excellence outcomes and AI implementation; no specific target given.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "Pro forma EBITDA at least to double post-Bluetile consolidation (CY25: INR 254 crore), with additional organic growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI integration",
+          "horizon": "FY27",
+          "statement": "AI-driven improvements across user acquisition, data analytics, and development processes to enhance efficiency and growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Centers of Excellence impact",
+          "horizon": "FY27",
+          "statement": "Investments in Centers of Excellence (user acquisition, data analytics, AI, growth, product) to start showing clear results in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sportskeeda EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins expected to increase in FY27 on a smaller revenue base, with focus on cost optimization.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Curve Games releases",
+          "horizon": "FY27",
+          "statement": "At least 6 new game releases planned in FY27, including Wax Heads (already launched), Sovereign Tower, and Dragon Shelter.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NODWIN monetization",
+          "horizon": "FY27-FY28",
+          "statement": "NODWIN targeting INR 100-200 crore fundraising (primary + secondary) and preparing for IPO as soon as timing and business context are right.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Non-core asset divestments",
+          "horizon": "FY27-FY28",
+          "statement": "Potential monetization of non-core businesses (e.g., Sportskeeda, AdTech, NODWIN) to redeploy capital into core gaming; actions expected in FY27-FY28.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Bluetile AI capabilities",
+          "horizon": "FY27",
+          "statement": "Bluetile's AI-driven tools (LLMs, reinforcement learning) to be extended across Nazara's studios, enhancing scalability and efficiency.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Kiddopia subscriber growth",
+          "horizon": "FY27",
+          "statement": "Kiddopia has returned to subscriber growth and is expected to sustain this trajectory with improving unit economics.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AdTech segment focus",
+          "horizon": "FY27",
+          "statement": "Shift towards tech-driven DSP business within AdTech, with traditional AdTech declining as focus moves to higher-growth areas.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or EBITDA specific numbers",
+        "Timeline for Sportskeeda recovery beyond margin improvement",
+        "Detailed breakdown of AdTech segment performance"
+      ],
+      "margin_drivers": [
+        "AI integration across studios and functions",
+        "Centers of Excellence (user acquisition, data analytics, growth, product)",
+        "Bluetile's AI-native capabilities and rewarded engagement network",
+        "Cost optimization in Sportskeeda and AdTech",
+        "Scale and margin expansion from Bluetile consolidation",
+        "New game releases from Curve Games and other studios"
+      ]
     }
   },
-  "generated_at": "2026-07-07T00:18:42.600Z",
-  "count": 793
+  "generated_at": "2026-07-07T04:37:02.827Z",
+  "count": 797
 }
