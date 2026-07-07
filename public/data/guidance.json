@@ -82345,8 +82345,457 @@
         "Price pass-through on Fevicol and other products",
         "Cost control measures"
       ]
+    },
+    "Sonata Software": {
+      "company": "Sonata Software",
+      "ticker": "SONATSOFTW",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74190c21-d878-4aad-9191-1db3fbe91160.pdf",
+      "transcript_id": "sonata-software_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-07T18:35:11.886Z",
+      "summary": "Sonata Software expects gradual improvement and growth over the medium term, driven by momentum in digital and AI-led transformative initiatives.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Maintain EBITDA at a similar level",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Growth",
+          "horizon": "short-term",
+          "statement": "Continue to mend in a similar growth trajectory",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Investments",
+          "horizon": "medium-term",
+          "statement": "Continue to invest on AI-led capabilities and go-to-market capabilities",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific subverticals within BFSI",
+        "M&A plans"
+      ],
+      "margin_drivers": [
+        "Operational improvements",
+        "Utilization",
+        "Pyramid optimization",
+        "Price increases"
+      ]
+    },
+    "Vikram Solar": {
+      "company": "Vikram Solar",
+      "ticker": "VIKRAMSOLR",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2de81c90-b6f7-480c-9126-341d76cac383.pdf",
+      "transcript_id": "vikram-solar_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T18:35:21.577Z",
+      "summary": "Vikram Solar expects strong multi-year growth driven by policy tailwinds, backward integration, and BESS expansion, with a focus on becoming a leading integrated solar platform by FY30.",
+      "guidance": [
+        {
+          "metric": "Module capacity",
+          "horizon": "FY27",
+          "statement": "Module capacity to reach 15.5 GW by Q1FY27 with Gangaikondan 6 GW facility commissioning in June 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cell capacity",
+          "horizon": "FY27-FY28",
+          "statement": "9 GW TOPCon cell facility to be commissioned in phases by Q4FY27, with first cell output by December 2026; additional 3 GW cell capacity planned in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Wafer-ingot capacity",
+          "horizon": "FY29",
+          "statement": "First phase of 6 GW wafer-ingot facility to be commissioned in FY29 at Gangaikondan, with total 12 GW planned.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS capacity",
+          "horizon": "FY27-FY30",
+          "statement": "15 GWh BESS capacity target by FY30, starting with 5 GWh cell-to-pack facility by March 2027, followed by 7.5 GWh battery cell manufacturing in FY29 and FY30.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (cell facility)",
+          "horizon": "FY26-FY28",
+          "statement": "Total cell capex for 12 GW to be INR5,400 crores, with deployment mostly in FY26 and spillover to FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (BESS assembly)",
+          "horizon": "FY26",
+          "statement": "INR150 crores capex for 5 GWh BESS assembly, mostly spent in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (BESS cell manufacturing)",
+          "horizon": "FY26-FY28",
+          "statement": "Construction for battery cell manufacturing to start in October 2026 with 24-month timeline; INR200 crores expected in FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (wafer-ingot)",
+          "horizon": "FY26-FY28",
+          "statement": "First phase of 6 GW wafer-ingot capex to start in Q2-Q3 FY26, with INR100 crores initial spending; INR600 crores per GW for balance 6 GW.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "DCR module rollout",
+          "horizon": "FY27",
+          "statement": "DCR module production to start post-June 2026 deadline, with full offtake including ballooned volumes in H2FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sector capacity rationalization",
+          "horizon": "medium-term",
+          "statement": "Sector expected to stabilize around 80-100 GW of fully integrated sustainable capacity held by a small group of serious full-stack players.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "BESS technology alignment",
+          "horizon": "FY27-FY30",
+          "statement": "BESS expansion includes backward integration into cell manufacturing for battery cells.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-equity ratio",
+          "horizon": "medium-term",
+          "statement": "Committed to maintaining net-debt-to-equity below 1.5 even at peak debt drawdown.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "sequential raw material cost movements beyond Q4FY26",
+        "inventory holding period for critical raw materials beyond current levels"
+      ],
+      "margin_drivers": [
+        "backward integration reducing exposure to input volatility",
+        "operating leverage from scaled capacity",
+        "cell price pass-through clauses in 80% of order book",
+        "technology alignment with latest TOPCon Plus generation for higher watt-peak per cell",
+        "reduced working capital cycle improving cash generation"
+      ]
+    },
+    "Raymond Realty": {
+      "company": "Raymond Realty",
+      "ticker": "RAYMONDREL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a579d30-f17d-4f77-84dd-a689b127996b.pdf",
+      "transcript_id": "raymond-realty_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T18:35:29.813Z",
+      "summary": "Management expects sustained growth with improved margins and disciplined expansion in MMR's prime micro-markets over FY27-FY28.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Minimum 20% growth on pre-sales and top-line expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Blended EBITDA margin to be between 16% and 18%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin trajectory",
+          "horizon": "FY28",
+          "statement": "FY28 margins expected to be better than FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Project launches",
+          "horizon": "next 12-15 months",
+          "statement": "Two more projects to be launched in Mahim by Q3, followed by Kandivali development spilling into FY28",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "JDA portfolio revenue potential",
+          "horizon": "current",
+          "statement": "JDA portfolio comprises seven projects with combined revenue potential of ~INR17,000 crores",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Thane sales",
+          "horizon": "medium-term",
+          "statement": "Thane sales expected to average INR1,300-1,500 crores annually",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Bandra JDA revenue",
+          "horizon": "current",
+          "statement": "Address by GS Bandra project expected to exceed original INR2,100 crores guidance",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Liquidity buffer",
+          "horizon": "FY27",
+          "statement": "Liquidity buffer of INR358 crores fully funds next year's requirements",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt-to-equity ratio",
+          "horizon": "FY27",
+          "statement": "Debt-to-equity to remain within internal ceiling of 1:1",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "New JDA additions",
+          "horizon": "FY27",
+          "statement": "Pipeline of JDAs is strong; some deals spilled into FY27 from negotiations",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Commercial development in Thane",
+          "horizon": "medium-term",
+          "statement": "Commercial development in Thane's master-planned area to be activated at the right time",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Collection cycle",
+          "horizon": "project-specific",
+          "statement": "80% of collections linked to superstructure completion within 3 years for a 4-4.5 year project",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "PAT margins",
+        "specific revenue recognition per quarter",
+        "South Bombay redevelopment plans"
+      ],
+      "margin_drivers": [
+        "Project maturity mix (new vs. mature projects)",
+        "Economies of scale from new launches",
+        "Product mix optimization",
+        "Construction-linked payment plans accelerating cash flows"
+      ]
+    },
+    "Ajanta Pharma": {
+      "company": "Ajanta Pharma",
+      "ticker": "AJANTPHARM",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.ajantapharma.com/assets/frontend/images/investors/files/quarterly_results/1778236394_Earnings-Call-Transcript-Q4-(Jan-Mar)-2025-26.pdf",
+      "transcript_id": "ajanta-pharma_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T18:35:39.334Z",
+      "summary": "Management expects high-teens revenue growth and stable EBITDA margins in FY27 despite elevated costs and investments, with Asia business rebounding and U.S. generics growing mid-single digit.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "High teens growth expected for the company",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin guidance of 27% with a variation of plus or minus 1%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Gross margins expected to remain around 77% with a variation of plus or minus 1%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Other expenses",
+          "horizon": "FY27",
+          "statement": "Other expenses expected to remain broadly aligned with current trend",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "R&D expenditure",
+          "horizon": "FY27",
+          "statement": "R&D spend expected to continue at similar levels of 5% of total revenue",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex expected to increase to around Rs. 400 crores, including Rs. 150 crores for maintenance and balance for new capacity expansion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tax rate",
+          "horizon": "FY27",
+          "statement": "Effective tax rate expected to increase as one manufacturing facility transitions out of exemption period",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Asia Branded Generics revenue",
+          "horizon": "FY27",
+          "statement": "Guidance for Asia business is high double-digit growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "U.S. Generics revenue",
+          "horizon": "FY27",
+          "statement": "Mid-single digit growth expected for U.S. business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "India business growth",
+          "horizon": "coming quarters",
+          "statement": "Confident of sustaining growth trajectory in India business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Field force (MRs) addition",
+          "horizon": "FY27",
+          "statement": "Planning to add 250-300 MRs in India and 5-6% in Asia & Africa",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Productivity (PCPM)",
+          "horizon": "steady-state",
+          "statement": "Steady-state PCPM expected to be Rs. 4 lakh to Rs. 4.5 lakh per man per month",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "PCPM breakdown for domestic business by quarter",
+        "Revenue breakup by new product launches over last 2 years",
+        "Inventory days breakup by market (U.S. vs others)",
+        "Impact of USFDA inspection on filings or existing supply"
+      ],
+      "margin_drivers": [
+        "Investments in market development and field force expansion",
+        "Increased R&D and filing costs across markets",
+        "Elevated freight and RM-PM costs due to geopolitical disruptions",
+        "Tax rate normalization as exemptions phase out"
+      ]
+    },
+    "C D S L": {
+      "company": "C D S L",
+      "ticker": "CDSL",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/CDSL_07052026193244_NSEintimationtranscript_Sign.pdf",
+      "transcript_id": "c-d-s-l_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T18:35:46.407Z",
+      "summary": "CDSL expects continued growth in demat accounts and technology-led scalability, though no specific financial guidance is provided.",
+      "guidance": [
+        {
+          "metric": "Demat accounts",
+          "horizon": "medium-term",
+          "statement": "Demat accounts are expected to grow as market participation broadens, with potential to reach 25-30% of the growing young population (vs. current 9-10%) and align with global participation levels of 40-50%.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology investment",
+          "horizon": "medium-term",
+          "statement": "Technology spending will continue to be prioritized to maintain scalability, security, and value proposition for depository participants and investors, with no indication of slowing down.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Market share of new account openings",
+          "horizon": "medium-term",
+          "statement": "CDSL expects to maintain its 85%+ market share in new demat account openings due to continuous trust and value proposition.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Large IPOs and corporate actions",
+          "horizon": "FY27",
+          "statement": "CDSL is preparing infrastructure to support large IPOs expected in FY27, ensuring scalability and speed for market participants.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "API-based integrations",
+          "horizon": "medium-term",
+          "statement": "Number of APIs and seamless integrations with depository participants will continue to grow to support diverse participant needs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Investor education initiatives",
+          "horizon": "medium-term",
+          "statement": "CDSL will continue to expand investor education efforts, including regional language initiatives, to broaden market participation.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Adjacent market infrastructure expansion",
+          "horizon": "medium-term",
+          "statement": "CDSL Ventures and subsidiaries (KYC, insurance, commodities, GIFT City) will extend dematerialization and online onboarding infrastructure into new financial ecosystem areas.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue",
+        "EBITDA margin",
+        "PAT",
+        "Capex",
+        "Folio count",
+        "eCAS revenue",
+        "Pledge revenue",
+        "IPO revenue",
+        "Corporate action revenue",
+        "Employee cost growth"
+      ],
+      "margin_drivers": [
+        "Technology-led scalability and efficiency",
+        "API-based integrations and seamless participant access",
+        "Investor education and broad-based market participation",
+        "Adjacent market infrastructure expansion (KYC, insurance, commodities, GIFT City)"
+      ]
     }
   },
-  "generated_at": "2026-07-07T16:41:01.616Z",
-  "count": 815
+  "generated_at": "2026-07-07T18:35:47.934Z",
+  "count": 820
 }
