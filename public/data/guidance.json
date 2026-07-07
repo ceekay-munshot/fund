@@ -81894,8 +81894,459 @@
         "Price hike pass-through to customers",
         "Reduction in import dependency"
       ]
+    },
+    "Sharda Cropchem": {
+      "company": "Sharda Cropchem",
+      "ticker": "SHARDACROP",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddc005a0-83dc-45d2-92d0-776e1e0f8bef.pdf",
+      "transcript_id": "sharda-cropchem_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-07T16:40:26.084Z",
+      "summary": "Sharda Cropchem expects revenue growth momentum to continue in FY2027 with a guidance of 10% to 15% revenue growth.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth of 10% to 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross Margins",
+          "horizon": "FY27",
+          "statement": "Gross margins to stay around 35% plus or minus a few%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin in the range of 18% to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Volume growth of around 15%",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Detailed calculations for gross margins without Forex impact"
+      ],
+      "margin_drivers": [
+        "Limited competition in agrochemical products",
+        "Ability to pass on raw material price increases to customers"
+      ]
+    },
+    "Alldigi Tech": {
+      "company": "Alldigi Tech",
+      "ticker": "ALLDIGI",
+      "sector": "Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e26d166-8008-4622-8969-6563cfa13704.pdf",
+      "transcript_id": "alldigi-tech_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T16:40:34.429Z",
+      "summary": "Management expects sustained growth momentum driven by international expansion, AI-led efficiency gains, and strategic focus on high-margin segments, with EBITDA margins expected to improve by 1-2% in FY27.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Mid-teens revenue growth expected for FY27, driven by international expansion and strategic focus on high-margin segments.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Targeting 1-2% improvement in EBITDA margins for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q4FY26",
+          "statement": "Margins expected to remain robust, with no significant challenges from currency fluctuations.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International business mix",
+          "horizon": "FY27",
+          "statement": "Continued increase in international business mix, contributing to higher margins and revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "HRO (Tech & Digital) revenue",
+          "horizon": "FY27",
+          "statement": "HRO revenue growth expected to outpace employee record growth due to international mix and one-time activities.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "HRO EBITDA margin",
+          "horizon": "FY27",
+          "statement": "International HRO margins expected to be higher than domestic margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BPM revenue growth",
+          "horizon": "FY27",
+          "statement": "BPM growth expected to be driven by large client additions, with pipeline including healthcare, international insurance, and international collections.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led efficiency gains",
+          "horizon": "FY27",
+          "statement": "AI enhancements to drive efficiency, accuracy, and turnaround time across operations, with initial AI features already in UAT and expected for release soon.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee records volume",
+          "horizon": "FY27",
+          "statement": "Continued growth in employee records volume, with focus on international markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Low-margin business rationalization",
+          "horizon": "FY27",
+          "statement": "Continued rationalization of low-margin business to improve overall margins, with ~10% of current portfolio still in this segment.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "RCM (Revenue Cycle Management) business",
+          "horizon": "FY27",
+          "statement": "RCM business scaled up and expected to grow further in FY27, with focus on healthcare, international insurance, and international collections.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Diversity and inclusion target",
+          "horizon": "FY27",
+          "statement": "Target of 50% diversity and inclusion expected to be achieved in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Currency fluctuation impact on revenue",
+        "Specific revenue growth CAGR beyond mid-teens for FY27",
+        "Exact EBITDA margin percentage for FY27"
+      ],
+      "margin_drivers": [
+        "International business mix expansion",
+        "AI-led efficiency gains and automation",
+        "Rationalization of low-margin business",
+        "Operating leverage and scale benefits",
+        "Higher realization in international markets",
+        "One-time activities (e.g., configuration changes, tax proof vouching)"
+      ]
+    },
+    "Desco Infra.": {
+      "company": "Desco Infra.",
+      "ticker": "544387",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40002425-5190-41b7-8644-1bea7a652653.pdf",
+      "transcript_id": "desco-infra_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T16:40:42.835Z",
+      "summary": "Management expects strong revenue growth driven by CGD and clean energy segments, with cash flow normalization and margin stability in the medium term.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "70-80% YoY growth expected on the top line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY30",
+          "statement": "INR 1,000 crores revenue target achievable by 2030",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash flow",
+          "horizon": "FY27",
+          "statement": "Operating cash flow expected to turn positive in FY27 or FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash flow",
+          "horizon": "medium-term",
+          "statement": "Improvement in negative operating cash flow to 3-4.5% of revenue (from ~3% in FY26)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "FY27",
+          "statement": "Order book of INR 345 crores to be executed over 12-24 months (EPC: 18-24 months, O&M: 24 months, Power distribution: 12 months)",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Segment revenue mix",
+          "horizon": "FY27",
+          "statement": "CGD to contribute 60-65% of revenue, Power distribution and solar EPC to contribute 30-35%",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Margins may fluctuate quarter-to-quarter but direction remains stable to improving",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-to-equity ratio",
+          "horizon": "1.5 years",
+          "statement": "Debt-to-equity ratio may increase to a maximum of 0.3x",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CBG plant commissioning",
+          "horizon": "Q1 FY27",
+          "statement": "Compressed biogas plant to be commissioned in Q1 FY27 with 2 ton/day capacity",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International expansion",
+          "horizon": "medium-term",
+          "statement": "Exploring opportunities in Middle East energy markets via Desco Global FZ-LLC, though current operations delayed due to geopolitical situation",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative margin breakdown for power distribution and solar EPC segments",
+        "Average cost of unsecured borrowings",
+        "Timeline for repayment of high-cost unsecured borrowings"
+      ],
+      "margin_drivers": [
+        "Project mix optimization",
+        "Operating at scale increases",
+        "Tighter cost controls",
+        "Margin discipline in CGD segment",
+        "Entry into power distribution and solar EPC for better cash conversion cycles"
+      ]
+    },
+    "Pajson Agro": {
+      "company": "Pajson Agro",
+      "ticker": "544657",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f2b72a9-14fa-47a2-a331-9d4cc9883558.pdf",
+      "transcript_id": "pajson-agro_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T16:40:52.300Z",
+      "summary": "Pajson Agro expects steady margin recovery and significant capacity-driven growth from FY27 onwards, supported by new automated facility and brand-led model.",
+      "guidance": [
+        {
+          "metric": "Capacity expansion",
+          "horizon": "FY27-FY30",
+          "statement": "Greenfield expansion to increase capacity to 70,000 metric tons by FY30",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from new capacity",
+          "horizon": "FY27",
+          "statement": "Peak revenue potential of INR475 crores at 85% utilization for new 35,000 MT capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth from existing capacity",
+          "horizon": "FY27",
+          "statement": "20% to 22% revenue growth from current 18,000 MT facility",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Steady-state EBITDA margin of 15%-16%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin improvement",
+          "horizon": "FY28",
+          "statement": "Expected 2-3% margin improvement due to operating leverage from new capacity",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New facility utilization",
+          "horizon": "FY27-FY28",
+          "statement": "FY27: 15% utilization; FY28: 65%-70% utilization; FY29: 85%-90% utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex deployment",
+          "horizon": "FY27",
+          "statement": "INR20-25 crores of purchase orders to be issued in Q1FY27 for new facility",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Total capex for new capacity",
+          "horizon": "FY27",
+          "statement": "Total capex for new 35,000 MT capacity is INR76 crores (excluding land)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Kernel yield",
+          "horizon": "medium-term",
+          "statement": "Average kernel yield of 24.57%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Kernel realization",
+          "horizon": "medium-term",
+          "statement": "Kernel realization of INR660 per kg",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Brand Royal Mewa growth",
+          "horizon": "medium-term",
+          "statement": "Brand grew over 6.5x this year and targets further penetration",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "FX risk mitigation",
+          "horizon": "FY27",
+          "statement": "Initiating hedging processes to mitigate forex risk from raw material imports",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "customer-specific order book beyond 3 months",
+        "exact margin impact quantification from hedging",
+        "detailed breakdown of revenue by customer segment"
+      ],
+      "margin_drivers": [
+        "operating leverage from new automated facility",
+        "FX risk mitigation",
+        "passing on cost increases to customers",
+        "kernel yield improvements from technology upgrades",
+        "brand-led model reducing commodity price exposure"
+      ]
+    },
+    "Pidilite Inds.": {
+      "company": "Pidilite Inds.",
+      "ticker": "PIDILITIND",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+      "transcript_id": "pidilite-inds_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T16:41:00.091Z",
+      "summary": "Management expects FY27 to face significant raw material inflation (40-50% weighted average) but aims to pass on costs in a calibrated manner while sustaining double-digit volume growth, contingent on West Asia conflict resolution.",
+      "guidance": [
+        {
+          "metric": "Revenue (volume growth)",
+          "horizon": "FY27",
+          "statement": "Management aims to sustain double-digit underlying volume growth, building on FY26's 11.1% growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material inflation (weighted average COGS)",
+          "horizon": "FY27",
+          "statement": "Weighted average raw material inflation is estimated at 40-50% at current replacement prices.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Price increases (pass-through)",
+          "horizon": "Q1FY27",
+          "statement": "Two price hikes taken in April (5%) and May (7-9% for Fevicol), totaling ~12-15% for Fevicol division.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Management expects operating leverage to support margin expansion as growth lifts, though inflation may pressure margins.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Demand buoyancy",
+          "horizon": "Q1FY27",
+          "statement": "Demand buoyancy observed in Q4FY26 is expected to sustain in Q1FY27, contingent on West Asia conflict resolution.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "West Asia conflict impact",
+          "horizon": "Q2FY27",
+          "statement": "Two scenarios: (1) Conflict resolves in May, demand remains buoyant; (2) Prolonged conflict, supply security prioritized, demand compression possible.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Paints business growth",
+          "horizon": "medium-term",
+          "statement": "Rurban India (rural + small towns) showing good traction; expansion into small town India pending unique Pidilite USP development.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue recovery",
+          "horizon": "Q1FY27",
+          "statement": "Export revenues impacted in March due to Gulf/West Asia conflict; recovery expected if conflict resolves.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory levels (raw materials)",
+          "horizon": "Q1FY27",
+          "statement": "Healthy inventory levels, especially in critical raw materials like VAM, provide protection against cost increases.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantitative EBITDA margin target for FY27",
+        "Specific volume growth target for FY27",
+        "Price elasticity of demand formula",
+        "Quantitative impact of prolonged West Asia conflict on demand",
+        "Capex guidance for FY27"
+      ],
+      "margin_drivers": [
+        "Raw material cost inflation (40-50% weighted average)",
+        "Operating leverage from volume growth",
+        "Price pass-through on Fevicol and other products",
+        "Cost control measures"
+      ]
     }
   },
-  "generated_at": "2026-07-07T13:50:27.889Z",
-  "count": 810
+  "generated_at": "2026-07-07T16:41:01.616Z",
+  "count": 815
 }
