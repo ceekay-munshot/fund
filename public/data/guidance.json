@@ -79769,8 +79769,505 @@
         "Defense and aerospace segment contribution",
         "Operating leverage and execution efficiency"
       ]
+    },
+    "Chambal Fert.": {
+      "company": "Chambal Fert.",
+      "ticker": "CHAMBLFERT",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46488b3a-7afd-4d87-8af8-86fb96887d75.pdf",
+      "transcript_id": "chambal-fert_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-07T00:18:05.428Z",
+      "summary": "Chambal Fertilisers expects stable growth despite global volatility, with a focus on diversification and long-term growth",
+      "guidance": [
+        {
+          "metric": "Urea sales volume",
+          "horizon": "FY27",
+          "statement": "Expected to exceed last year's volume, but may not reach 3.5 million tons",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "TAN capacity utilization",
+          "horizon": "FY27",
+          "statement": "Expected to reach 75-80% in the first year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Complex Fertilizer sales volume",
+          "horizon": "FY27",
+          "statement": "Growth expected to be constrained due to logistics issues, but company has made strategic purchases to cover demand till July-August",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin for TAN",
+          "horizon": "medium-term",
+          "statement": "Expected to exceed budgeted numbers",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital requirement",
+          "horizon": "next quarter",
+          "statement": "May be high due to elevated gas prices, but company can pass on costs to the government in the form of subsidy",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific EBITDA margin range for TAN",
+        "Detailed breakdown of gas costs"
+      ],
+      "margin_drivers": [
+        "Product mix",
+        "Ammonia sales",
+        "Strategic purchases of complex fertilizers",
+        "Pass-through of gas costs to the government"
+      ]
+    },
+    "ASK Automotive": {
+      "company": "ASK Automotive",
+      "ticker": "ASKAUTOLTD",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bba14f0-183d-4d8d-8f7d-15f894dcb649.pdf",
+      "transcript_id": "ask-automotive_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T00:18:15.284Z",
+      "summary": "Management expects mid-teens revenue growth in FY27, driven by new product launches, capacity expansions, and market share gains, while maintaining EBITDA margins despite input cost pressures.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expecting mid-teens revenue growth for the company",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aim to sustain current EBITDA margins of ~13.1% and improve gradually depending on industry growth and geopolitical environment",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export revenue growth",
+          "horizon": "FY27",
+          "statement": "Confident of growing exports by 20% if geopolitical situation normalizes",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planning to invest ~Rs. 400 Cr in FY27 for growth, funded through internal accruals",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Alloy wheel revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Expecting alloy wheel revenue of Rs. 90-100 Cr in FY27 and Rs. 220 Cr in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Independent aftermarket growth",
+          "horizon": "FY27",
+          "statement": "Expecting continued strong growth in independent aftermarket segment due to GST 2.0 benefits",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Two-wheeler industry production growth",
+          "horizon": "FY27",
+          "statement": "Expecting two-wheeler industry to grow around mid-teens in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Karoli plant capacity utilization expected to improve significantly in FY27 with alloy wheel supplies to Japanese customer starting in H2",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "H2 FY27",
+          "statement": "Sunroof and alloy wheel supplies to start in H2 FY27 following plant audits and customer approvals",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Green energy capacity",
+          "horizon": "Q2 FY27",
+          "statement": "Second captive solar plant of 11.55 MW in Bikaner expected to be commissioned in Q2 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Input cost pressure",
+          "horizon": "FY27",
+          "statement": "Expecting input cost pressures from geopolitical tensions and minimum wage hikes, but confident of passing on costs to customers",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Market share in ALPS segment",
+          "horizon": "FY27",
+          "statement": "No impact expected on wallet share in ALPS segment due to alloy price volatility",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "ABS implementation mandate impact",
+        "EV revenue growth trajectory beyond FY27"
+      ],
+      "margin_drivers": [
+        "GST 2.0 benefits in aftermarket",
+        "New product launches (alloy wheels, sunroof)",
+        "Capacity utilization improvements",
+        "Cost efficiencies from green energy initiatives",
+        "Pass-through of input cost increases to customers"
+      ]
+    },
+    "Jain Resource": {
+      "company": "Jain Resource",
+      "ticker": "JAINREC",
+      "sector": "Commodities",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be408f3f-9ee1-4d8e-a0a4-92bb525f47cc.pdf",
+      "transcript_id": "jain-resource_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T00:18:23.742Z",
+      "summary": "Management expects normalized EBITDA per ton in copper to stabilize at INR30,000-32,000, with volume growth in lead and copper expected to be in double digits, supported by new projects and improved product mix.",
+      "guidance": [
+        {
+          "metric": "EBITDA per ton (copper segment)",
+          "horizon": "steady state",
+          "statement": "Normalized EBITDA per ton to stabilize at approximately INR30,000 to INR32,000, excluding exceptional tailwinds and one-time headwinds.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Volume growth (lead and copper)",
+          "horizon": "FY27",
+          "statement": "Regular growth in double digits is expected in lead and copper volumes, assuming no major international disruptions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Copper anode capacity",
+          "horizon": "Q1FY27",
+          "statement": "Second furnace with 800 metric ton per month capacity expected to be commissioned, taking total anode capacity to 1,600 metric ton per month.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Copper cathode capacity (Phase 1)",
+          "horizon": "Q2FY27",
+          "statement": "Phase one commissioning expected by quarter two financial year '27 with a capacity of 1,500 metric ton per month.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Copper cathode capacity (Phase 2)",
+          "horizon": "Q3FY27",
+          "statement": "Phase two commissioning expected by quarter three financial year '27, scaling cathode capacity to 1,500 metric ton per month.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Copper wire rod capacity",
+          "horizon": "Q1FY27",
+          "statement": "Commissioning targeted for August 2026 with an installed capacity of 600 metric ton per month.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Copper bus bar and profile capacity",
+          "horizon": "Q2FY27",
+          "statement": "Commissioning targeted for September 2026 with a planned capacity of 1,500 metric ton per month.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ahmedabad JV (copper sourcing) ramp-up",
+          "horizon": "FY27",
+          "statement": "Processing of electric motor scrap and cable scrap expected to commence from September 2026 onwards, with full ramp-up by FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Plastic recycling unit capex",
+          "horizon": "Q3FY27",
+          "statement": "Dedicated plastic recycling unit targeted to become operational by quarter three financial year '27 with an estimated capex of INR15 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Kuwait battery recycling venture progress",
+          "horizon": "medium-term",
+          "statement": "Project remains strategically important for strengthening raw material security in lead recycling business, with long-term strategic importance despite temporary shipping delays.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Hedging policy (copper contracts)",
+          "horizon": "FY27",
+          "statement": "Management has corrected the hedging formula mechanism to reduce volatility impact from LME price fluctuations, moving towards long-term hedging contracts.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin (overall business)",
+          "horizon": "medium-term",
+          "statement": "Value-added copper products are expected to improve realizations, reduce earnings cyclicality, and structurally enhance EBITDA per ton over the medium term.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "percentage of raw material stuck in Hormuz port",
+        "detailed financial projections for FY28"
+      ],
+      "margin_drivers": [
+        "copper anode operations",
+        "copper cathode operations",
+        "copper wire rod and bus bar projects",
+        "antimony extraction capabilities",
+        "plastic recycling unit",
+        "Ahmedabad JV (copper sourcing)",
+        "Kuwait battery recycling venture",
+        "hedging mechanism",
+        "product mix improvement",
+        "value addition in copper segment"
+      ]
+    },
+    "Stylam Industrie": {
+      "company": "Stylam Industrie",
+      "ticker": "STYLAMIND",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35793141-9caf-42c8-b1dd-a4d62660e52b.pdf",
+      "transcript_id": "stylam-industrie_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T00:18:32.400Z",
+      "summary": "Management expects strong growth from new capacity additions and gradual improvement in domestic market share, with EBITDA margins remaining robust.",
+      "guidance": [
+        {
+          "metric": "New plant revenue (FY27)",
+          "horizon": "FY27",
+          "statement": "INR250 crores to INR300 crores from the new plant in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New plant revenue (FY28)",
+          "horizon": "FY28",
+          "statement": "INR600 crores to INR700 crores from the new plant in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New plant utilization (FY27)",
+          "horizon": "FY27",
+          "statement": "30% to 40% utilization by Q2 FY27, 80% plus in the next 2 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New plant margin",
+          "horizon": "FY27",
+          "statement": "Margin profile of 22% to 24% for the new plant",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Company revenue growth (FY27)",
+          "horizon": "FY27",
+          "statement": "20% to 25% increase in revenue compared to previous year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Company EBITDA margin (FY28)",
+          "horizon": "FY28",
+          "statement": "Potential to achieve 22% EBITDA margin by FY28",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Acrylics segment revenue",
+          "horizon": "FY26",
+          "statement": "INR50 crores to INR70 crores expected in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export vs domestic revenue split",
+          "horizon": "FY27",
+          "statement": "75% exports and 25% domestic revenue expected in FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Domestic market strategy",
+          "horizon": "medium-term",
+          "statement": "Aggressively working to increase domestic market share",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Brand visibility improvement",
+          "horizon": "2-3 quarters",
+          "statement": "Brand visibility improvements expected in 2-3 quarters",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material cost impact",
+          "horizon": "next few months",
+          "statement": "Potential impact from raw material cost increases if war continues for 2-3 more months",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "New plant commercial production",
+          "horizon": "Q1FY27",
+          "statement": "New plant to commence commercial production by end of June or middle of July",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue guidance for FY27 beyond directional 20-25% growth",
+        "Domestic business EBITDA breakdown",
+        "Stake sale to AICA Global in next 2-3 years"
+      ],
+      "margin_drivers": [
+        "Raw material cost management",
+        "Fixed cost absorption from new plant",
+        "Price increases in domestic and export markets",
+        "Value addition in old plants",
+        "Economies of scale from new capacity"
+      ]
+    },
+    "Dynamic Cables": {
+      "company": "Dynamic Cables",
+      "ticker": "DYCL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0e02f27-bf60-43a0-83f6-3cbeaaa777bf.pdf",
+      "transcript_id": "dynamic-cables_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-07T00:18:41.073Z",
+      "summary": "Management expects steady growth supported by capacity expansion and new product initiatives, with medium-term revenue growth of 18-20%.",
+      "guidance": [
+        {
+          "metric": "Revenue growth (medium-term)",
+          "horizon": "medium-term",
+          "statement": "Company targets 18-20% revenue growth in the medium to long term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "H1FY27",
+          "statement": "Existing capacities are sufficient to manage H1FY27 order book and growth projections.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "New capacity go-live",
+          "horizon": "Q2FY27",
+          "statement": "New plant expected to start production by September 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book growth",
+          "horizon": "FY27",
+          "statement": "Order book growth expected to align with revenue growth trajectory of 18-20% in the medium term.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex trajectory",
+          "horizon": "FY27 and medium-term",
+          "statement": "Capex will continue annually to support growth, though intensity may reduce compared to FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "TS Conductor partnership revenue impact",
+          "horizon": "1 year",
+          "statement": "No hard timeline for revenue realization from TS Conductor partnership; initial focus on product approvals and type testing.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Operating margin",
+          "horizon": "FY27",
+          "statement": "Operating profit margin guidance maintained at 10.5% to 11%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Volume growth (cables)",
+          "horizon": "FY26",
+          "statement": "Cables standalone volume growth for FY26 was around 18%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth (Q4FY26)",
+          "horizon": "Q4FY26",
+          "statement": "Core product volume growth in Q4FY26 was around 8%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Realization growth (Q4FY26)",
+          "horizon": "Q4FY26",
+          "statement": "Realization growth in Q4FY26 was 12%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Low voltage conductors contribution",
+          "horizon": "FY26",
+          "statement": "Low voltage conductors contribution reduced to sub-5% in FY26 from 8-9% in FY25.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Railway signaling cables contribution",
+          "horizon": "FY26",
+          "statement": "Railway signaling cables contribution was zero in FY26.",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or PAT guidance",
+        "Order book growth for FY27",
+        "Finance cost outlook beyond current quarter",
+        "Gross margin outlook for FY27"
+      ],
+      "margin_drivers": [
+        "Operational efficiency",
+        "Product mix shift towards higher-margin products",
+        "Pass-through of raw material costs",
+        "Operating leverage from capacity expansion"
+      ]
     }
   },
-  "generated_at": "2026-07-06T22:49:04.831Z",
-  "count": 788
+  "generated_at": "2026-07-07T00:18:42.600Z",
+  "count": 793
 }
