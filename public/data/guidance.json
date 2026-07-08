@@ -87604,8 +87604,384 @@
         "Shift to higher-value GPU deployments (e.g., Blackwell, B300)",
         "Asset-light financing models to reduce capital intensity"
       ]
+    },
+    "Aurum Proptech": {
+      "company": "Aurum Proptech",
+      "ticker": "AURUM",
+      "sector": "Information Technology",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67bfc3da-07fa-4ad4-88f0-a7131a8380cc.pdf",
+      "transcript_id": "aurum-proptech_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-08T21:21:42.811Z",
+      "summary": "Aurum Proptech expects to continue its growth trajectory, driven by its integrated PropTech ecosystem and increasing adoption of AI, with a focus on improving profitability and customer lifetime value.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected to cross INR1,000 crores of annualized revenue in the coming quarters",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Profitability",
+          "horizon": "FY27 and beyond",
+          "statement": "Expected to remain profitable, with operating leverage kicking in",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue per team member",
+          "horizon": "medium term",
+          "statement": "Expected to improve as AI-led business value optimization takes effect",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Distribution segment revenue",
+          "horizon": "FY27",
+          "statement": "Expected to compound, driven by the mandate pipeline and increasing adoption of AI",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific acquisition plans"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "AI-led business value optimization",
+        "Improving unit economics"
+      ]
+    },
+    "Bank of Maha": {
+      "company": "Bank of Maha",
+      "ticker": "MAHABANK",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a89c3c3c-4b62-416a-b313-51044e96968a.pdf",
+      "transcript_id": "bank-of-maha_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T21:21:51.258Z",
+      "summary": "Bank of Maharashtra expects continued profitable growth with maintained asset quality and capital ratios, guided by specific FY27 targets across business, profitability, and efficiency metrics.",
+      "guidance": [
+        {
+          "metric": "Total business growth",
+          "horizon": "FY27",
+          "statement": "Growth of 16% to 17%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Advances growth",
+          "horizon": "FY27",
+          "statement": "Growth of 18%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "Growth of 14% to 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CASA ratio",
+          "horizon": "FY27",
+          "statement": "Maintain around 50%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "RAM book growth",
+          "horizon": "FY27",
+          "statement": "Growth of 18%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "RAM corporate ratio",
+          "horizon": "FY27",
+          "statement": "60-40 plus/minus 2%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net interest income growth",
+          "horizon": "FY27",
+          "statement": "Growth of 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NIM",
+          "horizon": "FY27",
+          "statement": "Guidance of 3.75%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Non-interest income growth",
+          "horizon": "FY27",
+          "statement": "Growth of 10%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost to income ratio",
+          "horizon": "FY27",
+          "statement": "Maintain below 40%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY27",
+          "statement": "Guidance of 1.80%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "FY27",
+          "statement": "Maintain 20% and more",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Impact of geopolitical tensions on asset quality beyond Q2FY27",
+        "Future tax rate beyond FY27",
+        "Specific fee income improvement timelines"
+      ],
+      "margin_drivers": [
+        "NIM stability at 3.75% guidance",
+        "Cost to income ratio below 40%",
+        "Focus on profitable growth over mindless top-line expansion",
+        "Prudent provisioning for global geopolitical uncertainties"
+      ]
+    },
+    "Union Bank (I)": {
+      "company": "Union Bank (I)",
+      "ticker": "UNIONBANK",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61fc90e0-0383-4ccd-aa31-3349cef72e6f.pdf",
+      "transcript_id": "union-bank-i_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T21:22:00.603Z",
+      "summary": "Management expects mid-teens credit growth and stable NIMs in FY27, with cautious deposit strategy and focus on CASA/retail term deposits to support profitability.",
+      "guidance": [
+        {
+          "metric": "Credit growth",
+          "horizon": "FY27",
+          "statement": "Expect credit growth of 13%-14% in FY27, aligning with industry trends and aiming to outperform slightly.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net Interest Margin (NIM)",
+          "horizon": "Q1FY27 and FY27",
+          "statement": "Aim to maintain NIM at current levels (~2.64%) and potentially improve further, defending profitability.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "Focus on CASA and retail term deposits to improve deposit mix and support NIM stability.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CASA ratio",
+          "horizon": "FY27",
+          "statement": "CASA ratio improved to 35.21% as of March 2026; efforts to sustain and grow this trend.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Bulk deposit reduction",
+          "horizon": "FY27",
+          "statement": "Continue reducing bulk deposits (~INR 70,000 crores shed) to shift towards retail term deposits and CASA.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Large corporate pipeline",
+          "horizon": "FY27",
+          "statement": "Maintain INR 50,000-60,000 crores of large corporate pipeline for deployment.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Infrastructure bond issuance",
+          "horizon": "FY27",
+          "statement": "Plan to finalize capital and bond issuance plans once macroeconomic conditions stabilize.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Recovery from written-off accounts",
+          "horizon": "FY27",
+          "statement": "Continue focusing on recoveries from written-off accounts to support profitability.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "MSME slippage",
+          "horizon": "FY27",
+          "statement": "MSME slippage is expected to remain flat or improve with centralized monitoring and recovery efforts.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Provisioning for contingencies",
+          "horizon": "FY27",
+          "statement": "Maintain additional provisions (e.g., INR 700 crores) for contingencies without impacting profitability.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "FY27",
+          "statement": "Maintain dividend payout ratio around 20.6% (INR 5 per share) subject to approvals.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Cost of funds",
+          "horizon": "FY27",
+          "statement": "Cost of funds expected to improve with shift from bulk to retail term deposits and CASA.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact quantum of future bulk deposit reduction",
+        "Timeline for infrastructure bond issuance",
+        "Specific targets for retail deposit growth",
+        "Impact of geopolitical risks on asset quality"
+      ],
+      "margin_drivers": [
+        "CASA ratio improvement",
+        "Shift from bulk to retail term deposits",
+        "Cost of funds reduction",
+        "Quality of asset deployment",
+        "Recovery from written-off accounts"
+      ]
+    },
+    "Axis Bank": {
+      "company": "Axis Bank",
+      "ticker": "AXISBANK",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.axis.bank.in/docs/default-source/shareholders/financial-results-and-other-information/call-transcript/2025-2026/q4fy26-earnings-call.pdf",
+      "transcript_id": "axis-bank_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T21:22:10.013Z",
+      "summary": "Axis Bank expects disciplined growth ahead with NIMs stabilizing around 3.8% through-cycle and AI-driven efficiency gains supporting profitability over the next 18-24 months.",
+      "guidance": [
+        {
+          "metric": "NIM",
+          "horizon": "through-cycle",
+          "statement": "Maintains expectation of 3.8% NIM through-cycle despite current volatility.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Advances growth",
+          "horizon": "FY27",
+          "statement": "Aims to grow advances faster than industry in a disciplined and calibrated manner.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail vs Wholesale mix",
+          "horizon": "medium-term",
+          "statement": "Expects to maintain 70% retail/SME and 30% wholesale (plus/minus 3-4%) in advances mix.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "AI-driven bottom-line impact",
+          "horizon": "18-24 months",
+          "statement": "AI initiatives expected to drive meaningful bottom-line impact over the next 18-24 months.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost-to-assets ratio",
+          "horizon": "FY27",
+          "statement": "Continues focus on improving operating efficiency to structurally enhance profitability.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "Aims to grow medium to long-term deposits faster than industry.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CASA ratio",
+          "horizon": "FY27",
+          "statement": "Focus on improving CASA ratio through stable liabilities mix and premium-led sourcing.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail disbursements growth",
+          "horizon": "3 years",
+          "statement": "Retail disbursements grew 24% YOY and 19% QoQ, providing comfort for portfolio rebalancing over 3-year horizon.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Standard asset coverage ratio",
+          "horizon": "FY27",
+          "statement": "Standard asset coverage ratio increased to 1.26%, with additional provisions providing cushion for FY27 stress scenarios.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Provisioning for standard assets",
+          "horizon": "FY27",
+          "statement": "Additional one-time provision of ₹2,001 crs created to absorb potential incremental provisioning charge in FY27 under severe stress scenarios.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Technology and digital spends",
+          "horizon": "FY27",
+          "statement": "Technology and digital spends grew 14% YOY and constituted ~10% of total operating expenses, with focus on efficiency gains.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Subsidiaries' ROE contribution",
+          "horizon": "FY27",
+          "statement": "Domestic subsidiaries reported ~54% return on investment in FY26, with PAT growing 16% YOY.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "day-count convention benefits in NIMs",
+        "residual term deposit repricing details",
+        "exact market share targets for FY27"
+      ],
+      "margin_drivers": [
+        "NIM optimization through product mix (70% retail/SME, 30% wholesale)",
+        "AI-led efficiency gains and productivity improvements",
+        "Cost-to-assets ratio reduction through operational productivity",
+        "CASA ratio improvement via stable liabilities mix",
+        "Retail disbursements growth supporting portfolio rebalancing"
+      ]
     }
   },
-  "generated_at": "2026-07-08T19:51:05.575Z",
-  "count": 869
+  "generated_at": "2026-07-08T21:22:11.536Z",
+  "count": 873
 }
