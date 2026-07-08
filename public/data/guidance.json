@@ -87145,8 +87145,357 @@
         "Life cycle cost optimization for customers",
         "Emission compliance solutions (e.g., FGD)"
       ]
+    },
+    "CIE Automotive": {
+      "company": "CIE Automotive",
+      "ticker": "CIEINDIA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-04-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c108467-d408-4a18-94ea-456840f39716.pdf",
+      "transcript_id": "cie-automotive_2026-04-29",
+      "provider": "groq",
+      "generated_at": "2026-07-08T17:49:55.669Z",
+      "summary": "No forward-looking guidance was provided in the transcript.",
+      "guidance": [],
+      "refused_to_guide": [],
+      "margin_drivers": []
+    },
+    "Tata Comm": {
+      "company": "Tata Comm",
+      "ticker": "TATACOMM",
+      "sector": "Telecommunication",
+      "concall_date": "2026-04-22",
+      "transcript_url": "https://www.tatacommunications.com/hubfs/Quarterly%20report/q4-fy2026-earning-call-transcript.pdf",
+      "transcript_id": "tata-comm_2026-04-22",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T17:50:02.803Z",
+      "summary": "Management expects profitable growth in the near to medium term, driven by AI-led demand and digital portfolio expansion, while maintaining capital discipline.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "near to medium-term",
+          "statement": "Focus on profitable growth with healthy EBITDA growth YoY",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA growth",
+          "horizon": "near to medium-term",
+          "statement": "Healthy EBITDA growth YoY expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital portfolio profitability",
+          "horizon": "near to medium-term",
+          "statement": "Digital portfolio to break even at the earliest",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital portfolio growth",
+          "horizon": "FY26",
+          "statement": "Digital portfolio grew 16.7% YoY in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Next-gen connectivity growth",
+          "horizon": "FY26",
+          "statement": "Next-gen connectivity grew 24% YoY in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book growth",
+          "horizon": "FY26",
+          "statement": "Order book grew double-digit YoY in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International order book",
+          "horizon": "FY26",
+          "statement": "International order book was particularly strong in Q4 FY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led demand",
+          "horizon": "long-term",
+          "statement": "AI-driven demand is expected to create significant opportunities",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geopolitical risks",
+          "horizon": "near-term",
+          "statement": "Potential near-term headwinds from geopolitical developments in West Asia",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Digital portfolio mix",
+          "horizon": "near to medium-term",
+          "statement": "Balance portfolio between connectivity, usage, and digital products",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "High-margin products",
+          "horizon": "near to medium-term",
+          "statement": "Accelerate high-margin products like multi-cloud connect and employee interaction",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "FY26",
+          "statement": "ROCE came in at 14.9% for FY26, up 51 bps QoQ",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Data revenue doubling target",
+        "FY27 revenue growth",
+        "FY27 EBITDA margin",
+        "FY27 PAT",
+        "FY27 Capex",
+        "Long-term financial targets"
+      ],
+      "margin_drivers": [
+        "Digital portfolio growth",
+        "Next-gen connectivity",
+        "Multi-cloud connect",
+        "Employee interaction",
+        "Operating leverage",
+        "Shift in data revenue mix",
+        "High-margin products"
+      ]
+    },
+    "Ugro Capital": {
+      "company": "Ugro Capital",
+      "ticker": "UGROCAP",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55021ba0-fe3a-4022-bd69-e3dc8e9ff7e6.pdf",
+      "transcript_id": "ugro-capital_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T17:50:10.830Z",
+      "summary": "UGRO Capital is transitioning to a focused strategy on EM-LAP and embedded finance with measurable FY29 targets, prioritizing profitability over growth and targeting steady-state annuity-led ROA of 3%-3.5%.",
+      "guidance": [
+        {
+          "metric": "Focus verticals AUM mix",
+          "horizon": "FY29",
+          "statement": "Shift EM-LAP and embedded finance to 85% of total AUM by FY29",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost reduction",
+          "horizon": "FY29",
+          "statement": "Take out INR 220 crores of annualized costs by FY29",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Prime intermediated portfolio run-down",
+          "horizon": "FY29",
+          "statement": "Run down Prime Intermediated portfolio at 15% to 20% annually",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Incremental equity",
+          "horizon": "FY29",
+          "statement": "No incremental equity through FY29; growth funded entirely from internal accruals",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Steady-state annuity-led ROA",
+          "horizon": "FY29",
+          "statement": "Transition to steady-state annuity-led, largely cash ROA of 3% to 3.5% by FY29",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Opex reduction",
+          "horizon": "FY27",
+          "statement": "Consolidated opex base to reduce from INR 750 crores to INR 490 crores plus in FY27",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "EM-LAP branch productivity",
+          "horizon": "medium-term",
+          "statement": "Vintage branches (older than 12 months) producing INR 68 lakhs per month in disbursements, targeting INR 80 lakhs per month",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Embedded finance AUM growth",
+          "horizon": "medium-term",
+          "statement": "Embedded finance AUM growing at 27% quarter-on-quarter, targeting scale in digitally transacting merchant segment",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "next two years",
+          "statement": "Credit cost expected to stabilize in the zone of little less than 2%, around 2%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Cost of borrowings",
+          "horizon": "medium-term",
+          "statement": "Cost of borrowings continuing to improve",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "AUM growth trajectory",
+          "horizon": "FY27-FY28",
+          "statement": "AUM growth expected to be flattish in FY27, with slight uptick thereafter as focus verticals grow and non-focus portfolio runs down",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "GNPA for embedded finance",
+          "horizon": "medium-term",
+          "statement": "GNPA for embedded finance expected to remain within 4%-4.5% based on underwriting expectations",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Future co-lending volumes or strategy beyond current stance",
+        "Specific AUM growth targets beyond FY29",
+        "Detailed capital adequacy targets beyond current levels"
+      ],
+      "margin_drivers": [
+        "Shift to higher-yielding focus verticals (EM-LAP and embedded finance)",
+        "Cost reduction program (INR 220 crores annualized savings)",
+        "Improving cost of borrowings",
+        "Replacement of co-lending income with on-book interest income",
+        "Secured nature of EM-LAP loans reducing credit cost impact"
+      ]
+    },
+    "Tejas Networks": {
+      "company": "Tejas Networks",
+      "ticker": "TEJASNET",
+      "sector": "Telecommunication",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12579ed4-67b9-455f-9bb4-644c41d9820f.pdf",
+      "transcript_id": "tejas-networks_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T17:50:19.774Z",
+      "summary": "Management expects AI-driven network transformation to drive long-term growth, with revenue recovery in FY27 and continued R&D investments despite near-term margin pressures.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "A good portion of the INR1,514 crore order book will convert to revenues in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "5G Massive MIMO business will generate revenue over FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "4G expansion order in South Asia will contribute to revenue in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "BSNL 4G additional PO (18,000 sites) will be executed with faster timelines due to existing inventory",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "International wireless opportunities will be ordered and revenue booked in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D spend",
+          "horizon": "FY27",
+          "statement": "R&D investments will continue but optimized based on business outlook and maturity",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Receivables",
+          "horizon": "FY27",
+          "statement": "Receivables expected to progressively come down over next couple of quarters due to BSNL collections",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Receivables",
+          "horizon": "FY27",
+          "statement": "A significant portion of BSNL 4G receivables will be collected in FY27",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Margin",
+          "horizon": "FY27",
+          "statement": "Cost escalations (including memory prices) will be addressed via renegotiation with suppliers and customers to protect margins",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Margin drivers",
+          "horizon": "medium-term",
+          "statement": "AI-driven network transformation will drive demand for 400G/800G connectivity, edge inferencing, and multi-terabit data center interconnects",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin drivers",
+          "horizon": "medium-term",
+          "statement": "Next-gen 5G products designed to scale into 5G-Advanced/6G with higher uplink capacities",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin drivers",
+          "horizon": "medium-term",
+          "statement": "High-capacity optical solutions scaling to 1.6Tbps per channel to support terabit-scale data center connectivity",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue growth percentage for FY27",
+        "EBITDA/PAT guidance for FY27",
+        "Order book size for FY27",
+        "Specific deal sizes or contract values"
+      ],
+      "margin_drivers": [
+        "AI-driven network transformation",
+        "400G/800G connectivity demand",
+        "Edge inferencing workloads",
+        "Multi-terabit data center interconnects",
+        "Next-gen 5G/6G scalability",
+        "High-capacity optical solutions (1.2Tbps to 1.6Tbps per channel)",
+        "Automation in network management"
+      ]
     }
   },
-  "generated_at": "2026-07-08T15:53:53.066Z",
-  "count": 864
+  "generated_at": "2026-07-08T17:50:21.300Z",
+  "count": 868
 }
