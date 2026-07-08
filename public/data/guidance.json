@@ -85033,8 +85033,502 @@
         "Geographic diversification (U.S., Europe, Southeast Asia)",
         "R&D-led product innovation"
       ]
+    },
+    "D.P. Abhushan": {
+      "company": "D.P. Abhushan",
+      "ticker": "DPABHUSHAN",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76cfd6da-2fea-4ce6-98c8-e2a0b6e7f756.pdf",
+      "transcript_id": "d-p-abhushan_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-08T06:15:58.768Z",
+      "summary": "D.P. Abhushan expects to achieve 20-25% revenue growth over the next five years, driven by strong wedding demand and expansion across Madhya Pradesh, Rajasthan, Gujarat, Chhattisgarh, and Maharashtra.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "20% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "INR5,500 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "6% to 6.5%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY30",
+          "statement": "8% to 8.5%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Same-store sales growth",
+          "horizon": "FY27",
+          "statement": "20% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Store expansion",
+          "horizon": "FY27-30",
+          "statement": "4-5 stores per year",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Hedging strategy",
+        "Gold Metal Loans (GML)",
+        "Improvements in product mix",
+        "Initiatives such as leasing models"
+      ]
+    },
+    "MPS": {
+      "company": "MPS",
+      "ticker": "MPSLTD",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19ba1493-4998-44d2-a6a5-2cd9b7f7615f.pdf",
+      "transcript_id": "mps_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T06:16:08.555Z",
+      "summary": "MPS expects strong FY27 performance with EBITDA crossing INR 300 crores (~30-35% margin) driven by AI-first knowledge solutions, organic growth, and Unbound integration, while maintaining disciplined M&A and capital allocation.",
+      "guidance": [
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "Expected to comfortably cross INR 300 crores EBITDA, implying a 3-year CAGR of ~21% from FY24 to FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to be in the 30-35% range for FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "INR 1,500 crores top-line target remains intact as part of Vision 2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Unbound Medicine revenue",
+          "horizon": "FY27",
+          "statement": "Expected to grow to USD 750K-950K per month (vs. USD 700K-800K historical run rate), with EBITDA margin improving from ~15% to 25-30% by exit.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Research Solutions EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aiming to sustain Q4 FY26 operating leverage (41.6% margin) as new transitions reach steady state.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Education Solutions revenue",
+          "horizon": "FY27",
+          "statement": "Strong pipeline across largest customer relationships, with focus on international knowledge organizations and scaling accessibility business.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Corporate Learning EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aiming to sustain Q4 FY26 exit margin (26.3%) into FY27 run rate.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "AI-led product adoption (RIC, DigiCore Pro, Think365)",
+          "horizon": "FY27",
+          "statement": "Scaling DigiCore Pro and RIC adoption across renewal cohort, with Think365 gaining commercial traction.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-enabled content production (Education)",
+          "horizon": "FY27",
+          "statement": "Manpower efficiency improving as AI system production moves from pilot to core delivery.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led delivery in Corporate Learning",
+          "horizon": "FY27",
+          "statement": "Scaling AI-led delivery (Bridge AI, chatbots, simulations) as dominant mix.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share expansion",
+          "horizon": "medium-term",
+          "statement": "Focus on expanding share from 0.5% to 1% and then 2% through deep customer partnerships and AI-first positioning.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "M&A pipeline",
+          "horizon": "FY27",
+          "statement": "Active pipeline with 5-10 opportunities, including a Higher Ed carve-out and cross-border asset, targeting disciplined inorganic growth.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact FY27 revenue split by segment",
+        "Specific FY28 EBITDA guidance",
+        "Detailed capex outlook for FY27",
+        "Payout ratio or dividend policy for FY27"
+      ],
+      "margin_drivers": [
+        "AI-first knowledge solutions positioning",
+        "Operating leverage from MPS Labs (200-engineer AI R&D engine)",
+        "Platform stack (HighWire, Think365, DigiCore, RIC)",
+        "Unbound Medicine integration (recurring revenue, high renewal rates)",
+        "Portfolio rationalization in Corporate Learning (higher-margin AI/AR/VR content)",
+        "AI-enabled content production efficiency (Education and Research Solutions)",
+        "Customer relationship expansion within top-tier global knowledge organizations"
+      ]
+    },
+    "Shankara Buildpro": {
+      "company": "Shankara Buildpro",
+      "ticker": "BUILDPRO",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c47c179f-4dd5-4806-9267-7f2311e35a52.pdf",
+      "transcript_id": "shankara-buildpro_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T06:16:15.167Z",
+      "summary": "Management expects volume-led growth with improving margins and non-steel expansion, targeting 1.2M tonnes steel volume in FY27 and 4% EBITDA margin in 2-3 years.",
+      "guidance": [
+        {
+          "metric": "Steel volume",
+          "horizon": "FY27",
+          "statement": "Target 1.2 million tonnes steel volume",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steel volume",
+          "horizon": "FY28",
+          "statement": "Target 1.4 million tonnes steel volume",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steel volume",
+          "horizon": "FY31",
+          "statement": "Target 2 million tonnes steel volume",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Steel tubes and pipes volume",
+          "horizon": "3 years",
+          "statement": "Grow from 6.9 lakh tonnes in FY26 to 1 million tonnes",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-steel revenue",
+          "horizon": "FY27",
+          "statement": "Target INR 750 crore, a 25% increase vs FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-steel revenue",
+          "horizon": "FY28",
+          "statement": "Target INR 925 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "E-commerce revenue",
+          "horizon": "FY27",
+          "statement": "Target INR 35 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "E-commerce revenue",
+          "horizon": "FY28",
+          "statement": "Target INR 50 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New stores/fulfilment centers",
+          "horizon": "FY27",
+          "statement": "Add 7 to 10 new fulfilment centers/stores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New stores/fulfilment centers",
+          "horizon": "Annual (medium-term)",
+          "statement": "Add 4 to 5 new stores and fulfilment centers each year in high-potential micro-markets",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Medium-term (2-3 years)",
+          "statement": "Aspire to take EBITDA margins to around 4% from 3.35% in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-steel revenue share",
+          "horizon": "3-5 years",
+          "statement": "Target non-steel revenue share of 15%-16% (from ~10% currently)",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "product mix improvement",
+        "growing share of value-added steel categories",
+        "operating leverage from scale",
+        "non-steel expansion (plumbing, CPVC, PVC, roofing, tiles, electrical, paints)",
+        "EBITDA margin expansion to 4%"
+      ]
+    },
+    "Motherson Wiring": {
+      "company": "Motherson Wiring",
+      "ticker": "MSUMI",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35305e2f-c4e1-490f-b253-a50e14e34606.pdf",
+      "transcript_id": "motherson-wiring_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T06:16:23.756Z",
+      "summary": "Management expects revenue growth to continue in FY27 driven by EV/ICE/hybrid order wins, greenfield ramp-ups, and capacity expansions, though copper pass-through and polymer cost pressures may temporarily impact margins.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth expected to continue with new order wins across ICE, EV, and hybrid powertrains",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex expected to be similar to FY26 (~INR190 crores), with expansion tied to customer firm orders",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Greenfield revenue run-rate",
+          "horizon": "FY27",
+          "statement": "Greenfield plants expected to reach INR2,000 crores annualized revenue once volumes stabilize",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Greenfield profitability",
+          "horizon": "medium-term",
+          "statement": "Greenfield plants expected to achieve parity with existing plants' margins once volumes ramp up to 80% capacity",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Copper pass-through impact",
+          "horizon": "Q1FY27",
+          "statement": "Copper price increases from Q4FY26 will be fully offset in Q1FY27 volumes due to 3-6 month lag arrangements",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Polymer cost impact",
+          "horizon": "FY27",
+          "statement": "Polymer prices rising globally but pass-through mechanisms in place with customers",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Existing plants running at ~80% utilization; expansions to follow once utilization hits 80%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Automation capex impact",
+          "horizon": "FY27",
+          "statement": "Automation and digitization capex expected to improve margins going forward",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Manpower cost growth",
+          "horizon": "FY27",
+          "statement": "Manpower cost growth expected to normalize relative to sales growth as new plants stabilize",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "New orders being won across all powertrains (ICE, EV, hybrid)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Greenfield start-up costs",
+          "horizon": "FY27",
+          "statement": "Start-up costs for greenfields expected to stabilize as volumes ramp up",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Debt-free status",
+          "horizon": "medium-term",
+          "statement": "Company maintains debt-free status to support future growth and capital allocation",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "plant-specific revenue guidance",
+        "greenfield plant-by-plant profitability breakdown",
+        "quantification of one-off start-up costs for greenfields"
+      ],
+      "margin_drivers": [
+        "copper price pass-through lag",
+        "polymer cost inflation",
+        "greenfield ramp-up costs",
+        "automation and digitization benefits",
+        "currency pass-through (JPY/INR)",
+        "manpower cost normalization"
+      ]
+    },
+    "Waaree Energies": {
+      "company": "Waaree Energies",
+      "ticker": "WAAREEENER",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5fdd6f4-915b-4255-b9ed-8d49df28c53e.pdf",
+      "transcript_id": "waaree-energies_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T06:16:31.352Z",
+      "summary": "Management expects strong growth in FY27 driven by capacity expansion, diversification into adjacent energy segments, and sustained demand for solar and energy transition solutions.",
+      "guidance": [
+        {
+          "metric": "Operating EBITDA",
+          "horizon": "FY27",
+          "statement": "Guidance range of INR7,000 crores to INR7,700 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Module manufacturing capacity",
+          "horizon": "FY27",
+          "statement": "US manufacturing capacity to expand to 4.2 gigawatt over the next six months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery Energy Storage Systems (BESS) capacity",
+          "horizon": "FY27",
+          "statement": "Phase 1 of 3.5 gigawatt hour expected in current financial year; Phase 2 of 16.5 gigawatt hour by next financial year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Inverter capacity",
+          "horizon": "FY27",
+          "statement": "Remaining 1 gigawatt of 4 gigawatt planned capacity to be operational in current financial year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Transformer capacity",
+          "horizon": "FY27",
+          "statement": "Additional 16,000 MVA capacity to be added, taking total to 20,000 MVA in current financial year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Green hydrogen electrolyzer capacity",
+          "horizon": "FY27",
+          "statement": "Targeting 1 gigawatt capacity at Dungri facility in current financial year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PV glass capacity",
+          "horizon": "FY27",
+          "statement": "2,500 TPD capacity approved, targeting to produce 16-17 gigawatts of modules per annum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Total Addressable Market (TAM)",
+          "horizon": "2035",
+          "statement": "Expected to expand 4x from ~$1 trillion to ~$4 trillion by 2035",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "India solar capacity additions",
+          "horizon": "2030-2035",
+          "statement": "Expected to grow from 44 gigawatt in 2026 to 72 gigawatt by 2030 and 100 gigawatt annually by 2035",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Global solar inverter market",
+          "horizon": "2035",
+          "statement": "Expected to grow at ~11% CAGR to ~$46 billion by 2035",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Global transformer market",
+          "horizon": "2035",
+          "statement": "Expected to grow at ~7% CAGR to ~$130 billion by 2035",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "India BESS installed capacity",
+          "horizon": "FY32",
+          "statement": "Expected to increase from ~1.1 gigawatt in 2025 to 236 gigawatts by FY'32",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "commodity price normalization",
+        "cost competitiveness from backward integration (PV glass, inverters, transformers, BESS)",
+        "scale and execution efficiency",
+        "diversified revenue mix (retail, overseas, utility, C&I)",
+        "technology leadership (Topcon cells, G12/G12R modules)"
+      ]
     }
   },
-  "generated_at": "2026-07-08T03:41:11.508Z",
-  "count": 842
+  "generated_at": "2026-07-08T06:16:32.883Z",
+  "count": 847
 }
