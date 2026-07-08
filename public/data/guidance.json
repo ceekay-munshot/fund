@@ -86443,8 +86443,386 @@
         "Backward integration (tank and radiator facility)",
         "Green transformer adoption as ESG demand grows"
       ]
+    },
+    "Connplex Cinemas": {
+      "company": "Connplex Cinemas",
+      "ticker": "CONNPLEX",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/CONNPLEX_19052026135539_TrascriptH2FY26.pdf",
+      "transcript_id": "connplex-cinemas_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-08T13:14:00.919Z",
+      "summary": "Connplex Cinemas expects strong double-digit volume growth in FY27, driven by screen additions and rising footfall trends, with continued revenue growth momentum and margin stability.",
+      "guidance": [
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Strong double-digit volume growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Continued revenue growth momentum",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin",
+          "horizon": "FY27",
+          "statement": "Margin stability",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Screen additions",
+          "horizon": "FY27",
+          "statement": "80-85 new screens",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Screen additions",
+          "horizon": "FY28",
+          "statement": "25% growth in screens",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operating leverage",
+        "Cost optimization"
+      ]
+    },
+    "Shilchar Tech.": {
+      "company": "Shilchar Tech.",
+      "ticker": "SHILCTECH",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d51e3f4b-f09f-4916-9045-487f66d9afb1.pdf",
+      "transcript_id": "shilchar-tech_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T13:14:10.706Z",
+      "summary": "Management expects strong growth trajectory from Q1FY27 onwards driven by robust order visibility, capacity expansion, and price revisions, though margin recovery depends on commodity price normalization.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Target revenue of INR800 crores, with potential to reach INR850-900 crores if conditions are favorable.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Q1FY27",
+          "statement": "Q1 expected to be a normal quarter with shipments resuming post-Middle East crisis disruptions.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aim to maintain or improve historical EBITDA margins of 29-31% despite commodity inflation.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q1FY27",
+          "statement": "Margin recovery expected as shipments resume and price revisions are implemented.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity",
+          "horizon": "FY27-FY28",
+          "statement": "New Gavasad expansion (6,500 MVA) to add to total capacity of 14,000 MVA, commissioned in April 2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Existing 7,500 MVA capacity to run at almost full utilization in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order visibility of approximately INR800 crores for FY27, supported by domestic and export demand.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q1FY27",
+          "statement": "Order book of INR452 crores as of May 2026, with strong inquiries from domestic and export customers.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Price hikes",
+          "horizon": "FY27",
+          "statement": "Price revisions being negotiated with customers to offset commodity inflation; some customers have already agreed.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Transformer oil cost",
+          "horizon": "FY27",
+          "statement": "Transformer oil prices have doubled since February 2026 and remain elevated; other commodities up 10-25%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Higher voltage class transformers",
+          "horizon": "FY27-FY28",
+          "statement": "New facility to enable production of transformers up to 220 kV class (160 MVA).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Future capacity expansion",
+          "horizon": "3-year view",
+          "statement": "Post-commissioning of current expansion, turnover potential of INR1,500 crores; further expansion plans to be announced later.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue split between domestic and export for FY27",
+        "Quantitative impact of price hikes on margins",
+        "Specific timeline for further capacity expansion beyond FY28"
+      ],
+      "margin_drivers": [
+        "Commodity inflation (oil up 100%, others 10-25%)",
+        "Export vs. domestic mix",
+        "Price revision negotiations with customers",
+        "Capacity utilization at full levels",
+        "Raw material cost absorption"
+      ]
+    },
+    "Cams Services": {
+      "company": "Cams Services",
+      "ticker": "CAMS",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0b543eb-8316-455d-81c0-c51eae595a72.pdf",
+      "transcript_id": "cams-services_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T13:14:18.783Z",
+      "summary": "Management expects sustained revenue growth driven by non-MF segments, margin expansion through automation, and continued market share gains despite macro headwinds.",
+      "guidance": [
+        {
+          "metric": "Non-MF revenue growth",
+          "horizon": "FY27",
+          "statement": "Maintain 20%+ growth in non-MF revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-MF segment margin",
+          "horizon": "end of next year (FY28)",
+          "statement": "Target 20% margin for non-MF business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth on flat headcount",
+          "horizon": "FY27",
+          "statement": "Achieve revenue growth with a slight reduction in headcount due to productivity gains",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain margin creep-up trend with cost optimization and automation",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "SIF (Social Impact Funds) launches",
+          "horizon": "May-August 2026",
+          "statement": "Launch 8 additional SIFs within the next 4 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "DPDP compliance offering (ConsenPro)",
+          "horizon": "next 12 months",
+          "statement": "Expect significant market action on DPDP compliance solutions as deadline approaches",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "KRA market share",
+          "horizon": "medium-term",
+          "statement": "Continue gaining share in KRA business, now ranked #2",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Enterprise revenue contribution",
+          "horizon": "FY27",
+          "statement": "Scale enterprise revenue faster than current 15.3% contribution",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Automation and platform rollouts",
+          "horizon": "next 3-4 months",
+          "statement": "Roll out next-gen transaction origination platform and data warehouse",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AIF (Alternatives) AUM",
+          "horizon": "FY27",
+          "statement": "Grow AIF AUM with 50% share of outsourced market intact",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "SIP registrations growth",
+          "horizon": "FY27",
+          "statement": "Maintain outperformance in SIP registrations (industry growth ~2x)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost increase",
+          "horizon": "FY27",
+          "statement": "Keep cost increases minimal while maintaining operations",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "AMC renegotiation terms on RTA fees",
+        "Passive fund yield renegotiation specifics",
+        "Detailed breakdown of yield compression drivers"
+      ],
+      "margin_drivers": [
+        "Automation and rearchitecture program",
+        "Productivity gains per employee",
+        "Cost optimization initiatives",
+        "Non-MF segment profitability improvement",
+        "Operational efficiency in MF and non-MF segments"
+      ]
+    },
+    "Multi Comm. Exc.": {
+      "company": "Multi Comm. Exc.",
+      "ticker": "MCX",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7528e39e-5430-4675-9d76-5611b6c1d928.pdf",
+      "transcript_id": "multi-comm-exc_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T13:14:28.401Z",
+      "summary": "Management expects sustained growth in FY27 driven by structural tailwinds in commodity derivatives, with focus on innovation, liquidity enhancement, and market integrity.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Management expects a strong year in FY27, with growth across key financial parameters.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "FPI participation",
+          "horizon": "medium-term",
+          "statement": "FPI contribution to ADT is expected to grow from current 2-3% to higher levels, particularly in energy segment.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Colocation services",
+          "horizon": "if permitted by regulator",
+          "statement": "If regulator allows colocation, services can be rolled out within short notice.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Retail participation",
+          "horizon": "medium-term",
+          "statement": "Retail participation is expected to grow steadily and democratically, with focus on user experience improvements.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Product pipeline",
+          "horizon": "FY27",
+          "statement": "New products in energy, metals, and indices (including METALDEX and index futures) are planned for launch.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Focus will be on efficiency and smart spending, but margin expansion is not the primary focus.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Technology and infrastructure investment",
+          "horizon": "FY27",
+          "statement": "Continued investment in technology and infrastructure to strengthen market integrity and trading experience.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share",
+          "horizon": "FY27",
+          "statement": "Market share in bullion is expected to remain stable, with focus on driving participation in existing portfolio.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "SGF (Special Guarantee Fund) contribution",
+          "horizon": "FY27",
+          "statement": "SGF spend will be maintained at healthy levels as per SEBI requirements and business growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Software support charges",
+          "horizon": "FY27",
+          "statement": "Software support charges are expected to be stable and incremental.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Interest income on margin money",
+          "horizon": "FY27",
+          "statement": "Interest income on margin money is expected to grow with increased cash with subsidiary.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Regulatory risk",
+          "horizon": "FY27",
+          "statement": "Management is cognizant of regulatory risks and will continue to work within compliance frameworks.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "April-May FY27 volume trends",
+        "Impact of RBI lending norms on prop trader volumes",
+        "Specific quarterly revenue/EBITDA/PAT targets"
+      ],
+      "margin_drivers": [
+        "Technology and infrastructure investment",
+        "Market development activities",
+        "Professional charges for business growth"
+      ]
     }
   },
-  "generated_at": "2026-07-08T11:16:08.079Z",
-  "count": 856
+  "generated_at": "2026-07-08T13:14:29.929Z",
+  "count": 860
 }
