@@ -87494,8 +87494,118 @@
         "High-capacity optical solutions (1.2Tbps to 1.6Tbps per channel)",
         "Automation in network management"
       ]
+    },
+    "E2E Networks": {
+      "company": "E2E Networks",
+      "ticker": "E2E",
+      "sector": "Information Technology",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/E2E_22042026154021_EC_Transcript_2.pdf",
+      "transcript_id": "e2e-networks_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T19:50:57.005Z",
+      "summary": "Management expects strong secular growth in AI infrastructure demand, with rapid expansion in GPU capacity and monetization through multiple financing models, though specific financial targets are avoided.",
+      "guidance": [
+        {
+          "metric": "GPU capacity under management",
+          "horizon": "medium-term",
+          "statement": "Planning to deploy at least 2,048 additional B200 GPUs by FY27, with total capacity expected to reach at least 6,000 GPUs by FY27 end.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GPU cluster deployments",
+          "horizon": "Q2FY27",
+          "statement": "First cluster of 1024 B200 GPUs expected to go live by mid-May, followed by another cluster of 1024 in a couple of months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GPU utilization",
+          "horizon": "Q4FY26",
+          "statement": "Achieved 80%+ utilization in March, with potential to increase further.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GPU contribution to MRR",
+          "horizon": "medium-term",
+          "statement": "GPU contribution to MRR expected to reach 85%-90% in coming quarters.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term",
+          "statement": "Focus on growth aligned with market demand, though no specific MRR guidance provided due to rapid market changes.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q4FY26",
+          "statement": "EBITDA margin expanded to 60.7% in Q4FY26, driven by operating leverage and strong execution.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planning to deploy 2,048 B200 GPUs in FY27, with additional capacity expansion under exploration.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Depreciation schedule",
+          "horizon": "FY27 onwards",
+          "statement": "Fixed assets (including GPUs) are depreciable over 6 years.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Asset-light models",
+          "horizon": "medium-term",
+          "statement": "Exploring private credit asset-light models to expand GPU capacity rapidly, in addition to equity and debt.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "India AI Mission collaboration",
+          "horizon": "medium-term",
+          "statement": "Continuing to work closely with India AI Mission for future GPU generations, though no specific revenue targets provided.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Blackwell and future GPU deployments",
+          "horizon": "FY27",
+          "statement": "Planning for Blackwell, B300, GB300, and Vera Rubin deployments in the medium term.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost growth",
+          "horizon": "FY27",
+          "statement": "Employee costs expected to grow as the company invests in higher-value talent to solve complex AI infrastructure problems.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "MRR guidance for FY27",
+        "Specific revenue split between India AI Mission and enterprise clients",
+        "Customer details for Blackwell deployment",
+        "Margin impact of asset-light models",
+        "Long-term MRR visibility beyond 2-3 years"
+      ],
+      "margin_drivers": [
+        "Operating leverage from high GPU utilization",
+        "Economies of scale from rapid GPU capacity expansion",
+        "Shift to higher-value GPU deployments (e.g., Blackwell, B300)",
+        "Asset-light financing models to reduce capital intensity"
+      ]
     }
   },
-  "generated_at": "2026-07-08T17:50:21.300Z",
-  "count": 868
+  "generated_at": "2026-07-08T19:51:05.575Z",
+  "count": 869
 }
