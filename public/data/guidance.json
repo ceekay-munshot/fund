@@ -86069,8 +86069,382 @@
         "Working capital improvement from B2C elevators (advance payments)",
         "Brand and marketing spend normalization for Ricardo Elevators (long-term margin accretion)"
       ]
+    },
+    "GK Energy": {
+      "company": "GK Energy",
+      "ticker": "GKENERGY",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa6694eb-e11b-46f9-9336-b12d492b86c0.pdf",
+      "transcript_id": "gk-energy_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-08T11:15:40.046Z",
+      "summary": "GK Energy expects to double its revenue in FY27, driven by growth in the solar pump and roof-top segments, with a strong order book and expanding presence in new states.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Double the revenue of FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aim to maintain two-digit margin",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q1FY27",
+          "statement": "Expecting INR 700-odd crores order book, with additional orders from Magel Tyala and Smart Scheme",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital",
+          "horizon": "FY27",
+          "statement": "Expecting working capital to remain in the range of 140-150 days",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Supply chain integration",
+        "Decentralized warehousing and logistics infrastructure",
+        "Long-standing rural market penetration",
+        "Forward agreements with suppliers"
+      ]
+    },
+    "Canara Robeco": {
+      "company": "Canara Robeco",
+      "ticker": "CRAMC",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41178b5a-0f71-4820-bde7-5e651c19b6b1.pdf",
+      "transcript_id": "canara-robeco_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T11:15:48.227Z",
+      "summary": "Management expects disciplined growth driven by SIP momentum, cost discipline, and focus on active equity funds, with cautious expansion into adjacent segments.",
+      "guidance": [
+        {
+          "metric": "SIP flows",
+          "horizon": "next 6 months",
+          "statement": "Dedicated sales teams to be set up across five locations to revive SIP growth, aiming for directional improvement",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost",
+          "horizon": "FY27",
+          "statement": "Employee cost expected to increase due to branch expansion and regulatory costs, with cost-to-income ratio targeted between 40-50%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Other expenses",
+          "horizon": "Q1FY27",
+          "statement": "Other expenses to normalize from INR15.7-16 crores levels after one-time NFO and regulatory costs in Q4FY26",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Revenue yields",
+          "horizon": "medium-term",
+          "statement": "Comfortable with revenue yields in the range of 32-40 bps, focusing more on PAT growth",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "BER impact on revenue",
+          "horizon": "FY27",
+          "statement": "Impact of BER (replacing TER) expected to be neutral at worst, with potential gain of 2-3 bps",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Diversification into PMS/AIF",
+          "horizon": "medium-term",
+          "statement": "No near-term plans to diversify into PMS or AIF, focusing on mutual fund space due to risk considerations",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Passive funds (ETFs/index funds)",
+          "horizon": "medium-term",
+          "statement": "No near-term plans to launch passive funds, currently focused on active equity funds",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Geographical expansion",
+          "horizon": "medium-term",
+          "statement": "Continued focus on Pan-India presence, with no specific targets for regional AUM mix",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Advisory fees (Onex)",
+          "horizon": "FY27",
+          "statement": "Over 90% of fees expected to continue coming from management side, with annual report to provide split",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Market share in flows",
+          "horizon": "Q4FY26",
+          "statement": "Maintained market share in flows, with no significant gain or loss relative to industry",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Technology investments",
+          "horizon": "FY27",
+          "statement": "Technology investments to support regulatory environment, with normalization expected in next quarter",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AUM growth (equity-focused)",
+          "horizon": "medium-term",
+          "statement": "Equity-focused AUM to outperform in bull markets and underperform in bear markets due to 91% equity allocation",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "March net inflow numbers for equity category",
+        "Quantification of one-off expenses (regulatory, labor code, technology)",
+        "Future AUM split between equity and debt"
+      ],
+      "margin_drivers": [
+        "Cost-to-income ratio (40-50% target)",
+        "Revenue yields (32-40 bps range)",
+        "Employee cost growth (due to branch expansion and regulatory costs)",
+        "PAT focus over yield"
+      ]
+    },
+    "Safe Enterprises": {
+      "company": "Safe Enterprises",
+      "ticker": "SAFEENTP",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SAFEENTERPRISES_20052026143428_Transcript.pdf",
+      "transcript_id": "safe-enterprises_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T11:15:55.613Z",
+      "summary": "Management expects margin expansion in the near term due to capacity consolidation and cost efficiencies, with long-term PAT margin sustainability around 25%.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "long-term",
+          "statement": "25% is considered a reasonable long-term EBITDA margin target.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "long-term",
+          "statement": "25% is considered a reasonable long-term PAT margin target.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "immediate-term (post Ambernath plant commissioning)",
+          "statement": "Margins can go up immediately due to consolidation of multiple plants, elimination of inefficiencies, and removal of lease rentals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "immediate-term (post Ambernath plant commissioning)",
+          "statement": "Margins can go up immediately due to consolidation of multiple plants, elimination of inefficiencies, and removal of lease rentals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Existing capacity can support a 30% increase in revenue without the Ambernath plant.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Major growth expected in FY28 due to commissioning of the Ambernath plant in Q3FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Average revenue per store",
+          "horizon": "FY27",
+          "statement": "20% to 30% further improvement in average revenue per store is feasible, driven by more fixtures per store, premium finishes, and retail technology integration.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Number of stores",
+          "horizon": "FY27",
+          "statement": "Growth in the number of stores expected due to addition of new customers and expansion in value per store.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Additional capex of ~INR15 crores expected for the Ambernath plant in H1FY27, totaling ~INR90 crores for the project.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from Ambernath plant",
+          "horizon": "post commissioning (Q3FY27)",
+          "statement": "The Ambernath plant is expected to contribute INR500 crores in revenue without additional machinery.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "current",
+          "statement": "Existing plants are operating at upwards of 90% capacity utilization.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Store rollouts",
+          "horizon": "FY27",
+          "statement": "Visibility for increase in store rollouts across existing clients and addition of new clients.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "exact number of stores for FY27",
+        "client-specific revenue or store rollout details",
+        "revenue per square foot metrics",
+        "revenue contribution from top customer as a percentage"
+      ],
+      "margin_drivers": [
+        "consolidation of multiple plants into Ambernath facility",
+        "elimination of lease rentals",
+        "higher throughput from same facilities",
+        "premium finishes and richer product mix",
+        "increased fixture intensity per store",
+        "integration of retail technology (e.g., RFID-based self-checkout)"
+      ]
+    },
+    "Atlanta Electric": {
+      "company": "Atlanta Electric",
+      "ticker": "ATLANTAELE",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a8f3f46-a290-4807-923d-4603b0cf2200.pdf",
+      "transcript_id": "atlanta-electric_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T11:16:04.426Z",
+      "summary": "Atlanta Electricals expects sustained growth driven by EHV transformer ramp-up, export expansion, and new product launches, with margins remaining stable in the near term.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected revenue growth of ~40% CAGR over next 3 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins to remain stable in 18-20% band",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Unexecuted order book of INR2,493 crores as of March 2026 provides strong execution visibility",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Vadod facility utilization",
+          "horizon": "FY27",
+          "statement": "Expected utilization to reach 65% in FY27 and 100% in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "400KV transformer production",
+          "horizon": "FY27",
+          "statement": "Majority of Vadod production in FY27 will be 220KV with limited 400KV; full 400KV ramp-up expected in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "765KV transformer development",
+          "horizon": "FY27",
+          "statement": "Prototyping of 765KV transformer at Ankhi facility targeted for FY27; commercial orders expected post-validation",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Unit 6 (IDT facility) commissioning",
+          "horizon": "FY27",
+          "statement": "Operations to commence before end of calendar year 2026, adding ~5,000 MVA capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tank and radiator facility",
+          "horizon": "FY27",
+          "statement": "Facility to commence operations in FY27; benefits expected in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export market push",
+          "horizon": "FY27",
+          "statement": "Significant and focused efforts to explore export markets with physical presence in select markets",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Per MVA realization",
+          "horizon": "FY27",
+          "statement": "Per MVA realizations expected to drop as higher MVA products (400KV/765KV) scale up",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Raw material cost pressure",
+          "horizon": "next 1-2 quarters",
+          "statement": "Temporary cost increases expected on small components (gaskets, paints) due to global supply chain disruptions; majority of contracts have price variation clauses",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Tech tie-up for 765KV",
+          "horizon": "next 2 months",
+          "statement": "Tech tie-up discussions for 765KV transformer expected to close in next couple of months",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Short circuit test timelines for 400KV transformer"
+      ],
+      "margin_drivers": [
+        "Operating leverage from higher volumes",
+        "Richer product mix (220KV class now ~52% of revenue)",
+        "Improved procurement efficiency",
+        "Backward integration (tank and radiator facility)",
+        "Green transformer adoption as ESG demand grows"
+      ]
     }
   },
-  "generated_at": "2026-07-08T09:11:57.138Z",
-  "count": 852
+  "generated_at": "2026-07-08T11:16:08.079Z",
+  "count": 856
 }
