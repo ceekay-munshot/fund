@@ -86821,8 +86821,332 @@
         "Market development activities",
         "Professional charges for business growth"
       ]
+    },
+    "Castrol India": {
+      "company": "Castrol India",
+      "ticker": "CASTROLIND",
+      "sector": "Energy",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2502bf8-680b-48ed-a5f0-5409b7938365.pdf",
+      "transcript_id": "castrol-india_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-08T15:53:27.230Z",
+      "summary": "Castrol India expects to navigate a potentially inflationary environment with a focus on delivering consistent high-quality earnings, while managing near-term volatilities.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Structurally, the objective of the company is to maintain margins within the expected operating band of 21% to 24%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "Q1FY26",
+          "statement": "Delivered 7% to 8% volume growth year-over-year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material costs",
+          "horizon": "2QFY26 onwards",
+          "statement": "Expect to see the impact of increased raw material prices, particularly crude oil, on the company's costs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pricing",
+          "horizon": "FY26",
+          "statement": "Have taken one round of pricing and will consider further pricing actions to mitigate the impact of increased raw material costs.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific percentage of price increase",
+        "Market size for data center business"
+      ],
+      "margin_drivers": [
+        "Product cost savings",
+        "Efficiency measures",
+        "Pricing actions",
+        "Cost optimization"
+      ]
+    },
+    "BSE": {
+      "company": "BSE",
+      "ticker": "BSE",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/BSE1_13052026172037_NSEintimation.pdf",
+      "transcript_id": "bse_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T15:53:35.687Z",
+      "summary": "BSE expects continued growth in core trading volumes, derivatives momentum, and strategic initiatives to drive revenue and profitability in FY27, with cautious optimism on macroeconomic conditions.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "IPO pipeline remains robust with over 250 active applications targeting Rs. 1.75 lakh crores, reinforcing BSE's position as a leading global fundraising venue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "BSE expects continued growth in core trading and settlement-related activities, with derivatives momentum sustained into FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Co-location revenues are expected to remain a strategically important part of diversification, supporting low-latency market access and stable long-term revenues.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Operating expenses are expected to remain correlated with transaction volumes, with regulatory fees and clearing expenses forming a significant portion of costs.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "BSE remains confident in its ability to deliver sustained financial momentum and shareholder returns through disciplined capital allocation and strategic investments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Monthly contract volumes in derivatives are expected to grow as more participants with long-term views engage with Sensex contracts.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "BSE plans to deepen market participation by expanding product suite, promoting longer tenure contracts, and strengthening technology infrastructure.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "BSE aims to broaden liquidity profile in derivatives, including build-up in non-expiry day volumes and open interest, with Sensex options remaining among the most actively traded globally.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Other operating income",
+          "horizon": "FY27",
+          "statement": "BSE will continue to expand data dissemination fees, co-location, and index services as part of its diversification strategy.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "SGF contribution",
+          "horizon": "FY27",
+          "statement": "BSE has reduced SGF contribution from 5% to 3.5% of profits quarterly, as the threshold of 150% of required SGF has been crossed.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Commodity derivatives",
+          "horizon": "medium-term",
+          "statement": "BSE is exploring commodity derivatives with a focus on creating a unique value proposition rather than merely following competitors.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Investor accounts",
+          "horizon": "FY27",
+          "statement": "BSE aims to further deepen retail participation, with continued growth in investor accounts and SIP flows.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Future SGF requirements beyond the current threshold",
+        "Pricing strategy for derivatives contracts beyond general principles",
+        "Specific quantitative targets for EBITDA margin or PAT growth"
+      ],
+      "margin_drivers": [
+        "Transaction volumes in core trading and settlement",
+        "Regulatory fees and clearing expenses (53% of operating expenses)",
+        "Volatility-driven premium revenue in derivatives",
+        "Co-location revenues as a stable long-term income stream",
+        "Expansion of data dissemination fees and index services"
+      ]
+    },
+    "Ksolves India": {
+      "company": "Ksolves India",
+      "ticker": "KSOLVES",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e16b73-c2cd-462e-987d-5ee12fa9e0b3.pdf",
+      "transcript_id": "ksolves-india_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T15:53:41.839Z",
+      "summary": "Management expects FY27 revenue growth of 18-20% with EBITDA margins in the 25-30% range, driven by AI-led productivity and disciplined investments.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect annual revenue growth around 18% to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margins to be in the range of 25% to 30%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Employee expense efficiency",
+          "horizon": "FY27",
+          "statement": "AI agents are reducing time and increasing output for repetitive tasks, though exact cost impact not quantified",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "DFM product development expenses",
+          "horizon": "FY27",
+          "statement": "No further big investments planned on DFM development; expenses to reduce by at least 60% this year",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "FX tailwind benefit",
+          "horizon": "Q4FY26 and ongoing",
+          "statement": "FX tailwind benefit quantified at ~INR 20 lakhs in Q4FY26; expected to continue due to higher billing rates",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dividend policy",
+          "horizon": "FY27",
+          "statement": "Management will continue giving dividends",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "order pipeline size",
+        "order booking or deal wins in FY27",
+        "DFM product revenue trajectory"
+      ],
+      "margin_drivers": [
+        "AI-led productivity and efficiency gains",
+        "disciplined investment approach",
+        "FX tailwind",
+        "reduction in DFM-related expenses",
+        "operating leverage from revenue growth"
+      ]
+    },
+    "GE Power": {
+      "company": "GE Power",
+      "ticker": "GVPIL",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e50ef899-d3d3-4e87-8187-a67c65473ab2.pdf",
+      "transcript_id": "ge-power_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T15:53:51.539Z",
+      "summary": "Management expects steady growth in core services with improved margins and cash flows, while new build orders decline as part of a strategic shift toward service-led operations.",
+      "guidance": [
+        {
+          "metric": "Core services order book growth",
+          "horizon": "FY27",
+          "statement": "85-90% of the INR1,628 crore order book as of March 31, 2026, is expected to be executed in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Core services market size",
+          "horizon": "medium-term",
+          "statement": "Target market size for core services is estimated at INR3,500-4,000 crores.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Core services order intake growth",
+          "horizon": "FY27",
+          "statement": "Order intake for core services is expected to grow, with a focus on maintaining market share in the INR3,500-4,000 crore market.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Excluding one-off gains, the company delivered 11% EBITDA in FY26 and aims to sustain profitability.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order backlog composition",
+          "horizon": "FY27",
+          "statement": "New build orders will continue to decline as the company focuses on core services, while core services order backlog is expected to grow.",
+          "specificity": "vague",
+          "direction": "down (new build), up (core services)"
+        },
+        {
+          "metric": "Cash flow from operations",
+          "horizon": "FY27",
+          "statement": "The company aims to sustain strong cash flow generation from operations.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "FY27",
+          "statement": "The board has recommended a dividend payout of 70% of face value for FY26, subject to shareholder approval.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International market expansion",
+          "horizon": "medium-term",
+          "statement": "The company will continue to expand its presence in international markets like Saudi, Turkey, Australia, UAE, Malaysia, Indonesia, and Morocco.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin improvement in core services",
+          "horizon": "FY27",
+          "statement": "The company aims to improve margins through higher-margin, shorter-cycle, and lower working capital-intensive opportunities.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Financial discipline and capital structure",
+          "horizon": "medium-term",
+          "statement": "The company will continue to maintain financial discipline and an efficient capital structure aligned with its service-led business model.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific revenue or EBITDA targets for FY27",
+        "Timing or quantum of future dividend payouts beyond FY26",
+        "Detailed breakdown of international vs. domestic revenue mix",
+        "Capital expenditure plans for future periods"
+      ],
+      "margin_drivers": [
+        "Higher-margin, shorter-cycle core services",
+        "Selective project selection and tighter execution",
+        "Sustained cost discipline",
+        "Service-led offerings and upgrades",
+        "Life cycle cost optimization for customers",
+        "Emission compliance solutions (e.g., FGD)"
+      ]
     }
   },
-  "generated_at": "2026-07-08T13:14:29.929Z",
-  "count": 860
+  "generated_at": "2026-07-08T15:53:53.066Z",
+  "count": 864
 }
