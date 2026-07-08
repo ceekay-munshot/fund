@@ -84049,8 +84049,509 @@
         "Lower finance costs (debt repayment via IPO proceeds)",
         "Scale efficiencies across manufacturing operations"
       ]
+    },
+    "Acutaas Chemical": {
+      "company": "Acutaas Chemical",
+      "ticker": "ACUTAAS",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ece102cb-b471-400c-949b-4a85748eb1a1.pdf",
+      "transcript_id": "acutaas-chemical_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-07-08T00:11:12.723Z",
+      "summary": "Acutaas Chemicals expects 25% revenue growth in FY27, driven by strong demand and strategic initiatives",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "25% revenue growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "similar to FY26, around 35%",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Battery Chemicals revenue",
+          "horizon": "FY27",
+          "statement": "meaningful revenue contribution expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CDMO revenue",
+          "horizon": "FY27",
+          "statement": "four new products expected to contribute INR50-100 crores each at peak level",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Semiconductor Chemicals revenue",
+          "horizon": "next 3-5 years",
+          "statement": "revenue potential expected, but no specific numbers given",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Indichem JV revenue",
+          "horizon": "after plant construction",
+          "statement": "commercial revenue expected after plant construction and valuation phase",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "product mix",
+        "operating leverage",
+        "disciplined execution"
+      ]
+    },
+    "eClerx Services": {
+      "company": "eClerx Services",
+      "ticker": "ECLERX",
+      "sector": "Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72615019-c3a5-4474-884a-584d48b4169f.pdf",
+      "transcript_id": "eclerx-services_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T00:11:22.228Z",
+      "summary": "Management expects FY27 revenue growth in the top quartile with EBITDA margins stable in the 24-28% range, driven by AI-led growth and client diversification.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect to be in the top quartile of growth for FY27",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Retain guidance of 24% to 28% EBITDA margin",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Sequential revenue growth",
+          "horizon": "Q1FY27",
+          "statement": "Expect Q1FY27 to be better sequentially than Q4FY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Agentic AI revenue ramp-up",
+          "horizon": "Q4FY27",
+          "statement": "Revenue ramp-up for the large Agentic AI deal to start from Q4FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Agentic AI traction",
+          "horizon": "FY27",
+          "statement": "Seeing good traction on Agentic AI across industry segments with meaningful projects converting from pilots",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "FX impact on revenue",
+          "horizon": "FY27",
+          "statement": "Upside from FX depreciation will be limited due to hedging (80% of USD receivables hedged at ~INR 89/USD)",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Subcon expenses",
+          "horizon": "Next few quarters",
+          "statement": "Subcon expenses expected to grow in line with revenue, not faster",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Sales & marketing costs",
+          "horizon": "FY27",
+          "statement": "Provisions for variable pay will be made at the beginning of the year and trued up as the year progresses",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Wage hike impact",
+          "horizon": "FY27",
+          "statement": "Wage hike impact in Q1FY27 expected to be similar to FY26 (~300-350 bps)",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Roll-off rate",
+          "horizon": "FY27",
+          "statement": "Roll-off rate expected to remain in the 15-20% range as AI is seen as a productivity tool with no meaningful change",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "CLX business growth",
+          "horizon": "H1FY27",
+          "statement": "CLX business expected to return to growth in H1FY27 supported by new GenAI wins and green shoots in fashion and luxury",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Top 10 client concentration",
+          "horizon": "FY27",
+          "statement": "Top 10 client concentration expected to further reduce as portfolio diversification continues",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Agentic AI revenue as a percentage of total revenue (too early to quantify)",
+        "Specific revenue growth rate for FY27 (only top quartile guidance provided)",
+        "Outcome-based pricing impact on EBITDA margins (contractual structures vary by client)",
+        "Frontier AI model partnerships or competitive positioning (too early to announce)"
+      ],
+      "margin_drivers": [
+        "AI-led productivity gains and automation",
+        "G&A cost reduction (facilities, other costs)",
+        "Selling & distribution cost optimization",
+        "Wage hike impact (Q1FY27 similar to FY26)",
+        "Client diversification reducing concentration risk"
+      ]
+    },
+    "Monolithisch Ind": {
+      "company": "Monolithisch Ind",
+      "ticker": "MONOLITH",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/MONOLITHISCH_07052026155129_04052026__investor_Call_transcript_of_Investors_Earning_call.pdf",
+      "transcript_id": "monolithisch-ind_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T00:11:28.525Z",
+      "summary": "Management expects strong revenue growth and margin expansion in FY27 driven by capacity expansion, product mix shift to premium offerings, and operational efficiencies.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Target revenue of INR250 crores to INR300 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margins in the range of 22% to 25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Q1FY27",
+          "statement": "Q1 revenue guidance of INR52 crores to INR55 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity",
+          "horizon": "Q1FY27 to Q2FY27",
+          "statement": "Expected to become the largest manufacturer of ramming mass globally by late Q1 FY27 to early Q2 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity",
+          "horizon": "FY27",
+          "statement": "Total group capacity expected to reach 574,000 MTPA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue contribution",
+          "horizon": "FY27",
+          "statement": "SGB Limited expected to contribute 60% of total sales",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Mineral India Global expected revenue of INR55 crores to INR60 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY28",
+          "statement": "Peak revenue potential of INR450 crores to INR500 crores at 80%-85% capacity utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27-FY28",
+          "statement": "EBITDA margins expected to remain in the range of 22% to 25%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Capacity utilization expected to optimize further in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Utilization",
+          "horizon": "FY27",
+          "statement": "Mineral India Global expected to run at 90% to 95% efficiency post approvals",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY28",
+          "statement": "Guidance on capex plans for FY28 to be provided in AGM",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "peak revenue potential for silica-based products",
+        "EBITDA margins for silica-based products",
+        "order book details"
+      ],
+      "margin_drivers": [
+        "shift to premium product SGB Limited",
+        "improved operational efficiencies",
+        "product mix improvement",
+        "scale-up from capacity expansion",
+        "automation and renewable energy integration"
+      ]
+    },
+    "Prudent Corp.": {
+      "company": "Prudent Corp.",
+      "ticker": "PRUDENT",
+      "sector": "Financial Services",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1f8ff54-fe13-4097-a58e-43401020c23b.pdf",
+      "transcript_id": "prudent-corp_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T00:11:38.700Z",
+      "summary": "Management expects FY27 to benefit from strong AUM momentum, regulatory tailwinds, and AI-led platform adoption, offset by modest TER headwinds and cautious inorganic outlook.",
+      "guidance": [
+        {
+          "metric": "AUM growth",
+          "horizon": "FY27",
+          "statement": "AUM as of May 5, 2026 (INR 1.33 trillion) is 9.7% higher than FY26 average, providing a strong revenue tailwind for the remaining 11 months of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Revenue growth expected to be in line with AUM growth (~21%) despite TER rationalization headwinds.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost growth",
+          "horizon": "FY27",
+          "statement": "Employee cost for the existing base expected to increase by approximately 14% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "TER impact from SEBI changes",
+          "horizon": "FY27",
+          "statement": "Expected 2-3 basis point impact on yield from exit load pass-through withdrawal, with broader implications still being discussed at industry level.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "SIF flows",
+          "horizon": "Q4FY26 and beyond",
+          "statement": "SIF flows in Q4FY26 were INR 90 crore, with a current run rate of INR 25-30 crore monthly and expected to increase incrementally.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Other financial products revenue growth",
+          "horizon": "FY27",
+          "statement": "Other financial products revenue (excluding discontinued Liquiloans) grew ~35% YoY, with recurring nature of PMS/AIF revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Health insurance fresh premium growth",
+          "horizon": "FY27",
+          "statement": "Health insurance fresh premium grew 35% in FY26, with continued focus on this vertical.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Life insurance growth drivers",
+          "horizon": "FY27",
+          "statement": "Term + ULIP (Tulip) category identified as key growth driver for life insurance, replacing muted guaranteed plans.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led platform adoption",
+          "horizon": "medium-term",
+          "statement": "Prudent Edge platform launched in beta for distributors, with potential to transform business operations and improve partner efficiency.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "GST rationalization impact on distributors",
+          "horizon": "FY27",
+          "statement": "GST rationalization removes earlier anomaly, creating level playing field and attracting smaller distributors to the platform.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Industry consolidation opportunity",
+          "horizon": "FY27",
+          "statement": "Expected consolidation in the industry due to GST impact, benefiting larger platforms like Prudent.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Inorganic opportunities",
+          "horizon": "FY27-FY28",
+          "statement": "Continuous exploration of inorganic opportunities, though no concrete plans disclosed.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact impact of TER changes on overall yield",
+        "Breakup of other financial products revenue for FY27",
+        "Persistency trends in insurance beyond FY26"
+      ],
+      "margin_drivers": [
+        "TER rationalization headwinds (2-3 bps impact)",
+        "Employee cost growth (~14% in FY27)",
+        "Health insurance fresh premium growth",
+        "Term + ULIP (Tulip) category growth in life insurance",
+        "AI-led platform adoption (Prudent Edge) for operational efficiency"
+      ]
+    },
+    "Sat Kartar Life": {
+      "company": "Sat Kartar Life",
+      "ticker": "SATKARTAR",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SATKARTAR_09052026194024_Transcript_of_Earnings_con_call.pdf",
+      "transcript_id": "sat-kartar-life_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-08T00:11:46.340Z",
+      "summary": "Management expects strong revenue growth driven by product expansion, US operations, AI integration, and hospital rollout, targeting INR 300cr in FY27 and INR 500cr in FY28.",
+      "guidance": [
+        {
+          "metric": "Product revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR 300cr, achievable with current run rate and new initiatives (subsidiary, US, AI, nutraceuticals).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product revenue",
+          "horizon": "FY28",
+          "statement": "Targeting INR 500cr, driven by ticket size growth, AI, US, and new product launches.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hospital beds (total)",
+          "horizon": "End of FY27",
+          "statement": "Planning to scale to 300 beds, with 150-200 in collaboration with Jeena Sikho.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hospital beds (total)",
+          "horizon": "End of FY28",
+          "statement": "Targeting 1000 beds, including expansion in South India.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "US operations revenue",
+          "horizon": "FY27",
+          "statement": "Expecting INR 10-15cr from US operations.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Subsidiary (Plantomed) revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR 22cr from subsidiary.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-driven efficiency improvement",
+          "horizon": "FY27",
+          "statement": "AI initiatives already delivering ROI and improving operational efficiency.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Average revenue per occupied bed (ARPOB)",
+          "horizon": "Current and future",
+          "statement": "Budgeting for ARPOB of INR 10,000+ per bed per day, higher than industry benchmark of INR 8,000.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hospital bed CAPEX",
+          "horizon": "FY27-FY28",
+          "statement": "CAPEX of INR 4cr for 1000 beds (INR 4L per bed).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hospital occupancy rate",
+          "horizon": "FY27",
+          "statement": "Expecting occupancy rates of 60-70% for new hospitals, leveraging data and Jeena Sikho expertise.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product ticket size",
+          "horizon": "FY27-FY28",
+          "statement": "Targeting ticket size to cross INR 3,500, up from INR 3,250 currently.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Repeat patient percentage",
+          "horizon": "FY27",
+          "statement": "Repeat patient rate expected to marginally improve to 26% from 25% currently.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Total company-wide CAPEX requirements beyond hospital beds",
+        "Consolidated PAT guidance for future years",
+        "Detailed breakdown of advertisement spend beyond current run rate",
+        "Manufacturing in-house CAPEX for all products"
+      ],
+      "margin_drivers": [
+        "Ticket size growth (targeting INR 3,500+)",
+        "AI-driven operational efficiency and ROI",
+        "US operations expansion",
+        "Subsidiary (Plantomed) contribution",
+        "Higher ARPOB (INR 10,000+ per bed)",
+        "Controlled advertisement spend (semi-variable cost absorption)",
+        "Product margin improvement from new high-ticket products"
+      ]
     }
   },
-  "generated_at": "2026-07-07T23:13:17.324Z",
-  "count": 832
+  "generated_at": "2026-07-08T00:11:47.863Z",
+  "count": 837
 }
