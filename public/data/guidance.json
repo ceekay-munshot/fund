@@ -88630,8 +88630,58 @@
         "Volume growth",
         "CXO compensation"
       ]
+    },
+    "Syngene Intl.": {
+      "company": "Syngene Intl.",
+      "ticker": "SYNGENE",
+      "sector": "Healthcare",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.syngeneintl.com/wp-content/uploads/2026/05/IR-Call-Transcript-Q4FY26.pdf",
+      "transcript_id": "syngene-intl_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-09T12:55:59.625Z",
+      "summary": "Syngene International expects a broadly flat performance in FY27, with EBITDA margins in the mid-20s, and growth weighted towards the second half of the year.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Broadly flat performance",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintaining EBITDA margins in the mid-20s",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Growth",
+          "horizon": "H2 FY27",
+          "statement": "Meaningfully stronger than H1",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue split",
+          "horizon": "FY27",
+          "statement": "Two-third from CRO and one-third from CDMO",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific revenue growth rate for FY27",
+        "Detailed breakdown of costs for Bayview facility"
+      ],
+      "margin_drivers": [
+        "Disciplined cost management",
+        "Sharper operational execution",
+        "Product mix changes"
+      ]
     }
   },
-  "generated_at": "2026-07-09T09:56:17.205Z",
-  "count": 880
+  "generated_at": "2026-07-09T12:56:05.571Z",
+  "count": 881
 }
