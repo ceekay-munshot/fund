@@ -88791,8 +88791,416 @@
         "Client funding and treasury income growth",
         "Disciplined cost control and fiscal management"
       ]
+    },
+    "Apollo Hospitals": {
+      "company": "Apollo Hospitals",
+      "ticker": "APOLLOHOSP",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-21",
+      "transcript_url": "https://www.apollohospitals.com/sites/default/files/2026-05/transcript-of-apollo-hospitals---q4-fy26-earnings-call.pdf",
+      "transcript_id": "apollo-hospitals_2026-05-21",
+      "provider": "groq",
+      "generated_at": "2026-07-09T18:06:53.399Z",
+      "summary": "Apollo Hospitals expects to sustain growth momentum while maintaining financial discipline and operating efficiency, with a focus on expanding its integrated healthcare ecosystem.",
+      "guidance": [
+        {
+          "metric": "Hospital losses",
+          "horizon": "FY27",
+          "statement": "Expected to be around INR 140 crore, with the peak loss in a quarter potentially higher than INR 41 crore",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Established hospital EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to improve further from 25.5%, with a potential INR 100-125 crore impact from cost reduction and operating leverage",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Apollo HealthCo margin",
+          "horizon": "Q4 FY27",
+          "statement": "Expected to be around 6.5-7%, driven by growth in private label and reduction in digital losses",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital breakeven",
+          "horizon": "Q1 FY27",
+          "statement": "Expected to achieve breakeven without ESOP costs, with reported breakeven expected by Q3 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pharmacy offline business margin",
+          "horizon": "Medium-term",
+          "statement": "Expected to normalize around 8-9%, driven by higher private label contribution and cost management",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New hospital beds",
+          "horizon": "FY28",
+          "statement": "All 1,400 beds expected to be operationalized, with a potential breakeven or lower loss",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Diagnostics business growth",
+          "horizon": "Medium-term",
+          "statement": "Expected to be sustainable, driven by increased lab utilization and B2B business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Apollo 24/7 GMV growth",
+          "horizon": "Medium-term",
+          "statement": "Expected to grow at 25-35% without significant marketing spend",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantification of further improvement in established hospital margins"
+      ],
+      "margin_drivers": [
+        "Higher asset utilization",
+        "Cost reduction",
+        "Private label contribution",
+        "Reduction in digital losses"
+      ]
+    },
+    "Avalon Tech": {
+      "company": "Avalon Tech",
+      "ticker": "AVALON",
+      "sector": "Industrials",
+      "concall_date": "2026-05-07",
+      "transcript_url": "https://www.avalontec.com/investor/conference_call/Q4FY26_Call/MOFSL-AvalonTech-May07-2026.pdf",
+      "transcript_id": "avalon-tech_2026-05-07",
+      "provider": "mistral",
+      "generated_at": "2026-07-09T18:07:00.792Z",
+      "summary": "Management expects strong, broad-based revenue growth with improving profitability and ROCE over the medium term, driven by order book execution and geographic expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth guidance of 24% to 27% for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY29",
+          "statement": "Target to double revenue from INR1,603 crores in FY26 to approximately INR3,200 crores by FY29.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "U.S. Manufacturing Breakeven",
+          "horizon": "later part of FY27",
+          "statement": "Expect to achieve breakeven in U.S. manufacturing operations.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "U.S. Manufacturing Revenue Mix",
+          "horizon": "medium-term",
+          "statement": "Planning for U.S. manufacturing revenue to remain in the 19% to 23% range of total sales.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "India Manufacturing Revenue Mix",
+          "horizon": "medium-term",
+          "statement": "Focus on 77% to 80% of revenue from India manufacturing for domestic and export markets.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Regular capex expected in the range of INR50 crores to INR60 crores annually.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "medium-term",
+          "statement": "Aspiration to maintain ROCE above 20% and target of 25% over time.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset Turns",
+          "horizon": "medium-term",
+          "statement": "Target to maintain asset turns between 8 and 10 times.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA Margin (India Manufacturing)",
+          "horizon": "medium-term",
+          "statement": "India manufacturing EBITDA margin at 16.7% in Q4 FY26, with potential for improvement post U.S. breakeven.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross Margin",
+          "horizon": "medium-term",
+          "statement": "Expect gross margins to hold within the guided range of 33% to 35%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order Book Execution",
+          "horizon": "FY27 and beyond",
+          "statement": "New programs entering production and customer base expanding, supporting revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Free Cash Flow (CFO - Capex)",
+          "horizon": "medium-term",
+          "statement": "Focus on maintaining positive free cash flow through working capital improvements and high asset turns.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "quarterly revenue trajectory beyond FY27",
+        "supply chain disruption impact on margins",
+        "component manufacturing plans",
+        "detailed product specifications and revenue potential for new programs"
+      ],
+      "margin_drivers": [
+        "operating leverage from revenue scale",
+        "India manufacturing profitability (EBITDA margin of 16.7%)",
+        "U.S. manufacturing breakeven and leverage post-breakeven",
+        "box build and system integration (higher margins than traditional PCB assembly)",
+        "working capital improvements",
+        "asset turns between 8 and 10 times"
+      ]
+    },
+    "Cyient DLM": {
+      "company": "Cyient DLM",
+      "ticker": "CYIENTDLM",
+      "sector": "Industrials",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff9ffa7f-17cc-498c-933b-f7043176efdd.pdf",
+      "transcript_id": "cyient-dlm_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-09T18:07:10.414Z",
+      "summary": "Management expects sustained growth and margin improvement in FY27 driven by strong order book, strategic investments, and industry tailwinds despite near-term geopolitical and supply chain headwinds.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects year-over-year growth across all four quarters of FY27, supported by strong order backlog and pipeline.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Believes margins will sustain at double-digit levels, with further improvement possible with scale.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book is at record high levels, providing strong revenue visibility for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Build-to-spec engagements",
+          "horizon": "medium-term",
+          "statement": "Increasing traction in higher-value build-to-spec engagements, which are more complex and integrated.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Sales team hiring",
+          "horizon": "FY27",
+          "statement": "Continued hiring of sales leaders across geographies and verticals to enhance reach and depth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Automotive segment",
+          "horizon": "FY27",
+          "statement": "Series supply for new automotive product line and semiconductor mission supply partner initiated, signaling growth in automotive and semiconductor segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational excellence investments",
+          "horizon": "medium-term",
+          "statement": "Continued investments in operational excellence, technology, and automation to support scalable growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geopolitical impact",
+          "horizon": "near-term",
+          "statement": "Near-term headwinds from geopolitical uncertainties and supply chain disruptions may impact execution schedules.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Working capital",
+          "horizon": "FY27",
+          "statement": "Expects improvement in working capital metrics, including inventory days, DSO, and cash conversion cycle.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense and rail segments",
+          "horizon": "medium-term",
+          "statement": "Rising domestic investments in defense and rail present meaningful opportunities for growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI infrastructure manufacturing",
+          "horizon": "medium-term",
+          "statement": "AI infrastructure manufacturing identified as a strategic growth avenue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Vertical integration",
+          "horizon": "medium-term",
+          "statement": "Aiming for vertical integration across cable, sheet metal, and machining to broaden market reach and manufacturing depth.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue and margin targets for FY27",
+        "Quantitative revenue growth guidance for FY27"
+      ],
+      "margin_drivers": [
+        "Operational excellence",
+        "Supply chain efficiencies",
+        "Improved business mix",
+        "Higher-value build-to-spec engagements",
+        "Cost discipline",
+        "Automation investments",
+        "Geographic and product diversification"
+      ]
+    },
+    "Sangam India": {
+      "company": "Sangam India",
+      "ticker": "SANGAMIND",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f1a104c-072b-435e-9199-23c4d633022f.pdf",
+      "transcript_id": "sangam-india_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-09T18:07:18.537Z",
+      "summary": "Management expects continued improvement in profitability and margins driven by energy cost savings, operational efficiencies, and capacity utilization, with aspirational PAT growth in FY27.",
+      "guidance": [
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "Aspire to double PAT again in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Topline growth similar to last year at high capacity utilizations, with some inflation-driven price increases",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain or improve margins from March quarter levels",
+          "specificity": "vague",
+          "direction": "flat/up"
+        },
+        {
+          "metric": "Renewable energy share of power",
+          "horizon": "June 2027",
+          "statement": "Target 70%+ of total power requirement from renewables",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA impact from renewables",
+          "horizon": "FY27",
+          "statement": "Cumulative annual EBITDA benefit of INR50-60 crores once all renewable projects are commissioned",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Garment capacity utilization",
+          "horizon": "FY27",
+          "statement": "Expect further improvement in garment capacity utilization beyond current levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Backward integration (polyester fiber)",
+          "horizon": "medium-term",
+          "statement": "Aim to increase in-house polyester fiber production from 50% to 75-80%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Backward integration (denim fabrics)",
+          "horizon": "medium-term",
+          "statement": "Aim to increase in-house denim fabric production from 50% to 75-80%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "No new capex benefits expected in FY27; any new capex will start benefiting from next year",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Energy cost reduction",
+          "horizon": "medium-term",
+          "statement": "Energy cost reduction is a priority focus area for margin improvement",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Export growth",
+          "horizon": "medium-term",
+          "statement": "Exports are sustainable and expected to continue improving quarter-over-quarter",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Blended margins",
+          "horizon": "FY29",
+          "statement": "Potential for blended margins to exceed 13% by FY29",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "customer count changes",
+        "specific capex plans or financing details",
+        "detailed margin outlook for the current quarter (June 2026)"
+      ],
+      "margin_drivers": [
+        "renewable energy adoption",
+        "operational efficiencies",
+        "backward integration (polyester fiber and denim fabrics)",
+        "energy cost reduction",
+        "capacity utilization improvements"
+      ]
     }
   },
-  "generated_at": "2026-07-09T15:46:11.013Z",
-  "count": 882
+  "generated_at": "2026-07-09T18:07:20.066Z",
+  "count": 886
 }
