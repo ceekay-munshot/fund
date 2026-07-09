@@ -89633,8 +89633,359 @@
         "Supply consolidation favoring branded developers",
         "Operational efficiency and capital discipline"
       ]
+    },
+    "Wipro": {
+      "company": "Wipro",
+      "ticker": "WIPRO",
+      "sector": "Information Technology",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78fab9a0-4864-4470-be49-3544e57f1c49.pdf",
+      "transcript_id": "wipro_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-09T21:40:07.854Z",
+      "summary": "Wipro expects sequential growth of minus 2% to 0% in constant currency terms for Q1, with a focus on driving operational improvement and investing in AI capabilities.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "Q1FY27",
+          "statement": "Sequential growth of minus 2% to 0% in constant currency terms",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Operating Margin",
+          "horizon": "medium-term",
+          "statement": "Maintain margins in a narrow band",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operational improvement",
+        "Cost takeout",
+        "AI-driven productivity benefits"
+      ]
+    },
+    "Mastek": {
+      "company": "Mastek",
+      "ticker": "MASTEK",
+      "sector": "Information Technology",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f43c62c6-dcbc-438c-9c4a-23eaad6a0a93.pdf",
+      "transcript_id": "mastek_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-09T21:40:16.551Z",
+      "summary": "Management expects FY27 to be a growth year with stable margins, driven by strong order backlog execution and AI-led business model transition.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "FY27 will be a growth year, should grow faster than FY26, with positive book and ship growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain stable EBITDA margin at 16% to 16.1%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Tax rate",
+          "horizon": "future periods",
+          "statement": "Steady state tax rate expected to be 24.5% to 24.7%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "AI-led deals",
+          "horizon": "FY27",
+          "statement": "AI-led deals will shift from technology-focused to business-focused, with 70-80% AI usage in execution",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order backlog execution",
+          "horizon": "FY27",
+          "statement": "12-month order backlog expected to be executed in the next 12 months",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "U.K. healthcare growth",
+          "horizon": "FY27",
+          "statement": "Healthcare in U.K. will pick up as new programs ramp up, with NHS as a key customer",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "North America turnaround",
+          "horizon": "FY27",
+          "statement": "Positive turnaround expected in North America with improving order book and lead indicators",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AMEA business stability",
+          "horizon": "short-term",
+          "statement": "AMEA business to remain stable in the short term despite geopolitical headwinds",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "M&A strategy",
+          "horizon": "medium-term",
+          "statement": "M&A will focus on expanding domain capabilities in core verticals and smaller AI partnerships",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "DSO (Days Sales Outstanding)",
+          "horizon": "medium-term",
+          "statement": "Endeavour to maintain DSO at current levels (73 days) in the long term",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Private vs. public sector revenue (U.K.)",
+          "horizon": "short-term",
+          "statement": "Private sector revenue in U.K. to grow faster in the short term, healthcare to pick up over the full year",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue growth in absolute terms for FY27",
+        "Order book breakup by geography in absolute terms"
+      ],
+      "margin_drivers": [
+        "AI-led operational efficiency",
+        "Cost optimization",
+        "Pricing competitiveness",
+        "Client budget reductions",
+        "New AI investments"
+      ]
+    },
+    "GSP Crop Science": {
+      "company": "GSP Crop Science",
+      "ticker": "GSPCROP",
+      "sector": "Commodities",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3db874df-9153-4d9c-bf67-5fa40dce0113.pdf",
+      "transcript_id": "gsp-crop-science_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-09T21:40:24.510Z",
+      "summary": "GSP Crop Science expects sustainable growth driven by patented products, cost pass-throughs, and export expansion, with medium-term revenue growth of 5%-7% annually.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "medium-term (3 years)",
+          "statement": "Expecting revenue growth rate of 5%-7% annually, higher than historical growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Patented products revenue share",
+          "horizon": "3 years",
+          "statement": "Targeting 40%-50% of revenue from patented products.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Patented products margin premium",
+          "horizon": "current",
+          "statement": "Patented products command 20%-25% higher gross margins than generics.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export expansion",
+          "horizon": "medium-term",
+          "statement": "Planning to export patented products to Brazil via subsidiary and exploring patent registrations in target geographies.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Product launches",
+          "horizon": "annual",
+          "statement": "Targeting 1-2 patented product launches per year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization (technical plants)",
+          "horizon": "peak",
+          "statement": "Can achieve 90% utilization at technical plants.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue at peak utilization",
+          "horizon": "peak",
+          "statement": "Peak utilization could generate INR1,900-2,000 crores revenue from technical plants.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Price increases",
+          "horizon": "Q1FY27",
+          "statement": "Implemented 10%-15% price increases to offset raw material and logistics cost inflation.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Nutrition products demand",
+          "horizon": "FY27",
+          "statement": "Expecting increased demand for nutrition products due to fertilizer shortages and high prices.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "El Nino impact",
+          "horizon": "FY27",
+          "statement": "Not expecting significant impact from El Nino due to strong irrigation facilities in paddy segment.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Raw material sourcing",
+          "horizon": "current",
+          "statement": "Sourcing mostly intermediates from China; no diversification plans mentioned.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Supply chain risk",
+          "horizon": "1 month",
+          "statement": "If Middle East conflict prolongs beyond 1 month, supply could be impacted despite current inventory coverage.",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or EBITDA figures",
+        "FY27 PAT guidance",
+        "FY27 capex guidance",
+        "Long-term margin targets beyond 3 years"
+      ],
+      "margin_drivers": [
+        "Patented products (higher margins)",
+        "Cost pass-throughs (10%-15% price increases)",
+        "Nutrition products (higher margins)",
+        "Export expansion (potential margin improvement)"
+      ]
+    },
+    "M B Agro Prod.": {
+      "company": "M B Agro Prod.",
+      "ticker": "MBAPL",
+      "sector": "Commodities",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/MBAPL_23042026122709_MBAPL.pdf",
+      "transcript_id": "m-b-agro-prod_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-09T21:40:32.220Z",
+      "summary": "MBAPL expects strong revenue growth driven by capacity expansions, improved margins from backward integration and policy support, and long-term input security via green ammonia.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect ~50-60% growth over FY26 baseline due to partial capacity additions",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Growth over FY26 baseline could exceed 200% with full capacity utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Target revenue of ₹4,000 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Current year utilization of added capacity expected at 50-60%, increasing to 75-80% in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Maintain EBITDA per ton at current levels; NPK: ₹6,000/MT, SSP: ₹1,800/MT",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aim to maintain margins in absolute terms; no percentage guidance provided",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Total capacity",
+          "horizon": "FY28",
+          "statement": "Scale total fertilizer capacity to ~1.56 million MTPA",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Green ammonia",
+          "horizon": "3 years",
+          "statement": "Green ammonia procurement agreement to commence after 3 years, strengthening input security",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Leadership position",
+          "horizon": "Post-FY28",
+          "statement": "Aim to become India's third-largest private-sector phosphatic fertilizer company",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical diversification",
+          "horizon": "FY27",
+          "statement": "Strengthen presence in Southern markets with dedicated marketing office",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material costs",
+          "horizon": "FY27",
+          "statement": "Expect stable raw material supply and moderation in input costs",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "MRP adjustments",
+          "horizon": "FY27",
+          "statement": "MRP revisions and higher NBS subsidy expected to improve performance",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Total CAPEX for Dhule plant expansion beyond current phase",
+        "Sustainable margin percentages beyond FY27"
+      ],
+      "margin_drivers": [
+        "Backward integration (phosphoric/sulfuric acid)",
+        "Policy support (NBS subsidy, MRP adjustments)",
+        "Green ammonia adoption",
+        "Operational efficiency from capacity expansions",
+        "Geographical diversification"
+      ]
     }
   },
-  "generated_at": "2026-07-09T20:02:11.276Z",
-  "count": 890
+  "generated_at": "2026-07-09T21:40:33.742Z",
+  "count": 894
 }
