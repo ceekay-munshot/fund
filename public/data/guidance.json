@@ -88680,8 +88680,119 @@
         "Sharper operational execution",
         "Product mix changes"
       ]
+    },
+    "Angel One": {
+      "company": "Angel One",
+      "ticker": "ANGELONE",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b3b207f-bdf6-4a46-be61-e0b1f87ae954.pdf",
+      "transcript_id": "angel-one_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-09T15:46:09.489Z",
+      "summary": "Management expects continued growth in client engagement, margin expansion, and scaling of new businesses (wealth, asset management, credit) driven by AI integration and disciplined execution.",
+      "guidance": [
+        {
+          "metric": "Brokerage EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect margin expansion from current levels due to operating leverage and cost efficiencies, though no specific target provided",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost (including ESOP)",
+          "horizon": "FY27",
+          "statement": "Employee cost run rate expected to remain similar to FY26 levels",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "AI investments",
+          "horizon": "medium-term",
+          "statement": "Increasing investments in AI in a measured and sustainable way to drive growth and efficiencies across the platform",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Wealth management AUM (Ionic Wealth)",
+          "horizon": "medium-term",
+          "statement": "AUM growth momentum expected to continue with platform scaling and omnichannel model proving effective",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit disbursements",
+          "horizon": "medium-term",
+          "statement": "Scaling credit business in a calibrated and disciplined manner with large embedded opportunity within the ecosystem",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Client funding book",
+          "horizon": "medium-term",
+          "statement": "Client funding and treasury income expected to remain important contributors to revenue mix as client engagement deepens",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capital infusion into wealth management and NBFC",
+          "horizon": "FY27",
+          "statement": "Proposed capital infusion of up to ₹1.5 billion each into wealth management and NBFC to scale these businesses meaningfully",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating margins (EBDAT)",
+          "horizon": "FY27",
+          "statement": "Normalized EBDAT margins expected to improve further from current levels due to operating leverage and cost discipline",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Commodities broking revenue",
+          "horizon": "Q1FY27",
+          "statement": "Commodities segment momentum expected to continue supported by bullion and energy commodities rally",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "F&O revenue",
+          "horizon": "Q1FY27",
+          "statement": "F&O revenues expected to benefit from elevated market activity and volatility in the near term",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mutual fund SIP registrations",
+          "horizon": "medium-term",
+          "statement": "Continued focus on simplifying journeys to strengthen foothold in mutual funds, with strong SIP registration growth expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Client acquisition cost (CAC)",
+          "horizon": "medium-term",
+          "statement": "CAC expected to remain stable with ongoing efficiency initiatives, though no specific target provided",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Monthly active users (MAU)",
+        "ARPU (Average Revenue Per User) trends",
+        "Specific revenue or profit targets for FY27",
+        "Client acquisition cost (CAC) in absolute terms"
+      ],
+      "margin_drivers": [
+        "AI integration across client experiences and internal workflows",
+        "Operating leverage from revenue growth with stable employee costs",
+        "Efficiency gains from AI-driven automation (e.g., grievance resolution, KYC validation)",
+        "Scale in wealth management and credit businesses",
+        "Client funding and treasury income growth",
+        "Disciplined cost control and fiscal management"
+      ]
     }
   },
-  "generated_at": "2026-07-09T12:56:05.571Z",
-  "count": 881
+  "generated_at": "2026-07-09T15:46:11.013Z",
+  "count": 882
 }
