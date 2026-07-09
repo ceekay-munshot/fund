@@ -88573,8 +88573,65 @@
         "operational efficiencies (AI/ML, cost optimization)",
         "input tax credit unavailability offset by efficiency gains"
       ]
+    },
+    "EMA Partners": {
+      "company": "EMA Partners",
+      "ticker": "EMAPARTNER",
+      "sector": "Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/EMAIN_30042026203126_Intimation_of_earnings_call_transcript_24042026.pdf",
+      "transcript_id": "ema-partners_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-09T01:15:25.692Z",
+      "summary": "EMA Partners expects to drive scalable growth while creating long-term shareholder value, with a strong cash-generating core supporting high-growth emerging verticals.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "long-term",
+          "statement": "Maintain near about 24-25% EBITDA margin in the mature business",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "long-term",
+          "statement": "Maintain PAT margins of roughly about 25% in long term on a steady state basis",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "next year",
+          "statement": "Deliver a growth which is consistent with 18% to 20% growth in the core business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New business profitability",
+          "horizon": "this financial year",
+          "statement": "Expect the James Douglas business to turn around financially",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Salary expense",
+          "horizon": "next year",
+          "statement": "Expect the total salary bill to increase by around 10% year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Average fee metrics",
+        "Sector-wise revenues"
+      ],
+      "margin_drivers": [
+        "Realization growth",
+        "Volume growth",
+        "CXO compensation"
+      ]
     }
   },
-  "generated_at": "2026-07-08T23:42:51.591Z",
-  "count": 879
+  "generated_at": "2026-07-09T01:15:29.711Z",
+  "count": 880
 }
