@@ -90226,8 +90226,119 @@
         "FX tailwinds",
         "Comviva Seasonality"
       ]
+    },
+    "Tata Elxsi": {
+      "company": "Tata Elxsi",
+      "ticker": "TATAELXSI",
+      "sector": "Information Technology",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://d1y69b020rytqm.cloudfront.net/PDF/Financial-Statements/April2026/TranscriptofEarningsCall31.03.2026.pdf",
+      "transcript_id": "tata-elxsi_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-10T19:48:42.374Z",
+      "summary": "Management expects steady growth with margin expansion driven by AI adoption, fixed-bid contracts, and operational efficiencies, though automotive growth may moderate to high-single digits.",
+      "guidance": [
+        {
+          "metric": "Automotive revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect high-single digit growth exit for automotive segment, not double-digit due to geopolitical uncertainties.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q4FY27",
+          "statement": "Target exit EBITDA margin of 27% in Q4FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin trajectory",
+          "horizon": "FY27",
+          "statement": "Margin improvement will be gradual and aligned with top-line growth, not as sharp as FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Healthcare & Life Sciences recovery",
+          "horizon": "Q1FY27",
+          "statement": "Q4FY26 was the bottom for healthcare; recovery expected in Q1FY27 with closed deals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Media & Communication growth",
+          "horizon": "FY27",
+          "statement": "Media segment still challenged but growth expected due to ramp-ups from large deals won.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led productivity impact",
+          "horizon": "medium-term",
+          "statement": "AI adoption (e.g., DevStudio.ai) improving internal efficiencies and pricing power for select customers.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Fixed-bid contract margins",
+          "horizon": "FY27",
+          "statement": "Longer-tenure fixed-bid contracts aim for sequential margin improvement post initial investment years.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Transportation OEM revenue share",
+          "horizon": "FY27",
+          "statement": "OEM customers now represent 77% of automotive revenue; shift to OEM business continues to support growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New customer revenue contribution",
+          "horizon": "quarterly",
+          "statement": "New customers contribute 2-2.5% of revenue; ramp-up typically takes 9-12 months.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Utilization rate",
+          "horizon": "FY27",
+          "statement": "Utilization expected to improve further from current 73% as growth ramps up.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "GenAI pricing power",
+          "horizon": "medium-term",
+          "statement": "GenAI-driven efficiency gains may improve pricing power for customers demanding productivity improvements.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Salary hike impact on margins",
+          "horizon": "quarterly",
+          "statement": "Salary hikes (e.g., Jan 1) may cause temporary margin pressure in affected quarters.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "absolute revenue growth for FY27",
+        "capex guidance for FY27",
+        "order book size or growth"
+      ],
+      "margin_drivers": [
+        "AI adoption (GenAI, DevStudio.ai)",
+        "fixed-bid project ownership",
+        "operational leverage",
+        "utilization rate improvement",
+        "fixed-price contract mix",
+        "pyramid optimization",
+        "currency tailwinds"
+      ]
     }
   },
-  "generated_at": "2026-07-10T17:58:10.388Z",
-  "count": 898
+  "generated_at": "2026-07-10T19:48:43.902Z",
+  "count": 899
 }
