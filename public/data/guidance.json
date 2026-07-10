@@ -90096,8 +90096,57 @@
         "Defense project orders with better margins",
         "Geographic expansion (Latin America)"
       ]
+    },
+    "Krishana Phosch.": {
+      "company": "Krishana Phosch.",
+      "ticker": "KRISHANA",
+      "sector": "Commodities",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/KRISHANA_14042026142727_NSETRANINV140426TOUP.pdf",
+      "transcript_id": "krishana-phosch_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-10T00:16:13.286Z",
+      "summary": "The company expects growth of over 40% across key parameters in FY27, driven by the benefits of its recent capacity expansion and improved operating leverage.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected to increase by around Rs. 500 crore, driven by the capacity expansion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expected to be around 35-40%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "May come under pressure due to increase in raw material costs",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Expected to be fully utilized in the subsequent quarters after initial teething issues",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantification of margin pressure in FY27"
+      ],
+      "margin_drivers": [
+        "Backward integration",
+        "Diversified product portfolio",
+        "Government support through Nutrient Based Subsidy (NBS) policy"
+      ]
     }
   },
-  "generated_at": "2026-07-09T22:53:39.325Z",
-  "count": 895
+  "generated_at": "2026-07-10T00:16:14.813Z",
+  "count": 896
 }
