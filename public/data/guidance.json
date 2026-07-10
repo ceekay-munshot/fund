@@ -90145,8 +90145,89 @@
         "Diversified product portfolio",
         "Government support through Nutrient Based Subsidy (NBS) policy"
       ]
+    },
+    "Amagi Media Labs": {
+      "company": "Amagi Media Labs",
+      "ticker": "AMAGI",
+      "sector": "Information Technology",
+      "concall_date": "2026-07-10",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=527621eb-b8ac-43cd-9aff-5cca982e4212.pdf",
+      "transcript_id": "amagi-media-labs_2026-07-10",
+      "provider": "groq",
+      "generated_at": "2026-07-10T17:57:34.272Z",
+      "summary": "Amagi Media Labs expects significant transformation in the media industry driven by AI, leading to deflation in content production costs and increased efficiency in content preparation and distribution.",
+      "guidance": [
+        {
+          "metric": "Content production cost",
+          "horizon": "medium-term",
+          "statement": "Cost of content production will deflate due to AI adoption",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Operating leverage",
+          "horizon": "medium-term",
+          "statement": "AI will bring operating leverage to content creators",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market expansion",
+          "horizon": "medium-term",
+          "statement": "AI will accelerate market expansion for content creators",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Financial performance",
+        "Business outlook",
+        "Operational metrics",
+        "Strategy"
+      ],
+      "margin_drivers": [
+        "AI adoption",
+        "Agentic infrastructure",
+        "Autonomous content creation",
+        "Inter-company agent transactions"
+      ]
+    },
+    "Tech Mahindra": {
+      "company": "Tech Mahindra",
+      "ticker": "TECHM",
+      "sector": "Information Technology",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1da5d491-416d-4037-be83-e0cdf7b1f438.pdf",
+      "transcript_id": "tech-mahindra_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-10T17:58:06.585Z",
+      "summary": "Tech Mahindra expects to continue its progress in FY27, driven by its strategic priorities, including a focus on AI, and aims to achieve organic constant currency revenue growth above its peer group's average and an EBIT margin of 15%.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Achieve organic constant currency revenue growth above peer group's average",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBIT margin",
+          "horizon": "FY27",
+          "statement": "Achieve an EBIT margin of 15%",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "AI-led services",
+        "Disciplined execution",
+        "Project Fortius",
+        "FX tailwinds",
+        "Comviva Seasonality"
+      ]
     }
   },
-  "generated_at": "2026-07-10T16:01:33.881Z",
-  "count": 896
+  "generated_at": "2026-07-10T17:58:10.388Z",
+  "count": 898
 }
