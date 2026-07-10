@@ -90337,8 +90337,420 @@
         "pyramid optimization",
         "currency tailwinds"
       ]
+    },
+    "Supreme Petroch.": {
+      "company": "Supreme Petroch.",
+      "ticker": "SPLPETRO",
+      "sector": "Commodities",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0aca11e-1b05-4087-b721-fe5651591c4f.pdf",
+      "transcript_id": "supreme-petroch_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-10T21:17:01.542Z",
+      "summary": "Management expects volume growth in FY27 contingent on normalization of raw material supply chains and market conditions, with cautious optimism on margins and CAPEX plans.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expect 8% to 10% volume growth if normalcy returns by June end, with ABS operational contributing to growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ABS capacity utilization",
+          "horizon": "FY27",
+          "statement": "ABS plant to ramp up to 100% capacity once equipment failure is resolved.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Xmold volumes",
+          "horizon": "FY27",
+          "statement": "Expect 50% to 60% higher volumes compared to FY26, with utilization improving to 65-70% of capacity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX",
+          "horizon": "FY27",
+          "statement": "Planning to spend around INR 250 crores for the company as a whole.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Raw material sourcing",
+          "horizon": "medium-term",
+          "statement": "Will continue to meet domestic demand through sourcing from alternate geographies and sufficient inventory.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Contracting with OEMs",
+          "horizon": "medium-term",
+          "statement": "Will enter into contracts with OEMs once raw material pricing and supply chain conditions normalize.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Non-OEM demand",
+          "horizon": "Q1FY27",
+          "statement": "Non-OEM demand remains subdued due to high prices, labor shortages, and gas supply issues.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "EPS Phase-II expansion",
+          "horizon": "FY27",
+          "statement": "EPS capacity at Nagothane complex enhanced from 85,000 tons to 115,000 tons per annum.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantification of inventory gains/losses due to raw material price volatility",
+        "Raw material sourcing mix (Gulf vs. China vs. US) in terms of volume or value",
+        "Quantum of non-OEM demand reduction in April-May 2026",
+        "Future styrene monomer prices or spreads",
+        "Impact of raw material price volatility on margins",
+        "Haryana CAPEX plans beyond FY27"
+      ],
+      "margin_drivers": [
+        "Raw material prices (styrene monomer)",
+        "Freight and shipping costs",
+        "Contract vs. spot sales mix",
+        "Demand mix (OEM vs. non-OEM)",
+        "Capacity utilization levels"
+      ]
+    },
+    "Sterling & Wils.": {
+      "company": "Sterling & Wils.",
+      "ticker": "SWSOLAR",
+      "sector": "Industrials",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=557dc0a9-eb1c-4d9b-824b-0aefc37449da.pdf",
+      "transcript_id": "sterling-wils_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-10T21:17:11.351Z",
+      "summary": "Management expects continued growth in FY27 driven by strong order book, diversified segments (solar, battery storage, wind), and improving margins, with Reliance New Energy as a potential upside.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expects ~15% revenue growth year-on-year based on current order book and new orders expected in Q3/Q4 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EPC gross margins",
+          "horizon": "FY27",
+          "statement": "Anticipates EPC gross margins to range between 8% to 10%, depending on project type (turnkey vs BOS)",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "O&M gross margins",
+          "horizon": "FY27",
+          "statement": "Expects O&M gross margins to stabilize around 20%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Third-party O&M orders",
+          "horizon": "FY27",
+          "statement": "Third-party O&M orders expected to continue flowing in, with multi-year contracts (2-3 years) and gross margins in the range of 20% to 25%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery storage market traction",
+          "horizon": "FY27",
+          "statement": "Expects strong momentum in battery storage projects, with 20% to 25% of orders adding to revenue in Q2/Q3 FY27; margin profile similar to EPC (8% to 10%)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Wind energy projects",
+          "horizon": "FY27",
+          "statement": "Expects better traction in wind projects, with one project already on track and additional orders expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International EPC margins",
+          "horizon": "FY27",
+          "statement": "International EPC margins expected to remain higher than domestic margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "FY27",
+          "statement": "Expects to execute a significant portion of the INR11,813 crore order book in FY27, with project timelines of 6-12 months",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Reliance New Energy orders",
+          "horizon": "FY27",
+          "statement": "Deeply engaged with Reliance; expects traction in FY27 but no clarity on timing or size of orders",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Module price volatility impact",
+          "horizon": "FY27",
+          "statement": "For existing order book, adequate back-to-back pricing protection and contingency buffers are in place to mitigate module price volatility",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Foreign exchange impact",
+          "horizon": "FY27",
+          "statement": "Depreciating rupee is beneficial for international projects due to natural hedge (USD revenues)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Nigeria project progress",
+          "horizon": "FY27",
+          "statement": "Nigeria project is on a slow pace due to elections; may not materialize in FY27",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue or order inflow from Reliance New Energy",
+        "Timing of Reliance New Energy orders",
+        "Specific margin details for Reliance New Energy projects"
+      ],
+      "margin_drivers": [
+        "International EPC margins (higher than domestic)",
+        "O&M margins (20%+)",
+        "Battery storage project margins (8%-10%)",
+        "Turnkey project margins (targeted margins achievable)",
+        "Commodity price protection via back-to-back contracts"
+      ]
+    },
+    "Kirl.Pneumatic": {
+      "company": "Kirl.Pneumatic",
+      "ticker": "KIRLPNU",
+      "sector": "Industrials",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa301c7b-663b-495a-b990-57cdf99b1a75.pdf",
+      "transcript_id": "kirl-pneumatic_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-10T21:17:19.998Z",
+      "summary": "Management expects strong growth ahead driven by domestic sectors, alternative fuels, and new product launches, targeting 20%+ revenue growth with sustainable EBITDA margins of 18-20%.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Targeting 20% plus revenue growth in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Sustainable EBITDA margin of 18% to 20%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Zephyros air conditioning package sales",
+          "horizon": "FY27",
+          "statement": "Commercialization in Q1 FY27 with initial focus on smaller markets like machine shops and restaurants",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tezcatlipoca centrifugal compressors sales",
+          "horizon": "FY27",
+          "statement": "130 machines in the field, 85 commissioned; incremental capacity available from Q1 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Precision Engineering division contribution",
+          "horizon": "FY27",
+          "statement": "Precision Engineering division to become reportable segment from Q1 FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "FY27",
+          "statement": "INR1,300 crores of order book executable within less than 1 year; INR500 crores beyond FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Equipment business revenue share",
+          "horizon": "medium-term",
+          "statement": "Targeting 20% to 25% of revenue from equipment business with shorter execution cycles",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Alternative fuels (biogas, hydrogen, coal gasification) demand",
+          "horizon": "medium-term",
+          "statement": "Renewed interest in alternative fuels and KPCL well-positioned to capitalize",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic oil and gas exploration demand",
+          "horizon": "medium-term",
+          "statement": "Geopolitical situation in Middle East expected to drive demand for domestic exploration and upstream gas projects",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex under PLI scheme",
+          "horizon": "FY27-FY28",
+          "statement": "INR320 crores capex commitment for PLI scheme, roughly INR60 crores already incurred; remaining to be incurred over next 2 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export focus regions",
+          "horizon": "medium-term",
+          "statement": "Shifting export focus from MENA to Southeast Asia and North Africa due to geopolitical risks",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Oil-free air compressor (Hydrino) orders",
+          "horizon": "FY27",
+          "statement": "Booked a few orders for Hydrino oil-free air compressor",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Precision Engineering division margins",
+        "Breakup of order book by traditional vs. non-traditional segments"
+      ],
+      "margin_drivers": [
+        "Localized supply chain and Make in India import substitutes",
+        "Focus on less contested spaces based on IP and import substitution",
+        "Measured approach in markets with lower margins (boosters and screw compressors)",
+        "Backward integration (Nashik and Saswad plants)",
+        "New product launches (Zephyros, Tezcatlipoca, Khione, Tyche)"
+      ]
+    },
+    "Bajaj Consumer": {
+      "company": "Bajaj Consumer",
+      "ticker": "BAJAJCON",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53718c54-2b81-4ced-9594-5fc67c336fa9.pdf",
+      "transcript_id": "bajaj-consumer_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-10T21:17:27.968Z",
+      "summary": "Management expects sustained revenue growth and margin stability in the medium term, driven by brand strength, distribution expansion, and portfolio diversification.",
+      "guidance": [
+        {
+          "metric": "Revenue (non-ADHO portfolio)",
+          "horizon": "next 3 years",
+          "statement": "Target to grow non-ADHO portfolio to INR500 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Intend to operate in the low 20s to mid-20s margin range",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "medium-term",
+          "statement": "Intend to maintain current gross margin levels",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Project Aarohan impact",
+          "horizon": "FY27",
+          "statement": "Expected to deliver 2-3% revenue growth delta in markets where implemented",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International business (Nepal, Bangladesh)",
+          "horizon": "medium-term",
+          "statement": "Continue to grow profitably and sustainably in Nepal and Bangladesh",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Input costs (LLP, packaging, mustard, copra)",
+          "horizon": "next 1-2 quarters",
+          "statement": "Monitoring volatility; may require pricing actions and cost optimization to maintain margins",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "ADHO brand volume growth",
+          "horizon": "FY27",
+          "statement": "Expect mid-single digit volume growth on an absolute basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ADHO brand revenue growth",
+          "horizon": "FY27",
+          "statement": "Expect high teens revenue growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Organized trade growth",
+          "horizon": "FY27",
+          "statement": "Expect strong 20s growth year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "General trade growth",
+          "horizon": "FY27",
+          "statement": "Expect high teens growth year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Rural market growth",
+          "horizon": "FY27",
+          "statement": "Expect mid-teens growth year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Advertising and digital spends",
+          "horizon": "FY27",
+          "statement": "Continue to strengthen brands through increased advertising and digital footprint expansion",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "hyperinflation impact on margins beyond next 1-2 quarters",
+        "exact revenue or margin targets for FY27",
+        "specific pricing actions for future quarters",
+        "detailed breakdown of non-ADHO portfolio growth by brand"
+      ],
+      "margin_drivers": [
+        "gross margin stability",
+        "mix improvement",
+        "Project Aarohan execution",
+        "MLH adjustments",
+        "pricing actions",
+        "cost optimization"
+      ]
     }
   },
-  "generated_at": "2026-07-10T19:48:43.902Z",
-  "count": 899
+  "generated_at": "2026-07-10T21:17:29.496Z",
+  "count": 903
 }
