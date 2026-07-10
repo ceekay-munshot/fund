@@ -90749,8 +90749,152 @@
         "pricing actions",
         "cost optimization"
       ]
+    },
+    "GSM Foils": {
+      "company": "GSM Foils",
+      "ticker": "GSMFOILS",
+      "sector": "Industrials",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/GSMFOILS_27042026174334_GSMFoilsLtdCoverLetterTranscript.pdf",
+      "transcript_id": "gsm-foils_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-10T22:37:08.440Z",
+      "summary": "GSM Foils expects to achieve optimal utilization of its Ahmedabad facility by the end of FY27, driving revenue growth, with a focus on managing working capital and relationships with clients.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected to reach INR400-450 crores, with a monthly run rate of INR60 crores by March '27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Aim to sustain current level of around 11.5%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Ahmedabad facility to reach optimal utilization by the end of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term",
+          "statement": "Expect sustainable growth driven by volume increase and working capital management",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "H1 margins"
+      ],
+      "margin_drivers": [
+        "Volume increase",
+        "Working capital management"
+      ]
+    },
+    "Billionbrains": {
+      "company": "Billionbrains",
+      "ticker": "GROWW",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=307ba338-52d8-4201-8388-7e647d6563e1.pdf",
+      "transcript_id": "billionbrains_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-10T22:37:16.262Z",
+      "summary": "Management expects continued scaling of wealth business, compounding of core broking market share, and AI-driven productivity gains, with cautious outlook on macro-driven market participation.",
+      "guidance": [
+        {
+          "metric": "Wealth business scaling",
+          "horizon": "medium-term",
+          "statement": "Will continue scaling wealth business post-Fisdom acquisition with learnings from first six months.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Core broking market share",
+          "horizon": "ongoing",
+          "statement": "Will continue compounding market share in existing businesses like equity, MF, and F&O.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI impact",
+          "horizon": "FY27",
+          "statement": "Expects AI to drive customer experience improvements and internal productivity gains.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "ongoing",
+          "statement": "Will continue finding new gaps and launching smaller S-curves products.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Wealth management investments",
+          "horizon": "FY27-FY28",
+          "statement": "Fisdom expected to be profitable by FY28; investments across Prime, W, and Fisdom platforms.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost growth",
+          "horizon": "FY27",
+          "statement": "Employee cost growth expected to be lower than revenue growth; absolute increases due to AI initiatives and new brands.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost to serve",
+          "horizon": "FY27",
+          "statement": "Cost to serve as a percentage of revenue expected to be slightly lower due to revenue per transaction growth and AI efficiency.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Cost to grow",
+          "horizon": "FY27",
+          "statement": "Cost to grow expected to be lower than revenue growth; consistent absolute spend of INR450-500 crore with incremental investments in new brands.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Commodities market share",
+          "horizon": "FY27",
+          "statement": "Will start disclosing commodity market share once YoY comparison becomes meaningful (post one year of launch).",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Regulatory engagement",
+          "horizon": "ongoing",
+          "statement": "Will continue engaging with regulators to address concerns around speculation in F&O.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Affluent customer asset breakup and revenue contribution",
+        "Timeline for extending Groww Prime to existing customers",
+        "Average MTF book for the quarter",
+        "Algo-based trading strategy timeline"
+      ],
+      "margin_drivers": [
+        "AI-driven productivity gains",
+        "Revenue per transaction growth",
+        "Wealth business scaling (Fisdom integration)",
+        "New product launches (commodities, bonds, Prime, W)",
+        "Cost optimization via AI and tech efficiency"
+      ]
     }
   },
-  "generated_at": "2026-07-10T21:17:29.496Z",
-  "count": 903
+  "generated_at": "2026-07-10T22:37:20.208Z",
+  "count": 905
 }
