@@ -91348,8 +91348,272 @@
         "Competitive bidding environment",
         "Project mix (with module vs. pure EPC)"
       ]
+    },
+    "Tips Music": {
+      "company": "Tips Music",
+      "ticker": "TIPSMUSIC",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0298fe35-ab95-4de3-a094-de1a684d3692.pdf",
+      "transcript_id": "tips-music_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-11T04:23:05.075Z",
+      "summary": "Management expects 20% top-line and 20% bottom-line growth in FY27, driven by strong growth in digital and non-digital segments.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "20% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "20% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Content cost as a percentage of revenue",
+          "horizon": "FY27",
+          "statement": "expected to be around 20-25%",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Paid subscription revenue",
+          "horizon": "FY27",
+          "statement": "expected to grow at 30-40% CAGR",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue bifurcation between YouTube and Warner"
+      ],
+      "margin_drivers": [
+        "Strong growth in digital and non-digital segments",
+        "Increase in paid subscription revenue"
+      ]
+    },
+    "Kriti Industries": {
+      "company": "Kriti Industries",
+      "ticker": "KRITI",
+      "sector": "Industrials",
+      "concall_date": "2026-03-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=194b763b-3235-42d0-823a-d787ec0b4777.pdf",
+      "transcript_id": "kriti-industries_2026-03-31",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T04:23:13.485Z",
+      "summary": "Management expects healthy volume growth in FY27 driven by a low base, with building products as the primary growth driver and CPVC expansion contributing to margin improvement.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expect healthy growth over last year due to a low base after FY26 decline",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Target substantial increase in building product revenue as a major growth driver",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Building product revenue",
+          "horizon": "FY27",
+          "statement": "Will exceed last year's reduced numbers with substantial growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CPVC capacity expansion",
+          "horizon": "medium-term",
+          "statement": "CPVC capacity is being expanded as it offers better margins",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CAPEX",
+          "horizon": "FY27",
+          "statement": "CAPEX is on hold; decision deferred for first two quarters",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Inventory gains",
+          "horizon": "Q1FY27",
+          "statement": "May see some advantage on inventory side in Q1 due to volatile petrochemical prices",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Market share",
+          "horizon": "medium-term",
+          "statement": "MP and Rajasthan have significant market share; Maharashtra is under development",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Revenue target",
+          "horizon": "FY28",
+          "statement": "Aiming to achieve INR 1000 crore revenue with 10% margin",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin improvement",
+          "horizon": "FY28",
+          "statement": "Targeting 10% margin as part of INR 1000 crore revenue goal",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dealer network expansion",
+          "horizon": "medium-term",
+          "statement": "Expanding dealer base in regional regions closer to existing territories",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Depot expansion",
+          "horizon": "medium-term",
+          "statement": "Gradually expanding depots as part of market coverage strategy",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PVC sourcing strategy",
+          "horizon": "medium-term",
+          "statement": "Sourcing PVC via a combination of local and import to manage costs",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "exact market share numbers by state",
+        "exact breakup of other expenses",
+        "timeline for second manufacturing plant"
+      ],
+      "margin_drivers": [
+        "CPVC expansion (higher margins)",
+        "Building products (14-18% margins vs. agriculture 8-10%)",
+        "Volume recovery post low base in FY26"
+      ]
+    },
+    "Alicon Cast.": {
+      "company": "Alicon Cast.",
+      "ticker": "ALICON",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-03-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54f315d7-8d9b-47f1-8468-939e53126581.pdf",
+      "transcript_id": "alicon-cast_2026-03-31",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T04:23:21.227Z",
+      "summary": "Management expects modest growth in FY27 with capacity expansion and margin improvement, while long-term outlook remains constructive driven by structural shifts in automotive and industrial sectors.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Modest growth of around 8% to 10% excluding aluminum price volatility impact.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Minimum one new manufacturing factory site to be established.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Focus on further strengthening margins significantly.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book of ₹7,600 crore executable over 6 years (FY25-FY31).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Domestic business growth",
+          "horizon": "FY27",
+          "statement": "Growth in domestic business with initial wins with new customers.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "European market revival",
+          "horizon": "FY27",
+          "statement": "Expecting revival in European markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin pressure",
+          "horizon": "FY27",
+          "statement": "Factors could exert pressure on margins as we move into FY2027 due to cost increases.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Labor cost impact",
+          "horizon": "Medium-term",
+          "statement": "Labor cost increase at North India factory by ~35% expected to be absorbed over medium term through automation and efficiency initiatives.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Renewable energy adoption",
+          "horizon": "Medium-term",
+          "statement": "Over 50% of power requirement now met through renewable resources, strengthening operational resilience.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Automation investments",
+          "horizon": "Medium-term",
+          "statement": "Ongoing investments in automation, productivity enhancement, and operational efficiency to support growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Forward integration",
+          "horizon": "Long-term",
+          "statement": "Strategic movements towards forward integration of products are being seriously considered.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "European base strengthening",
+          "horizon": "Long-term",
+          "statement": "Aggressively working with European customers to strengthen European base.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 PAT guidance",
+        "FY27 EBITDA guidance (range)",
+        "FY27 capex range"
+      ],
+      "margin_drivers": [
+        "aluminum price pass-through",
+        "automation and productivity initiatives",
+        "energy cost management",
+        "labor cost absorption",
+        "renewable energy adoption"
+      ]
     }
   },
-  "generated_at": "2026-07-11T01:10:18.975Z",
-  "count": 910
+  "generated_at": "2026-07-11T04:23:22.754Z",
+  "count": 913
 }
