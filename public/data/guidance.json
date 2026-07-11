@@ -92120,8 +92120,143 @@
         "Product mix improvements",
         "Startup costs for new products"
       ]
+    },
+    "Telge Projects": {
+      "company": "Telge Projects",
+      "ticker": "544544",
+      "sector": "Industrials",
+      "concall_date": "2026-03-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b26d0ad3-7b3b-4808-9869-41ed4e83170e.pdf",
+      "transcript_id": "telge-projects_2026-03-21",
+      "provider": "groq",
+      "generated_at": "2026-07-11T10:24:06.154Z",
+      "summary": "Telge Projects expects strong growth driven by expanding operations globally, growing architecture and engineering capabilities, and strengthening technology integration.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "60% to 70% CAGR growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain Q4 FY26 levels of around 35%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "Maintain Q4 FY26 levels of around 20-23%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Short-term",
+          "statement": "Current order book of Rs. 25 crores, with a pipeline of Rs. 6 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "Medium-term",
+          "statement": "Driven by expanding operations, growing architecture and engineering capabilities, and strengthening technology integration",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Local team in the US helping to target better rates",
+        "Expansion into rural regions in India",
+        "AI integration to improve operational efficiency"
+      ]
+    },
+    "Dhruv Consultanc": {
+      "company": "Dhruv Consultanc",
+      "ticker": "DHRUV",
+      "sector": "Services",
+      "concall_date": "2026-03-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c39ba031-62ba-4a70-ba7d-a879f6ba44bb.pdf",
+      "transcript_id": "dhruv-consultanc_2026-03-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T10:24:14.446Z",
+      "summary": "Management expects sustained revenue growth driven by strong order book and diversification into aviation, with conservative margin recognition and international expansion in Africa.",
+      "guidance": [
+        {
+          "metric": "Order book realization",
+          "horizon": "FY26 and beyond",
+          "statement": "Unexecuted order book of INR256 crores is expected to be fully realized in future quarters.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue recognition approach",
+          "horizon": "FY26 and beyond",
+          "statement": "Company will adopt a more conservative and milestone-driven approach for unbilled revenue recognition.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International projects (Africa)",
+          "horizon": "FY26 and beyond",
+          "statement": "Projects in Mozambique and Ghana are ongoing with two-to-three-year tenures, and payments in USD have started.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bidding pipeline (India)",
+          "horizon": "FY26 and beyond",
+          "statement": "Submitted bids worth INR350 crores for which results are awaited, with a strike rate of 20%-25% for Indian projects.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Margin outlook",
+          "horizon": "FY26 and beyond",
+          "statement": "Project-wise profitability remains positive across all projects despite conservative margin adjustments.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Sectoral expansion (aviation)",
+          "horizon": "FY26 and beyond",
+          "statement": "Entry into aviation sector with first project secured in October 2025, marking strategic diversification beyond highways and bridges.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical diversification",
+          "horizon": "FY26 and beyond",
+          "statement": "Strong order book and improved geographical diversification across multiple states and international markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government infrastructure focus",
+          "horizon": "Medium-term",
+          "statement": "Well-positioned to benefit from upcoming highway and airport projects under Viksit Bharat 2047 vision.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Q4 FY26 financial numbers due to SEBI regulations",
+        "Specific revenue or profitability targets for FY26",
+        "Breakdown of billed vs. unbilled revenue for Q3 FY26"
+      ],
+      "margin_drivers": [
+        "Conservative revenue recognition adjustments",
+        "Milestone-driven billing approach",
+        "Project execution efficiency and time overruns (benefiting revenue recognition)",
+        "Client acceptance procedures and documentation standards",
+        "Internal control system strengthening"
+      ]
     }
   },
-  "generated_at": "2026-07-11T08:57:50.871Z",
-  "count": 918
+  "generated_at": "2026-07-11T10:24:15.970Z",
+  "count": 920
 }
