@@ -94273,8 +94273,334 @@
         "Deployment of dehired rigs",
         "International contract wins"
       ]
+    },
+    "Aptus Value Hou.": {
+      "company": "Aptus Value Hou.",
+      "ticker": "APTUS",
+      "sector": "Financial Services",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://aptusindia.s3.us-east-1.amazonaws.com/Aptus+Value+Housing+Finance+India+Limited+-+Q3+FY26+Earnings+Call+Transcript.pdf",
+      "transcript_id": "aptus-value-hou_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T20:26:38.916Z",
+      "summary": "Management expects sustained AUM growth of 22-24% driven by branch expansion, higher ATS, and calibrated pricing, while maintaining ROE above 20% and credit costs at 50bps.",
+      "guidance": [
+        {
+          "metric": "AUM growth",
+          "horizon": "FY27",
+          "statement": "Sustainable AUM growth of 22% to 24% expected, driven by new branch additions, channel augmentation, and higher average ticket size.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Branch expansion",
+          "horizon": "FY27",
+          "statement": "Planning to open 60 to 70 branches in FY27, focused on new states and high-growth markets.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Average ticket size (ATS)",
+          "horizon": "FY27",
+          "statement": "Increasing ATS to improve customer quality and support rising construction costs, targeting higher ticket sizes.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Home loan pricing",
+          "horizon": "FY27",
+          "statement": "Calibrated pricing on incremental home loans to support growth without compromising NIMs, with 50-75bps rate reduction on incremental disbursements.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "FY27",
+          "statement": "ROE sustained above 20% level, one of the highest in the industry.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY27",
+          "statement": "Credit cost to remain at 50bps, despite aggressive write-off policy.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Opex to AUM",
+          "horizon": "FY27",
+          "statement": "Opex to AUM may slightly increase to 2.8% due to branch expansion and IT investments, but productivity gains will offset most of the increase.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tamil Nadu AUM growth",
+          "horizon": "FY27",
+          "statement": "Tamil Nadu growth expected to improve to 17-18% once corrections in certain clusters are addressed.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Odisha and Maharashtra contribution",
+          "horizon": "medium-term",
+          "statement": "Odisha and Maharashtra expected to contribute to growth momentum, with loan book increasing from INR109 crores currently.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Connector channel pilot",
+          "horizon": "FY27",
+          "statement": "Pilot of connector channel in Tamil Nadu and Andhra Pradesh to be evaluated for full-fledged rollout if successful.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "MSME asset quality",
+          "horizon": "Q4FY26",
+          "statement": "Confident of controlling MSME NPA uptick in Q4FY26 through focused collection efforts.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Home loan mix in AUM",
+          "horizon": "FY27",
+          "statement": "Home loan mix expected to grow faster to support long-term AUM growth of 20-24% at current proportions.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "quantitative impact of discontinued INR7 lakh segment on future AUM run-down timeline",
+        "specific ROA guidance beyond current levels"
+      ],
+      "margin_drivers": [
+        "calibrated home loan pricing on incremental disbursements",
+        "branch expansion in new states",
+        "increasing average ticket size",
+        "productivity gains from data-driven processes",
+        "digital and process excellence improvements"
+      ]
+    },
+    "Remsons Ind": {
+      "company": "Remsons Ind",
+      "ticker": "REMSONSIND",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9e227c3-2ca4-42ac-a8eb-cd72419e9fb8.pdf",
+      "transcript_id": "remsons-ind_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T20:26:47.484Z",
+      "summary": "Management expects steady growth driven by OEM demand, export tailwinds, and margin expansion to 13-14% over the medium term.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Stellantis order to contribute INR15-20 crore in FY27, with annual run rate of INR40-50 crore thereafter",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY29-FY30",
+          "statement": "Target revenue of INR900-1,000 crore by FY29-FY30",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "2-3 years",
+          "statement": "Target EBITDA margin of 13-14%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26",
+          "statement": "INR15-19 crore spent so far; additional INR5-7 crore expected in remaining 1.5 months",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planned capex of INR20 crore plus",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY29-FY30",
+          "statement": "INR100 crore investment required to achieve INR900-1,000 crore revenue target, including INR150-200 crore for acquisitions",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue CAGR",
+          "horizon": "medium-term",
+          "statement": "20% plus CAGR in exports",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export mix",
+          "horizon": "medium-term",
+          "statement": "Maintain 30-70 to 40-60 export-domestic revenue mix",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q1FY27",
+          "statement": "INR60 crore order from leading Indian CV OEM for gear shifters and push-pull cables, commencing Q1FY27 over 5 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product mix shift",
+          "horizon": "2-3 years",
+          "statement": "Gradual shift toward higher value-added products and systems to improve margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-equity ratio",
+          "horizon": "medium-term",
+          "statement": "Target net debt-to-equity ratio of 0.6-0.8",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Magal Cables (UK) revenue",
+          "horizon": "FY27",
+          "statement": "Stable revenue expected in FY27; growth to resume post-FY27",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Brazilian partnership revenue potential and margins",
+        "Astro Motors business TAM, market share, and scaling timeline",
+        "Number of U.S. customers for new inquiries post-tariff reduction"
+      ],
+      "margin_drivers": [
+        "Shift toward higher value-added products and systems",
+        "Product mix evolution toward premiumization and performance-led components",
+        "Export growth and premium export geographies",
+        "Operational productivity improvements"
+      ]
+    },
+    "Ashapuri Gold": {
+      "company": "Ashapuri Gold",
+      "ticker": "542579",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=909343ff-141c-403f-8470-c9c405682bd2.pdf",
+      "transcript_id": "ashapuri-gold_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T20:26:56.057Z",
+      "summary": "Management expects recovery in volume growth and order execution in Q4FY26 and medium-term focus on corporate client expansion, 18-carat jewelry, and design IP, despite short-term gold price volatility impact.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "Q4FY26",
+          "statement": "Targeting 20% volume growth in Q4FY26 to recover from short-term impact of gold price volatility.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "No explicit FY27 volume guidance; focus remains on achieving current year's volume targets.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q4FY26",
+          "statement": "Order book expected to improve as gold price stabilizes and dispatches resume from held orders.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Corporate client orders",
+          "horizon": "medium-term",
+          "statement": "Focus on expanding orders from national corporate chains, with dedicated sales team to drive growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "18-carat jewelry orders",
+          "horizon": "medium-term",
+          "statement": "Opportunity emerging in 18-carat jewelry as corporates shift to affordable options; first-mover advantage in antique handmade 18-carat jewelry.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Design IP and patents",
+          "horizon": "August 2026 onwards",
+          "statement": "Planning to file patents for unique designs and manufacturing techniques developed in-house starting August 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "Q4FY26",
+          "statement": "Setup ready for 750 kg utilization; demand recovery expected to drive higher utilization in next 1-2 quarters.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Making charges",
+          "horizon": "medium-term",
+          "statement": "Potential for increase in making charges if design innovation leads to higher value products.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "NSE mainboard listing",
+          "horizon": "medium-term",
+          "statement": "Application submitted to NSE; timeline dependent on NSE's independent scrutiny process.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export orders",
+          "horizon": "medium-term",
+          "statement": "Will support export orders if national chains expand globally, but no direct export-focused B2B plans.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inventory management",
+          "horizon": "Q4FY26",
+          "statement": "Maintaining hedged stock levels to mitigate gold price volatility impact on margins and working capital.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Product mix shift",
+          "horizon": "medium-term",
+          "statement": "Shifting bridal jewelry to lighter designs (e.g., 80g to 60g) and 18-carat/14-carat options to address affordability concerns.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue growth for FY27",
+        "PAT or EBITDA margin targets for future periods",
+        "Promoter stake increase timeline",
+        "Quantitative order book size for future periods"
+      ],
+      "margin_drivers": [
+        "Design innovation and IP ownership",
+        "Shift to 18-carat and 14-carat jewelry",
+        "Corporate client expansion",
+        "Lightweight jewelry offerings",
+        "Hedging policy for gold price volatility"
+      ]
     }
   },
-  "generated_at": "2026-07-11T19:22:20.510Z",
-  "count": 941
+  "generated_at": "2026-07-11T20:26:57.581Z",
+  "count": 944
 }
