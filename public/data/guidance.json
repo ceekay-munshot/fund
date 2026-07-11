@@ -91792,8 +91792,336 @@
         "Logistics cost normalization",
         "Product mix shift towards higher-margin injectables and tablets"
       ]
+    },
+    "Indian Energy Ex": {
+      "company": "Indian Energy Ex",
+      "ticker": "IEX",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3908d8d0-1956-4b09-9086-99d514549c00.pdf",
+      "transcript_id": "indian-energy-ex_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T08:57:30.912Z",
+      "summary": "Management expects growth in power exchange volumes and diversification initiatives, though near-term gas exchange volumes may remain subdued due to geopolitical disruptions.",
+      "guidance": [
+        {
+          "metric": "Electricity volumes (IEX)",
+          "horizon": "FY27",
+          "statement": "CEA projects power demand to reach 2,500 billion units by 2032, supporting exchange volume growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gas exchange volumes (IGX)",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Volumes may remain impacted in Q1FY27 due to Middle East geopolitical challenges, but growth expected from Q2FY27 onwards.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Coal exchange opportunity",
+          "horizon": "Medium-term",
+          "statement": "Draft regulations indicate e-auction coal transactions of ~80 million tonnes annually, presenting a significant opportunity for a coal exchange.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "API adoption for bidding",
+          "horizon": "Medium-term",
+          "statement": "Over 70% of cleared volumes are already through API, with expectation of near-universal adoption in the future.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI applications for operational efficiency",
+          "horizon": "Medium-term",
+          "statement": "AI is being used to reduce coding time and improve system security, with potential for further customer-facing applications.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Renewable energy market growth",
+          "horizon": "FY27",
+          "statement": "VPPAs, electricity derivatives, and battery storage arbitrage are emerging market mechanisms expected to deepen power markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery energy storage system (BESS) adoption",
+          "horizon": "FY27",
+          "statement": "Falling battery storage costs are accelerating BESS adoption, with tenders for 30 GW under the second VGF tranche already awarded.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Green market volumes",
+          "horizon": "FY27",
+          "statement": "Green market volumes grew 23% in FY26, with alignment to revised RCO framework expected to support higher renewable participation.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Real-Time Market (RTM) volumes",
+          "horizon": "FY27",
+          "statement": "RTM segment has grown strongly with 39% share in electricity volumes, offering flexibility in power procurement.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ICX (International Carbon Exchange) growth",
+          "horizon": "FY27",
+          "statement": "ICX issued 179 lakh I-RECs in FY26, recording over 200% growth, with potential for further expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market coupling implementation timeline",
+          "horizon": "Unclear",
+          "statement": "CERC has invited stakeholder comments on draft regulations till May 16, 2026, but final timelines for implementation are uncertain.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "PMR (Power Market Regulations) final notification",
+          "horizon": "Unclear",
+          "statement": "Management declined to provide timelines for final PMR notification, citing uncertainty in the regulatory process.",
+          "specificity": "refused",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Timelines for final PMR notification",
+        "Final timelines for market coupling implementation",
+        "Quantitative revenue or volume targets for coal exchange",
+        "Specific financial impact of diversification initiatives (coal, ICX, mineral exchange)",
+        "Quantitative targets for AI-driven applications"
+      ],
+      "margin_drivers": [
+        "Falling battery storage costs",
+        "Increased renewable energy participation",
+        "Improved liquidity in power markets",
+        "Competitive pricing in Day Ahead Market and Real-Time Market",
+        "Growth in green market volumes",
+        "API adoption for operational efficiency"
+      ]
+    },
+    "J Kumar Infra": {
+      "company": "J Kumar Infra",
+      "ticker": "JKIL",
+      "sector": "Industrials",
+      "concall_date": "2026-03-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ae19f08-4d70-4613-bedb-9e94f34c9ca8.pdf",
+      "transcript_id": "j-kumar-infra_2026-03-31",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T08:57:41.327Z",
+      "summary": "Management expects strong growth in FY27 driven by robust order book momentum, with revenue and PAT growth of ~15% and EBITDA margins expanding to 15-16%.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expecting ~15% growth, crossing INR6,500 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "Expecting ~15% growth in bottom line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Targeting 15-16% margin (from 14-15% currently)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "Targeting ~7% margin",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book inflow",
+          "horizon": "FY27",
+          "statement": "Expecting INR9,000-10,000 crores of new orders (already booked INR6,300 crores)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book (end FY27)",
+          "horizon": "FY27",
+          "statement": "Order book expected to remain strong at ~INR19,000 crores (assuming no new orders)",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY28",
+          "statement": "Planning INR200-250 crores annually including incremental capex",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Execution contribution (Chennai NHAI project)",
+          "horizon": "FY27",
+          "statement": "Expecting 20-30% output from the project",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Execution contribution (GMLR project)",
+          "horizon": "FY27",
+          "statement": "Expecting 20-30% output from the project",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bid pipeline",
+          "horizon": "FY27",
+          "statement": "Projects worth INR15,000-20,000 crores expected to be bid in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Metro projects (Maharashtra)",
+          "horizon": "FY27",
+          "statement": "Tenders expected for Metro Line 5, 10, 13, 14, and Uttan-Virar elevated corridor in next 3-6 months",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "TBM depreciation impact (GMLR)",
+          "horizon": "FY27",
+          "statement": "TBM to be amortized over 3 years (vs. 8 years book life) for faster depreciation",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Vikhroli to Kopar Khairane-Ghansoli connector project timeline"
+      ],
+      "margin_drivers": [
+        "Price variation and escalation clauses covering steel, cement, POL, labor, and others",
+        "Focus on maintaining margins by avoiding low-margin orders",
+        "Efficient execution and project management"
+      ]
+    },
+    "NDR Auto Compon.": {
+      "company": "NDR Auto Compon.",
+      "ticker": "NDRAUTO",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-03-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b74c4fe1-abda-48a1-968a-bdcd9f4dffe2.pdf",
+      "transcript_id": "ndr-auto-compon_2026-03-31",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T08:57:49.342Z",
+      "summary": "Management expects strong revenue growth driven by new OEM orders, premiumization, and capacity expansion, with EBITDA margins remaining stable around current levels.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY30",
+          "statement": "Order book of INR650 crore will add to current revenue, guiding total revenue to reach INR1,500 crore by FY30.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Similar revenue growth trajectory as FY26 expected, with new programs ramping up.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Current EBITDA margins of ~11.5% are sustainable going forward.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Additional INR30-40 crore capex planned beyond existing INR150 crore project capex.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "medium-term",
+          "statement": "INR500 crore expected from existing customers and products; INR1,000 crore visibility pending.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Premiumization impact",
+          "horizon": "5 years",
+          "statement": "Seat premiumization expected to increase content per vehicle by 40-50%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from ambient lighting",
+          "horizon": "FY27",
+          "statement": "Top line from two ambient lighting orders expected to be INR10-20 crore.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bharat Seats revenue target",
+          "horizon": "FY30",
+          "statement": "Bharat Seats revenue target revised to INR3,500 crore by FY30.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product ramp-up",
+          "horizon": "2027",
+          "statement": "Seat inserts, seat latches, and seat belt reminder systems to start production from January 2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share in Maruti",
+          "horizon": "medium-term",
+          "statement": "New order book expected to increase market share within Maruti Suzuki.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BIW content expansion",
+          "horizon": "medium-term",
+          "statement": "Focus on increasing body-in-white content for OEMs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating cash flow",
+          "horizon": "FY27",
+          "statement": "Operating cash flow expected to normalize after one-off payments in FY26.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Annual revenue/EBITDA guidance for FY27",
+        "Revenue mix by product for FY27",
+        "Total capex requirement for Bharat Seats",
+        "Geopolitical/oil price impact on margins",
+        "New OEM diversification timelines"
+      ],
+      "margin_drivers": [
+        "Premiumization in seating (artificial leather, power seats, ventilated seats)",
+        "Volume discounts from vendors",
+        "Commodity price indexing",
+        "Product mix improvements",
+        "Startup costs for new products"
+      ]
     }
   },
-  "generated_at": "2026-07-11T06:57:39.339Z",
-  "count": 915
+  "generated_at": "2026-07-11T08:57:50.871Z",
+  "count": 918
 }
