@@ -92474,8 +92474,55 @@
         "logistics cost inflation (US/Europe freight)",
         "fuel supply uncertainties"
       ]
+    },
+    "Chatha Foods": {
+      "company": "Chatha Foods",
+      "ticker": "544151",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-03-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0463b0a-bc24-4a2f-ac63-ebc99f9624fd.pdf",
+      "transcript_id": "chatha-foods_2026-03-01",
+      "provider": "groq",
+      "generated_at": "2026-07-11T12:35:42.326Z",
+      "summary": "Chatha Foods expects to increase capacity utilization and revenue in the coming years, driven by expansion into new facilities and products, while maintaining a focus on B2B customers and exports.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Veg facility to contribute Rs. 60 crore, Allana facility to contribute Rs. 90-95 crore, and non-vegetarian facility to contribute Rs. 185-190 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity Utilization",
+          "horizon": "FY27",
+          "statement": "Veg facility to operate at 25-30% capacity utilization, Allana facility to operate at 50% capacity utilization, and non-vegetarian facility to increase capacity utilization by 5-10%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity Utilization",
+          "horizon": "Medium-term",
+          "statement": "Veg facility to reach 65% capacity utilization, Allana facility to reach 80% capacity utilization, and non-vegetarian facility to reach full capacity utilization in three years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Maintenance Capex",
+          "horizon": "Ongoing",
+          "statement": "Annual maintenance cost to average around Rs. 1.5 crore",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Automation",
+        "Preventive maintenance",
+        "Strong vendor onboarding process"
+      ]
     }
   },
-  "generated_at": "2026-07-11T11:34:59.888Z",
-  "count": 922
+  "generated_at": "2026-07-11T12:35:46.339Z",
+  "count": 923
 }
