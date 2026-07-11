@@ -92812,8 +92812,285 @@
         "Geographical expansion",
         "Backward integration in battery manufacturing"
       ]
+    },
+    "KSB": {
+      "company": "KSB",
+      "ticker": "KSB",
+      "sector": "Industrials",
+      "concall_date": "2026-03-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=592aabae-8657-4c1f-b19b-67ba190c51cf.pdf",
+      "transcript_id": "ksb_2026-03-01",
+      "provider": "groq",
+      "generated_at": "2026-07-11T15:10:06.113Z",
+      "summary": "KSB expects growth driven by energy, infrastructure, and new products, with a focus on nuclear and solar businesses.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY26",
+          "statement": "Aiming for 15-20% growth in the pump segment",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Nuclear orders",
+          "horizon": "FY26",
+          "statement": "Expecting to invoice at least 2-4 pumps",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar business",
+          "horizon": "FY26",
+          "statement": "Planning for more than ₹300 crores in revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Expecting sustainability with a good mix of aftermarket and nuclear orders",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book conversion",
+          "horizon": "FY26-28",
+          "statement": "Expecting conversion of orders into revenue",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific details on Mahi Banswara tender"
+      ],
+      "margin_drivers": [
+        "Aftermarket SupremeServ business",
+        "Valve business",
+        "Low fixed cost and high turnover in standard business"
+      ]
+    },
+    "Crizac": {
+      "company": "Crizac",
+      "ticker": "CRIZAC",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-03-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6990fb5b-2086-4971-826d-b2d6380169cd.pdf",
+      "transcript_id": "crizac_2026-03-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T15:10:15.667Z",
+      "summary": "Management expects medium-term growth driven by geographic diversification, inorganic expansion, and AI-led platform enhancements despite near-term geopolitical and visa policy headwinds.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Expects revenue growth in the range of 10-20% YoY, similar to or higher than FY26's 22.7% growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Enrollment growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Targets enrollment growth in absolute terms at similar or higher percentages than FY26's 14% YoY.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographic diversification (UK concentration)",
+          "horizon": "Exit FY27 and FY28",
+          "statement": "Aims to reduce UK's contribution to total revenue from ~97% to below 60%, with rest of the world contributing ~40%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "New Zealand market share",
+          "horizon": "Medium-term",
+          "statement": "Sees growth opportunities in New Zealand due to favorable post-study work visa policies and India-New Zealand FTA, targeting increased enrollments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Australia market entry",
+          "horizon": "FY27-FY28",
+          "statement": "Actively working to enter Australia, with over 300 university tie-ups established; timing dependent on regulatory approvals.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Agent network expansion",
+          "horizon": "FY27 and beyond",
+          "statement": "Active agent base expanded to 5,389 in FY26; expects continued growth in agent network as part of scaling strategy.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Inorganic pipeline",
+          "horizon": "Medium-term",
+          "statement": "Inorganic pipeline remains active with strategic acquisitions and partnerships to accelerate geographic and capability expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expects EBITDA margin expansion to continue, building on FY26's 27% margin (up 172 bps YoY).",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "PAT margin of 20.5% in FY26; expects sustained profitability with strong cash generation and ROE/ROCE metrics.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Seasonality pattern",
+          "horizon": "FY27",
+          "statement": "Expects similar seasonality as FY26, with Q4 typically accounting for a disproportionately higher share of full-year revenue.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Visibility into admissions",
+          "horizon": "FY27",
+          "statement": "Typical visibility of 6-9 months into admissions, with major intakes (September and January) providing clarity on full-year trends.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI/technology investments (EduMentor)",
+          "horizon": "Medium-term",
+          "statement": "EduMentor AI platform investment expected to improve student-university matching and conversion outcomes over time.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantification of revenue growth contribution from existing vs. new agents",
+        "Impact of visa policy changes on conversion rates or acceptance rates by geography",
+        "Capital allocation framework for specific acquisitions or investments",
+        "Debt sustainability metrics or leverage targets"
+      ],
+      "margin_drivers": [
+        "Operating leverage from platform scalability",
+        "Geographic diversification reducing single-market concentration risk",
+        "AI-led automation and student matching (EduMentor)",
+        "Agent network expansion and network effects",
+        "Inorganic growth via acquisitions (StudiesPlanet, Global Tree Careers, Medway)",
+        "B2C capability expansion (Global Tree Careers)"
+      ]
+    },
+    "Orient Tech.": {
+      "company": "Orient Tech.",
+      "ticker": "ORIENTTECH",
+      "sector": "Information Technology",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6615561-ad29-476e-b43c-c45e3b00823e.pdf",
+      "transcript_id": "orient-tech_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T15:10:24.611Z",
+      "summary": "Management expects margin recovery and growth in annuity-based managed services as supply chain pressures ease post FY27, with a focus on mid-market and government segments.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin pressure from supply chain and pricing obligations will normalize as new prices are accepted and contracts expire by year-end.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (annuity-based)",
+          "horizon": "FY27",
+          "statement": "Digital India Corporation contract to contribute Rs. 60 crores annually for at least three years, enhancing recurring revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q4FY26",
+          "statement": "Current order book is around Rs. 200 crores, with increasing share of annuity-style managed services (NOC/SOC) expected.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Semiconductor supply chain",
+          "horizon": "FY27",
+          "statement": "Semiconductor shortages will persist throughout FY27 due to AI-driven infrastructure demand.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Managed services revenue",
+          "horizon": "24-36 months",
+          "statement": "NOC and SOC operations at Turbhe to reach 100% utilization over the next 2-3 years as enterprise contracts migrate.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cloud and managed services revenue",
+          "horizon": "FY27",
+          "statement": "Cloud revenue expected to be around Rs. 250+ crores, managed services (including infrastructure) around Rs. 100+ crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI opportunity",
+          "horizon": "medium-term",
+          "statement": "AI is seen as a growth opportunity for infrastructure, managed services, and cybersecurity, with no negative impact expected.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government data center investments",
+          "horizon": "FY27",
+          "statement": "Government investments in data centers will drive demand for managed services, cybersecurity, and NOC/SOC operations.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mid-market segment focus",
+          "horizon": "FY27",
+          "statement": "Mid-market segment (31.78% of revenue) remains the company's sweet spot for growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hyperscaler and GCC/GIFT city focus",
+          "horizon": "FY27",
+          "statement": "New hyperscalers and GCC/GIFT city clients are key targets for business expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pricing pressure",
+          "horizon": "near-term",
+          "statement": "Pricing pressure exists due to OEM price hikes, but contracts are being renegotiated to align with new costs.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Foreign bank client",
+          "horizon": "FY27",
+          "statement": "Business with a foreign bank is progressing, with digital transformation projects underway.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Future operating margins beyond Q3FY26",
+        "Net debt or debt-to-equity ratio for future periods",
+        "Recovery from the lost hyperscale telecom client"
+      ],
+      "margin_drivers": [
+        "Annuity-based managed services contracts",
+        "NOC and SOC operations ramp-up",
+        "Government data center investments",
+        "AI-driven infrastructure demand",
+        "Mid-market segment growth",
+        "Hyperscaler and GCC/GIFT city expansion"
+      ]
     }
   },
-  "generated_at": "2026-07-11T14:07:21.923Z",
-  "count": 926
+  "generated_at": "2026-07-11T15:10:26.131Z",
+  "count": 929
 }
