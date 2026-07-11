@@ -91209,8 +91209,147 @@
         "Employee cost leverage from revenue scale growth",
         "Billing mix affecting quarterly margin variations"
       ]
+    },
+    "ICICI AMC": {
+      "company": "ICICI AMC",
+      "ticker": "ICICIAMC",
+      "sector": "Financial Services",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdb70d8a-6984-42cc-b675-84b74553b015.pdf",
+      "transcript_id": "icici-amc_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-07-11T01:10:10.505Z",
+      "summary": "ICICI Prudential AMC expects to maintain its market share and grow its AUM, driven by its strong product bouquet and increasing demand for mutual fund products.",
+      "guidance": [
+        {
+          "metric": "SIP inflows",
+          "horizon": "medium-term",
+          "statement": "expected to continue growing, driven by increasing awareness and adoption of mutual funds",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AUM growth",
+          "horizon": "FY27",
+          "statement": "expected to grow, driven by increasing demand for mutual fund products",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-cash expenses",
+          "horizon": "FY27",
+          "statement": "expected to be around INR640-680 million",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-cash expenses",
+          "horizon": "FY28",
+          "statement": "expected to be around INR360-400 million",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Non-cash expenses",
+          "horizon": "FY29",
+          "statement": "expected to be around INR180-220 million",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "specific numbers for AUM growth",
+        "exact timeline for new product launches"
+      ],
+      "margin_drivers": [
+        "increasing demand for mutual fund products",
+        "growth in SIP inflows",
+        "expansion of product bouquet"
+      ]
+    },
+    "Waaree Renewab.": {
+      "company": "Waaree Renewab.",
+      "ticker": "WAAREERTL",
+      "sector": "Industrials",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://api.waareertl.com/upload/media/transcript_of_earning_call_24042026_1777283540.pdf",
+      "transcript_id": "waaree-renewab_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T01:10:17.453Z",
+      "summary": "Management expects continued growth in India's renewable energy sector with strong execution discipline, though margins may normalize around 15% over time due to competitive bidding pressures.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Management targets EBITDA margin around 15% as a guiding threshold, though current margins are higher due to operational efficiency and execution discipline.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Order book conversion",
+          "horizon": "FY27",
+          "statement": "Management expects to execute the existing 2.8 GW order book within 12-15 months and convert part of the 36 GW pipeline into firm orders during FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS EPC opportunity",
+          "horizon": "medium-term",
+          "statement": "Management sees BESS as a key enabler for grid stability and a growing opportunity within the EPC ecosystem.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue mix (with module vs. pure EPC)",
+          "horizon": "Q1FY27",
+          "statement": "Management notes that the 50% revenue mix with module in Q4FY26 was an aberration and expects the blended mix to revert to historical levels (20% with module, 80% pure EPC).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "IPP asset strategy",
+          "horizon": "medium-term",
+          "statement": "Management plans to expand IPP assets to around 270 MW peak for recurring revenue, but these will remain a small contributor to overall revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Execution capacity",
+          "horizon": "FY27",
+          "statement": "Management expects to execute projects totaling the existing 2.8 GW order book plus new orders in FY27, though exact execution volume depends on order inflow.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographical exposure",
+          "horizon": "FY27",
+          "statement": "Management indicates Rajasthan remains a key market for orders, but other states like Gujarat, Maharashtra, MP, and Andhra Pradesh also contribute significantly.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Receivables timeline",
+          "horizon": "FY27",
+          "statement": "Management states most receivables are collected within 6 months, with many secured by letters of credit.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "BESS EPC cost per megawatt (project-specific scope-dependent)",
+        "IRR on IPP assets vs. EPC projects",
+        "Hit ratio for converting the 36 GW pipeline into firm orders",
+        "Exact revenue or order book value in INR crores"
+      ],
+      "margin_drivers": [
+        "Operational efficiency",
+        "Timely execution",
+        "Tight budgeting control",
+        "Competitive bidding environment",
+        "Project mix (with module vs. pure EPC)"
+      ]
     }
   },
-  "generated_at": "2026-07-10T23:34:52.504Z",
-  "count": 908
+  "generated_at": "2026-07-11T01:10:18.975Z",
+  "count": 910
 }
