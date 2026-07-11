@@ -93416,8 +93416,239 @@
         "GGBS product adoption for highway projects",
         "new kiln stabilization and operational efficiency"
       ]
+    },
+    "Nexus Select": {
+      "company": "Nexus Select",
+      "ticker": "NXST",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.nexusselecttrust.com/resources/assets/pdf/NexusSelect-Earnings-Feb02-2026-v3.pdf",
+      "transcript_id": "nexus-select_2026-02-01",
+      "provider": "groq",
+      "generated_at": "2026-07-11T17:11:01.134Z",
+      "summary": "Nexus Select expects to sustain strong consumption momentum and achieve its full-year guidance, with a robust acquisition pipeline and plans for inorganic growth.",
+      "guidance": [
+        {
+          "metric": "NOI growth",
+          "horizon": "medium-term",
+          "statement": "NOI growth is expected to be around 8.5% to 9% on a steady state basis",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Annual NOI addition",
+          "horizon": "FY27 and next five years",
+          "statement": "The company expects to add around INR 150 crores of NOI every year through acquisitions",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail NOI to consumption ratio",
+          "horizon": "medium-term",
+          "statement": "The ratio is expected to remain between 10% to 12%",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Greenfield development details",
+        "Specific numbers on revenue share and minimum guarantee"
+      ],
+      "margin_drivers": [
+        "Revenue share",
+        "Minimum guarantee",
+        "Cost saving measures",
+        "Growth from hotels and offices"
+      ]
+    },
+    "Baazar Style": {
+      "company": "Baazar Style",
+      "ticker": "STYLEBAAZA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2b5964c-fb87-46b3-9370-0468988dc581.pdf",
+      "transcript_id": "baazar-style_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T17:11:08.433Z",
+      "summary": "Management expects accelerated growth driven by store expansion, private label scaling, and supply chain optimization, with improved profitability from margin expansion and debt reduction.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY26",
+          "statement": "Revised full-year revenue guidance increased to 35% YoY.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Pre-Ind AS)",
+          "horizon": "FY26",
+          "statement": "Pre-Ind AS EBITDA margin guided at 7% to 8%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin (Pre-Ind AS)",
+          "horizon": "FY26",
+          "statement": "Pre-Ind AS PAT margin guided at 3% to 4%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin (Ind AS)",
+          "horizon": "FY26",
+          "statement": "Ind AS EBITDA margin guided at 14% to 15%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT margin (Ind AS)",
+          "horizon": "FY26",
+          "statement": "Ind AS PAT margin guided at 2% to 3%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "SSG (Same Store Growth)",
+          "horizon": "FY26",
+          "statement": "SSG guidance revised to 4% to 5%.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Store count",
+          "horizon": "Next 3 years",
+          "statement": "Clear roadmap to scale to 500+ stores over the next three years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Annual store additions",
+          "horizon": "FY26-FY28",
+          "statement": "Accelerated store expansion to 60 to 80 stores per year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Private label revenue share",
+          "horizon": "Next 2 years",
+          "statement": "Private label revenue share to scale to around 65% from current 54%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Private label pricing strategy",
+          "horizon": "Medium-term",
+          "statement": "Shift from attractive pricing to fair pricing for private labels to support margin expansion.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Tech capex",
+          "horizon": "FY26",
+          "statement": "INR7 to INR10 crores earmarked for technology backbone (SAP ERP, analytics, etc.).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Warehouse infra capex",
+          "horizon": "FY26-FY27",
+          "statement": "INR20-INR25 crores planned for warehouse infrastructure (regional distribution centers, collection centers).",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Timeline for insurance claim settlement",
+        "Detailed breakdown of debt reduction beyond INR182 crores",
+        "Future store closure rates"
+      ],
+      "margin_drivers": [
+        "Private label penetration and pricing optimization",
+        "Supply chain efficiency (regional distribution centers, collection centers)",
+        "Operational leverage from store expansion",
+        "Cost absorption from higher revenue",
+        "Debt reduction lowering interest expense"
+      ]
+    },
+    "Kesar Petroprod.": {
+      "company": "Kesar Petroprod.",
+      "ticker": "524174",
+      "sector": "Commodities",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfa5c54f-ec7d-4142-affc-57ba35937c6b.pdf",
+      "transcript_id": "kesar-petroprod_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T17:11:14.620Z",
+      "summary": "Management expects strong growth in FY26 with 100% bottom-line growth YoY and 15-16% EBITDA margins, supported by higher-margin products and operational efficiencies.",
+      "guidance": [
+        {
+          "metric": "PAT growth",
+          "horizon": "FY26",
+          "statement": "100% bottom line growth year-over-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY26",
+          "statement": "15% to 16% EBITDA margins",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue CAGR",
+          "horizon": "next three years",
+          "statement": "18% to 20% CAGR top line growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bottom line growth focus",
+          "horizon": "next three years",
+          "statement": "Higher focus on bottom line growth and higher margins which will further improve from year on",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Net profit margin",
+          "horizon": "FY27",
+          "statement": "Improve net profit margin from 5.4% in FY25 to 20.8% by FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Co-generation cost savings",
+          "horizon": "FY27",
+          "statement": "$0.4 million in annual cost savings from co-generation facility",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Co-product commercialization",
+          "horizon": "Q4FY26",
+          "statement": "Complex fertilizer co-product to be operational from Q4",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin mix",
+          "horizon": "FY26",
+          "statement": "16% to 18% weighted average EBITDA margin including co-products",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Higher-margin products contribution",
+        "Operational efficiencies and cost controls",
+        "Co-product utilization (complex fertilizers, zinc phosphate)",
+        "Co-generation facility cost savings",
+        "Product mix improvement",
+        "Capacity utilization enhancement"
+      ]
     }
   },
-  "generated_at": "2026-07-11T16:08:06.446Z",
-  "count": 932
+  "generated_at": "2026-07-11T17:11:16.149Z",
+  "count": 935
 }
