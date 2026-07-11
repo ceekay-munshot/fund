@@ -91612,8 +91612,188 @@
         "labor cost absorption",
         "renewable energy adoption"
       ]
+    },
+    "Venky's (India)": {
+      "company": "Venky's (India)",
+      "ticker": "VENKEYS",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-03-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43a70e3d-79f0-444f-a646-57f43cff219f.pdf",
+      "transcript_id": "venky-s-india_2026-03-31",
+      "provider": "groq",
+      "generated_at": "2026-07-11T06:57:25.371Z",
+      "summary": "Venky's India expects to grow in line with the industry rate of 7-8% with a focus on expansion across all divisions, including poultry, Animal Health, and Oil Seed.",
+      "guidance": [
+        {
+          "metric": "Poultry growth",
+          "horizon": "FY27",
+          "statement": "Expected to grow in line with the industry rate of 7-8%",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Animal Health revenue",
+          "horizon": "FY27",
+          "statement": "Expected to sustain a quarterly run rate similar to Q4 FY26",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Animal Health EBIT margin",
+          "horizon": "FY27",
+          "statement": "Expected to sustain around 22-23% for the full year",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Oil Seed EBIT margin",
+          "horizon": "FY27",
+          "statement": "Expected to be sustainable at current levels",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Broiler realization",
+          "horizon": "Q1 FY27",
+          "statement": "Expected to be around INR 97-100 per kg",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Layer chick realization",
+          "horizon": "Q1 FY27",
+          "statement": "Expected to be around INR 46 per chick",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Broiler chick realization",
+          "horizon": "Q1 FY27",
+          "statement": "Expected to be around INR 38-39 per chick",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Separate listing of Animal Health business"
+      ],
+      "margin_drivers": [
+        "Broiler realization",
+        "Input costs",
+        "Raw material prices",
+        "Capacity utilization in Oil Seed business"
+      ]
+    },
+    "Sanjiv.Parant.": {
+      "company": "Sanjiv.Parant.",
+      "ticker": "531569",
+      "sector": "Healthcare",
+      "concall_date": "2026-03-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9b1deac-58c2-4adc-a84f-8ed7e5ff968b.pdf",
+      "transcript_id": "sanjiv-parant_2026-03-31",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T06:57:37.813Z",
+      "summary": "Management expects FY27 to be a stronger year with recovery in export revenues, scale-up in IV fluids and nutraceuticals, and stable margins despite cost pressures.",
+      "guidance": [
+        {
+          "metric": "Revenue (Base Business)",
+          "horizon": "FY27",
+          "statement": "Expect revenue of INR 80-85 crore for the base business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (IV Fluids - Pune Plant)",
+          "horizon": "FY27",
+          "statement": "Expect revenue of INR 60-65 crore from the Pune IV fluids facility.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Nutraceuticals - Prague Venture)",
+          "horizon": "FY27",
+          "statement": "Expect improved traction and contribution from the Prague-based nutraceutical venture.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin (Base Business)",
+          "horizon": "FY27",
+          "statement": "Expect EBITDA margins in the range of 15.5% to 16.5% for the base business.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA Margin (IV Fluids Business)",
+          "horizon": "FY27",
+          "statement": "Expect EBITDA margins of around 17% to 18% on an annualized basis for the IV fluids business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume (IV Fluids - Pune Plant)",
+          "horizon": "Q1FY27 to Q4FY27",
+          "statement": "Expect utilization levels to sequentially improve to 40%, 45%, 60%, and 70% by Q4FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume (IV Fluids - Pune Plant)",
+          "horizon": "FY27",
+          "statement": "Expect to produce and sell approximately 16 million bottles annually at full capacity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue Growth (Injectables)",
+          "horizon": "FY27",
+          "statement": "Expect 10%-12% growth in injectables.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue Growth (Tablets)",
+          "horizon": "FY27",
+          "statement": "Expect 7%-8% growth in tablets.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue Growth (Nutraceuticals)",
+          "horizon": "FY27",
+          "statement": "Expect 8%-9% growth in nutraceuticals.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export Revenue Recovery",
+          "horizon": "Q1FY27",
+          "statement": "Expect broader recovery in export revenues in Q1FY27 following normalization of logistics and alternative routes.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working Capital (Debtor Days)",
+          "horizon": "FY27",
+          "statement": "Expect debtor days to improve to 55-60 days from current 65-70 days.",
+          "specificity": "specific",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Five-year outlook beyond FY27",
+        "Majority stake timeline for Prague nutraceutical venture",
+        "Peer-to-peer financial comparisons"
+      ],
+      "margin_drivers": [
+        "Cost pass-through on raw material price increases",
+        "Dollar appreciation offsetting input cost pressures",
+        "Scale-up and operational leverage in IV fluids and nutraceuticals",
+        "Logistics cost normalization",
+        "Product mix shift towards higher-margin injectables and tablets"
+      ]
     }
   },
-  "generated_at": "2026-07-11T04:23:22.754Z",
-  "count": 913
+  "generated_at": "2026-07-11T06:57:39.339Z",
+  "count": 915
 }
