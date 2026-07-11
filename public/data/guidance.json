@@ -94912,8 +94912,274 @@
         "Focus on institutional and housing segments with better profitability",
         "Escalation-linked projects to mitigate cost overruns"
       ]
+    },
+    "Tiger Logistics": {
+      "company": "Tiger Logistics",
+      "ticker": "TIGERLOGS",
+      "sector": "Services",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c0ebf62-9dc6-4b0f-a23f-4cecac21ea5e.pdf",
+      "transcript_id": "tiger-logistics_2026-02-01",
+      "provider": "groq",
+      "generated_at": "2026-07-11T22:28:52.478Z",
+      "summary": "Tiger Logistics expects good growth in the coming quarters, driven by its focus on the renewable energy sector and increasing volumes.",
+      "guidance": [
+        {
+          "metric": "Volume",
+          "horizon": "Coming quarters",
+          "statement": "Volume is expected to grow, driven by the renewable energy sector",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Coming quarters",
+          "statement": "Revenue growth is expected to be driven by volume growth, despite fluctuations in freight levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "TiGreen vertical",
+          "horizon": "Medium-term",
+          "statement": "TiGreen vertical is expected to contribute more than 40% to total revenue and grow further",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CUBOX (LCL model)",
+          "horizon": "Coming days",
+          "statement": "CUBOX is expected to start making good money as it gains traction",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Stock price"
+      ],
+      "margin_drivers": [
+        "Focus on high-margin businesses like solar logistics",
+        "Increasing volumes",
+        "Improving freight levels"
+      ]
+    },
+    "Indraprastha Gas": {
+      "company": "Indraprastha Gas",
+      "ticker": "IGL",
+      "sector": "Energy",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.iglonline.net/uploads/announcement/Link_of_Transcript_Earning_Call_Q3_Dec_31_2025.pdf",
+      "transcript_id": "indraprastha-gas_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T22:29:02.530Z",
+      "summary": "Management expects steady volume growth, margin expansion to 7-8% range, and continued network expansion with INR1,200-1,500 crore annual core capex.",
+      "guidance": [
+        {
+          "metric": "Volume",
+          "horizon": "FY26 exit",
+          "statement": "Exiting FY26 at 10 MMSCMD average daily volume",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27-FY28",
+          "statement": "Adding 1 million SCMD volume annually for next 2 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth by region",
+          "horizon": "FY27-FY28",
+          "statement": "Delhi/NCR growth of 8-10%, new geographies growth of 17-18%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY26",
+          "statement": "Margin expected to reach 7% going forward, targeting 7-8% long-term range",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin drivers",
+          "horizon": "FY26",
+          "statement": "Benefits from transmission tariff rationalization (~INR0.75/SCM), Gujarat VAT reduction (~INR0.20-0.25/SCM), and Labour Code normalization (~INR0.30/SCM)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26",
+          "statement": "Core business capex of INR1,250 crores for FY26, with INR1,200-1,500 crores planned annually",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex breakdown",
+          "horizon": "FY26-FY27",
+          "statement": "Delhi 45%, UP 30-35%, Haryana 10% of core capex; diversification capex of INR500-800 crores starting FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CNG station base",
+          "horizon": "FY26",
+          "statement": "975 CNG stations as of January 2026, targeting queue-less operations",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sourcing mix",
+          "horizon": "FY27",
+          "statement": "Target 50% RLNG and 50% domestic sources (APM, HPHT, new well gas) with Brent-linked pricing",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Commercial PNG demand",
+          "horizon": "medium-term",
+          "statement": "Expecting increased volumes from commercial segment due to LNG price reductions and conversions from LPG/DG sets",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "DTC/DIMTS fleet transition",
+          "horizon": "FY26",
+          "statement": "DTC volumes to phase out entirely by March 2026; DIMTS transition to continue over longer period",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Regulatory benefits realization",
+          "horizon": "FY26",
+          "statement": "Transmission tariff benefits to be fully realized in FY26; Gujarat VAT benefit to be realized for full quarter",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "gas sourcing breakup in MMSCMD terms for future periods",
+        "exact dividend amounts from subsidiaries beyond Q3 FY26"
+      ],
+      "margin_drivers": [
+        "transmission tariff rationalization",
+        "Gujarat VAT reduction",
+        "Labour Code normalization",
+        "RLNG price trends",
+        "commercial PNG demand growth",
+        "industrial/commercial conversions from LPG/DG sets"
+      ]
+    },
+    "AGI Greenpac": {
+      "company": "AGI Greenpac",
+      "ticker": "AGI",
+      "sector": "Industrials",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0f2ef96-83e8-4205-9e04-47a0f7df3756.pdf",
+      "transcript_id": "agi-greenpac_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-11T22:29:11.411Z",
+      "summary": "Management expects steady volume-led growth with maintained EBITDA margins, supported by capacity additions and diversification into aluminum cans and retail services.",
+      "guidance": [
+        {
+          "metric": "Revenue growth (volume)",
+          "horizon": "FY27",
+          "statement": "Volume growth of ~3-4% in container glass and ~7-10% in specialty glass, translating to overall ~8-9% volume growth for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (value)",
+          "horizon": "FY26",
+          "statement": "Revenue growth of 8-10% for FY26, though value growth may be lower due to raw material price adjustments.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "12-18 months",
+          "statement": "Maintain EBITDA margins in the range of 24-25% (excluding non-operating income).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Maintain EBITDA per ton in the range of ₹9,500 to ₹10,500 for commercial glass; specialty glass margins in the 25-26% range.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity addition",
+          "horizon": "FY27",
+          "statement": "Madhya Pradesh Greenfield facility (500 tons/day) to be commissioned in March 2027, adding ~25% capacity.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume recovery",
+          "horizon": "Q4FY26",
+          "statement": "Subdued beer segment demand due to weather to normalize in Q4FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Aluminum beverage can capacity",
+          "horizon": "FY27",
+          "statement": "Annual capacity of 1.6 billion cans for aluminum beverage cans to be operational.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty glass demand",
+          "horizon": "medium-term",
+          "statement": "Steady demand from high-margin segments like pharmaceuticals, cosmetics, and premium beverages.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail services expansion",
+          "horizon": "medium-term",
+          "statement": "Entry into end-to-end retail services (e.g., filling glass bottles for brand owners) to enhance customer stickiness.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Commercial glass plants to operate at ~95% utilization; specialty glass at ~85% post-debottlenecking.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Raw material price impact",
+          "horizon": "FY27",
+          "statement": "Commodity prices (oil, natural gas, soda ash) may cause temporary volatility in margins.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Long-term industry demand",
+          "horizon": "20-25 years",
+          "statement": "India's per capita beer consumption (~2 liters) is far below global averages, suggesting long-term growth potential despite global demand contraction.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA per ton for specialty glass (specific numbers)",
+        "Brand-building spend or retail business financial targets"
+      ],
+      "margin_drivers": [
+        "Raw material price adjustments (soda ash, oil, natural gas)",
+        "Premium/specialty glass segment mix",
+        "Capacity utilization and debottlenecking",
+        "Volume growth in high-margin segments (pharmaceuticals, cosmetics)",
+        "Aluminum can segment contribution"
+      ]
     }
   },
-  "generated_at": "2026-07-11T21:29:52.959Z",
-  "count": 947
+  "generated_at": "2026-07-11T22:29:12.934Z",
+  "count": 950
 }
