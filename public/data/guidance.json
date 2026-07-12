@@ -97540,8 +97540,392 @@
         "logistic cost reduction from Western India expansion",
         "global demand for sustainable and certified packaging"
       ]
+    },
+    "HVAX Technolog.": {
+      "company": "HVAX Technolog.",
+      "ticker": "HVAX",
+      "sector": "Industrials",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/HVAX_26112025144548_Reg_30_Transcript_of_the_Earning_Call_Hvax.pdf",
+      "transcript_id": "hvax-technolog_2025-11-01",
+      "provider": "groq",
+      "generated_at": "2026-07-12T12:06:49.863Z",
+      "summary": "HVAX Technologies expects to achieve 35% year-on-year growth for the next couple of years, with margins upwards of current levels.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "Next couple of years",
+          "statement": "Expect to achieve 35% year-on-year growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Margins",
+          "horizon": "Next couple of years",
+          "statement": "Expect margins to be upwards of current levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book execution",
+          "horizon": "1-2 years",
+          "statement": "Expect to execute current order book of INR350 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export mix",
+          "horizon": "Medium-term",
+          "statement": "Expect export orders to remain around 70-75% of total order book",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Design-led work",
+          "horizon": "Medium-term",
+          "statement": "Expect design-led work to increase, with a target of 15-20% of total projects",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific margin numbers for semiconductor and renewable energy projects"
+      ],
+      "margin_drivers": [
+        "Design-led projects",
+        "Diversification into new industries",
+        "Acquisition of Krew Instruments"
+      ]
+    },
+    "Ameenji Rubber": {
+      "company": "Ameenji Rubber",
+      "ticker": "544555",
+      "sector": "Industrials",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4aab7a73-d563-41fe-a51b-ef058e465f66.pdf",
+      "transcript_id": "ameenji-rubber_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T12:06:58.557Z",
+      "summary": "Management expects 20-25% revenue CAGR and 20-25% EBITDA margins over the foreseeable future, driven by railway modernization, defense trials, and new product lines.",
+      "guidance": [
+        {
+          "metric": "Revenue CAGR",
+          "horizon": "foreseeable future",
+          "statement": "Management expects revenue growth of about 20% to 25% CAGR.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "foreseeable future",
+          "statement": "Management expects to maintain EBITDA margins in the range of 20% to 25%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Conveyor belt revenue",
+          "horizon": "FY27",
+          "statement": "Revenues from the new conveyor belt product line are expected to start from the next fiscal year once machinery is installed.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense tyre orders",
+          "horizon": "FY27",
+          "statement": "Post successful field trials, defense orders for rubberized wheels (Arjun tanks) are expected to be around 180 units.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Railway rubber pad volumes",
+          "horizon": "medium-term",
+          "statement": "Management expects good volumes from railway rubber pads once trial orders for new specifications are completed.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "H2FY26 and FY27",
+          "statement": "Exports to Iraq are expected to pick up post-elections, and the US subsidiary will start focusing on the US market from H2FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Infrastructure segment",
+          "horizon": "H2FY26",
+          "statement": "H2 is expected to be better than H1 for the infrastructure segment due to post-monsoon activity and budget releases.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "IPO fund deployment",
+          "horizon": "FY26",
+          "statement": "Advances have been made towards machinery, and loan repayments are in progress.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Railway pad market potential",
+          "horizon": "medium-term",
+          "statement": "Railway pad market potential is estimated in the 100s of crores, with potential to reach 1,000 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Vestibule market growth",
+          "horizon": "medium-term",
+          "statement": "Vestibule market grows consistently by about 10% to 15% every year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY26",
+          "statement": "Management states that if an order requires full capacity utilization, the company can easily scale up.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY26",
+          "statement": "Management confirms an active order book but declines to provide exact figures.",
+          "specificity": "refused",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue contribution from new specifications for railway rubber pads",
+        "Quantification of growth revenue from railway rubber pad trial orders",
+        "Order book figures in value terms",
+        "Industry-wide demand-supply numbers for infrastructure products"
+      ],
+      "margin_drivers": [
+        "Railway modernization and new specifications",
+        "Defense product trials (higher-margin products)",
+        "Conveyor belt introduction (volume-based but diversified product mix)",
+        "Export expansion (higher-margin markets)",
+        "Operational efficiency and capacity modernization"
+      ]
+    },
+    "Paradeep Pari.": {
+      "company": "Paradeep Pari.",
+      "ticker": "544383",
+      "sector": "Services",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cbcf2ae-dd82-4e27-8f6b-2765e9b1fbfb.pdf",
+      "transcript_id": "paradeep-pari_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T12:07:07.204Z",
+      "summary": "Management expects strong revenue growth driven by diversification, port expansion, and government-led infrastructure push, with EBITDA margins trending higher through operational leverage.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY26",
+          "statement": "INR420 crores expected for FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "INR546 crores expected for FY27, with potential for upward revision",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY26",
+          "statement": "Revised upward to 16% for FY26 (previously 14.3%)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Expects further margin improvement beyond FY26 due to operational leverage",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY26",
+          "statement": "INR420 crores order book by end of FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "INR540 crores order book for FY27 based on available work orders",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26-FY27",
+          "statement": "No major deviation from original INR20-30 crore plan unless significant opportunities arise",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Port cargo volume (Paradip Port)",
+          "horizon": "medium-term",
+          "statement": "Expected to reach 200 million tons in the next couple of years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gypsum/phosphogypsum handling (IFFCO)",
+          "horizon": "FY26-FY29",
+          "statement": "1 crore metric tons to be shifted from gypsum yard to another, with volume distribution over 3-4 years starting mid-Jan 2026",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue CAGR",
+          "horizon": "FY25-FY27",
+          "statement": "25% CAGR expected over next 2 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Diversification revenue contribution",
+          "horizon": "medium-term",
+          "statement": "Order book of INR50-60 crores from diversified sectors (construction, chemical trading)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee expenses",
+          "horizon": "FY26",
+          "statement": "INR28 crores per half-year expected as normalized base",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "tax rate outlook",
+        "NBFC or unrelated business expansion plans beyond stated diversification"
+      ],
+      "margin_drivers": [
+        "operational leverage from fleet productivity gains",
+        "seasonality normalization (H2 stronger than H1)",
+        "IPO-related expense deferral reversal",
+        "one-off employee cost normalization post FY25 labor hiring",
+        "diversification into higher-margin segments (chemical trading, construction)"
+      ]
+    },
+    "Digikore Studios": {
+      "company": "Digikore Studios",
+      "ticker": "DIGIKORE",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/DIGIKORE_07112025111105_Digikore_H1FY26_Transcript.pdf",
+      "transcript_id": "digikore-studios_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T12:07:15.762Z",
+      "summary": "Strong medium-term growth outlook driven by industry recovery, direct client mix shift, and diversification into AI/virtual production with a target of INR100 crore revenue by FY28.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY26-FY28",
+          "statement": "Targeting INR100 crore revenue by FY28, with sustained 30%+ CAGR over the next few years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue mix (Direct vs Outsourced)",
+          "horizon": "FY27",
+          "statement": "Aiming for 80% direct work (vs 50% in H1FY26) by end of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY26",
+          "statement": "Current order book of INR20 crore, with INR8-12 crore expected to convert from a bidding pipeline of INR35 crore.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY26",
+          "statement": "FY26 PAT guidance of INR11 crore, with H2 expected to be stronger than H1.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26",
+          "statement": "INR45 crore QIP completed in November 2025 to fund working capital, scaling, and high-margin initiatives.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Promoter infusion",
+          "horizon": "FY26",
+          "statement": "INR20 crore promoter infusion via convertible warrants to strengthen balance sheet and align with growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Europe revenue growth",
+          "horizon": "FY26-FY27",
+          "statement": "Aggressive push in Europe with new roadshows planned; already seeing pipeline conversion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI SaaS monetization",
+          "horizon": "Medium-term",
+          "statement": "AI-assisted tools and proprietary SaaS platforms expected to contribute meaningfully to revenue and margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Virtual production assets",
+          "horizon": "Medium-term",
+          "statement": "Virtual production asset library monetizing on Unreal Engine’s fab.com with growing month-on-month revenues.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Branded content & hybrid brand jingles",
+          "horizon": "Next few quarters",
+          "statement": "Branded content (e.g., Kaise Banta Hai S2, Heroes) and hybrid brand jingles (India, UAE, US, UK) expected to contribute meaningfully.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating cash flow",
+          "horizon": "FY26",
+          "statement": "Operating cash flow turned positive in H1FY26 and expected to strengthen further.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Client approvals",
+          "horizon": "Ongoing",
+          "statement": "Deep bench of client approvals (Disney, Netflix, HBO, Marvel, etc.) to support direct work and reduce sales cycles.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue breakdown by vertical (VFX, branded content, AI SaaS, virtual production)",
+        "Specific EBITDA margin guidance for future periods",
+        "Detailed capex allocation beyond QIP proceeds",
+        "Quantitative impact of AI on near-term margins"
+      ],
+      "margin_drivers": [
+        "Shift to higher-margin direct work (target 80% by FY27)",
+        "AI-assisted productivity tools to improve operating leverage",
+        "Virtual production asset reuse economics",
+        "Operating expense control (440 bps improvement in H1FY26)",
+        "Tax rebates on eligible projects (22.5% for Indian clients)"
+      ]
     }
   },
-  "generated_at": "2026-07-12T10:59:21.802Z",
-  "count": 974
+  "generated_at": "2026-07-12T12:07:17.289Z",
+  "count": 978
 }
