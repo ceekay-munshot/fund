@@ -95611,8 +95611,388 @@
         "Execution pace of large order book",
         "Amrapali and GPRA colony projects (historically high margin)"
       ]
+    },
+    "Borana Weaves": {
+      "company": "Borana Weaves",
+      "ticker": "BORANA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=463a66b4-ea63-47ce-bbf5-8d210439e6e9.pdf",
+      "transcript_id": "borana-weaves_2026-02-01",
+      "provider": "groq",
+      "generated_at": "2026-07-12T01:10:53.297Z",
+      "summary": "Borana Weaves is focused on discipline and sustainable growth, with plans to double capacity in the next two years, driven by increasing demand for synthetic textiles.",
+      "guidance": [
+        {
+          "metric": "Capacity",
+          "horizon": "next two years",
+          "statement": "doubling of capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "annual basis",
+          "statement": "INR60-70 crores incremental revenue from 160 new looms",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "next two years",
+          "statement": "INR350-400 crores for doubling capacity",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power cost savings",
+          "horizon": "annual basis",
+          "statement": "INR18-20 crores savings from renewable energy",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "gradual increase due to lower depreciation and interest costs",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "operating discipline",
+        "scale",
+        "lower depreciation and interest costs",
+        "renewable energy integration"
+      ]
+    },
+    "Glenmark Pharma.": {
+      "company": "Glenmark Pharma.",
+      "ticker": "GLENMARK",
+      "sector": "Healthcare",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://glenmark.b-cdn.net/gpl_pdfs/investors/reports_presentations/earning_concall/Glenmark-Earnings-Feb02-2026.pdf",
+      "transcript_id": "glenmark-pharma_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T01:11:00.343Z",
+      "summary": "Management expects strong growth over the next 5 years driven by 7-8 innovative launches, with RYALTRIS and WINLEVI scaling up and new products like Aumolertinib contributing from FY27 onwards.",
+      "guidance": [
+        {
+          "metric": "Revenue growth (India)",
+          "horizon": "next 5 years",
+          "statement": "Strong growth expected from India franchise, particularly in chronic respiratory and oncology segments",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue contribution (innovative franchise)",
+          "horizon": "next 5 years",
+          "statement": "7-8 innovative-led global assets expected to drive sales growth, primarily in oncology, dermatology, and respiratory medicine",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "RYALTRIS revenue",
+          "horizon": "FY26",
+          "statement": "RYALTRIS expected to be a $100 million product this year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "RYALTRIS revenue",
+          "horizon": "beyond FY26",
+          "statement": "RYALTRIS expected to continue scaling up post FY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "WINLEVI revenue (Europe)",
+          "horizon": "Q1 FY27",
+          "statement": "Commercial launch of WINLEVI planned in licensed European territories by Q1 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "RYALTRIS launches",
+          "horizon": "next few quarters",
+          "statement": "Expected to be launched in additional 10-12 markets over the next few quarters",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Aumolertinib commercialization (India)",
+          "horizon": "second half of FY27",
+          "statement": "Aumolertinib expected to be launched in India in the second half of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Trastuzumab Rezetecan MA applications",
+          "horizon": "Q1 FY27",
+          "statement": "First wave of marketing applications for Trastuzumab Rezetecan expected to begin in Q1 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "QiNHAYO (Envafolimab) commercial launch",
+          "horizon": "FY27",
+          "statement": "First commercial launch of QiNHAYO expected in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Monroe facility commercialization",
+          "horizon": "Q4 FY26",
+          "statement": "Commercial production at Monroe facility expected to start in Q4 FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Monroe facility filings",
+          "horizon": "next 12-15 months",
+          "statement": "At least 3 filings per year expected from Monroe facility, focusing on complex injectables",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Monroe facility breakeven",
+          "horizon": "4 years from now",
+          "statement": "Monroe facility expected to breakeven at operating level in about 4 years",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "quantification of currency depreciation impact on revenue growth",
+        "specific milestone payments for ISB 830 and ISB 880"
+      ],
+      "margin_drivers": [
+        "new product approvals in Q4 (expected to improve gross margin)",
+        "increasing contribution from branded markets in Europe",
+        "operating leverage improvements",
+        "product mix and geographical mix"
+      ]
+    },
+    "Euro Pratik Sale": {
+      "company": "Euro Pratik Sale",
+      "ticker": "EUROPRATIK",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dfb643d-ff0a-4d14-ae04-5c38a15f12f6.pdf",
+      "transcript_id": "euro-pratik-sale_2026-02-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T01:11:08.206Z",
+      "summary": "Management expects strong revenue growth driven by industry tailwinds, acquisitions, and expanded distribution, with sustained high EBITDA margins and strategic M&A activity.",
+      "guidance": [
+        {
+          "metric": "Revenue growth (Q4 FY26)",
+          "horizon": "Q4 FY26",
+          "statement": "Minimum 25% year-on-year revenue growth in Q4 FY26, including contributions from recent acquisitions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (FY26)",
+          "horizon": "FY26",
+          "statement": "FY26 revenue growth expected to exceed FY25 levels despite Q1 FY26 fire-related losses.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (3-year outlook)",
+          "horizon": "3 years",
+          "statement": "Company expects to outperform industry growth of 18% CAGR in decorative wall panels and 12% in decorative laminates.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Q4 FY26",
+          "statement": "EBITDA margin expected to remain around 40% plus/minus 2-3%, consistent with historical performance.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Company aims to maintain EBITDA margins in the 40% range, leveraging asset-light model and innovation-driven pricing.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Distribution network growth",
+          "horizon": "FY27",
+          "statement": "Target to grow distributor count by 12-15% annually, expanding into rural and B/C cities.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisition pipeline",
+          "horizon": "FY26",
+          "statement": "Actively evaluating acquisition opportunities, with potential announcements in coming months.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Forward integration (B2C retail)",
+          "horizon": "medium-term",
+          "statement": "Intent to pursue forward integration into B2C retail segment through acquisitions or partnerships.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Joint venture (Hues Ply Decor)",
+          "horizon": "Q1 FY27",
+          "statement": "Plans to launch 300-400 SKUs in the next year via joint venture in Hyderabad, leveraging partner's distribution network.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Warehouse utilization",
+          "horizon": "medium-term",
+          "statement": "Current warehouse utilization at ~80%, with capacity to expand as needed without significant challenges.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Product innovation pipeline",
+          "horizon": "annual",
+          "statement": "Company plans to introduce over 1,000 new designs annually, maintaining trend-forward portfolio.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Industry growth (decorative wall panels)",
+          "horizon": "FY24-FY29",
+          "statement": "Industry expected to grow at 18% CAGR, with organized players gaining share.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "PAT growth for Q4 FY26",
+        "Capex guidance for FY26/FY27",
+        "Breakdown of revenue growth between organic and inorganic contributions for FY26",
+        "Specific financial targets for URO Veneer World acquisition"
+      ],
+      "margin_drivers": [
+        "Asset-light model with contract manufacturers",
+        "Innovation-driven premium pricing",
+        "Operating leverage from high-margin product portfolio",
+        "Economies of scale from expanded distribution network",
+        "Cost optimization in supply chain and logistics"
+      ]
+    },
+    "J & K Bank": {
+      "company": "J & K Bank",
+      "ticker": "J&KBANK",
+      "sector": "Financial Services",
+      "concall_date": "2026-01-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa08c0d-c454-4069-be40-e9c1d5f2fae9.pdf",
+      "transcript_id": "j-k-bank_2026-01-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T01:11:18.039Z",
+      "summary": "Bank expects continued strong credit growth, margin stability, and profitability improvement in FY26 with potential upside in FY27, while focusing on deposit mobilization and cost optimization.",
+      "guidance": [
+        {
+          "metric": "Credit growth",
+          "horizon": "FY26",
+          "statement": "Maintain guidance of 12% to 15% credit growth for FY26, with potential for higher growth if deposit growth improves.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY26",
+          "statement": "Deposit growth is a constraint; CASA ratio guidance revised due to industry trends, but no impact on margin outlook.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CASA ratio",
+          "horizon": "FY26",
+          "statement": "CASA ratio expected to decline further due to shift towards term deposits and alternate investments, but remains higher than industry average.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Net Interest Margin (NIM)",
+          "horizon": "FY26",
+          "statement": "NIM expected to improve to 3.7% by March 2026, with 5-6 bps sequential improvement in Q4FY26 due to deposit repricing.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Return on Assets (RoA)",
+          "horizon": "FY26",
+          "statement": "RoA guidance maintained at 1.2% to 1.25% for FY26, with Q3 annualized RoA at 1.35%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Return on Equity (RoE)",
+          "horizon": "FY26",
+          "statement": "RoE guidance maintained at 15% to 16% for FY26, with Q3 annualized RoE at 15.16%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross NPA",
+          "horizon": "March 2026",
+          "statement": "Gross NPA expected to be below 3% by March 2026, achieved a quarter ahead of schedule.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Cost-to-Income Ratio",
+          "horizon": "FY26",
+          "statement": "Cost-to-Income Ratio expected to remain below 56% for FY26.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capital Adequacy Ratio (CRAR)",
+          "horizon": "FY26",
+          "statement": "CRAR expected to improve further with equity capital raising (INR750 crore) and Tier 2 bonds (INR500 crore).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit Disbursement (MSME & Retail)",
+          "horizon": "Next few quarters",
+          "statement": "Focus on deepening presence in high-growth regions outside J&K through balanced credit growth and IT initiatives.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee Expenses",
+          "horizon": "FY26 and beyond",
+          "statement": "Employee expenses expected to decline further due to retirements and lower-cost recruitments.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Provisions & Credit Cost",
+          "horizon": "FY26",
+          "statement": "Credit cost expected to remain near zero for FY26; potential for write-backs in FY27.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 guidance",
+        "Detailed capital raising timeline beyond QIP completion by March 2026",
+        "Specific ROE/RoA targets for FY27"
+      ],
+      "margin_drivers": [
+        "Deposit repricing lagging lending rate cuts",
+        "Retail CASA growth in Rest of India",
+        "Cost discipline and operating leverage",
+        "Credit growth in high-yielding segments"
+      ]
     }
   },
-  "generated_at": "2026-07-11T23:34:44.307Z",
-  "count": 954
+  "generated_at": "2026-07-12T01:11:19.564Z",
+  "count": 958
 }
