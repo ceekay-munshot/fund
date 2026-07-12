@@ -95991,8 +95991,328 @@
         "Cost discipline and operating leverage",
         "Credit growth in high-yielding segments"
       ]
+    },
+    "Landmark Global": {
+      "company": "Landmark Global",
+      "ticker": "544341",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2025-12-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d80bd8d-1f40-4bb8-9bce-ca46486c7922.pdf",
+      "transcript_id": "landmark-global_2025-12-01",
+      "provider": "groq",
+      "generated_at": "2026-07-12T04:36:07.438Z",
+      "summary": "Landmark Global Learning Limited expects a bright future with new developments, including opening campuses in Dubai and Paris, and expanding operations in Africa, Nepal, and Pakistan.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27-28",
+          "statement": "Achieving revenue of around INR150 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT",
+          "horizon": "FY27-28",
+          "statement": "Achieving a profit of around INR50 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY26",
+          "statement": "Expecting a flat number, similar to FY25",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Targeting INR80-100 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "Expecting a PAT margin of around 20-25%",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "operating leverage",
+        "expansion of operations"
+      ]
+    },
+    "Saakshi Medtech": {
+      "company": "Saakshi Medtech",
+      "ticker": "SAAKSHI",
+      "sector": "Industrials",
+      "concall_date": "2025-12-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SAAKSHI_01122025092811_Saakshi_Transcript_01122025_upload.pdf",
+      "transcript_id": "saakshi-medtech_2025-12-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T04:36:15.269Z",
+      "summary": "Management expects sustained revenue growth driven by aerospace and radiator segments, with margins remaining stable near current levels.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY26",
+          "statement": "H2 FY26 expected to grow ~15% over H1 FY26, with full-year revenue close to Rs. 140 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Growth expected from aerospace and radiator segments, with new facility enabling production orders by Feb 2026.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY26",
+          "statement": "H2 FY26 margins expected to be similar to H1 FY26 (~18.7%).",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins expected to remain in similar range as FY26, with potential for aerospace segment to exceed 20%.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Aerospace revenue",
+          "horizon": "Next 2 years",
+          "statement": "Seven-fold growth in H1 FY26 vs H1 FY25, with continued growth expected due to new Tier-1 customer engagements.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Radiator revenue",
+          "horizon": "FY27",
+          "statement": "Production orders expected to commence by Feb 2026, contributing to revenue growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q4 FY26",
+          "statement": "Current order book of ~Rs. 50 crores, with 3-month visibility typical.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26",
+          "statement": "Final CAPEX of ~Rs. 5 crores for facility completion, funded from cash flows.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "FY26-FY27",
+          "statement": "No significant further CAPEX planned; debt expected to stabilize as cash flows improve.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Siemens order flow",
+          "horizon": "Next 6 months",
+          "statement": "Two product qualifications approved; production expected to commence in next quarter.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GE Vernova order flow",
+          "horizon": "Next 6 months",
+          "statement": "Certifications for wind turbine components still pending; no orders expected for ~6 months.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Mahindra EV Panel order",
+          "horizon": "FY26-FY30",
+          "statement": "Rs. 230+ crores order remaining over next 4 years, with Rs. 10+ crores executed by Sep 2025.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "long-term (3-4 years) revenue/EBITDA/ROCE targets",
+        "exact order book visibility beyond 3 months",
+        "specific EBITDA margin for radiator business post-execution"
+      ],
+      "margin_drivers": [
+        "aerospace segment (higher margins)",
+        "operational leverage from new integrated facility",
+        "cost control measures",
+        "automation in mechanical assemblies"
+      ]
+    },
+    "Shankara Building": {
+      "company": "Shankara Building",
+      "ticker": "SHANKARA",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bb0f7da-37d4-4ec8-8795-ec48f536df12.pdf",
+      "transcript_id": "shankara-building_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T04:36:23.050Z",
+      "summary": "Management expects improved profitability in the manufacturing business post-demerger, with EBITDA margins targeting 3% by FY27, while the marketplace business aims for 15-20% revenue growth with margin expansion driven by non-steel expansion.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin (Manufacturing business)",
+          "horizon": "H2FY26",
+          "statement": "Targeting 2% to 2.5% EBITDA margin for the manufacturing business in H2 FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Manufacturing business)",
+          "horizon": "FY27",
+          "statement": "Aiming to achieve 3% EBITDA margin by FY27 through better capacity utilization and niche product focus.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization (Manufacturing business)",
+          "horizon": "FY27",
+          "statement": "Targeting capacity utilization of 60% to 65% by FY27 to drive margin improvement.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth (Marketplace business)",
+          "horizon": "Next 2-3 years",
+          "statement": "Expecting to sustain 15% to 20% top-line growth in the marketplace business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-steel revenue share (Marketplace business)",
+          "horizon": "Next 2-3 years",
+          "statement": "Aiming for non-steel revenue to move closer to 20% over the next 2 to 3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Marketplace business)",
+          "horizon": "Next 2-3 years",
+          "statement": "Margin improvement expected as non-steel business grows and steel margins stabilize.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Store expansion (Marketplace business)",
+          "horizon": "H2FY26",
+          "statement": "Planning to open 2 to 3 new stores in H2 FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-steel business expansion (Geographies)",
+          "horizon": "Coming quarters/years",
+          "statement": "Planning to expand non-steel business to newer geographies like Maharashtra and Gujarat.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "E-commerce revenue growth",
+          "horizon": "Coming quarters",
+          "statement": "Optimistic about scaling up e-commerce business and adding more verticals to the platform.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Rental income (Manufacturing business)",
+          "horizon": "FY26",
+          "statement": "Expecting INR 5 crores rental income from marketplace business for the 6-month period starting October.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Steel volume target",
+          "horizon": "FY26",
+          "statement": "On track to achieve 1 million tons steel volume target for FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital cycle (Marketplace business)",
+          "horizon": "Current",
+          "statement": "Working capital cycle in the marketplace business is approximately around 27 days.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantum of CapEx planned for FY27 beyond the machinery upgrade mention",
+        "Detailed product-wise margin breakdown for non-steel categories",
+        "Specific timeline for listing of Shankara Buildpro Limited beyond 'end of November'"
+      ],
+      "margin_drivers": [
+        "Non-steel business expansion (targeting 20% share in 2-3 years)",
+        "Capacity utilization improvement in manufacturing (target 60-65% by FY27)",
+        "Niche and value-added product focus in manufacturing",
+        "E-commerce scaling and vertical additions",
+        "Rental income from marketplace business to manufacturing"
+      ]
+    },
+    "Sukhjit Starch": {
+      "company": "Sukhjit Starch",
+      "ticker": "SUKHJITS",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e362c280-a861-4846-b066-a9d3fb2d20aa.pdf",
+      "transcript_id": "sukhjit-starch_2025-11-01",
+      "provider": "groq",
+      "generated_at": "2026-07-12T04:36:27.928Z",
+      "summary": "Sukhjit Starch expects improvement in operating performance and margin in the second half of FY26 due to stabilizing raw material environment and firm demand.",
+      "guidance": [
+        {
+          "metric": "Export activity",
+          "horizon": "short term",
+          "statement": "Export activity is expected to start picking up in the short term as maize prices in India are equal to or equivalent to those in other countries.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Maize prices",
+          "horizon": "next couple of quarters",
+          "statement": "Maize prices in India are expected to be in line with global pricing due to government policies and increase in maize cultivation.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Margin",
+          "horizon": "H2 FY26",
+          "statement": "Margin is expected to improve in the second half of FY26 due to increasing capacity utilization and government policies.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational cost",
+          "horizon": "near future",
+          "statement": "The company is always looking for ways to control operational costs and add to margins.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue mix between native starch derivatives and byproducts"
+      ],
+      "margin_drivers": [
+        "Increasing capacity utilization",
+        "Government policies",
+        "Cost optimization measures",
+        "Improving yield and energy efficiency"
+      ]
     }
   },
-  "generated_at": "2026-07-12T01:11:19.564Z",
-  "count": 958
+  "generated_at": "2026-07-12T04:36:29.453Z",
+  "count": 962
 }
