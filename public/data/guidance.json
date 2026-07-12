@@ -96311,8 +96311,369 @@
         "Cost optimization measures",
         "Improving yield and energy efficiency"
       ]
+    },
+    "XT Global Infot.": {
+      "company": "XT Global Infot.",
+      "ticker": "XTGLOBAL",
+      "sector": "Information Technology",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f458142a-4247-417b-8821-5eaed7f20467.pdf",
+      "transcript_id": "xt-global-infot_2025-11-01",
+      "provider": "groq",
+      "generated_at": "2026-07-12T07:11:42.447Z",
+      "summary": "XT Global Infotech expects revenue growth of 20-25% and EBITDA margin expansion to 10-15% in the next fiscal year, driven by its GCC model, product revenue, and operational efficiency.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "20-25% growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "10-15% expansion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "Next fiscal year",
+          "statement": "Twice a year",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Segment-wise revenue breakdown for the current quarter"
+      ],
+      "margin_drivers": [
+        "Operational efficiency",
+        "GCC model",
+        "Product revenue",
+        "Utilization of existing infrastructure"
+      ]
+    },
+    "REC Ltd": {
+      "company": "REC Ltd",
+      "ticker": "RECLTD",
+      "sector": "Financial Services",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e9dadda-2052-4b63-b9f8-6f2138e3b3c4.pdf",
+      "transcript_id": "rec-ltd_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T07:11:50.289Z",
+      "summary": "Management expects strong loan growth of 11-12% in FY26, supported by a Rs 2.5L cr committed order book, and targets Rs 10L cr loan book by 2030 with 30% from renewables.",
+      "guidance": [
+        {
+          "metric": "Loan book growth",
+          "horizon": "FY26",
+          "statement": "Expect 11% to 12% loan growth in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Loan book size",
+          "horizon": "2030",
+          "statement": "Target Rs 10 lakh crores loan book by 2030",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewable energy loan book share",
+          "horizon": "2030",
+          "statement": "Renewable sector to contribute 30% of loan book (Rs 3 lakh crores) by 2030",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Disbursements",
+          "horizon": "FY26",
+          "statement": "Maintain disbursement momentum to support 11-12% loan growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Stressed asset resolution",
+          "horizon": "FY26",
+          "statement": "All stressed assets (including Sinnar and Hiranmaye) expected to be resolved by FY26",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net Interest Margin (NIM)",
+          "horizon": "medium-term",
+          "statement": "Maintain NIM between 3.5% to 3.75% and spread between 2.75% to 3.5%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Net worth growth",
+          "horizon": "medium-term",
+          "statement": "Net worth expected to grow to around Rs 1.4 lakh crores by the time loan book reaches Rs 10 lakh crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Prepayments",
+          "horizon": "H2FY26",
+          "statement": "Do not expect significant prepayments in Q3 and Q4 of FY26 beyond Rs 22,000 crores already received",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Rooftop solar scheme coverage",
+          "horizon": "2028",
+          "statement": "Target to cover 1 crore households under PM Surya Ghar Bijli Yojana by 2028",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Infrastructure sector foray",
+          "horizon": "medium-term",
+          "statement": "Actively pursuing new avenues in infrastructure including shipping, metros, ports, and roads",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Power sector investment requirement",
+          "horizon": "next 4-5 years",
+          "statement": "Estimate Rs 46 lakh crores investment required in power sector over next 4-5 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "FY26",
+          "statement": "Consistently paying high dividends; second interim dividend of Rs 4.60 per share declared for Q2FY26",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Renewable energy growth",
+        "Distribution and generation sector growth",
+        "Net worth expansion",
+        "Competition in renewable sector"
+      ]
+    },
+    "Anya Polytech &": {
+      "company": "Anya Polytech &",
+      "ticker": "ANYA",
+      "sector": "Commodities",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/ANYAPOLY_28112025171016_NSE_Submission_Transcript_of_the_Earnings_Conference_Call_28112025_.pdf",
+      "transcript_id": "anya-polytech_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T07:11:58.066Z",
+      "summary": "Management expects sustainable growth across packaging, fertilizers, and green energy with improving margins and capacity expansions in the medium term.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY26",
+          "statement": "Consolidated revenue expected to exceed INR200 crores for FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "H2 FY26",
+          "statement": "EBITDA margin expected to be in the range of 17% to 19% for H2 FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Fertilizer segment",
+          "statement": "EBITDA margin for fertilizer segment expected to be around 20%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Packaging segment",
+          "statement": "EBITDA margin for packaging segment expected to be in the range of 10% to 12%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "Fertilizer segment",
+          "statement": "Additional 30% capacity expected to be achieved in Single Super Phosphate by next year, targeting 100% capacity utilization.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26",
+          "statement": "Total capex for FY26 expected to be INR19 crores across all entities.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Yara Green",
+          "statement": "Yara Green expected to commence production from April 2026, adding value in the next year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product portfolio expansion",
+          "horizon": "Medium-term",
+          "statement": "Expansion into high-margin products like chelated micronutrients and patented chemicals with UPL, targeting higher margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Packaging capacity utilization",
+          "horizon": "Medium-term",
+          "statement": "Aim to achieve 100% capacity utilization in packaging over the longer run.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "US market opportunity",
+          "horizon": "Medium-term",
+          "statement": "US market open for Indian packaging products due to tariff issues with China, creating demand opportunities.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Green energy initiatives",
+          "horizon": "Medium-term",
+          "statement": "Long-term vision to expand in solar power and other energy sectors under Yara Green.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material sourcing",
+          "horizon": "Medium-term",
+          "statement": "Raw material sourcing from major institutions like Reliance, Indian Oil, Hindustan Zinc, and government mining corporations.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "chelated micronutrients (high-margin products)",
+        "patented chemicals with UPL",
+        "cost efficiencies from government initiatives (tax benefits, discounted electricity)",
+        "location advantage for institutional orders",
+        "uninterrupted power supply from fertilizer companies",
+        "product mix optimization"
+      ]
+    },
+    "Supreme Facility": {
+      "company": "Supreme Facility",
+      "ticker": "SFML",
+      "sector": "Services",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SUPREME2005_25112025101438_Earnings_Call_Transcript.pdf",
+      "transcript_id": "supreme-facility_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T07:12:05.894Z",
+      "summary": "Management expects 25% CAGR revenue growth over the next 3-4 years with 100 bps EBITDA margin improvement in the short term, driven by geographic expansion, cross-selling, and technology adoption.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "3-4 years",
+          "statement": "Double the size of the current business with a 25% CAGR year-on-year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "short term",
+          "statement": "100 basis points improvement in EBITDA margins",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "long term",
+          "statement": "Improvement driven by business mix shift and operational efficiencies",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Geographic expansion contribution",
+          "horizon": "future",
+          "statement": "Minimum 30% growth expected from new regions (North and South)",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cross-selling",
+          "horizon": "1-2 years",
+          "statement": "Will contribute to revenue growth and margin stability",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hard services vs soft services mix",
+          "horizon": "future",
+          "statement": "Planning to convert clients from soft services to hard services to improve margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology adoption",
+          "horizon": "ongoing",
+          "statement": "Deeper technology adoption, expanding SAP workflows, digital checklists, automation, and data-driven processes to enhance efficiency and SLA-based contracts",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisitions",
+          "horizon": "future",
+          "statement": "Includes both organic and inorganic growth; MoUs signed and more under discussion",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Employee transportation segment",
+          "horizon": "5 years",
+          "statement": "Vehicles with 5-year contracts will be debt-free after 5 years, improving margins thereafter",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Supply chain management vertical",
+          "horizon": "future",
+          "statement": "Exponential growth expected due to pipeline and business strategy",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Corporate food solutions segment",
+          "horizon": "medium-term",
+          "statement": "Expansion planned from West zone to North and South regions",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Client retention and wallet share",
+          "horizon": "ongoing",
+          "statement": "Focus on quality of services and understanding client expectations to deepen relationships",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Receivables days improvement timeline",
+        "Specific timeline for margin improvement beyond short-term 100 bps"
+      ],
+      "margin_drivers": [
+        "Shift from soft to hard services",
+        "Business mix improvement (higher margin verticals like production support services)",
+        "Operational efficiencies and overhead cost leverage",
+        "Technology adoption and SLA-based contracts",
+        "Employee transportation segment margins post debt payoff"
+      ]
     }
   },
-  "generated_at": "2026-07-12T04:36:29.453Z",
-  "count": 962
+  "generated_at": "2026-07-12T07:12:07.424Z",
+  "count": 966
 }
