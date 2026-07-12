@@ -98350,8 +98350,382 @@
         "Existing distributor network leverage for new product launches",
         "Minimal CAPEX approach for new product launches"
       ]
+    },
+    "Accretion Pha.": {
+      "company": "Accretion Pha.",
+      "ticker": "ACCPL",
+      "sector": "Healthcare",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/APL2024_22112025175609_IntimationTranscriptsigned.pdf",
+      "transcript_id": "accretion-pha_2025-11-01",
+      "provider": "groq",
+      "generated_at": "2026-07-12T15:10:18.893Z",
+      "summary": "Accretion Pharmaceuticals is poised for sustained success, driven by its robust financial growth, strategic focus on direct exports, and diversified product portfolio.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Aiming to maintain EBITDA margin around 20-22%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "medium-term",
+          "statement": "Targeting gross margin around 30%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY26 and beyond",
+          "statement": "Confident of delivering sustainable, profitable growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital efficiency",
+          "horizon": "medium-term",
+          "statement": "Focusing on maintaining profitable growth and enhancing working capital efficiency",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export market expansion",
+          "horizon": "medium-term",
+          "statement": "Aiming to expand global reach, supported by new regulatory approvals and local partnerships",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Raw material optimization",
+        "Vendor qualification process",
+        "Bulk procurement of materials",
+        "Reduced manufacturing costs"
+      ]
+    },
+    "S J Logistics (I": {
+      "company": "S J Logistics (I",
+      "ticker": "SJLOGISTIC",
+      "sector": "Services",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_21112025152037_Earnings_call_Transcript_Final.pdf",
+      "transcript_id": "s-j-logistics-i_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T15:10:27.310Z",
+      "summary": "Management expects strong growth momentum to continue with vessel operations, NVOCC, and project cargo driving revenue and margin expansion through FY26 and into FY27.",
+      "guidance": [
+        {
+          "metric": "Revenue contribution from vessel operations",
+          "horizon": "FY27",
+          "statement": "Vessel operations expected to contribute 30-40% of total revenue in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "FY27",
+          "statement": "Targeting PAT margin improvement beyond current levels (11.4% in H1FY26), aiming for higher margins in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Top-line growth",
+          "horizon": "FY26 (remaining quarters)",
+          "statement": "Targeting ~35% growth in top-line for the last two quarters of FY26 (Oct-Mar).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expecting EBITDA margin expansion due to integrated operations (vessel, NVOCC, forwarding).",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "NVOCC revenue",
+          "horizon": "FY26",
+          "statement": "NVOCC revenue expected to scale further, building on 1,427% growth in H1FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Project cargo demand",
+          "horizon": "medium-term",
+          "statement": "Continued strong demand for project cargo (transmission towers, earth-moving equipment) in Africa and Latin America.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital intensity",
+          "horizon": "next 2-4 quarters",
+          "statement": "Working capital intensity expected to increase due to vessel operations and container leases.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Vessel operations economics",
+          "horizon": "FY26 (Q4)",
+          "statement": "Full operational and financial impact of vessel operations to be visible in Q4FY26.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Geographic expansion",
+          "horizon": "medium-term",
+          "statement": "Focus on scaling multi-modal capabilities and expanding in Middle East, Mediterranean, Africa, and Latin America.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology-driven efficiency",
+          "horizon": "medium-term",
+          "statement": "Investments in technology to support margin improvement and service differentiation.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Asset-light model scalability",
+          "horizon": "medium-term",
+          "statement": "Asset-light model to provide operational agility and protect against fixed cost burdens.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "exact top-line and bottom-line figures for vessel operations in FY26",
+        "specific lease costs or bunker fuel expenses for chartered vessels",
+        "detailed breakdown of security deposits for vessel charters"
+      ],
+      "margin_drivers": [
+        "integrated operations (vessel ownership, NVOCC, forwarding)",
+        "project cargo (high-margin assignments)",
+        "cost control and operational discipline",
+        "geographic diversification (Middle East, Mediterranean, Africa, Latin America)",
+        "technology-driven efficiency improvements"
+      ]
+    },
+    "Mazagon Dock": {
+      "company": "Mazagon Dock",
+      "ticker": "MAZDOCK",
+      "sector": "Industrials",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf",
+      "transcript_id": "mazagon-dock_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T15:10:36.616Z",
+      "summary": "Management expects revenue growth in FY26 and FY27 with potential margin expansion driven by submarine and LPD projects, though near-term margins may be impacted by ongoing Coast Guard and ONGC contracts.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY26",
+          "statement": "Anticipate revenue of approximately INR 12,500 crores for FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect another 5% growth in revenue over FY26.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "P75 (additional submarines)",
+          "horizon": "FY26",
+          "statement": "Commercial negotiations completed; contract expected to be signed in coming months.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "P75I",
+          "horizon": "FY26",
+          "statement": "Commercial negotiations anticipated to complete by calendar year-end; contract expected to be signed by FY26-end.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "P75I execution",
+          "horizon": "post-contract signing",
+          "statement": "Revenue recognition expected 6 months after contract signing.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "P75 (additional submarines) execution",
+          "horizon": "post-contract signing",
+          "statement": "Revenue recognition expected immediately after contract signing.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "P17A project",
+          "horizon": "FY26 and FY27",
+          "statement": "Third ship to be delivered in current calendar year; fourth ship in next FY; project to continue into next FY with revenue and profit margins visible.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LPD (Landing Platform Dock)",
+          "horizon": "FY27",
+          "statement": "RFP expected in 4-5 months; order placement likely in 1 year; potential order size INR 35,000-40,000 crores.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Margins",
+          "horizon": "FY26 and FY27",
+          "statement": "Expect stable margins around 15% for operationally efficient shipyard, with higher margins for familiar projects like frigates, destroyers, and submarines.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Colombo Dockyard acquisition",
+          "horizon": "next 2 years",
+          "statement": "Anticipate revenue ramp-up to INR 1,500 crores from current INR 1,000 crores; 50% revenue increase in 2 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LD waivers",
+          "horizon": "FY26",
+          "statement": "Expect waiver of LDs worth around INR 100 crores for 17 Alpha second ship; another INR 100 crores pending with MoD.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Short-cycle orders",
+          "horizon": "FY26 and FY27",
+          "statement": "Anticipate orders of INR 1,000 crores from tenders by Shipping Corporation of India, ONGC, or IOCL.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Potential conversion of P75 additional submarines order into P75I order",
+        "Technology partner for LPD project",
+        "Revenue and EBITDA contribution from Colombo Dockyard in current quarter"
+      ],
+      "margin_drivers": [
+        "Operational efficiencies in design and construction of frigates, destroyers, and submarines",
+        "Productivity improvements in submarine projects",
+        "Synergies from public-private partnerships (e.g., LPD with Swan Shipyard)",
+        "LD waivers and cost recoveries",
+        "Completion of projects with no remaining warranty liabilities"
+      ]
+    },
+    "Sahana Systems": {
+      "company": "Sahana Systems",
+      "ticker": "SAHANA",
+      "sector": "Information Technology",
+      "concall_date": "2025-11-01",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/SAHANA_24112025191330_TranscriptLetterforNSE.pdf",
+      "transcript_id": "sahana-systems_2025-11-01",
+      "provider": "mistral",
+      "generated_at": "2026-07-12T15:10:44.612Z",
+      "summary": "Management expects strong revenue growth over the next 5-7 years driven by defense, marine, government system integration, and export opportunities, with improving margins and potential funding needs for large-scale projects.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY31",
+          "statement": "Targeting INR 5,000 crores revenue in ~6 financial years (by FY31).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue by segment",
+          "horizon": "FY31",
+          "statement": "Defense segment: INR 1,000-2,000 crores; Marine system integration: INR 500-600 crores; Government system integration: INR 1,000 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY26-FY28",
+          "statement": "Consolidated order book of ~INR 210 crores for FY26, INR 350 crores for FY27, and INR 500 crores for FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY26-FY28",
+          "statement": "Projected revenue to cross INR 350 crores in FY27 and INR 500 crores in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "Next 3 years",
+          "statement": "PAT margin will increase slightly due to higher margins in defense and operating leverage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "Next 3 years",
+          "statement": "Defense margins will increase; system integration margins remain steady.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY26-FY31",
+          "statement": "Planned capex for large-scale projects may require additional funding via OD/CC facilities or other means.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "Medium-term",
+          "statement": "Current overseas revenue ~INR 20 crores with plans to expand in Southeast Asia, Africa, and Latin America.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV charging station rollout (Andhra Pradesh)",
+          "horizon": "Medium-term",
+          "statement": "Revenue model includes charger sales, IoT-enabled efficiency gains, CMS deployment, and revenue share with other operators.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government project timelines",
+          "horizon": "Medium-term",
+          "statement": "Government projects have gestation periods of 3-4 years; current revenue reflects efforts from 2 years ago.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Seasonality",
+          "horizon": "Annual",
+          "statement": "H2 revenue typically bulkier due to government budget exhaustion and higher mobilization advances.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Order book visibility",
+          "horizon": "1-2 years",
+          "statement": "Confirmed order book for next 1-2 years; >80% win probability for shortlisted tenders in government segments.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "strict timeline for fund raising via equity dilution or debt",
+        "quantitative details on export market expansion beyond current US revenue",
+        "specific capex amounts for large-scale projects"
+      ],
+      "margin_drivers": [
+        "defense segment margins (higher than system integration)",
+        "operating leverage from scaled projects",
+        "government project timelines and mobilization advances",
+        "product-driven vs. service-driven revenue mix"
+      ]
     }
   },
-  "generated_at": "2026-07-12T13:51:02.992Z",
-  "count": 982
+  "generated_at": "2026-07-12T15:10:46.142Z",
+  "count": 986
 }
