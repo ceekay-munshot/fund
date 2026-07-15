@@ -1,17 +1,17 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-14T18:41:24.794Z",
+  "generated_at": "2026-07-15T15:56:19.448Z",
   "totals": {
-    "sightings": 3157,
-    "companies": 1004,
+    "sightings": 3159,
+    "companies": 1005,
     "active_funds": 49
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 620,
-      "company_count": 402,
+      "sighting_count": 621,
+      "company_count": 403,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -58,6 +58,7 @@
         "BLS Internat.",
         "Baazar Style",
         "Baheti Recycling",
+        "Bajaj Consumer",
         "Bajel Projects",
         "Bhadora Indust.",
         "Bhagyanagar Ind",
@@ -574,8 +575,8 @@
     {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
-      "sighting_count": 215,
-      "company_count": 134,
+      "sighting_count": 216,
+      "company_count": 135,
       "companies": [
         "ASK Automotive",
         "AU Small Finance",
@@ -691,6 +692,7 @@
         "Suryoday Small",
         "Syngene Intl.",
         "TCPL Packaging",
+        "TCS",
         "Talbros Auto.",
         "Tata Elxsi",
         "Tata Motors",
@@ -2519,12 +2521,12 @@
     },
     {
       "sector": "Information Technology",
-      "sighting_count": 193,
-      "company_count": 57
+      "sighting_count": 194,
+      "company_count": 58
     },
     {
       "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 185,
+      "sighting_count": 186,
       "company_count": 61
     },
     {
@@ -2553,5 +2555,18 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "InCred AMC",
+      "company": "TCS",
+      "sector": "Information Technology",
+      "concall_date": "2026-07-15"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Bajaj Consumer",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-07-15"
+    }
+  ]
 }
