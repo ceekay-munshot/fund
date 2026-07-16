@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T15:07:26.394Z",
+  "generated_at": "2026-07-16T15:51:59.648Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 40,
-    "gained": 358,
-    "consistent": 526,
+    "gained": 357,
+    "consistent": 527,
     "companies_evaluated": 937
   },
   "dropped": [
@@ -450,6 +450,14 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "vallum",
+      "fund_name": "Vallum Capital",
+      "company": "Bank of Maha",
+      "ticker": "MAHABANK",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-16"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
@@ -3192,22 +3200,6 @@
       "company": "OCCL",
       "ticker": "OCCLLTD",
       "sector": "Commodities",
-      "latest_call_date": "2026-02-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "BCL Industries",
-      "ticker": "BCLIND",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-02-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "BCL Industries",
-      "ticker": "BCLIND",
-      "sector": "Fast Moving Consumer Goods",
       "latest_call_date": "2026-02-01"
     },
     {

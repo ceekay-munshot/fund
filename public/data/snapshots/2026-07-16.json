@@ -1,8 +1,8 @@
 {
   "date": "2026-07-16",
-  "generated_at": "2026-07-15T18:39:45.096Z",
+  "generated_at": "2026-07-16T15:51:59.712Z",
   "totals": {
-    "sightings": 3159,
+    "sightings": 3162,
     "companies": 1005,
     "active_funds": 49
   },
@@ -575,7 +575,7 @@
     {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
-      "sighting_count": 216,
+      "sighting_count": 217,
       "company_count": 135,
       "companies": [
         "ASK Automotive",
@@ -1117,7 +1117,7 @@
     {
       "fund_id": "icici-prudential",
       "fund_name": "ICICI Prudential AMC",
-      "sighting_count": 96,
+      "sighting_count": 97,
       "company_count": 59,
       "companies": [
         "Affle 3i",
@@ -1474,14 +1474,15 @@
     {
       "fund_id": "vallum",
       "fund_name": "Vallum Capital",
-      "sighting_count": 69,
-      "company_count": 38,
+      "sighting_count": 70,
+      "company_count": 39,
       "companies": [
         "AIA Engineering",
         "Aditya Infotech",
         "Affle 3i",
         "Arvind Fashions.",
         "Balaji Amines",
+        "Bank of Maha",
         "Bikaji Foods",
         "Birlasoft Ltd",
         "C.E. Info System",
@@ -2516,7 +2517,7 @@
     },
     {
       "sector": "Financial Services",
-      "sighting_count": 216,
+      "sighting_count": 218,
       "company_count": 91
     },
     {
@@ -2526,7 +2527,7 @@
     },
     {
       "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 186,
+      "sighting_count": 187,
       "company_count": 61
     },
     {
@@ -2555,5 +2556,24 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "ICICI Prudential AMC",
+      "company": "ICICI AMC",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-16"
+    },
+    {
+      "fund_name": "InCred AMC",
+      "company": "BCL Industries",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-06-02"
+    },
+    {
+      "fund_name": "Vallum Capital",
+      "company": "Bank of Maha",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-16"
+    }
+  ]
 }
