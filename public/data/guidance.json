@@ -89589,33 +89589,96 @@
       "company": "Wipro",
       "ticker": "WIPRO",
       "sector": "Information Technology",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78fab9a0-4864-4470-be49-3544e57f1c49.pdf",
-      "transcript_id": "wipro_2026-04-01",
-      "provider": "groq",
-      "generated_at": "2026-07-09T21:40:07.854Z",
-      "summary": "Wipro expects sequential growth of minus 2% to 0% in constant currency terms for Q1, with a focus on driving operational improvement and investing in AI capabilities.",
+      "concall_date": "2026-07-17",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36342956-3182-4962-a695-068bbafdb263.pdf",
+      "transcript_id": "wipro_2026-07-17",
+      "provider": "mistral",
+      "generated_at": "2026-07-17T16:01:31.076Z",
+      "summary": "Wipro expects sequential revenue decline in Q2 FY27 but remains focused on AI-led growth, margin recovery, and disciplined execution amid macro uncertainty.",
       "guidance": [
         {
           "metric": "Revenue",
-          "horizon": "Q1FY27",
-          "statement": "Sequential growth of minus 2% to 0% in constant currency terms",
+          "horizon": "Q2 FY27",
+          "statement": "Sequential revenue guidance of -1.5% to +0.5% in constant currency terms.",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "unclear"
         },
         {
-          "metric": "Operating Margin",
+          "metric": "EBITDA margin",
           "horizon": "medium-term",
-          "statement": "Maintain margins in a narrow band",
+          "statement": "Aim to return to the previously stated narrow band of 17% to 17.5%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led business investment",
+          "horizon": "medium-term",
+          "statement": "Continued investment in AI-native business, platforms, and talent to drive future growth.",
           "specificity": "vague",
-          "direction": "flat"
+          "direction": "unclear"
+        },
+        {
+          "metric": "BFSI sector growth",
+          "horizon": "Q2 FY27",
+          "statement": "Momentum building in BFSI, particularly in Americas, Europe, and APMEA.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Energy, Manufacturing, and Resources (EMR) sector",
+          "horizon": "Q2 FY27",
+          "statement": "Won deals in Europe for EMR sector, which will ramp up in delivery.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Healthcare sector",
+          "horizon": "medium-term",
+          "statement": "Healthcare sector remains a focus area with potential for recovery as clients reinvest savings into AI capabilities.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Operational efficiency and automation",
+          "horizon": "medium-term",
+          "statement": "Leveraging AI and automation to improve productivity and reduce operational complexity.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Wipro Intelligence platform traction",
+          "horizon": "medium-term",
+          "statement": "Increasing adoption of Wipro Intelligence platform for AI-native solutions and industry-specific platforms.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Headcount reduction",
+          "horizon": "Q2 FY27",
+          "statement": "Excluding Mindsprint acquisition, headcount reduced by 2,500 people sequentially.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Large deal ramp-up",
+          "horizon": "Q2 FY27",
+          "statement": "Large deals won earlier are taking longer to scale and ramp up, impacting near-term margins.",
+          "specificity": "vague",
+          "direction": "unclear"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "long-term revenue growth beyond Q2 FY27",
+        "specific AI-related revenue contribution or targets",
+        "detailed capex plans for AI infrastructure"
+      ],
       "margin_drivers": [
-        "Operational improvement",
-        "Cost takeout",
-        "AI-driven productivity benefits"
+        "AI-led automation and productivity gains",
+        "Operational efficiency improvements",
+        "Bench utilization optimization",
+        "G&A cost management",
+        "Large deal ramp-up timelines",
+        "Investments in AI-native business and platforms"
       ]
     },
     "Mastek": {
@@ -90182,111 +90245,57 @@
       "company": "Tata Elxsi",
       "ticker": "TATAELXSI",
       "sector": "Information Technology",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://d1y69b020rytqm.cloudfront.net/PDF/Financial-Statements/April2026/TranscriptofEarningsCall31.03.2026.pdf",
-      "transcript_id": "tata-elxsi_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-10T19:48:42.374Z",
-      "summary": "Management expects steady growth with margin expansion driven by AI adoption, fixed-bid contracts, and operational efficiencies, though automotive growth may moderate to high-single digits.",
+      "concall_date": "2026-07-17",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a3ed22f-9093-413f-bbb3-76c8c62b4415.pdf",
+      "transcript_id": "tata-elxsi_2026-07-17",
+      "provider": "groq",
+      "generated_at": "2026-07-17T16:01:13.609Z",
+      "summary": "Tata Elxsi expects to continue growth momentum in media and communication, and transportation verticals, with a high-single-digit growth aspiration for FY27.",
       "guidance": [
         {
-          "metric": "Automotive revenue growth",
+          "metric": "Revenue growth",
           "horizon": "FY27",
-          "statement": "Expect high-single digit growth exit for automotive segment, not double-digit due to geopolitical uncertainties.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "Q4FY27",
-          "statement": "Target exit EBITDA margin of 27% in Q4FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin trajectory",
-          "horizon": "FY27",
-          "statement": "Margin improvement will be gradual and aligned with top-line growth, not as sharp as FY26.",
+          "statement": "High-single-digit growth aspiration",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Healthcare & Life Sciences recovery",
-          "horizon": "Q1FY27",
-          "statement": "Q4FY26 was the bottom for healthcare; recovery expected in Q1FY27 with closed deals.",
+          "metric": "Media and communication vertical growth",
+          "horizon": "Next 2-3 quarters",
+          "statement": "Continue growth momentum",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Media & Communication growth",
-          "horizon": "FY27",
-          "statement": "Media segment still challenged but growth expected due to ramp-ups from large deals won.",
+          "metric": "Transportation vertical growth",
+          "horizon": "Next 2-3 quarters",
+          "statement": "Growth expected, despite softness in Europe",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "AI-led productivity impact",
-          "horizon": "medium-term",
-          "statement": "AI adoption (e.g., DevStudio.ai) improving internal efficiencies and pricing power for select customers.",
+          "metric": "Healthcare vertical growth",
+          "horizon": "Mid-term to long-term",
+          "statement": "Investing in the segment, expect growth eventually",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Fixed-bid contract margins",
-          "horizon": "FY27",
-          "statement": "Longer-tenure fixed-bid contracts aim for sequential margin improvement post initial investment years.",
+          "metric": "EBIT margin",
+          "horizon": "Next few quarters",
+          "statement": "Expect margin to grow back after one-time costs",
           "specificity": "vague",
           "direction": "up"
-        },
-        {
-          "metric": "Transportation OEM revenue share",
-          "horizon": "FY27",
-          "statement": "OEM customers now represent 77% of automotive revenue; shift to OEM business continues to support growth.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "New customer revenue contribution",
-          "horizon": "quarterly",
-          "statement": "New customers contribute 2-2.5% of revenue; ramp-up typically takes 9-12 months.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Utilization rate",
-          "horizon": "FY27",
-          "statement": "Utilization expected to improve further from current 73% as growth ramps up.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "GenAI pricing power",
-          "horizon": "medium-term",
-          "statement": "GenAI-driven efficiency gains may improve pricing power for customers demanding productivity improvements.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Salary hike impact on margins",
-          "horizon": "quarterly",
-          "statement": "Salary hikes (e.g., Jan 1) may cause temporary margin pressure in affected quarters.",
-          "specificity": "vague",
-          "direction": "down"
         }
       ],
       "refused_to_guide": [
-        "absolute revenue growth for FY27",
-        "capex guidance for FY27",
-        "order book size or growth"
+        "Subcontracting cost as a percentage of revenue"
       ],
       "margin_drivers": [
-        "AI adoption (GenAI, DevStudio.ai)",
-        "fixed-bid project ownership",
-        "operational leverage",
-        "utilization rate improvement",
-        "fixed-price contract mix",
-        "pyramid optimization",
-        "currency tailwinds"
+        "Investments in people, go-to-market and capabilities",
+        "Onsite sales and delivery investments",
+        "Ramp-up costs for large deals",
+        "Retention of select employees"
       ]
     },
     "Supreme Petroch.": {
@@ -90694,96 +90703,102 @@
       "company": "Billionbrains",
       "ticker": "GROWW",
       "sector": "Financial Services",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=307ba338-52d8-4201-8388-7e647d6563e1.pdf",
-      "transcript_id": "billionbrains_2026-04-01",
+      "concall_date": "2026-07-17",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e39237b-00a4-4c38-85d4-4417dba6abdb.pdf",
+      "transcript_id": "billionbrains_2026-07-17",
       "provider": "mistral",
-      "generated_at": "2026-07-10T22:37:16.262Z",
-      "summary": "Management expects continued scaling of wealth business, compounding of core broking market share, and AI-driven productivity gains, with cautious outlook on macro-driven market participation.",
+      "generated_at": "2026-07-17T16:01:39.798Z",
+      "summary": "Management expects steady growth in MTF penetration and cash yields, while cautiously expanding into new products like US stocks and wealth management, with controlled cost growth.",
       "guidance": [
         {
-          "metric": "Wealth business scaling",
+          "metric": "MTF penetration and ticket size",
           "horizon": "medium-term",
-          "statement": "Will continue scaling wealth business post-Fisdom acquisition with learnings from first six months.",
+          "statement": "MTF growth is expected to continue, driven by improved infrastructure and higher ticket sizes, with penetration still pending significant adoption.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Core broking market share",
-          "horizon": "ongoing",
-          "statement": "Will continue compounding market share in existing businesses like equity, MF, and F&O.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "AI impact",
-          "horizon": "FY27",
-          "statement": "Expects AI to drive customer experience improvements and internal productivity gains.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "New product launches",
-          "horizon": "ongoing",
-          "statement": "Will continue finding new gaps and launching smaller S-curves products.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Wealth management investments",
-          "horizon": "FY27-FY28",
-          "statement": "Fisdom expected to be profitable by FY28; investments across Prime, W, and Fisdom platforms.",
+          "metric": "Cash yields",
+          "horizon": "near-term",
+          "statement": "Cash yields are improving year-on-year and expected to increase by 1-2% per quarter as MTF penetration rises.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Employee cost growth",
-          "horizon": "FY27",
-          "statement": "Employee cost growth expected to be lower than revenue growth; absolute increases due to AI initiatives and new brands.",
-          "specificity": "vague",
-          "direction": "up"
+          "metric": "Employee headcount growth",
+          "horizon": "2-3 years",
+          "statement": "No significant increase in headcount expected as the company focuses on tech-driven and AI-enabled wealth management.",
+          "specificity": "specific",
+          "direction": "flat"
         },
         {
-          "metric": "Cost to serve",
-          "horizon": "FY27",
-          "statement": "Cost to serve as a percentage of revenue expected to be slightly lower due to revenue per transaction growth and AI efficiency.",
+          "metric": "US stocks launch",
+          "horizon": "short-term",
+          "statement": "US stocks product is in testing phase and expected to launch soon, starting with US stocks and expanding based on demand.",
           "specificity": "vague",
-          "direction": "down"
+          "direction": "unclear"
         },
         {
-          "metric": "Cost to grow",
-          "horizon": "FY27",
-          "statement": "Cost to grow expected to be lower than revenue growth; consistent absolute spend of INR450-500 crore with incremental investments in new brands.",
+          "metric": "Wealth management products (Prime, W)",
+          "horizon": "medium-term",
+          "statement": "Early traction observed, but too early to comment on client additions or AUM projections.",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "unclear"
         },
         {
           "metric": "Commodities market share",
-          "horizon": "FY27",
-          "statement": "Will start disclosing commodity market share once YoY comparison becomes meaningful (post one year of launch).",
+          "horizon": "medium-term",
+          "statement": "Commodities achieved over 28% retail market share in notional ADTO and is expected to scale further.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit business (LAS) disbursement share",
+          "horizon": "medium-term",
+          "statement": "LAS constitutes 34% of disbursements and is expected to remain relevant and grow.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AMC (State Street Global partnership)",
+          "horizon": "short-term",
+          "statement": "SEBI and CCI approvals secured; further developments expected as the partnership progresses.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI integration",
+          "horizon": "medium-term",
+          "statement": "AI is expected to reshape investing experience and product building across the platform.",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Regulatory engagement",
-          "horizon": "ongoing",
-          "statement": "Will continue engaging with regulators to address concerns around speculation in F&O.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "metric": "Cost to operate",
+          "horizon": "next quarter",
+          "statement": "Cost to operate is expected to remain stable with slight inflationary increases.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ESOP expense as % of employee cost",
+          "horizon": "current quarter",
+          "statement": "ESOP expense contributes roughly 10% of employee cost.",
+          "specificity": "specific",
+          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "Affluent customer asset breakup and revenue contribution",
-        "Timeline for extending Groww Prime to existing customers",
-        "Average MTF book for the quarter",
-        "Algo-based trading strategy timeline"
+        "F&O margin requirements impact on customer behavior",
+        "AUM or size projections for wealth management products (Prime, W)",
+        "Specific revenue breakdown for Fisdom and AMC",
+        "Future CAC trends beyond current quarter"
       ],
       "margin_drivers": [
-        "AI-driven productivity gains",
-        "Revenue per transaction growth",
-        "Wealth business scaling (Fisdom integration)",
-        "New product launches (commodities, bonds, Prime, W)",
-        "Cost optimization via AI and tech efficiency"
+        "MTF penetration and ticket size growth",
+        "Cash yields improvement",
+        "AI-driven efficiency in operations",
+        "Tech-driven wealth management model"
       ]
     },
     "Aditya AMC": {
@@ -99748,8 +99763,117 @@
         "investments in AI capabilities and partnerships",
         "productivity gains passed on to clients"
       ]
+    },
+    "HDFC AMC": {
+      "company": "HDFC AMC",
+      "ticker": "HDFCAMC",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-17",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69974142-160a-4d8c-8c66-28d1f0769c77.pdf",
+      "transcript_id": "hdfc-amc_2026-07-17",
+      "provider": "mistral",
+      "generated_at": "2026-07-17T16:01:23.700Z",
+      "summary": "Management expects long-term structural growth in SIP flows and alternative asset penetration, while navigating regulatory changes and market volatility.",
+      "guidance": [
+        {
+          "metric": "SIP inflows",
+          "horizon": "medium-term",
+          "statement": "SIP flows remain structurally strong with INR30,000 crore monthly industry average, and penetration relative to formal savings base is still low, indicating a long runway for growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Alternative asset AUM (AIF, PMS, advisory mandates)",
+          "horizon": "medium-term",
+          "statement": "Total alternatives AUM grew from INR60 billion to INR148 billion YoY, with plans to expand the alternatives platform including private credit and venture capital funds.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Market share in equity schemes",
+          "horizon": "FY27",
+          "statement": "Equity market share has held steady at ~12.8% YoY, despite MTM movements impacting sequential share.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue yield",
+          "horizon": "FY27",
+          "statement": "Management aims to maintain margins despite regulatory changes (TER to BER transition and removal of 5bps exit load fee), with optimization of commission structures and cost management.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt fund flows",
+          "horizon": "FY27",
+          "statement": "Industry needs to make debt funds more attractive to retail investors, with potential opportunities in lifecycle funds and hybrid products.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Product launches (mutual funds, PMS, AIF, SIF)",
+          "horizon": "near-term to medium-term",
+          "statement": "Expanding product bouquet across active funds, passive funds, sector/thematic funds, PMS, private equity, private credit, and SIF (e.g., H-SIF equity ex top 100 long-short fund launching soon).",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Investor education initiatives",
+          "horizon": "medium-term",
+          "statement": "Continued focus on investor education to promote long-term investing habits and SIP adoption across all strata of society.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Distribution economics (pricing power with distributors)",
+          "horizon": "medium-term",
+          "statement": "Pricing power with distributors is expected to remain sustainable as it is based on long-term partnerships and investor returns, not market conditions.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Private credit fund",
+          "horizon": "Q1FY27",
+          "statement": "Plans to close the private credit fund this quarter.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Venture capital/private equity fund",
+          "horizon": "near-term",
+          "statement": "Received approval to launch a second venture capital/private equity fund, with a marquee global investor committing $50 million as seed capital.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SIF (Structured Investment Fund) offerings",
+          "horizon": "near-term",
+          "statement": "Board approved the first SIF offering (H-SIF equity ex top 100 long-short fund) to be launched in the near term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Employee cost (ESOP component)",
+          "horizon": "FY27",
+          "statement": "ESOP component is disclosed separately, with the increase in employee cost primarily due to year-end increments and employee benefits.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Sector-specific performance outlook for equity funds",
+        "Exact revenue yield trajectory beyond maintaining margins",
+        "CSR expense run rate for future quarters"
+      ],
+      "margin_drivers": [
+        "Regulatory changes (TER to BER transition, removal of 5bps exit load fee)",
+        "Optimization of commission structures with distributors",
+        "Prudent management of direct and indirect costs",
+        "Alternative asset economics (80-90bps fee range for alternatives)",
+        "Product mix (higher equity orientation, alternatives, hybrid funds)"
+      ]
     }
   },
-  "generated_at": "2026-07-17T14:15:32.610Z",
-  "count": 997
+  "generated_at": "2026-07-17T16:02:11.570Z",
+  "count": 998
 }
