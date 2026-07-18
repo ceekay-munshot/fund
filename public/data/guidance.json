@@ -73578,110 +73578,64 @@
       "company": "Manaksia Coated",
       "ticker": "MANAKCOAT",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29a87fd5-cb64-4927-b5cc-ee3728a1a756.pdf",
-      "transcript_id": "manaksia-coated_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-05T10:27:03.081Z",
-      "summary": "Management expects strong revenue and margin growth from H1FY27 onwards driven by capacity expansions, premiumization, and cost efficiencies, despite ongoing geopolitical and cost pressures.",
+      "concall_date": "2026-07-18",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14793c03-9c17-42dc-8d69-42f8c7cceeba.pdf",
+      "transcript_id": "manaksia-coated_2026-07-18",
+      "provider": "groq",
+      "generated_at": "2026-07-18T16:07:00.038Z",
+      "summary": "Management expects a strong FY27 driven by multiple independent drivers of earnings growth, including capacity additions, Alu-Zinc ramp-up, solar savings, and export momentum.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "H1FY27 onwards",
-          "statement": "Revenue expected to benefit from ramp-up of alu-zinc line, second color coating line, and solar power plant, with strong order visibility from domestic and export markets.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
           "metric": "EBITDA margin",
-          "horizon": "H1FY27 onwards",
-          "statement": "Margin recovery expected to be meaningful with normalization of energy and raw material costs, assuming no further escalation in global conflicts.",
+          "horizon": "FY27",
+          "statement": "Expected to be sustainable and potentially grow further",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "EBITDA per ton",
-          "horizon": "H1FY27 onwards",
-          "statement": "Strong EBITDA per ton visibility on new alu-zinc sales due to 100% cost pass-through to customers.",
+          "metric": "Revenue",
+          "horizon": "Q2 FY27",
+          "statement": "Expected to increase with the commissioning of the second color coating line",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Alu-Zinc capacity utilization",
+          "horizon": "next 3-4 months",
+          "statement": "Expected to reach 75-80%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Capex outlay",
-          "horizon": "FY27-FY28",
-          "statement": "Total capex of INR95 crores planned for second color coating line (INR65 crores) and solar power plant (INR30 crores), funded via debt and equity.",
+          "metric": "Order book",
+          "horizon": "next 2 quarters",
+          "statement": "Expected to remain full, with visibility of 3-5 months",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Revenue potential post capex",
-          "horizon": "FY28",
-          "statement": "Potential revenue of INR2,500 crores to INR2,700 crores at 80-85% capacity utilization after completion of all projects.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Power cost savings",
-          "horizon": "FY27 onwards",
-          "statement": "7MW solar plant to reduce grid power dependency by 50-55%, saving INR7-7.5 crores annually from Q3FY27 onwards.",
-          "specificity": "specific",
+          "metric": "Working capital cycle",
+          "horizon": "post-commissioning of cold rolling mill",
+          "statement": "Expected to reduce drastically to single-digit days",
+          "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "Debt-to-equity ratio",
-          "horizon": "FY27-FY28",
-          "statement": "Leverage to remain conservative, not expected to breach 2x; target range of 1x to 1.5x.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "ROCE/ROE",
-          "horizon": "FY27 onwards",
-          "statement": "Projects targeted to deliver ROCE above 20%; ROE expected to improve further from current 14% with contributions from new projects.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export growth",
-          "horizon": "FY27",
-          "statement": "Export growth rate to slow from 100% YoY but still expected to grow in absolute terms, maintaining strong export contribution to revenue.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Alu-zinc EBITDA upside",
-          "horizon": "Long-term",
-          "statement": "Alu-zinc and pre-painted alu-zinc products expected to be more profitable than galvanized products, with superior EBITDA per ton margins.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Cold rolling mill (CRM) project",
-          "horizon": "FY28",
-          "statement": "CRM project planned for FY28 to reduce dependency on cold-rolled steel, improve inventory management, and enhance raw material flexibility.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "CRM capacity",
-          "horizon": "FY28",
-          "statement": "CRM to add 360,000 tons capacity, making company partially captive for HRC.",
+          "metric": "Debt",
+          "horizon": "peak",
+          "statement": "Expected to be around INR125-130 crores",
           "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Sustainable EBITDA upside in absolute terms for alu-zinc",
-        "Exact timeline for CRM project beyond FY28",
-        "Breakup of ROCE/IRR for individual projects (CRM, alu-zinc line)"
+        "exact debt requirement for future capex"
       ],
       "margin_drivers": [
-        "Premiumization (shift to pre-painted alu-zinc and alu-zinc products)",
-        "Cost pass-through to customers",
-        "Capacity utilization improvements",
-        "Solar power plant reducing power costs",
-        "Value-added product mix (80% pre-painted steel in FY26)",
-        "Export growth driving higher margins"
+        "pricing power",
+        "cost efficiency",
+        "Alu-Zinc premiumness",
+        "solar power savings"
       ]
     },
     "Z-Tech (India)": {
@@ -88212,101 +88166,110 @@
       "company": "SG Finserve",
       "ticker": "SGFIN",
       "sector": "Financial Services",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0301ae3a-b3ec-453f-9314-f786f505379a.pdf",
-      "transcript_id": "sg-finserve_2026-04-01",
+      "concall_date": "2026-07-18",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54333b40-37fd-4a91-a5a1-007b822381ae.pdf",
+      "transcript_id": "sg-finserve_2026-07-18",
       "provider": "mistral",
-      "generated_at": "2026-07-08T22:39:16.656Z",
-      "summary": "Management expects strong growth in AUM and profitability over the medium term, driven by supply chain finance and factoring, while maintaining conservative leverage and high asset quality.",
+      "generated_at": "2026-07-18T16:07:29.030Z",
+      "summary": "SG Finserve expects strong growth in profitability and AUM over the next 3-4 years with a focus on supply chain financing, factoring, and digital lending while maintaining nil NPA and high capital adequacy.",
       "guidance": [
         {
-          "metric": "AUM growth",
+          "metric": "PBT",
           "horizon": "FY27",
-          "statement": "Aspiration for AUM growth around 35%-40% in FY27.",
+          "statement": "Targeting PBT of INR300 crores for FY27, representing ~75% YoY growth based on current run rate.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "AUM growth",
-          "horizon": "medium to long term",
-          "statement": "Average AUM growth of 25%-30% in the medium to long term.",
+          "metric": "PAT",
+          "horizon": "FY27",
+          "statement": "PAT expected to be ~INR225 crores for FY27 based on INR300 crores PBT.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "AUM target",
+          "metric": "Loan book (AUM)",
+          "horizon": "FY27",
+          "statement": "Visibility for loan book to reach INR5,500 crores by March 2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Loan book (AUM)",
           "horizon": "3-4 years",
-          "statement": "Internal target of INR 10,000 crores AUM achievable without fresh equity.",
+          "statement": "Targeting 25%-30% CAGR growth in AUM over 3-4 years.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Leverage",
-          "horizon": "2-3 years",
-          "statement": "Target leverage of up to 3x, to be achieved in a phased manner.",
+          "metric": "Profitability (CAGR)",
+          "horizon": "3-4 years",
+          "statement": "Targeting 30%-35% CAGR growth in profitability over 3-4 years.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "ROA",
-          "horizon": "ongoing",
-          "statement": "ROA expected to range between 4.5% to 5% depending on leverage levels.",
+          "metric": "Return on Equity (ROE)",
+          "horizon": "2 years",
+          "statement": "ROE expected to expand from 14% to ~16% as leverage transitions from 2x to 3x.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Leverage (Debt-to-Equity)",
+          "horizon": "2 years",
+          "statement": "Planning to transition from current 2.2x leverage to 3x leverage over 2 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net worth",
+          "horizon": "FY27",
+          "statement": "Net worth expected to reach ~INR1,700 crores by March 2027 (including PAT).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost-to-Income ratio",
+          "horizon": "FY27",
+          "statement": "Maintaining cost-to-income ratio below 15% going forward.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "TReDS platform launch",
-          "horizon": "Q1FY27",
-          "statement": "Plans to go live on TReDS platforms (RXIL and M1xchange) in Q1FY27.",
+          "metric": "Factoring AUM",
+          "horizon": "current",
+          "statement": "Factoring contributes ~5% of total AUM currently.",
           "specificity": "specific",
           "direction": "unclear"
         },
         {
-          "metric": "Factoring book",
+          "metric": "APL Apollo AUM share",
           "horizon": "ongoing",
-          "statement": "Factoring business to continue growing alongside supply chain finance.",
-          "specificity": "vague",
-          "direction": "up"
+          "statement": "APL Apollo ecosystem contributes ~one-third of overall AUM historically and going forward.",
+          "specificity": "specific",
+          "direction": "flat"
         },
         {
-          "metric": "Cross-sell business",
-          "horizon": "ongoing",
-          "statement": "Opportunistic cross-sell businesses like LAP and working capital finance to be pursued.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "New anchor onboarding",
-          "horizon": "ongoing",
-          "statement": "Continued expansion into new anchors and industries within supply chain finance.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Tier 2 dealer financing",
-          "horizon": "ongoing",
-          "statement": "Expansion into Tier 2 dealer financing and deep-tier financing.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Employee benefit expense",
-          "horizon": "ongoing",
-          "statement": "Employee costs expected to rise with business growth but not expected to materially impact margins.",
-          "specificity": "vague",
+          "metric": "AUM target",
+          "horizon": "FY30",
+          "statement": "Targeting INR10,000 crores AUM by FY30 (ex-FY26).",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "specific timeline for entry into new businesses (e.g., AIF-related business)",
-        "exact bank line utilization or additional capital raise plans beyond existing headroom"
+        "equity raise plans beyond FY27",
+        "timeline for GIFT City international supply chain business launch",
+        "timeline for insurance broking business launch",
+        "ESOP grant timelines beyond current pool"
       ],
       "margin_drivers": [
-        "supply chain finance as core business (>75% of business)",
-        "short-term, invoice-backed loans with end-use monitoring",
-        "early warning system for delinquency management",
-        "cross-sell opportunities within existing ecosystem",
-        "conservative leverage strategy"
+        "supply chain financing focus (lower credit costs)",
+        "digital-first operating model (lean team structure)",
+        "factoring and TReDS solutions (complementary to channel finance)",
+        "cross-sell products (LAP, digital lending)",
+        "geographic expansion (Tier 2 cities, new anchors)"
       ]
     },
     "PNB Housing": {
@@ -90003,161 +89966,207 @@
       "company": "Elecon Engg.Co",
       "ticker": "ELECON",
       "sector": "Industrials",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9f70d5a-4199-49a6-a197-3bc07bd0945b.pdf",
-      "transcript_id": "elecon-engg-co_2026-04-01",
+      "concall_date": "2026-07-18",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac1ce1f-7666-45dd-a38c-30b39c97566e.pdf",
+      "transcript_id": "elecon-engg-co_2026-07-18",
       "provider": "mistral",
-      "generated_at": "2026-07-09T22:53:32.969Z",
-      "summary": "Management expects gradual normalization in execution timelines and demand recovery, with cautious near-term outlook but long-term growth trajectory intact.",
+      "generated_at": "2026-07-18T16:07:07.863Z",
+      "summary": "Management expects low double-digit revenue growth for FY27 with stable EBITDA margins, supported by strong order books and disciplined execution despite input cost pressures.",
       "guidance": [
         {
-          "metric": "Order book execution and revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Gradual normalization in order flow execution and timing differences as macro conditions stabilize.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Gear Division revenue growth",
-          "horizon": "FY27",
-          "statement": "Gear Division expected to regain momentum and deliver improved performance as execution timelines normalize.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "MHE Division revenue growth",
-          "horizon": "FY27",
-          "statement": "MHE Division expected to maintain strong growth momentum supported by healthy order book and sectoral outlook.",
-          "specificity": "vague",
+          "statement": "Targeting low double-digit consolidated revenue growth",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Margins expected to improve gradually as execution accelerates and volumes pick up.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Consolidated revenue growth",
-          "horizon": "FY27",
-          "statement": "Robust order book and strong order execution pipeline provide clear visibility for sustained growth in the coming financial year.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Export revenue mix",
-          "horizon": "FY27",
-          "statement": "Export performance expected to improve despite geopolitical challenges, with Latin America expansion providing new opportunities.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Defense orders (Navy)",
-          "horizon": "FY27",
-          "statement": "Expectation of a very good order from the Indian Navy in FY27, with project orders having good margins.",
+          "statement": "Maintain EBITDA margin at last year's level",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Capex spending",
+          "metric": "MHE EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Sustainable EBITDA margin of 22% to 24% for MHE division",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Strong order book and enquiry pipeline provide visibility for coming quarters",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
           "horizon": "FY26-FY28",
-          "statement": "INR400 crore capex plan over FY26-FY28, with ~INR95 crore spent in FY26; Gear division accounting for ~80% of capex.",
+          "statement": "Capex program of approximately INR400 crores remains on track",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "unclear"
         },
         {
-          "metric": "Capacity utilization",
-          "horizon": "FY27",
-          "statement": "Current capacity utilization at ~56%-60%; expected to improve as capex is deployed and execution accelerates.",
+          "metric": "Raw material cost impact",
+          "horizon": "Q2FY27",
+          "statement": "Significant input cost increase (5% average BOM increase) impacting margins",
           "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "International revenue growth",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Improving momentum in international markets with healthy enquiry activity",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Engineered vs. catalogue product mix",
+          "metric": "MHE revenue recovery",
+          "horizon": "Q2FY27",
+          "statement": "Q2 to see progress on delayed orders with revenue pickup",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gear division growth",
           "horizon": "FY27",
-          "statement": "Engineered products expected to contribute more to revenue, with better margins than catalogue products.",
+          "statement": "Gear division to build on momentum with sustainable growth",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "ROCE improvement",
-          "horizon": "FY28",
-          "statement": "ROCE expected to improve as revenue grows and capex deployment enhances installed capacity and margins.",
+          "metric": "Defense working capital",
+          "horizon": "Medium-term",
+          "statement": "Defense orders have 2-3 year execution timelines with higher working capital days but manageable",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Mexico subsidiary operations",
-          "horizon": "medium-term",
-          "statement": "Mexico subsidiary established to supply products to Latin America, avoiding US tariffs; minimal capex required initially.",
-          "specificity": "vague",
-          "direction": "flat"
+          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "FY27 consolidated revenue or PAT guidance",
-        "FY27 EBITDA margin guidance",
-        "Export revenue split by geography",
-        "Sustainable margins for export vs. domestic",
-        "Pricing power ranking by end market"
+        "Geographical revenue split for FY27",
+        "Commercial prospects of patents",
+        "Future acquisition strategy in European region",
+        "Tax benefits from goodwill impairment"
       ],
       "margin_drivers": [
-        "Execution acceleration and volume pickup",
-        "Improved product mix (higher engineered products)",
-        "Order book strength and project pipeline",
-        "Capacity utilization improvement",
-        "Defense project orders with better margins",
-        "Geographic expansion (Latin America)"
+        "Raw material price increases (5-7% for key inputs like steel, bearings)",
+        "Sales mix shifts in MHE division",
+        "Price locking mechanisms for key raw materials",
+        "Operational efficiencies and cost management",
+        "Catalogue vs. engineered product mix (54% catalogue in gears)",
+        "Customization and project execution delays in MHE"
       ]
     },
     "Krishana Phosch.": {
       "company": "Krishana Phosch.",
       "ticker": "KRISHANA",
       "sector": "Commodities",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://nsearchives.nseindia.com/corporate/KRISHANA_14042026142727_NSETRANINV140426TOUP.pdf",
-      "transcript_id": "krishana-phosch_2026-04-01",
-      "provider": "groq",
-      "generated_at": "2026-07-10T00:16:13.286Z",
-      "summary": "The company expects growth of over 40% across key parameters in FY27, driven by the benefits of its recent capacity expansion and improved operating leverage.",
+      "concall_date": "2026-07-18",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/KRISHANA_18072026175449_NSETRANS140726SIOUP.pdf",
+      "transcript_id": "krishana-phosch_2026-07-18",
+      "provider": "mistral",
+      "generated_at": "2026-07-18T16:07:18.973Z",
+      "summary": "Management expects strong revenue growth and margin expansion in FY27 driven by capacity ramp-up, product mix improvement, and favorable industry fundamentals.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expected to increase by around Rs. 500 crore, driven by the capacity expansion",
+          "statement": "Expects 30%-35% revenue growth over last year, supported by NPK-DAP capacity ramp-up and improved capacity utilization.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth",
-          "horizon": "FY27",
-          "statement": "Expected to be around 35-40%",
+          "metric": "Revenue",
+          "horizon": "Q2-Q4 FY27",
+          "statement": "Expects to achieve quarterly turnover of more than ₹500 crore in the remaining three quarters of FY27.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "May come under pressure due to increase in raw material costs",
+          "statement": "Expects EBITDA margins to remain healthy in coming quarters, supported by new NPK product sales and improved product mix.",
           "specificity": "vague",
-          "direction": "down"
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin of 16% is considered good, with potential for further improvement through new product introductions.",
+          "specificity": "vague",
+          "direction": "up"
         },
         {
           "metric": "Capacity utilization",
           "horizon": "FY27",
-          "statement": "Expected to be fully utilized in the subsequent quarters after initial teething issues",
+          "statement": "NPK-DAP capacity utilization expected to improve steadily over coming quarters as raw material availability normalizes.",
           "specificity": "vague",
           "direction": "up"
+        },
+        {
+          "metric": "Raw material cost pass-through",
+          "horizon": "FY27",
+          "statement": "Able to pass on 25%-30% of input cost increases through subsidy support and MRP revisions.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Revenue potential",
+          "horizon": "Peak utilization",
+          "statement": "At peak utilization, total revenue potential can exceed ₹3,000 crore based on current capacity and pricing.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Green ammonia sourcing",
+          "horizon": "FY29",
+          "statement": "Green ammonia agreement with SECI to start contributing from FY29, providing cost advantage over grey ammonia.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Depreciation & finance costs",
+          "horizon": "FY27",
+          "statement": "Depreciation and finance costs expected to remain elevated due to new capacity commissioning, but operating leverage will offset these costs as utilization improves.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Trading revenue share",
+          "horizon": "FY27",
+          "statement": "Trading business to continue complementing manufacturing, with EBITDA margins of 6%-8% on imported products.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Product portfolio expansion",
+          "horizon": "Medium-term",
+          "statement": "Introduction of new NPK variants expected to strengthen market presence and support long-term volume growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Government subsidy support",
+          "horizon": "FY27",
+          "statement": "Continued Nutrient Based Subsidy (NBS) support expected to maintain affordability and industry continuity.",
+          "specificity": "vague",
+          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "Quantification of margin pressure in FY27"
+        "Exact CAPEX amount for FY27",
+        "Breakup of revenue/EBITDA by product (NPK-DAP, SSP, trading) for future periods"
       ],
       "margin_drivers": [
-        "Backward integration",
-        "Diversified product portfolio",
-        "Government support through Nutrient Based Subsidy (NBS) policy"
+        "New NPK product variants",
+        "Improved product mix",
+        "Backward integration (sulphuric acid, phosphoric acid)",
+        "Diversified sourcing strategies",
+        "Inventory management at lower costs",
+        "Government subsidy support (NBS)",
+        "MRP revisions"
       ]
     },
     "Amagi Media Labs": {
@@ -99874,6 +99883,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-18T15:08:38.781Z",
+  "generated_at": "2026-07-18T16:07:54.064Z",
   "count": 998
 }
