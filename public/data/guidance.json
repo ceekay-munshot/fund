@@ -48309,113 +48309,50 @@
     },
     "Muthoot Cap.Serv": {
       "company": "Muthoot Cap.Serv",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a4ace4e-7ec8-47a3-94bc-75e9b5e5b05f.pdf",
-      "transcript_id": "muthoot-cap-serv_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-29T19:25:09.848Z",
-      "summary": "Management expects steady growth in AUM and profitability through digital transformation, AI adoption, and product diversification, though near-term profitability may remain subdued due to prior impairments and strategic investments.",
+      "ticker": "MUTHOOTCAP",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-20",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43641a7d-6df6-4bd4-a7a8-cb797ebdd7c5.pdf",
+      "transcript_id": "muthoot-cap-serv_2026-07-20",
+      "provider": "groq",
+      "generated_at": "2026-07-20T20:38:31.711Z",
+      "summary": "Muthoot Capital Services expects to deliver sustainable and profitable growth in the future, driven by its diversified portfolio, improved asset quality, and reduced funding costs.",
       "guidance": [
         {
-          "metric": "Disbursement",
+          "metric": "AUM",
           "horizon": "FY27",
-          "statement": "Targeting close to INR3,000 crores of disbursement for the coming year.",
+          "statement": "AUM is expected to reach INR4,000 crores to INR4,200 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "AUM growth",
+          "metric": "ROA",
           "horizon": "FY27",
-          "statement": "AUM expected to grow through deeper penetration in existing markets and expansion via digital sourcing channels.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Operational efficiency",
-          "horizon": "FY27",
-          "statement": "Focus on improving operational efficiency and sustained investments in technology, governance, and AI capabilities.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Digital transformation",
-          "horizon": "FY27",
-          "statement": "Entire text-bucket calling to be done by AI agents by end of Q1FY27, with 100% of pre-delinquency calls already AI-driven.",
+          "statement": "Pretax ROA is expected to be around 2.5%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "AI-led initiatives",
-          "horizon": "FY27",
-          "statement": "Multiple AI-led interventions across the enterprise, including AI-based ticket segregation, speech analytics, smart debt collection, and enhanced underwriting.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Cost of funds",
-          "horizon": "FY27",
-          "statement": "Aim to continue bringing down cost of funds by INR0.60 basis points, with focus on fixed deposit book growth at 8.83% cost.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Fixed deposit book",
-          "horizon": "FY27",
-          "statement": "Fixed deposit book expected to grow to INR80.83 crores at 8.83% cost.",
+          "metric": "Used Car ROA",
+          "horizon": "FY27-28",
+          "statement": "Used car ROA is expected to be around 1% to 1.5%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Liquidity coverage ratio (LCR)",
+          "metric": "Funding Cost",
           "horizon": "FY27",
-          "statement": "LCR maintained at 100% throughout FY26, closing at 129% in March, with no cumulative mismatch in ALM.",
+          "statement": "Funding cost is expected to decrease by 0.40% to 0.50% due to rating upgrade",
           "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Other income (insurance)",
-          "horizon": "FY27",
-          "statement": "Other income from insurance expected to further increase due to cross-selling via corporate agency model.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Equity investor discussions",
-          "horizon": "Next 2-3 months",
-          "statement": "In talks with equity investors, aiming to close term sheets in the next 2 to 3 months.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Dividend policy",
-          "horizon": "FY27",
-          "statement": "Management aims to ensure profitability improves to avoid dividend disruptions in future years.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Asset quality (GNPA)",
-          "horizon": "FY27",
-          "statement": "GNPA expected to improve as recoveries from secured loans (e.g., Up Money) are realized and pre-COVID stressed portfolios are resolved.",
-          "specificity": "vague",
           "direction": "down"
         }
       ],
-      "refused_to_guide": [
-        "specific PAT or EBITDA margin targets for FY27",
-        "exact dividend payout ratio or quantum for FY27",
-        "detailed breakdown of capex allocation for FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "AI-driven collections and underwriting",
-        "digital repayment penetration (>80%)",
-        "fixed deposit book growth",
-        "cost of funds reduction",
-        "reduction in GNPA through recoveries",
-        "product mix shift towards higher-yield segments (e.g., loyalty loans, used car, CV)",
-        "operational efficiency improvements via automation"
+        "Improved asset quality",
+        "Reduced funding costs",
+        "Diversified portfolio",
+        "Liability franchise growth"
       ]
     },
     "Vardhman Textile": {
@@ -99768,6 +99705,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-20T19:05:02.722Z",
+  "generated_at": "2026-07-20T20:39:07.625Z",
   "count": 998
 }
