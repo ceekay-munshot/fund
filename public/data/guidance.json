@@ -83355,110 +83355,55 @@
       "company": "Polycab India",
       "ticker": "POLYCAB",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
-      "transcript_id": "polycab-india_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-07T21:59:35.811Z",
-      "summary": "Management expects sustained industry-leading growth driven by structural demand in cables, wires, and FMEG, with continued margin expansion and export-led growth over the medium term.",
+      "concall_date": "2026-07-20",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+      "transcript_id": "polycab-india_2026-07-20",
+      "provider": "groq",
+      "generated_at": "2026-07-20T17:05:08.112Z",
+      "summary": "Polycab India expects to accelerate profitable growth, strengthen its brands, and deepen distribution, driven by a solid foundation for sustained growth in the Indian economy.",
       "guidance": [
         {
-          "metric": "Revenue growth (Cables & Wires)",
+          "metric": "Wires & Cables EBIT margin",
           "horizon": "medium-term",
-          "statement": "Expected to grow at 1.5x to 2x of industry growth",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue growth (FMEG)",
-          "horizon": "medium-term",
-          "statement": "Expected to grow at 1.5x to 2x of market rate",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin (FMEG)",
-          "horizon": "FY30",
-          "statement": "Target of 8% to 10% EBITDA margins",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export contribution",
-          "horizon": "FY30",
-          "statement": "Target of greater than 10% contribution from exports",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Annual capex expected to be in line with INR 12 billion to INR 16 billion per annum guidance",
+          "statement": "11% to 13% EBIT margin guidance",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Dividend payout ratio",
-          "horizon": "FY30",
-          "statement": "Target to exceed 30% payout ratio by FY30",
+          "metric": "FMEG EBITDA margin",
+          "horizon": "FY2030",
+          "statement": "8% to 10% EBITDA margin target",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EPC operating margins",
+          "horizon": "medium to long term",
+          "statement": "high single-digit operating margins expected",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "full year",
+          "statement": "1.5x of market growth expected",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "Working capital cycle",
-          "horizon": "normalized",
-          "statement": "Expected to revert to steady-state range of 45 to 50 days",
+          "horizon": "long-term",
+          "statement": "45 to 50 days working capital cycle expected",
           "specificity": "specific",
           "direction": "flat"
-        },
-        {
-          "metric": "EPC segment margins",
-          "horizon": "mid- to long-term",
-          "statement": "Expected to remain in the mid- to high single digits",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Market share (domestic wires and cables)",
-          "horizon": "near- to medium-term",
-          "statement": "Continued market share gains expected due to structural shift towards organized players",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Demand outlook (domestic)",
-          "horizon": "next 12-36 months",
-          "statement": "Strong demand expected from sectors like utilities, metals, semiconductors, oil and gas, manufacturing, logistics, defense, and data centers",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Export growth",
-          "horizon": "next few quarters",
-          "statement": "Exports expected to resume growth with power sector driving strong growth in EU and US",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Price hikes (Cables & Wires)",
-          "horizon": "FY27",
-          "statement": "Cumulative price hikes of approximately 18% to 19% taken from Jan to March 2026",
-          "specificity": "specific",
-          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "FY27 revenue or PAT guidance",
-        "Volume growth split for FY27",
-        "EBITDA margin guidance for FY27",
-        "Breakdown of export growth by region for FY27"
+        "copper price guidance for Q2"
       ],
       "margin_drivers": [
-        "Premiumization in FMEG (fans, lighting, solar)",
-        "Scale advantages and backward integration in Wires & Cables",
-        "Product mix improvement in Wires & Cables",
-        "Export growth in high-margin institutional sales",
-        "Operational leverage from market share gains"
+        "favourable business mix",
+        "operational excellence"
       ]
     },
     "Saatvik Green": {
@@ -99883,6 +99828,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-20T15:32:13.520Z",
+  "generated_at": "2026-07-20T17:05:50.964Z",
   "count": 998
 }
