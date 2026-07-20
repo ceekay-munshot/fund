@@ -71144,108 +71144,56 @@
       "company": "D B Corp",
       "ticker": "DBCORP",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8d904ab-93c3-44df-91af-748089b4cf0f.pdf",
-      "transcript_id": "d-b-corp_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-04T22:10:42.770Z",
-      "summary": "Management expects steady growth in advertising revenue with stable margins, supported by digital expansion and cost discipline.",
+      "concall_date": "2026-07-20",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25615cc4-caaa-470c-b777-6e79c47001f9.pdf",
+      "transcript_id": "d-b-corp_2026-07-20",
+      "provider": "groq",
+      "generated_at": "2026-07-20T23:11:10.422Z",
+      "summary": "D.B. Corp expects to maintain its strong performance, driven by growth in advertising revenue and cost optimization efforts.",
       "guidance": [
-        {
-          "metric": "Advertising revenue growth",
-          "horizon": "FY27",
-          "statement": "Excluding election impact, advertising revenue grew ~6.3% in FY26; management expects strong single-digit growth to continue in FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Management believes maintaining EBITDA margin at ~24% is achievable.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Newsprint prices",
-          "horizon": "Q1FY27",
-          "statement": "Newsprint prices expected to rise by 6-8% in Q1FY27 due to supply dynamics and geopolitical factors.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Digital MAUs",
-          "horizon": "medium-term",
-          "statement": "Digital MAUs expected to grow substantially from current 20 million, with Uttar Pradesh as a key growth driver.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Radio EBITDA",
-          "horizon": "medium-term",
-          "statement": "Radio business to remain low-cost with controlled costs; new stations expected to contribute positively to top line.",
-          "specificity": "vague",
-          "direction": "up"
-        },
         {
           "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Capex of ~INR120-140 crore planned for FY27, primarily for buying out rented properties.",
+          "statement": "Capex is expected to be around INR 150-160 crores",
           "specificity": "specific",
           "direction": "flat"
+        },
+        {
+          "metric": "Radio revenue growth",
+          "horizon": "FY27",
+          "statement": "Realistic growth target for radio segment is around 12%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital revenue",
+          "horizon": "medium-term",
+          "statement": "Digital revenue is expected to contribute a small percentage to total revenue, but is growing",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Newsprint prices",
+          "horizon": "Q2FY27",
+          "statement": "Newsprint prices are expected to continue to rise in Q2",
+          "specificity": "vague",
+          "direction": "up"
         },
         {
           "metric": "Circulation revenue",
           "horizon": "FY27",
-          "statement": "Management aims to maintain circulation numbers with efforts on editorial quality and distribution network enhancement.",
+          "statement": "Circulation revenue is expected to be stable, with efforts to gain market share",
           "specificity": "vague",
           "direction": "flat"
-        },
-        {
-          "metric": "Government advertising share",
-          "horizon": "FY27",
-          "statement": "Government advertising share expected to remain stable at ~17-18%.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Digital monetization",
-          "horizon": "medium-term",
-          "statement": "Digital business expected to mature with enhanced user experience and content to enable future monetization.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Sectoral growth (Real estate, Jewelry, Healthcare)",
-          "horizon": "FY27",
-          "statement": "Real estate, jewelry, and healthcare sectors expected to grow in double digits.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Auto sector growth",
-          "horizon": "FY27",
-          "statement": "Auto sector expected to grow in strong single digits.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Cash deployment",
-          "horizon": "FY27",
-          "statement": "Management will evaluate tax-efficient ways to deploy cash, including potential buybacks.",
-          "specificity": "vague",
-          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "Exact sector-wise revenue numbers",
-        "Acquisition plans for other media houses"
+        "Revenue growth for FY27"
       ],
       "margin_drivers": [
-        "Operational efficiencies",
-        "Cost discipline",
-        "Newsprint price trends",
-        "Digital business scalability",
-        "Radio cost control"
+        "Cost optimization",
+        "Disciplined execution",
+        "Growth in advertising revenue"
       ]
     },
     "Aeroflex": {
@@ -99705,6 +99653,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-20T21:47:35.537Z",
+  "generated_at": "2026-07-20T23:11:43.076Z",
   "count": 998
 }
