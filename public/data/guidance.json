@@ -65933,109 +65933,49 @@
       "company": "Heritage Foods",
       "ticker": "HERITGFOOD",
       "sector": "Fast Moving Consumer Goods",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b66ce777-977b-42eb-9e58-5575a3f9ffa2.pdf",
-      "transcript_id": "heritage-foods_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-03T23:40:41.983Z",
-      "summary": "Management expects improved milk supply, normalization in commodity dynamics, and capacity expansion to drive growth in FY27, though near-term cost pressures may persist.",
+      "concall_date": "2026-07-20",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03044fac-ba60-4b69-ad25-1aa2a2a17488.pdf",
+      "transcript_id": "heritage-foods_2026-07-20",
+      "provider": "groq",
+      "generated_at": "2026-07-20T19:03:58.836Z",
+      "summary": "Heritage Foods expects to continue its growth trajectory, driven by expansion in distribution and consumer traction, despite challenges in milk procurement and pricing.",
       "guidance": [
         {
-          "metric": "Milk procurement prices",
-          "horizon": "FY27",
-          "statement": "Cow milk flush has started, but prices are yet to soften significantly; normalization expected as supply improves.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "metric": "Value-added products growth",
+          "horizon": "Medium-term",
+          "statement": "Aiming to grow in the mid- to high teens, around 16-17%",
+          "specificity": "specific",
+          "direction": "up"
         },
         {
           "metric": "Milk procurement volumes",
-          "horizon": "FY27",
-          "statement": "Cow milk flush has started, with volumes increasing in dominant cow milk regions (South India).",
+          "horizon": "Q2 FY27",
+          "statement": "Expecting stable to slightly increased volumes",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue growth (milk)",
-          "horizon": "FY27",
-          "statement": "Aim to grow milk volumes at 3%-4% industry rate, though actual growth may be muted due to consumer basket changes and competition.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue growth (value-added products)",
-          "horizon": "FY27",
-          "statement": "Value-added products (VAP) to continue driving growth, with curd, paneer, ghee, and ice cream as key categories.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "VAP revenue contribution",
-          "horizon": "FY27",
-          "statement": "VAP contribution to revenue expected to increase further from current levels (35.5% in Q4FY26).",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Approximately INR 200 crores expected for FY27, primarily for capacity expansion in paneer, ghee, and other VAP categories.",
-          "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Ice cream facility utilization (Shamirpet)",
-          "horizon": "FY27-FY33",
-          "statement": "First-year utilization expected at 35%-40%, with full utilization projected in 6-7 years assuming 20%-25% YoY growth.",
-          "specificity": "specific",
-          "direction": "up"
+          "metric": "Gross margin",
+          "horizon": "Short-term",
+          "statement": "Impacted by mix change, SMP consumption, and packing material costs",
+          "specificity": "vague",
+          "direction": "down"
         },
         {
-          "metric": "Ice cream revenue target",
-          "horizon": "FY30",
-          "statement": "Management targets INR 500 crores revenue from ice cream by FY30.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "North & Mumbai region profitability",
-          "horizon": "FY27",
-          "statement": "North and Mumbai regions may reach breakeven or closer to breakeven in FY27.",
+          "metric": "Liquid milk volume growth",
+          "horizon": "Medium-term",
+          "statement": "Focusing on distribution network expansion to drive growth",
           "specificity": "vague",
           "direction": "up"
-        },
-        {
-          "metric": "North & Mumbai revenue contribution",
-          "horizon": "FY27",
-          "statement": "Contribution from North and Mumbai regions remains below 10% of total revenue.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Pricing actions (milk & VAP)",
-          "horizon": "Q1FY27",
-          "statement": "Selective price increases taken in April and May; demand remains strong despite price hikes.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Farmer payments & support",
-          "horizon": "FY27",
-          "statement": "Continued focus on timely payments, cattle feed support, and veterinary assistance to sustain farmer relationships and supply continuity.",
-          "specificity": "vague",
-          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "Bulk fat sales outlook",
-        "Exact quantum of future price increases",
-        "El Nino/weather impact on milk production beyond current observations"
+        "Specific milk procurement prices for the upcoming flush season"
       ],
       "margin_drivers": [
-        "Value-added products (VAP) growth and premiumization",
-        "Operational efficiencies across procurement, logistics, and digital interventions",
-        "Capacity expansion in high-margin categories (ice cream, paneer, ghee)",
-        "Improving product mix and disciplined pricing actions",
-        "Normalization in commodity dynamics and milk supply"
+        "Expansion in distribution",
+        "Consumer traction",
+        "Pricing actions"
       ]
     },
     "Intellect Design": {
@@ -99828,6 +99768,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-20T17:05:50.964Z",
+  "generated_at": "2026-07-20T19:05:02.722Z",
   "count": 998
 }
