@@ -9372,109 +9372,73 @@
       "company": "Steel Str. Wheel",
       "ticker": "SSWL",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-06-05",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7879b633-b65e-4aa7-8041-43e063e78703.pdf",
-      "transcript_id": "steel-str-wheel_2026-06-05",
-      "provider": "mistral",
-      "generated_at": "2026-06-23T19:32:11.532Z",
-      "summary": "Strong forward outlook driven by capacity expansion, premium product mix, and export recovery with 15-20% PAT growth expected in FY27.",
+      "concall_date": "2026-07-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0b61a2d-f6e2-4f4b-821f-c461284225f1.pdf",
+      "transcript_id": "steel-str-wheel_2026-07-21",
+      "provider": "groq",
+      "generated_at": "2026-07-21T20:04:52.315Z",
+      "summary": "The company is optimistic about its outlook for FY27, targeting a top line growth of 20% plus.",
       "guidance": [
         {
-          "metric": "PAT",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expect PAT growth of 15-20% this year",
-          "specificity": "specific",
+          "statement": "Targeting a top line growth of 20% plus",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA per wheel",
           "horizon": "FY27",
-          "statement": "Projecting EBITDA per wheel of close to INR 300",
+          "statement": "Aiming for more than INR310",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Total EBITDA",
+          "metric": "Export performance",
           "horizon": "FY27",
-          "statement": "Expecting EBITDA of close to INR 650 crores with an upward bias",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export revenue",
-          "horizon": "FY27",
-          "statement": "Expecting exports in the range of INR 600 crores",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity utilization",
-          "horizon": "FY27",
-          "statement": "Targeting 95-100% utilization of all commissioned assets",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Aluminum wheels capacity",
-          "horizon": "FY27",
-          "statement": "Aluminum wheels capacity to reach 6.2 million wheels",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Aluminum knuckles capacity",
-          "horizon": "FY27",
-          "statement": "Aluminum knuckles capacity to reach 1.1 million units by end of FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue from Bhuj facility",
-          "horizon": "FY28",
-          "statement": "Expecting INR 700-800 crores revenue addition from Bhuj facility at full utilization",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA per wheel",
-          "horizon": "FY28",
-          "statement": "Expecting EBITDA per wheel to be 10% higher than FY27 levels",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EV segment growth",
-          "horizon": "FY27",
-          "statement": "Expecting 25-40% growth in EV scooter wheels segment",
+          "statement": "Expecting improvement through higher volumes, better customer mix, and continued geographical diversification",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Utilization of Bhuj facility",
-          "horizon": "FY28",
-          "statement": "Expecting 70% or higher utilization of Bhuj aluminum facilities in FY28",
+          "metric": "Aluminium wheel capacity",
+          "horizon": "FY27",
+          "statement": "New capacity is completely sold out",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Steel wheel margins",
-          "horizon": "FY27-FY28",
-          "statement": "Expecting turnaround in steel wheel business margins due to pricing improvements",
-          "specificity": "vague",
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Total capex of around INR500 crores, with an additional INR150 crores for Brownfield expansion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Alloy wheel revenue",
+          "horizon": "FY27",
+          "statement": "Contributes around 35% to revenue",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Value-added products",
+          "horizon": "FY27",
+          "statement": "Contributes around 70% to revenue",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "debt profile beyond current year",
-        "revenue quantification from Bhuj facility in FY27"
+        "EBITDA per wheel for steel wheels",
+        "EBITDA dilution for steel versus alloy wheels"
       ],
       "margin_drivers": [
-        "premiumization of products (alloy wheels, aluminum knuckles)",
-        "higher capacity utilization (95-100%)",
-        "export recovery and diversification",
-        "EV segment growth",
-        "steel wheel pricing improvements",
-        "automation and productivity gains"
+        "Input price increases",
+        "Operating leverage",
+        "Favourable product mix",
+        "Cost optimization initiatives",
+        "Increasing share of premium products"
       ]
     },
     "ION Exchange": {
@@ -99636,6 +99600,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-21T18:24:07.025Z",
+  "generated_at": "2026-07-21T20:05:36.421Z",
   "count": 999
 }
