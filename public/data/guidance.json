@@ -65870,48 +65870,54 @@
       "company": "Heritage Foods",
       "ticker": "HERITGFOOD",
       "sector": "Fast Moving Consumer Goods",
-      "concall_date": "2026-07-20",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03044fac-ba60-4b69-ad25-1aa2a2a17488.pdf",
-      "transcript_id": "heritage-foods_2026-07-20",
+      "concall_date": "2026-07-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e72c158-fccb-45b6-8b98-473e073416a2.pdf",
+      "transcript_id": "heritage-foods_2026-07-21",
       "provider": "groq",
-      "generated_at": "2026-07-20T19:03:58.836Z",
+      "generated_at": "2026-07-21T16:58:54.023Z",
       "summary": "Heritage Foods expects to continue its growth trajectory, driven by expansion in distribution and consumer traction, despite challenges in milk procurement and pricing.",
       "guidance": [
         {
           "metric": "Value-added products growth",
-          "horizon": "Medium-term",
-          "statement": "Aiming to grow in the mid- to high teens, around 16-17%",
+          "horizon": "Long-term",
+          "statement": "Aiming for mid- to high-teens growth, with milk growth at 7-8% and value-added products growth at 25%",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Milk procurement volumes",
           "horizon": "Q2 FY27",
-          "statement": "Expecting stable to slightly increased volumes",
+          "statement": "Expecting stable to slightly increased prices, with a focus on expanding farmer network and improving productivity",
           "specificity": "vague",
           "direction": "flat"
         },
         {
           "metric": "Gross margin",
-          "horizon": "Short-term",
-          "statement": "Impacted by mix change, SMP consumption, and packing material costs",
-          "specificity": "vague",
+          "horizon": "Near-term",
+          "statement": "Impacted by mix change, higher SMP prices, and packing material costs, with a decline of 2.5% compared to last year",
+          "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Liquid milk volume growth",
+          "metric": "Consumer pack business",
           "horizon": "Medium-term",
-          "statement": "Focusing on distribution network expansion to drive growth",
+          "statement": "Losses have reduced, with a decline from -12% to -8.5% in EBITDA, and expected to break even over time",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Liquid milk growth",
+          "horizon": "Medium-term",
+          "statement": "Focusing on distribution network expansion and throughput improvement, with month-on-month growth observed",
           "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "Specific milk procurement prices for the upcoming flush season"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
         "Expansion in distribution",
         "Consumer traction",
+        "Productivity improvements",
         "Pricing actions"
       ]
     },
@@ -99595,6 +99601,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-21T15:14:18.084Z",
+  "generated_at": "2026-07-21T16:59:35.932Z",
   "count": 998
 }
