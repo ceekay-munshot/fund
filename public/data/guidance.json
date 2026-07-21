@@ -42595,108 +42595,63 @@
       "company": "Tatva Chintan",
       "ticker": "TATVA",
       "sector": "Commodities",
-      "concall_date": "2026-05-16",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9cff656-09d7-4ce2-81f8-ae496d449d8c.pdf",
-      "transcript_id": "tatva-chintan_2026-05-16",
-      "provider": "mistral",
-      "generated_at": "2026-06-28T13:04:31.972Z",
-      "summary": "Management expects 20-25% revenue growth and 20-22% EBITDA margin in FY27, with multiple segments (ESS, SDA, PASC, Pharma) driving growth and new capacity (Jolva) contributing from FY28.",
+      "concall_date": "2026-07-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b475c500-9103-4493-9e3b-9da3210f0f9a.pdf",
+      "transcript_id": "tatva-chintan_2026-07-21",
+      "provider": "groq",
+      "generated_at": "2026-07-21T22:30:50.620Z",
+      "summary": "Tatva Chintan expects to maintain its quarterly run rate with 25-30% growth and achieve EBITDA margins of 20-22% in FY27.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Revenue growth of around 25%",
-          "specificity": "specific",
+          "statement": "Expect 25-30% growth",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "EBITDA margin in the range of 20% to 22%",
+          "statement": "Expect 20-22% margin",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Electrolyte Salts revenue contribution",
+          "metric": "Electrolyte Salts revenue",
           "horizon": "FY27",
-          "statement": "Electrolyte Salts segment to contribute 8% to 10% of total revenue",
+          "statement": "Expect INR40-60 crores revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Electrolyte Salts run rate",
+          "metric": "Pharma molecules revenue",
           "horizon": "FY27",
-          "statement": "Electrolyte Salts revenue to sustain at current quarterly levels for the next 4 quarters",
+          "statement": "Expect INR70-80 crores revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Structure Directing Agents (SDA) revenue",
-          "horizon": "FY27",
-          "statement": "SDA revenue to reach INR250 crores to INR300 crores in FY27",
+          "metric": "Pharma molecules revenue at full utilization",
+          "horizon": "FY28 and beyond",
+          "statement": "Expect around INR200 crores revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "SDA growth rate",
-          "horizon": "FY27",
-          "statement": "SDA segment to grow at least 20% in FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Pharma revenue",
-          "horizon": "FY27",
-          "statement": "Pharma revenue to be in the range of INR70 crores to INR75 crores in FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Jolva plant commercialization",
-          "horizon": "FY28",
-          "statement": "Jolva plant to commence commercial production around January 2028",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Jolva plant revenue potential (Phase 1)",
-          "horizon": "FY28",
-          "statement": "Phase 1 of Jolva plant to generate INR400 crores to INR500 crores revenue",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Jolva plant capex",
-          "horizon": "FY28",
-          "statement": "Jolva plant capex to be in the range of INR250 crores to INR270 crores",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Dahej facility revenue potential",
-          "horizon": "FY27",
-          "statement": "Dahej facility to reach revenue potential of INR850 crores to INR900 crores",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Semiconductor chemicals commercialization",
-          "horizon": "CY28-CY29",
-          "statement": "Semiconductor chemicals to begin commercialization around 2028-2029",
+          "metric": "Greenfield manufacturing facility revenue",
+          "horizon": "After completion of the facility",
+          "statement": "Expect around INR300 crores revenue at peak utilization",
           "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Raw material price impact on EBITDA beyond FY27",
-        "Tax rate guidance beyond current quarter"
+        "Specific details on semiconductor customer",
+        "Detailed addressable market for semiconductor product"
       ],
       "margin_drivers": [
-        "Raw material price pass-through to customers",
-        "Operating leverage from higher plant utilization",
-        "Product mix improvement",
-        "Process optimization and efficiency gains",
-        "New capacity ramp-up at Dahej and Jolva facilities"
+        "Volume growth",
+        "Price pass-on to customers"
       ]
     },
     "Danish Power": {
@@ -99600,6 +99555,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-21T21:23:40.722Z",
+  "generated_at": "2026-07-21T22:31:34.350Z",
   "count": 999
 }
