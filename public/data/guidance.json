@@ -89628,108 +89628,50 @@
       "company": "M B Agro Prod.",
       "ticker": "MBAPL",
       "sector": "Commodities",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://nsearchives.nseindia.com/corporate/MBAPL_23042026122709_MBAPL.pdf",
-      "transcript_id": "m-b-agro-prod_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-09T21:40:32.220Z",
-      "summary": "MBAPL expects strong revenue growth driven by capacity expansions, improved margins from backward integration and policy support, and long-term input security via green ammonia.",
+      "concall_date": "2026-07-20",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/MBAPL_20072026181004_MBAPL.pdf",
+      "transcript_id": "m-b-agro-prod_2026-07-20",
+      "provider": "groq",
+      "generated_at": "2026-07-21T03:37:33.233Z",
+      "summary": "The company expects revenue, EBITDA, and overall performance to improve over the remaining three quarters of FY27, driven by improving monsoon conditions, continued government support, and resilient underlying demand.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expect ~50-60% growth over FY26 baseline due to partial capacity additions",
-          "specificity": "specific",
+          "statement": "Expect a quantum jump in revenue",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue",
-          "horizon": "FY28",
-          "statement": "Growth over FY26 baseline could exceed 200% with full capacity utilization",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue",
-          "horizon": "FY28",
-          "statement": "Target revenue of ₹4,000 crore",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity utilization",
+          "metric": "EBITDA",
           "horizon": "FY27",
-          "statement": "Current year utilization of added capacity expected at 50-60%, increasing to 75-80% in FY28",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA per ton",
-          "horizon": "FY27",
-          "statement": "Maintain EBITDA per ton at current levels; NPK: ₹6,000/MT, SSP: ₹1,800/MT",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Aim to maintain margins in absolute terms; no percentage guidance provided",
+          "statement": "Expect to maintain EBITDA performance",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Total capacity",
-          "horizon": "FY28",
-          "statement": "Scale total fertilizer capacity to ~1.56 million MTPA",
+          "metric": "Capacity Utilization",
+          "horizon": "FY27",
+          "statement": "Targeting around 60% capacity utilization for the new Dhule NPK/DAP plant",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Green ammonia",
-          "horizon": "3 years",
-          "statement": "Green ammonia procurement agreement to commence after 3 years, strengthening input security",
+          "metric": "Turnover",
+          "horizon": "FY27",
+          "statement": "Expect more than a 50% increase in turnover",
           "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Leadership position",
-          "horizon": "Post-FY28",
-          "statement": "Aim to become India's third-largest private-sector phosphatic fertilizer company",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Geographical diversification",
-          "horizon": "FY27",
-          "statement": "Strengthen presence in Southern markets with dedicated marketing office",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Raw material costs",
-          "horizon": "FY27",
-          "statement": "Expect stable raw material supply and moderation in input costs",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "MRP adjustments",
-          "horizon": "FY27",
-          "statement": "MRP revisions and higher NBS subsidy expected to improve performance",
-          "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Total CAPEX for Dhule plant expansion beyond current phase",
-        "Sustainable margin percentages beyond FY27"
+        "Exact revenue and EBITDA numbers for FY27"
       ],
       "margin_drivers": [
-        "Backward integration (phosphoric/sulfuric acid)",
-        "Policy support (NBS subsidy, MRP adjustments)",
-        "Green ammonia adoption",
-        "Operational efficiency from capacity expansions",
-        "Geographical diversification"
+        "Disciplined procurement",
+        "Diversified sourcing",
+        "Operational execution",
+        "Integrated manufacturing facilities"
       ]
     },
     "Elecon Engg.Co": {
@@ -99653,6 +99595,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-21T00:07:51.385Z",
+  "generated_at": "2026-07-21T03:37:59.814Z",
   "count": 998
 }
