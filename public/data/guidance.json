@@ -99599,8 +99599,43 @@
         "Alternative asset economics (80-90bps fee range for alternatives)",
         "Product mix (higher equity orientation, alternatives, hybrid funds)"
       ]
+    },
+    "Tata Technolog.": {
+      "company": "Tata Technolog.",
+      "ticker": "TATATECH",
+      "sector": "Information Technology",
+      "concall_date": "2026-07-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d7a6276-2a56-41b9-866c-871b440938df.pdf",
+      "transcript_id": "tata-technolog_2026-07-21",
+      "provider": "groq",
+      "generated_at": "2026-07-21T18:23:24.901Z",
+      "summary": "Tata Technologies expects strong double-digit organic revenue growth for FY27, driven by services and margin expansion supported by scale, utilization, and AI-led efficiency.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Strong double-digit organic revenue growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margin expansion supported by scale, utilization, delivery productivity, AI-led efficiency, and disciplined cost management",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Scale",
+        "Utilization",
+        "Delivery productivity",
+        "AI-led efficiency",
+        "Disciplined cost management"
+      ]
     }
   },
-  "generated_at": "2026-07-21T16:59:35.932Z",
-  "count": 998
+  "generated_at": "2026-07-21T18:24:07.025Z",
+  "count": 999
 }
