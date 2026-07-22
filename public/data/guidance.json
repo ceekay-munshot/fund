@@ -54913,68 +54913,62 @@
     },
     "Jindal Saw": {
       "company": "Jindal Saw",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e0d21c7-c4e9-4b13-aba7-28b179c3052c.pdf",
-      "transcript_id": "jindal-saw_2026-05-01",
+      "ticker": "JINDALSAW",
+      "sector": "Industrials",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ff75157-f44d-4e4a-a6e0-8b58644be421.pdf",
+      "transcript_id": "jindal-saw_2026-07-22",
       "provider": "groq",
-      "generated_at": "2026-07-01T19:23:04.084Z",
-      "summary": "Jindal Saw's management expects the company's performance to be impacted by the ongoing crisis in the MENA region, but sees new opportunities emerging in the region and in India, particularly in the energy security and pipeline infrastructure segments.",
+      "generated_at": "2026-07-22T21:40:52.671Z",
+      "summary": "Jindal Saw's management expects volumes to remain flattish in FY27 due to geopolitical issues and weak demand, but sees opportunities in new regions and projects.",
       "guidance": [
         {
-          "metric": "Capex",
+          "metric": "Volume",
           "horizon": "FY27",
-          "statement": "Expected to be around INR500 crores to INR600 crores",
-          "specificity": "specific",
+          "statement": "Volumes likely to remain flattish in FY27",
+          "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Capex",
-          "horizon": "FY28",
-          "statement": "Expected to be around INR400 crores to INR500 crores",
+          "metric": "Seamless pipe facility utilization",
+          "horizon": "FY29",
+          "statement": "Theoretical utilization of 50% to 60% in the first year",
           "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Expected to be impacted by the deferment of export shipments to the MENA region",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Margins",
-          "horizon": "Medium-term",
-          "statement": "May not have bottomed out due to various risks and uncertainties",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Export shipments",
-          "horizon": "FY27",
-          "statement": "Expected to resume once the situation in the MENA region improves",
-          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Order book",
-          "horizon": "Medium-term",
-          "statement": "Provides visibility of approximately 9 months of operations",
+          "metric": "SAW pipe plant commissioning",
+          "horizon": "18-24 months",
+          "statement": "Commissioning expected in 18-24 months",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peak capacity utilization",
+          "horizon": "FY30 or FY31",
+          "statement": "Peak capacity utilization expected in 2-3 years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Nashik plant utilization",
+          "horizon": "Q3 FY27 onwards",
+          "statement": "Utilization expected to improve to 70,000-80,000 tons quarterly",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Interest cost",
+          "horizon": "FY27",
+          "statement": "Interest cost expected to remain stable, assuming no rupee volatility",
+          "specificity": "vague",
           "direction": "flat"
         }
       ],
-      "refused_to_guide": [
-        "Specific timeline for approval of API monogram on seamless pipes",
-        "Exact impact of the MENA region crisis on the company's performance"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Raw material prices",
-        "Fixed overheads",
-        "Export shipments",
-        "Debt equity ratio",
-        "Project costs"
+        "Geographical diversification",
+        "New projects and opportunities"
       ]
     },
     "Ratnaveer Precis": {
@@ -99310,6 +99304,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-22T20:19:26.323Z",
+  "generated_at": "2026-07-22T21:41:35.575Z",
   "count": 999
 }
