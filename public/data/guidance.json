@@ -78626,109 +78626,70 @@
       "company": "Borosil Renew.",
       "ticker": "BORORENEW",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4eeb9028-bca0-4395-be53-a9f841b84ad1.pdf",
-      "transcript_id": "borosil-renew_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-06T21:14:21.052Z",
-      "summary": "Management expects robust demand for solar glass driven by policy mandates and energy security needs, with potential margin expansion despite cost pressures.",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5724e06-b82b-4447-92f4-06f9c155a025.pdf",
+      "transcript_id": "borosil-renew_2026-07-22",
+      "provider": "groq",
+      "generated_at": "2026-07-22T18:45:03.776Z",
+      "summary": "Borosil Renewables expects to continue its growth trajectory, driven by increasing demand for solar glass and the company's expansion plans.",
       "guidance": [
         {
-          "metric": "EBITDA margin",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "30% to 33% EBITDA margin is achievable barring unforeseen circumstances",
+          "statement": "Expected to rise by 60% after the commissioning of the new project in Q4 FY27",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Solar glass capacity",
-          "horizon": "March 2027",
-          "statement": "33 GW of new solar glass capacity expected to be commissioned by multiple companies, taking total domestic capacity to 51 GW",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Rooftop solar sales",
+          "metric": "EBITDA",
           "horizon": "FY27",
-          "statement": "Aiming for INR75 crores sales in the first year for rooftop solutions under Borosil brand",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Rooftop solar contribution to top line",
-          "horizon": "Q1FY27",
-          "statement": "Some sales expected in FY26, but meaningful contribution likely from Q1FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Domestic solar glass demand",
-          "horizon": "medium-term",
-          "statement": "Expected rise in installations to nearly 65 GW per annum on DC basis, driving high demand for solar glass",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Solar cell capacity",
-          "horizon": "end of FY26",
-          "statement": "Solar cell capacity expected to rise to 75 GW by end of FY26, potentially surpassing 100 GW",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Raw material cost pressure",
-          "horizon": "medium-term",
-          "statement": "Cost pressure from oil-linked raw materials may persist; mitigation through efficiencies or price increases may be required if conflict continues",
+          "statement": "Expected to rise with the increase in revenue",
           "specificity": "vague",
-          "direction": "unclear"
+          "direction": "up"
         },
         {
-          "metric": "Fuel surcharge impact",
-          "horizon": "Q1FY27",
-          "statement": "Fuel surcharge levied on customers is expected to even out by end of June 2026",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Countervailing duty (CVD) on imports",
-          "horizon": "June 2026",
-          "statement": "Expectation that Ministry of Finance will issue customs notification before CVD expiry on June 8, 2026",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Tax outgo",
+          "metric": "Solar rooftop business revenue",
           "horizon": "FY27",
-          "statement": "Tax outgo expected to be minimal due to INR950 crores capitalization in FY26; deferred tax likely around 21% on PBT",
+          "statement": "Internal target is to generate revenue of about INR36 crores",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "Q4 FY27",
+          "statement": "The commissioning of the project is expected to result in a 60% rise in sales",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "Next 3-4 years",
+          "statement": "The company aims to grow its revenue from INR2,500 crores to at least INR4,000 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fuel surcharge",
+          "horizon": "Next quarter",
+          "statement": "The fuel surcharge has been curtailed to adjust the decline in cost",
+          "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "Gas supply security",
-          "horizon": "medium-term",
-          "statement": "Quantities of gas supply are secured via medium-term and monthly contracts; price remains a challenge",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Rooftop solar capex",
-          "horizon": "1-1.5 years",
-          "statement": "No capital investment envisaged for rooftop solar business for next 1-1.5 years",
+          "metric": "Power cost savings",
+          "horizon": "Yearly basis",
+          "statement": "The company expects annual savings of about INR18 crores from the solar wind hybrid project",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Future pricing strategy beyond current fuel surcharge adjustments",
-        "Detailed breakdown of export market growth beyond current regions (US, Europe)",
-        "Specific timeline for rooftop solar manufacturing expansion beyond initial outsourcing model"
+        "Strategic investment"
       ],
       "margin_drivers": [
-        "Operating leverage from capacity expansion",
-        "Brand leverage from rooftop solar solutions",
-        "Cost efficiencies and production improvements",
-        "Pass-through of fuel costs to customers",
-        "Policy-driven demand (ALMM, energy security mandates)"
+        "Efficiency improvements",
+        "Cost reductions",
+        "Increase in share of renewable power sources"
       ]
     },
     "Vimta Labs": {
@@ -99349,6 +99310,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-22T17:37:51.175Z",
+  "generated_at": "2026-07-22T18:45:46.467Z",
   "count": 999
 }
