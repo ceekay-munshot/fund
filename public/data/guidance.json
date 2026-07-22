@@ -51306,112 +51306,66 @@
     },
     "SG Mart": {
       "company": "SG Mart",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5c289e4-dd17-41f5-aa3d-21ccc6c3c96a.pdf",
-      "transcript_id": "sg-mart_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-30T15:18:48.251Z",
-      "summary": "SG Mart expects strong growth in value-added verticals (service centers, renewable structures, steel profiles) with EBITDA set to rise sequentially in FY27 despite near-term B2B and Middle East challenges.",
+      "ticker": "SGMART",
+      "sector": "Commodities",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3df8ae41-a97f-4156-ac13-0788b10251fe.pdf",
+      "transcript_id": "sg-mart_2026-07-22",
+      "provider": "groq",
+      "generated_at": "2026-07-22T23:36:19.612Z",
+      "summary": "SG Mart expects to reach a scale with a unique positioning in terms of manufacturing and distribution by 2030, with 7 to 8 revenue streams and multiple products catering to various industries.",
       "guidance": [
         {
-          "metric": "EBITDA",
-          "horizon": "FY27",
-          "statement": "Annualized EBITDA target of INR300-350 crores for FY27, with confidence in achieving near this range unless war-related disruptions worsen.",
+          "metric": "Service Centers",
+          "horizon": "2029",
+          "statement": "25 service centers to be operational",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA",
-          "horizon": "Q4FY26 to FY27",
-          "statement": "EBITDA to keep rising sequentially from Q4FY26 levels as new verticals ramp up.",
-          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "Capex",
-          "horizon": "FY27-FY28",
-          "statement": "Minimum INR600 crores capex planned over next two years, primarily for service centers (1/3), land parcels (1/2), and profile machines (15-20%).",
+          "horizon": "next 2-3 years",
+          "statement": "Total capex requirement of INR1,500 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Service center volume",
-          "horizon": "FY27",
-          "statement": "Exit FY27 with 11-12 service centers (up from 7 currently), adding 3-4 new centers during the year.",
+          "metric": "Steel Profiles and Solar Structures",
+          "horizon": "next 2-3 years",
+          "statement": "Volume to grow 3.5x to 4x, meeting industry demand",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Renewable structures volume",
-          "horizon": "FY27",
-          "statement": "130,000-150,000 tons expected for FY27, ramping from 5,000-6,000 tons/month to 8,000-9,000 tons/month as coated steel supply normalizes.",
+          "metric": "EBITDA per ton",
+          "horizon": "next 1.5 years",
+          "statement": "Margins to increase beyond INR5,000 per ton with backward integration",
           "specificity": "specific",
           "direction": "up"
-        },
-        {
-          "metric": "Steel profile volume",
-          "horizon": "FY27",
-          "statement": "100,000+ tons expected for FY27, with monthly volumes rising from 5,000-6,000 tons to 8,000-10,000 tons as new products and machines come online.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Renewable structures capacity",
-          "horizon": "FY27",
-          "statement": "Current capacity of 150,000 tons sufficient for FY27; additional capacity to be ordered only after achieving 10,000 tons/month for 4-5 months.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Puff panel margins",
-          "horizon": "FY27",
-          "statement": "Expected margins of 5-8% for puff panels.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Working capital days",
-          "horizon": "FY27",
-          "statement": "Working capital cycle maintained at ~20 days, with focus on inventory and debtor rationalization.",
-          "specificity": "vague",
-          "direction": "flat"
         },
         {
           "metric": "ROCE",
-          "horizon": "FY27",
-          "statement": "ROCE expected to improve from 15% (FY26) to ~25% (annualized Q4FY26) as value-added verticals scale up.",
-          "specificity": "vague",
+          "horizon": "medium-term",
+          "statement": "Expected to reach 23% with net cash on books around INR690 crores",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "B2B business",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "B2B business remains challenged due to steel supply shortages; no clear timeline for recovery.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Dubai service center recovery",
-          "horizon": "Q1FY27",
-          "statement": "Dubai operations expected to recover within 1-2 months as war impact subsides.",
-          "specificity": "vague",
+          "statement": "Annualized revenue based on Q1 FY27 financials",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Monthly/quarterly EBITDA guidance beyond FY27",
-        "Steel price assumptions or inventory gain/loss impact for future periods",
-        "Detailed breakup of EBITDA contribution by vertical for FY27",
-        "Specific revenue growth CAGR beyond '50% over next three years' comment"
+        "EBITDA percentage or EBITDA per ton quarter-on-quarter"
       ],
       "margin_drivers": [
-        "Shift from low-margin B2B trading to high-margin value-added verticals (service centers, renewable structures, steel profiles)",
-        "Coated steel supply normalization for renewable structures",
-        "New product launches (puff panels, profiles) with higher EBITDA per ton",
-        "Service center expansion and product mix shift toward coated/value-added products",
-        "Reduction in inventory-related volatility as value-added verticals scale"
+        "Improved profitability in steel profiles and renewable structures",
+        "Increased sale of high-margin products",
+        "Better inventory churn",
+        "Backward integration"
       ]
     },
     "Raymond Lifestyl": {
@@ -99304,6 +99258,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-22T22:40:07.610Z",
+  "generated_at": "2026-07-22T23:37:03.014Z",
   "count": 999
 }
