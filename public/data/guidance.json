@@ -87302,110 +87302,57 @@
       "company": "Union Bank (I)",
       "ticker": "UNIONBANK",
       "sector": "Financial Services",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61fc90e0-0383-4ccd-aa31-3349cef72e6f.pdf",
-      "transcript_id": "union-bank-i_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-08T21:22:00.603Z",
-      "summary": "Management expects mid-teens credit growth and stable NIMs in FY27, with cautious deposit strategy and focus on CASA/retail term deposits to support profitability.",
+      "concall_date": "2026-07-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfe0ba83-0a88-4a5f-a906-dd955b6194a7.pdf",
+      "transcript_id": "union-bank-i_2026-07-21",
+      "provider": "groq",
+      "generated_at": "2026-07-22T04:28:32.826Z",
+      "summary": "Union Bank of India aims to improve NIM and grow advances by 11-12% or more, with a focus on CASA and RTD deposits, while maintaining a strong capital base and improving asset quality.",
       "guidance": [
         {
-          "metric": "Credit growth",
-          "horizon": "FY27",
-          "statement": "Expect credit growth of 13%-14% in FY27, aligning with industry trends and aiming to outperform slightly.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Net Interest Margin (NIM)",
-          "horizon": "Q1FY27 and FY27",
-          "statement": "Aim to maintain NIM at current levels (~2.64%) and potentially improve further, defending profitability.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
           "metric": "Deposit growth",
-          "horizon": "FY27",
-          "statement": "Focus on CASA and retail term deposits to improve deposit mix and support NIM stability.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "CASA ratio",
-          "horizon": "FY27",
-          "statement": "CASA ratio improved to 35.21% as of March 2026; efforts to sustain and grow this trend.",
+          "horizon": "Medium-term",
+          "statement": "Deposit growth will continue in line with credit growth, with a focus on CASA and RTD deposits",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Bulk deposit reduction",
+          "metric": "Advances growth",
           "horizon": "FY27",
-          "statement": "Continue reducing bulk deposits (~INR 70,000 crores shed) to shift towards retail term deposits and CASA.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Large corporate pipeline",
-          "horizon": "FY27",
-          "statement": "Maintain INR 50,000-60,000 crores of large corporate pipeline for deployment.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Infrastructure bond issuance",
-          "horizon": "FY27",
-          "statement": "Plan to finalize capital and bond issuance plans once macroeconomic conditions stabilize.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Recovery from written-off accounts",
-          "horizon": "FY27",
-          "statement": "Continue focusing on recoveries from written-off accounts to support profitability.",
+          "statement": "Aim to grow advances by 11-12% or more",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "MSME slippage",
+          "metric": "NIM",
           "horizon": "FY27",
-          "statement": "MSME slippage is expected to remain flat or improve with centralized monitoring and recovery efforts.",
+          "statement": "Aim to improve NIM",
           "specificity": "vague",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Provisioning for contingencies",
-          "horizon": "FY27",
-          "statement": "Maintain additional provisions (e.g., INR 700 crores) for contingencies without impacting profitability.",
+          "metric": "FCNR mobilization",
+          "horizon": "Q2FY27",
+          "statement": "Aim to mobilize $1.5-2 billion through FCNR",
           "specificity": "specific",
-          "direction": "unclear"
+          "direction": "up"
         },
         {
-          "metric": "Dividend payout",
+          "metric": "ECLGS disbursement",
           "horizon": "FY27",
-          "statement": "Maintain dividend payout ratio around 20.6% (INR 5 per share) subject to approvals.",
+          "statement": "Aim to disburse INR 14,000-15,000 crores through ECLGS",
           "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Cost of funds",
-          "horizon": "FY27",
-          "statement": "Cost of funds expected to improve with shift from bulk to retail term deposits and CASA.",
-          "specificity": "vague",
-          "direction": "down"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Exact quantum of future bulk deposit reduction",
-        "Timeline for infrastructure bond issuance",
-        "Specific targets for retail deposit growth",
-        "Impact of geopolitical risks on asset quality"
+        "Specific deposit growth numbers",
+        "Detailed asset quality projections"
       ],
       "margin_drivers": [
-        "CASA ratio improvement",
-        "Shift from bulk to retail term deposits",
-        "Cost of funds reduction",
-        "Quality of asset deployment",
-        "Recovery from written-off accounts"
+        "Improvement in CASA and RTD deposits",
+        "Reduction in deposit costs",
+        "Improvement in credit growth"
       ]
     },
     "Axis Bank": {
@@ -99491,6 +99438,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-22T01:03:42.299Z",
+  "generated_at": "2026-07-22T04:29:13.750Z",
   "count": 999
 }
