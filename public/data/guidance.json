@@ -46024,110 +46024,64 @@
     },
     "Jana Small Finan": {
       "company": "Jana Small Finan",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e5b8e0e-775b-4890-9bee-9e4f6d40f9fc.pdf",
-      "transcript_id": "jana-small-finan_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-28T23:45:41.417Z",
-      "summary": "Management expects strong growth in FY27 with PAT growth of 80%+, driven by secured asset expansion, deposit growth, and operating leverage.",
+      "ticker": "JSFB",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afd33796-0ffa-4b0a-b1f0-20860fc7b521.pdf",
+      "transcript_id": "jana-small-finan_2026-07-21",
+      "provider": "groq",
+      "generated_at": "2026-07-22T12:00:07.603Z",
+      "summary": "Jana Small Finance Bank expects to maintain its current growth trajectory, with a focus on secured loans and a gradual increase in unsecured loans, driven by its MFI segment.",
       "guidance": [
         {
-          "metric": "Gross loan portfolio growth",
+          "metric": "Gross Loan Growth",
           "horizon": "FY27",
-          "statement": "19% to 21% growth in gross loan portfolio",
+          "statement": "19% to 21% growth expected",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Deposit growth",
+          "metric": "Deposit Growth",
           "horizon": "FY27",
-          "statement": "23% to 25% growth in deposits",
+          "statement": "23% to 25% growth expected",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "PAT growth",
+          "metric": "PAT Growth",
           "horizon": "FY27",
-          "statement": "80% plus year-on-year growth in PAT",
+          "statement": "80% plus growth expected",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Unsecured book growth",
+          "metric": "MFI Segment Growth",
           "horizon": "FY27",
-          "statement": "10% to 12% growth in unsecured book",
+          "statement": "10% to 12% growth expected",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Secured book growth",
+          "metric": "Credit Cost",
           "horizon": "FY27",
-          "statement": "25% to 30% growth in secured book",
+          "statement": "Expected to remain at 0.45%",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "CASA growth",
+          "metric": "Net Interest Margin",
           "horizon": "FY27",
-          "statement": "27% to 30% growth in CASA",
+          "statement": "Expected to remain steady around 7.5%",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Credit cost percentage",
-          "horizon": "FY27",
-          "statement": "Expect credit cost to be in the same range or slightly better than Q4 FY26 (0.47%)",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "NIM improvement",
-          "horizon": "Q1FY27-Q4FY27",
-          "statement": "Expect NIM to improve in Q1 due to unsecured growth and cost of deposit decline, with slight improvement continuing in Q2-Q4",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Slippages trend",
-          "horizon": "FY27",
-          "statement": "Expect slippages to trend lower during FY27",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Cost of funds",
-          "horizon": "Q1FY27",
-          "statement": "Expect one more quarter of cost of deposit decline followed by stability",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Gold loan yields",
-          "horizon": "FY27",
-          "statement": "Expect improvement in gold loan yields due to cross-sell of smaller ticket customers",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Branch expansion",
-          "horizon": "FY27",
-          "statement": "Plan to add 38 branches, reaching 860 branches by end of FY27",
-          "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         }
       ],
-      "refused_to_guide": [
-        "universal banking license approval timeline and impact"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "unsecured asset growth",
-        "cost of deposit decline",
-        "operating leverage from prior investments",
-        "credit guarantee program recoveries",
-        "collections efficiency (99%+)",
-        "digital adoption"
+        "Reduced slippage and NPA",
+        "Decline in cost of funds",
+        "Growth in secured loans",
+        "Improvement in asset quality"
       ]
     },
     "Karnataka Bank": {
@@ -99459,6 +99413,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-22T10:04:48.769Z",
+  "generated_at": "2026-07-22T12:00:43.687Z",
   "count": 999
 }
