@@ -50659,112 +50659,48 @@
     },
     "Fedbank Financi.": {
       "company": "Fedbank Financi.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3437280e-3d39-41d1-bb90-8e331c9cd04f.pdf",
-      "transcript_id": "fedbank-financi_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-30T12:22:24.421Z",
-      "summary": "Management expects continued growth in secured lending with focus on gold and LAP segments, while maintaining disciplined credit costs and improving profitability in FY27.",
+      "ticker": "FEDFINA",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-21",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4844af4-4100-4bfa-938b-6132151f4379.pdf",
+      "transcript_id": "fedbank-financi_2026-07-21",
+      "provider": "groq",
+      "generated_at": "2026-07-22T01:02:56.653Z",
+      "summary": "Fedbank Financial Services expects to grow at 20-25% in the current year, driven by its twin engines of Gold Loans and LAP, with a focus on prudent portfolio expansion and disciplined underwriting.",
       "guidance": [
         {
-          "metric": "AUM growth",
+          "metric": "Gold Loan AUM",
           "horizon": "FY27",
-          "statement": "Management expects 20-25% AUM growth for the company.",
+          "statement": "expected to grow 25-30% if gold prices remain flat",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Gold loan AUM growth",
+          "metric": "LAP segment",
           "horizon": "FY27",
-          "statement": "Gold loan AUM growth expected to continue, driven by branch expansion and doorstep coverage.",
-          "specificity": "vague",
+          "statement": "expected to grow at 20%",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "LAP (ST and MT) disbursals",
+          "metric": "Credit costs",
           "horizon": "FY27",
-          "statement": "Disbursals in ST LAP and MT LAP expected to pick up as collection efficiencies improve and new leadership stabilizes operations.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Credit cost",
-          "horizon": "FY27",
-          "statement": "Management aims to maintain credit costs at 1% ±10bps.",
+          "statement": "expected to remain below 1%",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Core income reliance",
+          "metric": "Return on Equity (ROE)",
           "horizon": "FY27",
-          "statement": "Increased focus on core income with reduced reliance on DA income as a capital allocation strategy.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Cost structure",
-          "horizon": "FY27",
-          "statement": "Continued move towards a frugal cost structure to improve operating leverage.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Branch expansion (Gold)",
-          "horizon": "FY27",
-          "statement": "Continued expansion of gold branches to drive growth.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Co-lending spread",
-          "horizon": "FY27",
-          "statement": "Co-lending book expected to contribute ~4% AUM-level spread.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Fee and commission income",
-          "horizon": "FY27",
-          "statement": "Fee income expected to grow as LAP disbursals pick up, contributing 0.8-1% to ROTA.",
+          "statement": "expected to be sustainable above 15%",
           "specificity": "specific",
           "direction": "up"
-        },
-        {
-          "metric": "Secured lending portfolio",
-          "horizon": "FY27",
-          "statement": "Aim to maintain secured on-book ratio exceeding 99.5%.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Collections infrastructure",
-          "horizon": "FY27",
-          "statement": "Strengthened collections infrastructure expected to support improved asset quality in ST LAP.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Capital adequacy",
-          "horizon": "FY27",
-          "statement": "CRAR at 22.4% provides ample headroom for growth in the coming year.",
-          "specificity": "specific",
-          "direction": "flat"
         }
       ],
-      "refused_to_guide": [
-        "Incremental cost of funds",
-        "Impact of new KYC/assessment rules on gold loan disbursements beyond FY27",
-        "Specific ROE/ROA targets for FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Gold loan growth and tonnage expansion",
-        "LAP (ST and MT) disbursal growth with improved collections",
-        "Reduced reliance on DA income",
-        "Operating leverage from branch expansion and cost structure optimization",
-        "Co-lending book contribution (~4% spread)",
-        "Fee income growth from LAP business"
+        "Core income expansion",
+        "Controlled operating expenses"
       ]
     },
     "Jindal Steel": {
@@ -99555,6 +99491,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-21T23:36:17.910Z",
+  "generated_at": "2026-07-22T01:03:42.299Z",
   "count": 999
 }
