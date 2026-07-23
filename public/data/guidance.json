@@ -99160,8 +99160,71 @@
         "Growth in high-margin businesses",
         "Expansion of digital revenue"
       ]
+    },
+    "Havells India": {
+      "company": "Havells India",
+      "ticker": "HAVELLS",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-07-17",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e39e029-d034-49cf-b1b7-14523890ac2a.pdf",
+      "transcript_id": "havells-india_2026-07-17",
+      "provider": "groq",
+      "generated_at": "2026-07-23T22:35:55.862Z",
+      "summary": "Havells India expects a resilient growth momentum to maintain during the year, with a positive outlook on margins and demand environment.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Resilient growth momentum expected to maintain during the year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Contribution Margin",
+          "horizon": "FY27",
+          "statement": "Stabilizing contribution margins expected",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "A&P Spend",
+          "horizon": "FY27",
+          "statement": "A&P spend to remain around 2.7% of revenue",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex of around INR1,400 crores planned",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewables Revenue",
+          "horizon": "Medium-term",
+          "statement": "Renewables business expected to become very big",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume Growth",
+          "horizon": "FY27",
+          "statement": "Single-digit volume growth in air conditioners expected",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 EBITDA margin"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Product mix",
+        "Pricing"
+      ]
     }
   },
-  "generated_at": "2026-07-23T21:40:31.709Z",
-  "count": 1001
+  "generated_at": "2026-07-23T22:36:17.839Z",
+  "count": 1002
 }
