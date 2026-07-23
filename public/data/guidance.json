@@ -99096,8 +99096,72 @@
         "Operating leverage",
         "Digital and AI-driven efficiencies"
       ]
+    },
+    "Wework India": {
+      "company": "Wework India",
+      "ticker": "WEWORK",
+      "sector": "Services",
+      "concall_date": "2026-07-23",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7598bbb-8665-4b0f-86e4-927aa9b07347.pdf",
+      "transcript_id": "wework-india_2026-07-23",
+      "provider": "groq",
+      "generated_at": "2026-07-23T20:40:14.393Z",
+      "summary": "WeWork India expects continued growth in FY27, driven by increasing demand for flexible workspaces and the company's expanding network.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expected to grow, driven by increasing demand for flexible workspaces",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to expand, driven by operating leverage and growth in high-margin businesses",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Guidance of INR500-600 crores remains unchanged",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Supply pipeline",
+          "horizon": "FY28-29",
+          "statement": "Expected to grow in line with historical trends, with a target of 12 million square feet by the end of FY28",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "VAS revenue",
+          "horizon": "FY27",
+          "statement": "Expected to return to historical levels of 13-15% of total revenue",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital revenue",
+          "horizon": "FY27",
+          "statement": "Expected to grow faster than core revenue, contributing to margin expansion",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific EBITDA margin target for FY27",
+        "Detailed breakdown of capex plans beyond FY27"
+      ],
+      "margin_drivers": [
+        "Operating leverage",
+        "Growth in high-margin businesses",
+        "Expansion of digital revenue"
+      ]
     }
   },
-  "generated_at": "2026-07-23T19:41:51.642Z",
-  "count": 1000
+  "generated_at": "2026-07-23T20:40:56.394Z",
+  "count": 1001
 }
