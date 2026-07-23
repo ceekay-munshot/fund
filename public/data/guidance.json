@@ -45724,105 +45724,70 @@
     },
     "South Ind.Bank": {
       "company": "South Ind.Bank",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24c61db7-f111-415a-94f9-d3cd033e8dcf.pdf",
-      "transcript_id": "south-ind-bank_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-28T23:45:17.895Z",
-      "summary": "Management expects mid-teens loan growth in FY27 with improving NIMs driven by product mix shift, while credit costs may trend upwards from current lows due to geopolitical risks.",
+      "ticker": "SOUTHBANK",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a66aefe-4dee-445f-a96c-ad353ec7a743.pdf",
+      "transcript_id": "south-ind-bank_2026-07-22",
+      "provider": "groq",
+      "generated_at": "2026-07-23T11:59:52.716Z",
+      "summary": "South Indian Bank expects positive outcomes in NIM and operating leverage for the full year, driven by a shift in mix and the right side of the rate cycle movement.",
       "guidance": [
-        {
-          "metric": "Loan growth",
-          "horizon": "FY27",
-          "statement": "Aim to grow loan book at 15-16% in FY27, matching industry growth if higher.",
-          "specificity": "specific",
-          "direction": "up"
-        },
         {
           "metric": "NIM",
           "horizon": "FY27",
-          "statement": "NIMs to improve driven by shift from corporate to retail/MSME book and potential rate hikes.",
+          "statement": "NIMs from here should harden as the repo rate changes come into effect",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Credit cost",
+          "metric": "Operating Leverage",
           "horizon": "FY27",
-          "statement": "Credit costs likely to trend upwards from current lows (3bps) due to geopolitical risks.",
+          "statement": "aiming to get full positive operating leverage",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Operating leverage",
+          "metric": "Opex",
           "horizon": "FY27",
-          "statement": "Aim to maintain positive operating leverage for a third consecutive year.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Operating expenses",
-          "horizon": "FY27",
-          "statement": "Expect moderate growth in operating costs to support business growth and technology investments.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Gold loan risk management",
-          "horizon": "medium-term",
-          "statement": "Using Value at Risk framework and margin calls to manage gold price volatility risk.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "MSME growth",
-          "horizon": "FY27",
-          "statement": "Continue focused resource allocation to MSME segment with deeper penetration in existing markets.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Non-interest income",
-          "horizon": "FY27",
-          "statement": "Non-interest income to improve with broader fee base from retail/MSME growth and enhanced FX/trade platforms.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Succession plan",
-          "horizon": "Q3FY26",
-          "statement": "Board actively engaged in succession search process with aim to complete before CEO's term ends on September 30, 2026.",
+          "statement": "expecting opex growth in the range of 5-6%",
           "specificity": "specific",
-          "direction": "unclear"
+          "direction": "up"
         },
         {
-          "metric": "Gold loan portfolio composition",
+          "metric": "Fee Income",
           "horizon": "FY27",
-          "statement": "Majority of gold loan book is organic; portfolio buyouts to be limited to 8-10% of total.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "PTC vs portfolio buyouts",
-          "horizon": "FY27",
-          "statement": "Prefer pass-through certificates over portfolio buyouts for growth due to credit enhancement benefits.",
+          "statement": "lower noninterest income line is an aberration, which will get fixed as we move forward",
           "specificity": "vague",
-          "direction": "unclear"
+          "direction": "up"
+        },
+        {
+          "metric": "Credit Cost",
+          "horizon": "FY27",
+          "statement": "credit costs will moderate from here",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Slippage",
+          "horizon": "FY27",
+          "statement": "slippage will be in the neighborhood of INR500 crores to INR750 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Recoveries",
+          "horizon": "FY27",
+          "statement": "recoveries will be in the neighborhood of INR800 crores to INR1,000 crores",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "Future CASA growth rates",
-        "Exact NIM range for FY27",
-        "Specific credit cost targets for FY27",
-        "Timeline for new CEO appointment beyond Q3FY26",
-        "Capital adequacy ratio targets"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Shift from corporate to retail/MSME loan mix",
-        "Potential RBI rate hikes",
-        "Improved fee income from retail/MSME growth",
-        "Enhanced FX and trade platform revenues"
+        "shift in mix",
+        "right side of the rate cycle movement",
+        "reduction in cost of deposits"
       ]
     },
     "Wonderla Holiday": {
@@ -99141,6 +99106,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-23T10:03:22.790Z",
+  "generated_at": "2026-07-23T12:00:29.038Z",
   "count": 999
 }
