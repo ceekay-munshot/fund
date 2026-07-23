@@ -59467,112 +59467,49 @@
     },
     "Piramal Finance.": {
       "company": "Piramal Finance.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb0da61c-42b7-4e6c-882f-a5a38c99e39a.pdf",
-      "transcript_id": "piramal-finance_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-02T20:36:50.497Z",
-      "summary": "Management expects strong growth in AUM and profits in FY27 with improving margins and asset quality, supported by AI adoption and liability cost benefits from credit rating upgrades.",
+      "ticker": "PIRAMALFIN",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99ab65aa-7908-484e-a23a-0e3a9260b9dd.pdf",
+      "transcript_id": "piramal-finance_2026-07-22",
+      "provider": "groq",
+      "generated_at": "2026-07-23T14:26:33.184Z",
+      "summary": "Piramal Finance is confident of meeting its original guidance for FY27 on AUM growth, profit growth, and return on AUM by the end of the year.",
       "guidance": [
         {
-          "metric": "Total AUM growth",
+          "metric": "AUM growth",
           "horizon": "FY27",
-          "statement": "Approximately 25% growth in total AUM",
+          "statement": "On track for earlier disclosed growth aspirations",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Return on AUM",
+          "horizon": "Q4 FY27",
+          "statement": "Guided for 2.5% for Q4",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Consolidated net profit growth",
-          "horizon": "FY27",
-          "statement": "Approximately 50% growth in consolidated net profit",
+          "metric": "Gold loans network",
+          "horizon": "End of March 2027",
+          "statement": "Aim to take this business to 200 branches",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Return on AUM (RoAUM)",
+          "metric": "Retail OPEX to AUM",
           "horizon": "FY27",
-          "statement": "Exit FY27 with RoAUM of approximately 2.5% (vs. 2.1% in Q4 FY26)",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Cost of borrowing",
-          "horizon": "Next 3 years",
-          "statement": "AA+ rating to lower cost of borrowing by 50-80 basis points as liability stack churns out",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Gold loan branch expansion",
-          "horizon": "FY27",
-          "statement": "Open 180 more gold loan branches to take total to approximately 200 branches",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Unsecured loan mix increase",
-          "horizon": "Medium-term",
-          "statement": "Increase unsecured loan mix by 400-500 basis points compared to current levels",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Retail opex to AUM ratio",
-          "horizon": "FY27",
-          "statement": "Potential to take retail opex to AUM slightly lower than current levels (3.6%)",
+          "statement": "Continued productivity gains have the potential to take our retail OPEX to AUM further lower",
           "specificity": "vague",
           "direction": "down"
-        },
-        {
-          "metric": "Legacy book size",
-          "horizon": "End of FY27",
-          "statement": "Legacy book to become irrelevant by latter half of FY27 (currently <3% of AUM)",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Wholesale 2.0 AUM growth",
-          "horizon": "FY27",
-          "statement": "Continued strong growth in Wholesale 2.0 AUM",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "NIM expansion",
-          "horizon": "Medium-term",
-          "statement": "NIMs to expand due to product mix shift and liability cost benefits",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Fee income (retail)",
-          "horizon": "Near-term",
-          "statement": "Fee income to normalize and improve from current low levels",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Leverage (AUM to equity)",
-          "horizon": "FY27",
-          "statement": "Progress towards goal of 4.5-5x leverage (currently 3.6x)",
-          "specificity": "specific",
-          "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "specific dates for Legacy book consolidation into Growth segment",
-        "detailed breakdown of fee income normalization timeline",
-        "exact impact of AI adoption on profitability metrics"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "unsecured loan mix increase",
-        "gold loan expansion",
-        "liability cost reduction from AA+ rating",
-        "fee income normalization",
-        "opex efficiency gains",
-        "product mix shift toward higher-yielding assets"
+        "OPEX ratio improvement",
+        "Leverage increase",
+        "AI-driven productivity gains"
       ]
     },
     "V-Mart Retail": {
@@ -99106,6 +99043,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-23T12:00:29.038Z",
+  "generated_at": "2026-07-23T14:27:04.666Z",
   "count": 999
 }
