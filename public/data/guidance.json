@@ -94417,111 +94417,56 @@
       "company": "Emmvee Photovol.",
       "ticker": "EMMVEE",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a073e549-706d-4091-bf9d-f6cdbdcff699.pdf",
-      "transcript_id": "emmvee-photovol_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-11T23:34:14.787Z",
-      "summary": "Management expects disciplined growth with deepening integration, technology focus, and balance sheet strength in FY27, supported by policy tailwinds and order book execution.",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6f11bde-6a33-4790-bc65-52bad1cf8680.pdf",
+      "transcript_id": "emmvee-photovol_2026-07-22",
+      "provider": "groq",
+      "generated_at": "2026-07-23T07:13:24.249Z",
+      "summary": "Emmvee Photovoltaic Power Limited expects a strong growth in the Indian solar industry, driven by increasing energy demand and government initiatives, with the company well-positioned to benefit from the growing demand for domestically manufactured solar cells and modules.",
       "guidance": [
         {
-          "metric": "Integrated cell and module capacity",
+          "metric": "EBITDA",
           "horizon": "FY27",
-          "statement": "6 GW integrated cell and module facility to be commissioned by end of FY27, with module line by end of CY2026 and cell line by end of FY27.",
+          "statement": "Targeting approximately INR 2,400 crore of EBITDA by the close of FY27",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Ingot and wafer capacity",
-          "horizon": "FY29",
-          "statement": "Planning to set up a 9 GW ingot and wafer facility in phases, with first facility targeted for FY29.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Phase 1 ingot and wafer capacity",
-          "horizon": "FY29",
-          "statement": "Phase 1 expansion of 5 GW ingot and wafer capacity.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Phase 2 ingot and wafer capacity",
-          "horizon": "FY30",
-          "statement": "Phase 2 expansion of 4 GW ingot and wafer capacity.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Order book execution",
-          "horizon": "FY27",
-          "statement": "Immediate focus on ramping up utilization across existing capacity and executing order book with discipline.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "TOPCon technology platform",
+          "metric": "Module capacity utilization",
           "horizon": "medium-term",
-          "statement": "Continuing to strengthen TOPCon technology platform and improve efficiency.",
+          "statement": "Expect to continue increasing production volumes, with a peak utilization of around 65%",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Demand outlook (IPP, C&I, PM Surya Ghar, KUSUM)",
-          "horizon": "FY27-FY28",
-          "statement": "Demand outlook remains strong across IPP, C&I, PM Surya Ghar, and KUSUM segments, with ALMM List 2 and List 3 expected to benefit integrated manufacturers like Emmvee.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Working capital cycle",
-          "horizon": "FY27",
-          "statement": "Working capital cycle expected to normalize as no further new expansion is planned in coming quarters.",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Inventory levels",
-          "horizon": "FY27",
-          "statement": "Inventory levels expected to be maintained or improved as existing inventory is utilized and new inventory is managed carefully.",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Module production capacity utilization",
-          "horizon": "FY27",
-          "statement": "Module capacity utilization expected to improve as existing capacity is ramped up and new expansions are commissioned.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Cell production capacity utilization",
-          "horizon": "FY27",
-          "statement": "Cell capacity utilization expected to improve further as new expansions are commissioned and utilization rates increase.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Export strategy",
+          "metric": "Cell capacity utilization",
           "horizon": "medium-term",
-          "statement": "Exports treated as upside rather than core business; actively exploring market opportunities but no export orders in order book currently.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "statement": "Peak utilization for cell is around 85% to 90%, which we are already close to",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "FY27",
+          "statement": "6-gigawatt integrated TOPCon cell and module manufacturing facility is expected to be completed, with the module line to be commissioned by December 2026 and the cell line by March 2027",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ingot and wafer manufacturing",
+          "horizon": "FY29 and FY30",
+          "statement": "Proposed facility will have a total of 9 gigawatt, planned in two phases, with 5 gigawatt targeted in FY29 and the remaining 4 gigawatt in FY30",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "Commodity price outlook",
-        "Specific financial targets (e.g., revenue, EBITDA, PAT) for FY27 or beyond",
-        "Detailed breakdown of customer mix or order book by segment for future periods",
-        "Specific pricing strategy or realization per watt for future periods"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Deepening integration (cell and module manufacturing)",
-        "TOPCon technology adoption",
-        "Scale benefits and operating leverage",
-        "Policy tailwinds (ALMM, PM Surya Ghar, PM-KUSUM)",
-        "Cost discipline and balance sheet strength",
-        "Customer trust and reliability"
+        "Improved operational execution",
+        "Higher manufacturing efficiencies",
+        "Stronger integration benefits",
+        "Disciplined cost management",
+        "Continued customer confidence"
       ]
     },
     "Datamatics Glob.": {
@@ -99196,6 +99141,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-23T04:27:44.040Z",
+  "generated_at": "2026-07-23T07:14:08.441Z",
   "count": 999
 }
