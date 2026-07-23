@@ -87843,111 +87843,49 @@
       "company": "ICICI Pru Life",
       "ticker": "ICICIPRULI",
       "sector": "Financial Services",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb77d796-4a46-4a29-a91c-d069ec3f210b.pdf",
-      "transcript_id": "icici-pru-life_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-08T23:42:46.969Z",
-      "summary": "Management expects sustainable VNB growth through balanced distribution strategy and product mix optimization, though near-term growth outlook remains cautious due to macro volatility.",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32a72436-9811-4887-a947-60b4994b12e8.pdf",
+      "transcript_id": "icici-pru-life_2026-07-22",
+      "provider": "groq",
+      "generated_at": "2026-07-23T04:26:57.082Z",
+      "summary": "ICICI Prudential Life Insurance expects to sustain its strong momentum in VNB growth, driven by a focus on protection business and operational efficiencies.",
       "guidance": [
         {
           "metric": "VNB growth",
           "horizon": "FY27",
-          "statement": "No specific growth target provided; growth will depend on macro environment and customer behavior, with focus on granular customer segmentation and product mix optimization.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "VNB margin",
-          "horizon": "FY27",
-          "statement": "Current VNB margin of 24.7% is considered a baseline; future margins will depend on persistency trends, product mix, and regulatory changes.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Protection business growth",
-          "horizon": "FY27",
-          "statement": "Protection segment offers multi-decadal growth opportunity with 13% of addressable population currently covered; focus on retail protection growth.",
+          "statement": "The company aims to grow absolute VNB, with a focus on protection business and operational efficiencies.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Agency channel growth",
-          "horizon": "FY27",
-          "statement": "Agency channel has a favorable base for growth; strategy includes micro-market-led branch strategy and technology-driven productivity improvements.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Non-par product mix",
-          "horizon": "FY27",
-          "statement": "Non-par category remains a focus; current par:non-par ratio is ~2:1, with no immediate shift expected.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Surrender value regulations impact",
-          "horizon": "FY27",
-          "statement": "Early experience with surrender value regulations shows no significant delta beyond the annuity product; full-year assessment needed.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Embedded Value (EV)",
-          "horizon": "FY27",
-          "statement": "Steady-state RoEV expected in 13%-14% range, driven by VNB growth and yield curve movements.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Cost to premium ratio (savings line)",
-          "horizon": "FY27",
-          "statement": "Cost optimization initiatives (including AI/ML) will continue to drive efficiency improvements in savings cost to premium ratio.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "IND-AS transition",
-          "horizon": "FY27",
-          "statement": "IND-AS accounts expected to be shared from next quarter with forbearance sought for a year; solvency ratio remains strong at 227% under current framework.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Group funds business growth",
-          "horizon": "FY27",
-          "statement": "Group funds business grew 26% YoY in FY26; focus on scaling this segment continues.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Solvency ratio",
-          "horizon": "FY27",
-          "statement": "Solvency ratio expected to remain well above regulatory requirement of 150% due to strong capital position.",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Gender diversity",
+          "metric": "Protection business",
           "horizon": "medium-term",
-          "statement": "Gender diversity target to improve from current 30% level.",
+          "statement": "The company sees a significant long-term growth opportunity in the protection segment, with only 13% of the addressable population currently covered.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Savings business",
+          "horizon": "medium-term",
+          "statement": "The company expects the savings business to grow, driven by a focus on cost efficiency and scalability.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-par sales",
+          "horizon": "FY27",
+          "statement": "The company expects non-par sales to pick up as alternative investments become less attractive to customers.",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "specific VNB growth or PAT growth targets for FY27",
-        "IND-AS impact on CSM (Contractual Service Margin) and capital position beyond forbearance",
-        "exact impact of surrender value regulations on persistency assumptions",
-        "detailed breakdown of VNB margin drivers for FY27"
+        "Specific margin targets"
       ],
       "margin_drivers": [
-        "protection mix increase",
-        "policy term extension in savings line",
-        "higher sum assured multiples",
-        "rider attachment growth",
-        "operational efficiencies (AI/ML, cost optimization)",
-        "input tax credit unavailability offset by efficiency gains"
+        "Product mix",
+        "Operational efficiencies",
+        "Cost optimization initiatives"
       ]
     },
     "EMA Partners": {
@@ -99258,6 +99196,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-23T01:07:56.058Z",
+  "generated_at": "2026-07-23T04:27:44.040Z",
   "count": 999
 }
