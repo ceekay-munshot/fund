@@ -99041,8 +99041,63 @@
         "AI-led efficiency",
         "Disciplined cost management"
       ]
+    },
+    "Poonawalla Fin": {
+      "company": "Poonawalla Fin",
+      "ticker": "POONAWALLA",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-23",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bf0044d-829d-4371-99cb-9586b6461487.pdf",
+      "transcript_id": "poonawalla-fin_2026-07-23",
+      "provider": "groq",
+      "generated_at": "2026-07-23T16:15:56.405Z",
+      "summary": "Poonawalla Fincorp expects sustained and predictable profitability with improving asset quality and reducing credit costs.",
+      "guidance": [
+        {
+          "metric": "Opex to AUM",
+          "horizon": "FY27",
+          "statement": "Expected to be around the internal benchmark with fluctuations of 10-25 basis points quarter-on-quarter.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Branch expansion",
+          "horizon": "FY27",
+          "statement": "Plan to add around 400 branches, largely in Tier 2 and Tier 3 locations.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Disbursement growth",
+          "horizon": "medium-term",
+          "statement": "Expect strong growth momentum across products, including Prime Personal Loan, Gold Loan, and Consumer Durable.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "medium-term",
+          "statement": "Expected to decline due to improving asset quality and risk management framework.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "GNPA",
+          "horizon": "medium-term",
+          "statement": "Expected to improve due to disciplined cohort selection and sustained collection efficiency gains.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Improving disbursement yield",
+        "Reducing credit cost",
+        "Operating leverage",
+        "Digital and AI-driven efficiencies"
+      ]
     }
   },
-  "generated_at": "2026-07-23T14:27:04.666Z",
-  "count": 999
+  "generated_at": "2026-07-23T16:16:24.703Z",
+  "count": 1000
 }
