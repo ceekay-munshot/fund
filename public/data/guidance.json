@@ -79589,109 +79589,56 @@
       "company": "Dynamic Cables",
       "ticker": "DYCL",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0e02f27-bf60-43a0-83f6-3cbeaaa777bf.pdf",
-      "transcript_id": "dynamic-cables_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-07T00:18:41.073Z",
-      "summary": "Management expects steady growth supported by capacity expansion and new product initiatives, with medium-term revenue growth of 18-20%.",
+      "concall_date": "2026-07-23",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20912535-73cf-433a-9e6f-c3a2f54b0ec0.pdf",
+      "transcript_id": "dynamic-cables_2026-07-23",
+      "provider": "groq",
+      "generated_at": "2026-07-24T01:03:02.904Z",
+      "summary": "Dynamic Cables expects to sustain its performance in the coming quarters with robust demand visibility and a focus on operational excellence.",
       "guidance": [
         {
-          "metric": "Revenue growth (medium-term)",
+          "metric": "Revenue growth",
+          "horizon": "long-term",
+          "statement": "Expected to maintain 18%-20% growth rate",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Solar cable revenue",
+          "horizon": "FY27",
+          "statement": "Expected to remain around 20% of total revenue",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Solar cable growth",
+          "horizon": "next three-four years",
+          "statement": "Expected to grow at 25%-30%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "US market sales",
+          "horizon": "long-term",
+          "statement": "Huge market opportunity with potential for substantial growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New plant revenue capacity",
           "horizon": "medium-term",
-          "statement": "Company targets 18-20% revenue growth in the medium to long term.",
+          "statement": "Expected to add revenue based on asset turnover of 6x-7x",
           "specificity": "specific",
           "direction": "up"
-        },
-        {
-          "metric": "Capacity utilization",
-          "horizon": "H1FY27",
-          "statement": "Existing capacities are sufficient to manage H1FY27 order book and growth projections.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "New capacity go-live",
-          "horizon": "Q2FY27",
-          "statement": "New plant expected to start production by September 2026.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Order book growth",
-          "horizon": "FY27",
-          "statement": "Order book growth expected to align with revenue growth trajectory of 18-20% in the medium term.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex trajectory",
-          "horizon": "FY27 and medium-term",
-          "statement": "Capex will continue annually to support growth, though intensity may reduce compared to FY26.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "TS Conductor partnership revenue impact",
-          "horizon": "1 year",
-          "statement": "No hard timeline for revenue realization from TS Conductor partnership; initial focus on product approvals and type testing.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Operating margin",
-          "horizon": "FY27",
-          "statement": "Operating profit margin guidance maintained at 10.5% to 11%.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Volume growth (cables)",
-          "horizon": "FY26",
-          "statement": "Cables standalone volume growth for FY26 was around 18%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Volume growth (Q4FY26)",
-          "horizon": "Q4FY26",
-          "statement": "Core product volume growth in Q4FY26 was around 8%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Realization growth (Q4FY26)",
-          "horizon": "Q4FY26",
-          "statement": "Realization growth in Q4FY26 was 12%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Low voltage conductors contribution",
-          "horizon": "FY26",
-          "statement": "Low voltage conductors contribution reduced to sub-5% in FY26 from 8-9% in FY25.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Railway signaling cables contribution",
-          "horizon": "FY26",
-          "statement": "Railway signaling cables contribution was zero in FY26.",
-          "specificity": "specific",
-          "direction": "down"
         }
       ],
       "refused_to_guide": [
-        "FY27 revenue or PAT guidance",
-        "Order book growth for FY27",
-        "Finance cost outlook beyond current quarter",
-        "Gross margin outlook for FY27"
+        "Yearly guidance"
       ],
       "margin_drivers": [
-        "Operational efficiency",
-        "Product mix shift towards higher-margin products",
-        "Pass-through of raw material costs",
-        "Operating leverage from capacity expansion"
+        "Improved operating leverage",
+        "Favourable product mix",
+        "Cost discipline"
       ]
     },
     "Neuland Labs.": {
@@ -99225,6 +99172,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-23T23:33:29.501Z",
+  "generated_at": "2026-07-24T01:03:50.293Z",
   "count": 1002
 }
