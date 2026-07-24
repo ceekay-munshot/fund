@@ -71799,109 +71799,56 @@
       "company": "South West Pinn.",
       "ticker": "SOUTHWEST",
       "sector": "Services",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccc91fb5-feb9-4366-b56b-f3fd0ae6aea3.pdf",
-      "transcript_id": "south-west-pinn_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-05T04:18:56.476Z",
-      "summary": "Management expects strong revenue growth with disproportionate profitability improvement in the short to medium term, driven by order book expansion and operational efficiency.",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a9a1af4-34b6-4338-82b3-841682321d94.pdf",
+      "transcript_id": "south-west-pinn_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-24T23:39:46.893Z",
+      "summary": "South West Pinnacle Exploration Limited has a strong growth outlook, backed by a record order book and healthy order inflows, with significant revenue growth expected in FY27.",
       "guidance": [
         {
-          "metric": "Revenue growth",
-          "horizon": "short to medium term",
-          "statement": "Expect around 20% year-on-year growth",
-          "specificity": "specific",
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Significant growth expected, with Q1 FY27 being one of the best-ever quarters",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Profitability (bottom line)",
-          "horizon": "short to medium term",
-          "statement": "Substantial increase in bottom line with disproportionate growth relative to revenue",
-          "specificity": "vague",
+          "metric": "Revenue",
+          "horizon": "medium-term",
+          "statement": "20% CAGR of revenue expected",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "short to medium term",
-          "statement": "EBITDA margin should increase due to fixed cost coverage and improved operational efficiency",
+          "horizon": "FY27",
+          "statement": "Margins expected to be sustained at around 24%",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "flat"
         },
         {
           "metric": "Order book",
           "horizon": "FY27",
-          "statement": "Participated in tenders worth INR 500-700 crores; new orders expected in next 1-2 months",
+          "statement": "Order book expected to increase, with current order book at INR 761 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Hindustan Zinc order execution",
-          "horizon": "FY27",
-          "statement": "INR 300 crore order to be executed over 4 years; aim to complete earlier; expected revenue contribution of INR 75 crores per year",
+          "metric": "Coal production",
+          "horizon": "FY28-29",
+          "statement": "Coal production expected to commence in FY28-29 from the Jharkhand coal block",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Reliance contract contribution",
-          "horizon": "FY27",
-          "statement": "Reliance portfolio to contribute 35% to 40% of total revenue",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Coal block CAPEX (Phase 1)",
-          "horizon": "FY27",
-          "statement": "INR 200 crores CAPEX for Phase 1, primarily funded through internal accruals, bank loans, and offtake agreements",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Coal block IRR",
-          "horizon": "FY27",
-          "statement": "Expected IRR of 40% to 45% based on coal index price of INR 3,100 per ton",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Coal block EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Expected EBITDA margin of around 46%",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Oman JV CAPEX",
-          "horizon": "next 3-5 years",
-          "statement": "INR 15-20 crores investment in Oman JV operations",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Rig count expansion",
-          "horizon": "next 3-6 months",
-          "statement": "Four new rigs to be delivered in next 3-6 months, expanding current fleet of 40 rigs",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Underground Coal Gasification (UCG)",
-          "horizon": "coming years",
-          "statement": "Government impetus expected to drive growth in UCG sector; company is engaging with clients",
-          "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "quantification of margins on a project-to-project basis",
-        "total CAPEX breakdown for individual rigs",
-        "specific timeline for execution of all contracts in the order book"
+        "Contribution of specific orders to revenue"
       ],
       "margin_drivers": [
-        "fixed cost coverage with revenue growth",
-        "improved operational efficiency",
-        "shift toward private sector clients (two-thirds of order book)",
-        "exploration sector growth driven by geopolitical uncertainties and supply chain disruptions",
-        "government impetus on critical minerals and energy security"
+        "Diversified business mix",
+        "Operational excellence",
+        "Disciplined execution"
       ]
     },
     "Beta Drugs Ltd": {
@@ -99032,6 +98979,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-24T22:44:29.279Z",
+  "generated_at": "2026-07-24T23:40:36.167Z",
   "count": 1003
 }
