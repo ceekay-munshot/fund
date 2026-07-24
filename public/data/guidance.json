@@ -47103,110 +47103,65 @@
     },
     "Central Bank": {
       "company": "Central Bank",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e73d3cbd-034b-4566-9304-0da2cd77bce0.pdf",
-      "transcript_id": "central-bank_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-29T14:17:55.914Z",
-      "summary": "Management expects steady growth in FY27 with improved asset quality, NIM stability, and profitability supported by tax benefits and digital investments.",
+      "ticker": "CENTRALBK",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-23",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=889293e7-c22c-410d-89d0-4e0ce1829562.pdf",
+      "transcript_id": "central-bank_2026-07-23",
+      "provider": "groq",
+      "generated_at": "2026-07-24T07:14:11.589Z",
+      "summary": "Central Bank of India expects to maintain its growth guidance of 11-12% in deposits and 14-16% in advances, with a focus on improving yield and reducing cost-to-income ratio.",
       "guidance": [
-        {
-          "metric": "Credit growth",
-          "horizon": "FY27",
-          "statement": "Guidance of 14% to 16% credit growth for FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
         {
           "metric": "Deposit growth",
           "horizon": "FY27",
-          "statement": "Guidance of 10% to 12% deposit growth for FY27",
+          "statement": "11-12% growth expected",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Slippage ratio",
+          "metric": "Advances growth",
           "horizon": "FY27",
-          "statement": "Guidance to keep slippage ratio less than 1% in FY27",
+          "statement": "14-16% growth expected",
           "specificity": "specific",
-          "direction": "down"
+          "direction": "up"
         },
         {
           "metric": "NIM",
           "horizon": "FY27",
-          "statement": "Expects NIM stability with improved treasury returns",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "CASA ratio",
-          "horizon": "FY27",
-          "statement": "CASA ratio maintained at 47.30% with continued focus on CASA mobilization",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "CD ratio",
-          "horizon": "FY27",
-          "statement": "CD ratio expected to improve to ~74% from 73.80%",
+          "statement": "Above 3% expected",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Recovery from written-off accounts",
+          "metric": "ROA",
           "horizon": "FY27",
-          "statement": "Estimated recovery of INR2,200 crores to INR2,500 crores from written-off accounts in FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "ECL transition impact",
-          "horizon": "FY27",
-          "statement": "Ongoing credit cost under ECL framework estimated at INR600 crores to INR650 crores annually",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Tax regime transition benefit",
-          "horizon": "FY27",
-          "statement": "Expected benefit of INR600 crores to INR800 crores from transition to new tax regime (25% vs 35%)",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Digital spend",
-          "horizon": "FY27",
-          "statement": "Budgeted digital spend of INR1,442 crores (capital) and INR1,276 crores (revenue) for FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "RAM vs Corporate mix",
-          "horizon": "FY27",
-          "statement": "Maintaining RAM to Corporate ratio at 65%:35% (+/-5%)",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Insurance JV income",
-          "horizon": "FY27",
-          "statement": "Opportunity to leverage insurance JV for higher fee-based income",
+          "statement": "1% and above expected",
           "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost-to-income ratio",
+          "horizon": "FY27",
+          "statement": "Less than 56% expected",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Yield on advances",
+          "horizon": "FY27",
+          "statement": "Expected to reach 8%",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Sanction pipeline and undisbursed credit limits",
-        "Technology development report and spending breakdown"
+        "Capital raising plans"
       ],
       "margin_drivers": [
-        "Treasury optimization",
-        "Fee-based income from wealth management and insurance JV",
-        "Tax regime transition benefit (10% reduction)",
-        "Digital investments and process improvements",
-        "CASA ratio stability"
+        "Improvement in yield on advances",
+        "Reduction in cost of deposits",
+        "Growth in fee-based income"
       ]
     },
     "IndiGrid Trust": {
@@ -99120,6 +99075,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-24T04:26:37.431Z",
+  "generated_at": "2026-07-24T07:14:47.751Z",
   "count": 1002
 }
