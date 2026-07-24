@@ -61736,111 +61736,56 @@
     },
     "Sai Silks": {
       "company": "Sai Silks",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0200466b-c853-42ad-bf50-0fe1c5db83fa.pdf",
-      "transcript_id": "sai-silks_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-03T05:35:30.560Z",
-      "summary": "Management expects FY27 to see accelerated store expansion, improved SSSG, and margin expansion despite new market entry costs.",
+      "ticker": "KALAMANDIR",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-07-23",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1726efc9-ad0e-4dd9-ba89-66d940c0c3e5.pdf",
+      "transcript_id": "sai-silks_2026-07-23",
+      "provider": "groq",
+      "generated_at": "2026-07-24T11:52:20.142Z",
+      "summary": "Sai Silks expects revenue growth of 12-15% for the current financial year, driven by expansion and improving same-store sales growth (SSSG) in the second half of the year.",
       "guidance": [
         {
-          "metric": "Net retail square feet addition",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "At least 20% more than FY26's net addition of ~78,600 sq ft, targeting ~100,000 sq ft net addition.",
+          "statement": "Revenue growth expected to be between 12% and 15%",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue growth",
-          "horizon": "FY27",
-          "statement": "Revenue expected to be more than FY26's INR1,654 crores, though no exact number provided.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Same-store sales growth (SSSG)",
-          "horizon": "FY27",
-          "statement": "SSSG expected to be similar to or slightly better than FY26's 3% growth.",
-          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "EBITDA margin expected to improve by at least 50 basis points over FY26's 15.76%.",
+          "statement": "EBITDA margins expected to improve through the course of the year",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "SSSG",
+          "horizon": "FY27",
+          "statement": "SSSG expected to be around 2-3% positive, plus additional revenue from new stores",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Net retail space addition of approximately 1,00,000 square feet targeted for the financial year",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Gross margin",
           "horizon": "FY27",
-          "statement": "Gross margin to be maintained at ~42% despite new formats and market entries.",
-          "specificity": "specific",
+          "statement": "Gross margins expected to remain around the same level as last year",
+          "specificity": "vague",
           "direction": "flat"
-        },
-        {
-          "metric": "Store formats for expansion",
-          "horizon": "FY27",
-          "statement": "Expansion to focus on Varamahalakshmi, Kalamandir, and Valli formats; no new KLM stores planned.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "New state expansion",
-          "horizon": "FY27",
-          "statement": "Plans to enter new states, with at least 1 store outside core markets (likely Maharashtra).",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "State-wise SSSG (Varamahalakshmi)",
-          "horizon": "FY27",
-          "statement": "High single-digit SSSG expected in Telangana and Andhra Pradesh for Varamahalakshmi format.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "KLM format performance",
-          "horizon": "FY27",
-          "statement": "KLM format expected to deliver positive SSSG growth as product mix is adjusted and underperforming stores reduced.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Employee cost impact on EBITDA",
-          "horizon": "Q1-Q2 FY27",
-          "statement": "Employee cost (including bonuses) expected to be lower in Q1 and Q2 compared to H2 FY26 due to timing of bonus payouts.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Advertisement cost",
-          "horizon": "FY27",
-          "statement": "Advertisement cost reduced Y-o-Y by ~INR10 crores in FY26; trend expected to continue with disciplined spending.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "H1 vs H2 revenue growth",
-          "horizon": "FY27",
-          "statement": "H2 expected to outperform H1 due to wedding calendar shifts and Adhik Maas impact in Q1.",
-          "specificity": "vague",
-          "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "Exact revenue guidance for FY27",
-        "Format-wise sales breakup for FY27",
-        "State-wise sales breakup for FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Vendor discounts",
-        "Gross margin maintenance despite new formats",
-        "Disciplined cost management (advertisement, employee costs)",
-        "Product mix optimization (KLM format)",
-        "Localized marketing and hyper-local initiatives"
+        "Improving same-store sales growth",
+        "Operating leverage from new stores",
+        "Pricing discipline and merchandise mix management"
       ]
     },
     "A B Real Estate": {
@@ -99075,6 +99020,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-24T09:59:49.290Z",
+  "generated_at": "2026-07-24T11:52:52.629Z",
   "count": 1002
 }
