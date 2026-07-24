@@ -98973,8 +98973,65 @@
         "Product mix",
         "Pricing"
       ]
+    },
+    "HDFC Bank": {
+      "company": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf",
+      "transcript_id": "hdfc-bank_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-24T21:41:47.541Z",
+      "summary": "HDFC Bank's management is optimistic about the bank's future growth, driven by its strong franchise, customer focus, and investments in technology and digital adoption.",
+      "guidance": [
+        {
+          "metric": "CASA ratio",
+          "horizon": "medium-term",
+          "statement": "Aim to reach pre-merger levels of around 38%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail mix",
+          "horizon": "long-term",
+          "statement": "Targeting 60% retail mix, mirroring India's consumption component of GDP",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "FCNR deposits",
+          "horizon": "near-term",
+          "statement": "Aim to gain significant market share, but no specific number disclosed",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Borrowing mix",
+          "horizon": "long-term",
+          "statement": "Expecting reduction from current 11% to around 5-6%, in line with industry levels",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Margin",
+          "horizon": "long-term",
+          "statement": "Expect cost of funds to improve, contributing to better margins",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "CEO reappointment process details"
+      ],
+      "margin_drivers": [
+        "Cost of funds",
+        "Asset yield",
+        "Mix of assets",
+        "Retail mix"
+      ]
     }
   },
-  "generated_at": "2026-07-24T20:39:31.471Z",
-  "count": 1002
+  "generated_at": "2026-07-24T21:42:38.113Z",
+  "count": 1003
 }
