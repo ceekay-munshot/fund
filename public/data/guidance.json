@@ -90050,101 +90050,49 @@
       "company": "Nippon Life Ind.",
       "ticker": "NAM-INDIA",
       "sector": "Financial Services",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0af7699a-8896-47d2-a07c-0ee76a962512.pdf",
-      "transcript_id": "nippon-life-ind_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-10T23:34:41.710Z",
-      "summary": "Management expects continued growth in AUM and profitability, driven by strong SIP momentum, ETF leadership, and new initiatives like SIF, while navigating regulatory and competitive pressures.",
+      "concall_date": "2026-07-23",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fccd9721-84d6-4f06-9129-145f6f33711c.pdf",
+      "transcript_id": "nippon-life-ind_2026-07-23",
+      "provider": "groq",
+      "generated_at": "2026-07-24T04:25:54.180Z",
+      "summary": "Nippon Life India Asset Management expects to continue investing in technology and brand, with overall expenses growing 18-20% ex-ESOPs, and is optimistic about the SIF space with a state of readiness to launch differentiated products.",
       "guidance": [
         {
-          "metric": "Expense growth (ex-ESOP)",
-          "horizon": "FY27",
-          "statement": "Expenses expected to grow in the range of 15%-16% YoY excluding ESOP costs.",
+          "metric": "Operating Expenses",
+          "horizon": "next 6-8 quarters",
+          "statement": "will continue to invest in technology and brand, with growth in the range of 18-20% ex-ESOPs",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Regulatory impact (SEBI fee)",
+          "metric": "Yield",
           "horizon": "FY27",
-          "statement": "Regulatory impact expected to be in the range of 3.5-4 basis points on equity AUM.",
+          "statement": "may drop on equity as the size goes up, which will be 1 to 2 basis points on YoY on blended yield",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "SIP flows",
+          "metric": "SIP market share",
           "horizon": "medium-term",
-          "statement": "SIP flows expected to stabilize with growth in hybrid and commodity categories, supporting market share gains.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "ETF market share",
-          "horizon": "medium-term",
-          "statement": "ETF market share expected to remain strong, driven by volumes and liquidity in flagship products.",
+          "statement": "expects to maintain its SIP market share, with a focus on broad-basing its SIP book",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Gold & Silver ETF traction",
-          "horizon": "near-term",
-          "statement": "Gold and silver ETF volumes expected to remain strong, with natural pull from investors during cycles.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "SIF business outlook",
-          "horizon": "medium-term to long-term",
-          "statement": "SIF business seen as a significant growth opportunity, potentially becoming as large as ETFs over time.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "GIFT City strategy",
+          "metric": "Equity inflows",
           "horizon": "medium-term",
-          "statement": "GIFT City expected to become an important gateway for foreign inflows into India.",
+          "statement": "expects equity inflows to continue, with a focus on asset allocation and broad-basing its equity book",
           "specificity": "vague",
           "direction": "up"
-        },
-        {
-          "metric": "AIF fundraising",
-          "horizon": "FY27",
-          "statement": "Fundraising underway for multiple AIFs, including listed equity, private credit, and direct VC funds.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Digital business contribution",
-          "horizon": "FY27",
-          "statement": "Digital business expected to continue driving new purchase transactions and SIP registrations.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Market share in equity net sales",
-          "horizon": "FY27",
-          "statement": "Equity net sales market share expected to remain in double digits (excluding NFOs).",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Operating leverage",
-          "horizon": "medium-term",
-          "statement": "Operating leverage expected to improve as AUM grows, reducing expense basis points over time.",
-          "specificity": "vague",
-          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "SEBI fine resolution timeline",
-        "Exact AUM or profitability targets for SIF business",
-        "Future dividend payout ratios or policies"
+        "exact timeline for lifting restrictions on gold ETF inflows"
       ],
       "margin_drivers": [
-        "ETF and commodity ETF mix",
-        "SIP book growth and retention",
-        "Operating leverage from AUM growth",
-        "Regulatory fee pass-through"
+        "broad-basing of SIP book",
+        "asset allocation",
+        "technology and brand investments"
       ]
     },
     "Rajesh Power": {
@@ -99172,6 +99120,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-24T01:03:50.293Z",
+  "generated_at": "2026-07-24T04:26:37.431Z",
   "count": 1002
 }
