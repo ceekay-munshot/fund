@@ -80574,109 +80574,58 @@
       "company": "Indiamart Inter.",
       "ticker": "INDIAMART",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a08b97bb-936d-413a-be28-6d840995cc8f.pdf",
-      "transcript_id": "indiamart-inter_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-07T13:50:00.556Z",
-      "summary": "Management expects double-digit growth in the near term driven by ARPU expansion and supplier base optimization, though net adds remain uncertain due to market conditions.",
+      "concall_date": "2026-07-25",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c7c99e2-b516-4077-b9ff-61349aab22ef.pdf",
+      "transcript_id": "indiamart-inter_2026-07-25",
+      "provider": "groq",
+      "generated_at": "2026-07-25T22:05:08.169Z",
+      "summary": "IndiaMART's management expects to drive growth through quality enhancements, trust-building initiatives, and potential monetization of buyers, while navigating the evolving landscape of search engines and LLMs.",
       "guidance": [
         {
-          "metric": "Revenue growth",
-          "horizon": "near term",
-          "statement": "Aim for double-digit growth driven by ARPU expansion and paying supplier growth",
+          "metric": "Revenue",
+          "horizon": "medium-term",
+          "statement": "expected to grow through quality enhancements and trust-building initiatives",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Paying supplier base",
-          "horizon": "near term",
-          "statement": "Expect at least 2x more opportunity for growth in paying supplier base",
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "expected to remain elevated due to savings from lower customer acquisition and operating leverage",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "ARPU growth",
-          "horizon": "near term",
-          "statement": "ARPU growth of 8-9% currently, with headroom for further expansion",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Net adds",
-          "horizon": "near term",
-          "statement": "No guidance on net adds until churn improves and multiple quarters of success are achieved",
-          "specificity": "refused",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Gross adds recovery",
-          "horizon": "Q1FY27",
-          "statement": "Gross adds normalization may take longer due to geopolitical and pricing pressures",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Churn rates",
-          "horizon": "ongoing",
-          "statement": "Monthly churn rates remain stable: Platinum <1%, Gold 1-1.5%, Silver annual ~4%, Silver monthly ~7%",
-          "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "AI-led initiatives",
+          "metric": "Buyer monetization",
           "horizon": "medium-term",
-          "statement": "Embedding AI capabilities across platforms to improve discovery and trust",
+          "statement": "potential launch of paid buyer program with value-added services",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Buyer verification",
-          "horizon": "medium-term",
-          "statement": "Increased buyer verification may lead to 1% drop in conversion from traffic to enquiries",
+          "metric": "Gross paid suppliers",
+          "horizon": "2-3 quarters",
+          "statement": "may focus on acquiring more gross customers if churn remains high",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Silver monthly churn",
+          "horizon": "short-term",
+          "statement": "remains around 7%, with most churn limited to the first-year onboarding",
           "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Value-added services",
-          "horizon": "medium-term",
-          "statement": "Continued experiments on value-added services like Lead Manager, logistics, and credit facilitation",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Export business",
-          "horizon": "ongoing",
-          "statement": "Export-oriented business growing to Rs. 50-70 crores of collections",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Busy Infotech growth",
-          "horizon": "medium-term",
-          "statement": "Foundation laid for sustained high growth at Busy with AI-led features and product improvements",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Platform trust initiatives",
-          "horizon": "medium-term",
-          "statement": "Increased seller and buyer verification to enhance trust and quality of enquiries",
-          "specificity": "vague",
-          "direction": "up"
+          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "Net adds trajectory (5-6% annual basis)",
-        "Split of traffic sources (organic vs. performance marketing)",
-        "Timeline for gross adds normalization post-price hike"
+        "specific timeline for launch of paid buyer program",
+        "exact impact of LLMs on search engine traffic"
       ],
       "margin_drivers": [
-        "ARPU expansion",
-        "Supplier retention and upsell to higher tiers (Gold/Platinum)",
-        "AI-led improvements in enquiry quality and trust",
-        "Value-added services monetization",
-        "Export business growth"
+        "savings from lower customer acquisition",
+        "operating leverage",
+        "quality enhancements",
+        "trust-building initiatives"
       ]
     },
     "BLS Internat.": {
@@ -98786,6 +98735,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-25T21:06:42.023Z",
+  "generated_at": "2026-07-25T22:05:51.786Z",
   "count": 1004
 }
