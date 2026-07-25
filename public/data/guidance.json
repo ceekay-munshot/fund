@@ -85309,107 +85309,57 @@
       "company": "Atlanta Electric",
       "ticker": "ATLANTAELE",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a8f3f46-a290-4807-923d-4603b0cf2200.pdf",
-      "transcript_id": "atlanta-electric_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-08T11:16:04.426Z",
-      "summary": "Atlanta Electricals expects sustained growth driven by EHV transformer ramp-up, export expansion, and new product launches, with margins remaining stable in the near term.",
+      "concall_date": "2026-07-25",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=194200e4-88b1-4209-b67e-3ffacd5f15b9.pdf",
+      "transcript_id": "atlanta-electric_2026-07-25",
+      "provider": "groq",
+      "generated_at": "2026-07-25T19:50:24.117Z",
+      "summary": "Atlanta Electricals expects to maintain its growth momentum, driven by a strong order book and expanding manufacturing capacity, with a focus on moving up the transformer value chain and strengthening its technological capabilities.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expected revenue growth of ~40% CAGR over next 3 years",
+          "statement": "Expect to maintain 40% CAGR for the next 3 years",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Margins to remain stable in 18-20% band",
+          "horizon": "FY27-28",
+          "statement": "Intend to stick to 16-16.5% margin guideline",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Order book",
+          "metric": "Order book execution",
           "horizon": "FY27",
-          "statement": "Unexecuted order book of INR2,493 crores as of March 2026 provides strong execution visibility",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Vadod facility utilization",
-          "horizon": "FY27",
-          "statement": "Expected utilization to reach 65% in FY27 and 100% in FY28",
+          "statement": "Expect to execute around INR2,400 crores of the order book",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "400KV transformer production",
-          "horizon": "FY27",
-          "statement": "Majority of Vadod production in FY27 will be 220KV with limited 400KV; full 400KV ramp-up expected in FY28",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "765KV transformer development",
-          "horizon": "FY27",
-          "statement": "Prototyping of 765KV transformer at Ankhi facility targeted for FY27; commercial orders expected post-validation",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Unit 6 (IDT facility) commissioning",
-          "horizon": "FY27",
-          "statement": "Operations to commence before end of calendar year 2026, adding ~5,000 MVA capacity",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Tank and radiator facility",
-          "horizon": "FY27",
-          "statement": "Facility to commence operations in FY27; benefits expected in FY28",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export market push",
-          "horizon": "FY27",
-          "statement": "Significant and focused efforts to explore export markets with physical presence in select markets",
+          "metric": "Capacity utilization",
+          "horizon": "Medium-term",
+          "statement": "Expect to increase capacity utilization across facilities",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Per MVA realization",
-          "horizon": "FY27",
-          "statement": "Per MVA realizations expected to drop as higher MVA products (400KV/765KV) scale up",
+          "metric": "Export revenue",
+          "horizon": "Medium-term",
+          "statement": "Aim for exports to contribute around 15% of revenue",
           "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Raw material cost pressure",
-          "horizon": "next 1-2 quarters",
-          "statement": "Temporary cost increases expected on small components (gaskets, paints) due to global supply chain disruptions; majority of contracts have price variation clauses",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Tech tie-up for 765KV",
-          "horizon": "next 2 months",
-          "statement": "Tech tie-up discussions for 765KV transformer expected to close in next couple of months",
-          "specificity": "specific",
-          "direction": "unclear"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Short circuit test timelines for 400KV transformer"
+        "Specific order inflow numbers for Q2 and beyond",
+        "Detailed breakdown of raw material costs and pricing pressure"
       ],
       "margin_drivers": [
-        "Operating leverage from higher volumes",
-        "Richer product mix (220KV class now ~52% of revenue)",
-        "Improved procurement efficiency",
-        "Backward integration (tank and radiator facility)",
-        "Green transformer adoption as ESG demand grows"
+        "Operating leverage from higher production volumes",
+        "Improved product mix with higher-value products",
+        "Better operational efficiency"
       ]
     },
     "Connplex Cinemas": {
@@ -98836,6 +98786,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-25T18:33:38.403Z",
+  "generated_at": "2026-07-25T19:51:10.227Z",
   "count": 1004
 }
