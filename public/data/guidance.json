@@ -91204,109 +91204,55 @@
       "company": "T R I L",
       "ticker": "TARIL",
       "sector": "Industrials",
-      "concall_date": "2026-03-31",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3148dc8c-2942-459f-a015-7a1e465046e4.pdf",
-      "transcript_id": "t-r-i-l_2026-03-31",
-      "provider": "mistral",
-      "generated_at": "2026-07-11T14:07:04.805Z",
-      "summary": "Management expects sustained revenue growth, margin expansion, and capacity utilization driven by backward integration and selective order intake.",
+      "concall_date": "2026-07-25",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c987bf81-abe6-4915-8479-e08fdbb55345.pdf",
+      "transcript_id": "t-r-i-l_2026-07-25",
+      "provider": "groq",
+      "generated_at": "2026-07-25T17:36:35.155Z",
+      "summary": "The company expects to deliver 25% revenue growth in FY27, driven by a strong order book and expanding manufacturing capabilities.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Targeting revenue of INR 3,250 crores for FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "medium-term",
-          "statement": "Aiming for 35% gross margin by FY28 and 40% with deeper integration",
+          "statement": "25% growth",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Margins expected to remain in the range of 16.5% to 17%",
+          "statement": "16% margin",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Capacity",
+          "metric": "PAT margin",
           "horizon": "FY27",
-          "statement": "Changodar plant to start operations in Q2 FY27, Moraiya plant expansion by Q3 FY27, increasing total capacity to 75,000 MVA",
+          "statement": "9-10% margin",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Capacity utilization",
-          "horizon": "H2 FY27",
-          "statement": "Changodar plant to reach ~80% utilization by end of Q3 FY27",
+          "metric": "Revenue",
+          "horizon": "FY28-29",
+          "statement": "Aim to reach $1 billion top line",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Margin improvement",
-          "horizon": "medium-term",
-          "statement": "Backward integration expected to add 200-300 bps to margins",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Margin improvement",
-          "horizon": "medium-term",
-          "statement": "Backward integration and purchasing power to improve margins in renewable and furnace transformers",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Order book",
-          "horizon": "next 18 months",
-          "statement": "Order book of INR 5,000+ crores ensures clear revenue visibility",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Order intake strategy",
-          "horizon": "ongoing",
-          "statement": "Selective order intake to limit exposure to 18-24 months delivery",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "HVDC segment",
-          "horizon": "medium-term",
-          "statement": "Expecting 10-12 HVDC tenders annually with ~3 units per tender in the future",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Green hydrogen transformers",
-          "horizon": "medium-term",
-          "statement": "Working on prototype transformers; demand expected as projects go live",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "CRGO sourcing",
-          "horizon": "FY27",
-          "statement": "CRGO processing unit already started; backward integration on track to deliver results in near future",
+          "metric": "EBITDA margin",
+          "horizon": "FY28",
+          "statement": "Expect 200-300 basis points improvement due to backward integration",
           "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "finalized revenue or margin guidance for FY28",
-        "specific capex amount for capacity expansion"
+        "FY28 revenue and EBITDA margin (except for the margin improvement due to backward integration)"
       ],
       "margin_drivers": [
-        "backward integration",
-        "CRGO sourcing efficiency",
-        "purchasing power (75,000 MVA capacity)",
-        "operational efficiencies",
-        "capacity expansion",
-        "automation and digital transformation"
+        "Backward integration",
+        "Operational efficiencies"
       ]
     },
     "Rajratan Global": {
@@ -98890,6 +98836,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-25T16:29:58.208Z",
+  "generated_at": "2026-07-25T17:37:21.470Z",
   "count": 1004
 }
