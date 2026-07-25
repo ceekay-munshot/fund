@@ -85185,108 +85185,55 @@
       "company": "Canara Robeco",
       "ticker": "CRAMC",
       "sector": "Financial Services",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41178b5a-0f71-4820-bde7-5e651c19b6b1.pdf",
-      "transcript_id": "canara-robeco_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-08T11:15:48.227Z",
-      "summary": "Management expects disciplined growth driven by SIP momentum, cost discipline, and focus on active equity funds, with cautious expansion into adjacent segments.",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74efe3c1-705f-4159-9979-590822c726f0.pdf",
+      "transcript_id": "canara-robeco_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-25T11:48:03.817Z",
+      "summary": "Canara Robeco aims for long-term sustainable growth in FY27, focusing on product innovation, digital transformation, and investor trust.",
       "guidance": [
         {
-          "metric": "SIP flows",
-          "horizon": "next 6 months",
-          "statement": "Dedicated sales teams to be set up across five locations to revive SIP growth, aiming for directional improvement",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Employee cost",
-          "horizon": "FY27",
-          "statement": "Employee cost expected to increase due to branch expansion and regulatory costs, with cost-to-income ratio targeted between 40-50%",
+          "metric": "Yield",
+          "horizon": "Medium-term",
+          "statement": "Aim to maintain yields in the range of 35-38",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Other expenses",
-          "horizon": "Q1FY27",
-          "statement": "Other expenses to normalize from INR15.7-16 crores levels after one-time NFO and regulatory costs in Q4FY26",
+          "metric": "Cost-to-income ratio",
+          "horizon": "FY27",
+          "statement": "Target cost-to-income ratio to be below 40",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Revenue yields",
-          "horizon": "medium-term",
-          "statement": "Comfortable with revenue yields in the range of 32-40 bps, focusing more on PAT growth",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "BER impact on revenue",
+          "metric": "NFO launches",
           "horizon": "FY27",
-          "statement": "Impact of BER (replacing TER) expected to be neutral at worst, with potential gain of 2-3 bps",
+          "statement": "Plan to launch 2 NFOs in the financial year",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Diversification into PMS/AIF",
-          "horizon": "medium-term",
-          "statement": "No near-term plans to diversify into PMS or AIF, focusing on mutual fund space due to risk considerations",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Passive funds (ETFs/index funds)",
-          "horizon": "medium-term",
-          "statement": "No near-term plans to launch passive funds, currently focused on active equity funds",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Geographical expansion",
-          "horizon": "medium-term",
-          "statement": "Continued focus on Pan-India presence, with no specific targets for regional AUM mix",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Advisory fees (Onex)",
-          "horizon": "FY27",
-          "statement": "Over 90% of fees expected to continue coming from management side, with annual report to provide split",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Market share in flows",
-          "horizon": "Q4FY26",
-          "statement": "Maintained market share in flows, with no significant gain or loss relative to industry",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Technology investments",
-          "horizon": "FY27",
-          "statement": "Technology investments to support regulatory environment, with normalization expected in next quarter",
+          "metric": "Passive products",
+          "horizon": "Short-to-medium term",
+          "statement": "Plan to launch passive products",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "AUM growth (equity-focused)",
-          "horizon": "medium-term",
-          "statement": "Equity-focused AUM to outperform in bull markets and underperform in bear markets due to 91% equity allocation",
+          "metric": "SIP accounts",
+          "horizon": "FY27",
+          "statement": "Focus on strengthening SIP franchise",
           "specificity": "vague",
-          "direction": "unclear"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "March net inflow numbers for equity category",
-        "Quantification of one-off expenses (regulatory, labor code, technology)",
-        "Future AUM split between equity and debt"
+        "Net inflows"
       ],
       "margin_drivers": [
-        "Cost-to-income ratio (40-50% target)",
-        "Revenue yields (32-40 bps range)",
-        "Employee cost growth (due to branch expansion and regulatory costs)",
-        "PAT focus over yield"
+        "Cost efficiencies",
+        "Yield improvement"
       ]
     },
     "Safe Enterprises": {
@@ -98985,6 +98932,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-25T10:42:17.639Z",
+  "generated_at": "2026-07-25T11:48:50.254Z",
   "count": 1004
 }
