@@ -78348,109 +78348,51 @@
       "company": "Vimta Labs",
       "ticker": "VIMTALABS",
       "sector": "Healthcare",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e37bbe73-8c54-4f85-8d97-2757bbb62b1f.pdf",
-      "transcript_id": "vimta-labs_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-06T21:14:29.718Z",
-      "summary": "Management expects steady growth driven by pharma, food, and electronics testing, with biologics CRO as a future opportunity, while maintaining stable margins despite cost pressures.",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f98f255-8a33-47e6-b7cf-726e5f5f7b71.pdf",
+      "transcript_id": "vimta-labs_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-25T06:59:32.807Z",
+      "summary": "Vimta Labs expects to maintain its growth momentum, driven by positive enquiry trends and healthy demand visibility across its service portfolio.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Intent to maintain current revenue momentum, targeting INR120-130 crore per quarter.",
+          "statement": "On track to achieve revenue goal of around INR500 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
-          "horizon": "medium-term",
-          "statement": "Focus on sustaining margins in a stable and competitive range, with potential 1-2% correction due to input costs or manpower increases.",
+          "metric": "Operating Margins",
+          "horizon": "FY27",
+          "statement": "Expect margins to not go down further, driven by business growth",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Biologics CRO revenue contribution",
+          "metric": "Capex",
           "horizon": "FY27",
-          "statement": "FY27 will focus on execution, learning, and building credibility; significant contribution not expected in maiden year.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Biologics CRO client traction",
-          "horizon": "FY27",
-          "statement": "Good inquiries received, with plans to close deals soon; traction from Europe, India, and a couple from the US.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Pharma testing demand",
-          "horizon": "FY27-FY30",
-          "statement": "Pharma testing demand expected to grow due to shift toward large molecules and increased R&D spending globally.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Food testing demand",
-          "horizon": "FY27-FY30",
-          "statement": "Food testing demand expected to remain strong, with Vimta well-positioned to capitalize on regulation changes.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Electronics testing demand",
-          "horizon": "FY27-FY30",
-          "statement": "Electronics testing demand expected to grow due to India's Atmanirbhar initiative and increased export focus by manufacturers.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Environmental testing revenue",
-          "horizon": "FY27",
-          "statement": "Environmental testing (PPM) revenues expected to gradually increase after transitioning away from EIA.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Export revenue share",
-          "horizon": "Q4FY26",
-          "statement": "Export revenue accounted for ~38% in Q4FY26.",
+          "statement": "Budgeted capex spend of approximately INR80 crores",
           "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Capacity utilization",
-          "horizon": "FY27-FY29",
-          "statement": "Utilization of new facility expected to gradually pick up over the next 2-3 years.",
-          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "US subsidiary purpose",
-          "horizon": "FY27",
-          "statement": "US subsidiary established to be closer to customers and build confidence; no significant tariff advantage expected.",
+          "metric": "Biologics segment",
+          "horizon": "FY27 and beyond",
+          "statement": "Expect significant contribution to top line and margin from the third year onwards",
           "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "CAGR target",
-          "horizon": "FY27-FY30",
-          "statement": "Management targets 20-25% revenue CAGR over the next 3-4 years, describing it as doable but a stretch.",
-          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Margin breakdown by vertical",
-        "FTE vs FFS revenue split by vertical",
-        "Impact of geopolitical tensions on future revenue"
+        "Size of the first order for Biologics services",
+        "Timeline for conversion of remaining clients for Biologics services",
+        "Number of ANDA filings or biosimilar filings supported in a given year"
       ],
       "margin_drivers": [
-        "Input cost pressures",
-        "Manpower investments",
-        "Capacity ramp-ups",
-        "Geopolitical issues",
-        "Top-line growth offsetting cost pressures"
+        "Growth in pharma services",
+        "Increasing demand for testing and qualification services for defense electronics",
+        "Improving enquiry trends and healthy demand visibility"
       ]
     },
     "True Colors": {
@@ -99043,6 +98985,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-25T04:22:28.775Z",
+  "generated_at": "2026-07-25T07:00:20.693Z",
   "count": 1004
 }
