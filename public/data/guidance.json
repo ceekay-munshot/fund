@@ -63235,108 +63235,66 @@
       "company": "Rossari Biotech",
       "ticker": "ROSSARI",
       "sector": "Commodities",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c378823-f001-4635-bf0e-d7b52bf3e703.pdf",
-      "transcript_id": "rossari-biotech_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-03T18:22:59.687Z",
-      "summary": "Management expects steady growth in FY27 with margins remaining stable at 12-13%, supported by new capacities and cost pass-throughs, while prioritizing debt reduction and portfolio rationalization.",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28218f4f-820d-4788-842b-65543e779ecf.pdf",
+      "transcript_id": "rossari-biotech_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-25T15:15:44.050Z",
+      "summary": "Rossari Biotech expects sustainable and profitable growth, driven by its diversified portfolio, innovation, and expanding international presence.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Minimum similar growth as FY26 (15%) expected; trajectory could improve if global conditions stabilize",
+          "statement": "Expecting good growth, but difficult to predict due to market volatility and uncertainty.",
           "specificity": "vague",
-          "direction": "unclear"
+          "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Maintain current margins of 12-13%",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "EBITDA margin improvement drivers",
-          "horizon": "H2FY27",
-          "statement": "Margin improvement expected in H2FY27 from higher-margin segments like pharma and better product mix",
+          "horizon": "short-term",
+          "statement": "Expecting improvement in EBITDA margins as capacity utilization improves and low-margin businesses are exited.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Pharma business contribution",
-          "horizon": "FY27-FY28",
-          "statement": "Pharma segment to fetch highest gross margins; focus on surfactant chemistry (e.g., polyethylene glycols) and coating products",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Ethoxylation capacity utilization",
-          "horizon": "FY27",
-          "statement": "90-100% utilization expected for ethoxylation capacities (66,000 MT)",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "New EO capacity from Reliance",
-          "horizon": "Q3FY27",
-          "statement": "Reliance's partial EO expansion expected in Q3FY27, improving supply availability",
+          "metric": "EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Aim to achieve steady-state EBITDA margins of around 15% once business mix and product mix are recalibrated.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "CAPEX plan",
+          "metric": "Pharma business revenue",
           "horizon": "FY27",
-          "statement": "CAPEX of Rs. 50-75 crore planned for FY27, primarily for pharma facility and aroma chemicals",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Debt reduction target",
-          "horizon": "18 months",
-          "statement": "Target to reduce debt significantly over next 18 months, aiming for debt-free status",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Non-core asset monetization",
-          "horizon": "FY27",
-          "statement": "Plans to liquidate non-core assets (e.g., office spaces) to improve cash flows and reduce debt",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Portfolio rationalization",
-          "horizon": "FY27",
-          "statement": "Rationalizing product portfolio and business segments to improve margins and cash flows",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Asset turnover at peak utilization",
-          "horizon": "Long-term",
-          "statement": "Peak revenue potential implies asset turnover of 3-4x at full utilization",
+          "statement": "Expecting revenue potential of close to Rs. 30-50 crore, with a ramp-up in the second half of the year.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Raw material pass-through",
+          "metric": "Export revenue",
           "horizon": "FY27",
-          "statement": "Raw material price increases have been passed on to customers; no supply shortages expected",
+          "statement": "Expecting export growth, with around 23-25% of total revenue coming from exports.",
           "specificity": "vague",
-          "direction": "flat"
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "Q1 FY27",
+          "statement": "Volume growth of around 10% YoY, with the rest of the growth coming from higher pricing.",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Segment-wise EBITDA margins (HPPC, Textiles, AHN)",
-        "Share buyback plans"
+        "Specific EBITDA margin targets for the current year",
+        "Detailed CAPEX plans for the Saudi Arabian venture"
       ],
       "margin_drivers": [
-        "Higher-margin segments like pharma",
-        "Better product mix (value-added products)",
-        "Portfolio rationalization (exiting low-margin businesses)",
-        "Operating leverage from new capacities",
-        "Cost pass-throughs for raw material increases"
+        "Improving capacity utilization",
+        "Optimizing product portfolio and product mix",
+        "Exiting low-margin businesses",
+        "Growing presence in higher-value applications",
+        "Innovation-led specialty chemical solutions"
       ]
     },
     "Five-Star Bus.Fi": {
@@ -98932,6 +98890,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-25T13:58:14.425Z",
+  "generated_at": "2026-07-25T15:16:23.380Z",
   "count": 1004
 }
