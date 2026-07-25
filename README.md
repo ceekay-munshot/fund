@@ -73,7 +73,9 @@ The dashboard reads only `./public` (the served site). These committed JSON file
 
 ## The watchlist
 
-The watchlist (52 funds as of now) lives in **`screener-test/static/funds.json`**, each with a stable `id`, a display `name`, and `aliases[]` (every spelling likely to appear in a transcript). To **add or edit a fund**, add an entry with good aliases and run a `FULL=1` sweep to backfill it.
+The watchlist (55 funds as of now) lives in **`screener-test/static/funds.json`**, each with a stable `id`, a display `name`, and `aliases[]` (every spelling likely to appear in a transcript). To **add or edit a fund**, add an entry with good aliases and run a `FULL=1` sweep to backfill it.
+
+Keep aliases **specific enough that only the fund matches**. A bare first word is fine when it's coined (`Niveshaay`, `Abakkus`, `Aequitas`) but not when it's a common word or another listed name — e.g. *Sequent Investments* keeps the second word so it never matches **SeQuent Scientific**, *Trust Mutual Fund* is never just `Trust`, and *Helios Capital* is never just `Helios`. The matcher is whitespace‑tolerant but not fuzzy, so singular and plural are separate aliases (`Sequent Investment` does **not** match "Sequent Investments").
 
 **Roadmap:**
 - Let the client **add a fund from the UI** and auto‑pull its data (planned).
