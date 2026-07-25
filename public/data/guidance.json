@@ -98977,8 +98977,72 @@
         "Mix of assets",
         "Retail mix"
       ]
+    },
+    "Action Const.Eq.": {
+      "company": "Action Const.Eq.",
+      "ticker": "ACE",
+      "sector": "Industrials",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94835795-c073-4d0d-8373-b8e45971e71e.pdf",
+      "transcript_id": "action-const-eq_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-25T04:21:46.224Z",
+      "summary": "The company expects growth in the current year driven by multiple avenues, including the Hydra crane market, construction equipment, and defense orders, despite unpredictable global economic conditions and commodity price volatility.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "The company expects to grow, but refrains from providing a specific percentage growth target due to unpredictable times, aiming to give a full-year growth target by September end.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export sales",
+          "horizon": "FY27",
+          "statement": "Export sales are expected to contribute around 6-7% to the company's revenue, with a target of at least 6% contribution.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense sales",
+          "horizon": "FY27",
+          "statement": "Defense sales are expected to contribute around 5-6% to the company's revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "KATO JV revenue",
+          "horizon": "FY28",
+          "statement": "The KATO joint venture is expected to start generating meaningful revenue from FY28 onwards, with the joint venture becoming functional by the end of July and focusing on product upgradation in Q3 and Q4 of FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tower crane capacity expansion",
+          "horizon": "FY27/28",
+          "statement": "The company plans to expand its tower crane capacity, with plans ready and a decision on the timing of the expansion to be made in September, potentially starting in October or deferred by 6 months.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Backhoe loader sales",
+          "horizon": "FY27",
+          "statement": "The company sees tremendous potential for backhoe loader exports and domestic market growth, expecting it to be one of the fastest-growing segments within crane construction equipment.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific percentage growth target for FY27"
+      ],
+      "margin_drivers": [
+        "Operational efficiencies",
+        "Calibrated pricing actions",
+        "Product mix improvement",
+        "Higher tonnages gaining traction"
+      ]
     }
   },
-  "generated_at": "2026-07-25T01:07:56.018Z",
-  "count": 1003
+  "generated_at": "2026-07-25T04:22:28.775Z",
+  "count": 1004
 }
