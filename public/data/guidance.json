@@ -89189,48 +89189,62 @@
       "company": "GSM Foils",
       "ticker": "GSMFOILS",
       "sector": "Industrials",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://nsearchives.nseindia.com/corporate/GSMFOILS_27042026174334_GSMFoilsLtdCoverLetterTranscript.pdf",
-      "transcript_id": "gsm-foils_2026-04-01",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/GSMFOILS_24072026190438_GSMFoilsLtdCoverLetterTranscriptv224072026Signed.pdf",
+      "transcript_id": "gsm-foils_2026-07-24",
       "provider": "groq",
-      "generated_at": "2026-07-10T22:37:08.440Z",
-      "summary": "GSM Foils expects to achieve optimal utilization of its Ahmedabad facility by the end of FY27, driving revenue growth, with a focus on managing working capital and relationships with clients.",
+      "generated_at": "2026-07-26T16:32:16.113Z",
+      "summary": "GSM Foils expects to deliver sustainable growth and create long-term value for stakeholders, driven by higher capacity utilization, expanded product portfolio, and disciplined execution.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expected to reach INR400-450 crores, with a monthly run rate of INR60 crores by March '27",
+          "statement": "Expected to cross INR450 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Aiming for INR750-800 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Aim to sustain current level of around 11.5%",
+          "statement": "Confident of sustaining around 12%",
           "specificity": "specific",
           "direction": "flat"
         },
         {
           "metric": "Capacity utilization",
           "horizon": "FY27",
-          "statement": "Ahmedabad facility to reach optimal utilization by the end of FY27",
+          "statement": "Expecting 80% utilization at Ahmedabad plant by year-end",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth",
-          "horizon": "medium-term",
-          "statement": "Expect sustainable growth driven by volume increase and working capital management",
-          "specificity": "vague",
+          "metric": "ROPP caps revenue",
+          "horizon": "FY27",
+          "statement": "Expected to be around INR30-35 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROPP caps revenue",
+          "horizon": "FY28",
+          "statement": "Planning to increase to INR60-65 crores",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "H1 margins"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Volume increase",
-        "Working capital management"
+        "Operating leverage",
+        "Disciplined execution",
+        "Export opportunities",
+        "Higher margin products"
       ]
     },
     "Billionbrains": {
@@ -98585,6 +98599,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-26T15:16:07.274Z",
+  "generated_at": "2026-07-26T16:32:57.017Z",
   "count": 1004
 }
