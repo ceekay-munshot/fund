@@ -87610,110 +87610,55 @@
       "company": "Cyient DLM",
       "ticker": "CYIENTDLM",
       "sector": "Industrials",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff9ffa7f-17cc-498c-933b-f7043176efdd.pdf",
-      "transcript_id": "cyient-dlm_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-09T18:07:10.414Z",
-      "summary": "Management expects sustained growth and margin improvement in FY27 driven by strong order book, strategic investments, and industry tailwinds despite near-term geopolitical and supply chain headwinds.",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93a163cf-1716-42ef-9279-4d7447436a21.pdf",
+      "transcript_id": "cyient-dlm_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-26T06:45:41.776Z",
+      "summary": "Cyient DLM is well-positioned for its next phase of profitable and sustainable growth, driven by a strong order book, a strengthened leadership team, and a robust business pipeline.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Expects year-over-year growth across all four quarters of FY27, supported by strong order backlog and pipeline.",
-          "specificity": "vague",
+          "metric": "EBITDA margin",
+          "horizon": "FY27-FY29",
+          "statement": "Margins expected to step up to 11% to 13% as the company expands into new industries",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Believes margins will sustain at double-digit levels, with further improvement possible with scale.",
+          "horizon": "FY30 and beyond",
+          "statement": "Margins expected to lift to 13% to 18% as the company builds a product and platform moat",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27-FY29",
+          "statement": "The company expects to grow revenue by expanding into new industries such as robotics and AI data center",
           "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "Order book",
           "horizon": "FY27",
-          "statement": "Order book is at record high levels, providing strong revenue visibility for FY27.",
+          "statement": "The company has a record order book, providing strong visibility for revenue execution",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Build-to-spec engagements",
-          "horizon": "medium-term",
-          "statement": "Increasing traction in higher-value build-to-spec engagements, which are more complex and integrated.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Sales team hiring",
-          "horizon": "FY27",
-          "statement": "Continued hiring of sales leaders across geographies and verticals to enhance reach and depth.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Automotive segment",
-          "horizon": "FY27",
-          "statement": "Series supply for new automotive product line and semiconductor mission supply partner initiated, signaling growth in automotive and semiconductor segments.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Operational excellence investments",
-          "horizon": "medium-term",
-          "statement": "Continued investments in operational excellence, technology, and automation to support scalable growth.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Geopolitical impact",
-          "horizon": "near-term",
-          "statement": "Near-term headwinds from geopolitical uncertainties and supply chain disruptions may impact execution schedules.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Working capital",
-          "horizon": "FY27",
-          "statement": "Expects improvement in working capital metrics, including inventory days, DSO, and cash conversion cycle.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Defense and rail segments",
-          "horizon": "medium-term",
-          "statement": "Rising domestic investments in defense and rail present meaningful opportunities for growth.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "AI infrastructure manufacturing",
-          "horizon": "medium-term",
-          "statement": "AI infrastructure manufacturing identified as a strategic growth avenue.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Vertical integration",
-          "horizon": "medium-term",
-          "statement": "Aiming for vertical integration across cable, sheet metal, and machining to broaden market reach and manufacturing depth.",
+          "metric": "Revenue",
+          "horizon": "Next 6-12 months",
+          "statement": "The company expects to see revenue growth from the semiconductor capital equipment business",
           "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "Revenue and margin targets for FY27",
-        "Quantitative revenue growth guidance for FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Operational excellence",
-        "Supply chain efficiencies",
-        "Improved business mix",
-        "Higher-value build-to-spec engagements",
-        "Cost discipline",
-        "Automation investments",
-        "Geographic and product diversification"
+        "Operating leverage",
+        "Better revenue mix",
+        "Disciplined cost management",
+        "Increasing value-added engagements with customers"
       ]
     },
     "Sangam India": {
@@ -98710,6 +98655,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-26T03:51:25.999Z",
+  "generated_at": "2026-07-26T06:46:24.860Z",
   "count": 1004
 }
