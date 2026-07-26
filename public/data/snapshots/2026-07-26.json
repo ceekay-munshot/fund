@@ -1,10 +1,10 @@
 {
   "date": "2026-07-26",
-  "generated_at": "2026-07-25T19:36:19.769Z",
+  "generated_at": "2026-07-26T06:29:58.233Z",
   "totals": {
-    "sightings": 3222,
+    "sightings": 3234,
     "companies": 1013,
-    "active_funds": 49
+    "active_funds": 52
   },
   "per_fund": [
     {
@@ -422,7 +422,7 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "sighting_count": 249,
+      "sighting_count": 250,
       "company_count": 148,
       "companies": [
         "ABS Marine",
@@ -1193,7 +1193,7 @@
     {
       "fund_id": "maximal",
       "fund_name": "Maximal Capital",
-      "sighting_count": 100,
+      "sighting_count": 101,
       "company_count": 61,
       "companies": [
         "A B Real Estate",
@@ -2472,6 +2472,20 @@
       ]
     },
     {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "sighting_count": 7,
+      "company_count": 6,
+      "companies": [
+        "Angel One",
+        "HDFC AMC",
+        "Heritage Foods",
+        "Indo Count Inds.",
+        "South West Pinn.",
+        "Tatva Chintan"
+      ]
+    },
+    {
       "fund_id": "soic",
       "fund_name": "SOIC",
       "sighting_count": 6,
@@ -2514,17 +2528,36 @@
         "Saregama India",
         "XPRO India"
       ]
+    },
+    {
+      "fund_id": "helios",
+      "fund_name": "Helios Capital",
+      "sighting_count": 2,
+      "company_count": 2,
+      "companies": [
+        "Canara Robeco",
+        "Nippon Life Ind."
+      ]
+    },
+    {
+      "fund_id": "trust-mf",
+      "fund_name": "Trust Mutual Fund",
+      "sighting_count": 1,
+      "company_count": 1,
+      "companies": [
+        "Atlanta Electric"
+      ]
     }
   ],
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 861,
+      "sighting_count": 862,
       "company_count": 255
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 778,
+      "sighting_count": 779,
       "company_count": 240
     },
     {
@@ -2534,27 +2567,27 @@
     },
     {
       "sector": "Commodities",
-      "sighting_count": 330,
+      "sighting_count": 331,
       "company_count": 98
     },
     {
       "sector": "Financial Services",
-      "sighting_count": 226,
+      "sighting_count": 230,
       "company_count": 94
     },
     {
       "sector": "Information Technology",
-      "sighting_count": 197,
+      "sighting_count": 199,
       "company_count": 59
     },
     {
       "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 193,
+      "sighting_count": 195,
       "company_count": 61
     },
     {
       "sector": "Services",
-      "sighting_count": 168,
+      "sighting_count": 169,
       "company_count": 59
     },
     {
@@ -2578,5 +2611,78 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Onward Technolog",
+      "sector": "Information Technology",
+      "concall_date": "2026-07-22"
+    },
+    {
+      "fund_name": "Helios Capital",
+      "company": "Canara Robeco",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-24"
+    },
+    {
+      "fund_name": "Helios Capital",
+      "company": "Nippon Life Ind.",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-23"
+    },
+    {
+      "fund_name": "Maximal Capital",
+      "company": "Onward Technolog",
+      "sector": "Information Technology",
+      "concall_date": "2026-07-22"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Angel One",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-21"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "HDFC AMC",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-17"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Heritage Foods",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-07-21"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Heritage Foods",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-07-20"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Indo Count Inds.",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "South West Pinn.",
+      "sector": "Services",
+      "concall_date": "2026-07-24"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Tatva Chintan",
+      "sector": "Commodities",
+      "concall_date": "2026-07-21"
+    },
+    {
+      "fund_name": "Trust Mutual Fund",
+      "company": "Atlanta Electric",
+      "sector": "Industrials",
+      "concall_date": "2026-07-25"
+    }
+  ]
 }

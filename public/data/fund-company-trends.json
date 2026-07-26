@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-26T05:02:21.040Z",
+  "generated_at": "2026-07-26T06:29:57.890Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 42,
-    "gained": 356,
-    "consistent": 538,
+    "gained": 364,
+    "consistent": 541,
     "companies_evaluated": 945
   },
   "dropped": [
@@ -473,6 +473,14 @@
   ],
   "gained": [
     {
+      "fund_id": "trust-mf",
+      "fund_name": "Trust Mutual Fund",
+      "company": "Atlanta Electric",
+      "ticker": "ATLANTAELE",
+      "sector": "Industrials",
+      "latest_call_date": "2026-07-25"
+    },
+    {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
       "company": "T R I L",
@@ -481,11 +489,11 @@
       "latest_call_date": "2026-07-25"
     },
     {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "HDFC Bank",
-      "ticker": "HDFCBANK",
-      "sector": "Financial Services",
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "South West Pinn.",
+      "ticker": "SOUTHWEST",
+      "sector": "Services",
       "latest_call_date": "2026-07-24"
     },
     {
@@ -494,6 +502,22 @@
       "company": "South West Pinn.",
       "ticker": "SOUTHWEST",
       "sector": "Services",
+      "latest_call_date": "2026-07-24"
+    },
+    {
+      "fund_id": "helios",
+      "fund_name": "Helios Capital",
+      "company": "Canara Robeco",
+      "ticker": "CRAMC",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-24"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "sector": "Financial Services",
       "latest_call_date": "2026-07-24"
     },
     {
@@ -513,11 +537,11 @@
       "latest_call_date": "2026-07-24"
     },
     {
-      "fund_id": "maximal",
-      "fund_name": "Maximal Capital",
-      "company": "Wework India",
-      "ticker": "WEWORK",
-      "sector": "Services",
+      "fund_id": "helios",
+      "fund_name": "Helios Capital",
+      "company": "Nippon Life Ind.",
+      "ticker": "NAM-INDIA",
+      "sector": "Financial Services",
       "latest_call_date": "2026-07-23"
     },
     {
@@ -526,6 +550,14 @@
       "company": "Nippon Life Ind.",
       "ticker": "NAM-INDIA",
       "sector": "Financial Services",
+      "latest_call_date": "2026-07-23"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "Wework India",
+      "ticker": "WEWORK",
+      "sector": "Services",
       "latest_call_date": "2026-07-23"
     },
     {
@@ -545,6 +577,30 @@
       "latest_call_date": "2026-07-22"
     },
     {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Angel One",
+      "ticker": "ANGELONE",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-21"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Tatva Chintan",
+      "ticker": "TATVA",
+      "sector": "Commodities",
+      "latest_call_date": "2026-07-21"
+    },
+    {
+      "fund_id": "tamohara",
+      "fund_name": "Tamohara Investment Managers",
+      "company": "Tatva Chintan",
+      "ticker": "TATVA",
+      "sector": "Commodities",
+      "latest_call_date": "2026-07-21"
+    },
+    {
       "fund_id": "carnelian",
       "fund_name": "Carnelian",
       "company": "Tata Technolog.",
@@ -558,14 +614,6 @@
       "company": "Steel Str. Wheel",
       "ticker": "SSWL",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-07-21"
-    },
-    {
-      "fund_id": "tamohara",
-      "fund_name": "Tamohara Investment Managers",
-      "company": "Tatva Chintan",
-      "ticker": "TATVA",
-      "sector": "Commodities",
       "latest_call_date": "2026-07-21"
     },
     {
@@ -585,11 +633,11 @@
       "latest_call_date": "2026-07-21"
     },
     {
-      "fund_id": "icici-prudential",
-      "fund_name": "ICICI Prudential AMC",
-      "company": "Havells India",
-      "ticker": "HAVELLS",
-      "sector": "Consumer Discretionary",
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "HDFC AMC",
+      "ticker": "HDFCAMC",
+      "sector": "Financial Services",
       "latest_call_date": "2026-07-17"
     },
     {
@@ -598,6 +646,14 @@
       "company": "HDFC AMC",
       "ticker": "HDFCAMC",
       "sector": "Financial Services",
+      "latest_call_date": "2026-07-17"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Havells India",
+      "ticker": "HAVELLS",
+      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-07-17"
     },
     {
@@ -801,6 +857,22 @@
       "latest_call_date": "2026-06-03"
     },
     {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Indo Count Inds.",
+      "ticker": "ICIL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-06-01"
+    },
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "Indo Count Inds.",
+      "ticker": "ICIL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-06-01"
+    },
+    {
       "fund_id": "vaikarya",
       "fund_name": "Vaikarya Capital",
       "company": "Biocon",
@@ -862,14 +934,6 @@
       "company": "M & B Engineer.",
       "ticker": "MBEL",
       "sector": "Industrials",
-      "latest_call_date": "2026-06-01"
-    },
-    {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "Indo Count Inds.",
-      "ticker": "ICIL",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-06-01"
     },
     {
