@@ -46066,110 +46066,85 @@
     },
     "Punjab Natl.Bank": {
       "company": "Punjab Natl.Bank",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb734f20-0be0-428e-8272-6cbea6e792e9.pdf",
-      "transcript_id": "punjab-natl-bank_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-29T04:56:56.403Z",
-      "summary": "PNB expects steady growth in FY27 with improving NIMs, asset quality, and digital-led efficiency, supported by CASA and RAM portfolio expansion.",
+      "ticker": "PNB",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c242790-4ce3-46db-a267-133d969d22fe.pdf",
+      "transcript_id": "punjab-natl-bank_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-26T03:50:46.445Z",
+      "summary": "Punjab National Bank expects to achieve its guidance and strategic priorities for FY27, driven by retail, agriculture, and MSME segments, with a focus on digital transformation and asset quality improvement.",
       "guidance": [
         {
+          "metric": "Slippages ratio",
+          "horizon": "FY27",
+          "statement": "Expected to remain below 0.9%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Gross NPA",
+          "horizon": "FY27",
+          "statement": "Expected to improve",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Net NPA",
+          "horizon": "FY27",
+          "statement": "Expected to improve",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
           "metric": "NIM",
           "horizon": "FY27",
-          "statement": "Global NIM expected in the range of 2.6% to 2.7% for FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "NIM",
-          "horizon": "Q1FY27",
-          "statement": "Expects Q-o-Q increase in NIM from Q4 FY26 levels",
+          "statement": "Expected to show healthy Q-o-Q improvement",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Branches",
+          "metric": "Operating profit",
           "horizon": "FY27",
-          "statement": "Plan to open 250 more branches, primarily in Southern and Western regions",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Credit growth",
-          "horizon": "FY27",
-          "statement": "Core RAM (Retail, Agri, MSME) portfolio target of 58% in FY27, aiming for 60% long-term",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "CASA ratio",
-          "horizon": "FY27",
-          "statement": "Focus on enhancing individual savings account balances to strengthen CASA base",
+          "statement": "Expected to increase",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Slippage ratio",
-          "horizon": "FY27",
-          "statement": "Committed to keeping slippage ratio below 1%",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "LCR",
-          "horizon": "FY27",
-          "statement": "Target to maintain LCR at around 125%",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Digital lending",
-          "horizon": "FY27",
-          "statement": "Aim to scale digital lending with end-to-end digital journeys across most products",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "MSME growth",
-          "horizon": "FY27",
-          "statement": "Expects 20% quarterly growth in MSME portfolio",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Agri growth",
-          "horizon": "FY27",
-          "statement": "Agriculture priority sector growth target of 16% for FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Retail growth",
-          "horizon": "FY27",
-          "statement": "Retail (excl. IBPC) growth target of 18% for FY27",
-          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Cost-to-income ratio",
           "horizon": "FY27",
-          "statement": "Aim to improve cost-to-income ratio further from FY26 levels",
-          "specificity": "vague",
+          "statement": "Expected to reduce to 47%-48%",
+          "specificity": "specific",
           "direction": "down"
+        },
+        {
+          "metric": "FCNR deposit mobilization",
+          "horizon": "FY27",
+          "statement": "Target of USD2.5 billion",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital loan sanctions",
+          "horizon": "FY27",
+          "statement": "Expected to add another INR1 lakh crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Branch expansion",
+          "horizon": "FY27",
+          "statement": "Plan to open 250 new branches",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "ECL provisioning impact post-April 2027",
-        "Impact of West Asian crisis on MSMEs",
-        "Dividend payout for FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "CASA growth",
-        "RAM portfolio expansion (Retail, Agri, MSME)",
-        "Digital lending scalability",
-        "Deposit cost optimization"
+        "Digital transformation",
+        "Asset quality improvement",
+        "Operational efficiency",
+        "Credit growth"
       ]
     },
     "SBI": {
@@ -98735,6 +98710,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-26T00:10:04.382Z",
+  "generated_at": "2026-07-26T03:51:25.999Z",
   "count": 1004
 }
