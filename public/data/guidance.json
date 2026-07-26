@@ -88920,109 +88920,65 @@
       "company": "Sterling & Wils.",
       "ticker": "SWSOLAR",
       "sector": "Industrials",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=557dc0a9-eb1c-4d9b-824b-0aefc37449da.pdf",
-      "transcript_id": "sterling-wils_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-10T21:17:11.351Z",
-      "summary": "Management expects continued growth in FY27 driven by strong order book, diversified segments (solar, battery storage, wind), and improving margins, with Reliance New Energy as a potential upside.",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45ae7554-69ba-41ed-9c2d-d894cef554e2.pdf",
+      "transcript_id": "sterling-wils_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-26T21:09:00.468Z",
+      "summary": "The company expects 10% to 15% revenue growth in FY27, driven by a strong order book and improving market conditions.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expects ~15% revenue growth year-on-year based on current order book and new orders expected in Q3/Q4 FY27",
+          "statement": "10% to 15% growth expected",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EPC gross margins",
+          "metric": "Gross Margin",
           "horizon": "FY27",
-          "statement": "Anticipates EPC gross margins to range between 8% to 10%, depending on project type (turnkey vs BOS)",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "O&M gross margins",
-          "horizon": "FY27",
-          "statement": "Expects O&M gross margins to stabilize around 20%",
+          "statement": "expected to range between 8% to 10%",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Third-party O&M orders",
+          "metric": "EBITDA Margin",
           "horizon": "FY27",
-          "statement": "Third-party O&M orders expected to continue flowing in, with multi-year contracts (2-3 years) and gross margins in the range of 20% to 25%",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Battery storage market traction",
-          "horizon": "FY27",
-          "statement": "Expects strong momentum in battery storage projects, with 20% to 25% of orders adding to revenue in Q2/Q3 FY27; margin profile similar to EPC (8% to 10%)",
+          "statement": "may be marginally impacted by lower gross margin",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Wind energy projects",
-          "horizon": "FY27",
-          "statement": "Expects better traction in wind projects, with one project already on track and additional orders expected",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "International EPC margins",
-          "horizon": "FY27",
-          "statement": "International EPC margins expected to remain higher than domestic margins",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Order book execution",
-          "horizon": "FY27",
-          "statement": "Expects to execute a significant portion of the INR11,813 crore order book in FY27, with project timelines of 6-12 months",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Reliance New Energy orders",
-          "horizon": "FY27",
-          "statement": "Deeply engaged with Reliance; expects traction in FY27 but no clarity on timing or size of orders",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Module price volatility impact",
-          "horizon": "FY27",
-          "statement": "For existing order book, adequate back-to-back pricing protection and contingency buffers are in place to mitigate module price volatility",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Foreign exchange impact",
-          "horizon": "FY27",
-          "statement": "Depreciating rupee is beneficial for international projects due to natural hedge (USD revenues)",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Nigeria project progress",
-          "horizon": "FY27",
-          "statement": "Nigeria project is on a slow pace due to elections; may not materialize in FY27",
-          "specificity": "specific",
           "direction": "down"
+        },
+        {
+          "metric": "Order Book",
+          "horizon": "FY27",
+          "statement": "expected to drive revenue growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working Capital Cycle",
+          "horizon": "FY27",
+          "statement": "expected to improve as customers' advances for large projects start flowing through",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "Q3 FY27 and Q4 FY27",
+          "statement": "expected to be high, driven by new orders and international projects",
+          "specificity": "vague",
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Exact revenue or order inflow from Reliance New Energy",
-        "Timing of Reliance New Energy orders",
-        "Specific margin details for Reliance New Energy projects"
+        "exact timing of order inflows",
+        "specific order values"
       ],
       "margin_drivers": [
-        "International EPC margins (higher than domestic)",
-        "O&M margins (20%+)",
-        "Battery storage project margins (8%-10%)",
-        "Turnkey project margins (targeted margins achievable)",
-        "Commodity price protection via back-to-back contracts"
+        "project mix",
+        "turnkey projects",
+        "BoS projects",
+        "operating leverage"
       ]
     },
     "Kirl.Pneumatic": {
@@ -98544,6 +98500,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-26T19:49:15.785Z",
+  "generated_at": "2026-07-26T21:09:34.499Z",
   "count": 1004
 }
