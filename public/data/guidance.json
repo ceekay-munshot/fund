@@ -79676,110 +79676,63 @@
       "company": "JSW Dulux",
       "ticker": "JSWDULUX",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9fcf521-da90-44aa-8320-b4bcac70ca8e.pdf",
-      "transcript_id": "jsw-dulux_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-07T08:02:07.769Z",
-      "summary": "Management expects double-digit volume growth in FY27 with competitive pressures persisting, while raw material inflation remains a key margin risk.",
+      "concall_date": "2026-07-13",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9ea82bb-1c58-49fd-9383-d9cd68d2aa92.pdf",
+      "transcript_id": "jsw-dulux_2026-07-13",
+      "provider": "groq",
+      "generated_at": "2026-07-26T23:09:24.567Z",
+      "summary": "JSW Dulux aims to become the number two player in the Indian paints and coating industry, with a focus on sustainable growth, innovation, and expansion.",
       "guidance": [
         {
-          "metric": "Volume growth",
-          "horizon": "FY27",
-          "statement": "Targeting double-digit volume growth in FY27",
+          "metric": "Market share",
+          "horizon": "Medium-term",
+          "statement": "Aim to become the number two player in the Indian paints and coating industry",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Industrial coatings",
+          "horizon": "2031",
+          "statement": "Strive for leadership in marine and protective coatings and to be a top two player in automotive and specialty coatings",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Volume growth",
-          "horizon": "Q1FY27",
-          "statement": "Volume growth expected to remain strong in the near term",
+          "metric": "Decorative paints",
+          "horizon": "Medium-term",
+          "statement": "Drive innovation in premium and adjacent segments, execute meaningful distribution expansion and enhance influencer ecosystem",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "Next three years",
+          "statement": "Expect measurable benefits in terms of revenue growth, market share, operating margin, and profitability",
           "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Potential margin compression for a quarter if raw material inflation remains elevated",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Price hikes",
-          "horizon": "Q1FY27",
-          "statement": "9.7% price increase implemented, but raw material cost inflation of 24-25% requires additional 3-4% pricing to bridge the gap",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Price corrections",
-          "horizon": "Q1FY27",
-          "statement": "Price corrections in premium categories to be neutralized by September",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Market share",
-          "horizon": "FY27",
-          "statement": "Aiming to fortify market share at the cost of some players, moving from number 4 to number 3 in decorative paints",
+          "horizon": "Current financial year",
+          "statement": "Expect better EBITDA margin due to B2B business strategies and premiumization strategies for distribution",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Industrial paints market share",
-          "horizon": "FY27",
-          "statement": "Expecting to inch up market share in industrial paints in the coming year",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Auto OEM play",
-          "horizon": "FY27",
-          "statement": "Working towards entering the auto OEM space, with a serious play expected by the last quarter of FY27",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Dealer integration",
-          "horizon": "FY27",
-          "statement": "Projects business integration completed in 7 metros; retail integration planned for early next year",
+          "metric": "Capex",
+          "horizon": "FY2027",
+          "statement": "Rs. 47 Crores capex planned",
           "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Competitive dynamics",
-          "horizon": "FY27",
-          "statement": "Industry aggression expected to continue for a few quarters, with clarity on market positions emerging by year-end",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Raw material inflation impact",
-          "horizon": "Q1FY27",
-          "statement": "Raw material cost inflation of 24-25% translating to ~13.5% impact on margins",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Adjusted price hike",
-          "horizon": "Q1FY27",
-          "statement": "Effective adjusted price hike to account for prior price corrections of 1.5-2%",
-          "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "FY27 revenue or EBITDA margin targets",
-        "FY27 PAT guidance",
-        "FY27 capex guidance",
-        "Long-term margin targets"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Raw material inflation",
-        "Price corrections and mix shifts",
-        "Competitive pricing dynamics",
-        "Dealer incentives and trade spend restructuring",
-        "Volume growth and market share gains"
+        "Innovation in products and services",
+        "Investments in research and development",
+        "Wider play across segments",
+        "Digitization and automation initiatives",
+        "Leveraging JSW Group's existing infrastructure and relationships"
       ]
     },
     "CG Power & Ind": {
@@ -98500,6 +98453,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-26T22:09:47.309Z",
+  "generated_at": "2026-07-26T23:09:51.569Z",
   "count": 1004
 }
