@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-26T11:51:33.519Z",
+  "generated_at": "2026-07-26T12:59:02.889Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 43,
-    "gained": 358,
-    "consistent": 554,
-    "companies_evaluated": 947
+    "gained": 357,
+    "consistent": 562,
+    "companies_evaluated": 949
   },
   "dropped": [
     {
@@ -636,6 +636,14 @@
       "latest_call_date": "2026-07-10"
     },
     {
+      "fund_id": "trust-mf",
+      "fund_name": "Trust Mutual Fund",
+      "company": "Nisus Finance",
+      "ticker": "544296",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-01"
+    },
+    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Prince Pipes",
@@ -690,14 +698,6 @@
       "ticker": "SHREEOSFM",
       "sector": "Services",
       "latest_call_date": "2026-06-18"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Greenleaf Envi.",
-      "ticker": "GREENLEAF",
-      "sector": "Utilities",
-      "latest_call_date": "2026-06-13"
     },
     {
       "fund_id": "sapphire",
@@ -1036,14 +1036,6 @@
       "latest_call_date": "2026-05-27"
     },
     {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Indo SMC",
-      "ticker": "544681",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-22"
-    },
-    {
       "fund_id": "nexus-equity",
       "fund_name": "Nexus Equity",
       "company": "Vilas Transcore",
@@ -1073,14 +1065,6 @@
       "company": "Cantabil Retail",
       "ticker": "CANTABIL",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-18"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Hoac Foods",
-      "ticker": "HOACFOODS",
-      "sector": "Fast Moving Consumer Goods",
       "latest_call_date": "2026-05-18"
     },
     {
@@ -1170,6 +1154,62 @@
       "ticker": "SILKFLEX",
       "sector": "Commodities",
       "latest_call_date": "2026-05-06"
+    },
+    {
+      "fund_id": "girik",
+      "fund_name": "Girik Capital",
+      "company": "Thyrocare Tech.",
+      "ticker": "THYROCARE",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "trust-mf",
+      "fund_name": "Trust Mutual Fund",
+      "company": "TD Power Systems",
+      "ticker": "TDPOWERSYS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "TD Power Systems",
+      "ticker": "TDPOWERSYS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "TD Power Systems",
+      "ticker": "TDPOWERSYS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "TD Power Systems",
+      "ticker": "TDPOWERSYS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "vaikarya",
+      "fund_name": "Vaikarya Capital",
+      "company": "Ajanta Pharma",
+      "ticker": "AJANTPHARM",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Ajanta Pharma",
+      "ticker": "AJANTPHARM",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "sequent",
@@ -2820,22 +2860,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Ajanta Pharma",
-      "ticker": "AJANTPHARM",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Ajanta Pharma",
-      "ticker": "AJANTPHARM",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "astute",
       "fund_name": "Astute Investment Management",
       "company": "Quality Power El",
@@ -2884,43 +2908,11 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "TD Power Systems",
-      "ticker": "TDPOWERSYS",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "TD Power Systems",
-      "ticker": "TDPOWERSYS",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "icici-prudential",
-      "fund_name": "ICICI Prudential AMC",
-      "company": "TD Power Systems",
-      "ticker": "TDPOWERSYS",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "nexus-equity",
       "fund_name": "Nexus Equity",
       "company": "Manorama Indust.",
       "ticker": "MANORAMA",
       "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "girik",
-      "fund_name": "Girik Capital",
-      "company": "Thyrocare Tech.",
-      "ticker": "THYROCARE",
-      "sector": "Healthcare",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -3156,14 +3148,6 @@
       "latest_call_date": "2026-04-01"
     },
     {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "GSM Foils",
-      "ticker": "GSMFOILS",
-      "sector": "Industrials",
-      "latest_call_date": "2026-04-01"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Alicon Cast.",
@@ -3306,6 +3290,14 @@
       "ticker": "J&KBANK",
       "sector": "Financial Services",
       "latest_call_date": "2026-01-01"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "S J Logistics (I",
+      "ticker": "SJLOGISTIC",
+      "sector": "Services",
+      "latest_call_date": "2025-11-01"
     },
     {
       "fund_id": "niveshaay",
