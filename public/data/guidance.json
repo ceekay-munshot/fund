@@ -89353,109 +89353,54 @@
       "company": "Aditya AMC",
       "ticker": "ABSLAMC",
       "sector": "Financial Services",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb5f2812-8f72-41cb-b2d5-9052dfd65da2.pdf",
-      "transcript_id": "aditya-amc_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-10T23:34:34.255Z",
-      "summary": "Management expects continued growth in AUM, SIP contributions, and alternate asset classes, with focus on digital expansion and cost optimization despite regulatory headwinds.",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d970154-ac8a-4d7a-9649-c5528e9316d7.pdf",
+      "transcript_id": "aditya-amc_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-26T18:38:54.643Z",
+      "summary": "Aditya Birla Sun Life AMC expects to maintain yields, with a focus on building scale in passive and ETF businesses, while active remains the dominant asset class.",
       "guidance": [
         {
-          "metric": "SIP contributions",
-          "horizon": "FY27",
-          "statement": "Aim to grow SIP contributions further through campaigns like 'Har Ghar Me SIP' and improved distributor productivity.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Geographic expansion",
-          "horizon": "FY27",
-          "statement": "Plan to add several new locations to deepen market presence across India.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Digital platform enhancements",
-          "horizon": "FY27",
-          "statement": "Continue to enhance technology and digital capabilities, including new investor and partner apps, to improve customer experience and acquisition.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "PMS and AIF AUM (excluding ESIC mandate)",
-          "horizon": "FY27",
-          "statement": "Target continued growth in PMS and AIF assets, supported by strong performance and new fund launches.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EPFO mandate inflows",
-          "horizon": "Q1FY27",
-          "statement": "Operationally ready to receive EPFO fixed income fund inflows in the next few days.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Passive AUM (ETF + index funds)",
-          "horizon": "FY27",
-          "statement": "Passive AUM crossed ₹41,200 crore in Q4FY26; aim to sustain momentum with new product launches and GIFT City offerings.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "GIFT City subsidiary and offshore fund launches",
-          "horizon": "near-term",
-          "statement": "Plan to launch ABSL Global Emerging Market Fund Series II and expand retail license capabilities for inward/outward remittances.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "SIF (Structured Investment Funds) platform scaling",
-          "horizon": "near-term",
-          "statement": "Introduce a pipeline of new offerings under the APEX SIF brand, leveraging SEBI's new circulars.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Real estate AUM growth",
-          "horizon": "FY27",
-          "statement": "AUM grew 51% YoY to ₹740 crore; fundraising underway for Aditya Birla Real Estate Credit Opportunities Fund Series II.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Employee expense growth",
-          "horizon": "FY27",
-          "statement": "Employee expenses to see marginal increase due to new hires in passive business and ESOP-related costs (₹8-10 crore/quarter).",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Regulatory impact mitigation (5bps equity AUM fee)",
-          "horizon": "Q1FY27",
-          "statement": "Plan to structure commission and expenses to minimize impact on P&L, aiming for neutral outcome for AMC and distributors.",
+          "metric": "Yield",
+          "horizon": "Medium-term",
+          "statement": "Yield to remain intact, with a slight impact from telescoping pricing as AUM grows",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Market share improvement in flows",
-          "horizon": "FY27",
-          "statement": "Narrowing gap to market growth momentum; flows improving in promoted funds like Flexi Cap, Multi Asset Allocation, and small/midcap funds.",
+          "metric": "Passive business growth",
+          "horizon": "Next 3-5 years",
+          "statement": "Passive business to grow, with a focus on building scale and low-cost products",
           "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Active business growth",
+          "horizon": "Medium-term",
+          "statement": "Active to remain the dominant asset class, with a focus on building size in core products",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "SIP AUM",
+          "horizon": "Q1 FY27",
+          "statement": "SIP AUM at approximately ₹87,000 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PMS and AIF revenue",
+          "horizon": "Q1 FY27",
+          "statement": "PMS and AIF contribution to total revenue at around 7% on a gross basis and 4% on a net basis",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "Net impact on profitability from regulatory changes",
-        "Exact quantification of regulatory impact on P&L",
-        "Yields by asset class"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Regulatory impact mitigation strategies",
-        "Digital platform and technology investments",
-        "Passive business scaling",
-        "Alternate asset class growth (PMS, AIF, SIF)",
-        "Cost optimization and employee productivity improvements"
+        "TER regulation",
+        "Telescoping pricing",
+        "Low-cost passive products"
       ]
     },
     "Nippon Life Ind.": {
@@ -98599,6 +98544,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-26T17:39:51.725Z",
+  "generated_at": "2026-07-26T18:39:31.024Z",
   "count": 1004
 }
