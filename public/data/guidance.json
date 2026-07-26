@@ -58773,83 +58773,65 @@
     },
     "Medplus Health": {
       "company": "Medplus Health",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c632aaf-471a-4c9f-964b-605bef4513c8.pdf",
-      "transcript_id": "medplus-health_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-02T17:16:07.158Z",
-      "summary": "Management expects stable FY27 performance with growth in private label and franchisee-led expansion, while maintaining current EBITDA margins.",
+      "ticker": "MEDPLUS",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-07-24",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de0c7437-243d-48bd-a52f-d9e0d1ebda6b.pdf",
+      "transcript_id": "medplus-health_2026-07-24",
+      "provider": "groq",
+      "generated_at": "2026-07-26T12:12:00.769Z",
+      "summary": "MedPlus Health Services expects to add 800 net new stores in FY27, with a focus on core business growth, while putting capex plans on hold.",
       "guidance": [
         {
           "metric": "Store additions",
           "horizon": "FY27",
-          "statement": "Plan to open 800 net new stores, including franchisee outlets",
+          "statement": "800 net new stores, including franchisee stores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Private label sales growth",
-          "horizon": "FY27",
-          "statement": "Guidance of 20-30 bps quarterly growth on private label sales remains intact",
+          "metric": "Private label share",
+          "horizon": "Medium-term",
+          "statement": "Expected to grow by 0.3-0.4% per quarter",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Operating EBITDA margin",
+          "metric": "Operating EBITDA",
           "horizon": "FY27",
-          "statement": "Aim to stabilize and deliver 5.7% to 5.8% operating EBITDA margin for the year",
-          "specificity": "specific",
+          "statement": "No change in annual operating plan, with potential to exceed targets",
+          "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "SSSG growth (mature stores)",
-          "horizon": "FY27",
-          "statement": "Target 9% to 10% annualized SSSG growth for stores older than 12 months",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Private label non-pharma expansion",
-          "horizon": "medium-term",
-          "statement": "Focus on adding more assortment in private label non-pharma to boost top-line and bottom-line",
+          "metric": "Non-pharma revenue",
+          "horizon": "Coming quarters",
+          "statement": "Expected to grow, with supply disruptions resolved",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Franchisee model profitability",
-          "horizon": "FY27",
-          "statement": "Franchisee stores expected to be profitable from day one with store-level EBITDA margins similar to company-owned stores",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Warehouse additions",
-          "horizon": "FY27",
-          "statement": "Minimal new warehouse additions required for 800 stores if concentrated in existing states; new states may require planning",
+          "metric": "Franchisee model",
+          "horizon": "Medium-term",
+          "statement": "Experimental phase, with tweaks to make it a win-win model",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Gross margin trajectory",
-          "horizon": "FY27",
-          "statement": "Expect to maintain current gross margin levels with potential improvements from private label share growth",
+          "metric": "Diagnostics business",
+          "horizon": "Medium-term",
+          "statement": "No significant expansion planned, with focus on maintenance and replacement",
           "specificity": "vague",
           "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "GLP-1 market impact on MedPlus",
-        "Specific revenue or EBITDA growth for FY27 beyond stabilization",
-        "Detailed breakdown of store additions between company-owned and franchisee for FY27"
+        "Capex plans for food park and wellness services facility"
       ],
       "margin_drivers": [
-        "Private label sales growth (pharma and non-pharma)",
-        "Franchisee model expansion (store-level EBITDA accretion)",
-        "Supply chain and supplier contract benefits",
-        "Non-pharma private label manufacturing in-house",
-        "Store maturity (mature stores >12 months with 13.1% store-level EBITDA margin)"
+        "Private label sales",
+        "Franchisee model",
+        "Cost optimization"
       ]
     },
     "Alembic Pharma": {
@@ -98655,6 +98637,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-26T11:06:14.502Z",
+  "generated_at": "2026-07-26T12:12:40.968Z",
   "count": 1004
 }
