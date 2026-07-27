@@ -82622,108 +82622,56 @@
       "company": "Thyrocare Tech.",
       "ticker": "THYROCARE",
       "sector": "Healthcare",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3b11bca-8f94-4b5e-aa89-8763849fb974.pdf",
-      "transcript_id": "thyrocare-tech_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-07T23:13:06.575Z",
-      "summary": "Thyrocare expects steady growth driven by franchise expansion, partnerships, and specialty diagnostics, with margins remaining stable in the 73-74% range.",
+      "concall_date": "2026-07-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3d826e4-58a3-4476-b5f0-b486f3ada8fc.pdf",
+      "transcript_id": "thyrocare-tech_2026-07-27",
+      "provider": "groq",
+      "generated_at": "2026-07-27T19:50:11.914Z",
+      "summary": "Thyrocare Technologies expects to continue its growth momentum, driven by its pathology business and expansion into specialty diagnostics.",
       "guidance": [
         {
-          "metric": "Revenue growth",
-          "horizon": "next 4 quarters",
-          "statement": "Franchise expansion remains core, with franchisees added 2 years ago contributing to growth in FY27, while new additions will drive FY28-29 growth",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue growth",
-          "horizon": "FY27",
-          "statement": "Partnership business to continue strong growth, with insurance and allied segments as key opportunities",
+          "metric": "Specialty diagnostics revenue",
+          "horizon": "3-5 years",
+          "statement": "Expected to form 15-20% of portfolio",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue mix",
-          "horizon": "FY27 and 3-year outlook",
-          "statement": "Specialty diagnostics (genomics, allergy, histopathology) to become a significant growth driver, starting from a small base in FY27",
+          "metric": "Capex for specialty diagnostics",
+          "horizon": "next year",
+          "statement": "Most investments already done, minimal capex expected",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Gross margin",
-          "horizon": "going forward",
-          "statement": "Gross margins expected to stabilize in the 73-74% range, barring abnormal reagent price hikes",
-          "specificity": "specific",
           "direction": "flat"
+        },
+        {
+          "metric": "Imaging business divestment",
+          "horizon": "6 months",
+          "statement": "Process expected to take 6 months",
+          "specificity": "specific",
+          "direction": "unclear"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "going forward",
-          "statement": "Operating leverage from growth to be invested in growth initiatives while preserving base margins",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Investments in genomics to be calibrated, starting with top 10 cities in North India",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Lab network expansion",
           "horizon": "medium-term",
-          "statement": "Lab network expansion to continue, building patient trust and strengthening B2B proposition",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Turnaround time (TAT)",
-          "horizon": "ongoing",
-          "statement": "Focus on maintaining faster turnaround times, with current average of 3.43 hours",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Complaint rate",
-          "horizon": "ongoing",
-          "statement": "Complaint rate maintained at Six Sigma level (3.06 per million tests in Q4 FY26)",
+          "statement": "Expanded from 23% in FY23 to 32% in Q1 FY27",
           "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "International operations",
-          "horizon": "ongoing",
-          "statement": "Tanzania operations to continue growth, though small in base",
-          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Franchisee engagement",
-          "horizon": "ongoing",
-          "statement": "Regular franchisee meetings and structured interactions to drive engagement and growth",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Doctor engagement",
-          "horizon": "ongoing",
-          "statement": "Increased doctor meets and lab visits to strengthen trust and awareness",
-          "specificity": "vague",
+          "metric": "Return on capital employed",
+          "horizon": "medium-term",
+          "statement": "Improved from 15% in FY23 to 34% in FY26",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "explicit revenue or EBITDA targets for FY28 or beyond",
-        "detailed capex breakdown beyond genomics investments",
-        "specific pricing strategies for new tests"
+        "Specific numbers for specialty diagnostics revenue"
       ],
       "margin_drivers": [
-        "volume-driven operating leverage",
-        "vendor negotiations and reagent cost management",
-        "scale in franchisee and partnership businesses",
-        "investments in specialty diagnostics (genomics, allergy)"
+        "Better negotiations",
+        "Strong growth in test volume",
+        "Improved operational efficiency"
       ]
     },
     "Fujiyama Power": {
@@ -98500,6 +98448,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-27T18:10:20.807Z",
+  "generated_at": "2026-07-27T19:50:58.581Z",
   "count": 1005
 }
