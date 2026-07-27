@@ -1,8 +1,8 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-27T19:12:18.979Z",
+  "generated_at": "2026-07-27T20:52:32.357Z",
   "totals": {
-    "sightings": 3603,
+    "sightings": 3613,
     "companies": 1014,
     "active_funds": 52
   },
@@ -10,7 +10,7 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 698,
+      "sighting_count": 699,
       "company_count": 405,
       "companies": [
         "ADF Foods",
@@ -580,7 +580,7 @@
     {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
-      "sighting_count": 235,
+      "sighting_count": 236,
       "company_count": 140,
       "companies": [
         "ASK Automotive",
@@ -728,8 +728,8 @@
     {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
-      "sighting_count": 190,
-      "company_count": 118,
+      "sighting_count": 191,
+      "company_count": 119,
       "companies": [
         "ACME Solar Hold.",
         "ASM Technologies",
@@ -780,6 +780,7 @@
         "Himadri Special",
         "Hind Rectifiers",
         "ICE Make Refrig.",
+        "IZMO",
         "Ideaforge Tech",
         "Indo Count Inds.",
         "Inox India",
@@ -973,8 +974,8 @@
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
-      "sighting_count": 137,
-      "company_count": 96,
+      "sighting_count": 144,
+      "company_count": 101,
       "companies": [
         "ADF Foods",
         "AIA Engineering",
@@ -1008,6 +1009,7 @@
         "Dilip Buildcon",
         "Dr Lal Pathlabs",
         "Dynamic Cables",
+        "EMS",
         "EPL Ltd",
         "EPack PrefabTech",
         "Ecos (India)",
@@ -1020,11 +1022,14 @@
         "Harsha Engg Intl",
         "Heritage Foods",
         "Highway Infra",
+        "IZMO",
+        "India Glycols",
         "India Pesticides",
         "Indo Count Inds.",
         "Interarch Build.",
         "International Ge",
         "Jindal Drilling",
+        "Jinkushal Indus.",
         "KEI Industries",
         "KRBL",
         "KRN Heat Exchan",
@@ -1038,6 +1043,7 @@
         "M B Agro Prod.",
         "MTAR Technologie",
         "Manaksia Coated",
+        "Medplus Health",
         "Metropolis Healt",
         "Midwest",
         "Mitsu Chem Plast",
@@ -2685,12 +2691,12 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1003,
+      "sighting_count": 1004,
       "company_count": 255
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 841,
+      "sighting_count": 844,
       "company_count": 240
     },
     {
@@ -2710,12 +2716,12 @@
     },
     {
       "sector": "Information Technology",
-      "sighting_count": 228,
+      "sighting_count": 231,
       "company_count": 59
     },
     {
       "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 218,
+      "sighting_count": 220,
       "company_count": 61
     },
     {
@@ -2725,7 +2731,7 @@
     },
     {
       "sector": "Utilities",
-      "sighting_count": 65,
+      "sighting_count": 66,
       "company_count": 23
     },
     {
@@ -2777,15 +2783,33 @@
     },
     {
       "fund_name": "InCred AMC",
+      "company": "India Glycols",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-06-01"
+    },
+    {
+      "fund_name": "InCred AMC",
       "company": "Samvardh. Mothe.",
       "sector": "Consumer Discretionary",
       "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Niveshaay",
+      "company": "IZMO",
+      "sector": "Information Technology",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Niveshaay",
       "company": "Sportking India",
       "sector": "Consumer Discretionary",
       "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "IZMO",
+      "sector": "Information Technology",
+      "concall_date": "2025-11-01"
     },
     {
       "fund_name": "Sapphire Capital",
@@ -2813,9 +2837,51 @@
     },
     {
       "fund_name": "Sequent Investments",
+      "company": "EMS",
+      "sector": "Utilities",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
       "company": "Fortis Health.",
       "sector": "Healthcare",
       "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "India Glycols",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "IZMO",
+      "sector": "Information Technology",
+      "concall_date": "2026-06-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Jinkushal Indus.",
+      "sector": "Industrials",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Medplus Health",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Medplus Health",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-02-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Medplus Health",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Sequent Investments",
