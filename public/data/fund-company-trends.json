@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-27T01:37:16.247Z",
+  "generated_at": "2026-07-27T05:41:20.996Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 44,
-    "gained": 326,
-    "consistent": 612,
+    "gained": 325,
+    "consistent": 614,
     "companies_evaluated": 954
   },
   "dropped": [
@@ -231,6 +231,17 @@
     {
       "fund_id": "maximal",
       "fund_name": "Maximal Capital",
+      "company": "Suraksha Diagno.",
+      "ticker": "SURAKSHA",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-05-27",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
       "company": "Karnataka Bank",
       "ticker": "KTKBANK",
       "sector": "Financial Services",
@@ -247,17 +258,6 @@
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-27",
       "last_seen_date": "2026-05-01",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "maximal",
-      "fund_name": "Maximal Capital",
-      "company": "Suraksha Diagno.",
-      "ticker": "SURAKSHA",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-27",
-      "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -312,6 +312,17 @@
       "ticker": "APOLLOHOSP",
       "sector": "Healthcare",
       "latest_call_date": "2026-05-21",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "V-Guard Industri",
+      "ticker": "VGUARD",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
       "tier": "strong"
@@ -443,17 +454,6 @@
       "company": "Rashi Peripheral",
       "ticker": "RPTECH",
       "sector": "Information Technology",
-      "latest_call_date": "2026-05-01",
-      "last_seen_date": "2026-02-01",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "icici-prudential",
-      "fund_name": "ICICI Prudential AMC",
-      "company": "V-Guard Industri",
-      "ticker": "VGUARD",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-01",
       "last_seen_date": "2026-02-01",
       "prior_calls_attended": 3,
@@ -903,20 +903,36 @@
       "latest_call_date": "2026-05-15"
     },
     {
-      "fund_id": "maximal",
-      "fund_name": "Maximal Capital",
-      "company": "Filatex India",
-      "ticker": "FILATEX",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-12"
-    },
-    {
       "fund_id": "malabar",
       "fund_name": "Malabar Investments",
       "company": "Oberoi Realty",
       "ticker": "OBEROIRLTY",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-11"
+    },
+    {
+      "fund_id": "aequitas",
+      "fund_name": "Aequitas",
+      "company": "Paradeep Phosph.",
+      "ticker": "PARADEEP",
+      "sector": "Commodities",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Gravita India",
+      "ticker": "GRAVITA",
+      "sector": "Commodities",
+      "latest_call_date": "2026-05-01"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Affle 3i",
+      "ticker": "AFFLE",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "incred",
@@ -2063,22 +2079,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Gravita India",
-      "ticker": "GRAVITA",
-      "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "icici-prudential",
-      "fund_name": "ICICI Prudential AMC",
-      "company": "Affle 3i",
-      "ticker": "AFFLE",
-      "sector": "Information Technology",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "bowhead",
       "fund_name": "Bowhead India",
       "company": "Rashi Peripheral",
@@ -2108,14 +2108,6 @@
       "company": "Kanpur Plastipa.",
       "ticker": "KANPRPLA",
       "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "aequitas",
-      "fund_name": "Aequitas",
-      "company": "Paradeep Phosph.",
-      "ticker": "PARADEEP",
-      "sector": "Commodities",
       "latest_call_date": "2026-05-01"
     },
     {
