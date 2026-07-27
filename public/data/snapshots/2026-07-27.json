@@ -1,8 +1,8 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-26T23:59:13.861Z",
+  "generated_at": "2026-07-27T01:37:16.324Z",
   "totals": {
-    "sightings": 3462,
+    "sightings": 3478,
     "companies": 1013,
     "active_funds": 52
   },
@@ -10,7 +10,7 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 677,
+      "sighting_count": 680,
       "company_count": 404,
       "companies": [
         "ADF Foods",
@@ -970,7 +970,7 @@
     {
       "fund_id": "lucky",
       "fund_name": "Lucky Investments",
-      "sighting_count": 110,
+      "sighting_count": 111,
       "company_count": 82,
       "companies": [
         "ADF Foods",
@@ -1266,8 +1266,8 @@
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
-      "sighting_count": 83,
-      "company_count": 58,
+      "sighting_count": 91,
+      "company_count": 64,
       "companies": [
         "ADF Foods",
         "AIA Engineering",
@@ -1279,6 +1279,7 @@
         "Angel One",
         "Apar Inds.",
         "Apcotex Industri",
+        "Apollo Hospitals",
         "Ashapura Minech.",
         "Atlanta Electric",
         "Borana Weaves",
@@ -1289,6 +1290,7 @@
         "Datamatics Glob.",
         "Dr Lal Pathlabs",
         "Dynamic Cables",
+        "EPL Ltd",
         "EPack PrefabTech",
         "Ecos (India)",
         "Euro Pratik Sale",
@@ -1301,11 +1303,15 @@
         "International Ge",
         "KEI Industries",
         "Kajaria Ceramics",
+        "Kewal Kir.Cloth.",
         "Kilburn Engg.",
         "Krishana Phosch.",
+        "L T Foods",
+        "Lumax Industries",
         "M & B Engineer.",
         "M B Agro Prod.",
         "Manaksia Coated",
+        "Metropolis Healt",
         "NRB Bearings",
         "Oswal Pumps",
         "Power Mech Proj.",
@@ -1332,7 +1338,7 @@
     {
       "fund_id": "nv-alpha",
       "fund_name": "NV Alpha",
-      "sighting_count": 82,
+      "sighting_count": 83,
       "company_count": 56,
       "companies": [
         "ADF Foods",
@@ -2203,7 +2209,7 @@
     {
       "fund_id": "xponent-tribe",
       "fund_name": "Xponent Tribe",
-      "sighting_count": 28,
+      "sighting_count": 29,
       "company_count": 21,
       "companies": [
         "Aeroflex",
@@ -2431,7 +2437,7 @@
     {
       "fund_id": "sahasrar",
       "fund_name": "Sahasrar Capital",
-      "sighting_count": 20,
+      "sighting_count": 21,
       "company_count": 11,
       "companies": [
         "AXISCADES Tech.",
@@ -2524,8 +2530,8 @@
     {
       "fund_id": "helios",
       "fund_name": "Helios Capital",
-      "sighting_count": 11,
-      "company_count": 7,
+      "sighting_count": 12,
+      "company_count": 8,
       "companies": [
         "Black Box",
         "C D S L",
@@ -2533,7 +2539,8 @@
         "Hitachi Energy",
         "KPIT Technologi.",
         "Nippon Life Ind.",
-        "Quess Corp"
+        "Quess Corp",
+        "Saregama India"
       ]
     },
     {
@@ -2627,17 +2634,17 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 963,
+      "sighting_count": 966,
       "company_count": 255
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 804,
+      "sighting_count": 809,
       "company_count": 240
     },
     {
       "sector": "Healthcare",
-      "sighting_count": 357,
+      "sighting_count": 363,
       "company_count": 98
     },
     {
@@ -2657,12 +2664,12 @@
     },
     {
       "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 208,
+      "sighting_count": 209,
       "company_count": 61
     },
     {
       "sector": "Services",
-      "sighting_count": 180,
+      "sighting_count": 181,
       "company_count": 59
     },
     {
@@ -2784,6 +2791,12 @@
       "concall_date": "2026-02-01"
     },
     {
+      "fund_name": "Helios Capital",
+      "company": "Saregama India",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01"
+    },
+    {
       "fund_name": "InCred AMC",
       "company": "Studds Accessor.",
       "sector": "Consumer Discretionary",
@@ -2799,6 +2812,12 @@
       "fund_name": "Lucky Investments",
       "company": "ADF Foods",
       "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Lucky Investments",
+      "company": "Saregama India",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-05-01"
     },
     {
@@ -2845,6 +2864,12 @@
     },
     {
       "fund_name": "NV Alpha",
+      "company": "Happy Forgings",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "NV Alpha",
       "company": "IFB Industries",
       "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
@@ -2854,6 +2879,12 @@
       "company": "Tinna Rubber",
       "sector": "Industrials",
       "concall_date": "2026-07-01"
+    },
+    {
+      "fund_name": "Sahasrar Capital",
+      "company": "Laurus Labs",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01"
     },
     {
       "fund_name": "Sameeksha Capital",
@@ -2911,6 +2942,12 @@
     },
     {
       "fund_name": "Sapphire Capital",
+      "company": "Happy Forgings",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
       "company": "Himadri Special",
       "sector": "Commodities",
       "concall_date": "2026-07-16"
@@ -2953,6 +2990,12 @@
     },
     {
       "fund_name": "Sapphire Capital",
+      "company": "Sanjiv.Parant.",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
       "company": "Silkflex Polymer",
       "sector": "Commodities",
       "concall_date": "2026-05-01"
@@ -2974,6 +3017,12 @@
       "company": "Vishnusurya Pro.",
       "sector": "Commodities",
       "concall_date": "2026-06-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "VRL Logistics",
+      "sector": "Services",
+      "concall_date": "2026-05-01"
     },
     {
       "fund_name": "Sequent Investments",
@@ -3019,6 +3068,12 @@
     },
     {
       "fund_name": "Sequent Investments",
+      "company": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "concall_date": "2025-08-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
       "company": "Ashapura Minech.",
       "sector": "Commodities",
       "concall_date": "2026-02-01"
@@ -3046,6 +3101,12 @@
       "company": "EPack PrefabTech",
       "sector": "Industrials",
       "concall_date": "2025-10-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "EPL Ltd",
+      "sector": "Industrials",
+      "concall_date": "2025-11-01"
     },
     {
       "fund_name": "Sequent Investments",
@@ -3091,6 +3152,24 @@
     },
     {
       "fund_name": "Sequent Investments",
+      "company": "Kewal Kir.Cloth.",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2025-08-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "L T Foods",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Lumax Industries",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-06-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
       "company": "M & B Engineer.",
       "sector": "Industrials",
       "concall_date": "2025-11-01"
@@ -3118,6 +3197,24 @@
       "company": "Manaksia Coated",
       "sector": "Industrials",
       "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Metropolis Healt",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Metropolis Healt",
+      "sector": "Healthcare",
+      "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Metropolis Healt",
+      "sector": "Healthcare",
+      "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Sequent Investments",
@@ -3231,6 +3328,12 @@
       "fund_name": "White Pine Investment Management",
       "company": "Parth Electrical",
       "sector": "Industrials",
+      "concall_date": "2026-05-01"
+    },
+    {
+      "fund_name": "Xponent Tribe",
+      "company": "Saregama India",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-05-01"
     }
   ]
