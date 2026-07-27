@@ -98446,8 +98446,55 @@
         "Balanced portfolio",
         "Crop diversification"
       ]
+    },
+    "International Gemological Instit": {
+      "company": "International Gemological Instit",
+      "ticker": "IGIL",
+      "sector": "Services",
+      "concall_date": "2026-07-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cd31b42-06a8-4021-a1bb-0a587567366f.pdf",
+      "transcript_id": "international-gemological-instit_2026-07-27",
+      "provider": "groq",
+      "generated_at": "2026-07-27T22:38:19.276Z",
+      "summary": "The company expects to deliver 15% revenue growth and 20% EBITDA growth in FY27, driven by strong demand for LGD certifications and increasing consumer acceptance.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "15% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "20% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "expected to improve by 100 basis points",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Average realization per report",
+          "horizon": "FY27",
+          "statement": "stability on pricing expected, with some improvement due to mix shift",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Operating leverage",
+        "Mix shift",
+        "Scale benefits"
+      ]
     }
   },
-  "generated_at": "2026-07-27T21:21:36.998Z",
-  "count": 1005
+  "generated_at": "2026-07-27T22:39:01.261Z",
+  "count": 1006
 }
