@@ -85825,15 +85825,51 @@
       "company": "CIE Automotive",
       "ticker": "CIEINDIA",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-04-29",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c108467-d408-4a18-94ea-456840f39716.pdf",
-      "transcript_id": "cie-automotive_2026-04-29",
+      "concall_date": "2026-07-22",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aeefac58-3477-4524-9f1d-aad5af2d34db.pdf",
+      "transcript_id": "cie-automotive_2026-07-22",
       "provider": "groq",
-      "generated_at": "2026-07-08T17:49:55.669Z",
-      "summary": "No forward-looking guidance was provided in the transcript.",
-      "guidance": [],
-      "refused_to_guide": [],
-      "margin_drivers": []
+      "generated_at": "2026-07-27T16:31:05.614Z",
+      "summary": "CIE Automotive expects to maintain a growth rate of 12-15% going forward, with a focus on outperforming the market while prioritizing return on investment and profitability.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "Next few quarters",
+          "statement": "Expect to maintain growth rate of 12-15%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Market growth",
+          "horizon": "Second half of the year",
+          "statement": "Expect a slowdown in market growth",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "H2 CY26",
+          "statement": "Expect capex to be significantly higher than in H1 CY26",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Next few quarters",
+          "statement": "New orders and projects coming through, with a new order book of around INR5 billion per year",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Customer-wise details",
+        "Project-wise details"
+      ],
+      "margin_drivers": [
+        "Price inflation management",
+        "Cost control measures",
+        "Restructuring activities"
+      ]
     },
     "Tata Comm": {
       "company": "Tata Comm",
@@ -98409,6 +98445,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-27T13:56:24.614Z",
+  "generated_at": "2026-07-27T16:31:44.280Z",
   "count": 1004
 }
