@@ -64331,107 +64331,63 @@
       "company": "Granules India",
       "ticker": "GRANULES",
       "sector": "Healthcare",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fea80792-0b52-44c7-9cb3-5679355bbb7d.pdf",
-      "transcript_id": "granules-india_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-03T21:22:04.595Z",
-      "summary": "Granules India enters FY27 with improved stability, clearer priorities, and greater organizational confidence, focusing on FDA readiness, scaling GLS, shifting to complex products, and disciplined capital allocation.",
+      "concall_date": "2026-07-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e726c059-c360-4254-8866-aa0eb60265c7.pdf",
+      "transcript_id": "granules-india_2026-07-01",
+      "provider": "groq",
+      "generated_at": "2026-07-27T13:55:54.377Z",
+      "summary": "Granules India expects continued growth, driven by complex generics, peptide CDMO, and oncology products, with a focus on quality, innovation, and disciplined capital allocation.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expects sustained sequential growth momentum with broad-based revenue growth driven by formulations in North America and Europe, and contributions from peptide CDMO.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Aims to maintain structural improvement in earnings quality with continued margin expansion, though external cost pressures may introduce quarterly variations.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "PAT",
-          "horizon": "FY27",
-          "statement": "Targets annual PAT positive performance for peptide CDMO business, with quarterly variations expected due to project-driven nature.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "PAT",
-          "horizon": "FY27",
-          "statement": "Aims for overall company PAT growth, supported by improved operating platform and sharper execution discipline.",
+          "statement": "Confident that growth will continue",
           "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Plans capex in the range of INR600 crores, with INR200 crores allocated for a U.S. distribution center and additional investments in API facilities and IT.",
+          "statement": "INR600 crores, with INR89 crores already spent in Q1",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expected to continue around 22-23%",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Peptide CDMO revenue",
+          "horizon": "3 years",
+          "statement": "Targeting $50 million with 30%+ EBITDA margin",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Peptide CDMO revenue",
           "horizon": "FY27",
-          "statement": "Sees significant growth opportunity in peptide CDMO space with low base effect, driven by pharmaceutical and cosmetic segments.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "DCDA project",
-          "horizon": "FY27",
-          "statement": "Aims to commercialize the DCDA project in 2-2.5 months, with capex estimated at INR200 crores for the commercial plant.",
+          "statement": "Minimum annual revenue expected to be 4x of Q1 revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Remediation spend",
+          "metric": "PAT",
           "horizon": "FY27",
-          "statement": "Expects remediation spend to be substantially lower in FY27 compared to FY26, with cumulative spend of INR50+ crores in FY26.",
+          "statement": "Peptide CDMO business expected to turn PAT positive",
           "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "U.S. FDA readiness",
-          "horizon": "FY27",
-          "statement": "Focuses on achieving sustained U.S. FDA readiness at Gagillapur site, including responses to all action points and progress updates.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Complex generics filings",
-          "horizon": "medium-term",
-          "statement": "Continues to advance filings and approvals across APIs and finished dosages with emphasis on complex generics, including potential first-to-file opportunities.",
-          "specificity": "vague",
           "direction": "up"
-        },
-        {
-          "metric": "Gross margin",
-          "horizon": "FY27",
-          "statement": "Aims to pass through raw material cost escalations and maintain gross margin expansion, though quarterly variations may occur due to cost uncertainties.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Net debt",
-          "horizon": "FY27",
-          "statement": "Expects net debt to remain flattish or see a slight increase due to capex timing and higher working capital requirements in an uncertain cost environment.",
-          "specificity": "vague",
-          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "Pricing environment for paracetamol and metformin",
-        "Exact revenue split between R&D and commercial manufacturing for peptide CDMO"
+        "Specific EBITDA margin for peptide CDMO business in FY27"
       ],
       "margin_drivers": [
-        "Shift towards complex and differentiated products",
-        "Peptide CDMO business with higher value-added margins",
-        "Pass-through of raw material cost escalations",
-        "Structural improvement in earnings quality"
+        "Complex generics",
+        "Higher value formulations",
+        "Peptide CDMO business"
       ]
     },
     "M & M": {
@@ -98453,6 +98409,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-27T11:36:09.514Z",
+  "generated_at": "2026-07-27T13:56:24.614Z",
   "count": 1004
 }
