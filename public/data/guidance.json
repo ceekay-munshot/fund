@@ -98443,8 +98443,63 @@
         "Product mix improvement",
         "Higher tonnages gaining traction"
       ]
+    },
+    "Rallis India": {
+      "company": "Rallis India",
+      "ticker": "RALLIS",
+      "sector": "Commodities",
+      "concall_date": "2026-07-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0041cf35-96de-412a-a26b-93ffc1b0fed0.pdf",
+      "transcript_id": "rallis-india_2026-07-27",
+      "provider": "groq",
+      "generated_at": "2026-07-27T18:09:30.179Z",
+      "summary": "Rallis India expects agrochemicals to grow around 6-8% in India in FY27, with seeds likely growing in the mid-to-high single digits, driven by a supportive MSP regime and a focus on crop diversification.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Agrochemicals expected to grow around 6-8% in India",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Seeds growth",
+          "horizon": "FY27",
+          "statement": "Seeds likely to grow in the mid-to-high single digits",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cotton acreage",
+          "horizon": "FY27",
+          "statement": "Cotton acreage expected to decline",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Crop protection growth",
+          "horizon": "FY27",
+          "statement": "Growth to come primarily from volume, with marginal positive impact from price",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Global crop protection market",
+          "horizon": "CY2026",
+          "statement": "Expected to grow at around 4.5-6.5% CAGR",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Disciplined working-capital management",
+        "Low-cost production",
+        "Balanced portfolio",
+        "Crop diversification"
+      ]
     }
   },
-  "generated_at": "2026-07-27T16:31:44.280Z",
-  "count": 1004
+  "generated_at": "2026-07-27T18:10:20.807Z",
+  "count": 1005
 }
