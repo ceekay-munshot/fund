@@ -98125,8 +98125,70 @@
         "Mix shift",
         "Scale benefits"
       ]
+    },
+    "Bansal Wire Inds": {
+      "company": "Bansal Wire Inds",
+      "ticker": "BANSALWIRE",
+      "sector": "Industrials",
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2c10cf2-4f35-48df-bb4e-c21bc4835df6.pdf",
+      "transcript_id": "bansal-wire-inds_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-28T18:24:34.802Z",
+      "summary": "Bansal Wire Industries expects to achieve 20% growth for the rest of the year, driven by market share gains, specialty portfolio contributions, and capacity expansion.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "20% growth expected for the rest of the year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA growth",
+          "horizon": "FY27",
+          "statement": "20% growth expected, with potential for more",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per kg",
+          "horizon": "FY27",
+          "statement": "Expected to be around INR 7-8 per kg",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "20% growth expected, driven by market share gains and new products",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Expected to be around 85-90%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Expected to be around INR 200-250 crore",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Market share gains",
+        "Specialty portfolio contributions",
+        "Capacity expansion",
+        "Operational efficiency"
+      ]
     }
   },
-  "generated_at": "2026-07-28T16:49:15.659Z",
-  "count": 1006
+  "generated_at": "2026-07-28T18:25:28.744Z",
+  "count": 1007
 }
