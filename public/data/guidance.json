@@ -45846,90 +45846,42 @@
     },
     "Bandhan Bank": {
       "company": "Bandhan Bank",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aade6e25-e649-4577-8ef0-61a0ae05c244.pdf",
-      "transcript_id": "bandhan-bank_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-28T23:45:33.675Z",
-      "summary": "Management expects steady improvement in profitability, asset quality, and liability franchise over the medium term, with ROA targeted to reach 1.6%-1.7% by FY27 exit.",
+      "ticker": "BANDHANBNK",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e694612-000f-4811-bb9c-dc8124300de0.pdf",
+      "transcript_id": "bandhan-bank_2026-07-27",
+      "provider": "groq",
+      "generated_at": "2026-07-28T12:23:58.313Z",
+      "summary": "Bandhan Bank's management expects a challenging environment due to external factors, revising ROA guidance to 1.2-1.4% for FY27.",
       "guidance": [
         {
           "metric": "ROA",
-          "horizon": "FY27 exit",
-          "statement": "Gradual improvement towards 1.6%-1.7% ROA by FY27 exit, give or take 10 basis points",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Credit cost",
           "horizon": "FY27",
-          "statement": "PSL cost expected to reduce by almost 50% in FY26 vs FY25, neutralized or zero in FY27, and then earn from PSL portfolio",
+          "statement": "ROA expected to be in the range of 1.2% to 1.4%",
           "specificity": "specific",
           "direction": "down"
-        },
-        {
-          "metric": "PSL coverage (EEB segment)",
-          "horizon": "near to medium term",
-          "statement": "EEB loans qualifying for PSL to increase from 40% currently to 60%-65% going forward",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "CASA ratio",
-          "horizon": "medium term",
-          "statement": "Continued focus on improving CASA ratio beyond current levels",
-          "specificity": "vague",
-          "direction": "up"
         },
         {
           "metric": "NIM",
-          "horizon": "near to medium term",
-          "statement": "Sustained improvement in NIMs supported by lower funding costs and gradual portfolio mix shift",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Credit cost (overall)",
-          "horizon": "medium term",
-          "statement": "Steady improvement in credit cost trajectory towards medium-term aspirations",
+          "horizon": "FY27",
+          "statement": "NIM may be moderately affected due to increasing cost of funds",
           "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "Operating leverage",
-          "horizon": "coming periods",
-          "statement": "Focus on driving tighter cost discipline and improving operating leverage",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Secured lending mix",
-          "horizon": "near to medium term",
-          "statement": "Expect to sustain current secured lending mix with gradual increase",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Collection efficiency",
-          "horizon": "Q1FY27",
-          "statement": "Collection efficiency trends expected to hold up post-elections",
-          "specificity": "vague",
+          "metric": "EEB portfolio",
+          "horizon": "medium-term",
+          "statement": "Targeting 33-35% of EEB book and 65% non-EEB book",
+          "specificity": "specific",
           "direction": "flat"
         }
       ],
-      "refused_to_guide": [
-        "absolute loan growth targets for FY27",
-        "dividend payout ratio for FY27",
-        "branch expansion targets for FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "lower funding costs",
-        "improved NIMs",
-        "higher fee income from third-party products",
-        "reduction in credit costs",
-        "operating leverage improvement"
+        "disciplined execution across business segments",
+        "improving asset quality",
+        "reducing high-cost bulk deposits"
       ]
     },
     "Jana Small Finan": {
@@ -98236,6 +98188,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-28T10:13:57.299Z",
+  "generated_at": "2026-07-28T12:24:40.314Z",
   "count": 1006
 }
