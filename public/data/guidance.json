@@ -53229,112 +53229,60 @@
     },
     "Globus Spirits": {
       "company": "Globus Spirits",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88a97d50-813c-4b52-9001-cd4109d5897e.pdf",
-      "transcript_id": "globus-spirits_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-01T05:10:57.352Z",
-      "summary": "Management expects strong growth in consumer portfolio (P&A) and stable manufacturing margins, with self-funded expansion and debt optimization reducing near-term capital needs.",
+      "ticker": "GLOBUSSPR",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=653b8745-2897-4a3f-b9b9-cc11d7fc119a.pdf",
+      "transcript_id": "globus-spirits_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-28T07:21:18.668Z",
+      "summary": "Globus Spirits expects to maintain its growth momentum, driven by its manufacturing and consumer businesses, with a focus on optimizing margin, cash flow, and strategic supply.",
       "guidance": [
         {
-          "metric": "P&A revenue growth",
-          "horizon": "FY29",
-          "statement": "Targeting 50% total growth in P&A portfolio by FY29",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "P&A EBITDA loss",
+          "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Reducing losses within the P&A segment",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Regulars & Others volume",
-          "horizon": "FY27",
-          "statement": "UP emerging as a massive growth engine with new SKUs; Rajasthan targeted for recovery",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Regulars & Others EBITDA margin",
-          "horizon": "FY27",
-          "statement": "EBITDA expansion outpacing revenue growth in Regulars segment",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Manufacturing EBITDA per liter",
-          "horizon": "FY27",
-          "statement": "Stable margins at INR6-8 per liter level",
+          "statement": "Expected to remain in the range of 10%",
           "specificity": "specific",
           "direction": "flat"
         },
         {
           "metric": "Manufacturing capacity utilization",
           "horizon": "FY27",
-          "statement": "Maintaining 80-85% capacity utilization",
+          "statement": "Expected to remain around 85%",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Ethanol blending demand",
+          "metric": "R&O EBITDA margins",
           "horizon": "FY27",
-          "statement": "Strong and sustained demand growth for ethanol blending due to national mandates",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "ENA exports",
-          "horizon": "FY27",
-          "statement": "Facilities geared for large-scale ENA exports; opportunity to be an additional volume driver",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Bihar market reopening",
-          "horizon": "medium-term",
-          "statement": "Bihar likely to open; Globus positioned to enter full portfolio immediately upon reopening",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "West Bengal excise policy",
-          "horizon": "medium-term",
-          "statement": "Likely to become more favorable for spirits industry over medium term",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Debt outflow",
-          "horizon": "FY27",
-          "statement": "Annual debt outflow reduced to INR14 crores from INR67 crores",
+          "statement": "Expected to be around 15-17%",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Blended interest rate",
+          "metric": "P&A revenue growth",
           "horizon": "FY27",
-          "statement": "Blended interest rate reduced by 50 basis points",
+          "statement": "Expected to continue growing, driven by geographical expansion and brand strength",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Ethanol demand",
+          "horizon": "FY27",
+          "statement": "Expected to grow at around 7-7.5%, driven by E20 blending",
           "specificity": "specific",
-          "direction": "down"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "FY27 P&A revenue growth target (piecemeal commitments)",
-        "FY27 Regulars & Others revenue growth target",
-        "Funding requirement for IMFL portfolio expansion beyond FY27"
+        "Specific timeline for prohibition lifting in Bihar"
       ],
       "margin_drivers": [
-        "Ethanol blending demand growth",
-        "ENA export arbitrage",
-        "Raw material optimization (maize vs rice)",
-        "Debt optimization and lower interest costs",
-        "Geographic expansion in core markets (UP, East)",
-        "Portfolio restructuring in Regulars segment"
+        "Optimization of manufacturing capacity",
+        "Improved manufacturing profitability",
+        "Stronger traction in prestige and above segment",
+        "Disciplined margin framework",
+        "Focus on market depth, brand strength, and profitable growth"
       ]
     },
     "Azad Engineering": {
@@ -53704,111 +53652,17 @@
     },
     "SBFC Finance": {
       "company": "SBFC Finance",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fcb4232-40ba-4b3b-ab2b-11a5e8022ddc.pdf",
-      "transcript_id": "sbfc-finance_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-01T12:17:18.550Z",
-      "summary": "Management expects steady growth with improved profitability through branch expansion, cost optimization, and stable asset quality despite macroeconomic uncertainties.",
-      "guidance": [
-        {
-          "metric": "AUM growth",
-          "horizon": "next 3 to 3.5 years",
-          "statement": "Potential to double the book over the next 3 to 3.5 years at current pace of growth",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Branch network",
-          "horizon": "FY27",
-          "statement": "Stabilize branch network at 275 branches during the year",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Quarterly AUM growth",
-          "horizon": "FY27",
-          "statement": "Overall guidance remains unchanged at 5% to 7% on a quarterly basis",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Gold loan share in AUM",
-          "horizon": "FY27",
-          "statement": "Gold loan share may gradually move closer to 25%",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Portfolio mix (MSME:Gold)",
-          "horizon": "FY27",
-          "statement": "Portfolio mix between MSME and gold expected to remain stable between 75% and 25%",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Spreads",
-          "horizon": "FY27",
-          "statement": "Spreads expected to hold at current level of 9%",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Opex reduction",
-          "horizon": "FY27",
-          "statement": "Opex expected to decline by 20 to 25 basis points through the year",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Credit cost",
-          "horizon": "FY27",
-          "statement": "Credit cost expected to remain range-bound at 1.38% with marginal benefits of 5 basis points",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Co-origination disbursements",
-          "horizon": "FY27",
-          "statement": "Co-origination disbursements expected to remain at similar levels of 16% of total disbursements",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Cost of funds",
-          "horizon": "FY27",
-          "statement": "Cost of funds expected to reduce further as organization matures and rating upgrades occur",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Digital adoption",
-          "horizon": "medium-term",
-          "statement": "Efficiency gains expected from digitization of origination, file movement, collection, and customer service processes",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Market penetration",
-          "horizon": "medium-term",
-          "statement": "Currently present in only one-fourth of districts within operating states, providing significant runway for expansion",
-          "specificity": "vague",
-          "direction": "up"
-        }
-      ],
-      "refused_to_guide": [
-        "specific disbursement volumes for FY27",
-        "exact PAT or ROE targets for FY27"
-      ],
-      "margin_drivers": [
-        "cost of funds reduction",
-        "opex optimization",
-        "spread stability",
-        "credit cost management",
-        "digitization efficiency gains"
-      ]
+      "ticker": "SBFC",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-25",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=024d015a-cc9b-4150-88cc-2c9eb5468df0.pdf",
+      "transcript_id": "sbfc-finance_2026-07-25",
+      "provider": "groq",
+      "generated_at": "2026-07-28T07:21:43.944Z",
+      "summary": "No forward-looking guidance provided in the transcript",
+      "guidance": [],
+      "refused_to_guide": [],
+      "margin_drivers": []
     },
     "PTC India Fin": {
       "company": "PTC India Fin",
@@ -98382,6 +98236,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-28T04:21:52.360Z",
+  "generated_at": "2026-07-28T07:21:57.486Z",
   "count": 1006
 }
