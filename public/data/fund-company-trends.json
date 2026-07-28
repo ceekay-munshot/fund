@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-28T11:43:24.278Z",
+  "generated_at": "2026-07-28T13:28:04.846Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 48,
-    "gained": 311,
-    "consistent": 656,
+    "dropped": 49,
+    "gained": 310,
+    "consistent": 658,
     "companies_evaluated": 962
   },
   "dropped": [
@@ -104,6 +104,17 @@
       "sector": "Commodities",
       "latest_call_date": "2026-07-18",
       "last_seen_date": "2026-01-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "Ujjivan Small",
+      "ticker": "UJJIVANSFB",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-01",
+      "last_seen_date": "2026-05-01",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -547,22 +558,6 @@
       "latest_call_date": "2026-07-27"
     },
     {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "HDFC Bank",
-      "ticker": "HDFCBANK",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-07-24"
-    },
-    {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "Poonawalla Fin",
-      "ticker": "POONAWALLA",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-07-23"
-    },
-    {
       "fund_id": "vallum",
       "fund_name": "Vallum Capital",
       "company": "Bank of Maha",
@@ -585,6 +580,14 @@
       "ticker": "544296",
       "sector": "Financial Services",
       "latest_call_date": "2026-07-01"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Mahindra Logis.",
+      "ticker": "MAHLOG",
+      "sector": "Services",
+      "latest_call_date": "2026-06-30"
     },
     {
       "fund_id": "carnelian",
@@ -849,6 +852,14 @@
       "ticker": "OBEROIRLTY",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-11"
+    },
+    {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "company": "Nath Bio-Genes",
+      "ticker": "NATHBIOGEN",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "trust-mf",
@@ -1544,14 +1555,6 @@
       "company": "PVR Inox",
       "ticker": "PVRINOX",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "nafa",
-      "fund_name": "Nafa Asset Managers",
-      "company": "Nath Bio-Genes",
-      "ticker": "NATHBIOGEN",
-      "sector": "Fast Moving Consumer Goods",
       "latest_call_date": "2026-05-01"
     },
     {
