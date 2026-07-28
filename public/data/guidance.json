@@ -98187,8 +98187,73 @@
         "Capacity expansion",
         "Operational efficiency"
       ]
+    },
+    "Adani Energy Sol": {
+      "company": "Adani Energy Sol",
+      "ticker": "ADANIENSOL",
+      "sector": "Utilities",
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1265bbd-59f3-4df0-8874-ecb987d8bf99.pdf",
+      "transcript_id": "adani-energy-sol_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-28T21:18:30.673Z",
+      "summary": "Adani Energy Solutions expects sustained growth with a diversified utility platform, focusing on execution discipline and capital discipline to reduce cost of capital and improve credit quality.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Quarterly capex of about INR3,500 crores, focusing on deploying logged-in opportunities and completing projects.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Smart Meter Installation",
+          "horizon": "medium-term",
+          "statement": "Completed 13.4 million meters cumulatively, with a target of 47 million meters including IntelliSmart acquisition.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Energy Solutions Platform",
+          "horizon": "medium-term",
+          "statement": "Expecting significant growth, with 5,000 megawatts of capacity tied up on the supply side and 350 megawatts of C&I customers.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin",
+          "horizon": "medium-term",
+          "statement": "Aim to maintain profitability similar to existing business, with advantages of scale and reduced capex and opex.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Back-to-Back Contracts",
+          "horizon": "medium-term",
+          "statement": "Aim to tie up most of the capacity on both purchase and sales sides, with some open positions for optimization.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Data Center Demand",
+          "horizon": "medium-term",
+          "statement": "Expect significant volume from data center segment, with a focus on providing green power solutions.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Detailed breakdown of Energy Solutions platform revenue and expenses",
+        "Specific numbers for data center demand and power mix"
+      ],
+      "margin_drivers": [
+        "Execution discipline and capital discipline",
+        "Reduced capex and opex",
+        "Advantages of scale",
+        "Optimization of power trading and sales"
+      ]
     }
   },
-  "generated_at": "2026-07-28T20:05:21.980Z",
-  "count": 1007
+  "generated_at": "2026-07-28T21:19:19.802Z",
+  "count": 1008
 }
