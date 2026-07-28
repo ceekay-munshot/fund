@@ -79043,109 +79043,48 @@
       "company": "Stylam Industrie",
       "ticker": "STYLAMIND",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35793141-9caf-42c8-b1dd-a4d62660e52b.pdf",
-      "transcript_id": "stylam-industrie_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-07T00:18:32.400Z",
-      "summary": "Management expects strong growth from new capacity additions and gradual improvement in domestic market share, with EBITDA margins remaining robust.",
+      "concall_date": "2026-07-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=815f3463-cf97-433c-ad20-3736cbabb00f.pdf",
+      "transcript_id": "stylam-industrie_2026-07-27",
+      "provider": "groq",
+      "generated_at": "2026-07-28T04:21:07.662Z",
+      "summary": "Stylam Industries expects to maintain similar margins and achieve revenue growth driven by the new plant and domestic market restructuring.",
       "guidance": [
         {
-          "metric": "New plant revenue (FY27)",
-          "horizon": "FY27",
-          "statement": "INR250 crores to INR300 crores from the new plant in FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "New plant revenue (FY28)",
-          "horizon": "FY28",
-          "statement": "INR600 crores to INR700 crores from the new plant in FY28",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "New plant utilization (FY27)",
-          "horizon": "FY27",
-          "statement": "30% to 40% utilization by Q2 FY27, 80% plus in the next 2 years",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "New plant margin",
-          "horizon": "FY27",
-          "statement": "Margin profile of 22% to 24% for the new plant",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Company revenue growth (FY27)",
-          "horizon": "FY27",
-          "statement": "20% to 25% increase in revenue compared to previous year",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Company EBITDA margin (FY28)",
-          "horizon": "FY28",
-          "statement": "Potential to achieve 22% EBITDA margin by FY28",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Acrylics segment revenue",
-          "horizon": "FY26",
-          "statement": "INR50 crores to INR70 crores expected in FY26",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export vs domestic revenue split",
-          "horizon": "FY27",
-          "statement": "75% exports and 25% domestic revenue expected in FY27",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Domestic market strategy",
+          "metric": "EBITDA margin",
           "horizon": "medium-term",
-          "statement": "Aggressively working to increase domestic market share",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Brand visibility improvement",
-          "horizon": "2-3 quarters",
-          "statement": "Brand visibility improvements expected in 2-3 quarters",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Raw material cost impact",
-          "horizon": "next few months",
-          "statement": "Potential impact from raw material cost increases if war continues for 2-3 more months",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "New plant commercial production",
-          "horizon": "Q1FY27",
-          "statement": "New plant to commence commercial production by end of June or middle of July",
+          "statement": "Margins will remain the same, around 19-20% plus",
           "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "New plant to achieve INR250-300 crores revenue",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "New plant to achieve 30% capacity utilization in the first year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Domestic market growth",
+          "horizon": "Q3 FY27 onwards",
+          "statement": "Domestic market to show significant growth from Q3 onwards",
+          "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Exact revenue guidance for FY27 beyond directional 20-25% growth",
-        "Domestic business EBITDA breakdown",
-        "Stake sale to AICA Global in next 2-3 years"
+        "Long-term capex plans"
       ],
       "margin_drivers": [
-        "Raw material cost management",
-        "Fixed cost absorption from new plant",
-        "Price increases in domestic and export markets",
-        "Value addition in old plants",
-        "Economies of scale from new capacity"
+        "Efficiency improvements",
+        "Utilization of existing plant capacity"
       ]
     },
     "Dynamic Cables": {
@@ -98443,6 +98382,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-28T01:02:32.866Z",
+  "generated_at": "2026-07-28T04:21:52.360Z",
   "count": 1006
 }
