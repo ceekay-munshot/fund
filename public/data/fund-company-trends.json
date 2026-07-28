@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-07-27T23:23:07.561Z",
+  "generated_at": "2026-07-28T00:27:51.211Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 47,
-    "gained": 319,
-    "consistent": 639,
-    "companies_evaluated": 959
+    "gained": 316,
+    "consistent": 645,
+    "companies_evaluated": 961
   },
   "dropped": [
+    {
+      "fund_id": "vallum",
+      "fund_name": "Vallum Capital",
+      "company": "Juniper Hotels",
+      "ticker": "JUNIPER",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-05-27",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
     {
       "fund_id": "sameeksha",
       "fund_name": "Sameeksha Capital",
@@ -278,17 +289,6 @@
       "company": "Karnataka Bank",
       "ticker": "KTKBANK",
       "sector": "Financial Services",
-      "latest_call_date": "2026-05-27",
-      "last_seen_date": "2026-05-01",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "vallum",
-      "fund_name": "Vallum Capital",
-      "company": "Juniper Hotels",
-      "ticker": "JUNIPER",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-27",
       "last_seen_date": "2026-05-01",
       "prior_calls_attended": 3,
@@ -576,14 +576,6 @@
       "latest_call_date": "2026-07-16"
     },
     {
-      "fund_id": "girik",
-      "fund_name": "Girik Capital",
-      "company": "Amagi Media Labs",
-      "ticker": "AMAGI",
-      "sector": "Information Technology",
-      "latest_call_date": "2026-07-10"
-    },
-    {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "Granules India",
@@ -598,14 +590,6 @@
       "ticker": "544296",
       "sector": "Financial Services",
       "latest_call_date": "2026-07-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Prince Pipes",
-      "ticker": "PRINCEPIPE",
-      "sector": "Industrials",
-      "latest_call_date": "2026-06-25"
     },
     {
       "fund_id": "carnelian",
@@ -654,6 +638,14 @@
       "ticker": "VINYAS",
       "sector": "Industrials",
       "latest_call_date": "2026-06-03"
+    },
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "Indo Count Inds.",
+      "ticker": "ICIL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-06-01"
     },
     {
       "fund_id": "white-pine",
@@ -733,22 +725,6 @@
       "company": "Ecos (India)",
       "ticker": "ECOSMOBLTY",
       "sector": "Services",
-      "latest_call_date": "2026-06-01"
-    },
-    {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Indo Count Inds.",
-      "ticker": "ICIL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-06-01"
-    },
-    {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "Indo Count Inds.",
-      "ticker": "ICIL",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-06-01"
     },
     {
