@@ -21140,111 +21140,53 @@
     },
     "Gandhar Oil Ref.": {
       "company": "Gandhar Oil Ref.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-06-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c910a60c-4939-4caa-ad4d-c1abf632e8e9.pdf",
-      "transcript_id": "gandhar-oil-ref_2026-06-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-25T12:05:02.408Z",
-      "summary": "Management expects steady growth in specialty white oils driven by healthcare and personal care demand, with margin stability supported by cost discipline and supply chain optimization.",
+      "ticker": "GANDHAR",
+      "sector": "Energy",
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdd49a7a-3729-4dee-8469-adc094c219c6.pdf",
+      "transcript_id": "gandhar-oil-ref_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-29T12:33:00.315Z",
+      "summary": "Gandhar Oil Refinery expects sustained growth driven by its diversified sourcing network, strong customer relationships, and disciplined execution, despite geopolitical uncertainties.",
       "guidance": [
         {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Hopeful of margins remaining at current levels or around this level for the whole year",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
           "metric": "Revenue growth",
-          "horizon": "medium-term",
-          "statement": "Continued expansion in PHPO (personal care, health care, performance oils) with focus on global footprint growth and new customer acquisition.",
+          "horizon": "FY27",
+          "statement": "Historically, volume growth has been in the range of 8% to 10% to even 11%",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
-          "horizon": "medium-term",
-          "statement": "Endeavor to maintain current EBITDA levels (~6% on consolidated basis) and target higher levels through cost reduction and product mix improvement.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "EBITDA margin",
+          "metric": "Export revenue",
           "horizon": "FY27",
-          "statement": "Confident of maintaining current EBITDA levels (~6% on consolidated basis).",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27-FY28",
-          "statement": "Detailed plan for Taloja plant expansion to be shared in subsequent quarters; capex budget under finalization.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27-FY28",
-          "statement": "No immediate investment planned for South Africa; broad approval obtained but detailed action plan pending.",
+          "statement": "Anticipate export revenue and sales to be at the same level for the quarters to come",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Raw material sourcing",
+          "metric": "Volume growth",
           "horizon": "FY27",
-          "statement": "Maintain optimum inventory levels of 40-45 days to navigate geopolitical disruptions and ensure uninterrupted supply.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Raw material diversification",
-          "horizon": "FY27",
-          "statement": "Increase sourcing from Korean and domestic suppliers (e.g., BPCL, Indian Oil) to reduce Middle East dependency (currently 20-22%).",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Freight costs",
-          "horizon": "FY27",
-          "statement": "Freight hikes have not materially impacted margins as pricing is index-linked and passed on to customers.",
+          "statement": "Expect volume growth in the range of 8% to 10% to even 11%",
           "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "R&D expenditure",
-          "horizon": "FY27",
-          "statement": "R&D spend to remain in the range of 4.5% to 5% of other expenses.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Debt-equity ratio",
-          "horizon": "medium-term",
-          "statement": "Target to maintain debt-equity ratio at current favorable levels (practically nil on standalone, very low on consolidated).",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Inorganic growth",
-          "horizon": "medium-term",
-          "statement": "Open to inorganic growth opportunities if suitable targets emerge.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Global market growth",
-          "horizon": "2033",
-          "statement": "White oil market expected to grow from USD1.93 billion in 2026 to USD2.75 billion by 2033 (CAGR ~5.5%).",
-          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Transformer oil price movement",
-        "Exact R&D spend for FY27",
-        "South Africa facility details (manufacturing vs. office)"
+        "Specific revenue projections for new geographies",
+        "Detailed plan for South Africa entry"
       ],
       "margin_drivers": [
-        "Cost efficiencies",
-        "Product mix improvement",
-        "Customer diversification",
-        "Supply chain optimization",
-        "Index-linked pricing for raw materials"
+        "Agile sourcing",
+        "Optimum utilization of inventories",
+        "Favourable market conditions",
+        "Disciplined execution"
       ]
     },
     "Aarti Pharma": {
@@ -98298,6 +98240,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-29T10:16:09.000Z",
+  "generated_at": "2026-07-29T12:33:43.117Z",
   "count": 1010
 }
