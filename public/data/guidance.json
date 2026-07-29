@@ -67770,108 +67770,62 @@
       "company": "TVS Motor Co.",
       "ticker": "TVSMOTOR",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
-      "transcript_id": "tvs-motor-co_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-04T15:19:15.117Z",
-      "summary": "Management expects growth ahead of industry in FY27 driven by strong domestic demand, international momentum, and EV expansion, while cautiously monitoring commodity costs and supply chain risks.",
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e99280ca-79c3-4fa1-8188-f0f34294abfa.pdf",
+      "transcript_id": "tvs-motor-co_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-29T04:24:23.610Z",
+      "summary": "TVS Motor expects strong growth in Q2, driven by robust demand in domestic and international markets, with double-digit industry growth anticipated for the year.",
       "guidance": [
         {
-          "metric": "Industry growth",
-          "horizon": "FY27",
-          "statement": "Expects single-digit industry growth for FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Domestic 2-wheeler growth",
-          "horizon": "FY27",
-          "statement": "Expects scooters and EVs to grow faster than industry; premium/super-premium segments to perform well; economy segment to face challenges",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "International 2-wheeler growth",
-          "horizon": "FY27",
-          "statement": "Expects momentum to continue with demand remaining strong despite geopolitical challenges",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EV 2-wheeler growth",
-          "horizon": "FY27",
-          "statement": "EV penetration expected to increase further with Orbiter and iQube driving adoption",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EV 3-wheeler growth",
-          "horizon": "FY27",
-          "statement": "Aiming for prominent market share in EV passenger and cargo segments; partnership with Hyundai to commercialize electric 3-wheeler",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity addition",
-          "horizon": "12-24 months",
-          "statement": "Planning to increase 2-wheeler capacity by 1.5 million units to reach ~8.3 million units; additional capacity expansions under consideration for FY28-29",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EV capacity",
-          "horizon": "FY27",
-          "statement": "Current EV capacity ~30,000-32,000 units/month; targeting 40,000 units/month soon and 50,000 units/month thereafter",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Plans capex of ~INR3,500 crores for FY27, including INR2,000 crores for product development and INR1,000+ crores for capacity expansion",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Investments in subsidiaries",
-          "horizon": "FY27",
-          "statement": "Investments in overseas subsidiaries (primarily Norton) to be significantly lower at ~INR500-600 crores in FY27 vs INR2,400 crores in FY26",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Commodity inflation impact",
-          "horizon": "Q1FY27",
-          "statement": "Expects 3-5% commodity inflation as a percentage of revenue; offset partially by price increases and product mix improvements",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Supply chain recovery",
-          "horizon": "Q1FY27",
-          "statement": "Confident of overcoming supply chain disruptions (labor, raw material availability) by end of May/June; expects Q1 to grow ahead of industry",
+          "metric": "Revenue",
+          "horizon": "Q2FY27",
+          "statement": "Expected to grow, with ICE demand likely to be slightly better than Q1 and EV demand to maintain its momentum",
           "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
+          "horizon": "Q2FY27",
+          "statement": "Expected to improve, driven by product mix, growth, scale benefits, and cost reduction",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "Q2FY27",
+          "statement": "Expected to grow, with domestic demand supported by GST rationalization and affordability",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Medium-term",
+          "statement": "Investing behind capacity, particularly in electric vehicles and international business",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV penetration",
           "horizon": "FY27",
-          "statement": "Aims to improve EBITDA margin through scale benefits, better product mix, cost reduction, and price increases",
+          "statement": "Expected to continue growing, with June penetration at 10.6%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
+          "horizon": "Q2FY27",
+          "statement": "Expected to maintain strong momentum, driven by sustained demand in key international markets",
           "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "PLI (Production-Linked Incentive) for future periods",
-        "Channel stock levels for future periods beyond immediate recovery"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
+        "Product mix",
+        "Growth",
         "Scale benefits",
-        "Product mix improvement",
-        "Cost reduction initiatives",
-        "Price increases",
-        "Commodity inflation management"
+        "Cost reduction"
       ]
     },
     "GHCL": {
@@ -98260,6 +98214,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-29T01:05:08.731Z",
+  "generated_at": "2026-07-29T04:25:18.314Z",
   "count": 1009
 }
