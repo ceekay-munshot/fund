@@ -98200,8 +98200,73 @@
         "Predictable O&M costs",
         "Interest and depreciation costs"
       ]
+    },
+    "Geojit Fin. Ser.": {
+      "company": "Geojit Fin. Ser.",
+      "ticker": "GEOJITFSL",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8884fd78-80da-4491-ac7e-3cd6dd2d17e6.pdf",
+      "transcript_id": "geojit-fin-ser_2026-07-29",
+      "provider": "groq",
+      "generated_at": "2026-07-29T22:34:23.076Z",
+      "summary": "Geojit Financial Services expects to benefit from India's long-term financialization opportunity, with a focus on building a diversified recurring revenue-led wealth platform.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "Medium-term",
+          "statement": "Investments in technology, distribution, and people will support improved productivity and operating leverage.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage",
+          "horizon": "2-3 quarters",
+          "statement": "The company expects to see significant progress in operating leverage once there is stability in the market.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Productivity of sales force",
+          "horizon": "2 quarters",
+          "statement": "The company expects to see good traction in productivity of sales force.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cross-selling",
+          "horizon": "Medium-term",
+          "statement": "The company sees a lot of scope in selling insurance products to existing clients.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "GCC business",
+          "horizon": "Long-term",
+          "statement": "The company is optimistic about the GCC business despite current challenges.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Buyback",
+          "horizon": "Uncertain",
+          "statement": "The company will consider buyback opportunities, but the timing is uncertain.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific numbers for revenue growth",
+        "Exact timeline for buyback"
+      ],
+      "margin_drivers": [
+        "Cross-selling",
+        "Operating leverage",
+        "Productivity of sales force",
+        "Technology investments"
+      ]
     }
   },
-  "generated_at": "2026-07-29T21:32:07.420Z",
-  "count": 1011
+  "generated_at": "2026-07-29T22:35:13.250Z",
+  "count": 1012
 }
