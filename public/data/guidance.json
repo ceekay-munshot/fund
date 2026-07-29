@@ -51858,111 +51858,65 @@
     },
     "HFCL": {
       "company": "HFCL",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf",
-      "transcript_id": "hfcl_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-30T21:18:50.464Z",
-      "summary": "HFCL expects sustained revenue growth and margin expansion driven by strong order book, defense expansion, data center interconnect solutions, and backward integration.",
+      "ticker": "HFCL",
+      "sector": "Telecommunication",
+      "concall_date": "2026-07-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf",
+      "transcript_id": "hfcl_2026-07-29",
+      "provider": "groq",
+      "generated_at": "2026-07-29T17:52:00.700Z",
+      "summary": "HFCL expects strong growth driven by multiple demand drivers in optical fibre, defence, and aerospace, with a raised revenue growth aspiration of 40% for FY27.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expects revenue growth of 20% to 25% over FY26",
+          "statement": "Raised revenue growth aspiration to 40% and above",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Expects 3% to 4% increase in blended EBITDA margin",
+          "statement": "Aim to achieve EBITDA margins of over 20%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Data center interconnect solutions revenue",
-          "horizon": "FY27-FY28",
-          "statement": "Expected to contribute Rs.400 crore in FY27 and Rs.800 crore in FY28",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Defense revenue",
+          "metric": "Defence sector revenue",
           "horizon": "FY27",
-          "statement": "Expected to be Rs.500 crore to Rs.600 crore",
+          "statement": "Aspire to achieve approximately ₹500 crore of revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Defense margin",
+          "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Expected to be a couple of percentage points higher than current margins",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Optical Fibre capacity",
-          "horizon": "December 2026",
-          "statement": "Optical Fibre capacity to increase from 28 mn fkm to 33.9 mn fkm",
+          "statement": "Total capex for the year is ₹640 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Optical Fibre Cable capacity",
-          "horizon": "December 2026",
-          "statement": "Optical Fibre Cable capacity to increase from 34 mn fkm to 42.36 mn fkm",
+          "metric": "Capex",
+          "horizon": "Next year",
+          "statement": "Total capex for next year is expected to be around ₹615 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Preform manufacturing facility capex",
-          "horizon": "2 years",
-          "statement": "Facility to be set up with Rs.580 crore capex, reducing preform cost by 15% to 20%",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Preform manufacturing facility timeline",
-          "horizon": "2 years",
-          "statement": "Facility expected to be operational in at least 2 years",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Order book execution timeline",
-          "horizon": "5 years",
-          "statement": "Rs.18,000 crore of product orders to be delivered within 1 to 5 years",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "EPC business profitability",
-          "horizon": "FY27",
-          "statement": "EPC business expected to turn profitable from FY27 onwards",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Defense aerospace acquisition timeline",
-          "horizon": "2026",
-          "statement": "Definitive agreements for defense aerospace acquisition expected by May 31, 2026, with closing in the current calendar year",
+          "metric": "Data centre connectivity revenue",
+          "horizon": "Current year",
+          "statement": "Expect revenue of more than ₹700 crores",
           "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "PAT guidance for FY27",
-        "Breakdown of IBR capacity turnover",
-        "Demerger timeline for project business"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Backward integration into preform manufacturing",
-        "Defense sector expansion",
-        "Data center interconnect solutions",
-        "High-margin product mix shift",
-        "Export-led revenue growth"
+        "Higher contribution from technology-led products",
+        "Increasing exports",
+        "Improved product mix",
+        "Operating leverage",
+        "Focus on innovation"
       ]
     },
     "Digitide Solutio": {
@@ -98192,6 +98146,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-29T16:38:27.902Z",
+  "generated_at": "2026-07-29T17:52:26.660Z",
   "count": 1010
 }
