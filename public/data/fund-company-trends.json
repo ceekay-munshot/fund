@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-29T15:11:28.398Z",
+  "generated_at": "2026-07-29T16:01:11.708Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 51,
-    "gained": 309,
-    "consistent": 669,
-    "companies_evaluated": 974
+    "dropped": 52,
+    "gained": 306,
+    "consistent": 668,
+    "companies_evaluated": 976
   },
   "dropped": [
     {
@@ -61,6 +61,28 @@
       "latest_call_date": "2026-05-27",
       "last_seen_date": "2026-05-01",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "Arvind Fashions.",
+      "ticker": "ARVINDFASN",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-07-29",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "vallum",
+      "fund_name": "Vallum Capital",
+      "company": "Arvind Fashions.",
+      "ticker": "ARVINDFASN",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-07-29",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -548,17 +570,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "vallum",
-      "fund_name": "Vallum Capital",
-      "company": "Arvind Fashions.",
-      "ticker": "ARVINDFASN",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01",
-      "last_seen_date": "2026-02-01",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
       "company": "Birlasoft Ltd",
@@ -571,6 +582,62 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Solara Active",
+      "ticker": "SOLARA",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-07-29"
+    },
+    {
+      "fund_id": "boring",
+      "fund_name": "Boring AMC",
+      "company": "Monolithisch Ind",
+      "ticker": "MONOLITH",
+      "sector": "Industrials",
+      "latest_call_date": "2026-07-29"
+    },
+    {
+      "fund_id": "wallfort",
+      "fund_name": "Wallfort PMS",
+      "company": "Geojit Fin. Ser.",
+      "ticker": "GEOJITFSL",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-29"
+    },
+    {
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "Suryoday Small",
+      "ticker": "SURYODAY",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-29"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Orient Green",
+      "ticker": "GREENPOWER",
+      "sector": "Utilities",
+      "latest_call_date": "2026-07-29"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "Smartworks Cowor",
+      "ticker": "SMARTWORKS",
+      "sector": "Services",
+      "latest_call_date": "2026-07-28"
+    },
+    {
+      "fund_id": "sameeksha",
+      "fund_name": "Sameeksha Capital",
+      "company": "Smartworks Cowor",
+      "ticker": "SMARTWORKS",
+      "sector": "Services",
+      "latest_call_date": "2026-07-28"
+    },
     {
       "fund_id": "enam",
       "fund_name": "Enam",
@@ -908,14 +975,6 @@
       "latest_call_date": "2026-05-29"
     },
     {
-      "fund_id": "malabar",
-      "fund_name": "Malabar Investments",
-      "company": "Oberoi Realty",
-      "ticker": "OBEROIRLTY",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-11"
-    },
-    {
       "fund_id": "girik",
       "fund_name": "Girik Capital",
       "company": "SPR Auto Technologies",
@@ -1017,38 +1076,6 @@
       "company": "Krishna Institu.",
       "ticker": "KIMS",
       "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
-      "company": "HFCL",
-      "ticker": "HFCL",
-      "sector": "Telecommunication",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "HFCL",
-      "ticker": "HFCL",
-      "sector": "Telecommunication",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "HFCL",
-      "ticker": "HFCL",
-      "sector": "Telecommunication",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "stallion",
-      "fund_name": "Stallion Asset",
-      "company": "HFCL",
-      "ticker": "HFCL",
-      "sector": "Telecommunication",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -1620,14 +1647,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Suryoday Small",
-      "ticker": "SURYODAY",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "green-portfolio",
       "fund_name": "Green Portfolio",
       "company": "PCBL Chemical",
@@ -2012,14 +2031,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Vardhman Special",
-      "ticker": "VSSL",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "maximal",
       "fund_name": "Maximal Capital",
       "company": "Team Lease Serv.",
@@ -2132,14 +2143,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "perpetuity",
-      "fund_name": "Perpetuity",
-      "company": "Indian Hotels Co",
-      "ticker": "INDHOTEL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
       "company": "Sundram Fasten.",
@@ -2225,14 +2228,6 @@
       "company": "Strides Pharma",
       "ticker": "STAR",
       "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "alfaccurate",
-      "fund_name": "AlfAccurate Advisors",
-      "company": "Arvind Fashions.",
-      "ticker": "ARVINDFASN",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2823,16 +2818,16 @@
       "fund_id": "sageone",
       "fund_name": "SageOne",
       "company": "Macfos",
-      "ticker": null,
-      "sector": null,
+      "ticker": "543787",
+      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-04-01"
     },
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "Macfos",
-      "ticker": null,
-      "sector": null,
+      "ticker": "543787",
+      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-04-01"
     },
     {
@@ -2969,14 +2964,6 @@
       "company": "AGI Greenpac",
       "ticker": "AGI",
       "sector": "Industrials",
-      "latest_call_date": "2026-02-01"
-    },
-    {
-      "fund_id": "enam",
-      "fund_name": "Enam",
-      "company": "Glenmark Pharma.",
-      "ticker": "GLENMARK",
-      "sector": "Healthcare",
       "latest_call_date": "2026-02-01"
     },
     {
