@@ -98212,8 +98212,92 @@
         "Commercial momentum",
         "Technology leadership"
       ]
+    },
+    "Avience Biomedi.": {
+      "company": "Avience Biomedi.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/AVIENBIO_28072026233742_Transcript_H2_FY26_Concall__Avience.pdf",
+      "transcript_id": "avience-biomedi_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-29T07:25:09.752Z",
+      "summary": "Avience Biomedicals expects at least 60% revenue growth in FY27, driven by expansion into new products and territories, with potential for growth to exceed this level.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "At least 60% growth, potentially exceeding ₹ 100 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Approximately ₹ 160-165 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maintain current margin while scaling the business",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY28 and FY29",
+          "statement": "Expect improvement as manufacturing scale and utilisation increase",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "Current",
+          "statement": "Approximately ₹ 47 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Exports",
+          "horizon": "FY27",
+          "statement": "Targeting ₹ 5-7 crore",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product approvals",
+          "horizon": "FY27",
+          "statement": "Expect approximately 175 products by the end of the year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilisation",
+          "horizon": "FY27",
+          "statement": "Initial utilisation around 15-20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital requirement",
+          "horizon": "₹ 100 crore revenue",
+          "statement": "Around ₹ 35-40 crore",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Manufacturing scale and utilisation",
+        "Product mix",
+        "Approvals",
+        "Demand",
+        "Execution"
+      ]
     }
   },
-  "generated_at": "2026-07-29T04:25:18.314Z",
-  "count": 1009
+  "generated_at": "2026-07-29T07:26:06.744Z",
+  "count": 1010
 }
