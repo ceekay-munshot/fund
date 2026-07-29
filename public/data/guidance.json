@@ -87338,106 +87338,56 @@
       "company": "UTI AMC",
       "ticker": "UTIAMC",
       "sector": "Financial Services",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77053ff1-be11-4bc2-8039-82f8377e5b2d.pdf",
-      "transcript_id": "uti-amc_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-09T20:01:50.885Z",
-      "summary": "Management expects growth in AUM and profitability driven by digital adoption, new customer acquisition, and cost discipline over the medium term.",
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75c43c6c-b24c-4913-b4b8-3e7028a97c45.pdf",
+      "transcript_id": "uti-amc_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-29T01:04:11.993Z",
+      "summary": "UTI AMC remains confident about its long-term growth trajectory, driven by a resilient domestic economy and strong structural trends in the mutual fund industry.",
       "guidance": [
         {
-          "metric": "Mutual Fund AUM growth",
+          "metric": "AUM growth",
           "horizon": "medium-term",
-          "statement": "Grow faster than peers in the Top 10 of the industry to benefit from operating leverage.",
+          "statement": "UTI AMC aims to grow its AUM and increase its market share through disciplined execution and investment excellence.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "SIP AUM growth",
+          "metric": "SIP franchise",
           "horizon": "medium-term",
-          "statement": "Grow share of SIPs disproportionately, targeting new customer acquisition.",
+          "statement": "The company aims to strengthen its SIP franchise, with a focus on sustainable growth and increasing its share of industry assets.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "New customer acquisition (PANs)",
-          "horizon": "FY27",
-          "statement": "Target to grow the number of new PANs added significantly compared to 7.16 lakh in FY26.",
+          "metric": "Digital capabilities",
+          "horizon": "medium-term",
+          "statement": "UTI AMC plans to deepen its digital capabilities, enabling investors to participate efficiently in evolving sectoral, thematic, and long-term structural opportunities.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Employee cost (standalone)",
-          "horizon": "FY27",
-          "statement": "Run rate of Rs. 90-95 crores per quarter post VRS.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Employee cost (consolidated)",
-          "horizon": "FY27",
-          "statement": "Run rate of Rs. 125-130 crores per quarter post VRS.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Other administrative expenses (standalone)",
-          "horizon": "FY27",
-          "statement": "Expected to increase by 7-8%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Other administrative expenses (consolidated)",
-          "horizon": "FY27",
-          "statement": "Expected to increase by ~10%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Passive business AUM growth",
-          "horizon": "FY27",
-          "statement": "Momentum to continue supported by a robust pipeline of new launches.",
+          "metric": "International business",
+          "horizon": "medium-term",
+          "statement": "The company sees a great opportunity to capture a share of the international market as an India-based manager with local investment management capabilities.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Pension fund AUM growth",
-          "horizon": "FY27",
-          "statement": "Expansion into newer geographies to drive growth.",
+          "metric": "Pension business",
+          "horizon": "medium-term",
+          "statement": "UTI AMC aims to advance financial inclusion and expand social security across underserved segments through its pension business.",
           "specificity": "vague",
           "direction": "up"
-        },
-        {
-          "metric": "Digital business revenue growth",
-          "horizon": "FY27",
-          "statement": "Continue to deliver strong outcomes with revenue growth supported by digital initiatives.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Cost per transaction",
-          "horizon": "FY27",
-          "statement": "Further reduction expected due to digital transformation and automation.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "TER impact from SEBI norms",
-          "horizon": "FY27",
-          "statement": "Dilution of 1-2 basis points due to asset mix and TER rationalization.",
-          "specificity": "specific",
-          "direction": "down"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "Specific customer flows, including EPFO money in ETF net flows"
+      ],
       "margin_drivers": [
-        "Digital transformation and automation",
-        "Cost discipline and operating leverage",
-        "Passive business scaling",
-        "New customer acquisition (PANs)",
-        "SIP growth and share of SIPs",
-        "Pension fund business expansion"
+        "Disciplined investment approach",
+        "Robust risk management framework",
+        "Operational efficiency"
       ]
     },
     "Vedanta": {
@@ -98310,6 +98260,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-28T23:36:14.171Z",
+  "generated_at": "2026-07-29T01:05:08.731Z",
   "count": 1009
 }
