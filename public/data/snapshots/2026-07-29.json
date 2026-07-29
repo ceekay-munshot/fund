@@ -1,9 +1,9 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T01:25:34.254Z",
+  "generated_at": "2026-07-29T04:47:00.687Z",
   "totals": {
-    "sightings": 3792,
-    "companies": 1021,
+    "sightings": 3797,
+    "companies": 1024,
     "active_funds": 52
   },
   "per_fund": [
@@ -735,8 +735,8 @@
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
-      "sighting_count": 209,
-      "company_count": 148,
+      "sighting_count": 212,
+      "company_count": 150,
       "companies": [
         "ACME Solar Hold.",
         "ADF Foods",
@@ -833,6 +833,7 @@
         "M & B Engineer.",
         "M B Agro Prod.",
         "MTAR Technologie",
+        "Macfos",
         "Mahindra Logis.",
         "Manaksia Coated",
         "Medplus Health",
@@ -847,6 +848,7 @@
         "Paradeep Phosph.",
         "Paramount Comm.",
         "Power Mech Proj.",
+        "Premier Energies",
         "Prince Pipes",
         "Privi Speci.",
         "R R Kabel",
@@ -2266,14 +2268,15 @@
     {
       "fund_id": "mittal-analytics",
       "fund_name": "Mittal Analytics",
-      "sighting_count": 33,
-      "company_count": 21,
+      "sighting_count": 34,
+      "company_count": 22,
       "companies": [
         "ABS Marine",
         "Apex Frozen Food",
         "Apollo Micro Sys",
         "Artemis Medicare",
         "Avanti Feeds",
+        "Avience Biomedi.",
         "BEW Engg",
         "Bank of Maha",
         "CCL Products",
@@ -2664,6 +2667,23 @@
       ]
     },
     {
+      "fund_id": "sageone",
+      "fund_name": "SageOne",
+      "sighting_count": 13,
+      "company_count": 9,
+      "companies": [
+        "Data Pattern",
+        "EFC (I)",
+        "Gulshan Polyols",
+        "Macfos",
+        "Msafe Equipments",
+        "SG Finserve",
+        "Smartworks Cowor",
+        "Supreme Petroch.",
+        "Surya Roshni"
+      ]
+    },
+    {
       "fund_id": "guardian-capital",
       "fund_name": "Guardian Capital Partners",
       "sighting_count": 12,
@@ -2677,22 +2697,6 @@
         "SIS",
         "Time Technoplast",
         "Yatharth Hospit."
-      ]
-    },
-    {
-      "fund_id": "sageone",
-      "fund_name": "SageOne",
-      "sighting_count": 12,
-      "company_count": 8,
-      "companies": [
-        "Data Pattern",
-        "EFC (I)",
-        "Gulshan Polyols",
-        "Msafe Equipments",
-        "SG Finserve",
-        "Smartworks Cowor",
-        "Supreme Petroch.",
-        "Surya Roshni"
       ]
     },
     {
@@ -2826,8 +2830,8 @@
     },
     {
       "sector": "Unknown",
-      "sighting_count": 5,
-      "company_count": 3
+      "sighting_count": 10,
+      "company_count": 6
     },
     {
       "sector": "Diversified",
@@ -2836,6 +2840,18 @@
     }
   ],
   "new_today": [
+    {
+      "fund_name": "Mittal Analytics",
+      "company": "Avience Biomedi.",
+      "sector": "Unknown",
+      "concall_date": "2026-07-28"
+    },
+    {
+      "fund_name": "SageOne",
+      "company": "Macfos",
+      "sector": "Unknown",
+      "concall_date": "2026-04-01"
+    },
     {
       "fund_name": "Sameeksha Capital",
       "company": "International Gemological Instit",
@@ -2868,9 +2884,27 @@
     },
     {
       "fund_name": "Sequent Investments",
+      "company": "Macfos",
+      "sector": "Unknown",
+      "concall_date": "2026-04-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
       "company": "Netweb Technol.",
       "sector": "Unknown",
       "concall_date": "2026-01-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Premier Energies",
+      "sector": "Unknown",
+      "concall_date": "2026-01-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Premier Energies",
+      "sector": "Unknown",
+      "concall_date": "2025-11-01"
     },
     {
       "fund_name": "Sequent Investments",
