@@ -98144,8 +98144,64 @@
         "Demand",
         "Execution"
       ]
+    },
+    "Orient Green": {
+      "company": "Orient Green",
+      "ticker": "GREENPOWER",
+      "sector": "Utilities",
+      "concall_date": "2026-07-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=387cc4ac-0bd8-4719-a767-dcb67c62f48d.pdf",
+      "transcript_id": "orient-green_2026-07-29",
+      "provider": "groq",
+      "generated_at": "2026-07-29T20:33:27.023Z",
+      "summary": "Orient Green Power expects improved performance in the forthcoming quarters and the current fiscal year, driven by the completion of Greenfield solar and repowering projects, and full-year operation of newly commissioned assets.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expect to maintain or exceed last year's revenue, dependent on wind availability",
+          "specificity": "vague",
+          "direction": "flat|up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect to sustain around 60% margin, as O&M costs, interest, and depreciation are predictable",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt",
+          "horizon": "FY27",
+          "statement": "Expect to repay around Rs. 100 crores of debt, with a net increase of Rs. 70 crores in debt",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Interest cost",
+          "horizon": "FY27",
+          "statement": "Expect interest cost to be around Rs. 13-14 crores per quarter",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Repowering capacity",
+          "horizon": "FY28",
+          "statement": "Targeting around 28 megawatts of repowering, with 10 megawatts in the first phase and 17.5 megawatts in the next phase",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Valuations for potential acquisitions",
+        "Details on conversations with potential investors or partners"
+      ],
+      "margin_drivers": [
+        "Predictable O&M costs",
+        "Interest and depreciation costs"
+      ]
     }
   },
-  "generated_at": "2026-07-29T19:40:20.180Z",
-  "count": 1010
+  "generated_at": "2026-07-29T20:34:22.323Z",
+  "count": 1011
 }
