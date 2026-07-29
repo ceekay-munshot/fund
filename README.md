@@ -8,7 +8,7 @@
 
 ## What the dashboard shows
 
-Seven tabs, each answering a distinct question:
+Six tabs, each answering a distinct question:
 
 | Tab | The question it answers |
 |---|---|
@@ -17,12 +17,13 @@ Seven tabs, each answering a distinct question:
 | **Sectors** | Where smart money is concentrating by sector — a filter‑aware House View read, a ranked "funds per sector" bar, a sortable table, and a sector drill of the top names. |
 | **Consensus** | The consensus book — companies ranked into conviction tiers (4+ / 3 / 2 funds), a "conviction building" strip, fund/sector filters, and a per‑company drill (funds + extracted guidance). |
 | **Shifts** | Attention churn — funds that **lost interest** (attended earlier calls, absent from the latest) tiered strong/medium, and funds with **new interest**. |
-| **Guidance** | AI‑extracted **forward guidance** from each company's latest call — every item flagged *specific / vague / refused*, plus refused‑to‑guide topics and margin drivers. Click‑to‑expand. |
 | **Recent Flags** | The chronological feed — newest first by **concall date**, with a When dropdown (Today / week / month / quarter / all), a fund **dropdown** filter, and First‑interest vs Repeat tags. |
 
 Plus a **KPI strip**, an **Export** button (full sightings → Excel/CSV), and **Get Insight** — one click downloads the **Munshot Insights**: a long, colorful, plain‑English PDF digest of the whole dashboard (lead story, league tables, sector tour, attention movers, guidance digest, fund spotlights, watch list, methodology). Built client‑side as fixed A4 pages → html2canvas + jsPDF.
 
-Headlines across the filterable tabs (Flags, Consensus, Shifts, Guidance) recompute live from the current filter selection. Analyst names link to a LinkedIn people‑search (`"Name" AND "Firm"`).
+AI‑extracted **forward guidance** (every item flagged *specific / vague / refused*, plus refused‑to‑guide topics and margin drivers) stays available through the **View guidance** button on company cards and inside the company drill.
+
+Headlines across the filterable tabs (Flags, Consensus, Shifts) recompute live from the current filter selection. Analyst names link to a LinkedIn people‑search (`"Name" AND "Firm"`).
 
 ---
 

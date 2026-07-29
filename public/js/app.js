@@ -1443,75 +1443,9 @@ function shiftCard(x) {
 }
 
 // ===========================================================================
-// Forward Guidance — LLM-extracted, specificity-flagged (from latest concall)
+// Forward Guidance — LLM-extracted, specificity-flagged (from latest concall).
+// Surfaced through the "View guidance" popup and the company drill block.
 // ===========================================================================
-let guidanceSearch = "";
-let guidanceSector = "all";
-
-function renderGuidance() {
-  const root = document.getElementById("tab-guidance");
-  const all = Object.values((DATA.guidance && DATA.guidance.companies) || {});
-  if (!all.length) {
-    root.innerHTML = emptyState("target", "Guidance is being extracted", "An LLM is reading the most recent concalls and pulling forward guidance. Cards appear here as companies are processed — check back shortly.");
-    refreshIcons();
-    return;
-  }
-  const sectors = [...new Set(all.map((g) => g.sector || "Unclassified"))].sort();
-  root.innerHTML = `
-    <div class="mb-4 rounded-3xl bg-gradient-to-br from-indigo-50 via-white to-emerald-50 p-5 shadow-sm ring-1 ring-slate-100">
-      <div class="mb-1.5 flex items-center gap-2">
-        <span class="rounded-xl bg-white p-1.5 text-indigo-500 shadow-sm"><i data-lucide="target" class="h-4 w-4"></i></span>
-        <h2 class="font-display text-xs font-semibold uppercase tracking-wider text-slate-500">Forward guidance</h2>
-      </div>
-      <p class="font-display text-lg font-semibold leading-snug text-slate-800 sm:text-xl">What management committed to on the latest call — flagged <span class="text-emerald-600">specific</span>, <span class="text-amber-600">vague</span>, or <span class="text-rose-500">refused</span>.</p>
-      <p class="mt-2 text-[11px] text-slate-400"><span id="guid-count">${all.length} companies</span> · AI-extracted from the concall transcript — always verify against the source before acting.</p>
-    </div>
-    <div class="mb-4 flex flex-wrap items-center gap-3">
-      <div class="relative flex-1 min-w-[200px]">
-        <i data-lucide="search" class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"></i>
-        <input id="guid-search" type="text" placeholder="Search company or ticker…" class="w-full rounded-xl bg-white py-2 pl-9 pr-3 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400" />
-      </div>
-      <div class="flex items-center gap-2 text-sm">
-        <span class="text-slate-400">Sector</span>
-        <select id="guid-sector" class="rounded-xl bg-white px-3 py-2 text-sm text-slate-700 shadow-sm ring-1 ring-slate-200 outline-none focus:ring-2 focus:ring-indigo-400">
-          <option value="all">All sectors</option>${sectors.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("")}
-        </select>
-      </div>
-    </div>
-    <div id="guid-feed" class="space-y-4"></div>`;
-
-  const si = root.querySelector("#guid-search");
-  si.value = guidanceSearch;
-  si.addEventListener("input", () => { guidanceSearch = si.value; updateGuidanceFeed(); });
-  const se = root.querySelector("#guid-sector"); se.value = guidanceSector;
-  se.addEventListener("change", () => { guidanceSector = se.value; updateGuidanceFeed(); });
-  wireMore(root);
-  updateGuidanceFeed();
-  refreshIcons();
-}
-
-function updateGuidanceFeed() {
-  const feed = document.getElementById("guid-feed");
-  if (!feed) return;
-  const q = guidanceSearch.trim().toLowerCase();
-  let items = Object.values(DATA.guidance.companies || {}).filter((g) =>
-    (guidanceSector === "all" || (g.sector || "Unclassified") === guidanceSector) &&
-    (!q || (g.company || "").toLowerCase().includes(q) || (g.ticker || "").toLowerCase().includes(q))
-  );
-  items.sort((a, b) => (b.concall_date || "").localeCompare(a.concall_date || ""));
-  const total = Object.keys(DATA.guidance.companies || {}).length;
-  const gc = document.getElementById("guid-count");
-  const filtered = guidanceSector !== "all" || q;
-  if (gc) gc.textContent = filtered ? `${items.length} of ${total} companies` : `${total} ${total === 1 ? "company" : "companies"}`;
-  if (!items.length) {
-    feed.innerHTML = emptyState("search-x", "No matches", "Try another company, ticker, or sector.");
-    refreshIcons();
-    return;
-  }
-  feed.innerHTML = moreList(items.map(guidanceCard), 10, "companies");
-  refreshIcons();
-}
-
 const SPEC_STYLE = {
   specific: { dot: "#10b981", chip: "bg-emerald-50 text-emerald-700" },
   vague: { dot: "#f59e0b", chip: "bg-amber-50 text-amber-700" },
@@ -1565,30 +1499,6 @@ function guidanceDrillBlock(company) {
     </div>`;
 }
 
-// Click-to-expand accordion card for the Guidance tab.
-function guidanceCard(g) {
-  const col = sectorColor(g.sector || null);
-  const n = (g.guidance || []).length;
-  const specN = (g.guidance || []).filter((x) => x.specificity === "specific").length;
-  return `<details class="card overflow-hidden" style="border-top:3px solid ${col}">
-    <summary class="guid-sum flex cursor-pointer items-center gap-3 p-4">
-      <div class="min-w-0 flex-1">
-        <div class="flex flex-wrap items-center gap-2">
-          <span class="font-display text-base font-bold text-slate-800">${escapeHtml(g.company)}</span>
-          ${g.ticker ? `<span class="font-mono text-xs uppercase tracking-wide" style="color:${col}">${escapeHtml(g.ticker)}</span>` : ""}
-        </div>
-        <div class="mt-1 flex flex-wrap items-center gap-2">${sectorPill(g.sector, null)}<span class="inline-flex items-center gap-1 font-mono text-[11px] text-slate-400"><i data-lucide="calendar" class="h-3 w-3"></i>${fmtDate(g.concall_date)}</span></div>
-      </div>
-      <div class="flex shrink-0 items-center gap-3">
-        <span class="hidden sm:inline rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-700">${specN} specific</span>
-        <span class="rounded-full bg-slate-100 px-2.5 py-1 font-mono text-xs font-semibold text-slate-600">${n} items</span>
-        <i data-lucide="chevron-down" class="guid-chev h-4 w-4 text-slate-400 transition-transform"></i>
-      </div>
-    </summary>
-    <div class="border-t border-slate-100 p-5 pt-4">${guidanceBody(g)}</div>
-  </details>`;
-}
-
 // ===========================================================================
 // placeholders (Prompt 11)
 // ===========================================================================
@@ -1604,7 +1514,6 @@ const RENDERERS = {
   sectors: renderSectors,
   overlap: renderOverlap,
   shifts: renderShifts,
-  guidance: renderGuidance,
   flags: renderFlags,
 };
 function activate(tab) {
