@@ -47481,108 +47481,60 @@
     },
     "HEG": {
       "company": "HEG",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd4998c3-e9c9-4ec9-9546-8f6f47a1422c.pdf",
-      "transcript_id": "heg_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-29T17:19:42.159Z",
-      "summary": "Long-term growth outlook remains positive driven by structural shift to electric arc furnace steelmaking and decarbonization policies, though near-term pricing and cost dynamics remain fluid.",
+      "ticker": "HEG",
+      "sector": "Industrials",
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ce76ae2-2777-4f96-a8e5-2c03fd82f803.pdf",
+      "transcript_id": "heg_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-07-29T14:56:16.583Z",
+      "summary": "HEG's management is confident about the company's long-term growth prospects, driven by the transition towards electric arc furnace steelmaking, which will increase demand for electrodes.",
       "guidance": [
         {
-          "metric": "Graphite electrode capacity",
-          "horizon": "early 2028",
-          "statement": "Construction of 15,000-ton expansion progressing as planned, targeting completion by early 2028 to reach 115,000 tons capacity.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Incremental electrode demand (ex-China)",
-          "horizon": "2030",
-          "statement": "Expected incremental demand of around 200,000 tons by 2030 due to growth in electric arc furnace steelmaking.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Electric arc furnace capacity additions (global ex-China)",
-          "horizon": "2026-2030",
-          "statement": "About 100 million tons of new electric arc furnace capacity expected to be operational by 2030, with 20-22 million tons already in operation and 30 million tons by 2026-2028.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Price increase realization",
-          "horizon": "H2 FY27",
-          "statement": "Aim to implement price increases in H2 to protect and improve margins, though quantum (300-500 USD/ton) remains uncertain and region-dependent.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Needle coke cost coverage",
-          "horizon": "September 2026",
-          "statement": "Covered for needle coke purchases until end of June 2026, with 45-day shipping and processing lag ensuring cost protection until September.",
+          "metric": "Capacity Utilization",
+          "horizon": "FY27",
+          "statement": "Expected to operate at more than 90% capacity utilization",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Greentech (TACC) capacity utilization",
-          "horizon": "first year post-commissioning",
-          "statement": "Expect 40% to 60% capacity utilization in the first year post-commissioning (April 2026 target), with no technology or qualification bottlenecks.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Greentech (TACC) customer qualification",
-          "horizon": "next 6-12 months",
-          "statement": "Progress with leading OEMs globally (LG, Panasonic, CATL, Indian OEMs) in sampling and customer acquisition, with no technology issues.",
+          "metric": "Price Increase",
+          "horizon": "Q3/Q4 FY27",
+          "statement": "Price hike expected to start showing up later in the year, with a possible increase of $600 to $1,200 per ton",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "CBAM impact on EU steel imports",
-          "horizon": "July 1, 2026 onwards",
-          "statement": "CBAM expected to reduce steel imports into EU, encouraging local electric arc furnace steel production and increasing graphite electrode demand.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Operational utilization levels",
-          "horizon": "ongoing",
-          "statement": "Continued operation at healthy utilization levels, averaging over 90% for the past year and immediate quarters.",
-          "specificity": "specific",
+          "metric": "EBITDA Margin",
+          "horizon": "Medium-term",
+          "statement": "No specific guidance provided, but management expects to maintain cost discipline and operational efficiency",
+          "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Cost inflation impact on margins",
-          "horizon": "Q1FY27",
-          "statement": "Some cost increase expected in Q1FY27 due to energy and freight costs, though lag in product cycles may mitigate immediate impact.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Middle East sales disruption recovery",
-          "horizon": "short-term",
-          "statement": "Orders from Middle East postponed due to geopolitical tensions but expected to normalize once Strait of Hormuz reopens.",
-          "specificity": "vague",
+          "metric": "New EAF Capacity",
+          "horizon": "CY26-28",
+          "statement": "Around 60 million metric tons of new electric arc furnace steelmaking capacity is planned globally, supporting a favorable long-term demand outlook for electrodes",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "GrafTech investment rationale",
-          "horizon": "long-term",
-          "statement": "Investment in GrafTech remains unchanged as a long-term play on structural demand for graphite electrodes and needle coke, with conviction in fundamentals.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "metric": "Greentech Anode Volumes",
+          "horizon": "FY28",
+          "statement": "Around 70% of the 20,000 tons of anode volumes are expected to be contracted by the next 1-1.5 months, with long-term contracts with top Tier 1 players",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "Specific numbers on price increases",
+        "Detailed breakdown of revenue mix by region"
+      ],
       "margin_drivers": [
-        "electric arc furnace steelmaking growth",
-        "CBAM and trade protection measures",
-        "needle coke cost and availability",
-        "energy and freight costs",
-        "customer diversification",
-        "operational efficiency and cost discipline"
+        "Operational efficiencies",
+        "Disciplined cost management",
+        "Product and geographical mix",
+        "Price increases"
       ]
     },
     "Manappuram Fin.": {
@@ -98240,6 +98192,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-29T12:33:43.117Z",
+  "generated_at": "2026-07-29T14:56:57.564Z",
   "count": 1010
 }
