@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T14:27:33.281Z",
+  "generated_at": "2026-07-30T16:04:18.657Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 52,
-    "gained": 307,
-    "consistent": 670,
-    "companies_evaluated": 983
+    "dropped": 53,
+    "gained": 300,
+    "consistent": 673,
+    "companies_evaluated": 985
   },
   "dropped": [
     {
@@ -61,6 +61,28 @@
       "latest_call_date": "2026-05-27",
       "last_seen_date": "2026-05-01",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sahasrar",
+      "fund_name": "Sahasrar Capital",
+      "company": "Laurus Labs",
+      "ticker": "LAURUSLABS",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-07-30",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "carnelian",
+      "fund_name": "Carnelian",
+      "company": "Aeroflex",
+      "ticker": "AEROFLEX",
+      "sector": "Industrials",
+      "latest_call_date": "2026-07-30",
+      "last_seen_date": "2026-02-01",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -438,17 +460,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "carnelian",
-      "fund_name": "Carnelian",
-      "company": "Aeroflex",
-      "ticker": "AEROFLEX",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01",
-      "last_seen_date": "2026-02-01",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
       "company": "Waaree Energies",
@@ -582,6 +593,86 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "Laurus Labs",
+      "ticker": "LAURUSLABS",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "enam",
+      "fund_name": "Enam",
+      "company": "Laurus Labs",
+      "ticker": "LAURUSLABS",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Canarys Automa.",
+      "ticker": "CANARYS",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "nv-alpha",
+      "fund_name": "NV Alpha",
+      "company": "Mold-Tek Pack.",
+      "ticker": "MOLDTKPAC",
+      "sector": "Industrials",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "sundaram-alternates",
+      "fund_name": "Sundaram Alternates",
+      "company": "T N Merc. Bank",
+      "ticker": "TMB",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "company": "Ramkrishna Forg.",
+      "ticker": "RKFORGE",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Fairchem Organic",
+      "ticker": "FAIRCHEMOR",
+      "sector": "Commodities",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "vaikarya",
+      "fund_name": "Vaikarya Capital",
+      "company": "Aye Finance",
+      "ticker": "AYE",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "electrum",
+      "fund_name": "Electrum Capital",
+      "company": "Gravita India",
+      "ticker": "GRAVITA",
+      "sector": "Commodities",
+      "latest_call_date": "2026-07-30"
+    },
+    {
+      "fund_id": "aequitas",
+      "fund_name": "Aequitas",
+      "company": "Epigral",
+      "ticker": "EPIGRAL",
+      "sector": "Commodities",
+      "latest_call_date": "2026-07-30"
+    },
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
@@ -863,14 +954,6 @@
       "latest_call_date": "2026-06-01"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Bhagyanagar Ind",
-      "ticker": "BHAGYANGR",
-      "sector": "Commodities",
-      "latest_call_date": "2026-06-01"
-    },
-    {
       "fund_id": "electrum",
       "fund_name": "Electrum Capital",
       "company": "Titagarh Rail",
@@ -962,24 +1045,24 @@
       "fund_id": "unique",
       "fund_name": "Unique PMS",
       "company": "Wheels India",
-      "ticker": null,
-      "sector": null,
+      "ticker": "WHEELS",
+      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "nv-alpha",
       "fund_name": "NV Alpha",
       "company": "Wheels India",
-      "ticker": null,
-      "sector": null,
+      "ticker": "WHEELS",
+      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-01"
     },
     {
       "fund_id": "helios",
       "fund_name": "Helios Capital",
       "company": "Park Medi World",
-      "ticker": null,
-      "sector": null,
+      "ticker": "PARKHOSPS",
+      "sector": "Healthcare",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -1215,30 +1298,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "mittal-analytics",
-      "fund_name": "Mittal Analytics",
-      "company": "CCL Products",
-      "ticker": "CCL",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "carnelian",
-      "fund_name": "Carnelian",
-      "company": "CCL Products",
-      "ticker": "CCL",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "ampersand",
-      "fund_name": "Ampersand Capital",
-      "company": "CCL Products",
-      "ticker": "CCL",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sameeksha",
       "fund_name": "Sameeksha Capital",
       "company": "Muthoot Finance",
@@ -1303,14 +1362,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Gravita India",
-      "ticker": "GRAVITA",
-      "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "icici-prudential",
       "fund_name": "ICICI Prudential AMC",
       "company": "Affle 3i",
@@ -1331,22 +1382,6 @@
       "fund_name": "Sameeksha Capital",
       "company": "Sambhv Steel",
       "ticker": "SAMBHV",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
-      "company": "Aeroflex",
-      "ticker": "AEROFLEX",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "wallfort",
-      "fund_name": "Wallfort PMS",
-      "company": "Aeroflex",
-      "ticker": "AEROFLEX",
       "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
@@ -1599,14 +1634,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Ramkrishna Forg.",
-      "ticker": "RKFORGE",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "boring",
       "fund_name": "Boring AMC",
       "company": "S H Kelkar & Co.",
@@ -1639,22 +1666,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Capital Small",
-      "ticker": "CAPITALSFB",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sameeksha",
-      "fund_name": "Sameeksha Capital",
-      "company": "PVR Inox",
-      "ticker": "PVRINOX",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "green-portfolio",
       "fund_name": "Green Portfolio",
       "company": "PCBL Chemical",
@@ -1683,22 +1694,6 @@
       "fund_name": "InCred AMC",
       "company": "Home First Finan",
       "ticker": "HOMEFIRST",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Aye Finance",
-      "ticker": "AYE",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "enam",
-      "fund_name": "Enam",
-      "company": "Aye Finance",
-      "ticker": "AYE",
       "sector": "Financial Services",
       "latest_call_date": "2026-05-01"
     },
@@ -1855,14 +1850,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "girik",
-      "fund_name": "Girik Capital",
-      "company": "GRP",
-      "ticker": "GRPLTD",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
       "company": "Speciality Rest.",
@@ -1908,14 +1895,6 @@
       "company": "Alembic Pharma",
       "ticker": "APLLTD",
       "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "vallum",
-      "fund_name": "Vallum Capital",
-      "company": "V-Mart Retail",
-      "ticker": "VMART",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2463,14 +2442,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "abakkus",
-      "fund_name": "Abakkus",
-      "company": "IIFL Capital",
-      "ticker": "IIFLCAPS",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "bowhead",
       "fund_name": "Bowhead India",
       "company": "Dhanuka Agritech",
@@ -2492,14 +2463,6 @@
       "company": "Genus Power",
       "ticker": "GENUSPOWER",
       "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "Dachepalli Pub.",
-      "ticker": "544667",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2892,14 +2855,6 @@
       "company": "Vedanta",
       "ticker": "VAML",
       "sector": "Commodities",
-      "latest_call_date": "2026-04-01"
-    },
-    {
-      "fund_id": "malabar",
-      "fund_name": "Malabar Investments",
-      "company": "Lodha Developers",
-      "ticker": "LODHA",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-04-01"
     },
     {
