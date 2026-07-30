@@ -98017,8 +98017,84 @@
         "Productivity of sales force",
         "Technology investments"
       ]
+    },
+    "T N Merc. Bank": {
+      "company": "T N Merc. Bank",
+      "ticker": "TMB",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e5c980e-b958-4806-8fa9-394736d11dba.pdf",
+      "transcript_id": "t-n-merc-bank_2026-07-30",
+      "provider": "groq",
+      "generated_at": "2026-07-30T21:20:24.815Z",
+      "summary": "Tamilnad Mercantile Bank expects to sustain its growth momentum, with total business growth expected to be around 20%, driven by advances growth of 21-22% and deposit growth of 18%.",
+      "guidance": [
+        {
+          "metric": "CASA growth",
+          "horizon": "FY27",
+          "statement": "17-18% growth expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Deposit growth",
+          "horizon": "FY27",
+          "statement": "18% growth expected, revised upwards by 2%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Advances growth",
+          "horizon": "FY27",
+          "statement": "21-22% growth expected, revised upwards by 2%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net interest margin",
+          "horizon": "FY27",
+          "statement": "expected to be well past 4%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY27",
+          "statement": "expected to be well over 2%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "FY27",
+          "statement": "revised guidance of 15%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "GNPA",
+          "horizon": "FY27",
+          "statement": "expected to be below 1%",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "MSME growth",
+          "horizon": "FY27",
+          "statement": "expected to be well ahead of 20%",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Specific guidance on MSME segment growth"
+      ],
+      "margin_drivers": [
+        "Improvement in yield on agri loans",
+        "Diversification of customer base in MSME segment"
+      ]
     }
   },
-  "generated_at": "2026-07-30T19:47:49.514Z",
-  "count": 1012
+  "generated_at": "2026-07-30T21:21:13.367Z",
+  "count": 1013
 }
