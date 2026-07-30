@@ -64045,113 +64045,77 @@
       "company": "Vardhman Special",
       "ticker": "VSSL",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14d42f75-6751-4cd9-831f-9040ceb69f96.pdf",
-      "transcript_id": "vardhman-special_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-03T22:39:31.197Z",
-      "summary": "Management expects steady volume growth, improving EBITDA per ton, and significant capacity expansion over the next 2-7 years driven by new plants and process improvements.",
+      "concall_date": "2026-07-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcaaecec-1feb-41f6-a533-fde1bbded4c7.pdf",
+      "transcript_id": "vardhman-special_2026-07-29",
+      "provider": "groq",
+      "generated_at": "2026-07-30T04:15:34.856Z",
+      "summary": "Vardhman Special Steels expects improved profitability due to cost reductions, increased production, and expansion into non-automotive steel segments.",
       "guidance": [
         {
-          "metric": "Rolled product volume",
-          "horizon": "FY27",
-          "statement": "Targeting 250,000 tons for FY27, up from 225,000 tons in FY26.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
           "metric": "EBITDA per ton",
+          "horizon": "FY28",
+          "statement": "Expected to increase the range from INR8,000 to INR11,000 to INR8,000 to INR12,000",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
           "horizon": "FY27",
-          "statement": "Guiding EBITDA per ton range of INR8,000 to INR11,000 for FY27, up from INR7,000 to INR10,000 previously.",
+          "statement": "Targeting 255,000 tons for the year",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA per ton",
-          "horizon": "2 years from now",
-          "statement": "Expecting EBITDA per ton range to increase to INR9,000 to INR12,000 in 2 years.",
+          "metric": "Volume growth",
+          "horizon": "FY28",
+          "statement": "Expect to cross 270,000 tons",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Rolling capacity",
-          "horizon": "FY27",
-          "statement": "Rolling capacity to reach 270,000 tons in FY27.",
+          "metric": "Capacity expansion",
+          "horizon": "FY29-30",
+          "statement": "New steel plant expected to be commissioned by end of FY29-30",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Melting production capacity",
-          "horizon": "medium-term",
-          "statement": "Planning to increase melting production from 300,000 tons to 360,000 tons if environmental approval is received.",
-          "specificity": "specific",
+          "metric": "Solar plant expansion",
+          "horizon": "1-1.5 years",
+          "statement": "Expect to increase solar plant capacity by 50%",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "New steel plant commissioning",
-          "horizon": "July 2029",
-          "statement": "New steel plant expected to commission by July 2029 with capacity of 500,000 to 600,000 tons.",
+          "metric": "Die steel production",
+          "horizon": "FY27-28",
+          "statement": "Expect to start production of die steels as a regular thing",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Forging plant commissioning",
-          "horizon": "Q3 FY28",
-          "statement": "Forging plant expected to commission in Q3 FY28 with initial capex of INR475 crores.",
+          "horizon": "Q4 FY27-28",
+          "statement": "Forging plant likely to get commissioned by last quarter of FY27-28",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Total capex",
-          "horizon": "FY27-FY28",
-          "statement": "Ballpark capex of INR700-800 crores for FY27-FY28 for new plants and expansions.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Non-automotive steel share",
-          "horizon": "10 years",
-          "statement": "Targeting 30% non-automotive steel share in portfolio over the next 10 years, up from current levels.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Product mix change",
-          "horizon": "5-7 years",
-          "statement": "Gradual shift in product mix toward non-automotive and specialized steels over 5-7 years.",
+          "metric": "Revenue growth",
+          "horizon": "FY28 onwards",
+          "statement": "Expect inflection point in growth from FY28 onwards",
           "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Ramp-up period for new plant",
-          "horizon": "medium-term",
-          "statement": "Expecting 5-6 years to reach full capacity utilization for the new greenfield plant.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Environmental approval timeline",
-          "horizon": "6-9 months",
-          "statement": "Expecting environmental approval for capacity expansion within 6-9 months.",
-          "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "project-wise ROCE or IRR for forging plant",
-        "detailed realization assumptions beyond EBITDA per ton guidance",
-        "exact capex breakdown beyond ballpark figures"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "volume growth",
-        "cost optimization",
-        "process improvements",
-        "new reheating furnace",
-        "solar plant power savings",
-        "productivity gains from new 210X210 section",
-        "heat size increase from 37 to 40 tons",
-        "reduction in rework and rejection rates",
-        "shift toward higher-margin non-automotive and specialized steels"
+        "Cost reductions",
+        "Increased production",
+        "Expansion into non-automotive steel segments",
+        "Die steel production",
+        "Solar plant expansion"
       ]
     },
     "Team Lease Serv.": {
@@ -98216,6 +98180,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-30T01:00:25.004Z",
+  "generated_at": "2026-07-30T04:16:21.751Z",
   "count": 1012
 }
