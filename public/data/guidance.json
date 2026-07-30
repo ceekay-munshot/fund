@@ -75919,51 +75919,47 @@
       "company": "IIFL Capital",
       "ticker": "IIFLCAPS",
       "sector": "Financial Services",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85248744-e00b-4d75-b8c1-1244b33d1023.pdf",
-      "transcript_id": "iifl-capital_2026-05-01",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb02956c-8748-4a8a-9fd2-3676c6e86684.pdf",
+      "transcript_id": "iifl-capital_2026-07-30",
       "provider": "groq",
-      "generated_at": "2026-07-06T01:21:03.856Z",
-      "summary": "IIFL Capital expects to grow with its current net worth and has enough dry powder to support its growth ambitions over the next 3 years.",
+      "generated_at": "2026-07-30T16:11:43.756Z",
+      "summary": "IIFL Capital expects growth across capital markets, wealth management, and asset management, with the Fairfax investment strengthening its capital base.",
       "guidance": [
         {
           "metric": "AUM growth",
-          "horizon": "FY27",
-          "statement": "Aim to increase AUM, no specific target given",
+          "horizon": "next quarter",
+          "statement": "AUM growth to catch up after a slower quarter",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Wealth RMs headcount",
-          "horizon": "FY27",
-          "statement": "Plan to increase wealth RMs headcount, no specific number given",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Net interest margin",
-          "horizon": "medium-term",
-          "statement": "Expect net interest margin to be around 4%",
+          "metric": "Fairfax investment",
+          "horizon": "next 2-3 months",
+          "statement": "INR2,000 crores investment expected after regulatory approvals",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Institutional broking and investment banking revenue",
+          "horizon": "medium-term",
+          "statement": "Roughly 50-50 or 60-40 split between institutional equity broking and investment banking",
+          "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Growth",
-          "horizon": "next 2 years",
-          "statement": "Expect to grow by 20% with current net worth and borrowing limits",
-          "specificity": "specific",
+          "metric": "AIF and PMS AUM",
+          "horizon": "medium-term",
+          "statement": "Plans to grow AIF and PMS business as part of overall manufacturing plan",
+          "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "Acquisition by Fairfax",
-        "New product categories like full-fledged AMC"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Increase in AUM",
-        "Growth in wealth management",
-        "Insurance-related revenue",
-        "Placement of NCDs and fixed income"
+        "Insurance income",
+        "Brokerage income",
+        "Non-ARR income"
       ]
     },
     "Quess Corp": {
@@ -98068,6 +98064,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-30T14:28:36.650Z",
+  "generated_at": "2026-07-30T16:12:15.669Z",
   "count": 1012
 }
