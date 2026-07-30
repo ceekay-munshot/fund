@@ -48961,111 +48961,60 @@
     },
     "Solara Active": {
       "company": "Solara Active",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc52f58d-0ba9-4545-a792-a9e134c4ed72.pdf",
-      "transcript_id": "solara-active_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-29T23:42:41.699Z",
-      "summary": "Management expects sustainable profitable growth driven by base business, operational efficiency, and new DMF filings, while evaluating strategic options for the ibuprofen business.",
+      "ticker": "SOLARA",
+      "sector": "Healthcare",
+      "concall_date": "2026-07-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26a9553e-e823-47fe-a303-ab79dbb908e8.pdf",
+      "transcript_id": "solara-active_2026-07-29",
+      "provider": "groq",
+      "generated_at": "2026-07-30T00:59:41.185Z",
+      "summary": "Solara Active Pharma Sciences expects to build on its strong foundation by driving sustainable profitability growth and enhancing margins through disciplined execution, operational excellence, and prudent capital allocation.",
       "guidance": [
         {
-          "metric": "Base business EBITDA margin",
-          "horizon": "next 2-3 years",
-          "statement": "Steady-state EBITDA margin expected to be in the range of 25% plus/minus",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Base business revenue growth",
-          "horizon": "FY27-FY29",
-          "statement": "Growth to be driven by new customers, operational efficiency (yields, debottlenecking), and working capital optimization",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "DMF filings",
-          "horizon": "FY27 onwards",
-          "statement": "Plan to file 4-5 DMFs annually starting FY27, with commercialization expected in FY29-FY30",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "R&D spend",
-          "horizon": "FY27 onwards",
-          "statement": "Annual R&D spend of INR25 crores, focused on commercially viable products",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Ibuprofen strategic options",
-          "horizon": "H1 FY27",
-          "statement": "Bankers appointed to evaluate strategic options (sale, conversion to multiproduct facility), with a decision expected by H1 FY27",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Vizag facility utilization",
-          "horizon": "H1 FY27",
-          "statement": "Decision on Vizag facility's future use (ibuprofen relocation or multipurpose plant) expected by H1 FY27",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Debt reduction",
-          "horizon": "end of May 2026",
-          "statement": "Debt expected to reduce to INR503 crores by end of May 2026",
+          "metric": "Net Debt",
+          "horizon": "FY27",
+          "statement": "Reduce net debt to below INR450 crores",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Operational leverage (incremental EBITDA margin)",
-          "horizon": "near-term",
-          "statement": "Incremental revenue can convert to EBITDA at high rates due to 30% spare capacity and minimal opex increase",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "CRAMS business scale",
-          "horizon": "FY27-FY29",
-          "statement": "CRAMS business remains subscale (INR10-12 crores annually) and is not expected to drive significant growth in the medium term",
+          "metric": "EBITDA Margin",
+          "horizon": "Medium-term",
+          "statement": "Maintain EBITDA margin of 25% +/- 1% for the base business",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Base business order book strength",
-          "horizon": "near-term",
-          "statement": "Healthy order book and utilization levels support strong performance without one-off factors",
+          "metric": "Working Capital Efficiency",
+          "horizon": "Medium-term",
+          "statement": "Sustain current level of working capital efficiency as revenues scale",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Customer relationship depth",
-          "horizon": "FY28 onwards",
-          "statement": "Efforts to widen customer base, increase share of wallet, and integrate into supply chains to support multiyear growth visibility",
-          "specificity": "vague",
-          "direction": "up"
+          "metric": "Ibuprofen Business EBITDA Loss",
+          "horizon": "Medium-term",
+          "statement": "Expect EBITDA loss to be around INR10-15 crores per quarter",
+          "specificity": "specific",
+          "direction": "down"
         },
         {
-          "metric": "Polymer APIs market share",
-          "horizon": "current",
-          "statement": "Company is one of the leading players globally in complex chemicals like polymers with ~50%+ market share",
+          "metric": "Gross Margin",
+          "horizon": "Medium-term",
+          "statement": "Expect gross margin to be around 50-55% for the base business",
           "specificity": "specific",
           "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "FY27 and FY28 revenue and EBITDA outlook",
-        "CRAMS business growth outlook",
-        "Ibuprofen business EBITDA impact post-strategic decision"
+        "Tariff schemes impact",
+        "Specific timeline for debt repayment"
       ],
       "margin_drivers": [
-        "Operational efficiency (yields, debottlenecking)",
-        "Customer mix and share of wallet expansion",
-        "Working capital optimization",
-        "New DMF filings and commercialization (FY29-FY30)",
-        "Minimal opex growth with revenue scale"
+        "Disciplined execution",
+        "Operational excellence",
+        "Prudent capital allocation",
+        "Gross margin expansion driven by incremental volumes"
       ]
     },
     "Cholaman.Inv.&Fn": {
@@ -98267,6 +98216,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-29T23:38:59.040Z",
+  "generated_at": "2026-07-30T01:00:25.004Z",
   "count": 1012
 }
