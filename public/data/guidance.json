@@ -69207,108 +69207,63 @@
       "company": "Laurus Labs",
       "ticker": "LAURUSLABS",
       "sector": "Healthcare",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d12ab627-2b3d-4940-85ec-b46d30fb9f3d.pdf",
-      "transcript_id": "laurus-labs_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-04T21:12:25.233Z",
-      "summary": "Laurus Labs expects sustained growth driven by CDMO expansion, capacity additions, and margin improvement over the next 2-3 years.",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4a19b33-9fe2-4bd0-a9a5-6e92fce415d9.pdf",
+      "transcript_id": "laurus-labs_2026-07-30",
+      "provider": "groq",
+      "generated_at": "2026-07-30T17:45:46.412Z",
+      "summary": "Laurus Labs expects sustained growth driven by its CDMO business, affordable medicines, and investments in new technologies and capacities.",
       "guidance": [
         {
-          "metric": "CDMO revenue growth",
+          "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Expect positive growth in CDMO business in the coming years",
+          "statement": "Increased to INR2,000 crores to meet customer demands and expand capacities.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "CDMO Revenue",
+          "horizon": "Medium-term",
+          "statement": "Expected to reach 50% of total revenue by FY30.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset Turnover Ratio",
+          "horizon": "Short-term",
+          "statement": "Expected to be more than 1.0.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "Short-term",
+          "statement": "Expected to continue growing from 19%.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Maintain or improve current EBITDA margins of ~29%",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Operational leverage",
-          "horizon": "FY27",
-          "statement": "Expect operational leverage to play out over the next 2 years",
+          "metric": "Peptides Revenue",
+          "horizon": "Medium-term",
+          "statement": "Expected to be a meaningful area for Laurus.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Reactor volume expansion",
-          "horizon": "FY27-FY28",
-          "statement": "Unit 7 first production ready by March '27; four additional manufacturing units in FY28 with combined reactor volume of over 2,000 cubic meters",
+          "metric": "Krka JV Capex",
+          "horizon": "Short-term",
+          "statement": "Another INR400 crores investment needed, with part of it coming from a loan from the partner.",
           "specificity": "specific",
           "direction": "up"
-        },
-        {
-          "metric": "Peptide manufacturing capacity",
-          "horizon": "Q2 FY27",
-          "statement": "Commercial scale peptide manufacturing block ready for validation",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Fermentation capacity (Laurus Bio)",
-          "horizon": "End of 2026",
-          "statement": "Phase 1 fermentation greenfield site for Laurus Bio to start by end of 2026",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Formulation facility (KRKA JV)",
-          "horizon": "Mid-2027",
-          "statement": "Phase 1 of formulation facility under KRKA joint venture in Hyderabad to be completed by mid-2027",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Animal Health capacity",
-          "horizon": "FY27",
-          "statement": "Additional capacities at Unit 10 (LSPL Unit 2) for Animal Health",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "R&D spend to sales ratio",
-          "horizon": "FY27",
-          "statement": "Expect similar R&D spend to sales ratio of ~4.1% as in FY26",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Gross margin",
-          "horizon": "FY27",
-          "statement": "Gross margins expected to remain similar across development and commercial phases for NCE programs",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Supply chain disruptions",
-          "horizon": "Q1FY27",
-          "statement": "No supply disruptions expected till end of June 2026",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Debt/EBITDA ratio",
-          "horizon": "FY27",
-          "statement": "Debt/EBITDA ratio expected to remain around current levels (~1.25x)",
-          "specificity": "vague",
-          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "CDMO revenue visibility by program in FY27",
-        "EBITDA margin breakdown by segment",
-        "Specific revenue targets for CDMO or other segments"
+        "Operating Cash Flow"
       ],
       "margin_drivers": [
-        "Operational leverage from capacity expansion",
-        "Gross margin improvement from raw material price softening and process improvements",
-        "Product mix shift towards higher-margin CDMO and complex APIs",
-        "Increased capacity utilization in fermentation and peptide manufacturing"
+        "Division mix",
+        "Process improvement efforts",
+        "Capacity efficiency driven by growth of late-stage clinical and commercial projects"
       ]
     },
     "Sejal Glass": {
@@ -98064,6 +98019,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-30T16:12:15.669Z",
+  "generated_at": "2026-07-30T17:46:51.328Z",
   "count": 1012
 }
