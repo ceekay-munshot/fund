@@ -98093,8 +98093,70 @@
         "Improvement in yield on agri loans",
         "Diversification of customer base in MSME segment"
       ]
+    },
+    "Canarys Automa.": {
+      "company": "Canarys Automa.",
+      "ticker": "CANARYS",
+      "sector": "Information Technology",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/CANARYS_30072026122016_Reg30Transcriptofearningsconferencecalldt30072026.pdf",
+      "transcript_id": "canarys-automa_2026-07-30",
+      "provider": "groq",
+      "generated_at": "2026-07-30T22:41:55.799Z",
+      "summary": "Canarys Automations expects to improve EBITDA margin, PAT margin, and other key growth parameters over the next 12 to 24 months, driven by the adoption of agentic AI and the CAR framework, as well as the scaling of its product portfolio.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "next 12 to 24 months",
+          "statement": "expected to improve meaningfully",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT margin",
+          "horizon": "next 12 to 24 months",
+          "statement": "expected to improve meaningfully",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "next 2 years",
+          "statement": "expected to be at least 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export share",
+          "horizon": "current year",
+          "statement": "expected to cross 50%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "current year",
+          "statement": "expected to add another INR70 crores to INR100 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Recurring revenue",
+          "horizon": "current year",
+          "statement": "around INR370 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "agentic AI adoption",
+        "CAR framework",
+        "product portfolio scaling",
+        "Fortira integration"
+      ]
     }
   },
-  "generated_at": "2026-07-30T21:21:13.367Z",
-  "count": 1013
+  "generated_at": "2026-07-30T22:42:49.811Z",
+  "count": 1014
 }
