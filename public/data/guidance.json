@@ -57781,111 +57781,71 @@
     },
     "Manba Finance": {
       "company": "Manba Finance",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52853f88-5a41-4d62-a298-d223fbd91608.pdf",
-      "transcript_id": "manba-finance_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-02T15:29:00.114Z",
-      "summary": "Management expects sustainable growth with disciplined expansion, improving product mix diversification, and controlled asset quality despite macroeconomic challenges.",
+      "ticker": "MANBA",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40cf2193-9b2f-4c84-bdf7-2a345d6b7b8f.pdf",
+      "transcript_id": "manba-finance_2026-07-30",
+      "provider": "groq",
+      "generated_at": "2026-07-31T04:35:27.447Z",
+      "summary": "Manba Finance expects 35-40% AUM growth in FY27, driven by diversification of product portfolio and expansion into new markets.",
       "guidance": [
         {
           "metric": "AUM growth",
           "horizon": "FY27",
-          "statement": "Targeting 25% to 30% AUM growth annually, aiming for INR 2,300-2,400 crore by FY27 end.",
+          "statement": "35-40% growth expected",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Product mix (2-Wheeler share)",
-          "horizon": "3 years",
-          "statement": "2-Wheeler portfolio share expected to reduce from 84% to ~65%, with 35% from other products (3-Wheeler, used car, small business loans, MSME LAP).",
+          "metric": "PAT growth",
+          "horizon": "FY27",
+          "statement": "similar to historical performance, with 30%+ growth in Q1",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "FY27",
+          "statement": "targeting around 3.5%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net Interest Margin",
+          "horizon": "FY27",
+          "statement": "expected to remain in the range of 13-14%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Two-wheeler AUM contribution",
+          "horizon": "FY27",
+          "statement": "expected to decrease to 75-77%",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Geographical expansion",
+          "metric": "MSME LAP AUM contribution",
           "horizon": "FY27",
-          "statement": "Expansion into Karnataka in Q2FY27, with potential entry into West Bengal by end-FY27 or FY28; focus on UP and MP for diversification.",
+          "statement": "expected to be around 2-3%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "MSME LAP disbursements",
+          "metric": "Capital raising",
           "horizon": "FY27",
-          "statement": "Disbursements already started in Mumbai and Pune; next expansion to Nasik and Ahmedabad in Q1FY27.",
+          "statement": "INR100 crores to be raised through preference shares",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Cost of borrowing",
-          "horizon": "Q1FY27",
-          "statement": "Current incremental borrowing cost at 10.50%, with efforts to reduce further by 20-50 bps in Q1FY27.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Yield on MSME LAP",
-          "horizon": "current",
-          "statement": "Gross yield on MSME LAP at 18-19% due to secured nature of the asset.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "EV financing (2-Wheeler)",
-          "horizon": "FY27",
-          "statement": "EV 2-Wheeler portfolio share expected to grow in line with industry (~7-8%), with focus on reputed OEMs like iQube, Bajaj Chetak, Ather.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EV financing (3-Wheeler)",
-          "horizon": "FY27",
-          "statement": "3-Wheeler EV portfolio to grow cautiously, with focus on select OEMs like Piaggio, Greeves, TVS; book size not specified.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Dealer network expansion",
-          "horizon": "FY27",
-          "statement": "Dealer count increased to 1,650; incremental disbursements from network expansion expected to have major impact in FY27.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Credit policy tightening",
-          "horizon": "current",
-          "statement": "Credit policy tightened for new customer onboarding as a precautionary measure amid macroeconomic challenges.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Provision coverage ratio (PCR)",
-          "horizon": "FY27",
-          "statement": "PCR increased to 26% to strengthen balance sheet; management aims to maintain prudent provisioning trends.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Collection efficiency (AI-driven)",
-          "horizon": "FY27",
-          "statement": "AI initiatives implemented for collection prioritization and dynamic pricing; expected to improve efficiency and reduce losses.",
-          "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "EV 2-Wheeler book size for FY27",
-        "Specific NPA trends for EV segments",
-        "Exact timeline for West Bengal expansion beyond Q2FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Reduction in 2-Wheeler concentration (higher-margin products like 3-Wheeler, MSME LAP)",
-        "AI-driven dynamic pricing and collection efficiency",
-        "Lower cost of borrowing (currently 10.50%)",
-        "Prudent credit policy and LTV management (20-25% down payment, 70-75% LTV for new customers)",
-        "Geographical diversification (UP, MP, Karnataka) with controlled IRR in new markets"
+        "Diversification of product portfolio",
+        "Expansion into new markets",
+        "Improvement in lending yield",
+        "Reduction in cost of borrowing"
       ]
     },
     "Equitas Sma. Fin": {
@@ -98126,6 +98086,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-31T01:11:13.152Z",
+  "generated_at": "2026-07-31T04:36:15.632Z",
   "count": 1014
 }
