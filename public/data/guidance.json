@@ -47119,109 +47119,73 @@
     },
     "Ramkrishna Forg.": {
       "company": "Ramkrishna Forg.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98cd0285-2f31-4f18-90c8-70a1d70595f8.pdf",
-      "transcript_id": "ramkrishna-forg_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-06-29T17:19:16.702Z",
-      "summary": "Management expects sustained growth in FY27 driven by strong order book, export momentum, and new capacities, with debt reduction and margin expansion.",
+      "ticker": "RKFORGE",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71175acc-0e01-43dd-af0c-d3f89c6187ae.pdf",
+      "transcript_id": "ramkrishna-forg_2026-07-30",
+      "provider": "groq",
+      "generated_at": "2026-07-31T07:27:50.155Z",
+      "summary": "Ramkrishna Forgings expects strong operational and financial performance in FY27, driven by robust domestic demand and improving export volumes.",
       "guidance": [
         {
-          "metric": "Revenue",
+          "metric": "ROCE",
+          "horizon": "FY27 and FY28",
+          "statement": "Targeting 12-15% ROCE in FY27 and 20% in FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue",
           "horizon": "FY27",
-          "statement": "Continued growth trajectory with healthy revenue growth expected in FY27 based on current order book and capacities.",
-          "specificity": "vague",
+          "statement": "Expecting 35% of consolidated revenue to come from exports, with 20%+ growth",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Margins expected to improve further with healthy growth in top line and bottom line, following 200 bps quarterly improvement trend.",
+          "statement": "Expecting continued improvement in EBITDA margin every quarter",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Capex",
+          "metric": "Volume growth",
           "horizon": "FY27",
-          "statement": "Capex expected to be Rs. 300-400 crores, primarily for value-adds and JV contributions, with focus on debt reduction.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Debt reduction",
-          "horizon": "FY27",
-          "statement": "Targeting debt reduction of Rs. 400-500 crores in FY27.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Railway wheels volume",
-          "horizon": "FY27",
-          "statement": "Supply of 40,000 railway wheels in FY27 from the new wheel plant.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Railway wheels revenue",
-          "horizon": "FY27",
-          "statement": "Expected revenue of Rs. 400-450 crores from the railway wheels plant in FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Casting utilization",
-          "horizon": "FY27",
-          "statement": "Near full utilization (85-90%) expected in casting business over FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Casting revenue",
-          "horizon": "FY27",
-          "statement": "Additional revenue of Rs. 400-500 crores from new casting capacity in FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Casting margin",
-          "horizon": "FY27",
-          "statement": "Margins for casting expected to be around 15-16%.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Press plant utilization",
-          "horizon": "FY27",
-          "statement": "85% utilization expected in press plant by FY27-end.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Trailer axle revenue",
-          "horizon": "FY27",
-          "statement": "Trailer axle business expected to double to Rs. 250 crores in FY27 with market share of ~10%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export mix",
-          "horizon": "2 years",
-          "statement": "Export mix expected to improve to >40% of volumes in next two years, with higher margins than domestic.",
+          "statement": "Domestic market demand looks robust, with exciting times ahead",
           "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Aerospace and semiconductor business",
+          "horizon": "Next 2 years",
+          "statement": "Expecting to build an order book and establish capacities for titanium and Inconel products",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Casting production",
+          "horizon": "Next 3 quarters",
+          "statement": "Expecting gradual increase in production from the casting plant",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cold forging capacity utilization",
+          "horizon": "Third quarter",
+          "statement": "Expecting more than 70% capacity utilization",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Peak revenue potential in absolute terms",
-        "Specific revenue or EBITDA guidance for FY27"
+        "Annual demand for wagon wheels in India"
       ],
       "margin_drivers": [
-        "Export mix improvement",
-        "Commodity price pass-through",
-        "New capacities (railway wheels, casting, aluminium)",
-        "Operational leverage from higher utilization"
+        "Better product mix",
+        "Improved utilization",
+        "Disciplined execution",
+        "Export product mix"
       ]
     },
     "GHCL Textiles": {
@@ -98086,6 +98050,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-31T04:36:15.632Z",
+  "generated_at": "2026-07-31T07:28:40.146Z",
   "count": 1014
 }
