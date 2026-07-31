@@ -42655,109 +42655,61 @@
       "company": "OneSource Speci.",
       "ticker": "ONESOURCE",
       "sector": "Healthcare",
-      "concall_date": "2026-05-15",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d5854cf-1073-4e17-9207-4cd759d11191.pdf",
-      "transcript_id": "onesource-speci_2026-05-15",
-      "provider": "mistral",
-      "generated_at": "2026-06-28T14:55:31.408Z",
-      "summary": "Management reaffirms long-term revenue and EBITDA margin guidance for FY28 while highlighting strong commercial momentum in Semaglutide and capacity expansion plans for FY27.",
+      "concall_date": "2026-07-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68ac2e6d-2525-4659-9e84-98669cd0403f.pdf",
+      "transcript_id": "onesource-speci_2026-07-31",
+      "provider": "groq",
+      "generated_at": "2026-07-31T16:53:50.245Z",
+      "summary": "OneSource Specialty Pharma reiterates its FY28 guidance of $400 million organic revenue and EBITDA margins of 40%, with a strong growth trajectory expected beyond FY28 driven by its biologics, soft gelatin, and injectables businesses.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY28",
-          "statement": "US$400 million organic revenue target",
+          "statement": "Organic revenue of $400 million",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY28",
-          "statement": "40% EBITDA margin target",
+          "statement": "EBITDA margins of 40%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Sequential improvement in revenue expected to continue and strengthen as commercial launches ramp up across all markets",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity expansion",
-          "horizon": "Q2FY27",
-          "statement": "Second line capacity to be available for commercialization in Q2FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity expansion",
-          "horizon": "FY27",
-          "statement": "Three lines to be operational by end of FY27, with additional capacity to support sequential revenue growth",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Volume",
-          "horizon": "FY27",
-          "statement": "Strong visibility on commercial ramp-up for Semaglutide across regulated and emerging markets throughout FY27",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Biologics contribution",
-          "horizon": "FY28",
-          "statement": "Meaningful contribution from biologics business expected in FY28, with commercial manufacturing starting post-FY28",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "ROCE",
+          "metric": "Biologics capacity",
           "horizon": "Medium-term",
-          "statement": "Expectation to build towards 50% plus ROCE in the medium term",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "US$100 million capex plan on track, fully funded through incremental borrowings",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Working capital",
-          "horizon": "FY27",
-          "statement": "Elevated working capital levels expected to normalize during FY27 as launches materialize",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Order book",
-          "horizon": "FY27-FY28",
-          "statement": "Biologics funnel expanded 4x YoY, with multiple global partners added, supporting future order book growth",
+          "statement": "Expansion of mammalian and microbial capacity",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Compliance track record",
-          "horizon": "Ongoing",
-          "statement": "Continued focus on compliance with strong regulatory audit track record, including successful FDA inspections",
+          "metric": "Soft gelatin capacity",
+          "horizon": "12-15 months",
+          "statement": "Capacity to be completely taken over",
           "specificity": "vague",
-          "direction": "flat"
+          "direction": "up"
+        },
+        {
+          "metric": "Injectables capacity",
+          "horizon": "FY28",
+          "statement": "New capacity to be added, including pre-filled syringes and lyophilization",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book visibility",
+          "horizon": "FY28",
+          "statement": "Yes, with multiple pillars of business contributing",
+          "specificity": "vague",
+          "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "profit-sharing terms with specific customers",
-        "detailed breakdown of non-CDMO business EBITDA margins",
-        "Brazil market growth potential with local manufacturing requirements"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "capacity expansion and operational leverage",
-        "commercialization of Semaglutide and other high-margin products",
-        "biologics business growth",
-        "cost optimization and scale benefits from new lines",
-        "compliance and regulatory approvals driving customer confidence"
+        "Mix of high-margin businesses like drug device combination",
+        "New capabilities in injectables",
+        "Biologics business growth"
       ]
     },
     "Infinity Infoway": {
@@ -98050,6 +98002,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-31T15:06:58.471Z",
+  "generated_at": "2026-07-31T16:54:41.338Z",
   "count": 1014
 }
