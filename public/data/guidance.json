@@ -51654,67 +51654,67 @@
     },
     "Fairchem Organic": {
       "company": "Fairchem Organic",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=319a8838-0c70-4afe-88d8-9b4cb112a8e6.pdf",
-      "transcript_id": "fairchem-organic_2026-05-01",
+      "ticker": "FAIRCHEMOR",
+      "sector": "Commodities",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cece8c93-50ff-4ad8-bbc9-693dfb1f6969.pdf",
+      "transcript_id": "fairchem-organic_2026-07-30",
       "provider": "groq",
-      "generated_at": "2026-06-30T21:18:39.555Z",
-      "summary": "The company expects improvement in revenue and margins driven by reduced Chinese dumping, better price realization, and increased capacity utilization.",
+      "generated_at": "2026-07-31T15:06:11.462Z",
+      "summary": "Fairchem Organics expects to maintain current revenue and margin run rate for the rest of the year, driven by higher price realization and lower imports amid supply chain constraints.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expected to reach 75%-80% capacity utilization, implying a significant increase in revenue",
+          "statement": "Expect to maintain current revenue run rate",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Margin",
+          "horizon": "FY27",
+          "statement": "Expect to maintain current margin run rate",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capacity Utilization",
+          "horizon": "FY27",
+          "statement": "Aim to increase capacity utilization by 10-20% every quarter",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
+          "metric": "Isostearic Acid Capacity Utilization",
+          "horizon": "next 1-2 years",
+          "statement": "Expect to reach more than 80% capacity utilization",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New Product Introduction",
+          "horizon": "next quarter",
+          "statement": "Plan to introduce a new raw material in the oleochemical sector",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export Revenue",
           "horizon": "FY27",
-          "statement": "Targeting to reach 8% margins",
+          "statement": "Currently hovering between 7% to 8% of total revenue",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export contribution",
-          "horizon": "FY27",
-          "statement": "Expected to increase from 8%-9% to around 20%",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity utilization",
-          "horizon": "FY27",
-          "statement": "Expected to reach 75%-80% capacity utilization",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "New product revenue",
-          "horizon": "FY29-30",
-          "statement": "Expected to generate Rs. 800-1000 crores revenue",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "New product margin",
-          "horizon": "FY29-30",
-          "statement": "Expected to have margins of 15%-18%",
-          "specificity": "specific",
-          "direction": "up"
+          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "Exact timeline for meaningful export volumes to resume",
-        "Quantitative impact of rupee depreciation on export realization"
+        "Dimer acid customer names and quantities",
+        "Exact revenue contribution from paint industry"
       ],
       "margin_drivers": [
-        "Better price realization due to reduced Chinese dumping",
-        "Increased capacity utilization",
-        "Operating leverage",
-        "New product with higher margins"
+        "Higher price realization due to supply chain constraints",
+        "Lower imports",
+        "Energy conservation exercises",
+        "Reduced power and solid fuel consumption"
       ]
     },
     "HFCL": {
@@ -98050,6 +98050,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-31T12:14:50.989Z",
+  "generated_at": "2026-07-31T15:06:58.471Z",
   "count": 1014
 }
