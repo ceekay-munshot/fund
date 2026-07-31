@@ -59327,109 +59327,78 @@
     },
     "Mold-Tek Pack.": {
       "company": "Mold-Tek Pack.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33af4f06-5a31-4be5-9caf-fab88a138ad5.pdf",
-      "transcript_id": "mold-tek-pack_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-02T21:48:51.631Z",
-      "summary": "Management expects 13-15% value growth in FY27 led by Pharma and Paint segments, with capacity expansion focused on brownfield projects and debt reduction.",
+      "ticker": "MOLDTKPAC",
+      "sector": "Industrials",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b3f449c-95b8-45c2-a7b7-759828a6dc60.pdf",
+      "transcript_id": "mold-tek-pack_2026-07-30",
+      "provider": "groq",
+      "generated_at": "2026-07-31T01:10:24.686Z",
+      "summary": "Mold-Tek Packaging expects to sustain EBITDA growth momentum, driven by consolidation benefits, improved efficiencies, and increasing sales of high-margin products in pharma, food, and FMCG segments.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Targeting INR1,000 crores sales mark for FY27 with 13-15% value growth",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Pharma Revenue",
-          "horizon": "FY27",
-          "statement": "Targeting INR50-55 crores for Pharma segment (50% growth from FY26)",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity (Pharma)",
-          "horizon": "FY27",
-          "statement": "Pharma capacity to increase from 1,500 tons to 2,500 tons in FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity (Total)",
-          "horizon": "FY27",
-          "statement": "Total capacity to reach 67,000-70,000 tons by end of FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Planning capex of INR80-85 crores for FY27 (down from INR140 crores in prior years)",
-          "specificity": "specific",
+          "metric": "Revenue mix - Paints",
+          "horizon": "Medium-term (3-4 years)",
+          "statement": "Paints segment contribution to revenue expected to stabilize around 40% or come down from current 50% due to faster growth in Food & FMCG and pharma segments",
+          "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "Debt",
-          "horizon": "FY27",
-          "statement": "Debt expected to remain flat or decrease with repayment from internal accruals",
+          "metric": "Food & FMCG growth",
+          "horizon": "Medium-term (3-4 years)",
+          "statement": "Food & FMCG segment expected to grow at 18-20% CAGR",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Paint Volume Growth",
+          "metric": "Pharma growth",
+          "horizon": "Medium-term (3-4 years)",
+          "statement": "Pharma segment expected to grow at 40-50% CAGR",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per kg",
           "horizon": "FY27",
-          "statement": "Paint segment volume growth expected to remain in double digits for next couple of years",
+          "statement": "Aiming for EBITDA per kg of around INR44-45 for the full year, higher than the previously projected INR42-43",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Expecting 10% volume growth for the full year, driven by growth in paint, Food & FMCG, and pharma segments",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Qpack volumes",
+          "horizon": "Q2FY27",
+          "statement": "Expecting Qpack volumes to return to double-digit growth",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Gross Margin",
+          "metric": "Pharma revenue",
           "horizon": "FY27",
-          "statement": "Expect to maintain 46-47% gross margin levels in coming quarters",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "New Pharma Products",
-          "horizon": "FY27",
-          "statement": "Adding 5-10 new products every quarter in Pharma segment",
+          "statement": "Targeting INR50-55 crores of revenue from pharma segment, representing around 50% growth over last year",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "New Pharma Plant",
-          "horizon": "FY28",
-          "statement": "New Pharma plant expected to start commercial production by beginning of FY28 (Jan 2028)",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Vibe Revenue Contribution",
-          "horizon": "Q4FY27",
-          "statement": "Vibe contract revenue expected to start adding from Q4FY27 (2-3 quarters after pilot molds)",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Raw Material Price Pass-Through",
+          "metric": "Vibe revenue",
           "horizon": "FY27",
-          "statement": "Clients accepting price hikes and adjusting pricing terms to monthly/fortnightly cycles",
-          "specificity": "vague",
-          "direction": "unclear"
+          "statement": "Expecting around INR2 crores of revenue from Vibe in the last quarter of FY27, with significant growth expected in the next financial year",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "IML and non-IML mix for future periods",
-        "Breakdown of Paint volume growth between Asian Paints and ABG for FY27"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Raw material price pass-through to clients",
-        "Capacity utilization improvements in Paint and Pharma segments",
-        "Shift to higher-margin Pharma segment",
-        "Preventive maintenance investments to support recycled plastic mandates"
+        "Consolidation of units",
+        "Improved efficiencies",
+        "Better capacity utilization",
+        "Increasing sales of high-margin products in pharma, food, and FMCG segments"
       ]
     },
     "Dilip Buildcon": {
@@ -98157,6 +98126,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-30T23:40:59.432Z",
+  "generated_at": "2026-07-31T01:11:13.152Z",
   "count": 1014
 }
