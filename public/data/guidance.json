@@ -61772,109 +61772,86 @@
     },
     "Spandana Sphoort": {
       "company": "Spandana Sphoort",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ba65a33-94dd-4052-87d4-d12880c9d12e.pdf",
-      "transcript_id": "spandana-sphoort_2026-05-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-03T13:23:20.021Z",
-      "summary": "Management expects steady growth in AUM and profitability with improved operational efficiencies and cautious customer acquisition amid macroeconomic uncertainties.",
+      "ticker": "SPANDANA",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=132cf46c-e164-4efc-8a4d-0cbed271f1ae.pdf",
+      "transcript_id": "spandana-sphoort_2026-07-31",
+      "provider": "groq",
+      "generated_at": "2026-07-31T23:38:15.133Z",
+      "summary": "Spandana Sphoorty Financial Limited is looking forward to a positive outlook with a focus on growth, asset quality, and cost optimization.",
       "guidance": [
         {
-          "metric": "AUM",
+          "metric": "Credit Cost",
           "horizon": "FY27",
-          "statement": "AUM expected to reach INR6,500 crores by March 2027",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Disbursements",
-          "horizon": "next 3-4 months",
-          "statement": "Aim to retain disbursement levels at INR500 crores per month",
+          "statement": "Guidance of 2.5% to 3% gross credit cost, with net credit cost expected to be around 2% for FY27",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Disbursements",
+          "metric": "Disbursement",
           "horizon": "FY27",
-          "statement": "Target disbursements of INR550-600 crores per month as progress is made",
+          "statement": "Targeting disbursements of INR6,000 crores to INR6,500 crores for FY27",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Customer base",
+          "metric": "AUM",
           "horizon": "FY27",
-          "statement": "Goal to add 7 lakh new borrowers during FY27, targeting 1.6 million borrowers by year-end",
+          "statement": "Aiming for an exit AUM of around INR6,000 crores by March 2027",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Cost of borrowings",
-          "horizon": "FY27",
-          "statement": "Cost of borrowings expected to be below 12.5% on a blended basis",
+          "metric": "AUM",
+          "horizon": "FY28",
+          "statement": "Targeting an AUM of around INR10,000 crores by March 2028",
           "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Incremental yield",
-          "horizon": "FY27",
-          "statement": "Incremental yield expected to inch closer to ideal yield of 23-26%",
-          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Blended yield",
-          "horizon": "FY27",
-          "statement": "Blended yield expected to improve as portfolio mix shifts toward new originations",
-          "specificity": "vague",
+          "metric": "ROA",
+          "horizon": "FY28",
+          "statement": "Expecting an ROA of around 3.5% for FY28",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Opex",
-          "horizon": "near term",
-          "statement": "Aim to reduce opex from INR161 crores to lower levels without compromising efficiency",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Opex to AUM ratio",
-          "horizon": "medium term",
-          "statement": "Opex to AUM ratio expected to reduce to 7-8%",
+          "horizon": "FY27",
+          "statement": "Expecting opex to be around INR675 crores for FY27, with a 10% increase in FY28",
           "specificity": "specific",
-          "direction": "down"
+          "direction": "flat"
         },
         {
-          "metric": "Customer satisfaction score (CSAT)",
-          "horizon": "current quarter/early next quarter",
-          "statement": "Target CSAT score of 95%",
+          "metric": "Yield",
+          "horizon": "Medium-term",
+          "statement": "Expecting yield to stabilize around 25.25% with marginal improvement going forward",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Collection efficiency (X-bucket)",
-          "horizon": "ongoing",
-          "statement": "Focus on maintaining high collection efficiency in X-bucket and 1+ bucket amid macroeconomic challenges",
+          "metric": "NIM",
+          "horizon": "Medium-term",
+          "statement": "Expecting NIM to improve with declining borrowing cost and improving yield",
           "specificity": "vague",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Merger (CFL)",
-          "horizon": "5-6 months from call date",
-          "statement": "Merger process with CFL is in progress and expected to complete in 5-6 months",
+          "metric": "Recoveries",
+          "horizon": "FY27",
+          "statement": "Targeting recoveries of INR150 crores to INR200 crores from the 90-plus pool for FY27",
           "specificity": "specific",
-          "direction": "unclear"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "PAT guidance for FY27"
+        "Detailed quarterly guidance"
       ],
       "margin_drivers": [
-        "Cost of borrowings",
-        "Opex optimization",
-        "Portfolio mix shift toward new originations",
-        "Collection efficiency improvements",
-        "Customer satisfaction initiatives"
+        "Improving yield",
+        "Declining borrowing cost",
+        "Operating leverage"
       ]
     },
     "WPIL": {
@@ -98059,6 +98036,6 @@
       ]
     }
   },
-  "generated_at": "2026-07-31T22:40:01.639Z",
+  "generated_at": "2026-07-31T23:39:05.981Z",
   "count": 1015
 }
