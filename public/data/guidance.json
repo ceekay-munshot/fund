@@ -101917,8 +101917,64 @@
         "Export growth in Electrominerals",
         "Operational efficiencies in refractory and advanced ceramics"
       ]
+    },
+    "Mahindra EPC": {
+      "company": "Mahindra EPC",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60898488-28e4-481e-be9b-fa0cfee7af57.pdf",
+      "transcript_id": "mahindra-epc_2026-04-01",
+      "provider": "groq",
+      "generated_at": "2026-08-01T23:06:01.652Z",
+      "summary": "Mahindra EPC expects a positive environment for the micro irrigation industry, driven by structural demand and government support, despite short-term challenges.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Expected to be higher than the industry growth rate of 6-7%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material prices",
+          "horizon": "FY27",
+          "statement": "Expected to be volatile due to geopolitical tensions",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "No specific guidance provided, but management will use levers to manage business and deliver best results",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Non-subsidy business",
+          "horizon": "Medium-term",
+          "statement": "Expected to contribute significantly to revenue, with a current contribution of 35%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Irrigation projects",
+          "horizon": "Medium-term",
+          "statement": "Expected to drive growth, with a good unrecognized work order pipeline",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "EBITDA margin for FY27"
+      ],
+      "margin_drivers": [
+        "Product mix",
+        "Geography mix",
+        "Timing of raw material procurement"
+      ]
     }
   },
-  "generated_at": "2026-08-01T22:07:49.697Z",
-  "count": 1047
+  "generated_at": "2026-08-01T23:06:05.597Z",
+  "count": 1048
 }
