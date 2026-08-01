@@ -100696,8 +100696,445 @@
         "Asset Reconstruction Company (ARC) collections and profit realization",
         "Pricing discipline and project execution in real estate"
       ]
+    },
+    "Piccadily Agro": {
+      "company": "Piccadily Agro",
+      "ticker": "PICCADIL",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.piccadily.com/themes/piccadily/pdfs/piccadily_transcript_earnings_call_dated_29_4_26.pdf",
+      "transcript_id": "piccadily-agro_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T18:35:08.002Z",
+      "summary": "Management expects exceptional growth in FY27 driven by capacity expansions, new product launches, and premiumization, with a focus on global expansion and demerger of the sugar business.",
+      "guidance": [
+        {
+          "metric": "Revenue (Alco-Bev business)",
+          "horizon": "FY27",
+          "statement": "Expect growth of 60% to 70% in Alco-Bev business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Indri plant)",
+          "horizon": "FY27",
+          "statement": "Additional revenue of INR250 crores to INR300 crores from recently expanded capacities.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Chhattisgarh plant)",
+          "horizon": "FY27",
+          "statement": "Expected revenue of INR300 crores to INR400 crores from the 200 KLPD greenfield plant.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (IMFL segment)",
+          "horizon": "FY27",
+          "statement": "Growth mainly driven by IMFL segment, contributing to overall Alco-Bev growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Alco-Bev business)",
+          "horizon": "FY27",
+          "statement": "Maintain or slightly increase EBITDA margins (currently ~31.5%) due to premiumization and new product launches.",
+          "specificity": "vague",
+          "direction": "flat/up"
+        },
+        {
+          "metric": "EBITDA margin (IMFL business)",
+          "horizon": "FY27",
+          "statement": "IMFL EBITDA margins are high (~45% to 50%) and expected to remain robust.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "3-5 years",
+          "statement": "Aim to achieve ~50% export revenue share in the next 3 to 5 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Global brand ranking (Indri single malt)",
+          "horizon": "1-2 years",
+          "statement": "Aspire to be in the top 10 global single malt brands in 1-2 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Global brand ranking (Indri single malt)",
+          "horizon": "3-5 years",
+          "statement": "Aspire to be in the top 5 global single malt brands in 3-5 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (3-4 years)",
+          "horizon": "3-4 years",
+          "statement": "Expect revenue to grow 3x to 4x of current revenue.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Guidance of INR25 crores to INR30 crores for FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Barrel capacity",
+          "horizon": "FY27",
+          "statement": "Plan to increase barrel capacity from 85,000 to 100,000 barrels.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Category-wise volume growth for Indri, Camikara, Cashmir Vodka, and Whistler",
+        "Revenue mix breakdown for CSD, HORECA, retail, and export in FY27",
+        "Volume growth for Indri brand specifically"
+      ],
+      "margin_drivers": [
+        "Premiumization of product portfolio",
+        "New product launches in premium/luxury segments",
+        "Expansion of IMFL segment with higher EBITDA margins",
+        "Capacity expansions in Indri and Chhattisgarh plants"
+      ]
+    },
+    "Gallantt Ispat L": {
+      "company": "Gallantt Ispat L",
+      "ticker": "GALLANTT",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc48acb0-32cf-4750-8f8e-4313aca254a2.pdf",
+      "transcript_id": "gallantt-ispat-l_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T18:35:16.830Z",
+      "summary": "Gallantt Ispat expects strong volume growth, margin expansion, and cost savings from ongoing capex and mine integration over FY27-FY28, with medium-term growth plan to be shared in Q2FY27.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue expected to increase to INR 5,300-5,400 crores from current levels following capacity expansion to 1.3 million tons.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected to improve to around 20% from current 15-17% with completion of projects and mining integration.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "EBITDA per ton expected to improve further with de-bottlenecking and integration initiatives.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY28",
+          "statement": "INR 3,000 crores capex program to be funded primarily from internal accruals, with completion of steel capacity expansion in H2FY27, solar plants by Q1FY27, and mines by FY28.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Meaningful scale-up in volumes expected from ongoing capacity expansions and operational improvements.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mine integration savings",
+          "horizon": "FY28",
+          "statement": "Captive iron ore mines expected to reduce cost of production by approximately INR 2,000 per ton.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Solar energy savings",
+          "horizon": "FY27",
+          "statement": "78 MW solar capacity expected to save INR 30-40 crores annually in power costs.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Target capacity utilization of 90-92% following de-bottlenecking initiatives.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Medium-term growth plan",
+          "horizon": "Q2FY27",
+          "statement": "Management intends to present a medium-term growth plan alongside the ongoing INR 3,000 crores capex program.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material cost ratio",
+          "horizon": "FY27",
+          "statement": "Raw material cost as a proportion of net realization expected to remain steady at approximately 72%.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export strategy",
+          "horizon": "medium-term",
+          "statement": "Export markets will be evaluated only if realizations are compellingly better than domestic market.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Geographic expansion",
+          "horizon": "medium to long-term",
+          "statement": "No immediate need for geographic expansion; focus remains on UP and Gujarat in short to medium term.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        ""
+      ],
+      "margin_drivers": [
+        "mine integration",
+        "renewable energy (solar)",
+        "de-bottlenecking",
+        "integration depth",
+        "procurement discipline"
+      ]
+    },
+    "Wheels India": {
+      "company": "Wheels India",
+      "ticker": "WHEELS",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://wheelsindia.com/wp-content/uploads/2026/05/Transcript-15.05.2026.pdf",
+      "transcript_id": "wheels-india_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T18:35:26.872Z",
+      "summary": "Management expects double-digit EBITDA in 1-2 years driven by volume growth, cost optimization, and business turnarounds, though near-term headwinds from commodity inflation and geopolitical risks persist.",
+      "guidance": [
+        {
+          "metric": "EBITDA margin",
+          "horizon": "next 1-2 years",
+          "statement": "Management expects to achieve double-digit EBITDA margin in the next 1-2 years, driven by volume growth and turnaround of loss-making businesses.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Management expects EBITDA margin to improve from current levels (~8%) to double-digit in FY27, subject to volume growth and cost management.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue growth",
+          "horizon": "medium-term (5-year period)",
+          "statement": "Management expects double-digit revenue growth over a 5-year period, driven by growth in export markets and new business segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue share",
+          "horizon": "FY27-FY28",
+          "statement": "Exports are expected to grow, with FY27 seeing continued growth and FY28 seeing more significant growth, subject to geopolitical conditions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Management expects capex of INR280-300 crores in FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "FY27",
+          "statement": "Management expects ROCE to be 18% plus in FY27, assuming no adverse external factors.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Return on net worth (RONW)",
+          "horizon": "FY27",
+          "statement": "Management expects return on net worth to be 15% plus in FY27, assuming no adverse external factors.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Hydraulic cylinder business",
+          "horizon": "medium-term",
+          "statement": "Management intends to continue growing the hydraulic cylinder business, which has turned profitable in Q4 FY26.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Aluminium wheel business",
+          "horizon": "medium-term",
+          "statement": "Management is ramping up the aluminium wheel business, which is expected to contribute to growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Air suspension business",
+          "horizon": "medium-term",
+          "statement": "Management expects the bus air suspension business to continue growing and will continue to invest in it.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Windmill components business",
+          "horizon": "FY27",
+          "statement": "Machining of large castings for windmills and fabricated structures for windmills (including offshore) are expected to fructify in terms of business in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Stake in Axles India",
+          "horizon": "medium-term",
+          "statement": "Management plans to increase stake in Axles India to 15-25% over time, with potential synergies between the companies.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "FTA impact on U.S. and EU markets",
+        "Middle East prices and crude oil impact",
+        "Quantified revenue growth for FY27 or FY28",
+        "Specific market share targets",
+        "Detailed breakup of revenue by segment for future periods"
+      ],
+      "margin_drivers": [
+        "Volume growth in export markets (construction equipment and agriculture tractor wheels)",
+        "Turnaround of loss-making businesses (hydraulic cylinders, fabrications)",
+        "Cost optimization and working capital management",
+        "Pass-through of material cost inflation to customers",
+        "Operating leverage from higher volumes",
+        "Investments in new growth segments (windmill components, aluminium wheels, air suspension)"
+      ]
+    },
+    "Park Medi World": {
+      "company": "Park Medi World",
+      "ticker": "PARKHOSPS",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b425bbfd-766f-4c71-a8f1-157f3a8d76a0.pdf",
+      "transcript_id": "park-medi-world_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T18:35:38.154Z",
+      "summary": "Park Medi World expects sustained revenue growth driven by capacity expansion, CGHS rate hikes, and improved operational efficiency, with margins remaining stable despite Greenfield additions.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "CGHS rate hike to contribute ~5-7% to revenue in FY27, with net impact conservatively estimated at 5-6%.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins expected to remain stable despite Greenfield additions, as operational efficiency offsets initial drag.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex per bed (Greenfield)",
+          "horizon": "FY27",
+          "statement": "Capex per bed for Greenfield hospitals targeted at ~INR35 lakhs.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Bed capacity",
+          "horizon": "March 2028",
+          "statement": "Total bed capacity expected to reach 5,460 beds by March 2028.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Occupancy (new units)",
+          "horizon": "FY27",
+          "statement": "Bathinda and Agra units expected to achieve 65-70% and ~INR5 crores monthly revenue, respectively, with Agra becoming EBITDA positive in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Payor mix (government insurance)",
+          "horizon": "FY27",
+          "statement": "Government insurance share of revenue expected to stabilize at 70% in 12-18 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Collections efficiency",
+          "horizon": "FY27",
+          "statement": "Collections expected to remain robust at ~100%, with receivable days trending lower.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "ARPOB (Average Revenue Per Occupied Bed)",
+          "horizon": "FY27",
+          "statement": "ARPOB growth of 7% YoY in FY26, with expectations of continued growth in FY27.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA break-even (acquired assets)",
+          "horizon": "FY27",
+          "statement": "Acquired assets expected to achieve EBITDA break-even in 3-3.5 years on a weighted average basis.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "ROCE/ROE",
+          "horizon": "FY27",
+          "statement": "Focus on capital efficiency and operational discipline to sustain ROCE and ROE improvements.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Technology upgradation capex",
+          "horizon": "FY27",
+          "statement": "Additional resources from CGHS rate hikes to fund technology upgradation and expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Narela unit commissioning",
+          "horizon": "Q2 FY27",
+          "statement": "200-bed Narela unit expected to be commissioned in Q2 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact revenue or EBITDA contribution from CGHS rate hikes beyond the stated 5-6% net impact",
+        "Cluster-wise ARPOB and occupancy details",
+        "Specific margin impact of new Greenfield additions in FY27"
+      ],
+      "margin_drivers": [
+        "High occupancy rates",
+        "CGHS rate hikes",
+        "Operational efficiency and cost discipline",
+        "Shift toward high-end specialties (56.9% of revenue)",
+        "Acquisition-driven growth with rapid EBITDA/PAT positive performance",
+        "Reduction in receivable days and improved collections"
+      ]
     }
   },
-  "generated_at": "2026-08-01T17:38:37.217Z",
-  "count": 1035
+  "generated_at": "2026-08-01T18:35:39.682Z",
+  "count": 1039
 }
