@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-08-01T15:25:11.358Z",
+  "generated_at": "2026-08-01T15:34:39.735Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 57,
-    "gained": 301,
-    "consistent": 674,
+    "dropped": 59,
+    "gained": 300,
+    "consistent": 672,
     "companies_evaluated": 999
   },
   "dropped": [
+    {
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "Navneet Educat.",
+      "ticker": "NAVNETEDUL",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-01",
+      "last_seen_date": "2026-06-15",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
     {
       "fund_id": "astute",
       "fund_name": "Astute Investment Management",
@@ -83,6 +94,17 @@
       "latest_call_date": "2026-05-27",
       "last_seen_date": "2026-05-01",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Neogen Chemicals",
+      "ticker": "NEOGEN",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-01",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -276,8 +298,8 @@
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "Som Distilleries",
-      "ticker": null,
-      "sector": null,
+      "ticker": "SDBL",
+      "sector": "Fast Moving Consumer Goods",
       "latest_call_date": "2026-06-05",
       "last_seen_date": "2026-06-01",
       "prior_calls_attended": 3,
@@ -2254,14 +2276,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "bowhead",
-      "fund_name": "Bowhead India",
-      "company": "Dodla Dairy",
-      "ticker": "DODLA",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "aequitas",
       "fund_name": "Aequitas",
       "company": "Mahanagar Gas",
@@ -2905,8 +2919,8 @@
       "fund_id": "incred",
       "fund_name": "InCred AMC",
       "company": "Elin Electronics",
-      "ticker": null,
-      "sector": null,
+      "ticker": "ELIN",
+      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-03-01"
     },
     {

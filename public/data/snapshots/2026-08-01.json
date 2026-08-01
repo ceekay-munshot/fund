@@ -1,8 +1,8 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T11:23:06.850Z",
+  "generated_at": "2026-08-01T15:34:39.803Z",
   "totals": {
-    "sightings": 3888,
+    "sightings": 3892,
     "companies": 1055,
     "active_funds": 52
   },
@@ -10,7 +10,7 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 735,
+      "sighting_count": 736,
       "company_count": 415,
       "companies": [
         "ADF Foods",
@@ -433,7 +433,7 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "sighting_count": 272,
+      "sighting_count": 274,
       "company_count": 151,
       "companies": [
         "ABS Marine",
@@ -2457,6 +2457,31 @@
       ]
     },
     {
+      "fund_id": "bowhead",
+      "fund_name": "Bowhead India",
+      "sighting_count": 27,
+      "company_count": 17,
+      "companies": [
+        "Allied Blenders",
+        "Dhanuka Agritech",
+        "Dodla Dairy",
+        "International Ge",
+        "International Gemological Instit",
+        "J & K Bank",
+        "Kaveri Seed Co.",
+        "Kuantum Papers",
+        "NTPC",
+        "Nath Bio-Genes",
+        "Navneet Educat.",
+        "Pokarna",
+        "Rashi Peripheral",
+        "Ratnamani Metals",
+        "S Chand & Compan",
+        "Shadowfax Technologies",
+        "Ujjivan Small"
+      ]
+    },
+    {
       "fund_id": "stallion",
       "fund_name": "Stallion Asset",
       "sighting_count": 27,
@@ -2508,31 +2533,6 @@
         "Steel Str. Wheel",
         "Technocraf.Inds.",
         "Transport Corp."
-      ]
-    },
-    {
-      "fund_id": "bowhead",
-      "fund_name": "Bowhead India",
-      "sighting_count": 26,
-      "company_count": 17,
-      "companies": [
-        "Allied Blenders",
-        "Dhanuka Agritech",
-        "Dodla Dairy",
-        "International Ge",
-        "International Gemological Instit",
-        "J & K Bank",
-        "Kaveri Seed Co.",
-        "Kuantum Papers",
-        "NTPC",
-        "Nath Bio-Genes",
-        "Navneet Educat.",
-        "Pokarna",
-        "Rashi Peripheral",
-        "Ratnamani Metals",
-        "S Chand & Compan",
-        "Shadowfax Technologies",
-        "Ujjivan Small"
       ]
     },
     {
@@ -2830,28 +2830,28 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1057,
-      "company_count": 263
+      "sighting_count": 1058,
+      "company_count": 264
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 900,
-      "company_count": 243
+      "sighting_count": 905,
+      "company_count": 248
     },
     {
       "sector": "Healthcare",
-      "sighting_count": 403,
+      "sighting_count": 404,
       "company_count": 102
     },
     {
       "sector": "Commodities",
-      "sighting_count": 386,
-      "company_count": 100
+      "sighting_count": 388,
+      "company_count": 101
     },
     {
       "sector": "Financial Services",
-      "sighting_count": 287,
-      "company_count": 96
+      "sighting_count": 291,
+      "company_count": 99
     },
     {
       "sector": "Information Technology",
@@ -2860,13 +2860,13 @@
     },
     {
       "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 233,
-      "company_count": 63
+      "sighting_count": 238,
+      "company_count": 64
     },
     {
       "sector": "Services",
-      "sighting_count": 196,
-      "company_count": 60
+      "sighting_count": 197,
+      "company_count": 61
     },
     {
       "sector": "Utilities",
@@ -2884,11 +2884,6 @@
       "company_count": 10
     },
     {
-      "sector": "Unknown",
-      "sighting_count": 15,
-      "company_count": 12
-    },
-    {
       "sector": "Diversified",
       "sighting_count": 2,
       "company_count": 1
@@ -2896,93 +2891,117 @@
   ],
   "new_today": [
     {
+      "fund_name": "Bowhead India",
+      "company": "Navneet Educat.",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-08-01"
+    },
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Hester Bios",
+      "sector": "Healthcare",
+      "concall_date": "2026-08-01"
+    },
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Navneet Educat.",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-08-01"
+    },
+    {
       "fund_name": "Helios Capital",
       "company": "GMR Airports",
-      "sector": "Unknown",
+      "sector": "Services",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "InCred AMC",
       "company": "Elin Electronics",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-03-01"
     },
     {
       "fund_name": "Sapphire Capital",
       "company": "Bajaj Electrical",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2025-11-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Emerald Finance",
+      "sector": "Financial Services",
+      "concall_date": "2026-08-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "H T Media",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Hindustan Media",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "ISGEC Heavy",
-      "sector": "Unknown",
+      "sector": "Industrials",
       "concall_date": "2026-02-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Kiri Industries",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2025-11-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Kiri Industries",
-      "sector": "Unknown",
+      "sector": "Commodities",
       "concall_date": "2025-09-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Laxmi India Fin.",
-      "sector": "Unknown",
+      "sector": "Financial Services",
       "concall_date": "2025-11-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "LIC Housing Fin.",
-      "sector": "Unknown",
+      "sector": "Financial Services",
       "concall_date": "2025-08-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Relaxo Footwear",
-      "sector": "Unknown",
+      "sector": "Consumer Discretionary",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Som Distilleries",
-      "sector": "Unknown",
+      "sector": "Fast Moving Consumer Goods",
       "concall_date": "2026-06-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Som Distilleries",
-      "sector": "Unknown",
+      "sector": "Fast Moving Consumer Goods",
       "concall_date": "2026-02-01"
     },
     {
       "fund_name": "Sequent Investments",
       "company": "Som Distilleries",
-      "sector": "Unknown",
+      "sector": "Fast Moving Consumer Goods",
       "concall_date": "2025-08-01"
     },
     {
       "fund_name": "ValueQuest",
       "company": "Go Digit General",
-      "sector": "Unknown",
+      "sector": "Financial Services",
       "concall_date": "2025-11-01"
     }
   ]
