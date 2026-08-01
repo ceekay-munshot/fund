@@ -101570,8 +101570,245 @@
         "ALMM-2/3 policy tailwinds",
         "Low-cost production platform"
       ]
+    },
+    "Netweb Technol.": {
+      "company": "Netweb Technol.",
+      "ticker": "NETWEB",
+      "sector": "Information Technology",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01b266d6-defa-46f0-acbc-b53b9debed80.pdf",
+      "transcript_id": "netweb-technol_2026-05-01",
+      "provider": "groq",
+      "generated_at": "2026-08-01T21:07:13.125Z",
+      "summary": "Netweb Technologies expects strong growth momentum to continue, driven by increasing demand for high-end computing systems and AI infrastructure in India.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27 and FY28",
+          "statement": "Guiding 35% to 40% revenue growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27 and FY28",
+          "statement": "Guiding 13% to 14% EBITDA margin",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "No significant capex expansion expected, routine capex of around INR20-25 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Cash conversion cycle",
+          "horizon": "FY27",
+          "statement": "Expected to remain within 90-110 days range",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Disciplined margin management",
+        "Operating leverage from high revenue growth"
+      ]
+    },
+    "Macfos": {
+      "company": "Macfos",
+      "ticker": "543787",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1c5e32b-fa8e-40af-8d15-f3b2a23fbbf3.pdf",
+      "transcript_id": "macfos_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T21:07:32.931Z",
+      "summary": "Management expects sustained growth driven by Robu 1.0 distribution expansion and gradual scaling of proprietary Robu 2.0 products, with a focus on drones and SmartElex modules.",
+      "guidance": [
+        {
+          "metric": "Revenue growth (Robu 1.0)",
+          "horizon": "medium-term",
+          "statement": "Robu 1.0 remains the backbone with steady expansion of product portfolio and customer base.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue contribution (Robu 2.0)",
+          "horizon": "3-5 years",
+          "statement": "Robu 2.0 products (drones, SmartElex modules) are expected to contribute a small but growing share of revenue.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin (Robu 2.0 vs. Robu 1.0)",
+          "horizon": "medium-term",
+          "statement": "Robu 2.0 products are targeted to deliver at least 10% higher gross margins than regular products.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Drone segment growth",
+          "horizon": "next 2 years",
+          "statement": "Drone products (including defense) are expected to see sustained engagement and potential long-term business if trials succeed.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "SmartElex modules portfolio",
+          "horizon": "medium-term",
+          "statement": "300+ SmartElex modules developed, with steady growth in retail and marketplace adoption.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ProRange SKUs expansion",
+          "horizon": "FY27",
+          "statement": "650+ SKUs added in ProRange, including sensors, 3D printing filaments, drone components, and tools.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Defense sector engagement",
+          "horizon": "next 2 years",
+          "statement": "Direct engagement with defense for low-volume drone products; trials ongoing.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "AI/edge hardware demand",
+          "horizon": "medium-term",
+          "statement": "Potential growth in demand for Raspberry Pi, Nvidia boards, and other edge AI hardware, though not yet substantial.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Revenue split between Robu 1.0 and Robu 2.0",
+        "Quantitative revenue or EBITDA targets for Robu 2.0",
+        "Specific revenue or order book targets for defense sector",
+        "Total addressable market (TAM) for products"
+      ],
+      "margin_drivers": [
+        "Robu 2.0 products delivering 10%+ higher gross margins",
+        "Expansion of ProRange SKUs (sensors, 3D filaments, drone components)",
+        "Defense sector engagement for drones",
+        "SmartElex modules adoption in retail and marketplaces"
+      ]
+    },
+    "Elin Electronics": {
+      "company": "Elin Electronics",
+      "ticker": "ELIN",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-03-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7515976-2329-4dc3-a3d9-cf30d65bf1a4.pdf",
+      "transcript_id": "elin-electronics_2026-03-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T21:07:49.940Z",
+      "summary": "Management expects FY27 revenue growth of 15% but is cautious on EBITDA guidance due to volatile input costs and delayed price pass-throughs, while ramping up the Bhiwadi facility with phased revenue contribution.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Expects 15% year-on-year revenue growth.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Unable to provide EBITDA guidance for FY27 due to volatile input costs; may provide update next quarter.",
+          "specificity": "refused",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Plans capex of INR 70-75 crores, split as INR 45 crores for Bhiwadi facility and INR 25-30 crores for growth of existing business.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bhiwadi facility revenue",
+          "horizon": "FY27",
+          "statement": "Expects INR 80 crores revenue from Bhiwadi in FY27 (lower than earlier INR 140 crores estimate due to delayed commissioning).",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Bhiwadi facility EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Aims for steady-state EBITDA margin of 7% for the Bhiwadi plant, achievable in the third year of operations.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bhiwadi facility ROCE",
+          "horizon": "medium-term",
+          "statement": "Targets ROCE of 20% for the Bhiwadi plant at steady-state EBITDA margins.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lighting business growth",
+          "horizon": "FY27",
+          "statement": "Expects double-digit growth in the lighting business in fiscal 2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fan business growth",
+          "horizon": "Q1FY27",
+          "statement": "Expects strong growth momentum in the fan business to continue in Q1FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export fan business",
+          "horizon": "FY27",
+          "statement": "Export business of fans restarted in May 2026; expects gradual scale-up over the year.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "Q2FY27",
+          "statement": "Expects gross margin to reach ~24% by June 2026 as price increases are fully passed on to customers.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Lighting business gross margin",
+          "horizon": "next 2-3 months",
+          "statement": "Expects lighting business gross margin to improve from ~15% to 18%-19% over the next 2-3 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Aspirational EBITDA margin",
+          "horizon": "long-term",
+          "statement": "Aspirational EBITDA margin target is 8%, with realistic target of 6%-6.5% in normal times.",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Raw material cost trends beyond June 2026",
+        "Impact of BIS norms implementation post-September 2026",
+        "Detailed breakup of revenue growth across segments beyond directional guidance"
+      ],
+      "margin_drivers": [
+        "Price pass-through to customers",
+        "Raw material cost normalization (polymers, aluminium, steel, copper)",
+        "Labor cost management (minimum wage revisions in Uttar Pradesh)",
+        "Capacity utilization improvement (existing facilities at ~77-79%)",
+        "New product launches (cooler motors, BLDC chimney motors)",
+        "Export business recovery (fans)"
+      ]
     }
   },
-  "generated_at": "2026-08-01T19:49:42.725Z",
-  "count": 1043
+  "generated_at": "2026-08-01T21:07:51.469Z",
+  "count": 1046
 }
