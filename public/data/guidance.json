@@ -101133,8 +101133,445 @@
         "Acquisition-driven growth with rapid EBITDA/PAT positive performance",
         "Reduction in receivable days and improved collections"
       ]
+    },
+    "Caplin Point Lab": {
+      "company": "Caplin Point Lab",
+      "ticker": "CAPLIPOINT",
+      "sector": "Healthcare",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.caplinpoint.net/wp-content/uploads/2025/08/Earnings-Call-Transcript_Q4.pdf",
+      "transcript_id": "caplin-point-lab_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T19:49:13.487Z",
+      "summary": "Management expects strong growth over the next 2-3 years driven by capacity expansion, new product registrations, and strategic acquisitions, with a focus on US and LATAM markets.",
+      "guidance": [
+        {
+          "metric": "Injectable capacity (USA and other regulated markets)",
+          "horizon": "next 2-3 years",
+          "statement": "Will have 17 injectable lines operational in the next 2-3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product registrations (regulated markets)",
+          "horizon": "next 3 years",
+          "statement": "Will have maximum products registered in highly regulated markets such as USA, Mexico, South Africa, Brazil, Chile, and Colombia.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D focus areas",
+          "horizon": "medium-term",
+          "statement": "Will focus more on R&D for hormone injection and inhaler areas.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Acquisition strategy",
+          "horizon": "medium-term",
+          "statement": "On the lookout for a meaningful acquisition of a facility; prioritizing ANDA acquisitions and distribution companies in LATAM.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "US business growth",
+          "horizon": "FY27",
+          "statement": "Expects 25% to 30% growth in Caplin Steriles business (US) next year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Own label revenue (US)",
+          "horizon": "FY27",
+          "statement": "Target to double own label revenue to INR 200 crores in the coming year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Product pipeline (US)",
+          "horizon": "FY27",
+          "statement": "Will launch another 15 products under own label in the coming year, with weekly ordering from top wholesalers.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity expansion (IV bag line)",
+          "horizon": "FY27",
+          "statement": "Expanding IV bag line capacity to 3x current levels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LATAM market growth",
+          "horizon": "FY27",
+          "statement": "Business in Chile will start flourishing this year and increase manifolds over time; shelf space in Central America independent pharmacies to rise from 41% to 57% with liquid manufacturing facility.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mexico market growth",
+          "horizon": "FY27",
+          "statement": "Plan to do a sale of around $4 million in the coming two quarters in Mexico; will build a factory in Mexico to leverage tender advantages.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex spending",
+          "horizon": "next 18-24 months",
+          "statement": "Balance of INR 500 crores capex to be incurred in the next 18-24 months from cash generation.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Margin outlook",
+          "horizon": "medium-term",
+          "statement": "Best is yet to come; margins to remain strong, with profitability growing ahead of revenue.",
+          "specificity": "vague",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "explicit FY27 revenue or PAT guidance",
+        "quarterly margin guidance",
+        "specific inorganic acquisition targets or timelines"
+      ],
+      "margin_drivers": [
+        "operational efficiency",
+        "operating leverage",
+        "improving business mix",
+        "scale from capacity expansion",
+        "R&D focus on complex products",
+        "automation and digitization (Video SOPs)",
+        "women empowerment-driven discipline and quality"
+      ]
+    },
+    "Emami": {
+      "company": "Emami",
+      "ticker": "EMAMILTD",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a02c3d0-97bf-4a65-9c62-3e9239f3ab5e.pdf",
+      "transcript_id": "emami_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T19:49:23.803Z",
+      "summary": "Management expects sustained growth in FY27 driven by summer brands, strategic investments, and international recovery, with margin improvement contingent on input costs.",
+      "guidance": [
+        {
+          "metric": "Summer brands (Navratna, Dermicool)",
+          "horizon": "FY27",
+          "statement": "Summer brands expected to grow at double digits in H1 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "International business",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Expect double-digit growth from Q2FY27 after stabilizing in Q1FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Strategic investments (portfolio companies)",
+          "horizon": "FY27",
+          "statement": "Portfolio companies to sustain 30% YoY growth while improving bottom line",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA from strategic investments",
+          "horizon": "FY27",
+          "statement": "Intent to increase absolute EBITDA by INR15 crores in portfolio companies",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Axiom (fruit juice brand)",
+          "horizon": "FY27",
+          "statement": "Significant growth plans with new CEO from Dabur; expects high profitability",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "IncNut (Vedix, SkinKraft)",
+          "horizon": "Next 5 years",
+          "statement": "High long-term aspiration with personalized beauty as a growth opportunity",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hair oil portfolio (Kesh King, 7 Oils in One)",
+          "horizon": "FY27",
+          "statement": "Momentum expected to continue with unorganized trade decline aiding growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Organized channels (Quick Comm, GT Marts)",
+          "horizon": "FY27",
+          "statement": "Channels to grow robustly with margins close to GT margins",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Advertising spend",
+          "horizon": "FY27",
+          "statement": "Total ad spend ~20% of sales; core brands ~14%, investee companies ~6%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Distribution reach",
+          "horizon": "Next 12-24 months",
+          "statement": "Focus on urban GT Marts and premium stores; deepening reach in 100,000+ towns",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Consolidated EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Margins to improve but pressure from input costs may limit full recovery to FY24-25 levels",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pricing",
+          "horizon": "Q4FY26",
+          "statement": "Weighted average price increase of ~3% implemented in last 1.5-2 months",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "BoroPlus growth outlook for FY27",
+        "Copra price impact on hair oil margins"
+      ],
+      "margin_drivers": [
+        "Input cost pressures (crude)",
+        "Advertising investments in new initiatives",
+        "Channel mix shift to organized/premium channels",
+        "Cost discipline and pricing actions"
+      ]
+    },
+    "Cemindia Project": {
+      "company": "Cemindia Project",
+      "ticker": "CEMPRO",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58288359-d15d-43fe-b830-1e9ebdc33047.pdf",
+      "transcript_id": "cemindia-project_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T19:49:31.629Z",
+      "summary": "Management expects strong growth in FY27 driven by robust order book and pipeline, with revenue growth of 20-25% and order inflow target of INR25,000 crores.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue should be at least 25% more than FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book inflow",
+          "horizon": "FY27",
+          "statement": "Target order book inflow of INR25,000 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin to be around 10% to 10.5% going forward",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex planned at INR350 crores to INR400 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book (work in hand)",
+          "horizon": "FY27",
+          "statement": "Work in hand position is INR29,000 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Pipeline of opportunities",
+          "horizon": "medium-term",
+          "statement": "INR70,000 crores of jobs in pipeline, including 35% to 40% from group",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Marine sector opportunities",
+          "horizon": "FY27",
+          "statement": "Opportunities in Vadhvan Port and Bangladesh",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Data center business order book",
+          "horizon": "FY27",
+          "statement": "INR3,000 crores secured from group in data center business",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Tunneling segment opportunities",
+          "horizon": "medium-term",
+          "statement": "Large diameter tunnel opportunities expected, requiring new TBMs",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Roads and highways segment opportunities",
+          "horizon": "medium-term",
+          "statement": "Opportunities in roads, highways, and tunnels, particularly elevated corridors",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Commodity price impact on margins",
+          "horizon": "FY27",
+          "statement": "30% of jobs have price agreements with pass-through clauses; escalation clauses cover some costs; new projects will account for risks in pricing",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Government payments",
+          "horizon": "FY27",
+          "statement": "Payments from central government projects are expected to be timely; some state governments may have delays",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Legacy job status",
+        "Specific details on overseas job execution timelines beyond Vadhvan Port",
+        "Mor Sagar project EPC contract award timeline"
+      ],
+      "margin_drivers": [
+        "Project execution on time and within budget",
+        "Cost monitoring and claims realization",
+        "Pass-through clauses for commodity price escalations (30% of jobs)",
+        "Escalation clauses in contracts",
+        "Release of provisions for completed metro jobs"
+      ]
+    },
+    "Premier Energies": {
+      "company": "Premier Energies",
+      "ticker": "PREMIERENE",
+      "sector": "Industrials",
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15e4b0a9-dfac-4928-83dc-c6744dc37699.pdf",
+      "transcript_id": "premier-energies_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T19:49:41.198Z",
+      "summary": "Premier Energies expects strong growth driven by expanded capacities, policy tailwinds (ALMM-2/3), and diversified clean energy portfolio, with capex of INR5,100 crore in FY27 and potential margin stability despite cost pressures.",
+      "guidance": [
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "INR5,100 crore capex planned across cells, ingot wafers, batteries, and inverters to diversify clean energy portfolio.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (cell + module)",
+          "horizon": "July 2026",
+          "statement": "Total capacity to increase nearly sevenfold to 16.75 GW by July 2026, with module capacity at 11.1 GW and cell capacity at 10.6 GW.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book conversion",
+          "horizon": "FY27",
+          "statement": "Over two-thirds of INR14,010 crore order book expected to convert to revenue in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book growth (FY27)",
+          "horizon": "FY27",
+          "statement": "Strong demand momentum expected to continue, with potential surge in DCR order intake post-ALMM-2 policy clarity.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt-to-equity ratio",
+          "horizon": "1-2 years",
+          "statement": "Target debt-to-equity ratio of ~1 and debt-to-EBITDA ratio of ~1.5 or below during capex cycle.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "US cell manufacturing JV",
+          "horizon": "medium-term",
+          "statement": "Reinitiated discussions with Heliene for US solar cell JV; evaluating opportunities in Europe and US.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Battery localization policy",
+          "horizon": "next 3-4 months",
+          "statement": "Government expected to announce battery localization policy with 2-year timeline for industry preparation.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Battery capacity addition",
+          "horizon": "FY28",
+          "statement": "Battery capacity addition to be paced due to policy timeline (FY28+) and import reliance in near term.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Module mix shift (DCR vs non-DCR)",
+          "horizon": "FY27-FY28",
+          "statement": "Favorable shift toward DCR modules and ALMM-3 policy to support industry-leading margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating leverage from scale",
+          "horizon": "FY27",
+          "statement": "Scale growth (2x-3x) to drive operating leverage, reducing fixed costs and improving procurement efficiencies.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Brownfield capex efficiency",
+          "horizon": "medium-term",
+          "statement": "Potential for 30-40% capex efficiency in brownfield expansions due to existing infrastructure and land availability.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Inverter business strategy",
+          "horizon": "next few months",
+          "statement": "Committed to inverter business; exploring JV options (e.g., SMA SGS) and other strategic partnerships.",
+          "specificity": "vague",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "Future margins (explicitly declined)",
+        "Debt-to-equity ratio beyond 1-2 years",
+        "Exact revenue/EBITDA/PAT for future periods"
+      ],
+      "margin_drivers": [
+        "Scale-driven operating leverage",
+        "DCR module mix shift",
+        "Procurement efficiencies",
+        "Automation and digital technologies",
+        "ALMM-2/3 policy tailwinds",
+        "Low-cost production platform"
+      ]
     }
   },
-  "generated_at": "2026-08-01T18:35:39.682Z",
-  "count": 1039
+  "generated_at": "2026-08-01T19:49:42.725Z",
+  "count": 1043
 }
