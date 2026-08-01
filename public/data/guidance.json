@@ -12398,110 +12398,64 @@
       "company": "Emerald Finance",
       "ticker": "538882",
       "sector": "Financial Services",
-      "concall_date": "2026-06-03",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=493107be-4708-44d8-a156-9d9a8a49656d.pdf",
-      "transcript_id": "emerald-finance_2026-06-03",
-      "provider": "mistral",
-      "generated_at": "2026-06-24T04:22:22.024Z",
-      "summary": "Management expects steady growth in digital lending and cross-sell revenues, with cautious optimism on FY27 profitability and potential cost of funds reduction post-rating upgrade.",
+      "concall_date": "2026-08-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6211e4f-4938-45ed-8322-7e093e825e04.pdf",
+      "transcript_id": "emerald-finance_2026-08-01",
+      "provider": "groq",
+      "generated_at": "2026-08-01T16:33:13.756Z",
+      "summary": "Emerald Finance expects to achieve its EPS guidance of 7 for the current year, driven by growth in its EWA business and expansion of corporate partnerships.",
       "guidance": [
         {
-          "metric": "PAT",
+          "metric": "EPS",
           "horizon": "FY27",
-          "statement": "Management expects to cross INR7 EPS in FY27, implying PAT growth from INR15.15 crores in FY26.",
+          "statement": "Expected to achieve EPS of 7",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EWA corporate onboarding",
+          "metric": "PAT growth",
           "horizon": "FY27",
-          "statement": "Management expects to add 150-200 corporates in FY27, up from ~30 per quarter previously.",
+          "statement": "Expected to grow by 66% year-on-year",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EWA active users",
-          "horizon": "FY27",
-          "statement": "Management expects to expand the EWA user base beyond the current 30,000-40,000 covered employees.",
-          "specificity": "vague",
+          "metric": "EWA revenue contribution",
+          "horizon": "medium-term",
+          "statement": "Expected to stabilize around 30-40% of consolidated revenue",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Cross-sell revenue mix",
-          "horizon": "FY27",
-          "statement": "Management expects cross-sell revenue to grow faster than EWA revenue, driven by new product additions.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Cost of funds",
-          "horizon": "near-term",
-          "statement": "Management expects a reduction in cost of funds post-rating upgrade, with updates to be shared shortly.",
-          "specificity": "vague",
+          "metric": "PAT CAGR",
+          "horizon": "next 2-3 years",
+          "statement": "Expected to stabilize around 40-50%",
+          "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "EWA disbursement run rate",
-          "horizon": "FY27",
-          "statement": "Management expects to maintain or exceed the historical growth pace in EWA disbursements, contingent on market conditions.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Gold loan syndication volume",
-          "horizon": "FY27",
-          "statement": "Management expects to scale gold loan syndication volumes through existing banking and NBFC partners.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Technology investments",
-          "horizon": "FY27",
-          "statement": "Management plans to continue investing in digital infrastructure, automation, and platform integration to improve scalability.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Strategic partnerships",
-          "horizon": "FY27",
-          "statement": "Management aims to deepen strategic partnerships across lending products and financial services categories.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EWA retention rate",
-          "horizon": "ongoing",
-          "statement": "Management highlights a 90% repeat usage rate for EWA among active users.",
+          "metric": "PAT margin",
+          "horizon": "next 5 years",
+          "statement": "Expected to be around 40-45%",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "down"
         },
         {
-          "metric": "Cross-sell penetration",
-          "horizon": "ongoing",
-          "statement": "Management notes that 85% of the employee base not using EWA is being monetized through cross-sell products.",
+          "metric": "EWA monthly run rate",
+          "horizon": "Q2FY27",
+          "statement": "Expected to grow by 20% quarter-on-quarter",
           "specificity": "specific",
           "direction": "up"
-        },
-        {
-          "metric": "Average EWA loan size",
-          "horizon": "ongoing",
-          "statement": "Management maintains a policy cap of INR1 lakh per EWA loan, with average disbursements around INR25,000.",
-          "specificity": "specific",
-          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "EWA revenue split by quarter",
-        "Exact FY27 revenue guidance",
-        "Specific disbursement volumes for gold loan syndication",
-        "Breakdown of revenue/profit by business vertical (EWA, SME loan, gold loan) at quarterly level"
+        "Capital raise plans"
       ],
       "margin_drivers": [
-        "Cross-sell revenue growth",
-        "Technology-led operational efficiencies",
-        "Prudent risk management and operational discipline",
-        "Scaling transaction volumes",
-        "Cost of funds reduction post-rating upgrade"
+        "Expansion of corporate partnerships",
+        "Growth in EWA business",
+        "Disciplined execution",
+        "Customer-centric approach"
       ]
     },
     "Chandan Healthca": {
@@ -34678,63 +34632,111 @@
     },
     "Navneet Educat.": {
       "company": "Navneet Educat.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-06-15",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f267743b-0496-41a0-874b-c366c559917e.pdf",
-      "transcript_id": "navneet-educat_2026-06-15",
-      "provider": "groq",
-      "generated_at": "2026-06-27T12:54:25.669Z",
-      "summary": "Navneet Education expects to enter a lucrative growth phase between FY27 and FY29 driven by curriculum changes in Maharashtra and Gujarat, with plans to invest in branding and expand non-paper stationery products.",
+      "ticker": "NAVNETEDUL",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-08-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8d00306-84b5-47b4-b708-383447075afe.pdf",
+      "transcript_id": "navneet-educat_2026-08-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T16:33:31.111Z",
+      "summary": "Management expects mid-single-digit revenue growth in FY27 driven by curriculum changes in Maharashtra/Gujarat and strong domestic stationery demand, offset by export headwinds.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "FY27-29",
-          "statement": "Double-digit growth expected in publication business due to curriculum changes",
-          "specificity": "vague",
+          "metric": "Publication revenue growth",
+          "horizon": "FY27",
+          "statement": "10% growth in Publication segment revenue for FY27",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Export revenue",
+          "metric": "Stationery revenue growth",
           "horizon": "FY27",
-          "statement": "Export revenues expected to get back on track",
-          "specificity": "vague",
-          "direction": "up"
+          "statement": "Domestic Stationery to grow 15%-17% while overall Stationery segment to decline 5%",
+          "specificity": "specific",
+          "direction": "mixed"
         },
         {
-          "metric": "EBITDA margin",
+          "metric": "Publication EBITDA margin",
           "horizon": "FY27",
-          "statement": "Around 9% margin expected in the current year post brand expenses",
+          "statement": "Publication EBITDA margin to be around 26%-27%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Stationery EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Stationery EBITDA margin to average 8%-10%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export Stationery revenue",
+          "horizon": "FY27",
+          "statement": "Export Stationery to decline 5% in FY27 due to global demand weakness",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "EBITDA margin",
-          "horizon": "FY28",
-          "statement": "Around 9.5% to 10% margin expected in the subsequent year",
+          "metric": "Domestic Stationery growth driver",
+          "horizon": "medium-term",
+          "statement": "Non-paper Stationery to reach 10%-15% of Domestic Stationery revenue within 3 years",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Export revenue growth",
-          "horizon": "Next 3-4 years",
-          "statement": "15% growth expected in exports revenue, with a conservative discount of 5-7% due to inflation",
+          "metric": "Polymer plant utilization",
+          "horizon": "FY27",
+          "statement": "Polymer plant utilization expected to normalize in FY27 as export demand recovers",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Curriculum change impact",
+          "horizon": "FY27",
+          "statement": "Curriculum changes in Maharashtra/Gujarat to drive growth in Publication segment",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CBSE school transition",
+          "horizon": "medium-term",
+          "statement": "Over 15% year-on-year growth in schools transitioning to CBSE curriculum",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Publishing segment revenue",
-          "horizon": "FY27-29",
-          "statement": "15% growth expected in the first two years due to curriculum changes",
+          "metric": "Q2 FY27 Publication revenue",
+          "horizon": "Q2 FY27",
+          "statement": "Publication revenue in Q2 FY27 to exceed Rs. 130 crores (vs Rs. 91 crores in Q2 FY26)",
           "specificity": "specific",
           "direction": "up"
+        },
+        {
+          "metric": "Tariff refund impact",
+          "horizon": "FY27",
+          "statement": "No clarity on tariff refunds from US customers despite withdrawal of tariffs",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Paper price trend",
+          "horizon": "FY27",
+          "statement": "Paper prices increased by Rs. 2000/ton since April with limited further upside due to market conditions",
+          "specificity": "specific",
+          "direction": "flat"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "Bifurcation of Publication revenue between schools and workbooks",
+        "Exact revenue loss in Q1 FY27 due to curriculum change delays",
+        "Breakup of Domestic Stationery growth between price and volume"
+      ],
       "margin_drivers": [
-        "Brand investments",
-        "Expansion of non-paper stationery products",
-        "Curriculum changes in Maharashtra and Gujarat"
+        "Curriculum changes in Maharashtra/Gujarat",
+        "Domestic Stationery growth and non-paper portfolio expansion",
+        "Publication segment's high-margin textbook business",
+        "Branding investments in Domestic Stationery",
+        "Export demand recovery and polymer plant utilization normalization"
       ]
     },
     "Paramount Comm.": {
@@ -45503,65 +45505,110 @@
     },
     "Neogen Chemicals": {
       "company": "Neogen Chemicals",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4d82584-1599-424d-9a30-fcb41c2d752d.pdf",
-      "transcript_id": "neogen-chemicals_2026-05-01",
-      "provider": "groq",
-      "generated_at": "2026-06-28T23:45:10.148Z",
-      "summary": "Neogen Chemicals expects significant growth in FY27 driven by its battery materials business and improving demand visibility across core products.",
+      "ticker": "NEOGEN",
+      "sector": "Commodities",
+      "concall_date": "2026-08-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf8daf77-7548-48c1-85f3-bfa75a3d9126.pdf",
+      "transcript_id": "neogen-chemicals_2026-08-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T16:33:41.058Z",
+      "summary": "Neogen Chemicals expects strong growth driven by battery materials and legacy chemicals, with revenue guidance raised to INR 950-1,050 crore for FY27 and long-term battery chemicals revenue potential of INR 2,500-3,000 crore by FY29.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Expected to be in the range of INR 875 to INR 950 crore on a standalone basis",
+          "statement": "Revised standalone revenue guidance raised to INR 950-1,050 crore from INR 875 crore.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Neogen Ionics revenue",
+          "metric": "Battery chemicals revenue",
           "horizon": "FY27",
-          "statement": "Expected to be INR 300 crore plus",
+          "statement": "Battery chemicals revenue guidance of INR 300 crore, with INR 200 crore from salts and INR 100 crore from electrolytes.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Dahej Phase 1 project completion",
-          "horizon": "February 2027",
-          "statement": "Expected to be completed by February 2027",
+          "metric": "Battery chemicals revenue",
+          "horizon": "FY29",
+          "statement": "Full utilization revenue potential of INR 2,400-2,900 crore for battery chemicals, achievable by FY29.",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Pakhajan Phase 2 completion",
-          "horizon": "March 2027",
-          "statement": "Expected to be completed by March 2027",
-          "specificity": "specific",
-          "direction": "flat"
+          "metric": "Battery chemicals revenue mix",
+          "horizon": "5 years",
+          "statement": "Battery chemicals could contribute 50-60% of total revenue in 5 years.",
+          "specificity": "vague",
+          "direction": "unclear"
         },
         {
-          "metric": "Electrolyte commercial manufacturing",
+          "metric": "Dahej replacement plant",
+          "horizon": "Q2 FY27",
+          "statement": "Commercial production at Dahej replacement plant to commence in Q2 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Neogen Ionics capacity",
           "horizon": "H1 FY27",
-          "statement": "Targeted for H1 FY27",
+          "statement": "Electrolyte plant commissioning targeted for H1 FY27.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Electrolyte salts commercial manufacturing",
+          "metric": "Neogen Ionics capacity",
           "horizon": "H2 FY27",
-          "statement": "Expected in H2 FY27",
+          "statement": "Lithium electrolyte salts production targeted for H2 FY27.",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pakhajan plant",
+          "horizon": "H2 FY27",
+          "statement": "Pakhajan plant expected to come online in H2 FY27, with efforts to complete by Q3 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "QIP fundraise",
+          "horizon": "FY27",
+          "statement": "INR 600 crore QIP approved for debt reduction and future growth opportunities.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Finance cost reduction",
+          "horizon": "FY27",
+          "statement": "Full INR 600 crore QIP repayment could reduce finance cost by INR 40-50 crore annually.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Legacy business revenue",
+          "horizon": "FY27",
+          "statement": "Legacy business revenue guidance increased due to strong demand in organo-lithium and inorganic chemicals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Insurance recoveries",
+          "horizon": "FY27",
+          "statement": "Additional insurance recoveries expected, including loss on profit claims.",
+          "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "Battery PLI scheme details (quantitative incentives, CAPEX/OPEX linkage)",
+        "Specific timeline for next phase of R&D investments",
+        "Detailed breakdown of legacy business volume growth beyond Q1 FY27"
+      ],
       "margin_drivers": [
-        "Strategic pass-through mechanism",
-        "Improving customer relationships",
-        "Technological capabilities",
-        "Niche product offerings",
-        "Insurance recoveries"
+        "Cost pass-through mechanisms for raw materials and utilities",
+        "Operational leverage from Dahej replacement plant and Neogen Ionics scale-up",
+        "Insurance recoveries",
+        "Debt reduction via QIP fundraise"
       ]
     },
     "South Ind.Bank": {
@@ -63395,57 +63442,99 @@
       "company": "Hester Bios",
       "ticker": "HESTERBIO",
       "sector": "Healthcare",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=968280a5-8310-45d2-b96a-6215b1450eb9.pdf",
-      "transcript_id": "hester-bios_2026-05-01",
-      "provider": "groq",
-      "generated_at": "2026-07-03T20:02:33.233Z",
-      "summary": "Hester Biosciences expects to sustain its current growth trend, driven by its focus on biologicals and vaccine business, with a strategic priority on strengthening its portfolio and expanding market penetration.",
+      "concall_date": "2026-08-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c74d406-d25d-44cc-8440-7aa8af888933.pdf",
+      "transcript_id": "hester-bios_2026-08-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-01T16:33:22.877Z",
+      "summary": "Management expects sustainable long-term growth driven by portfolio expansion, operational discipline, and R&D investments, though near-term volatility in international markets persists.",
       "guidance": [
         {
-          "metric": "Revenue mix",
-          "horizon": "Medium-term",
-          "statement": "Aim for a 50:50 revenue mix between Poultry Healthcare and Animal Healthcare divisions",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Animal Healthcare revenue",
+          "metric": "Revenue growth (Poultry Healthcare Division)",
           "horizon": "FY27",
-          "statement": "Expect a pickup in Animal Healthcare business",
-          "specificity": "vague",
+          "statement": "Poultry Healthcare Division delivered 48% growth in Q1 FY27, supported by institutional business, market penetration, and new product portfolio traction.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Poultry Healthcare revenue",
+          "metric": "Gross margin",
           "horizon": "FY27",
-          "statement": "Aim to continue the current trend of INR 65 crores quarterly revenue with 30% margins",
-          "specificity": "vague",
-          "direction": "flat"
+          "statement": "Gross margins improved to 78% in Q1 FY27 due to favorable product mix and operational efficiencies, with continued focus on margin improvement.",
+          "specificity": "specific",
+          "direction": "up"
         },
         {
-          "metric": "Debt to equity ratio",
-          "horizon": "Going forward",
-          "statement": "Comfortable with the current debt to equity ratio of 0.19 times",
+          "metric": "EBITDA growth",
+          "horizon": "FY27",
+          "statement": "EBITDA grew by 95% in Q1 FY27, reflecting stronger operating performance and disciplined execution.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "PAT growth",
+          "horizon": "FY27",
+          "statement": "PAT increased by 88% in Q1 FY27, driven by standalone growth and exceptional accounting gains in Africa operations.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "R&D pipeline progress",
+          "horizon": "medium-term",
+          "statement": "Regulatory dossiers submitted in animal health segment, reflecting continued investment in expanding biological pipeline.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "International operations (Africa & Nepal)",
+          "horizon": "medium-term",
+          "statement": "Strategic direction remains unchanged; investments in registration, market development, and commercial presence to support sustainable long-term growth.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "FY27",
+          "statement": "Current capacity utilization is around 60-65%, with potential for expansion without new capacity additions.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Capex",
-          "horizon": "Medium-term",
-          "statement": "May require additional capex to comply with evolving regulatory requirements",
+          "metric": "BSL3 facility utilization",
+          "horizon": "FY27",
+          "statement": "BSL3 facility is expected to be fully utilized for veterinary products in the pipeline, though no specific utilization percentage provided.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pet care business (vaccines)",
+          "horizon": "medium-term",
+          "statement": "Gradual expansion of pet division portfolio; regulatory timelines and demands are stringent, with no specific launch timeline provided.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Government tender business (Animal Healthcare Division)",
+          "horizon": "FY27",
+          "statement": "Timing-related delays in government-led immunization programs (e.g., PPR eradication, Lumpy Skin Disease Control) are expected to normalize in subsequent quarters.",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Breakup of local and international sales in Africa",
-        "Specific numbers for receivables reduction"
+        "Avian influenza vaccine import policy and regulatory pathway",
+        "Impact of culling operations compensation delays on industry",
+        "Specific timeline for Africa operations profitability",
+        "Directional guidance on Africa operations demand scenario",
+        "Capacity utilization percentage for BSL3 facility",
+        "Pet care vaccine launch timeline",
+        "Human vaccine vertical repurposing timeline"
       ],
       "margin_drivers": [
-        "Product mix",
-        "Operational discipline",
-        "Capacity utilization"
+        "Favorable product mix",
+        "Operational efficiencies",
+        "Deeper market penetration in poultry segment",
+        "New product portfolio (feed supplements, disinfectant solutions, health products)",
+        "BSL3 facility for high-value products"
       ]
     },
     "MTAR Technologie": {
@@ -65122,109 +65211,108 @@
       "company": "Zen Technologies",
       "ticker": "ZENTEC",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48eebac2-93bf-420d-8b1a-57f4fbc44c32.pdf",
-      "transcript_id": "zen-technologies_2026-05-01",
+      "concall_date": "2026-07-31",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18f85d0f-0dc1-46fa-afab-316fab4fc70e.pdf",
+      "transcript_id": "zen-technologies_2026-07-31",
       "provider": "mistral",
-      "generated_at": "2026-07-04T01:14:13.480Z",
-      "summary": "Strong growth outlook driven by anti-drone systems, simulators, and new products like UGV and ammunition, with FY27 revenue guidance of Rs.4,000 crore and export potential.",
+      "generated_at": "2026-08-01T16:34:08.561Z",
+      "summary": "Zen Technologies expects strong order inflows and revenue growth in FY27-FY28 driven by defense simulator and anti-drone demand, with mid-30s EBITDA margins by FY27 end.",
       "guidance": [
-        {
-          "metric": "Revenue",
-          "horizon": "FY27-FY28",
-          "statement": "Cumulative revenue guidance of Rs.4,000 crore for FY27 and FY28 combined.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Majority of Rs.1,000 crore order book (out of Rs.1,336 crore) expected to convert into revenue in Q2 and Q3 of FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
         {
           "metric": "Order book",
           "horizon": "FY27",
-          "statement": "Order book expected to touch Rs.3,000 crore at some point during FY27 to support revenue guidance.",
+          "statement": "Expect order book to reach ~Rs.2500 Crores by end of FY27 after current year execution.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Anti-drone systems demand",
-          "horizon": "Medium-term",
-          "statement": "Demand for anti-drone systems has exceeded expectations by 2x minimum, with focus shifting to hard kill options and AI-native products.",
+          "metric": "Revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Target cumulative revenue of Rs.4000 Crores for FY27 and FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Simulator revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Expect simulator revenue to contribute ~Rs.2000 Crores out of the Rs.4000 Crores target.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Expect full-year operational EBITDA margin in the mid-30s by FY27 end.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Anti-drone orders",
+          "horizon": "FY27",
+          "statement": "Expect significant anti-drone system orders from Indian government and allied nations.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "New product launches",
+          "metric": "Simulator orders",
           "horizon": "FY27",
-          "statement": "Commercial launch of Vrishabh UGV in FY27 with capacity to produce 5,000 units/month initially, scalable to 15,000 units/month.",
+          "statement": "Expect additional simulator orders including a large order expected in the next few months.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "US market revenue",
+          "horizon": "FY28-FY29",
+          "statement": "Expect modest US market revenue of ~$100 million by third year, with potential for larger breakthroughs.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "HyperStrike interceptor drone",
-          "horizon": "FY27",
-          "statement": "Production of HyperStrike interceptor drone to commence in FY27 with initial capacity of 5,000 units/month, scalable to 15,000 units/month.",
+          "horizon": "FY28",
+          "statement": "On track to deliver HyperStrike interceptor drone by FY28.",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export orders",
-          "horizon": "Medium-term",
-          "statement": "Export orders expected to play a major role, particularly in simulators and anti-drone systems, with products ranked in top 3 globally.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Operational EBITDA margin",
-          "horizon": "Long-term",
-          "statement": "Long-term guidance of 35% operational EBITDA margin remains intact despite short-term margin compression.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "PAT margin",
-          "horizon": "Long-term",
-          "statement": "Long-term guidance of 25% PAT margin remains intact despite short-term margin compression.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "R&D investment",
-          "horizon": "FY27",
-          "statement": "Higher R&D investments expected to continue, reflecting structural commitment to future product portfolio.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "IDDM policy impact",
-          "horizon": "2026 onwards",
-          "statement": "Government's IDDM policy expected to favor indigenously designed, developed, and manufactured products, benefiting private innovators.",
-          "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Ammunition segment contribution",
-          "horizon": "FY28 onwards",
-          "statement": "Ammunition segment (30-mm RF-based) expected to contribute meaningfully to revenues from FY28 onwards.",
+          "metric": "Naval simulator market",
+          "horizon": "medium-term",
+          "statement": "Naval simulators represent a very large and growing market for the company.",
           "specificity": "vague",
           "direction": "up"
+        },
+        {
+          "metric": "Air Force simulator market",
+          "horizon": "medium-term",
+          "statement": "Expect demand for Air Force simulators to grow significantly.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital cycle",
+          "horizon": "FY27",
+          "statement": "Working capital cycle expected to normalize as revenue scales and execution progresses.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "R&D and warranty costs",
+          "horizon": "FY27",
+          "statement": "Incremental R&D and warranty provisions expected to stabilize as business scales.",
+          "specificity": "vague",
+          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "Exact timing of export order flows",
-        "Breakdown of revenue contribution by new vs. legacy products in FY27",
-        "Specific order book targets for FY27 beyond Rs.3,000 crore"
+        "TAM for high-altitude anti-drone systems",
+        "Specific revenue breakdown for Navy vs. Air Force simulators"
       ],
       "margin_drivers": [
-        "AI integration in products",
-        "Indigenization of components (e.g., radar, propulsion systems)",
-        "Shift to higher-margin products (anti-drone systems, simulators)",
-        "Scale benefits from new product launches (UGV, HyperStrike)",
-        "Export market expansion"
+        "Operating leverage from revenue growth",
+        "Fixed cost absorption",
+        "Gross margin stability (~73%)",
+        "Warranty provisions",
+        "R&D investments"
       ]
     },
     "KRN Heat Exchan": {
@@ -68966,108 +69054,110 @@
       "company": "Dodla Dairy",
       "ticker": "DODLA",
       "sector": "Fast Moving Consumer Goods",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9abfa99-42ee-4a44-8800-cd8f9872134e.pdf",
-      "transcript_id": "dodla-dairy_2026-05-01",
+      "concall_date": "2026-08-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7df67175-f0e7-40c3-9298-11beff97a81a.pdf",
+      "transcript_id": "dodla-dairy_2026-08-01",
       "provider": "mistral",
-      "generated_at": "2026-07-04T19:52:12.285Z",
-      "summary": "Dodla Dairy expects low-to-mid teens revenue growth in FY27 with gradual margin recovery, supported by Africa expansion, India organic growth, and OSAM contributions.",
+      "generated_at": "2026-08-01T16:33:50.153Z",
+      "summary": "Management expects gradual margin recovery from Q2 FY27 onwards, driven by price hikes and procurement cost normalization, while maintaining long-term EBITDA margin targets of 7-8%.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Low to mid-teens revenue growth",
+          "statement": "Gradual recovery in EBITDA margins from Q2 FY27 onwards, targeting 7-8% for the year",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Gradual gross margin recovery of 50 to 100 basis points over FY26 levels",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "PAT margin",
-          "horizon": "FY27",
-          "statement": "Effective tax rate to return to 25-27% range post completion of favorable tax orders",
+          "horizon": "2-3 years",
+          "statement": "Confident of maintaining similar profit margins (7-8%) over the next 2-3 years",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Africa revenue contribution",
-          "horizon": "FY28",
-          "statement": "Africa scaling towards 15-18% of consolidated revenue by FY28",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "VAP contribution",
-          "horizon": "medium-term",
-          "statement": "Targeting VAP contribution of 32-34%",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Maharashtra project",
-          "horizon": "FY27",
-          "statement": "Expected to start commercial operations by end of FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Uganda expansion capex",
-          "horizon": "by 2029",
-          "statement": "Total capex budgeted at INR60 crores, to be executed in phases and completed by year-end 2029",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "OSAM margins",
-          "horizon": "6-12 months",
-          "statement": "OSAM margins expected to converge to overall company margins within 6-12 months",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "India organic growth",
-          "horizon": "FY27",
-          "statement": "8-9% organic growth in India business",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Milk procurement cost normalization",
-          "horizon": "Q1FY27",
-          "statement": "Milk supply improving, leading to normalization of procurement costs",
+          "metric": "Procurement cost",
+          "horizon": "Q2 FY27",
+          "statement": "Expect procurement costs to normalize in Q2 FY27 due to improved milk supply",
           "specificity": "vague",
           "direction": "down"
         },
         {
           "metric": "Price hikes",
-          "horizon": "near term",
-          "statement": "Some price hikes will be considered to pass on elevated procurement costs",
+          "horizon": "Q2-Q3 FY27",
+          "statement": "Additional price hikes of 2-2.5% expected in ongoing quarter (Q2 FY27), cumulative 4-5% for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Volume growth expected at 8-10% for India, with price hikes adding to value growth",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Milk realization price",
+          "horizon": "FY27",
+          "statement": "Average price increase of 1.4% in Dodla (standalone) and 4% in Africa for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Africa business margins",
+          "horizon": "FY27",
+          "statement": "Confident in achieving robust and consistent revenue growth with steady margin improvement in Africa",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Margin recovery to mean",
-          "horizon": "FY28",
-          "statement": "Margins expected to revert to mean by FY28",
+          "metric": "Orgafeed profitability",
+          "horizon": "Q2 FY27",
+          "statement": "Sequential recovery in Orgafeed EBITDA margin expected in Q2 FY27",
           "specificity": "vague",
           "direction": "up"
+        },
+        {
+          "metric": "OSAM profitability",
+          "horizon": "medium-term",
+          "statement": "Gradual improvement in OSAM profitability as operational efficiencies are enhanced",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Maharashtra Greenfield project",
+          "horizon": "FY27",
+          "statement": "Project progressing as per plan with timelines for commercial operations intact",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Chandel plant utilization",
+          "horizon": "medium-term",
+          "statement": "Evaluating optimal utilization of Chandel plant, including possibility of shifting flavored milk production to serve Bihar and Jharkhand markets",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Ice cream capacity expansion",
+          "horizon": "medium-term",
+          "statement": "No plans for major ice cream expansion currently; decision to be revisited based on current year performance",
+          "specificity": "vague",
+          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "steady-state margin in current environment",
-        "specific capex breakup for FY27"
+        "Structural margin reset assessment",
+        "Tax benefit details for goodwill impairment",
+        "Detailed breakdown of competitor price hikes by product/region"
       ],
       "margin_drivers": [
-        "procurement cost normalization",
-        "pricing actions",
-        "VAP mix improvement",
-        "Africa profitability scaling",
-        "OSAM operational efficiencies"
+        "Gradual passing on of procurement cost increases to consumers",
+        "Seasonal normalization of procurement costs in Q2 FY27",
+        "Operational efficiencies in OSAM and Africa businesses",
+        "Product mix shift towards higher-margin value-added products",
+        "Price hikes in milk and ghee segments",
+        "Reduction in bulk sales reliance"
       ]
     },
     "Assoc.Alcohols": {
@@ -76502,110 +76592,111 @@
       "company": "Shakti Pumps",
       "ticker": "SHAKTIPUMP",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be28e4e9-7623-41f5-874d-7ae67ed0bb3f.pdf",
-      "transcript_id": "shakti-pumps_2026-05-01",
+      "concall_date": "2026-08-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f4db375-f0c2-4bd1-b070-a2629d661d66.pdf",
+      "transcript_id": "shakti-pumps_2026-08-01",
       "provider": "mistral",
-      "generated_at": "2026-07-06T14:35:01.428Z",
-      "summary": "Management expects sustainable growth driven by KUSUM 2.0 rollout, export expansion, and new segments like rooftop solar and EV components, while margins are seen improving as raw material prices normalize.",
+      "generated_at": "2026-08-01T16:33:59.112Z",
+      "summary": "Management expects strong growth momentum driven by PM-KUSUM 2.0, capacity expansions, and diversification into rooftop solar and exports, targeting INR5,000 crore revenue by FY29.",
       "guidance": [
         {
           "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Management expects year-on-year growth without specifying a number, citing strong order book and policy momentum.",
-          "specificity": "vague",
+          "horizon": "FY29",
+          "statement": "Targeting to become a INR5,000 crore company over the next three years through capacity expansions and diversification.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Margins expected to improve as geopolitical-driven raw material inflation normalizes, though no specific target provided.",
+          "metric": "Revenue split",
+          "horizon": "FY29",
+          "statement": "All segments (solar pumps, rooftop, exports, motors) expected to contribute to growth; no specific revenue split provided.",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Raw material prices",
-          "horizon": "FY27",
-          "statement": "6% to 7% impact from inflated metal prices expected to normalize going forward.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Magel Tyala realization impact",
-          "horizon": "FY27",
-          "statement": "3% to 4% impact on realizations from Magel Tyala tenders noted as a past impact.",
-          "specificity": "specific",
           "direction": "unclear"
         },
         {
+          "metric": "EBITDA margin",
+          "horizon": "FY28",
+          "statement": "Expected to improve gradually as raw material prices ease and KUSUM 2.0 launches; no specific target given.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin impact from backward integration",
+          "horizon": "Post FY27",
+          "statement": "Expected 3% expansion in EBITDA margins after full capacity (2.2 GW) is commissioned.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Rooftop solar business margins",
+          "horizon": "Post FY27",
+          "statement": "Targeting around 15% EBITDA margins for rooftop business after integrating solar panels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
           "metric": "Order book execution",
-          "horizon": "Q1FY27-Q2FY27",
-          "statement": "Current order book of INR 1,500 crores sufficient for next two quarters; KUSUM 2.0 expected to start in Q2FY27.",
+          "horizon": "Q2FY27-Q3FY27",
+          "statement": "Current INR1,000 crore order book can be comfortably executed over the next two quarters.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "KUSUM 2.0 rollout",
-          "horizon": "Q2FY27",
-          "statement": "KUSUM 2.0 expected to roll out by end of Q1FY27 with orders starting in Q2FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Solar pump installations",
-          "horizon": "FY27",
-          "statement": "Target for FY27 to be assessed based on KUSUM 2.0 and tender materialization, with quarterly updates.",
+          "metric": "PM-KUSUM 2.0 launch",
+          "horizon": "Q3FY27-Q4FY27",
+          "statement": "Scheme expected to be announced soon; management optimistic about big opportunity.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Solar rooftop business",
-          "horizon": "FY27",
-          "statement": "FY27 expected to be a good year for rooftop solar, with EBITDA margins around 15% once scaled.",
+          "metric": "DCR module facility completion",
+          "horizon": "September 2026",
+          "statement": "0.5 GW DCR module facility to be completed by September 2026.",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Export growth",
-          "horizon": "FY27",
-          "statement": "Exports expected to grow despite geopolitical challenges, with focus on Europe and emerging markets.",
+          "metric": "Integrated DCR cell and module project",
+          "horizon": "September 2027",
+          "statement": "2.2 GW integrated DCR cell and module project aimed for completion by September 2027.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Export market growth",
+          "horizon": "Medium-term",
+          "statement": "Negotiations ongoing with multiple African countries post successful Uganda pilot; Middle East opportunity emerging for high-HP solar pumps.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Capex for solar cell/module capacity",
-          "horizon": "Q2FY27-March 2028",
-          "statement": "0.5 GW solar cell/module capacity expected from Q2FY27; 2.2 GW solar cell capacity targeted by March 2028.",
-          "specificity": "specific",
-          "direction": "up"
+          "metric": "Raw material cost impact",
+          "horizon": "Q2FY27-Q3FY27",
+          "statement": "Geopolitical situation continues to impact raw material prices; expected to ease gradually.",
+          "specificity": "vague",
+          "direction": "down"
         },
         {
-          "metric": "EV motor/controller business",
-          "horizon": "next 6-12 months",
-          "statement": "Breakthroughs expected in EV motor/controller business with vehicle-level trials underway; revenue to start in next 6-12 months.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export margins",
-          "horizon": "FY27",
-          "statement": "Export margins expected to be around 10% higher than domestic margins.",
-          "specificity": "specific",
+          "metric": "EV business momentum",
+          "horizon": "Medium-term",
+          "statement": "Currently in trial order phase; expected to gain meaningful momentum over coming periods.",
+          "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "specific revenue or PAT targets for FY27",
-        "exact margin percentage for FY27",
-        "detailed breakdown of order book by state beyond current INR 1,500 crores"
+        "Blended company-wide EBITDA target for three years",
+        "Individual business revenue split for FY29",
+        "Specific timeline for PM-KUSUM 2.0 order inflow",
+        "Detailed margin trajectory beyond directional improvement"
       ],
       "margin_drivers": [
-        "normalization of raw material prices (copper, stainless steel, silicone sheets)",
-        "diversified order book reducing state-specific margin pressure",
-        "export margins higher than domestic",
-        "operating leverage from revenue growth",
-        "Magel Tyala realization impact (3-4%)",
-        "solar rooftop margins (~15% EBITDA)"
+        "Raw material cost stabilization",
+        "Backward integration (solar panels, cells)",
+        "PM-KUSUM 2.0 scheme launch",
+        "Geopolitical situation easing",
+        "Scaling rooftop solar business",
+        "Export market expansion"
       ]
     },
     "Matrix Geo Sol.": {
@@ -100192,6 +100283,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-01T15:14:11.319Z",
+  "generated_at": "2026-08-01T16:34:23.536Z",
   "count": 1031
 }
