@@ -102084,8 +102084,63 @@
         "digital capabilities investment",
         "asset quality improvement"
       ]
+    },
+    "GAIL (India)": {
+      "company": "GAIL (India)",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-02-01",
+      "transcript_url": "https://www.gailonline.com/pdf/InvestorsZone/GAIL_Earnings_Call_Q3_FY_26.pdf",
+      "transcript_id": "gail-india_2026-02-01",
+      "provider": "groq",
+      "generated_at": "2026-08-02T06:43:20.933Z",
+      "summary": "GAIL expects to achieve a marketing margin of Rs. 4,000 crores at PBT level from the gas marketing segment in FY26 and also in FY27, with gas transmission volume expected to reach 134-135 MMSCMD in FY27.",
+      "guidance": [
+        {
+          "metric": "Gas Transmission Volume",
+          "horizon": "FY27",
+          "statement": "Expected to reach 134-135 MMSCMD",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Marketing Margin",
+          "horizon": "FY26 and FY27",
+          "statement": "Expected to be around Rs. 4,000 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "LNG Portfolio",
+          "horizon": "By 2030",
+          "statement": "Expected to increase by 6-7 MMTPA from current level",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fertilizer Project CAPEX",
+          "horizon": "Next 3 years",
+          "statement": "Expected to be around Rs. 21,000 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Fertilizer Project IRR",
+          "horizon": "Long-term",
+          "statement": "Expected to be around 12% equity IRR",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [],
+      "margin_drivers": [
+        "Optimization measures",
+        "Cost optimization",
+        "Improvement in efficiency",
+        "Increase in polymer prices"
+      ]
     }
   },
-  "generated_at": "2026-08-02T03:47:13.433Z",
-  "count": 1049
+  "generated_at": "2026-08-02T06:43:22.455Z",
+  "count": 1050
 }
