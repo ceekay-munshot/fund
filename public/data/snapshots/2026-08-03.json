@@ -1,9 +1,9 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-02T18:44:44.397Z",
+  "generated_at": "2026-08-02T20:08:49.049Z",
   "totals": {
-    "sightings": 3341,
-    "companies": 1012,
+    "sightings": 3342,
+    "companies": 1013,
     "active_funds": 52
   },
   "per_fund": [
@@ -704,8 +704,8 @@
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
-      "sighting_count": 183,
-      "company_count": 138,
+      "sighting_count": 184,
+      "company_count": 139,
       "companies": [
         "ADF Foods",
         "AIA Engineering",
@@ -742,6 +742,7 @@
         "Crizac",
         "DCM Shriram",
         "DDev Plastiks",
+        "Dalmia BharatLtd",
         "Danish Power",
         "Dilip Buildcon",
         "Dishman Carbogen",
@@ -2611,7 +2612,19 @@
       "sector": "Diversified",
       "sighting_count": 2,
       "company_count": 1
+    },
+    {
+      "sector": "Unknown",
+      "sighting_count": 1,
+      "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Dalmia BharatLtd",
+      "sector": "Unknown",
+      "concall_date": "2026-05-01"
+    }
+  ]
 }
