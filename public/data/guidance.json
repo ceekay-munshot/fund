@@ -102139,8 +102139,118 @@
         "Improvement in efficiency",
         "Increase in polymer prices"
       ]
+    },
+    "M & M Fin. Serv.": {
+      "company": "M & M Fin. Serv.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-04-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fba23c5-c629-4d96-86ea-632f44735f97.pdf",
+      "transcript_id": "m-m-fin-serv_2026-04-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-02T13:51:40.782Z",
+      "summary": "Management expects steady growth and margin improvement in FY27, driven by digital adoption, product diversification, and calibrated risk management, while maintaining strong asset quality and liquidity buffers.",
+      "guidance": [
+        {
+          "metric": "AUM growth",
+          "horizon": "FY27",
+          "statement": "Aiming for mid-teen growth, leveraging momentum from H2FY26 and diversified product mix including tractor, used vehicles, passenger vehicles, CV, SME, and mortgage segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "SME business growth",
+          "horizon": "FY27",
+          "statement": "Planning to grow SME disbursements in the 30-40% range, with book size at ~INR 8,000 crores and focus on micro/small segments and secured lending.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "NIM (Net Interest Margin)",
+          "horizon": "medium-term",
+          "statement": "Structural improvements in fee-based income (up 30 bps YoY) and cost of funds management to support NIM stability around 7.1% with potential for slight improvement.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY27",
+          "statement": "Expecting credit cost to remain in the 1.3-1.7% range, with overlays used for prudence rather than reflecting visible stress.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "RoA (Return on Assets)",
+          "horizon": "FY27",
+          "statement": "Targeting steady progress on growth and margin aspirations, with RoA expected to benefit from NIM expansion and disciplined risk management.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Digital adoption and AI integration",
+          "horizon": "FY27",
+          "statement": "Continuing to leverage digital and AI capabilities (e.g., 100% live lending stack, 40% STP improvement, 25% early collections improvement) for operational efficiency and customer experience.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cross-sell (PPC - Products Per Customer)",
+          "horizon": "FY27",
+          "statement": "Aiming to leverage a 24 lakh live customer base and 1.3 crore data-rich customers to increase PPC from 2.4, with potential for further growth as consent-based cross-selling expands.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mortgage business growth",
+          "horizon": "FY27",
+          "statement": "Mortgage business (MRHFL) momentum expected to continue, with asset quality at 2.4% and growth contributing to diversified revenue streams.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "CV (Commercial Vehicle) business",
+          "horizon": "FY27",
+          "statement": "CV growth to be calibrated, focusing on used CV and co-lending with banks, avoiding volatile segments and fleet operators with low ROA attractiveness.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Cost of funds",
+          "horizon": "Q1FY27",
+          "statement": "Incremental cost of funds expected to remain elevated due to macro uncertainty, with no clear reset yet; portfolio mix (PSL, securitization, EBLR-linked loans) to mitigate impact.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Asset quality (GS2+GS3)",
+          "horizon": "FY27",
+          "statement": "GS2+GS3 expected to remain range-bound, with management emphasizing disciplined risk framework and proactive overlays to maintain asset quality resilience.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Liquidity buffer",
+          "horizon": "FY27",
+          "statement": "Strengthening liquidity chest further to ensure resilience against macroeconomic volatility and stress scenarios.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "explicit FY27 PAT or revenue growth targets",
+        "specific AUM growth numbers for Q1FY27",
+        "granular OPEX breakdown (acquisition vs. collections)",
+        "mortgage business structure (standalone vs. HFC subsidiary) decision timeline"
+      ],
+      "margin_drivers": [
+        "fee-based income contribution (structural increase of 30 bps YoY)",
+        "portfolio rebalancing (tractor, used vehicles, passenger vehicles)",
+        "cost of funds management (prudent treasury operations)",
+        "digital and AI adoption (operational efficiency, collections, STP)",
+        "credit cost discipline (1.3-1.7% range)"
+      ]
     }
   },
-  "generated_at": "2026-08-02T12:12:04.660Z",
-  "count": 1050
+  "generated_at": "2026-08-02T13:51:44.666Z",
+  "count": 1051
 }
