@@ -40683,112 +40683,110 @@
     },
     "NTPC": {
       "company": "NTPC",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-27",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2a690dd-c88b-4131-ae93-58eace85d36c.pdf",
-      "transcript_id": "ntpc_2026-05-27",
+      "ticker": "NTPC",
+      "sector": "Utilities",
+      "concall_date": "2026-08-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e33897c7-dc88-4321-8509-24d5a43a21d1.pdf",
+      "transcript_id": "ntpc_2026-08-02",
       "provider": "mistral",
-      "generated_at": "2026-06-28T06:00:24.711Z",
-      "summary": "NTPC expects strong medium-term growth driven by diversified energy portfolio expansion, grid stability investments, and rising power demand.",
+      "generated_at": "2026-08-02T16:32:04.726Z",
+      "summary": "NTPC expects strong growth driven by rising electricity demand, aggressive capacity expansion in renewables, storage, and nuclear, with INR 17 lakh crore capex over FY26-FY37.",
       "guidance": [
         {
-          "metric": "Capacity addition",
+          "metric": "Capacity addition target",
           "horizon": "FY27",
-          "statement": "Planning ~9,557 MW capacity addition, including 1,070 MW thermal, 250 MW hydro, and 8,237 MW renewable (176 MW standalone, 9,381 MW JVs/subsidiaries).",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity addition",
-          "horizon": "FY28",
-          "statement": "Planning ~10,039 MW capacity addition, including 1,460 MW thermal, 444 MW hydro, and 8,135 MW renewable (660 MW standalone, 9,379 MW JVs/subsidiaries).",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capacity addition",
-          "horizon": "FY29",
-          "statement": "Planning ~11,478 MW capacity addition, including 3,070 MW thermal and 8,408 MW renewable (no hydro expected).",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Renewable capacity addition (NGEL)",
-          "horizon": "FY26-FY28",
-          "statement": "Planning average of 8 GW per annum renewable capacity addition, with potential to exceed targets through inorganic acquisitions.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Nuclear capacity (Mahi Banswara)",
-          "horizon": "2032",
-          "statement": "First unit synchronization planned for November 2032; total 2.8 GW capacity (4 units of 700 MW each).",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Battery Energy Storage Systems (BESS)",
-          "horizon": "medium-term",
-          "statement": "Executing 5 GWh BESS capacity at thermal stations; CERC regulations support co-located BESS integration into tariff framework.",
+          "statement": "Capacity addition target for FY27 remains as previously discussed",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "unclear"
         },
         {
-          "metric": "Pump Storage Projects (PSP)",
-          "horizon": "2032-2033",
-          "statement": "Targeting 3 GW to 5 GW of PSP capacity commercialization by 2032-2033; total pipeline of 18,010 MW (NTPC: 4,800 MW, THDC: 13,210 MW).",
+          "metric": "Renewable capacity",
+          "horizon": "FY32",
+          "statement": "Targeting 60 GW renewable capacity by FY32",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Coal capacity addition",
-          "horizon": "2036",
-          "statement": "Additional coal capacity requirement projected at 86 GW, with 68 GW in pipeline; NTPC executing 16.5 GW and has 4.6 GW in various stages.",
+          "metric": "Renewable capacity",
+          "horizon": "FY37",
+          "statement": "Targeting 136 GW renewable capacity by FY37",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Renewable capacity target",
-          "horizon": "2032",
-          "statement": "Target of 60 GW renewable capacity by 2032, supported by INR20,000 crore investment approval limit for subsidiaries.",
+          "metric": "Nuclear capacity",
+          "horizon": "FY47",
+          "statement": "Targeting 30 GW nuclear capacity by FY47",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Green hydrogen hub (Pudimadaka)",
+          "metric": "Pump storage capacity",
+          "horizon": "FY33",
+          "statement": "Aim to commission 3-5 GW pump storage capacity by FY33",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pump storage capacity",
+          "horizon": "FY37",
+          "statement": "Aim to commission nearly 6 GW pump storage capacity by FY37",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Battery energy storage systems (BESS)",
+          "horizon": "FY27",
+          "statement": "Targeting to add 7-8 GW renewable capacity in FY27, subject to transmission infrastructure",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS pipeline",
           "horizon": "medium-term",
-          "statement": "Work commenced at Pudimadaka green hydrogen hub for development of green methanol and sustainable aviation fuel.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Coal gasification initiatives",
-          "horizon": "medium-term",
-          "statement": "Progressing on coal gasification initiatives to support continuous utilization of gas assets using domestic resources.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Technical minimum support for thermal plants",
-          "horizon": "current",
-          "statement": "Thermal plants assured technical minimum of 55% PLF with compensation for availability under fixed charges; co-located BESS to mitigate grid curtailment risks.",
+          "statement": "18.6 GW-hours of BESS projects already tendered; developing 30.4 GW-hours non-solar hour BESS pipeline",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
+        },
+        {
+          "metric": "Captive coal production",
+          "horizon": "FY30",
+          "statement": "Intend to meet 25% of coal requirement through captive mining by FY30",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Group-level capex",
+          "horizon": "FY26-FY27",
+          "statement": "Group-level capex estimate of INR 1,08,000 crore for FY26-FY27; INR 56,000 crore already incurred in FY26",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Group-level capex",
+          "horizon": "FY28-FY32",
+          "statement": "Group-level capex estimate of INR 5,97,000 crore for FY28-FY32",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Group-level capex",
+          "horizon": "FY33-FY37",
+          "statement": "Group-level capex estimate of INR 9,63,000 crore for FY33-FY37",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "quantification of curtailment impact for NGEL beyond FY26",
-        "specific timeline for nuclear projects beyond Mahi Banswara",
-        "detailed capex breakdown for pump storage projects beyond high-level estimates"
+        "specific capacity addition target for FY27 beyond 'as previously discussed'"
       ],
       "margin_drivers": [
-        "co-located BESS for peak load management",
-        "technical minimum support for thermal plants",
-        "renewable capacity expansion (NGEL)",
-        "pump storage projects for grid stability",
-        "coal gasification initiatives",
-        "diversified energy portfolio (thermal, hydro, nuclear, renewables)"
+        "renewable energy expansion",
+        "energy storage integration",
+        "nuclear energy entry",
+        "operational excellence in coal and thermal plants",
+        "captive coal mining",
+        "ESG upgrades"
       ]
     },
     "Karnika Industri": {
@@ -62562,53 +62560,59 @@
     },
     "Urban Company": {
       "company": "Urban Company",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9467ec01-6ac1-4f1d-aa88-552b073557b1.pdf",
-      "transcript_id": "urban-company_2026-05-01",
+      "ticker": "URBANCO",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d8684a6-8853-4d5b-99db-b02d6b86d320.pdf",
+      "transcript_id": "urban-company_2026-08-02",
       "provider": "groq",
-      "generated_at": "2026-07-03T18:22:42.691Z",
-      "summary": "Urban Company expects to achieve consolidated adjusted EBITDA breakeven by Q3 FY28 and ₹1,000 crores by FY31, driven by growth in its core businesses and market leadership in InstaHelp.",
+      "generated_at": "2026-08-02T16:31:54.491Z",
+      "summary": "Urban Company expects to achieve consolidated and Adjusted EBITDA breakeven by Q3 FY28 and ₹1,000 crores in adjusted EBITDA by FY31, driven by growth in its core India services business and international operations.",
       "guidance": [
         {
-          "metric": "Consolidated Adjusted EBITDA",
+          "metric": "Adjusted EBITDA",
           "horizon": "Q3 FY28",
-          "statement": "Achieve breakeven",
+          "statement": "Achieve consolidated and Adjusted EBITDA breakeven",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Consolidated Adjusted EBITDA",
+          "metric": "Adjusted EBITDA",
           "horizon": "FY31",
-          "statement": "Reach ₹1,000 crores",
+          "statement": "Reach ₹1,000 crores in adjusted EBITDA",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Native Business",
-          "horizon": "Next few quarters",
-          "statement": "Achieve break-even",
-          "specificity": "vague",
+          "metric": "India Consumer Services Adjusted EBITDA margin",
+          "horizon": "long-term",
+          "statement": "Reach 9-10% of NTV",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Native Net Revenue",
-          "horizon": "Medium-term",
-          "statement": "Quadruple",
+          "metric": "InstaHelp Adjusted EBITDA",
+          "horizon": "FY31",
+          "statement": "Break even",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "InstaHelp TAM",
+          "horizon": "long-term",
+          "statement": "Reach ₹7,000 to ₹12,000 crores in NTV",
           "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "InstaHelp losses trajectory",
-        "Steady-state economic unit economics or EBITDA margin for InstaHelp"
+        "Growth trajectory of India Consumer Services NTV",
+        "Entry into new international markets"
       ],
       "margin_drivers": [
-        "Densification of supply",
-        "Improvement in service professional earnings",
-        "Better retention and quality of service professionals",
-        "Artificial intelligence-driven efficiencies"
+        "Densification of micro-markets",
+        "Improving partner earnings",
+        "Increasing utilization of service professionals"
       ]
     },
     "Greenply Industr": {
@@ -102251,6 +102255,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-02T15:14:25.802Z",
+  "generated_at": "2026-08-02T16:32:33.743Z",
   "count": 1051
 }
