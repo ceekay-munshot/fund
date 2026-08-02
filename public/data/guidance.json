@@ -102253,8 +102253,73 @@
         "digital and AI adoption (operational efficiency, collections, STP)",
         "credit cost discipline (1.3-1.7% range)"
       ]
+    },
+    "Dalmia BharatLtd": {
+      "company": "Dalmia BharatLtd",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-07-28",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=751b7baa-60c5-4607-9812-ac137672c385.pdf",
+      "transcript_id": "dalmia-bharatltd_2026-07-28",
+      "provider": "groq",
+      "generated_at": "2026-08-02T21:07:20.083Z",
+      "summary": "Dalmia Bharat expects the cement demand to grow at a healthy rate of 7% in FY27, driven by strong domestic consumption and government's commitment to infrastructure development.",
+      "guidance": [
+        {
+          "metric": "Volume",
+          "horizon": "FY27",
+          "statement": "Cement demand to grow at a healthy rate of 7%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Volume",
+          "horizon": "FY28",
+          "statement": "Company's volume growth to be in line with industry growth of 7-8%",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex commitment to remain at around INR3,200-3,400 crores",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Depreciation",
+          "horizon": "FY27",
+          "statement": "Depreciation to increase by INR100 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Depreciation",
+          "horizon": "FY28",
+          "statement": "Depreciation to further increase by INR100-150 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity",
+          "horizon": "Q3 FY28",
+          "statement": "Cement capacity to reach about 67 million tons",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Exact number for land procurement cost for Jaypee assets",
+        "Exact number for incentive accrual beyond next couple of years"
+      ],
+      "margin_drivers": [
+        "Disciplined pricing",
+        "Decisive cost management",
+        "Optimization of fuel sourcing and mix efficiency",
+        "Renewable energy"
+      ]
     }
   },
-  "generated_at": "2026-08-02T19:48:19.591Z",
-  "count": 1051
+  "generated_at": "2026-08-02T21:07:47.769Z",
+  "count": 1052
 }
