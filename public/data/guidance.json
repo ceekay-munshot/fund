@@ -101973,8 +101973,119 @@
         "Geography mix",
         "Timing of raw material procurement"
       ]
+    },
+    "SBI Cards": {
+      "company": "SBI Cards",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=781dc2f1-1dfe-40c0-9c09-2ca22c0c2e71.pdf",
+      "transcript_id": "sbi-cards_2026-07-30",
+      "provider": "mistral",
+      "generated_at": "2026-08-02T00:07:33.239Z",
+      "summary": "Management expects sustainable long-term growth in credit card industry with disciplined execution, though some cost pressures and geopolitical risks remain.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "Revenue growth expected to improve in second half of FY27 due to higher new acquisitions and festive season impact.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Receivables growth",
+          "horizon": "FY27",
+          "statement": "Receivables expected to grow in second half of FY27 due to higher new acquisitions and festive season.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Credit cost",
+          "horizon": "FY27",
+          "statement": "Credit cost expected to moderate further in FY27, staying within current range subject to geopolitical risks.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "ROA",
+          "horizon": "medium-term",
+          "statement": "On track to achieve stated ROA guidance of 4% to 4.5% in medium term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revolver rates",
+          "horizon": "FY27",
+          "statement": "Revolver rates expected to remain stable in current range.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Cost of funds",
+          "horizon": "FY27",
+          "statement": "Cost of funds expected to trend higher in line with market rates.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Portfolio yield",
+          "horizon": "FY27",
+          "statement": "Portfolio yield expected to be maintained in a broad range.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "EMI portfolio share",
+          "horizon": "FY27",
+          "statement": "EMI portfolio expected to see an uptick during festive season.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Corporate spend share",
+          "horizon": "long-term",
+          "statement": "Corporate spend target to be around 20% of overall spend, possibly below.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Asset quality (Gross NPA)",
+          "horizon": "FY27",
+          "statement": "Gross NPA expected to reduce further with improved portfolio mix.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Digital capabilities investment",
+          "horizon": "medium-term",
+          "statement": "Continued investment in next-generation digital capabilities to simplify customer journey.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Tier 2/3 city expansion",
+          "horizon": "medium-term",
+          "statement": "Expansion of reach in Tier 2 and Tier 3 cities alongside metros.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "absolute numbers for EMI portfolio growth",
+        "absolute credit cost guidance for exit quarter of FY27",
+        "absolute receivables growth guidance for FY27",
+        "specific plans for PL (personal line) product launch"
+      ],
+      "margin_drivers": [
+        "portfolio yield maintenance",
+        "credit cost moderation",
+        "revolver rate stability",
+        "EMI portfolio growth",
+        "digital capabilities investment",
+        "asset quality improvement"
+      ]
     }
   },
-  "generated_at": "2026-08-01T23:06:05.597Z",
-  "count": 1048
+  "generated_at": "2026-08-02T00:08:04.754Z",
+  "count": 1049
 }
