@@ -43390,99 +43390,116 @@
       "ticker": "HINDPETRO",
       "sector": "Energy",
       "concall_date": "2026-07-29",
-      "transcript_url": "https://ind01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hindustanpetroleum.com%2Fdocuments%2Fpdf%2FPost-Earning-Concall-Transcript-Q1FY2627.pdf&data=05%7C02%7CDIVYANSHU.AJMERA%40hpcl.in%7Cb7a4ee2eb9ee470743f008deeca09d97%7C732f5f11ddad49f092444411d9d99658%7C0%7C0%7C639208371731731694%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=34naY%2FfXJe1oCZ5rQOs5ozK8emF3KrOqu95pBV49%2FpA%3D&reserved=0",
+      "transcript_url": "https://www.hindustanpetroleum.com/documents/pdf/Post-Earning-Concall-Transcript-Q1FY2627.pdf",
       "transcript_id": "h-p-c-l_2026-07-29",
       "provider": "mistral",
-      "generated_at": "2026-08-01T09:17:13.755Z",
-      "summary": "Management expresses confidence in navigating current volatility while focusing on balance sheet repair, cost control, and asset optimization for future resilience.",
+      "generated_at": "2026-08-03T21:46:01.357Z",
+      "summary": "Management expresses confidence in turning around the current crisis with a more balanced portfolio and improved operational efficiencies, though no specific quantitative forward guidance is provided due to high uncertainty in crude prices and market conditions.",
       "guidance": [
         {
           "metric": "Debt-to-equity ratio",
           "horizon": "medium-term",
-          "statement": "Target to reduce debt-to-equity ratio from current ~1.5 to below 1.0, aiming to match the recovery pace seen post-Ukraine crisis (2.33 to 0.8 in ~3 years).",
-          "specificity": "specific",
+          "statement": "Management aims to reduce the debt-to-equity ratio from current levels (1.5) to improve balance sheet strength, similar to past corrections post-crisis.",
+          "specificity": "vague",
           "direction": "down"
         },
         {
           "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Expect capex to be lower than the INR9,700 crore annual target due to tight cash conservation measures.",
+          "statement": "Capex is expected to be lower than the annual target of INR9,700 crores due to tight cash conservation measures.",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Samriddhi 2.0 savings",
+          "metric": "Samriddhi 2.0 profitability improvement",
           "horizon": "FY27",
-          "statement": "Target of INR1,500 crore on a run-rate basis and INR1,000 crore on accruals for profitability improvement program.",
+          "statement": "Targeting INR1,500 crores on a run-rate basis and INR1,000 crores in accruals for profitability improvements under Samriddhi 2.0.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "HRRL refinery ramp-up",
           "horizon": "Q3FY27",
-          "statement": "CDU expected to reach full capacity utilization by Q3FY27; petchem by end of FY27.",
+          "statement": "HRRL refinery expected to ramp up to full capacity utilization in Q3FY27, with CDU running at 60% currently.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Retail outlet performance",
-          "horizon": "FY27",
-          "statement": "Abhyuday 2.0 outlets (4,900) showing 100-150 bps higher growth vs. non-Abhyuday outlets; non-fuel contribution expected to appear in P&L by March 2027.",
+          "metric": "HRRL petrochemicals",
+          "horizon": "end of FY27",
+          "statement": "Petrochemical units at HRRL expected to be operational by the end of FY27.",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LPG product 'HP Navya' expansion",
+          "horizon": "by Diwali (Oct-Nov 2026)",
+          "statement": "Aiming to expand 'HP Navya' LPG product to 200-250 cities pan-India by Diwali 2026.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail outlet performance (Abhyuday 2.0)",
+          "horizon": "ongoing",
+          "statement": "Abhyuday 2.0 retail outlets showing 100-150 basis points higher growth compared to non-Abhyuday outlets.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-fuel contribution to P&L",
+          "horizon": "by end of FY27",
+          "statement": "Management expects non-fuel business to start contributing to the P&L as an additional line item by the end of FY27.",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "Refinery self-sufficiency",
-          "horizon": "FY27",
-          "statement": "Aim to achieve near self-sufficiency in product sourcing by leveraging own refineries and JVs, reducing third-party dependence.",
-          "specificity": "specific",
+          "horizon": "end of FY27",
+          "statement": "Aiming to achieve near self-sufficiency in product sourcing by leveraging own refineries and joint ventures by the end of FY27.",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "RUF technology stabilization",
-          "horizon": "FY27",
-          "statement": "RUF technology at Vizag refinery to stabilize, contributing to product yield and bottom-line improvements.",
+          "horizon": "ongoing",
+          "statement": "RUF technology at refineries is in the process of stabilization, expected to contribute to product yield and bottom-line improvements.",
           "specificity": "vague",
           "direction": "up"
+        },
+        {
+          "metric": "Energy cost optimization",
+          "horizon": "ongoing",
+          "statement": "Significant efforts underway to optimize energy costs across refineries, targeting savings in a high-cost segment.",
+          "specificity": "vague",
+          "direction": "down"
         },
         {
           "metric": "Digital/supply chain optimization",
-          "horizon": "FY27",
-          "statement": "Launch of supply chain optimization solution to improve efficiency; multiple digital and analytics use cases under development.",
+          "horizon": "ongoing",
+          "statement": "Supply chain optimization solution launched, with additional digital and analytics use cases under development to improve efficiencies.",
           "specificity": "vague",
           "direction": "up"
-        },
-        {
-          "metric": "Interest cost management",
-          "horizon": "FY27",
-          "statement": "Focus on reducing interest costs through avenues like ECB window and leveraging parent balance sheet.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "LPG cylinder loss",
-          "horizon": "Q2FY27",
-          "statement": "LPG cylinder loss improved from INR680 in June to INR490 in July; INR510 for Q1FY27.",
-          "specificity": "specific",
-          "direction": "down"
         }
       ],
       "refused_to_guide": [
         "Refining margins",
         "Marketing margins",
         "Crude price forecasts",
-        "Product pricing outlook",
+        "Product pricing trends",
         "Inventory valuation impacts",
         "SAED adjustments",
-        "Future under-recovery levels"
+        "Specific under-recovery numbers"
       ],
       "margin_drivers": [
         "Crude price volatility",
-        "Refinery optimization (HRRL ramp-up, RUF stabilization)",
-        "Samriddhi 2.0 cost takeouts",
+        "Refinery throughput and optimization",
+        "Energy costs",
+        "Inventory management",
         "Retail outlet performance (Abhyuday 2.0)",
-        "Digital/supply chain efficiency",
-        "Self-sufficiency in product sourcing"
+        "Non-fuel business expansion",
+        "Samriddhi 2.0 cost takeouts",
+        "HRRL ramp-up and petrochemical integration",
+        "Digital/supply chain efficiencies"
       ]
     },
     "Filatex India": {
@@ -71804,97 +71821,111 @@
       "company": "Indus Towers",
       "ticker": "INDUSTOWER",
       "sector": "Telecommunication",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55d79cdd-7dbd-4f98-83b5-13500c817fe9.pdf",
-      "transcript_id": "indus-towers_2026-05-01",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=693360f3-50b5-49d9-b6ef-49c2c140b676.pdf",
+      "transcript_id": "indus-towers_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-07-05T07:46:54.428Z",
-      "summary": "Management expects steady growth driven by 5G rollout, cost optimization, and Africa expansion, with disciplined capital allocation and progressive dividend distribution.",
+      "generated_at": "2026-08-03T21:45:33.015Z",
+      "summary": "Management expects sustained growth driven by 5G expansion, network densification, and Africa rollouts, with cost discipline and energy efficiency improvements supporting margins.",
       "guidance": [
         {
-          "metric": "Capex",
-          "horizon": "medium-term",
-          "statement": "70% of capex is growth-oriented, while 25% is for replacement/maintenance; order book remains healthy.",
+          "metric": "Tower and colocation additions",
+          "horizon": "FY27",
+          "statement": "Strong order book expected to support continued tower and colocation additions over the next 3-4 quarters.",
           "specificity": "vague",
-          "direction": "unclear"
+          "direction": "up"
         },
         {
-          "metric": "Dividend distribution",
-          "horizon": "FY26 and beyond",
-          "statement": "Board aims for steady and progressive distribution of free cash flow, with FY26 dividend at INR 14 per share.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Africa expansion capex",
-          "horizon": "medium-term",
-          "statement": "Africa expansion is a long-term strategy; initial capex is not expected to be significant.",
+          "metric": "5G network deployments",
+          "horizon": "FY27",
+          "statement": "Operators' focus on network densification and capacity augmentation to support rising data consumption and evolving use cases will sustain investments in network expansion.",
           "specificity": "vague",
-          "direction": "unclear"
+          "direction": "up"
         },
         {
-          "metric": "Energy cost optimization",
-          "horizon": "medium-term",
-          "statement": "Structural reduction in diesel dependency through solar integration and battery augmentation to improve energy margins.",
+          "metric": "Diesel consumption reduction",
+          "horizon": "FY27",
+          "statement": "Ambitious program to replace diesel-based operations with lithium-ion battery banks expected to gain momentum in coming quarters.",
           "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "Tenancy ratio",
-          "horizon": "medium-term",
-          "statement": "Stability in tenancy ratio is expected, with potential improvement as second customer expands network.",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "5G network capacity",
-          "horizon": "medium-term",
-          "statement": "Incremental capacity on existing infrastructure is needed to support sustained loading-led revenue growth.",
+          "metric": "Solar deployments",
+          "horizon": "FY27",
+          "statement": "Significant runway to solarize tower portfolio, with continued expansion of solar access to sites.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Smart meter deployment",
-          "horizon": "medium-term",
-          "statement": "Collaboration with stakeholders to deploy smart meters across cities to enhance operational efficiency and optimize energy costs.",
+          "metric": "Africa rollouts",
+          "horizon": "Q2FY27 and beyond",
+          "statement": "Rollouts expected to commence in the next quarter and scale progressively across Nigeria, Uganda, and Zambia.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Energy margins",
+          "horizon": "FY27",
+          "statement": "Seasonal factors will continue to impact energy margins in the first half of the year, with improvement expected in the second half.",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Solar site deployment",
-          "horizon": "medium-term",
-          "statement": "Continued scaling of solar integration, with solar access provided to ~28,000 sites over the last 2 years.",
+          "metric": "Capex per tower (Africa)",
+          "horizon": "FY27",
+          "statement": "Working through MSA and rate cards to optimize capex and opex cost per tower in Africa.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Lease rental per tower (Africa)",
+          "horizon": "FY27",
+          "statement": "Commercial arrangements in Africa aim to generate efficiency and reduce cost per tower.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Network uptime",
+          "horizon": "FY27",
+          "statement": "Digital operations transformation program aims to enhance site availability and response quality, improving network reliability.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost efficiency",
+          "horizon": "FY27",
+          "statement": "Opportunities available to drive significant efficiencies through digital interventions and standardized operating frameworks.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewable energy adoption",
+          "horizon": "FY27",
+          "statement": "Installed base of renewable energy (solar) expanded to 259 MW, with further scaling up of energy storage solutions planned.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Diesel consumption reduction",
+          "horizon": "FY27",
+          "statement": "Diesel consumption reduced by 13% year-on-year in Q1 FY27, with further reductions expected through energy management initiatives.",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Digital/AI-led transformation",
-          "horizon": "medium-term",
-          "statement": "Over 85% of sites are digitally connected, with AI/ML enabling proactive issue resolution and improved productivity.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Debt levels",
-          "horizon": "FY26 and beyond",
-          "statement": "Management aims to maintain debt levels while balancing capital allocation and growth opportunities.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "direction": "down"
         }
       ],
       "refused_to_guide": [
-        "Exact future revenue growth rates",
-        "Specific EBITDA margin targets",
-        "Future PAT guidance",
-        "Order book size in Africa",
-        "Impact of customer contract expirations"
+        "Airtel's stake purchase in Indus Towers",
+        "Specific financial impact of Africa rollouts on group-level margins and returns",
+        "Breakdown of growth drivers (e.g., network expansion vs. tenancy movement)",
+        "Renewal discounts and revenue equalization impacts on rental income growth"
       ],
       "margin_drivers": [
-        "Energy cost optimization (solar, batteries)",
-        "Operational efficiencies (digital tools, AI/ML)",
-        "Cost discipline (supply chain, partner rationalization)",
+        "Energy management efficiency",
+        "Renewable energy adoption (solar and batteries)",
+        "Digital operations transformation",
+        "Cost discipline and structural improvements in site rental and supply chain",
         "Network uptime and reliability",
-        "Sustainability initiatives (ESG, decarbonization)"
+        "Solar deployments and lithium-ion battery replacements"
       ]
     },
     "R Systems Intl.": {
@@ -72105,111 +72136,110 @@
       "company": "ZF Commercial",
       "ticker": "ZFCVINDIA",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e66b1b2-29bf-4fd7-b5ff-6a59bd72392a.pdf",
-      "transcript_id": "zf-commercial_2026-05-01",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=011e761a-3b20-491d-909c-121cc9e80a51.pdf",
+      "transcript_id": "zf-commercial_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-07-05T10:26:53.022Z",
-      "summary": "Management expects cautious momentum in FY27 with potential margin pressure from commodity costs, while focusing on new product launches and regulatory compliance to drive long-term growth.",
+      "generated_at": "2026-08-03T21:45:42.777Z",
+      "summary": "Management expects growth driven by ESC adoption, aftermarket momentum, export recovery, and EV-focused solutions, with operational efficiency improvements supporting margins.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Enter FY26-27 with cautious momentum supported by GST-led tailwinds, resilient domestic demand, and strengthening fundamentals across key segments.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "metric": "ESC (Electronic Stability Control) adoption",
+          "horizon": "medium-term",
+          "statement": "Secured nominations from three major OEMs for ESC solutions, with potential to retain majority market share in braking systems.",
+          "specificity": "specific",
+          "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Expect margins to be more or less flattish with maybe single-digit small growth for the next year, citing challenges from Middle East war and cautious government spending.",
+          "metric": "LCV (Light Commercial Vehicle) braking portfolio revenue",
+          "horizon": "by 2030",
+          "statement": "Targeting ₹90 million revenue in LCV braking segment.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ECAS (Electronically Controlled Air Suspension) adoption",
+          "horizon": "medium-term",
+          "statement": "Legislation expected for ultra-low entry buses, positioning ZF as a supplier partner; potential extension to tractor-trailer segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Aftermarket revenue growth",
+          "horizon": "medium-term",
+          "statement": "Continued investments in infrastructure to support fleet utilization and aftermarket demand; focus on SPARK initiatives and new product penetration.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Export revenue growth",
+          "horizon": "upcoming quarters",
+          "statement": "Positive outlook for U.S. and European markets, with steady improvement in export demand.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EV-focused solutions revenue (e-compressors, EBS systems)",
+          "horizon": "medium-term",
+          "statement": "Increasing market penetration of EV-focused solutions, particularly for independent bus manufacturers.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Operational efficiency (PERFORM26 initiative)",
+          "horizon": "medium-term",
+          "statement": "Focus on continuous improvement, productivity enhancement, value engineering, and material cost optimization to offset inflationary pressures.",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Planning capex of INR180-190 crores, primarily for new product launches, replacements, and regular upgrades.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Order book (ADAS/ESC)",
-          "horizon": "FY27",
-          "statement": "Secured full suite of ADAS solutions for 2 OEM customers and engaged with multiple others; aiming to strengthen market share in ESC ahead of upcoming truck regulations.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export demand",
-          "horizon": "FY27",
-          "statement": "Anticipate moderate improvement in export demand with early signs of recovery emerging in the U.S. market in Q4.",
+          "metric": "Commodity and FX cost recovery",
+          "horizon": "ongoing",
+          "statement": "Engaging proactively with OEM customers on commodity and FX cost recovery measures, with a portion already realized.",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Commodity costs (Aluminum)",
-          "horizon": "FY27",
-          "statement": "Aluminum constitutes 15-18% of total raw material cost, with recent increases driven by supply chain disruptions.",
-          "specificity": "specific",
           "direction": "unclear"
         },
         {
-          "metric": "Aftermarket growth",
-          "horizon": "FY27",
-          "statement": "Aftermarket business grew 15.6% in FY26; strategic focus on new product penetration and network expansion to drive future growth.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EV portfolio penetration",
+          "metric": "New product launches (e.g., Next-Generation ECAS, Type 24/24 High-Force Spring Brake Actuator)",
           "horizon": "medium-term",
-          "statement": "Accelerating new product introductions including e-compressors and EBS systems for EV platforms, particularly for independent bus manufacturers.",
+          "statement": "Rapid development and launch of key products to support business growth and new OEM wins.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Trailer technology penetration",
-          "horizon": "FY27",
-          "statement": "Driving higher penetration of advanced trailer technologies like trailer ABS and trailer EBS in line with AIS-113 regulations.",
+          "metric": "ADAS/AEBS adoption",
+          "horizon": "medium-term",
+          "statement": "Positioning ESC solutions with OEMs; AEBS may be offered as a standalone solution by other players, but ZF is working with bus OEMs on EBS+ESC suites.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Regulatory compliance (ESC/ADAS)",
-          "horizon": "FY27",
-          "statement": "Committed to introducing advanced regulatory-aligned products in the Indian market to reinforce leadership in braking systems and ADAS.",
-          "specificity": "vague",
+          "metric": "Localization for ESC manufacturing",
+          "horizon": "Q3 next year",
+          "statement": "High level of localization planned with local EMS partners, including ECU localization.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Freight rates impact on demand",
-          "horizon": "near-term",
-          "statement": "Increase in diesel prices may impact freight rates and fleet utilization, potentially slowing vehicle purchases in the near term.",
+          "metric": "Trailer segment demand",
+          "horizon": "Q1FY27 and beyond",
+          "statement": "Trailer segment witnessed decline in Q1FY27 due to slower mining activity and monsoon disruptions, but outlook remains positive with infrastructure-led demand.",
           "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Customer price recovery negotiations",
-          "horizon": "FY27",
-          "statement": "Ongoing conversations with customers to recover increased commodity costs, though timing lag may impact margins temporarily.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "exact revenue/EBITDA/PAT growth for FY27",
-        "breakdown of aluminum/copper cost as % of total raw material cost for FY27",
-        "specific market share targets for ESC/ADAS in FY27"
+        "specific revenue or EBITDA margin targets for FY27 or beyond",
+        "capex outlook for FY27 or beyond",
+        "PAT guidance for FY27 or beyond"
       ],
       "margin_drivers": [
-        "commodity cost inflation (aluminum, Middle East supply disruptions)",
-        "employee cost increases (salary hikes)",
-        "customer price recovery negotiations for cost pass-through",
-        "new product launches (e-compressors, EBS, ADAS) with higher content per vehicle",
-        "regulatory compliance costs (ESC, ADAS, AIS-113)",
-        "export demand recovery (moderate improvement in U.S. market)",
-        "aftermarket network expansion and product penetration"
+        "Commodity and FX cost recovery from OEMs",
+        "PERFORM26 initiative (continuous improvement, productivity enhancement, value engineering)",
+        "New product launches (e.g., ECAS, ESC, e-compressors)",
+        "Aftermarket growth and SPARK initiatives",
+        "Operational efficiency improvements (ZF Production System, Overall Maturity Assessment)",
+        "Selective price increases in aftermarket segment"
       ]
     },
     "Manaksia Coated": {
@@ -76780,110 +76810,108 @@
       "company": "Vedant Fashions",
       "ticker": "MANYAVAR",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c63b2931-c687-47be-87cb-847744a4c20f.pdf",
-      "transcript_id": "vedant-fashions_2026-05-01",
+      "concall_date": "2026-08-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcb996da-b3ab-42f3-b20e-147c115f2358.pdf",
+      "transcript_id": "vedant-fashions_2026-08-02",
       "provider": "mistral",
-      "generated_at": "2026-07-06T17:24:36.154Z",
-      "summary": "Management expects sustainable long-term growth driven by improved SSG, strategic store expansion, and disciplined cost management despite input cost pressures.",
+      "generated_at": "2026-08-03T21:45:52.213Z",
+      "summary": "Management expects sustained long-term growth driven by brand strength, operational efficiency, and strategic store rationalization, with cautious optimism on premiumization and new initiatives like Diwas.",
       "guidance": [
         {
-          "metric": "SSG (Same Store Growth)",
+          "metric": "SSSG (Same Store Sales Growth)",
           "horizon": "FY27",
-          "statement": "Focus on improving SSG through campaigns, conversion rate enhancements, ASP improvements, and basket size growth; no specific target provided.",
-          "specificity": "vague",
+          "statement": "High single-digit SSGG expected for the remaining 9 months of FY27, with net positive store growth for the financial year",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "New store openings",
+          "metric": "Store rationalization",
           "horizon": "FY27",
-          "statement": "Gross openings to remain stable with net additions expected to improve as consolidation continues; quality of new stores to be better than closed ones.",
-          "specificity": "vague",
+          "statement": "3% to 4% net store additions planned for FY27, with gross openings to accelerate as rental pressures ease",
+          "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Input cost inflation",
+          "metric": "Revenue growth",
           "horizon": "FY27",
-          "statement": "Anticipates 50-150 bps increase in total cost due to fabric and other inputs; expects to manage this well over time.",
-          "specificity": "specific",
+          "statement": "Revenue growth to be driven by SSGG, new store productivity, and growth in MBO, SIS, and e-commerce channels",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "GST impact on revenue vs. retail sales gap",
-          "horizon": "FY27",
-          "statement": "GST-related gap between retail sales and net sales should normalize from FY27 onwards.",
+          "metric": "Gross margin",
+          "horizon": "Q3FY27 onwards",
+          "statement": "Gross margin to stabilize around 65%-65.5% from Q3FY27 as GST impact is fully in the base",
           "specificity": "specific",
-          "direction": "down"
+          "direction": "flat"
         },
         {
-          "metric": "Inventory ASP in new stores",
+          "metric": "Customer retention",
           "horizon": "FY27",
-          "statement": "Newer stores have slightly higher ASPs due to larger store sizes and inclusion of Mohey in many new locations.",
-          "specificity": "specific",
+          "statement": "Improving customer retention metrics with a dedicated task force driving repeat business; further improvements expected in the current month",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Marketing campaigns",
-          "horizon": "Medium-term",
-          "statement": "Big milestone campaigns (e.g., celebrity-driven) to continue every 1-2 years; podcasts and influencer marketing to support SSG.",
+          "metric": "Premiumization (ASP growth)",
+          "horizon": "Q2-Q4FY27",
+          "statement": "ASP growth ambition is higher, with plans to start achieving targets from mid-Q2 onwards",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Mohey growth",
+          "horizon": "FY27",
+          "statement": "Doubling down on non-bridal categories (stitched suits, sarees, crop-top lehengas) to accelerate Mohey's growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Diwas performance",
+          "horizon": "FY27",
+          "statement": "High excitement levels on Diwas with strong pre-planning for Q3 supply chain and e-commerce partnerships (Myntra, Amazon, Blinkit, Zepto)",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International markets",
+          "horizon": "FY27",
+          "statement": "Hopeful recovery in UAE and North America markets as challenges (war, tariffs) are expected to ease",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Diwas physical store expansion",
+          "metric": "Industry competitive intensity",
           "horizon": "FY27",
-          "statement": "No plans for standalone Diwas physical stores; piloting differentiated Manyavar kurta stores in high-throughput neighborhoods.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Competitive intensity",
-          "horizon": "FY27",
-          "statement": "Regional competition expected to reduce as weaker players close stores; national players' dynamics remain unchanged.",
+          "statement": "Competitive intensity expected to reduce as regional/local players close stores due to unsustainable revenue per square feet",
           "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "Footfalls and conversions",
-          "horizon": "Q4FY26 onwards",
-          "statement": "Footfalls improved by low single digits in Q4FY26; conversions stable at high levels; average basket size improved by ~1.5%.",
-          "specificity": "specific",
-          "direction": "up"
+          "metric": "Store closure rationale",
+          "horizon": "FY27",
+          "statement": "Store closures primarily due to market shifts, larger store openings in neighborhoods, or poor initial performance",
+          "specificity": "vague",
+          "direction": "down"
         },
         {
-          "metric": "Wedding dates impact",
+          "metric": "Franchisee ROI",
           "horizon": "FY27",
-          "statement": "No major wedding date challenges expected; normalization in Navratri timing and Adhik Maas impact.",
+          "statement": "No pressure on franchisee ROI; INR7,000-10,500 per sq ft required depending on city tier for healthy ROI",
           "specificity": "specific",
           "direction": "flat"
-        },
-        {
-          "metric": "Gross retail area addition",
-          "horizon": "FY26",
-          "statement": "Added ~1 lakh square feet of gross retail area in FY26.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Consumer sentiment",
-          "horizon": "FY27",
-          "statement": "Consumer sentiments turning positive; potential green shoots in FY27 if current trends continue.",
-          "specificity": "vague",
-          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "specific SSG target for FY27",
-        "exact number of new stores to open in FY27",
-        "quantitative impact of marketing campaigns on SSG"
+        "primary vs secondary sales growth for Q2FY27",
+        "inventory days for Q2FY27"
       ],
       "margin_drivers": [
-        "fabric cost inflation",
         "GST normalization",
-        "ASP improvement",
-        "basket size growth",
+        "premiumization (ASP growth)",
         "operational efficiency",
-        "store quality improvement"
+        "auto replenishment systems",
+        "store rationalization"
       ]
     },
     "Navin Fluo.Intl.": {
@@ -85643,112 +85671,57 @@
       "company": "Tejas Networks",
       "ticker": "TEJASNET",
       "sector": "Telecommunication",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12579ed4-67b9-455f-9bb4-644c41d9820f.pdf",
-      "transcript_id": "tejas-networks_2026-04-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-08T17:50:19.774Z",
-      "summary": "Management expects AI-driven network transformation to drive long-term growth, with revenue recovery in FY27 and continued R&D investments despite near-term margin pressures.",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93df39a6-32f4-4865-9614-b25298f2f9f0.pdf",
+      "transcript_id": "tejas-networks_2026-08-03",
+      "provider": "groq",
+      "generated_at": "2026-08-03T21:45:22.446Z",
+      "summary": "Tejas Networks expects growth driven by international traction for wireless products, expansion of 5G deployments, and increasing demand for high-bandwidth, low-latency networks for AI infrastructure.",
       "guidance": [
         {
           "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "A good portion of the INR1,514 crore order book will convert to revenues in FY27",
+          "horizon": "Medium-term",
+          "statement": "Growing international traction for wireless products and increasing demand for high-bandwidth, low-latency networks for AI infrastructure to drive revenue growth.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "5G Massive MIMO business will generate revenue over FY27",
+          "metric": "EBITDA margin",
+          "horizon": "12-18 months",
+          "statement": "Targeting positive EBITDA and EBIT, with a path to profitability driven by revenue growth, working capital management, and margin improvements.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "4G expansion order in South Asia will contribute to revenue in FY27",
+          "metric": "Order book",
+          "horizon": "Q1 FY27",
+          "statement": "Order book stands at INR1,529 crores, a slight increase over Q4, with most new wins during the quarter being domestic.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Medium-term",
+          "statement": "Continued investments in R&D and capex to build out portfolio for AI-driven future and 5G-Advanced/6G technologies.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "BSNL 4G additional PO (18,000 sites) will be executed with faster timelines due to existing inventory",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "International wireless opportunities will be ordered and revenue booked in FY27",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "R&D spend",
-          "horizon": "FY27",
-          "statement": "R&D investments will continue but optimized based on business outlook and maturity",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Receivables",
-          "horizon": "FY27",
-          "statement": "Receivables expected to progressively come down over next couple of quarters due to BSNL collections",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Receivables",
-          "horizon": "FY27",
-          "statement": "A significant portion of BSNL 4G receivables will be collected in FY27",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Margin",
-          "horizon": "FY27",
-          "statement": "Cost escalations (including memory prices) will be addressed via renegotiation with suppliers and customers to protect margins",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Margin drivers",
-          "horizon": "medium-term",
-          "statement": "AI-driven network transformation will drive demand for 400G/800G connectivity, edge inferencing, and multi-terabit data center interconnects",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Margin drivers",
-          "horizon": "medium-term",
-          "statement": "Next-gen 5G products designed to scale into 5G-Advanced/6G with higher uplink capacities",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Margin drivers",
-          "horizon": "medium-term",
-          "statement": "High-capacity optical solutions scaling to 1.6Tbps per channel to support terabit-scale data center connectivity",
+          "metric": "PAT",
+          "horizon": "12-18 months",
+          "statement": "Expecting to achieve positive PAT profitability within 12-18 months, driven by revenue growth and cost management.",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Revenue growth percentage for FY27",
-        "EBITDA/PAT guidance for FY27",
-        "Order book size for FY27",
-        "Specific deal sizes or contract values"
+        "Detailed revenue split between wireless and wireline"
       ],
       "margin_drivers": [
-        "AI-driven network transformation",
-        "400G/800G connectivity demand",
-        "Edge inferencing workloads",
-        "Multi-terabit data center interconnects",
-        "Next-gen 5G/6G scalability",
-        "High-capacity optical solutions (1.2Tbps to 1.6Tbps per channel)",
-        "Automation in network management"
+        "Growing international business",
+        "Partnerships with global OEMs",
+        "Cost engineering and margin improvements",
+        "Working capital management"
       ]
     },
     "E2E Networks": {
@@ -102743,6 +102716,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-03T20:18:28.524Z",
+  "generated_at": "2026-08-03T21:46:29.192Z",
   "count": 1056
 }
