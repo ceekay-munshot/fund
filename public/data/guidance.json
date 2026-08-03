@@ -47830,219 +47830,220 @@
     },
     "Vardhman Textile": {
       "company": "Vardhman Textile",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e2b7ff6-1ac0-4130-a7a6-619b21f6e737.pdf",
-      "transcript_id": "vardhman-textile_2026-05-01",
+      "ticker": "VTL",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85d08c74-f582-4ecf-a3f3-30fa452d210d.pdf",
+      "transcript_id": "vardhman-textile_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-06-29T19:25:19.490Z",
-      "summary": "Management expects improved profitability in FY27 driven by better spreads, demand recovery, and capacity utilization, though sustainability depends on global cotton prices and demand trends.",
+      "generated_at": "2026-08-03T20:17:31.958Z",
+      "summary": "Management expects sustained but moderating margins in spinning due to favorable demand-supply dynamics, with potential capacity additions in new segments over medium-term.",
       "guidance": [
         {
-          "metric": "Yarn spreads",
+          "metric": "Spinning margins",
           "horizon": "FY27",
-          "statement": "Spreads have improved significantly from ~$0.60-$0.65 to ~$0.90-$0.95 per kg due to better demand and aligned cotton prices, with potential sustainability if New York futures remain at current levels.",
-          "specificity": "specific",
-          "direction": "up"
+          "statement": "Margins will moderate from current strong levels but remain above pre-2024 levels due to sustained demand-supply imbalance in cotton.",
+          "specificity": "vague",
+          "direction": "down"
         },
         {
-          "metric": "Yarn demand",
+          "metric": "Spinning margins",
           "horizon": "FY27",
-          "statement": "Yarn demand remains strong, especially from China, with export volumes reaching ~120 million kg/month (vs. 100 million kg average historically).",
+          "statement": "Trading margins from lower-cost inventory will fade, but conversion margins could stabilize around USD0.85-0.90/kg if demand-supply remains favorable.",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Fabric prices",
-          "horizon": "Q1FY27",
-          "statement": "Fabric prices are expected to increase with a lag of 2-3 months, likely improving profitability in Q1FY27.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Garment prices",
-          "horizon": "Next 1-2 months",
-          "statement": "Brands are starting to negotiate price increases, with some small increases already observed.",
-          "specificity": "vague",
-          "direction": "up"
+          "direction": "unclear"
         },
         {
           "metric": "Cotton prices",
           "horizon": "FY27",
-          "statement": "Cotton prices are aligned with international markets (NY futures ~$0.82-$0.84), reducing cost pressure for Indian spinners.",
-          "specificity": "specific",
-          "direction": "flat"
+          "statement": "Cotton prices may not decline significantly due to global supply reductions (Brazil -5%, Australia -3.5M bales, USA drought) and rising demand, especially from China.",
+          "specificity": "vague",
+          "direction": "up"
         },
         {
-          "metric": "Capacity utilization",
-          "horizon": "Next 6-9 months",
-          "statement": "New fabric lines (performance fabrics and cotton fabric) are expected to reach full utilization in 6-9 months.",
+          "metric": "Yarn export volumes",
+          "horizon": "FY27",
+          "statement": "Export yarn volumes from India could reach 105-110 million kg, driven by continued Chinese demand if cotton prices in China remain high.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "90% of spinning modernization is complete, with remaining work to be finished in the next 6-8 months.",
+          "metric": "Fabric utilization (U.S. market)",
+          "horizon": "Q2-Q3 FY27",
+          "statement": "Fabric business utilization is expected to improve significantly in the next 2-3 months as U.S. orders recover post-tariff disruptions.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Synthetic fabric capacity utilization",
+          "horizon": "6 months",
+          "statement": "Targeting 70%-80% utilization (from 15%-20% currently) for new synthetic fabric capacity by leveraging premium opportunities in import substitution.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex (biomass boilers)",
+          "horizon": "Q2-Q3 FY27",
+          "statement": "Biomass boilers in Baddi and Madhya Pradesh are expected to start operations within 1 month, reducing costs.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Green power projects",
-          "horizon": "June-July 2026",
-          "statement": "Biomass boilers and other green power projects are expected to be commissioned in 1-2 months, reducing costs from FY27.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Industry consolidation",
-          "horizon": "Medium-term",
-          "statement": "11-11.5 million spindles have permanently exited the industry, leading to structural consolidation.",
+          "metric": "Capex (open-end spinning)",
+          "horizon": "10 months",
+          "statement": "Open-end spinning project (55-60 tons/day capacity) construction started; expected to be operational in ~10 months.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "New capacity additions",
-          "horizon": "Next 6-9 months",
-          "statement": "Industry may start new projects if current margins and cotton prices sustain for 3-6 months.",
+          "metric": "Capex (solar/wind power)",
+          "horizon": "6 months",
+          "statement": "Solar and wind power investments will start yielding cost advantages incrementally over the next 6 months.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "New capacity (PM MITRA Park)",
+          "horizon": "3-5 years",
+          "statement": "Intention to add capacities in PM MITRA Park projects over the next 3-5 years to drive top-line growth.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material sourcing (cotton)",
+          "horizon": "Q2-Q3 FY27",
+          "statement": "Evaluating daily opportunities to import duty-free cotton at current prices, given MSP-linked floor prices in India (INR65,000-66,000/candy).",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Export demand (US)",
-          "horizon": "FY27",
-          "statement": "US retail demand has increased 4%-10% for brands, supporting yarn and fabric exports.",
+          "metric": "Order book (spinning segment)",
+          "horizon": "Q2 FY27",
+          "statement": "Export order book remains at ~90-95 days, domestic at ~45-50 days, with April-May price increases expected to reflect in Q2 results.",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Polyester prices",
-          "horizon": "FY27",
-          "statement": "Polyester prices increased by INR25-INR30/kg due to crude price rise, impacting synthetic fiber costs.",
-          "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "Quantitative targets for revenue, EBITDA, or PAT for FY27",
-        "Specific impact of US tariff removal on future margins",
-        "Timeline for duty-free cotton import approval by the government"
+        "absolute inventory levels (cotton)",
+        "detailed capex breakdown beyond announced projects"
       ],
       "margin_drivers": [
-        "Aligned cotton prices with international markets",
-        "Improved yarn spreads (~50% jump from worst levels)",
-        "Strong demand from China for yarn exports",
-        "Fabric and garment price increases with lag",
-        "Green power projects reducing costs",
-        "Reduced industry capacity (11-11.5 million spindles exited)",
-        "US retail demand recovery (4%-10% growth)"
+        "favorable cotton demand-supply dynamics",
+        "pass-through of yarn price increases to fabric customers",
+        "cost reduction from biomass boilers and renewable energy",
+        "premium opportunities in synthetic fabric segment",
+        "trading gains from lower-cost inventory"
       ]
     },
     "Bluspring Enter.": {
       "company": "Bluspring Enter.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c0346b4-6927-4113-a4fb-ad9ee0fc4411.pdf",
-      "transcript_id": "bluspring-enter_2026-05-01",
+      "ticker": "BLUSPRING",
+      "sector": "Services",
+      "concall_date": "2026-08-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86166771-2512-4d0d-bc60-636888c2dfa4.pdf",
+      "transcript_id": "bluspring-enter_2026-08-02",
       "provider": "mistral",
-      "generated_at": "2026-06-29T21:12:30.221Z",
-      "summary": "Management expects margin expansion and growth acceleration driven by acquisitions and organic initiatives in FY27.",
+      "generated_at": "2026-08-03T20:18:26.990Z",
+      "summary": "Strong growth trajectory driven by acquisitions, cross-selling synergies, and sector tailwinds, with FY27 guidance targeting 42% revenue growth and 65% EBITDA growth.",
       "guidance": [
         {
-          "metric": "EBITDA margin",
+          "metric": "Revenue (excluding investments)",
           "horizon": "FY27",
-          "statement": "Post-acquisition consolidation, Bluspring expects to reach near 5% EBITDA margin on a sustained basis.",
+          "statement": "Intend to cross INR4,700 crores, growing 42% year-on-year.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth",
+          "metric": "EBITDA (excluding investments)",
           "horizon": "FY27",
-          "statement": "Organic revenue growth expected at 14%-15% with inorganic contributions from STEAG and LSG acquisitions.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA contribution from acquisitions",
-          "horizon": "FY27",
-          "statement": "STEAG to add INR 60-65 crores and LSG to add INR 20 crores of annualized EBITDA.",
+          "statement": "Target EBITDA of over INR200 crores, growing 65% year-on-year.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "PAT",
           "horizon": "FY27",
-          "statement": "Post-acquisition integration, annualized PAT expected to cross INR 100 crores.",
+          "statement": "Target PAT of over INR100 crores, growing 50% year-on-year.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Acquisition closure timelines",
-          "horizon": "Q1FY27",
-          "statement": "STEAG acquisition to close within the current week; LSG acquisition expected in 30-45 days.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "EBITDA margin expansion",
-          "horizon": "medium-term",
-          "statement": "Acquisitions expected to improve pro forma EBITDA margins by 90-100 basis points.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Debt repayment",
+          "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Priority is to aggressively repay acquisition debt following integration.",
+          "statement": "Aim to exit the year with over 5% EBITDA margins.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROE",
+          "horizon": "FY27",
+          "statement": "ROE to expand from nearly 7% in FY26 to almost 13% in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Net debt to EBITDA ratio",
+          "horizon": "FY27",
+          "statement": "Confident of ending the financial year with net debt to EBITDA ratio below 1.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Acquisition debt repayment",
+          "horizon": "FY27",
+          "statement": "Prioritize aggressively repaying acquisition debt following integration.",
           "specificity": "vague",
           "direction": "down"
         },
         {
-          "metric": "foundit profitability",
+          "metric": "Foundit EBITDA burn",
           "horizon": "FY27",
-          "statement": "Commitment to achieve EBITDA profitability for foundit by end of FY27.",
+          "statement": "Expect EBITDA burn for the financial year to be in the range of INR30 crores to INR35 crores.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Foundit revenue trajectory",
+          "horizon": "FY27",
+          "statement": "Aim to reach break-even by end of FY27.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "foundit revenue trajectory",
-          "horizon": "Q1FY27",
-          "statement": "Focus on maintaining revenue trajectory and accelerating seeker growth through strategic sales and marketing spends.",
+          "metric": "LSG Sky Chefs India acquisition",
+          "horizon": "Q2FY27",
+          "statement": "Expected to close the acquisition of LSG Sky Chefs India's Bengaluru operations in the next couple of weeks.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Telecom capex revival",
+          "horizon": "Q2FY27 onwards",
+          "statement": "See signs of capex revival by large telecom players from Q2 onwards, expecting better full-year numbers than last year.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Security services headcount growth",
+          "metric": "Industrial vertical revenue share",
           "horizon": "FY27",
-          "statement": "Continued focus on adding new logos and increasing business from existing clients in security services.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Telecom and industrial vertical growth",
-          "horizon": "FY27",
-          "statement": "Transitioning from manpower provider to strategic operations partner with margin uptick in telecom and industrial verticals.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "ROE improvement",
-          "horizon": "FY27",
-          "statement": "Focus on improving return on equity to higher levels in the coming financial year.",
-          "specificity": "vague",
+          "statement": "Post STEAG addition, sector mix to shift towards industrial vertical from 23% to over 40% of revenues.",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "employee headcount targets beyond FY27",
+        "foundit monetization timeline beyond FY27",
+        "specific cross-selling revenue contribution"
+      ],
       "margin_drivers": [
-        "acquisition synergies",
-        "contract mix improvement",
-        "collection efficiencies",
-        "cost optimization",
-        "AI adoption in foundit",
-        "transition to strategic operations partner in telecom and industrial verticals"
+        "cross-selling synergies across businesses",
+        "integration of STEAG and LSG acquisitions",
+        "volume growth in core segments",
+        "reduction in low-margin contracts",
+        "AI adoption in foundit to control costs",
+        "synergy realization from acquisitions"
       ]
     },
     "Voltas": {
@@ -72822,106 +72823,108 @@
       "company": "Usha Martin",
       "ticker": "USHAMART",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b306af9-cba9-499a-af8c-17007515e879.pdf",
-      "transcript_id": "usha-martin_2026-05-01",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=848079ce-6107-4e4a-90f5-ea7cdd31a528.pdf",
+      "transcript_id": "usha-martin_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-07-05T12:01:00.398Z",
-      "summary": "FY27 outlook is positive with growth in high-value rope applications, margin expansion to 20%+, and targeted capex of INR 300 crore over next 2 years.",
+      "generated_at": "2026-08-03T20:18:11.252Z",
+      "summary": "Management expects value-led volume growth with margin stability, driven by capacity expansion and product mix improvements across segments.",
       "guidance": [
         {
-          "metric": "Revenue",
+          "metric": "Volume growth (Wire Rope)",
           "horizon": "FY27",
-          "statement": "Growth expected in high-value rope applications (oil & offshore, elevators, port cranes, mining) with stronger order book in H1 FY27.",
-          "specificity": "vague",
+          "statement": "Targeting 10% to 12% volume growth for the full year, with inquiries and capacities in place.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
+          "metric": "Revenue growth (Wire Rope)",
           "horizon": "FY27",
-          "statement": "Operating margins expected to sustain at 20% range due to better product mix and high-performance rope segment focus.",
+          "statement": "Expecting around 15% revenue growth, supported by value-led volume growth and pricing actions.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "Q4FY26",
-          "statement": "Management stated minimum operating margin of 20% is achievable with current product mix.",
+          "horizon": "FY27",
+          "statement": "Maintaining a minimum base of 20% EBITDA margin, with potential for improvement as new capacities ramp up and product mix strengthens.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Planning capex of INR 250 crore to INR 300 crore, focused on expanding specialized wire rope capacity and manufacturing efficiency.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Volume",
-          "horizon": "FY27",
-          "statement": "Priority is volume growth while maintaining quality of mix, with confidence in stronger volume growth in FY27.",
-          "specificity": "vague",
+          "metric": "Elevator rope capacity",
+          "horizon": "FY28",
+          "statement": "Expanding elevator rope capacity by 6,000 metric tons per annum, with commissioning starting October and completion by Q1 FY28.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Plasticated LRPC volume",
           "horizon": "FY27",
-          "statement": "Expected to scale up to 5,000-6,000 tons in FY27 as approvals convert into orders.",
+          "statement": "Targeting 3,500 to 4,000 tons for FY27, with capacity of 6,000 tons annually.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Plasticated LRPC capacity",
-          "horizon": "next 2 years",
-          "statement": "Capacity to be augmented to 8,000-9,000 tons in steps after initial 6,000 tons capacity is utilized.",
+          "metric": "Plasticated LRPC capacity expansion",
+          "horizon": "18-24 months",
+          "statement": "Considering further capacity expansion ahead of time to meet future demand as approvals mature.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Oceanfibre revenue target",
+          "horizon": "Medium-term",
+          "statement": "Aiming to scale Oceanfibre revenue from ~GBP 3 million to GBP 10 million over the next few years.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Capex",
-          "horizon": "next 2 years",
-          "statement": "INR 300 crore capex planned for elevator ropes, specialized wires, and plasticated LRPC capacity expansion.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Rope capacity addition",
-          "horizon": "next 2 years",
-          "statement": "6,000 tons additional rope capacity to be added with 70-75% of capex allocated to this.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Traditional LRPC volume",
+          "metric": "Galfan wire demand",
           "horizon": "FY27",
-          "statement": "Traditional LRPC expected to remain around 48,000 tons in FY27, with gradual conversion to plasticated LRPC.",
-          "specificity": "specific",
+          "statement": "Seeing good demand in domestic and export markets, with focus on broadening customer base and securing more approvals.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Middle East recovery opportunity",
+          "horizon": "Medium-term",
+          "statement": "Middle East represents a meaningful opportunity for crane ropes, elevator ropes, port cranes, and plasticated LRPC once geopolitical conditions improve.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Market share (U.S. and Europe)",
+          "horizon": "3-5 years",
+          "statement": "Aiming to increase market share in the U.S. (currently <5%) and Europe (currently 10%-12%) over the next 3 to 5 years.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital efficiency",
+          "horizon": "FY27",
+          "statement": "Committed to improving working capital efficiency and maintaining healthy cash conversion.",
+          "specificity": "vague",
           "direction": "flat"
-        },
-        {
-          "metric": "European market demand",
-          "horizon": "FY27",
-          "statement": "European market outlook positive with strong order book visibility for H1 FY27, particularly in high-performance segments.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "U.S. market demand",
-          "horizon": "FY27",
-          "statement": "U.S. market shows good opportunities in elevator, crane, and mining ropes with sub-5% market share offering growth potential.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Indian market demand",
-          "horizon": "next 1-2 years",
-          "statement": "India expected to grow at 6-8% with focus on segments like elevators and ports where market share can be increased.",
-          "specificity": "vague",
-          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "specific revenue or volume growth targets for FY27 beyond directional statements"
+        "Detailed breakdown of segment-wise volume growth for Q2 FY27",
+        "Specific pricing outlook for key input costs (e.g., steel, zinc) beyond current quarter"
       ],
       "margin_drivers": [
-        "product mix shift towards high-performance ropes",
-        "pass-through of input cost increases",
-        "cost discipline from 'One Usha Martin' program",
-        "higher realizations in international markets"
+        "Value-added products and specialized applications",
+        "Product mix improvement",
+        "Pricing actions to offset input cost increases",
+        "Operating efficiencies and cost discipline",
+        "Capacity utilization in new projects (e.g., elevator rope expansion)"
       ]
     },
     "Godrej Agrovet": {
@@ -75894,109 +75897,107 @@
       "company": "Kajaria Ceramics",
       "ticker": "KAJARIACER",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8b60fb2-c7f1-4b9d-8e82-ce1ccfef5d04.pdf",
-      "transcript_id": "kajaria-ceramics_2026-05-01",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18f4d4a8-a592-431d-8537-35bf53f7375c.pdf",
+      "transcript_id": "kajaria-ceramics_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-07-05T23:40:33.270Z",
-      "summary": "Management expects strong volume growth and margin stability in FY27 driven by multi-locational plant advantage, price hikes, and cost optimization despite gas price volatility.",
+      "generated_at": "2026-08-03T20:17:49.344Z",
+      "summary": "Management expects double-digit volume growth in FY27 with EBITDA margin of 18-19% and INR1,000 crore+ EBITDA, supported by capacity expansions and demand tailwinds in organized sector.",
       "guidance": [
         {
           "metric": "Volume growth",
-          "horizon": "FY27",
-          "statement": "Volume growth expected to be much better than FY26 due to strong demand momentum and multi-locational plant advantage.",
-          "specificity": "vague",
+          "horizon": "Next 9 months (FY27)",
+          "statement": "Double-digit volume growth expected",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "EBITDA margin expected to be maintained between 18% to 19%.",
+          "statement": "18% to 19% EBITDA margin for the year",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Price realization",
-          "horizon": "Q1FY27",
-          "statement": "Price realization expected to increase due to price hikes taken in early March and April.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Gas prices",
-          "horizon": "Q1FY27",
-          "statement": "Gas prices in North increased to INR62.5 per SCM in April, with South and West at INR81 and INR79 respectively.",
+          "metric": "EBITDA",
+          "horizon": "FY27",
+          "statement": "INR1,000 crore plus EBITDA overall for the year",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Production capacity",
-          "horizon": "Q1FY27",
-          "statement": "All plants running at full capacity from April 16, with outsourcing from Morbi expected to normalize as plants restart.",
-          "specificity": "vague",
-          "direction": "flat"
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Roughly INR400 crores capex planned for the year",
+          "specificity": "specific",
+          "direction": "up"
         },
         {
-          "metric": "Outsourcing from Morbi",
-          "horizon": "Q1FY27",
-          "statement": "Outsourcing from Morbi expected to reduce initially but normalize as plants restart; current outsourcing at 27-28% of total supply.",
+          "metric": "Bathware segment growth",
+          "horizon": "FY27",
+          "statement": "Kerovit brand scaling with purpose and long-term commitment",
           "specificity": "vague",
-          "direction": "down"
+          "direction": "up"
+        },
+        {
+          "metric": "Adhesives segment growth",
+          "horizon": "FY27",
+          "statement": "Expected to grow at a much faster pace due to shift towards branded products",
+          "specificity": "vague",
+          "direction": "up"
         },
         {
           "metric": "Working capital cycle",
           "horizon": "FY27",
-          "statement": "Focus on further reduction of working capital cycle beyond the 14-day improvement in Q4FY26.",
-          "specificity": "vague",
-          "direction": "down"
-        },
-        {
-          "metric": "Cost optimization",
-          "horizon": "FY27",
-          "statement": "Cost increases expected to be marginal and offset by volume growth and price hikes; administrative costs as a percentage of sales to decline.",
+          "statement": "Focus on maintaining a lean working capital cycle",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Adhesive segment growth",
-          "horizon": "FY27",
-          "statement": "Adhesive segment revenues expected to grow further as the business scales up.",
-          "specificity": "vague",
+          "metric": "Capacity expansion (Srikalahasti)",
+          "horizon": "By April 2027",
+          "statement": "10 million square meters brownfield expansion to be completed",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Bathware segment",
-          "horizon": "FY27",
-          "statement": "Bathware segment to benefit from strategic investments and market demand.",
-          "specificity": "vague",
+          "metric": "Capacity expansion (Gailpur)",
+          "horizon": "By April 2027",
+          "statement": "11 million square meters line to be added at Gailpur facility",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Export competitiveness",
-          "horizon": "FY27",
-          "statement": "Domestic market demand expected to remain strong; Morbi plants facing higher costs and operational challenges may reduce export competitiveness.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "metric": "Outsourcing share",
+          "horizon": "Next 12 months",
+          "statement": "Targeting to reach close to 40% outsourcing share",
+          "specificity": "specific",
+          "direction": "up"
         },
         {
-          "metric": "Fuel mix",
+          "metric": "Exports",
           "horizon": "FY27",
-          "statement": "Biofuel mix in North plants around 30%, providing cost advantage over Morbi.",
+          "statement": "Exports run rate at INR1,000 crores per month due to freight cost pressures",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Gas price impact on pricing",
+          "horizon": "FY27",
+          "statement": "Price differential between Kajaria and Morbi has narrowed to 20% from 40%",
           "specificity": "specific",
           "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "FY27 revenue or PAT targets",
-        "Quarterly volume or revenue guidance",
-        "Market share or competitive intensity in detail"
+        "Promoter remuneration withdrawal timeline",
+        "Future gas price trends beyond current volatility"
       ],
       "margin_drivers": [
-        "Gas price volatility and cost pass-through",
-        "Price hikes in North and Morbi regions",
-        "Volume growth and operational efficiencies",
-        "Cost optimization and administrative expense control",
-        "Biofuel mix in fuel consumption"
+        "Multi-location plants reducing gas price volatility impact",
+        "Shift from unorganized to organized sector demand",
+        "Capacity expansions with lower opex and higher ROC accretion",
+        "Technology upgrades in new plants (e.g., larger kilns, state-of-the-art machinery)"
       ]
     },
     "IIFL Capital": {
@@ -76050,110 +76051,111 @@
       "company": "Quess Corp",
       "ticker": "QUESS",
       "sector": "Services",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57792063-4601-4365-9e78-0dfb4c9a7d79.pdf",
-      "transcript_id": "quess-corp_2026-05-01",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae6c13a3-e6b9-4f1f-892a-a519473cb48b.pdf",
+      "transcript_id": "quess-corp_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-07-06T01:21:12.844Z",
-      "summary": "Management expects margin-led growth with sustained focus on high-margin segments (Professional Staffing, Overseas) and disciplined execution in FY27 and medium-term.",
+      "generated_at": "2026-08-03T20:17:41.425Z",
+      "summary": "Management expects broad-based growth with margin expansion driven by Professional Staffing and international corridors over the medium term.",
       "guidance": [
         {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Targeting 2% EBITDA margin as new baseline, with potential to reach 2.2% in FY27 and 2.4% in medium-term (3 years)",
+          "metric": "Revenue mix (higher margin businesses)",
+          "horizon": "medium-term (3-4 years)",
+          "statement": "Aspire to have 20-25% of revenues from higher margin businesses within 3-4 years",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Professional Staffing margin",
+          "metric": "Professional Staffing EBITDA",
+          "horizon": "FY27",
+          "statement": "Target Rs 30 crore quarterly EBITDA run rate for Professional Staffing",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Professional Staffing EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Guide for 11-12% EBITDA margin in Professional Staffing",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "General Staffing EBITDA margin (ex one-offs)",
+          "horizon": "FY27",
+          "statement": "Normalized EBITDA margin for General Staffing to be similar or better than current levels after investments in AI and higher-margin segments",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Headcount growth",
+          "horizon": "FY27",
+          "statement": "Expect headcount growth to continue, aided by new contracts and seasonal demand",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International corridors (Japan, Nordics, Israel, North America)",
           "horizon": "medium-term",
-          "statement": "Expect margins to remain in 11-12% range for medium-term",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Overseas business margin",
-          "horizon": "medium-term",
-          "statement": "Targeting blended margin of 6%+ for overseas business",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "General Staffing margin",
-          "horizon": "FY27",
-          "statement": "Anticipating higher clip rate growth in headcount, which may pressure margins temporarily",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Revenue growth (Professional Staffing)",
-          "horizon": "FY27",
-          "statement": "Focus on scaling Professional Staffing business",
+          "statement": "Japan corridor already signed and in execution; Europe (Nordics) in advanced stages; Israel and North America in discussion",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth (Overseas business)",
+          "metric": "Overseas business growth",
           "horizon": "FY27",
-          "statement": "Focus on scaling Overseas business",
+          "statement": "Continue to deliver consistent double-digit growth across geographies",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "AI-led solutions investment",
-          "horizon": "next 3 years",
-          "statement": "Building AI-driven recruitment and workforce solutions with a 3-year plan",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Blue-collar marketplace development",
-          "horizon": "next 3 years",
-          "statement": "Developing a blue-collar marketplace as part of digital platforms strategy",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "GCC contribution to Professional Staffing headcount",
+          "metric": "General Staffing contracts (fixed vs variable markup)",
           "horizon": "FY27",
-          "statement": "GCCs account for 71% of headcount in Professional Staffing; no further upside guidance provided",
+          "statement": "70% of contracts in General Staffing are fixed markup, 30% variable; new contracts have higher variable component (38% in Q1)",
           "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Discontinued projects impact",
-          "horizon": "FY27",
-          "statement": "No further known discontinued projects of similar scale expected in FY27",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Middle East business",
-          "horizon": "FY27",
-          "statement": "Continued monitoring of geopolitical situation; portfolio diversification expected to mitigate risks",
-          "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Return on Equity (ROE)",
+          "metric": "GCC-led growth in Professional Staffing",
           "horizon": "FY27",
-          "statement": "Focus on driving higher return on capital",
+          "statement": "GCCs contribute 68% of Professional Staffing revenue; India has 2,407 GCCs, only 10% captured by Quess, with potential for further growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Headcount target",
+          "horizon": "2030",
+          "statement": "Aspire to reach 1 million headcount by 2030",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "General Staffing higher-margin segments (Manufacturing, Construction, VAS)",
+          "horizon": "FY27",
+          "statement": "Focus on higher-value segments like construction, manufacturing, and VAS to drive margin improvement",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Festive season demand",
+          "horizon": "H2FY27",
+          "statement": "Expect demand from client base ahead of festive season, which is typically the strongest quarter",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "specific revenue growth targets for FY27",
-        "impact of US headcount reductions on GCCs",
-        "detailed capex allocation for AI-led solutions"
+        "Specific revenue or EBITDA targets for General Staffing segment",
+        "Breakdown of overseas revenue growth by geography",
+        "Impact of FTAs on overseas business",
+        "Detailed capex plans for Quess 2.0 initiatives"
       ],
       "margin_drivers": [
-        "shift towards higher-margin segments (Professional Staffing, Overseas)",
-        "GCC-led engagements in Professional Staffing",
-        "portfolio diversification in overseas markets",
-        "pricing discipline and cost control",
-        "operational efficiency and delivery improvements",
-        "AI-led solutions and technology investments"
+        "Professional Staffing (GCC-led, high-value roles)",
+        "International corridors (dollar-denominated, higher margin)",
+        "Higher-margin segments in General Staffing (Manufacturing, Construction, VAS)",
+        "AI-led sourcing and productivity initiatives",
+        "Technology and platform investments",
+        "Variable markup contracts in General Staffing"
       ]
     },
     "Onward Technolog": {
@@ -79618,109 +79620,112 @@
       "company": "R R Kabel",
       "ticker": "RRKABEL",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b4ff57e-8166-4dca-a340-7694ef5266dd.pdf",
-      "transcript_id": "r-r-kabel_2026-05-01",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae406d55-ef5c-4a29-8087-6759bcca9256.pdf",
+      "transcript_id": "r-r-kabel_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-07-07T11:18:38.309Z",
-      "summary": "Management expects steady growth in wires & cables with 16-18% volume CAGR through FY28, supported by capacity additions and Project RRise, while FMEG targets breakeven in FY27.",
+      "generated_at": "2026-08-03T20:18:19.310Z",
+      "summary": "Management expects sustained volume growth, margin expansion, and FMEG profitability improvement in FY27, supported by capacity additions and premium product focus.",
       "guidance": [
         {
           "metric": "Wires & Cables volume growth",
-          "horizon": "FY27-FY28",
-          "statement": "16-18% CAGR volume growth target under Project RRise",
+          "horizon": "FY27",
+          "statement": "Expecting ~18% year-on-year volume growth for FY27",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Wires & Cables EBIT margin",
+          "metric": "Wires & Cables EBITDA margin",
           "horizon": "FY28",
-          "statement": "Target of 10.5% EBIT margin in wires & cables segment by FY28",
+          "statement": "Maintaining overall margin guidance of 10.5% by FY28 for Wires & Cables",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "FMEG breakeven",
+          "metric": "FMEG profitability",
           "horizon": "FY27",
-          "statement": "Targeting breakeven in FMEG business by FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "FMEG revenue growth",
-          "horizon": "FY27",
-          "statement": "Targeting 20-25% value growth in FMEG business",
+          "statement": "Expecting to achieve breakeven on a yearly basis in FY27",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Capex",
-          "horizon": "FY26-FY28",
-          "statement": "INR1,200 crore capex program progressing as planned, with major outflows in FY27",
+          "horizon": "FY27",
+          "statement": "Planning capex of INR600-650 crores for FY27, with 80% focused on cable side",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization - Wires",
+          "horizon": "FY27",
+          "statement": "Wires capacity utilization around 65-70%",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Export demand impact",
-          "horizon": "Q1FY27",
-          "statement": "Short-term impact on exports due to Middle East disruptions, but long-term positive outlook",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Domestic demand",
-          "horizon": "Q1FY27",
-          "statement": "Domestic demand remains normal with no major destocking observed",
-          "specificity": "vague",
+          "metric": "Capacity utilization - Cables",
+          "horizon": "FY27",
+          "statement": "Cables capacity utilization around 90%",
+          "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Volume growth (Q4FY26)",
+          "metric": "Export growth",
+          "horizon": "FY27",
+          "statement": "Expecting normalization and recovery in Middle East exports during FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Industry growth",
           "horizon": "Q1FY27",
-          "statement": "Expects high single-digit to low double-digit volume growth to continue in coming quarters",
-          "specificity": "vague",
+          "statement": "Assessing industry growth at 10-12% for Wires & Cables in Q1FY27",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Cable capacity expansion",
+          "metric": "Pricing growth",
+          "horizon": "Q2FY27",
+          "statement": "Expecting ~30% pricing growth in Q2FY27 if current prices remain stable",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "FMEG premium mix",
           "horizon": "FY27",
-          "statement": "Capacity additions every six months to support 18% volume growth target",
+          "statement": "Aiming for 25% of FMEG revenues from premium products",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Data center opportunity",
+          "horizon": "medium-term",
+          "statement": "Data center remains a medium-term growth driver with continuous new customer additions",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "FMEG margin improvement",
-          "horizon": "FY27",
-          "statement": "FMEG losses reduced compared to last year and on track to achieve breakeven",
+          "metric": "U.S. export opportunity",
+          "horizon": "medium-term",
+          "statement": "U.S. seen as a very big opportunity for future exports, with approvals and customer onboarding in progress",
           "specificity": "vague",
           "direction": "up"
-        },
-        {
-          "metric": "Wires & Cables revenue growth",
-          "horizon": "FY27",
-          "statement": "Volume growth expected to be better than industry growth",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Pricing actions",
-          "horizon": "Q1FY27",
-          "statement": "Continuous pricing actions to match raw material cost volatility",
-          "specificity": "vague",
-          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "peak revenue for cable and wire segment as of 31st March 2026",
-        "quantification of inventory gains in Q4FY26"
+        "FY28 revenue growth",
+        "FY28 EBITDA margin",
+        "FY28 PAT",
+        "Specific capex breakdown beyond FY27",
+        "FMEG revenue growth"
       ],
       "margin_drivers": [
-        "operating leverage",
         "scale benefits",
-        "better product mix",
-        "raw material price pass-through",
-        "operational efficiency",
-        "portfolio optimization"
+        "product mix improvement",
+        "cost absorption",
+        "premiumization",
+        "operating leverage in FMEG",
+        "commodity management"
       ]
     },
     "Seshaasai Tech.": {
@@ -102403,8 +102408,341 @@
         "Established customer relationships",
         "Growing fluorination expertise"
       ]
+    },
+    "Ambuja Cements": {
+      "company": "Ambuja Cements",
+      "ticker": "AMBUJACEM",
+      "sector": "Commodities",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c004e2f-7b01-40fd-a1d1-5f25630a34a0.pdf",
+      "transcript_id": "ambuja-cements_2026-08-03",
+      "provider": "mistral",
+      "generated_at": "2026-08-03T20:17:00.741Z",
+      "summary": "Ambuja Cements expects FY27 to deliver 8% volume growth, INR250/ton cost savings, and EBITDA margin expansion, supported by capacity additions and operational efficiencies.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Targeting 8% volume growth for the financial year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cost per metric ton (PMT)",
+          "horizon": "FY27",
+          "statement": "Targeting total cost of INR4,250 per metric ton by end of FY27",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Additional cost savings",
+          "horizon": "FY27",
+          "statement": "Targeting approximately INR250 per ton of additional cost savings",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Installed capacity",
+          "horizon": "FY27",
+          "statement": "Capacity to increase to 119 million tons by end of FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Green power share",
+          "horizon": "FY28",
+          "statement": "Targeting 60% green power share by FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "RE power capacity",
+          "horizon": "FY28",
+          "statement": "Targeting 1,122 MW of RE power capacity by FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "WHRS capacity",
+          "horizon": "FY28",
+          "statement": "WHRS capacity stands at 228 MW, with further additions expected",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex guidance of INR6,500 crores for FY27",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Trade sales share",
+          "horizon": "FY27",
+          "statement": "Targeting upwards of 75% trade sales in subsequent quarters",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Clinker factor",
+          "horizon": "FY27",
+          "statement": "Clinker factor improved to 64%, with further reductions expected",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Blended cement share",
+          "horizon": "FY27",
+          "statement": "Blended cement share at 85%, with further improvements targeted",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sequential cost pressure",
+          "horizon": "Q2FY27",
+          "statement": "Expecting some cost pressure in Q2FY27 due to geopolitical factors, but mitigated by INR130-150/ton savings",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "RMC EBITDA margins for future periods"
+      ],
+      "margin_drivers": [
+        "premiumization",
+        "blended cement share",
+        "clinker factor reduction",
+        "operational efficiency",
+        "green power utilization",
+        "logistics optimization",
+        "raw material optimization"
+      ]
+    },
+    "ACC": {
+      "company": "ACC",
+      "ticker": "ACC",
+      "sector": "Commodities",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f108762-8405-46bc-8ad5-511c59f05447.pdf",
+      "transcript_id": "acc_2026-08-03",
+      "provider": "mistral",
+      "generated_at": "2026-08-03T20:17:08.697Z",
+      "summary": "Ambuja Cements expects sustained volume growth, cost leadership, and margin expansion through capacity additions, premiumization, and operational efficiencies in FY27.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Targeting 8% volume growth for the financial year.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Operating cost per metric ton (PMT)",
+          "horizon": "FY27",
+          "statement": "Targeting total operating cost of INR 4,250 PMT by end of FY27.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Additional cost savings",
+          "horizon": "FY27",
+          "statement": "Expecting approximately INR 250 PMT of additional cost savings to achieve INR 4,250 PMT target.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Installed capacity",
+          "horizon": "FY27",
+          "statement": "Capacity to increase to 119 million tons by end of FY27 with addition of 10.2 million tons.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Green power share",
+          "horizon": "FY28",
+          "statement": "Targeting 60% green power share by FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Renewable energy capacity",
+          "horizon": "FY28",
+          "statement": "RE power capacity to reach 1,122 MW by FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "WHRS capacity",
+          "horizon": "FY28",
+          "statement": "WHRS capacity to reach 230 MW by FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex guidance of INR 6,500 crores for FY27.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Trade sales share",
+          "horizon": "FY27",
+          "statement": "Targeting trade sales share of upwards of 75% in subsequent quarters.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Blended cement share",
+          "horizon": "FY27",
+          "statement": "Aiming to further improve blended cement share beyond current 85%.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Power cost per kWh",
+          "horizon": "FY27",
+          "statement": "Targeting reduction in power cost from INR 5.9 to INR 4.9 per kWh.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Clinker factor",
+          "horizon": "FY27",
+          "statement": "Clinker factor improved to 64% and aiming to reduce further.",
+          "specificity": "vague",
+          "direction": "down"
+        }
+      ],
+      "refused_to_guide": [
+        "Company merger plans for ACC and Ambuja brands",
+        "RMC segment margin strategy"
+      ],
+      "margin_drivers": [
+        "Premiumization",
+        "Operational excellence",
+        "Structural cost leadership",
+        "Renewable energy utilization",
+        "Blended cement share",
+        "Logistics optimization",
+        "Raw material optimization",
+        "Captive coal integration",
+        "Kiln efficiency",
+        "Digital transformation"
+      ]
+    },
+    "Orient Cement": {
+      "company": "Orient Cement",
+      "ticker": "ORIENTCEM",
+      "sector": "Commodities",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a73f5041-d4cb-4670-b030-11a607cc79f0.pdf",
+      "transcript_id": "orient-cement_2026-08-03",
+      "provider": "mistral",
+      "generated_at": "2026-08-03T20:17:16.808Z",
+      "summary": "Ambuja Cement expects sustained demand growth, cost leadership, and capacity expansion to drive profitability and volume growth in FY27 and beyond.",
+      "guidance": [
+        {
+          "metric": "Volume growth",
+          "horizon": "FY27",
+          "statement": "Targeting 8% volume growth for the financial year, supported by trade volume improvements and new capacity additions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Aiming for INR931 per ton EBITDA, with additional cost savings of INR250 per ton to reach INR4,250 per ton total cost.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Total cost per ton",
+          "horizon": "FY27",
+          "statement": "Targeting total cost of INR4,250 per ton by end of FY27 through structural efficiency initiatives.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Capacity expansion",
+          "horizon": "FY27",
+          "statement": "Capacity to increase to 119 million tons by end of FY27 with addition of 10.2 million tons.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Green power share",
+          "horizon": "FY28",
+          "statement": "Targeting 60% green power share by FY28, with incremental capacity additions and WHRS improvements.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Power cost per kWh",
+          "horizon": "FY27",
+          "statement": "Power cost reduced from INR5.9 to INR4.9 per kWh, with further reductions expected through renewable energy and efficiency gains.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Clinker factor",
+          "horizon": "FY27",
+          "statement": "Clinker factor improved to 64%, with further reductions expected to enhance cost efficiency.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Blended cement share",
+          "horizon": "FY27",
+          "statement": "Blended cement share increased to 85%, with further improvements expected in trade and non-trade segments.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Trade sales share",
+          "horizon": "FY27",
+          "statement": "Trade sales share improved to 78%, with focus on increasing it further to over 75% in subsequent quarters.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "FY27-FY28",
+          "statement": "Capex guidance of INR6,500 crores for FY27, split between growth and efficiency capex.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Operating cost per ton",
+          "horizon": "FY27",
+          "statement": "Net operating cost reduced to INR4,241 per ton, with further reductions expected through logistics and raw material optimization.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Market share (trade segment)",
+          "horizon": "FY27",
+          "statement": "Sustained and improved market share in the trade segment, with focus on premiumization and brand equity.",
+          "specificity": "vague",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "industry pricing trends beyond current quarter",
+        "specific EBITDA margin for Q2FY27",
+        "RMC segment margins for future periods"
+      ],
+      "margin_drivers": [
+        "premiumization",
+        "blended cement share",
+        "clinker factor reduction",
+        "green power utilization",
+        "logistics optimization",
+        "operational efficiency",
+        "renewable energy adoption"
+      ]
     }
   },
-  "generated_at": "2026-08-03T18:23:53.984Z",
-  "count": 1053
+  "generated_at": "2026-08-03T20:18:28.524Z",
+  "count": 1056
 }
