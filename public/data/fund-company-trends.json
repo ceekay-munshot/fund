@@ -1,13 +1,79 @@
 {
-  "generated_at": "2026-08-04T16:10:05.407Z",
+  "generated_at": "2026-08-04T16:27:25.712Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 16,
-    "gained": 321,
-    "consistent": 644,
-    "companies_evaluated": 965
+    "dropped": 22,
+    "gained": 324,
+    "consistent": 637,
+    "companies_evaluated": 972
   },
   "dropped": [
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "TruAlt Bioenergy",
+      "ticker": "TRUALT",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-04",
+      "last_seen_date": "2026-05-28",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Ivalue Infosolut",
+      "ticker": "IVALUE",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-04",
+      "last_seen_date": "2026-06-15",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "TruAlt Bioenergy",
+      "ticker": "TRUALT",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-04",
+      "last_seen_date": "2026-05-28",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "ADF Foods",
+      "ticker": "ADFFOODS",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-04",
+      "last_seen_date": "2026-06-08",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "alchemy",
+      "fund_name": "Alchemy Capital",
+      "company": "KPIT Technologi.",
+      "ticker": "KPITTECH",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-04",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Aequs",
+      "ticker": "AEQUS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-04",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
     {
       "fund_id": "white-pine",
       "fund_name": "White Pine Investment Management",
@@ -186,6 +252,102 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Blue Water",
+      "ticker": "BLUEWATER",
+      "sector": "Services",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "bowhead",
+      "fund_name": "Bowhead India",
+      "company": "Tilaknagar Inds.",
+      "ticker": "TI",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "valuequest",
+      "fund_name": "ValueQuest",
+      "company": "Mankind Pharma",
+      "ticker": "MANKIND",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "singularity",
+      "fund_name": "Singularity AMC",
+      "company": "TruAlt Bioenergy",
+      "ticker": "TRUALT",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "enam",
+      "fund_name": "Enam",
+      "company": "Suzlon Energy",
+      "ticker": "SUZLON",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Best Agrolife",
+      "ticker": "BESTAGRO",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "aequitas",
+      "fund_name": "Aequitas",
+      "company": "Jagsonpal Pharma",
+      "ticker": "JAGSNPHARM",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "stallion",
+      "fund_name": "Stallion Asset",
+      "company": "Pricol Ltd",
+      "ticker": "PRICOLLTD",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Pricol Ltd",
+      "ticker": "PRICOLLTD",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Syrma SGS Tech.",
+      "ticker": "SYRMA",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "nexus-equity",
+      "fund_name": "Nexus Equity",
+      "company": "Macpower CNC",
+      "ticker": "MACPOWER",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-04"
+    },
+    {
+      "fund_id": "negen",
+      "fund_name": "Negen Capital",
+      "company": "Triven.Engg.Ind.",
+      "ticker": "TRIVENI",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-04"
+    },
     {
       "fund_id": "maximal",
       "fund_name": "Maximal Capital",
@@ -1011,14 +1173,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Capri Global",
-      "ticker": "CGCL",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "aequitas",
       "fund_name": "Aequitas",
       "company": "DCM Shriram",
@@ -1387,22 +1541,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "boring",
-      "fund_name": "Boring AMC",
-      "company": "S H Kelkar & Co.",
-      "ticker": "SHK",
-      "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "nafa",
-      "fund_name": "Nafa Asset Managers",
-      "company": "Westlife Food",
-      "ticker": "WESTLIFE",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sameeksha",
       "fund_name": "Sameeksha Capital",
       "company": "Sheela Foam",
@@ -1440,14 +1578,6 @@
       "company": "JSW Cement",
       "ticker": "JSWCEMENT",
       "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Home First Finan",
-      "ticker": "HOMEFIRST",
-      "sector": "Financial Services",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -1819,14 +1949,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "maximal",
-      "fund_name": "Maximal Capital",
-      "company": "Team Lease Serv.",
-      "ticker": "TEAMLEASE",
-      "sector": "Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sameeksha",
       "fund_name": "Sameeksha Capital",
       "company": "Muthoot Finance",
@@ -2187,14 +2309,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sameeksha",
-      "fund_name": "Sameeksha Capital",
-      "company": "P N Gadgil Jewe.",
-      "ticker": "PNGJL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "valuequest",
       "fund_name": "ValueQuest",
       "company": "Navin Fluo.Intl.",
@@ -2224,30 +2338,6 @@
       "company": "Petronet LNG",
       "ticker": "PETRONET",
       "sector": "Energy",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "Jagsonpal Pharma",
-      "ticker": "JAGSNPHARM",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "Jagsonpal Pharma",
-      "ticker": "JAGSNPHARM",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "maximal",
-      "fund_name": "Maximal Capital",
-      "company": "Jagsonpal Pharma",
-      "ticker": "JAGSNPHARM",
-      "sector": "Healthcare",
       "latest_call_date": "2026-05-01"
     },
     {
