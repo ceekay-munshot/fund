@@ -16891,106 +16891,111 @@
       "company": "Aequs",
       "ticker": "AEQUS",
       "sector": "Industrials",
-      "concall_date": "2026-06-02",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bfee204-6e90-44b3-9c26-b547944949cf.pdf",
-      "transcript_id": "aequs_2026-06-02",
+      "concall_date": "2026-08-04",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9338519-b657-4364-8c1b-c5a22e74e3cf.pdf",
+      "transcript_id": "aequs_2026-08-04",
       "provider": "mistral",
-      "generated_at": "2026-06-24T20:23:01.517Z",
-      "summary": "Aequs expects strong growth in FY27 driven by aerospace expansion and consumer segment ramp-up, targeting 45-50% revenue growth and EBITDA doubling.",
+      "generated_at": "2026-08-04T23:15:22.379Z",
+      "summary": "Aequs expects strong FY27 revenue growth with aerospace leading, consumer scaling toward breakeven, and long-term capacity expansion in Hosur by FY29.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Consolidated revenue growth of 45% to 50%",
+          "statement": "Approximately 45% to 50% top-line revenue growth for the full year.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Aerospace Revenue",
+          "metric": "Operational EBITDA",
           "horizon": "FY27",
-          "statement": "25% to 30% revenue growth with EBITDA margins maintained at 20% at segment level",
-          "specificity": "specific",
+          "statement": "Doubling of operational EBITDA, weighted to the second half as consumer utilization builds.",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Consumer Revenue",
+          "metric": "Aerospace revenue growth",
           "horizon": "FY27",
-          "statement": "125% to 150% revenue growth",
+          "statement": "Grow aerospace revenue profitably 25% to 30% with segment EBITDA margins above 20%.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Consumer EBITDA",
-          "horizon": "Q4FY27",
-          "statement": "Break-even EBITDA for consumer segment",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Consolidated PAT",
-          "horizon": "H1FY28",
-          "statement": "Break-even consolidated PAT",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Consumer Utilization",
+          "metric": "Aerospace segment EBITDA margin",
           "horizon": "FY27",
-          "statement": "Capacity utilization target of 40% to 50% by year-end",
+          "statement": "Segment EBITDA margins above 20%.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Aerospace Order Book",
+          "metric": "Consumer EBITDA breakeven",
+          "horizon": "Q4 FY27",
+          "statement": "Move consumer EBITDA breakeven by Q4 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Consumer utilization",
           "horizon": "FY27",
-          "statement": "Order book supports 25% to 30% revenue growth",
+          "statement": "Utilization to improve through the course of the year as ramp progresses.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Consumer capacity utilization",
+          "horizon": "Q4 FY27",
+          "statement": "Target 40% to 50% capacity utilization by Q4 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hosur facility revenue kickoff",
+          "horizon": "FY29",
+          "statement": "Revenues to kick off from FY29 from the Hosur ecosystem.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hosur facility investment",
+          "horizon": "10 years",
+          "statement": "Committed INR1,900 crores investment in Hosur facility including JVs over a period of 10 years.",
           "specificity": "specific",
           "direction": "unclear"
         },
         {
-          "metric": "Consumer Capex",
-          "horizon": "FY27",
-          "statement": "Planned capex of INR500 crores for consumer segment",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Aerospace Capex",
-          "horizon": "FY27",
-          "statement": "Planned capex of INR160 crores for aerospace segment",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Consumer EBITDA Margin (Long-term)",
-          "horizon": "Long-term",
-          "statement": "Target of 20% EBITDA margin at optimum utilization",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Aerospace EBITDA Margin",
-          "horizon": "FY27",
-          "statement": "Maintain 20% EBITDA margin at segment level",
+          "metric": "Consumer asset turns",
+          "horizon": "steady state",
+          "statement": "Consumer asset turns overall would be about 1.5x.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "PLI Income",
-          "horizon": "FY27",
-          "statement": "First year of eligibility for PLI benefits",
+          "metric": "Consumer ROCE (steady state)",
+          "horizon": "steady state",
+          "statement": "ROCE profile on a steady state basis would be in the range of 18% to 20% similar to aerospace.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "PAT milestones",
+          "horizon": "FY28-FY31",
+          "statement": "PAT break-even by H1 FY28, consumer PAT break-even by FY30, and decent PAT in FY31 translating to about 20% steady state ROCE in FY31.",
           "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "5-10 year CAGR for aerospace revenue"
+        "specific margins for the Safran A320 wheels contract",
+        "PAT margin estimates beyond FY31",
+        "detailed segment-wise capacity utilization for consumer businesses (electronics, cookware, toys)",
+        "future foreign exchange impact on other income"
       ],
       "margin_drivers": [
-        "Aerospace segment margin sustainability",
-        "Consumer segment margin recovery with utilization improvement",
-        "Vertical integration into engine components",
-        "Operating leverage from capacity expansion"
+        "aerospace segment EBITDA margins above 20%",
+        "consumer EBITDA breakeven by Q4 FY27",
+        "consumer utilization improvement to 40%-50%",
+        "operational leverage from existing asset base",
+        "value addition across integrated manufacturing ecosystem",
+        "scale-up of consumer electronics production"
       ]
     },
     "Arham Tech": {
@@ -75046,112 +75051,111 @@
       "company": "Privi Speci.",
       "ticker": "PRIVISCL",
       "sector": "Commodities",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f29c2632-f8a9-462c-87aa-af3c13e6110d.pdf",
-      "transcript_id": "privi-speci_2026-05-01",
+      "concall_date": "2026-08-03",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74b295b7-d491-4d2b-a417-706ddd289f63.pdf",
+      "transcript_id": "privi-speci_2026-08-03",
       "provider": "mistral",
-      "generated_at": "2026-07-05T18:43:38.363Z",
-      "summary": "Management expects 20% revenue growth and sustained 20%+ EBITDA margins over the next 3-4 years, driven by capacity expansion, product mix improvement, and operational efficiencies.",
+      "generated_at": "2026-08-04T23:15:29.877Z",
+      "summary": "Management reaffirms confidence in achieving Rs. 5,000 crore revenue and Rs. 1,000 crore EBITDA over the next 3-4 years with disciplined execution of expansion plans and specialty product pipeline.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "next 3-4 years",
-          "statement": "Targeting INR5,000 crore revenue, representing ~2x growth from current levels",
+          "statement": "Target of Rs. 5,000 crore revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
+          "metric": "EBITDA",
           "horizon": "next 3-4 years",
-          "statement": "Expect to sustain 20% plus EBITDA margins going forward",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Expect to maintain similar margins (25%+) going forward",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "First phase of capex expansion to be completed by June 30, 2026, with total installed capacity increasing to 54,000 metric tons per annum",
+          "statement": "Target of Rs. 1,000 crore EBITDA",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Capex",
-          "horizon": "medium-term",
-          "statement": "Phase 2 of multi-speciality aroma chemicals project progressing as planned, with additional capacities to be commissioned progressively over coming quarters",
+          "metric": "EBITDA margin",
+          "horizon": "near future",
+          "statement": "EBITDA margins to sustain at ~20% driven by operational efficiencies, improved product mix, and increased capacities",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Revenue (PRIGIV JV)",
-          "horizon": "next 3-4 years",
-          "statement": "PRIGIV expected to contribute INR300 crore revenue with decent margins in the next 3-4 years",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue (PRIGIV JV)",
+          "metric": "Capacity",
           "horizon": "FY27",
-          "statement": "PRIGIV expected to achieve INR130 crore sales in FY27, up from INR55 crore in FY26",
+          "statement": "Phase-1 expansion to increase capacity from 48,000 to 54,000 metric tons, commercialization expected shortly (mid-August 2026)",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Capacity",
-          "horizon": "2028",
-          "statement": "After first 3 phases of capex, Privi will have ~72,000 metric tons of capacities on its own",
+          "horizon": "FY28",
+          "statement": "Phase-2 expansion to increase capacity from 54,000 to 66,000 metric tons by September 2027",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "New product commercialization",
-          "horizon": "Q1FY27",
-          "statement": "Targeting commercialization of ethyl maltol, maltol, and cyclopentanone by end of Q1 next financial year (June 2026)",
+          "metric": "Merger",
+          "horizon": "FY27",
+          "statement": "Merger of Privi Speciality Chemicals, Privi Fine Sciences, and Privi Biotechnologies expected to be completed by this financial year-end",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Biotech demonstration plant",
-          "horizon": "medium-term",
-          "statement": "Biowaste-to-value-added products demonstration plant (INR70-75 crore capex) underway with basic and detailed engineering in progress",
+          "metric": "JV contribution (PRIGIV)",
+          "horizon": "near future",
+          "statement": "Meaningful contributions expected from PRIGIV JV as it scales further",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Furfural backward integration",
-          "horizon": "FY28-FY29",
-          "statement": "Furfural backward integration timeline expected post 2 years, likely around FY28-FY29",
+          "metric": "Bio-based pilot plant",
+          "horizon": "12-15 months post-commissioning",
+          "statement": "Demonstration plant in Navi Mumbai (2 tons biomass/day) to be commissioned, followed by 12-15 months of operation to study manufacturing nuances before scaling up",
           "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "CAGR",
+          "horizon": "medium-term",
+          "statement": "Confidence in achieving 20% CAGR with similar EBITDA margins",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Working capital days",
+          "metric": "Working capital cycle",
           "horizon": "FY27",
-          "statement": "Working capital days may increase by 3-4% due to price increases and delayed payments, but expected to remain within manageable levels",
+          "statement": "Working capital cycle expected to improve further from current 108 days",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Raw material cost (RMC)",
+          "horizon": "FY27",
+          "statement": "RMC as a percentage of sales expected to be in the range of 52%-54%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Specialty product pipeline",
+          "horizon": "medium-term",
+          "statement": "Introduction of 10 advanced specialty products as part of Phase-2 and Phase-3 expansion program",
           "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "spot customer behavior details",
-        "raw material cost inflation specifics for FY27",
-        "detailed margin breakdown for new products (Silver Amber, Amber Silk, Privilege, Privitolide)"
+        "product-wise revenue mix",
+        "volume growth on a quarterly basis",
+        "specific operating metrics for bio-based pilot plant (e.g., conversion yield, product purity, cost per kg)",
+        "minimum ROCE target for bio-based projects",
+        "process efficiency benchmarks against peers"
       ],
       "margin_drivers": [
         "operational efficiencies",
         "improved product mix",
         "increased capacities",
-        "cost discipline",
-        "value-added products contribution",
-        "passing on price increases to customers",
-        "energy efficiency initiatives",
-        "process optimization"
+        "cost optimization initiatives",
+        "economies of scale from volume growth"
       ]
     },
     "Welspun Corp": {
@@ -95881,95 +95885,48 @@
       "company": "C2C Advanced",
       "ticker": "C2C",
       "sector": "Industrials",
-      "concall_date": "2025-11-01",
-      "transcript_url": "https://nsearchives.nseindia.com/corporate/C2CAS_25112025144548_Transcript_20_Nov_2025_F.pdf",
-      "transcript_id": "c2c-advanced_2025-11-01",
-      "provider": "mistral",
-      "generated_at": "2026-07-12T13:50:44.887Z",
-      "summary": "Management expects strong growth in defence and industrial software platforms, driven by proprietary IP and global expansion, with recurring revenue opportunities from scalable solutions.",
+      "concall_date": "2026-08-04",
+      "transcript_url": "https://nsearchives.nseindia.com/corporate/C2CAS_04082026110256_Transcript-_27th_July_2026_F__1__C2C_ADV.pdf",
+      "transcript_id": "c2c-advanced_2026-08-04",
+      "provider": "groq",
+      "generated_at": "2026-08-04T23:15:13.803Z",
+      "summary": "C2C Advanced Systems expects to collect a minimum of 80% of receivables outstanding beyond 180 days by the end of September 2026 and has a robust future strategy with high margin opportunities overseas.",
       "guidance": [
         {
-          "metric": "Revenue growth",
-          "horizon": "medium-term",
-          "statement": "Revenue growth is expected to accelerate driven by proprietary solutions and global expansion in defence and industrial sectors.",
-          "specificity": "vague",
+          "metric": "Receivables collection",
+          "horizon": "September 2026",
+          "statement": "Expect to collect a minimum of 80% of receivables outstanding beyond 180 days",
+          "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Order book",
-          "horizon": "medium-term",
-          "statement": "Order book is growing rapidly with larger ticket sizes and increased client base, particularly in engineering and system integration.",
+          "horizon": "Next two years",
+          "statement": "Have over ₹1,000 crores worth of potential orders, with some orders already received and declared to the stock exchange",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Recurring revenue",
-          "horizon": "medium-term",
-          "statement": "The company aims to build recurring revenue streams through scalable proprietary platforms like MAGI, similar to software licensing models.",
+          "metric": "Margin",
+          "horizon": "Next two years",
+          "statement": "Overseas margins are expected to be higher, while Indian margins are not expected to exceed 25% net",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Global expansion",
-          "horizon": "medium-term",
-          "statement": "Expansion into NATO markets and other global regions is a key focus area for future growth.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Proprietary solutions",
-          "horizon": "medium-term",
-          "statement": "Close to 15 proprietary solutions are currently licensable, with 10 more in development, expected to drive future revenue.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Platform adoption (MAGI)",
-          "horizon": "medium-term",
-          "statement": "MAGI platform is expected to see broader adoption across defence, industrial, and security sectors due to its scalability and integration capabilities.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Defence exports",
-          "horizon": "FY30",
-          "statement": "India is expected to achieve $6 billion in defence exports by FY30, positioning the company to benefit from this trend.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Dual-use applications",
-          "horizon": "medium-term",
-          "statement": "Dual-use applications in industrial and defence sectors will continue to drive revenue diversification.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "R&D investment",
-          "horizon": "medium-term",
-          "statement": "Continued investment in R&D, particularly in IP creation and platform development, is expected to sustain innovation-led growth.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "P&L centres growth",
-          "horizon": "medium-term",
-          "statement": "The number of P&L centres is expected to grow, with each centre scaling rapidly in terms of revenue and client base.",
+          "metric": "Growth",
+          "horizon": "Next two years",
+          "statement": "Expect growth, but exact numbers not provided",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "FY26/FY27 revenue or profitability targets",
-        "Capex guidance for future periods",
-        "Specific order book size or revenue mix for future quarters"
+        "Exact growth numbers for the next two years"
       ],
       "margin_drivers": [
-        "Proprietary IP and scalable platforms (e.g., MAGI)",
-        "Recurring revenue from licensable solutions",
-        "Global expansion and export opportunities",
-        "Dual-use applications in defence and industrial sectors",
-        "Efficiency gains from P&L-centric organizational structure"
+        "Overseas contracts with high margins",
+        "Command and control systems expertise"
       ]
     },
     "ASM Technologies": {
@@ -103119,6 +103076,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-04T21:54:03.167Z",
+  "generated_at": "2026-08-04T23:15:53.757Z",
   "count": 1059
 }
