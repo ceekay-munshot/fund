@@ -102714,8 +102714,103 @@
         "operational efficiency",
         "renewable energy adoption"
       ]
+    },
+    "Capillary Tech.": {
+      "company": "Capillary Tech.",
+      "ticker": null,
+      "sector": null,
+      "concall_date": "2026-05-01",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b60964ca-b823-4b2d-bcf4-d280258392bd.pdf",
+      "transcript_id": "capillary-tech_2026-05-01",
+      "provider": "mistral",
+      "generated_at": "2026-08-04T15:10:07.349Z",
+      "summary": "Management expects continued revenue growth and margin expansion driven by high NRR, AI-led product adoption, and M&A integration, though FY27 margin expansion may slow due to SessionM acquisition.",
+      "guidance": [
+        {
+          "metric": "Revenue growth",
+          "horizon": "FY27",
+          "statement": "Revenue growth to continue driven by high NRR (110-115%) and new customer wins, though absolute growth may be impacted by SessionM acquisition.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expansion to continue in absolute terms, but percentage growth may slow due to SessionM acquisition; Q4 FY26 margins (19%) sustainable going forward.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "NRR (Net Retention Rate)",
+          "horizon": "medium-term",
+          "statement": "Core Capillary platform NRR expected to remain in 110-115% range, driven by platform usage, product upgrades, and customer expansion.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "AIRA stack revenue contribution",
+          "horizon": "next few quarters",
+          "statement": "AIRA stack revenue expected to grow significantly as adoption accelerates, with potential to increase NRRs.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "M&A integration (SessionM)",
+          "horizon": "12-18 months",
+          "statement": "SessionM acquisition expected to contribute to revenue growth, with EBITDA expansion cycle taking 1-2 years as customers upgrade to Capillary platform.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "M&A integration (Kognitiv)",
+          "horizon": "ongoing",
+          "statement": "Kognitiv customers already contributing to EBITDA, with upgrades accelerating due to AIRA stack interest.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Gross margins expected to improve further due to NRR-led expansion and M&A customer upgrades (30% to 65% gross margin).",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Cash generation",
+          "horizon": "FY27",
+          "statement": "Business expected to continue generating strong cash flows, with free cash flow to PAT remaining healthy.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "AI-led platform adoption",
+          "horizon": "medium-term",
+          "statement": "AIRA stack adoption expected to accelerate, replacing parts of Insights and Engage stacks, expanding TAM beyond loyalty platform.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Customer upgrade timelines (M&A)",
+          "horizon": "12-18 months",
+          "statement": "New AI-led upgrade platform expected to reduce migration timelines to 12-18 months, improving margin and integration pace.",
+          "specificity": "specific",
+          "direction": "flat"
+        }
+      ],
+      "refused_to_guide": [
+        "FY27 revenue or EBITDA margin percentage targets",
+        "SessionM's specific revenue or EBITDA contribution in FY27",
+        "Long-term steady-state EBITDA margin target"
+      ],
+      "margin_drivers": [
+        "NRR-led expansion (85-90% gross margins)",
+        "M&A customer upgrades (30% to 65% gross margin improvement)",
+        "AIRA stack adoption (action/outcome-based pricing)",
+        "Leverage on non-COGS costs (60% of costs below gross margin)",
+        "Platform usage, overages, and inflationary increases"
+      ]
     }
   },
-  "generated_at": "2026-08-04T12:28:39.220Z",
-  "count": 1056
+  "generated_at": "2026-08-04T15:10:11.295Z",
+  "count": 1057
 }
