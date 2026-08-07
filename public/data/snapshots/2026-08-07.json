@@ -1,9 +1,9 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T00:36:55.710Z",
+  "generated_at": "2026-08-07T14:06:10.908Z",
   "totals": {
-    "sightings": 3417,
-    "companies": 1023,
+    "sightings": 3418,
+    "companies": 1024,
     "active_funds": 52
   },
   "per_fund": [
@@ -711,8 +711,8 @@
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
-      "sighting_count": 187,
-      "company_count": 141,
+      "sighting_count": 188,
+      "company_count": 142,
       "companies": [
         "ADF Foods",
         "AIA Engineering",
@@ -751,6 +751,7 @@
         "DDev Plastiks",
         "Dalmia BharatLtd",
         "Danish Power",
+        "Dec.Gold Mines",
         "Dilip Buildcon",
         "Dishman Carbogen",
         "Dr Lal Pathlabs",
@@ -2648,7 +2649,19 @@
       "sector": "Diversified",
       "sighting_count": 3,
       "company_count": 1
+    },
+    {
+      "sector": "Unknown",
+      "sighting_count": 1,
+      "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Sequent Investments",
+      "company": "Dec.Gold Mines",
+      "sector": "Unknown",
+      "concall_date": "2026-05-01"
+    }
+  ]
 }
