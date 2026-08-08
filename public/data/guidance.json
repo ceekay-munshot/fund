@@ -40896,109 +40896,108 @@
     },
     "Sugs Lloyd": {
       "company": "Sugs Lloyd",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-20",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b97f2702-50be-4818-bf12-3dd3b88cf59f.pdf",
-      "transcript_id": "sugs-lloyd_2026-05-20",
+      "ticker": "544501",
+      "sector": "Industrials",
+      "concall_date": "2026-08-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aff06b17-ca7d-4579-b2a6-d63a8feae431.pdf",
+      "transcript_id": "sugs-lloyd_2026-08-02",
       "provider": "mistral",
-      "generated_at": "2026-06-28T06:00:55.727Z",
-      "summary": "Management expects robust growth driven by government focus on transmission, distribution, and renewable energy, targeting INR1,000 crore revenue by FY28 with maintained margins and improved receivables.",
+      "generated_at": "2026-08-08T16:00:51.010Z",
+      "summary": "Management expects strong revenue growth driven by new segments (transmission, BESS) and product lines (FPI, auto reclosers), targeting INR1,000 crore by FY28 with sustained margins.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY28",
-          "statement": "Target of INR1,000 crore revenue by FY28 is firmly on track",
+          "statement": "Target of INR1,000 crore revenue by FY28",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "FY27 will be a significant step towards INR1,000 crore revenue target",
+          "metric": "Revenue split by segment",
+          "horizon": "FY28",
+          "statement": "Power transmission and distribution: 40-45%, Solar: 40-45%, Products: 10%",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "unclear"
         },
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Guidance of INR600 crore top-line for FY27 is achievable",
+          "metric": "Product revenue contribution",
+          "horizon": "FY28",
+          "statement": "Product revenue to contribute ~10% of total revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Management expects to maintain EBITDA margins at least at FY26 levels",
+          "horizon": "Medium-term (2-3 years)",
+          "statement": "Margins to remain sustained at current levels (~15%)",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "PAT margin",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Management expects to maintain PAT margins at least at FY26 levels",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Order book",
-          "horizon": "FY27",
-          "statement": "Order book as of now stands around INR825 crore with INR1,225 crore tenders in pipeline",
+          "statement": "Fully confident of achieving INR600 crore revenue guidance for FY27",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "FPI revenue contribution",
+          "metric": "Transmission segment revenue",
+          "horizon": "FY27",
+          "statement": "Transmission to start contributing to revenue in FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "BESS revenue",
+          "horizon": "H2FY27 onwards",
+          "statement": "BESS expected to be a meaningful revenue contributor from H2FY27 onwards",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt equity ratio",
           "horizon": "FY28",
-          "statement": "Target of 10% revenue contribution from FPIs by FY28, potentially higher",
+          "statement": "Debt equity ratio to remain below 1.2x by FY28 end",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "FPI order book",
-          "horizon": "Q1FY27",
-          "statement": "Q1 FY27 FPI orders already comparable to entire FY26 FPI order book",
+          "metric": "Debt levels",
+          "horizon": "FY28",
+          "statement": "Debt to increase to ~INR100 crore by FY28 end",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Receivables management",
-          "horizon": "FY27",
-          "statement": "Focus on improving receivables through better payment terms and collection processes",
-          "specificity": "vague",
+          "metric": "Order book execution",
+          "horizon": "Medium-term",
+          "statement": "Existing order book of INR807 crore to be executed over 18-24 months",
+          "specificity": "specific",
           "direction": "unclear"
         },
         {
-          "metric": "Credit utilization",
-          "horizon": "FY28",
-          "statement": "Peak credit utilization expected to be around INR300-350 crore for INR1,000 crore revenue target",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Credit rating",
-          "horizon": "medium-term",
-          "statement": "Planning to apply for credit rating upgrade from current BBB- rating",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Geographical expansion",
-          "horizon": "FY26",
-          "statement": "Planning to cover much more geographical areas of the country by end of FY26",
+          "metric": "FPI adoption",
+          "horizon": "Medium-term",
+          "statement": "Active discussions with government for mass adoption of FPI across discoms",
           "specificity": "vague",
           "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "Short-term",
+          "statement": "Compact FPI and vacuum circuit breakers to be launched shortly",
+          "specificity": "vague",
+          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "exact margin percentages for FPI business",
-        "timelines for international expansion"
+        "closing order book for FY27 in absolute terms"
       ],
       "margin_drivers": [
-        "FPI business growth",
-        "price variation clauses in contracts",
-        "product and technology leadership (next-gen FPI, SCADA systems)",
-        "geographical diversification"
+        "Growth in product business (FPI, auto reclosers, section analysers)",
+        "Shift from EPC to RESCO/capex+RESCO models in solar",
+        "Margin improvement from FPI segment (higher margins than EPC)",
+        "Execution efficiency and process improvements"
       ]
     },
     "Pro FX": {
@@ -48277,110 +48276,107 @@
     },
     "Krishna Institu.": {
       "company": "Krishna Institu.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0fbbe0a-35fc-4ed0-9ddf-da65222c638f.pdf",
-      "transcript_id": "krishna-institu_2026-05-01",
+      "ticker": "KIMS",
+      "sector": "Healthcare",
+      "concall_date": "2026-08-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f825bf32-73dc-402f-81a1-3ffb31035412.pdf",
+      "transcript_id": "krishna-institu_2026-08-08",
       "provider": "mistral",
-      "generated_at": "2026-06-29T21:12:59.438Z",
-      "summary": "Management expects gradual EBITDA margin recovery as new units mature and insurance empanelments improve, while planning debt reduction and selective greenfield expansions.",
+      "generated_at": "2026-08-08T16:00:34.203Z",
+      "summary": "Management expects steady growth with focus on stabilizing new hospitals, improving margins, and reducing debt, while targeting 20%+ EBITDA margins in mature clusters over the next 2-3 years.",
       "guidance": [
         {
-          "metric": "EBITDA margin recovery",
-          "horizon": "medium-term",
-          "statement": "EBITDA margin depression expected to ease as new units mature, with cluster-level margins improving sequentially.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "New unit EBITDA contribution",
-          "horizon": "Q1FY27",
-          "statement": "Newer units (Nashik, Thane, Karnataka) expected to narrow losses sequentially as insurance empanelments improve and ramp-up continues.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Insurance empanelment timeline",
-          "horizon": "next 3-4 months",
-          "statement": "Bangalore units expected to receive insurance empanelments within 3-4 months; Maharashtra units already 70% empanelled.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Karnataka unit revenue trajectory",
-          "horizon": "next 12 months",
-          "statement": "Mahadevapura unit expected to grow from INR 17 crore/month (Q4FY26) to INR 25-30 crore/month over next 12 months.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Kondapur expansion CAPEX",
-          "horizon": "FY27-FY29",
-          "statement": "INR 50-75 crore additional CAPEX required for Kondapur in FY28-FY29 for two additional floors, beyond initial INR 50-75 crore already incurred.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Kondapur bed commissioning",
-          "horizon": "Q1FY27",
-          "statement": "Phase 1 commissioning of 400-500 beds at new Kondapur hospital starting first week of June 2026; remaining 300 beds to be commissioned as occupancy increases.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "ARPOB (Average Revenue Per Operating Bed)",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Bangalore ARPOB assumed at INR 75,000 annually for modeling; Andhra Pradesh ARPOB at INR 26,000-27,000.",
+          "statement": "Kondapur hospital to scale to INR 100 crore monthly revenue (INR 1,200 crore annually) over next 4-5 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Kerala cluster to stabilize at 20%-22% EBITDA margin over next 2-3 years.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Kerala cluster to achieve mid-teens EBITDA margin in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Bangalore cluster to achieve neutral EBITDA for FY27.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Maharashtra occupancy",
-          "horizon": "Q4FY26",
-          "statement": "Maharashtra occupancy at 60.5% in Q4FY26, considered the new base for modeling.",
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Maharashtra cluster (Thane) to achieve breakeven EBITDA in Q2FY27.",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Debt reduction via QIP",
+          "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "INR 1,500 crore QIP proceeds to be used primarily for debt retirement, reducing peak debt levels of INR 3,000+ crore.",
+          "statement": "Electronic City (Bangalore) to achieve breakeven EBITDA by end of FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Interest expense to reduce significantly from Q2FY27 due to INR 1,100 crore debt repayment.",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Greenfield expansion funding",
-          "horizon": "medium-term",
-          "statement": "Post-debt reduction, cash flows to fund greenfield projects requiring 3-5 years for commissioning, with 40% equity and 65% debt at project level.",
+          "metric": "Debt level",
+          "horizon": "as of July 2026",
+          "statement": "Total debt reduced to INR 2,400 crore post INR 1,100 crore repayment.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "ARPOB (Average Revenue Per Operating Bed)",
+          "horizon": "FY27",
+          "statement": "ARPOB for Bangalore to stabilize around INR 80,000-INR 85,000 after empanelments.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Occupancy rate",
+          "horizon": "next 3-4 years",
+          "statement": "Telangana cluster occupancy to ramp up to 70% over next 3-4 years despite new hospital additions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Expansion plan",
+          "horizon": "next 8 months",
+          "statement": "Priority to stabilize current hospitals before pursuing new greenfield opportunities in core markets.",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Doctor participation model",
-          "horizon": "ongoing",
-          "statement": "Doctor participation model remains open for current expansion plans, with doctors investing 3%-5% of project cost.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Small acquisition opportunities",
-          "horizon": "next 2 quarters",
-          "statement": "Potential acquisitions of 400-500 beds each in home markets (Karnataka, Kerala, Andhra, Telangana) over next two quarters.",
+          "metric": "Empanelment completion",
+          "horizon": "by FY27 end",
+          "statement": "Majority of empanelments for new units (Thane, Nashik, Bangalore) to be completed by FY27 end.",
           "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "FY27 revenue or PAT targets",
-        "Consolidated EBITDA margin for FY27",
-        "Timeline for full EBITDA margin recovery to historical levels"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "Insurance empanelment progress",
-        "New unit ramp-up and maturity",
-        "Occupancy rates in new geographies",
-        "Value-driven revenue mix in mature markets"
+        "stabilization of new hospitals",
+        "empanelment completion with insurance companies",
+        "ramp-up of occupancy rates",
+        "reduction in debt and interest costs",
+        "clinical program additions in new hospitals"
       ]
     },
     "JTL Industries": {
@@ -69572,110 +69568,109 @@
       "company": "Assoc.Alcohols",
       "ticker": "ASALCBR",
       "sector": "Fast Moving Consumer Goods",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fb79645-fb8a-45cb-866a-3c432d5c5924.pdf",
-      "transcript_id": "assoc-alcohols_2026-05-01",
+      "concall_date": "2026-07-30",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=149d6041-f93f-4334-8a5b-3397fe8b2ed7.pdf",
+      "transcript_id": "assoc-alcohols_2026-07-30",
       "provider": "mistral",
-      "generated_at": "2026-07-04T19:52:20.648Z",
-      "summary": "Management expects strong volume-led growth in IMFL proprietary brands, with EBITDA margins stabilizing around 15% in FY27 before improving with premiumization in FY28-FY29.",
+      "generated_at": "2026-08-08T16:01:01.185Z",
+      "summary": "Strong growth momentum in proprietary IMFL portfolio with 30% volume guidance for FY27, supported by new product launches and market expansions.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "IMFL proprietary volume growth",
           "horizon": "FY27",
-          "statement": "10% plus revenue growth expected for the company in FY27.",
+          "statement": "30% volume growth in IMFL proprietary portfolio",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth (IMFL proprietary)",
+          "metric": "IMFL proprietary revenue mix",
           "horizon": "FY27",
-          "statement": "IMFL proprietary brands expected to grow at 25% to 30% in FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "EBITDA margin expected to be around 15% for FY27.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "IMFL proprietary EBITDA margin",
-          "horizon": "FY27",
-          "statement": "IMFL proprietary EBITDA margin expected in the range of 15% to 17% due to higher marketing expenses for premium portfolio.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Ethanol volume",
-          "horizon": "FY27",
-          "statement": "Ethanol volumes expected to improve due to proposed increase in ethanol blending policy (20% to 25%) and exploration of non-OMC buyers.",
+          "statement": "Continued improvement in product mix and higher-margin portfolio contribution",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth",
-          "horizon": "FY28-FY29",
-          "statement": "Revenue growth expected to be higher in FY28 and FY29 due to single malt whiskey launch.",
+          "metric": "RTD category expansion",
+          "horizon": "medium-term",
+          "statement": "Registration process underway for RTD presence across 8 additional states including Chhattisgarh, Jharkhand, Rajasthan, Delhi, Karnataka, West Bengal, and Goa",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Premium tequila launch",
+          "horizon": "Q2 FY27",
+          "statement": "Launch of premium tequila initially in Madhya Pradesh followed by phased rollout across key markets",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Premium brandy launch",
+          "horizon": "Q2 FY27",
+          "statement": "Introduction of premium brandy in Kerala",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SDF plant operationalization",
+          "horizon": "December 2026",
+          "statement": "Plant to become operational by December 2026 with full-fledged operations from April 2027",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SDF plant EBITDA contribution",
+          "horizon": "FY27",
+          "statement": "Full-fledged operations from SDF plant expected to contribute to EBITDA from April 2027",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "SDF plant capacity expansion",
+          "horizon": "medium-term",
+          "statement": "Capacity buildup planned to 3.5–4 lakh cases per month at SDF plant",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Malt maturation for single malt whiskey",
+          "horizon": "Q3 FY28",
+          "statement": "Revenue from single malt whiskey expected to start appearing in balance sheet from Q3 FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Ethanol quota allocation improvement",
+          "horizon": "FY27",
+          "statement": "Expecting higher allocation from October onwards and direct participation in OMCs tenders for better realization",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Single malt whiskey launch",
-          "horizon": "FY28",
-          "statement": "First lot of single malt whiskey expected to mature and launch in FY28.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Premium single malt whiskey launch",
-          "horizon": "Q1FY29",
-          "statement": "Premium single malt whiskey expected to launch towards the end of FY28 or Q1 of FY29.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "RTD product (Kultur) launch",
-          "horizon": "H1FY27",
-          "statement": "RTD product Kultur expected to launch in other states within 1 to 1.5 months after label approvals.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Tequila launch",
-          "horizon": "H1FY27",
-          "statement": "Tequila launch expected by H1FY27, though delayed slightly due to shipment issues.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Brandy launch",
+          "metric": "Ethanol realization recovery",
           "horizon": "FY27",
-          "statement": "Brandy expected to be launched in FY27.",
-          "specificity": "specific",
-          "direction": "unclear"
+          "statement": "Expecting gradual improvement in ethanol performance with better realization from October onwards",
+          "specificity": "vague",
+          "direction": "up"
         },
         {
-          "metric": "Capex (SDF Industries acquisition)",
-          "horizon": "FY27",
-          "statement": "INR10 crores capex planned for modernization and automation of SDF Industries plant in Kerala.",
-          "specificity": "specific",
-          "direction": "unclear"
+          "metric": "New market entry (Odisha)",
+          "horizon": "medium-term",
+          "statement": "Odisha expected to evolve into an important market over the medium term",
+          "specificity": "vague",
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Ethanol blending policy specifics beyond 20%-25% range",
-        "Detailed ethanol volume or revenue targets for FY27",
-        "Market share targets for new states (e.g., Maharashtra, UP)",
-        "Detailed revenue or volume expectations for Kultur RTD beyond qualitative statements"
+        "Shift of ethanol plant capacity to ENA production",
+        "Ethanol revenue or volume guidance for FY27 beyond stating it will remain similar to last year"
       ],
       "margin_drivers": [
-        "Premiumization of IMFL portfolio (higher marketing expenses)",
-        "Economies of scale from volume growth in IMFL proprietary brands",
-        "Operational efficiencies in ENA and ethanol production",
-        "Automation and modernization of SDF Industries plant in Kerala",
-        "Cost savings from in-house malt production"
+        "Premium product mix improvement",
+        "Operational efficiency at SDF plant",
+        "Backward integration (malt maturation)",
+        "Brand-building initiatives",
+        "RTD category expansion",
+        "Grain price trends"
       ]
     },
     "Eveready Inds.": {
@@ -73899,108 +73894,107 @@
       "company": "Kalyan Jewellers",
       "ticker": "KALYANKJIL",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=973bf695-5283-4772-a690-e48ef38ac0be.pdf",
-      "transcript_id": "kalyan-jewellers_2026-05-01",
+      "concall_date": "2026-08-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2200376-f75e-4bfb-97cb-9caf2c4a37d3.pdf",
+      "transcript_id": "kalyan-jewellers_2026-08-08",
       "provider": "mistral",
-      "generated_at": "2026-07-05T15:24:40.402Z",
-      "summary": "Management expects strong growth momentum to continue in FY27 with expansion in showroom footprint and focus on same-store sales growth, while maintaining debt reduction and dividend payout discipline.",
+      "generated_at": "2026-08-08T16:00:42.541Z",
+      "summary": "Management expects robust demand for the upcoming festive and wedding season with stable margins despite short-term dilution from gold recirculation initiatives.",
       "guidance": [
         {
-          "metric": "Showroom openings",
-          "horizon": "FY27",
-          "statement": "Plan to open 150 showrooms across Kalyan, Candere, and the new regional brand during the ongoing financial year.",
+          "metric": "Recycled gold share",
+          "horizon": "ongoing",
+          "statement": "Maintain share of recycled gold in the range of 55% to 60%",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Non-GML debt repayment",
+          "metric": "PBT margin",
           "horizon": "FY27",
-          "statement": "Aim to become non-GML debt-free in India during the current financial year, potentially by H1 itself if conditions permit.",
+          "statement": "PBT margins to stay at least in the range of last year on a conservative basis",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt reduction",
+          "horizon": "Q2FY27",
+          "statement": "Complete repayment of non-GML debt by end of September",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Candere focus",
-          "horizon": "FY27",
-          "statement": "Candere will prioritize driving same-store sales growth alongside expanding its showroom footprint.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Dividend payout",
-          "horizon": "FY27",
-          "statement": "Approximately 50% of cash generated will be used for dividends and debt reduction.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Cash allocation",
-          "horizon": "FY27",
-          "statement": "Balance 50% of cash generated will be parked for Candere and the regional brand expansion.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Asset divestment",
-          "horizon": "FY27",
-          "statement": "Timeline for sale of INR180 crores worth of assets is set before September of this year.",
+          "metric": "Real estate asset sales",
+          "horizon": "Q2FY27",
+          "statement": "Conclude sale process for two parcels of land with aggregate consideration of INR102 crores before end of the quarter",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Gold supply",
+          "metric": "Store expansion (Kalyan)",
           "horizon": "FY27",
-          "statement": "No anticipated challenges in gold supply due to abundant availability and alternative sourcing channels.",
+          "statement": "No change in target to open 84 Kalyan showrooms in India",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Gross margin",
+          "metric": "Store expansion (Candere)",
           "horizon": "FY27",
-          "statement": "Gross margins are expected to be maintained, with no significant changes in vendor payment terms.",
-          "specificity": "vague",
+          "statement": "Open around 50 Candere showrooms in the financial year",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Candere profitability",
+          "horizon": "FY27",
+          "statement": "Candere to remain PAT positive for the financial year",
+          "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Middle East expansion",
-          "horizon": "FY27",
-          "statement": "Focus on major franchisee expansion in the Middle East through Arab investors, though no materialization yet.",
-          "specificity": "vague",
-          "direction": "unclear"
+          "metric": "Franchisee ROCE",
+          "horizon": "ongoing",
+          "statement": "Franchisee ROCE in the range of 14%",
+          "specificity": "specific",
+          "direction": "flat"
         },
         {
-          "metric": "Akshaya Tritiya trends",
-          "horizon": "Q1FY27",
-          "statement": "April has started off very well, and strong trends are expected to continue despite a high base.",
+          "metric": "Gold recirculation margin impact",
+          "horizon": "next 2-3 quarters",
+          "statement": "Margin dilution of 0.2%-0.3% from old gold exchange to continue",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "Customs duty gain",
+          "horizon": "Q2FY27",
+          "statement": "Mostly INR40 crores in Q1 and rest in Q2; negligible in Q3",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "ATM brand expansion",
+          "horizon": "medium-term",
+          "statement": "Open first showroom on August 21 in Chennai and four more in the next few months; plan to scale up further after initial rollout",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Adhik-Maas impact",
-          "horizon": "Q1FY27",
-          "statement": "Potential for slower growth during Adhik-Maas, but revenue may be preponed to mitigate the impact.",
+          "metric": "Demand trend",
+          "horizon": "Q2FY27",
+          "statement": "Demand on ground remains strong and festive/wedding season outlook is upbeat",
           "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "GML debt",
-          "horizon": "FY27",
-          "statement": "Focus on maintaining GML at current levels unless additional sanctions become available from banks.",
-          "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Historical growth rates for FY27",
-        "Absolute debt numbers for FY27",
-        "Specific timeline for the third regional brand launch"
+        "bonus share issuance",
+        "corporate governance issues"
       ],
       "margin_drivers": [
-        "Showroom-level mix (South vs. non-South)",
-        "Product mix (wedding purchases vs. investment demand)",
-        "Vendor payment terms and sourcing strategies",
-        "Franchisee model impact on gross margins"
+        "recycled gold share",
+        "cash for gold vs exchange mix",
+        "employee cost increase",
+        "customs duty gain"
       ]
     },
     "Blue Star": {
@@ -89060,108 +89054,110 @@
       "company": "Kirl.Pneumatic",
       "ticker": "KIRLPNU",
       "sector": "Industrials",
-      "concall_date": "2026-04-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa301c7b-663b-495a-b990-57cdf99b1a75.pdf",
-      "transcript_id": "kirl-pneumatic_2026-04-01",
+      "concall_date": "2026-07-29",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db96c8b8-6146-44c9-a931-a7fd7da1af46.pdf",
+      "transcript_id": "kirl-pneumatic_2026-07-29",
       "provider": "mistral",
-      "generated_at": "2026-07-10T21:17:19.998Z",
-      "summary": "Management expects strong growth ahead driven by domestic sectors, alternative fuels, and new product launches, targeting 20%+ revenue growth with sustainable EBITDA margins of 18-20%.",
+      "generated_at": "2026-08-08T16:01:11.451Z",
+      "summary": "Management expects steady growth driven by gasification trends, biogas adoption, and new product launches, with EBITDA margins maintained in the 18-20% range.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Targeting 20% plus revenue growth in FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "medium-term",
-          "statement": "Sustainable EBITDA margin of 18% to 20%",
+          "statement": "Maintaining FY27 revenue guidance of INR2,100 crores despite geopolitical headwinds in Middle East affecting order bookings and dispatches.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Zephyros air conditioning package sales",
+          "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Commercialization in Q1 FY27 with initial focus on smaller markets like machine shops and restaurants",
+          "statement": "Committed to maintaining EBITDA margins between 18% and 20% for FY27.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Order bookings",
+          "horizon": "FY27",
+          "statement": "Expecting a good year for order bookings, with many large tenders expected, particularly in biogas and process gas segments.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Tezcatlipoca centrifugal compressors sales",
+          "metric": "Biogas business",
           "horizon": "FY27",
-          "statement": "130 machines in the field, 85 commissioned; incremental capacity available from Q1 FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Precision Engineering division contribution",
-          "horizon": "FY27",
-          "statement": "Precision Engineering division to become reportable segment from Q1 FY27",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Order book execution",
-          "horizon": "FY27",
-          "statement": "INR1,300 crores of order book executable within less than 1 year; INR500 crores beyond FY27",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Equipment business revenue share",
-          "horizon": "medium-term",
-          "statement": "Targeting 20% to 25% of revenue from equipment business with shorter execution cycles",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Alternative fuels (biogas, hydrogen, coal gasification) demand",
-          "horizon": "medium-term",
-          "statement": "Renewed interest in alternative fuels and KPCL well-positioned to capitalize",
+          "statement": "Record order booking levels this quarter with outlook remaining positive; many large tenders expected this year.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Domestic oil and gas exploration demand",
-          "horizon": "medium-term",
-          "statement": "Geopolitical situation in Middle East expected to drive demand for domestic exploration and upstream gas projects",
+          "metric": "Process gas business",
+          "horizon": "FY27",
+          "statement": "Inquiry levels are high domestically; energy mix getting more gasified bodes well for the business.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Capex under PLI scheme",
-          "horizon": "FY27-FY28",
-          "statement": "INR320 crores capex commitment for PLI scheme, roughly INR60 crores already incurred; remaining to be incurred over next 2 years",
+          "metric": "Tezcatlipoca centrifugal compressors",
+          "horizon": "FY27",
+          "statement": "Expecting to book more than INR100 crores worth of orders this year; addressable market now exceeds INR500 crores.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Export focus regions",
+          "metric": "Precision engineering division",
           "horizon": "medium-term",
-          "statement": "Shifting export focus from MENA to Southeast Asia and North Africa due to geopolitical risks",
+          "statement": "Expected to contribute 10-15% of overall business in 5-7 years; dispatches to pick up from Q2 onwards.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches (A-800, Tonalli, Khione)",
+          "horizon": "FY27",
+          "statement": "New products like A-800 centrifugal compressor and Tonalli biogas plant to support sustainable growth; Khione expected to perform well in fisheries, ice plants, and food processing.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue mix shift",
+          "horizon": "FY27",
+          "statement": "Gas segment contribution expected to increase, which may impact overall margin mix but margins to remain within 18-20% range.",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Oil-free air compressor (Hydrino) orders",
-          "horizon": "FY27",
-          "statement": "Booked a few orders for Hydrino oil-free air compressor",
+          "metric": "Geopolitical impact",
+          "horizon": "near-term",
+          "statement": "Geopolitical situation in Middle East may continue to impact order finalization and dispatch timelines, particularly for package business.",
           "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Capital employed",
+          "horizon": "FY27",
+          "statement": "Capital employed in compression segment decreased by INR44.1 crores to INR372.8 crores; no significant new capex expected in precision engineering.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Credit rating",
+          "horizon": "long-term",
+          "statement": "Credit rating upgraded to AA with stable outlook, reflecting strong financial fundamentals and liquidity position.",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Precision Engineering division margins",
-        "Breakup of order book by traditional vs. non-traditional segments"
+        "absolute revenue or order book numbers for precision engineering division",
+        "breakdown of product vs project revenue for the quarter"
       ],
       "margin_drivers": [
-        "Localized supply chain and Make in India import substitutes",
-        "Focus on less contested spaces based on IP and import substitution",
-        "Measured approach in markets with lower margins (boosters and screw compressors)",
-        "Backward integration (Nashik and Saswad plants)",
-        "New product launches (Zephyros, Tezcatlipoca, Khione, Tyche)"
+        "product mix",
+        "in-house manufacturing",
+        "backward integration",
+        "cost control",
+        "gasification of fuel mix",
+        "biogas adoption",
+        "new product launches"
       ]
     },
     "Bajaj Consumer": {
@@ -104525,6 +104521,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-08T15:41:30.426Z",
+  "generated_at": "2026-08-08T16:01:35.713Z",
   "count": 1068
 }
