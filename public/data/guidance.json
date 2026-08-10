@@ -66684,93 +66684,109 @@
       "company": "Sanghvi Movers",
       "ticker": "SANGHVIMOV",
       "sector": "Services",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8227bf5-2995-4d5b-a170-80b49430e0ba.pdf",
-      "transcript_id": "sanghvi-movers_2026-05-01",
+      "concall_date": "2026-08-08",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0dd8281-c53e-4683-9dd1-89232f598447.pdf",
+      "transcript_id": "sanghvi-movers_2026-08-08",
       "provider": "mistral",
-      "generated_at": "2026-07-04T08:14:25.661Z",
-      "summary": "Management expects continued growth in crane rental and renewables segments with strong order book visibility, though blended EBITDA margins may remain under pressure due to shift in revenue mix.",
+      "generated_at": "2026-08-10T19:59:15.268Z",
+      "summary": "FY27 outlook remains positive with revenue growth, disciplined capex, and margin stability despite mix shifts and temporary cost pressures.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Targeting similar growth level as FY26 (~36.9%)",
+          "statement": "Consolidated revenue guidance of Rs. 1,400-1,500 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Crane rental revenue growth",
+          "metric": "EBITDA",
           "horizon": "FY27",
-          "statement": "Targeting 30% growth in crane rental business",
+          "statement": "EBITDA guidance of Rs. 525-575 crores",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "KSA EBITDA positivity",
-          "horizon": "Q1/Q2 FY27",
-          "statement": "Cumulative EBITDA and cash flow positivity expected in KSA business",
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "Blended EBITDA margin expected to be lower due to renewables mix but absolute EBITDA to grow 20-30%",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Order book of Rs. 1,250 crores fully executable in FY27; inquiry pipeline of Rs. 5,600 crores across sectors",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "KSA capex",
+          "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Planning to spend ~INR 320 crores in KSA (Saudi Arabia and Qatar)",
+          "statement": "FY27 capex pool of Rs. 652 crores, with Rs. 560 crores to be deployed in H2FY27; expected to drive ~15% revenue increase",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Order book conversion",
-          "horizon": "3-6 months",
-          "statement": "Aiming for good conversion from INR 4,000 crore inquiry pipeline",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Diesel cost pass-through",
+          "metric": "GCC capex",
           "horizon": "FY27",
-          "statement": "50% of clients provide free fuel; discussions underway with balance 50% for price increase",
-          "specificity": "vague",
+          "statement": "GCC capex of ~Rs. 324 crores (Rs. 316 crores revenue-generating); equipment delivery expected by Q3-Q4FY27",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Wind energy segment growth",
+          "metric": "GCC EBITDA margin",
           "horizon": "FY27",
-          "statement": "Revenue from wind segment expected to grow, but will be selective to maintain healthy margins",
+          "statement": "GCC rental EBITDA margin expected to remain substantially higher than India; target yield of 4% sustained",
           "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Renewables E&C margin",
+          "horizon": "FY27",
+          "statement": "E&C business margins expected to normalize between 12-15% going forward",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "ROCE",
+          "horizon": "FY27",
+          "statement": "Blended ROCE guidance of 16.25-16.5% for FY27",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Debt-to-equity",
+          "horizon": "FY27",
+          "statement": "Gross debt-to-equity guidance of 0.72x (conservative); net debt-to-equity expected in 0.3-0.7x range",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Net debt-to-equity ratio",
+          "metric": "ECL provision normalization",
           "horizon": "FY27",
-          "statement": "Net debt-to-equity ratio expected to increase slightly due to planned capex",
+          "statement": "ECL provisions expected to normalize as aged receivables are recovered during FY27",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "down"
         },
         {
-          "metric": "Capacity utilization (India)",
+          "metric": "Renewables order book",
           "horizon": "FY27",
-          "statement": "Expecting continued strong asset utilization in crane rental business",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Renewables segment contribution",
-          "horizon": "FY27",
-          "statement": "Renewables segment (Sangreen) is a key growth engine with high ROCE (~70%)",
-          "specificity": "vague",
+          "statement": "Renewables order book of Rs. 680 crores; aiming to double revenue annually for next 3 years",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Blended EBITDA margin target",
-        "Revenue split by business segments",
-        "Exact revenue or EBITDA numbers for FY27"
+        "client behavior on contract tenure or rate resets in India beyond stating no material shift observed",
+        "specific future DSO targets for GCC beyond noting improvement in July"
       ],
       "margin_drivers": [
-        "Shift in revenue mix from high-margin crane rental to asset-light renewables segment",
-        "Diesel cost pass-through negotiations",
-        "Selective project acceptance in renewables to maintain margins"
+        "renewables mix (asset-light, lower margin but high ROCE)",
+        "GCC higher yields (4.1% vs India's 2.29%) offset by higher operating costs",
+        "cross-rental and ancillary equipment (lower margin but capital-light)",
+        "ECL provision rationalization",
+        "one-time incentives (FY26 performance rewards)",
+        "FOREX mark-to-market reinstatement (non-cash)"
       ]
     },
     "Alkyl Amines": {
@@ -67888,109 +67904,108 @@
       "company": "Paradeep Phosph.",
       "ticker": "PARADEEP",
       "sector": "Commodities",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.paradeepphosphates.com/uploads/content/paradeep-phosphate-4qfy26-concall-transcript.pdf",
-      "transcript_id": "paradeep-phosph_2026-05-01",
+      "concall_date": "2026-07-31",
+      "transcript_url": "https://www.paradeepphosphates.com/uploads/content/antique-paradeepphos-jul31-20261786019126.pdf",
+      "transcript_id": "paradeep-phosph_2026-07-31",
       "provider": "mistral",
-      "generated_at": "2026-07-04T13:55:32.009Z",
-      "summary": "Management expects improved margins and volumes in FY27 driven by backward integration, energy efficiency gains, and strategic raw material sourcing, though geopolitical risks may pressure near-term profitability.",
+      "generated_at": "2026-08-10T19:59:25.543Z",
+      "summary": "Management expects sustained growth in non-subsidy industrial chemicals while maintaining leadership in phosphatic fertilizers despite raw material volatility.",
       "guidance": [
         {
           "metric": "EBITDA per ton",
-          "horizon": "FY27",
-          "statement": "Backward integration benefits from Phos Acid and Sulfuric Acid expansions will flow into FY27, improving spreads despite global volatility.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA per ton (Goa plant)",
-          "horizon": "FY27",
-          "statement": "Energy efficiency project at Goa plant to yield INR 1,000-1,200 per ton EBITDA improvement at current gas prices.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA per ton (MCFL urea plant)",
-          "horizon": "H2FY26",
-          "statement": "MCFL urea plant EBITDA per ton expected at INR 6,000-6,500 due to gas price dynamics and Sulfuric Acid plant integration.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Sulfuric Acid capacity",
-          "horizon": "FY27",
-          "statement": "Next Sulfuric Acid project (3,000 tons/day) decision expected within the quarter, with major projects to be completed by FY28-FY29.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Phos Acid capacity",
-          "horizon": "FY27",
-          "statement": "Phase-I expansion from 0.5M to 0.7M tons to be commissioned in FY27, with full 1M ton target for backward integration.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Granulation capacity (Odisha plant)",
-          "horizon": "FY27",
-          "statement": "Debottlenecking to add ~2 lakh tons incremental volume in H2FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Normal capex of INR 600 crore in FY27, with major project outflows expected in FY28-FY29.",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Raw material inventory",
-          "horizon": "Q1FY27",
-          "statement": "30-day additional raw material inventory held to mitigate price volatility, benefits to be realized in Q1FY27.",
-          "specificity": "specific",
-          "direction": "unclear"
-        },
-        {
-          "metric": "NPK volume growth",
           "horizon": "medium-term",
-          "statement": "Company aims to deepen NPK market leadership through balanced nutrition advocacy and product mix optimization.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Backward integration",
-          "horizon": "1-2 years",
-          "statement": "Target 80%-90% backward integration for Phos Acid, with Paradeep expansion covering other units' requirements.",
+          "statement": "Sustainable EBITDA per ton of Rs.7,000+ expected post completion of expansion projects in 2-2.5 years.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Sulfur sourcing",
-          "horizon": "Q2FY27",
-          "statement": "Domestic sourcing (IOC, MRPL) covers 100% of requirements; international prices remain volatile due to Middle East tensions.",
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "Realistic EBITDA per ton for FY27 is around Rs.5,000.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Phosphoric acid capacity",
+          "horizon": "Q4FY27",
+          "statement": "Incremental capacity from 5 lakh to 6 lakh tons expected by December (Q4FY27).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Phosphoric acid capacity",
+          "horizon": "FY28",
+          "statement": "Further expansion from 6 lakh to 7 lakh tons expected by August-September next year (FY28).",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Aluminium fluoride plant",
+          "horizon": "22-24 months",
+          "statement": "Plant capacity of 15,000 tons per annum expected to be commissioned in 22-24 months with top-line of Rs.180-200 crores and EBITDA of Rs.50 crores.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Non-subsidy EBITDA contribution",
+          "horizon": "long-term",
+          "statement": "Target of at least 20% of EBITDA from non-subsidy business over the long term.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sustainable EBITDA guidance",
+          "horizon": "medium-term",
+          "statement": "Sustainable EBITDA guidance of Rs.5,000 per ton once expansion projects are completed.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Backward integration benefits",
+          "horizon": "FY27-FY28",
+          "statement": "Backward integration in phosphoric acid and sulphuric acid expected to improve quality of earnings and support margin expansion.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Raw material sourcing",
+          "horizon": "short-term",
+          "statement": "Industry efforts and government coordination expected to ensure fertiliser security despite Middle East supply disruptions.",
           "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Subsidy receivables",
+          "metric": "NPK vs DAP mix",
+          "horizon": "short-term",
+          "statement": "Tactical shift towards DAP due to profitability, but NPK remains a long-term focus with farmer engagement efforts ongoing.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Urea EBITDA per ton",
           "horizon": "Q1FY27",
-          "statement": "Subsidy receivables (DAP, TSP) expected to normalize in Q1FY27, reducing working capital pressure.",
+          "statement": "Goa urea facility EBITDA per ton improved by Rs.700-800 per ton in Q1FY27 due to new urea policy benefits.",
           "specificity": "specific",
-          "direction": "down"
+          "direction": "up"
+        },
+        {
+          "metric": "Market share growth",
+          "horizon": "ongoing",
+          "statement": "Company aims to maintain leadership position in phosphatic fertiliser sector through balanced market strategy and strong brand trust.",
+          "specificity": "vague",
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Revenue for FY27",
-        "EBITDA margin percentage for FY27",
-        "Raw material price outlook beyond Q2FY27"
+        "future sulphur prices",
+        "exact volume growth for NPK in FY27"
       ],
       "margin_drivers": [
-        "Backward integration (Phos Acid, Sulfuric Acid)",
-        "Energy efficiency projects (Goa plant)",
-        "Sulfuric Acid plant integration (MCFL urea)",
-        "NPK product mix optimization",
-        "Domestic raw material sourcing (Sulfur from IOC/MRPL)"
+        "backward integration in phosphoric acid and sulphuric acid",
+        "non-subsidy industrial chemicals (aluminium fluoride)",
+        "operational discipline and supply chain efficiency",
+        "product mix optimization (DAP vs NPK)",
+        "government policy support for fertiliser sector"
       ]
     },
     "Indian Hotels Co": {
@@ -71638,114 +71653,110 @@
       "company": "Jindal Stain.",
       "ticker": "JSL",
       "sector": "Commodities",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=177cd1b8-25df-44a5-b346-3ae0de4e6a5e.pdf",
-      "transcript_id": "jindal-stain_2026-05-01",
+      "concall_date": "2026-08-10",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a8431ae-c850-4d94-ba72-97b7ffe785c4.pdf",
+      "transcript_id": "jindal-stain_2026-08-10",
       "provider": "mistral",
-      "generated_at": "2026-07-05T00:12:38.247Z",
-      "summary": "Management expects strong volume growth and stable EBITDA margins in FY27 despite global headwinds, supported by domestic demand and capacity expansions.",
+      "generated_at": "2026-08-10T19:58:58.490Z",
+      "summary": "Management expects resilient demand and volume recovery in FY27, supported by downstream capacity expansion and energy diversification, while maintaining EBITDA maximization focus.",
       "guidance": [
         {
-          "metric": "Volume growth",
+          "metric": "Sales volume growth",
           "horizon": "FY27",
-          "statement": "Expecting 7% to 9% volume growth for the year",
+          "statement": "Management remains confident of achieving 8% to 10% sales volume growth for FY27, with potential updates in H2FY27 if needed.",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sales volume growth",
+          "horizon": "Q2FY27",
+          "statement": "Management expects gradual volume recovery in Q2FY27 following Q1 disruptions.",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA per ton",
           "horizon": "H1FY27",
-          "statement": "Guidance of INR18,000 to INR20,000 per ton for H1FY27",
+          "statement": "Management maintains guidance of INR18,000 to INR20,000 EBITDA per ton for H1FY27.",
           "specificity": "specific",
           "direction": "unclear"
         },
         {
-          "metric": "Export share",
+          "metric": "EBITDA per ton",
           "horizon": "FY27",
-          "statement": "Targeting 8% to 10% of total volume as exports",
+          "statement": "Management will revisit EBITDA per ton guidance at the end of Q2FY27 if required.",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Export volume",
+          "horizon": "FY27",
+          "statement": "Export volumes are expected to remain consistent in absolute terms, with export mix around 11% of sales volume.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Guidance of INR2,600 crores for FY27",
+          "metric": "Export markets",
+          "horizon": "medium-term",
+          "statement": "Management aims to expand exports to markets like South Korea, Japan, Brazil, and Americas, targeting higher margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Downstream cold rolling capacity",
+          "horizon": "next year",
+          "statement": "Downstream cold rolling capacity is expected to increase from 2 million tons to 2.67 million tons.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "CRAP capacity",
-          "horizon": "FY28",
-          "statement": "CRAP capacity to increase to 2.67 million tons per annum by FY28",
+          "metric": "Capex",
+          "horizon": "FY27",
+          "statement": "Capex plan for FY27 is around INR2,400–2,600 crores, on track and focused on downstream expansion.",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
           "metric": "Sales volume target",
           "horizon": "FY29",
-          "statement": "Targeting 3.5 million tons per annum by FY29",
+          "statement": "Management remains committed to achieving a sales volume target of 3.5 million tons per annum by FY29.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Stainless steel demand (metro/rail)",
-          "horizon": "3-4 years",
-          "statement": "Demand for stainless steel in metro/rail expected to witness a jump of 2x to 3x",
+          "metric": "Green hydrogen capacity",
+          "horizon": "this quarter",
+          "statement": "Green hydrogen capacity at Jajpur (600 nm3 per hour) is expected to be commissioned in this quarter.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Nickel EBITDA per ton (RKEF)",
-          "horizon": "current",
-          "statement": "Current EBITDA at $3,000 per ton of nickel, historically ranging from $500 to $1,500 per ton",
-          "specificity": "specific",
+          "metric": "Maharashtra investment",
+          "horizon": "1–2 quarters",
+          "statement": "Management expects to provide clarity on Maharashtra investment plan in 1–2 quarters.",
+          "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Metro project activity",
-          "horizon": "FY27",
-          "statement": "Several new metro projects slated to go on stream in Bengaluru, Mumbai, Gurugram, and Delhi in FY27",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Lift and elevator industry growth",
-          "horizon": "FY27",
-          "statement": "Expected to witness steady growth driven by urbanization and infrastructure development",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Brand campaign impact",
-          "horizon": "medium-term",
-          "statement": "Brand building initiatives expected to strengthen top-of-mind recall and support long-term demand creation",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Decarbonization progress",
-          "horizon": "long-term",
-          "statement": "Continued commitment towards decarbonization goals with partial commissioning of 315 MW solar/wind hybrid power project",
+          "metric": "Antidumping duty and QCO",
+          "horizon": "next few months",
+          "statement": "Dialogue with government on antidumping duty and QCO is progressing positively, with potential clarity in the next few months.",
           "specificity": "vague",
           "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "Breakup of 200/300/400 series volumes for future periods",
-        "Defense segment revenue contribution beyond qualitative statements",
-        "FY28 capex guidance",
-        "EBITDA per ton guidance beyond H1FY27",
-        "Volume disruption impact from gas crisis in March",
-        "EBITDA impact quantification of gas cost increase"
+        "exact carbon intensity figures for plants",
+        "CBAM benchmark numbers set by EU",
+        "RKEF profitability outlook beyond current quarter"
       ],
       "margin_drivers": [
-        "Brand building initiatives",
-        "Domestic demand from automotive, pipe/tube, railway, metro, lift/elevator, and white goods sectors",
-        "Value-added downstream capacity expansions (HRAP/CRAP lines)",
-        "Export market diversification and customer relationships",
-        "Nickel business (RKEF) EBITDA volatility",
-        "Cost competitiveness and operational resilience",
-        "Life cycle cost considerations in customer decisions favoring stainless steel"
+        "energy cost pass-through",
+        "value-added product mix",
+        "downstream capacity expansion",
+        "export margin optimization",
+        "scrap maximization (85–90% at Hisar, 70–75% at Jajpur)",
+        "green hydrogen and renewable energy adoption"
       ]
     },
     "Pearl Global Ind": {
@@ -74793,109 +74804,107 @@
       "company": "Vijaya Diagnost.",
       "ticker": "VIJAYA",
       "sector": "Healthcare",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cae781f9-5ae5-4003-a77d-e2de25136e19.pdf",
-      "transcript_id": "vijaya-diagnost_2026-05-01",
+      "concall_date": "2026-08-10",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53a03f4b-7203-401f-b291-5b14c904d98a.pdf",
+      "transcript_id": "vijaya-diagnost_2026-08-10",
       "provider": "mistral",
-      "generated_at": "2026-07-05T16:39:30.933Z",
-      "summary": "Management expects sustained revenue growth driven by network expansion and volume-led expansion, with EBITDA margins remaining robust above 40% despite incremental investments in technology and talent.",
+      "generated_at": "2026-08-10T19:59:07.103Z",
+      "summary": "Management expects sustained revenue growth driven by network expansion, margin stability above 40% despite expansion capex, and continued wellness revenue contribution.",
       "guidance": [
         {
           "metric": "Revenue growth",
           "horizon": "FY27",
-          "statement": "Commissioning 4 to 5 hubs and 10 to 12 spokes across the network",
-          "specificity": "specific",
+          "statement": "Revenue growth expected to remain above industry growth of 13-14% due to market share gains and integrated B2C model",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Delivering more than 40% EBITDA margin",
+          "statement": "Confident of maintaining EBITDA margin above 40% despite expansion drag of 1-1.5%",
           "specificity": "specific",
           "direction": "flat"
         },
         {
           "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Estimated capex of INR 140 crores to INR 150 crores for new centers and automated lab",
+          "statement": "Planned capex of INR190-195 crores for 9 hubs, 10-12 spokes, and Panjagutta reference lab",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Automated lab",
-          "horizon": "FY27",
-          "statement": "State-of-the-art, fully automated lab in Panjagutta, Hyderabad with automated track system to enhance turnaround times and operational productivity",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Genomic Testing",
-          "horizon": "medium-term",
-          "statement": "Introduction of advanced Genomic Testing as part of specialized diagnostic offerings",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Hub breakeven timeline",
-          "horizon": "FY27",
-          "statement": "New hubs in core markets expected to achieve breakeven within 2 to 3 quarters",
-          "specificity": "specific",
-          "direction": "flat"
-        },
-        {
-          "metric": "Hyderabad revenue growth",
-          "horizon": "2-3 years",
-          "statement": "Double-digit revenue growth expected in Hyderabad due to network expansion and market share gains",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Wellness segment growth",
-          "horizon": "FY27",
-          "statement": "Focus on volume-driven growth with 1% to 1.5% realization growth; wellness packages to contribute to revenue growth",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Flagship hubs",
-          "horizon": "FY27",
-          "statement": "Planning flagship hubs with high-end equipment like PET CT, MRI, and cardiac CT in non-core clusters (e.g., Bannerghatta, Bangalore)",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Inorganic expansion",
-          "horizon": "medium-term",
-          "statement": "Open to inorganic expansion opportunities in B2C-driven pathology or radiology businesses that align with company ethos",
-          "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Replacement capex",
+          "metric": "Hub and spoke expansion",
           "horizon": "FY27",
-          "statement": "INR 10 crores to INR 12 crores allocated for replacement capex in existing centers",
+          "statement": "Commissioning 9 hubs and 10-12 spokes in FY27, with staggered capex to minimize margin impact",
           "specificity": "specific",
-          "direction": "flat"
+          "direction": "up"
         },
         {
-          "metric": "Network density",
-          "horizon": "medium-term",
-          "statement": "Denser network in existing clusters (Pune, West Bengal, Bangalore) expected to improve operating leverage",
+          "metric": "Land acquisition in Andhra Pradesh",
+          "horizon": "FY27",
+          "statement": "Planning to acquire land for a new hub in Andhra Pradesh with capex of INR8-10 crores",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Wellness revenue share",
+          "horizon": "FY27",
+          "statement": "Wellness revenue share expected to remain around 15% with premium packages driving growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Pune market growth",
+          "horizon": "FY27",
+          "statement": "Pune geography expected to grow at 18% with addition of 2 hubs and spokes",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hyderabad market growth",
+          "horizon": "FY27",
+          "statement": "Hyderabad expected to maintain 17% growth momentum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Pathology revenue scaling",
+          "horizon": "FY27",
+          "statement": "Pathology revenues scaling alongside radiology in new hubs without margin dip",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Bangalore market expansion",
+          "horizon": "3-5 years",
+          "statement": "Bangalore identified as next core geography after AP-Telangana with deep expansion planned over 5 years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Karnataka market expansion",
+          "horizon": "7-8 years",
+          "statement": "Karnataka expected to match Hyderabad in scale over the next 7-8 years",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Eastern India expansion",
+          "horizon": "7-8 years",
+          "statement": "Eastern India identified as a key growth market alongside Karnataka",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "specific revenue growth targets beyond FY27",
-        "exact timeline for genomic testing to contribute significantly to revenue",
-        "detailed breakdown of capex allocation beyond INR 140-150 crores for FY27"
+        "industry-wide market share quantification",
+        "quantitative impact of AI initiatives on revenue/margins"
       ],
       "margin_drivers": [
-        "Operating leverage from existing network",
-        "Faster breakeven of new hubs",
-        "Volume growth in mature markets (e.g., Hyderabad)",
-        "Investments in technology and talent",
-        "Replacement capex in existing centers"
+        "operating leverage from existing clusters",
+        "pathology revenue scaling in new hubs",
+        "wellness premium packages",
+        "high-end imaging equipment adoption"
       ]
     },
     "C.E. Info System": {
@@ -105176,6 +105185,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-10T19:12:18.256Z",
+  "generated_at": "2026-08-10T19:59:53.218Z",
   "count": 1071
 }
