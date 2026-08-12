@@ -1,13 +1,35 @@
 {
-  "generated_at": "2026-08-12T15:02:07.702Z",
+  "generated_at": "2026-08-12T15:21:29.522Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 44,
-    "gained": 322,
-    "consistent": 630,
-    "companies_evaluated": 987
+    "dropped": 52,
+    "gained": 325,
+    "consistent": 622,
+    "companies_evaluated": 988
   },
   "dropped": [
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Inox Green",
+      "ticker": "INOXGREEN",
+      "sector": "Utilities",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Inox Green",
+      "ticker": "INOXGREEN",
+      "sector": "Utilities",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
     {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
@@ -72,6 +94,72 @@
       "latest_call_date": "2026-08-02",
       "last_seen_date": "2026-05-20",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "unique",
+      "fund_name": "Unique PMS",
+      "company": "Greaves Cotton",
+      "ticker": "GREAVESCOT",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-05-06",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "company": "Inox Green",
+      "ticker": "INOXGREEN",
+      "sector": "Utilities",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Inox Wind",
+      "ticker": "INOXWIND",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Inox Wind",
+      "ticker": "INOXWIND",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "enam",
+      "fund_name": "Enam",
+      "company": "Kaynes Tech",
+      "ticker": "KAYNES",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-06-11",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Akiko",
+      "ticker": "AKIKO",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-08-12",
+      "last_seen_date": "2026-05-26",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -494,6 +582,150 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "girik",
+      "fund_name": "Girik Capital",
+      "company": "Muthoot Microfin",
+      "ticker": "MUTHOOTMF",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "bowhead",
+      "fund_name": "Bowhead India",
+      "company": "Whirlpool India",
+      "ticker": "WHIRLPOOL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Gulshan Polyols",
+      "ticker": "GULPOLY",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Gulshan Polyols",
+      "ticker": "GULPOLY",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "Allcargo Logist.",
+      "ticker": "ALLCARGO",
+      "sector": "Services",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Multi Comm. Exc.",
+      "ticker": "MCX",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "RNFI Services",
+      "ticker": "RNFI",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "aequitas",
+      "fund_name": "Aequitas",
+      "company": "Godrej Agrovet",
+      "ticker": "GODREJAGRO",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Styrenix Perfor.",
+      "ticker": "STYRENIX",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "company": "Electrost.Cast.",
+      "ticker": "ELECTCAST",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "ampersand",
+      "fund_name": "Ampersand Capital",
+      "company": "Greaves Cotton",
+      "ticker": "GREAVESCOT",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Inox Green",
+      "ticker": "INOXGREEN",
+      "sector": "Utilities",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Inox Wind",
+      "ticker": "INOXWIND",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "alchemy",
+      "fund_name": "Alchemy Capital",
+      "company": "Pace Digitek",
+      "ticker": "PACEDIGITK",
+      "sector": "Telecommunication",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "abakkus",
+      "fund_name": "Abakkus",
+      "company": "Pace Digitek",
+      "ticker": "PACEDIGITK",
+      "sector": "Telecommunication",
+      "latest_call_date": "2026-08-12"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "United Foodbrands",
+      "ticker": "UFBL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-11"
+    },
+    {
+      "fund_id": "carnelian",
+      "fund_name": "Carnelian",
+      "company": "Inventurus Knowl",
+      "ticker": "IKS",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-11"
+    },
+    {
+      "fund_id": "finavenue",
+      "fund_name": "Finavenue",
+      "company": "Inventurus Knowl",
+      "ticker": "IKS",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-11"
+    },
     {
       "fund_id": "nafa",
       "fund_name": "Nafa Asset Managers",
@@ -1799,22 +2031,6 @@
       "latest_call_date": "2026-06-01"
     },
     {
-      "fund_id": "wallfort",
-      "fund_name": "Wallfort PMS",
-      "company": "Uniparts India",
-      "ticker": "UNIPARTS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-06-01"
-    },
-    {
-      "fund_id": "unique",
-      "fund_name": "Unique PMS",
-      "company": "Uniparts India",
-      "ticker": "UNIPARTS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-06-01"
-    },
-    {
       "fund_id": "carnelian",
       "fund_name": "Carnelian",
       "company": "Scoda Tubes",
@@ -2127,14 +2343,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "nafa",
-      "fund_name": "Nafa Asset Managers",
-      "company": "Inventurus Knowl",
-      "ticker": "IKS",
-      "sector": "Information Technology",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
       "company": "Patil Automation",
@@ -2263,30 +2471,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "aequitas",
-      "fund_name": "Aequitas",
-      "company": "G N F C",
-      "ticker": "GNFC",
-      "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "Sterling Tools",
-      "ticker": "STERTOOLS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Sterling Tools",
-      "ticker": "STERTOOLS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Western Carriers",
@@ -2375,30 +2559,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "SIS",
-      "ticker": "SIS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "SIS",
-      "ticker": "SIS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "guardian-capital",
-      "fund_name": "Guardian Capital Partners",
-      "company": "SIS",
-      "ticker": "SIS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "KPI Green Energy",
@@ -2471,27 +2631,11 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "vallum",
-      "fund_name": "Vallum Capital",
-      "company": "Styrenix Perfor.",
-      "ticker": "STYRENIX",
-      "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sameeksha",
       "fund_name": "Sameeksha Capital",
       "company": "Muthoot Finance",
       "ticker": "MUTHOOTFIN",
       "sector": "Financial Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Capacit'e Infra.",
-      "ticker": "CAPACITE",
-      "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2657,22 +2801,6 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "company": "Rolex Rings",
-      "ticker": "ROLEXRINGS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "electrum",
-      "fund_name": "Electrum Capital",
-      "company": "Rolex Rings",
-      "ticker": "ROLEXRINGS",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
       "company": "Sahaj Solar",
       "ticker": "SAHAJSOLAR",
       "sector": "Industrials",
@@ -2692,14 +2820,6 @@
       "company": "Vision Infra",
       "ticker": "VIESL",
       "sector": "Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Emcure Pharma",
-      "ticker": "EMCURE",
-      "sector": "Healthcare",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2972,14 +3092,6 @@
       "company": "Macfos",
       "ticker": "543787",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-04-01"
-    },
-    {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Ugro Capital",
-      "ticker": "UGROCAP",
-      "sector": "Financial Services",
       "latest_call_date": "2026-04-01"
     },
     {
