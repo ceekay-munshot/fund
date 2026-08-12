@@ -38518,113 +38518,55 @@
       "company": "United Foodbrands",
       "ticker": "UFBL",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-27",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bcd4e53-6580-4dd2-8158-d81b54b8ec53.pdf",
-      "transcript_id": "united-foodbrands_2026-05-27",
-      "provider": "mistral",
-      "generated_at": "2026-06-27T21:41:56.795Z",
-      "summary": "Strong volume-led growth momentum to continue in FY27 with mid-single-digit to double-digit SSSG, 40 new restaurants, and 9-10% EBITDA margin target.",
+      "concall_date": "2026-08-11",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cce4afe5-5854-4e9d-bf41-cfe6e5a62591.pdf",
+      "transcript_id": "united-foodbrands_2026-08-11",
+      "provider": "groq",
+      "generated_at": "2026-08-12T20:19:49.665Z",
+      "summary": "United Foodbrands expects same-store sales growth to moderate in FY27 due to a higher base, but remains optimistic about its expansion plans and unit economics improvement",
       "guidance": [
         {
-          "metric": "SSSG",
+          "metric": "Same-store sales growth",
           "horizon": "FY27",
-          "statement": "Internal aim to deliver mid-single-digit to double-digit SSSG on a normalized base",
-          "specificity": "specific",
-          "direction": "up"
+          "statement": "Moderation expected due to higher base",
+          "specificity": "vague",
+          "direction": "down"
         },
         {
-          "metric": "SSSG",
-          "horizon": "Q1FY27-Q2FY27",
-          "statement": "Expect SSSG to continue at Q4FY26 levels or improve further",
+          "metric": "Margins",
+          "horizon": "FY27",
+          "statement": "Continued improvement expected through unit economics and operating leverage",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "SSSG",
-          "horizon": "H2FY27",
-          "statement": "Strive to achieve double-digit SSSG on full-year basis",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Restaurant network",
+          "metric": "Network expansion",
           "horizon": "FY27",
-          "statement": "Plan to add 40 new restaurants, taking total to 300+ by end-FY27",
+          "statement": "On track to reach 300 restaurants",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Restaurant network",
-          "horizon": "FY30",
-          "statement": "Internal target to reach 400-425 restaurants by FY30",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Pre-Ind AS adjusted operating EBITDA margin",
+          "metric": "Capital allocation",
           "horizon": "FY27",
-          "statement": "Target of 9% to 10% with path towards double-digit margins",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Mature portfolio ROM",
-          "horizon": "Short-term",
-          "statement": "Expected to move to 17% to 18% from H2FY26 level of ~16%",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Consolidated ROM",
-          "horizon": "FY27",
-          "statement": "Expected to be in range of 15.5% to 16.5%",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Back-end costs as % of revenue",
-          "horizon": "FY27",
-          "statement": "Expected to compress to 6.5% from 7.1% in Q4FY26",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "Gross margin",
-          "horizon": "FY27",
-          "statement": "Expect 100-150 bps recovery to 67%-68% range",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Planned capex of ~INR140 crores for new store expansion and maintenance",
-          "specificity": "specific",
+          "statement": "Priorities remain unchanged, with focus on funding expansion through internal accruals",
+          "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Revenue growth",
-          "horizon": "FY27",
-          "statement": "Expect 22%-25% revenue growth on full-year basis with 12%-13% store expansion and double-digit SSSG",
+          "metric": "Barbeque Nation India store count",
+          "horizon": "long-term",
+          "statement": "Potential to reach 600 stores",
           "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "macro-economic outlook",
-        "pricing strategy beyond minor tweaks",
-        "new brand/category launches",
-        "acquisition plans"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "procurement initiatives",
-        "scale benefits",
-        "selective realization improvements",
-        "operating leverage from sustained SSSG",
-        "culinary innovation",
-        "digital engagement",
-        "store-level operational discipline",
-        "guest experience improvements"
+        "Gross margin recovery in India",
+        "Mature portfolio restaurant operating margin improvement",
+        "Improvement in margins of new store cohort",
+        "Operating leverage in back-end cost space"
       ]
     },
     "Carysil": {
@@ -105779,6 +105721,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-12T19:16:48.832Z",
+  "generated_at": "2026-08-12T20:20:19.946Z",
   "count": 1075
 }
