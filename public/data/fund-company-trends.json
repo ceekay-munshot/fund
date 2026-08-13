@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-08-13T15:16:34.831Z",
+  "generated_at": "2026-08-13T15:29:04.802Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 52,
-    "gained": 325,
-    "consistent": 622,
-    "companies_evaluated": 988
+    "dropped": 57,
+    "gained": 327,
+    "consistent": 620,
+    "companies_evaluated": 991
   },
   "dropped": [
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Allied Digital",
+      "ticker": "ADSL",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-13",
+      "last_seen_date": "2026-05-27",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
@@ -94,6 +105,50 @@
       "latest_call_date": "2026-08-02",
       "last_seen_date": "2026-05-20",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "electrum",
+      "fund_name": "Electrum Capital",
+      "company": "J.G.Chemicals",
+      "ticker": "JGCHEM",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-13",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "DDev Plastiks",
+      "ticker": "DDEVPLSTIK",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-13",
+      "last_seen_date": "2026-05-28",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Sula Vineyards",
+      "ticker": "SULA",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-13",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Blue Star",
+      "ticker": "BLUESTARCO",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-13",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -582,6 +637,126 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "solidarity",
+      "fund_name": "Solidarity",
+      "company": "Ajax Engineering",
+      "ticker": "AJAXENGG",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "J.G.Chemicals",
+      "ticker": "JGCHEM",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Ellen.Indl.Gas",
+      "ticker": "ELLEN",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "wallfort",
+      "fund_name": "Wallfort PMS",
+      "company": "Ellen.Indl.Gas",
+      "ticker": "ELLEN",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "singularity",
+      "fund_name": "Singularity AMC",
+      "company": "Ellen.Indl.Gas",
+      "ticker": "ELLEN",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "boring",
+      "fund_name": "Boring AMC",
+      "company": "Nitin Spinners",
+      "ticker": "NITINSPIN",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Suprajit Engg.",
+      "ticker": "SUPRAJIT",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "boring",
+      "fund_name": "Boring AMC",
+      "company": "Suprajit Engg.",
+      "ticker": "SUPRAJIT",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "company": "Vikram Solar",
+      "ticker": "VIKRAMSOLR",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "GK Energy",
+      "ticker": "GKENERGY",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "Speciality Rest.",
+      "ticker": "SPECIALITY",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Speciality Rest.",
+      "ticker": "SPECIALITY",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "alfaccurate",
+      "fund_name": "AlfAccurate Advisors",
+      "company": "GMM Pfaudler",
+      "ticker": "GMMPFAUDLR",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "aequitas",
+      "fund_name": "Aequitas",
+      "company": "CMS Info Systems",
+      "ticker": "CMSINFO",
+      "sector": "Services",
+      "latest_call_date": "2026-08-13"
+    },
+    {
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "Parag Milk Foods",
+      "ticker": "PARAGMILK",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-13"
+    },
     {
       "fund_id": "girik",
       "fund_name": "Girik Capital",
@@ -1871,14 +2046,6 @@
       "latest_call_date": "2026-06-03"
     },
     {
-      "fund_id": "white-pine",
-      "fund_name": "White Pine Investment Management",
-      "company": "All Time Plastic",
-      "ticker": "ALLTIME",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-06-01"
-    },
-    {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "Tarsons Products",
@@ -2487,14 +2654,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "Speciality Rest.",
-      "ticker": "SPECIALITY",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
       "company": "Grasim Inds",
@@ -2527,22 +2686,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Afcons Infrastr.",
-      "ticker": "AFCONS",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Parag Milk Foods",
-      "ticker": "PARAGMILK",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "girik",
       "fund_name": "Girik Capital",
       "company": "Patel Engineerin",
@@ -2567,14 +2710,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "unique",
-      "fund_name": "Unique PMS",
-      "company": "Kirl. Ferrous",
-      "ticker": "KIRLFER",
-      "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "stallion",
       "fund_name": "Stallion Asset",
       "company": "S C I",
@@ -2596,30 +2731,6 @@
       "company": "S C I",
       "ticker": "SCI",
       "sector": "Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Akums Drugs",
-      "ticker": "AKUMS",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Akums Drugs",
-      "ticker": "AKUMS",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Akums Drugs",
-      "ticker": "AKUMS",
-      "sector": "Healthcare",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2780,22 +2891,6 @@
       "company": "SEAMEC Ltd",
       "ticker": "SEAMECLTD",
       "sector": "Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "mittal-analytics",
-      "fund_name": "Mittal Analytics",
-      "company": "Godawari Power",
-      "ticker": "GPIL",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "aequitas",
-      "fund_name": "Aequitas",
-      "company": "Godawari Power",
-      "ticker": "GPIL",
-      "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2999,22 +3094,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "wallfort",
-      "fund_name": "Wallfort PMS",
-      "company": "GK Energy",
-      "ticker": "GKENERGY",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "valuequest",
-      "fund_name": "ValueQuest",
-      "company": "GK Energy",
-      "ticker": "GKENERGY",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
       "company": "Connplex Cinemas",
@@ -3109,14 +3188,6 @@
       "ticker": "VAML",
       "sector": "Commodities",
       "latest_call_date": "2026-04-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Elin Electronics",
-      "ticker": "ELIN",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-03-01"
     },
     {
       "fund_id": "sequent",
