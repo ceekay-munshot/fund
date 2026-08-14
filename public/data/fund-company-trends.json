@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-08-14T14:36:47.694Z",
+  "generated_at": "2026-08-14T15:13:25.809Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 57,
-    "gained": 327,
-    "consistent": 620,
-    "companies_evaluated": 991
+    "dropped": 60,
+    "gained": 321,
+    "consistent": 615,
+    "companies_evaluated": 994
   },
   "dropped": [
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Carysil",
+      "ticker": "CARYSIL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-14",
+      "last_seen_date": "2026-05-27",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
@@ -108,13 +119,24 @@
       "tier": "strong"
     },
     {
-      "fund_id": "electrum",
-      "fund_name": "Electrum Capital",
-      "company": "J.G.Chemicals",
-      "ticker": "JGCHEM",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-13",
-      "last_seen_date": "2026-05-01",
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "Jeena Sikho",
+      "ticker": "JSLL",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-14",
+      "last_seen_date": "2026-06-08",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "abakkus",
+      "fund_name": "Abakkus",
+      "company": "M & B Engineer.",
+      "ticker": "MBEL",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-14",
+      "last_seen_date": "2026-06-01",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -124,8 +146,19 @@
       "company": "DDev Plastiks",
       "ticker": "DDEVPLSTIK",
       "sector": "Commodities",
-      "latest_call_date": "2026-08-13",
+      "latest_call_date": "2026-08-14",
       "last_seen_date": "2026-05-28",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "electrum",
+      "fund_name": "Electrum Capital",
+      "company": "J.G.Chemicals",
+      "ticker": "JGCHEM",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-13",
+      "last_seen_date": "2026-05-01",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -637,6 +670,94 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Medi Assist Ser.",
+      "ticker": "MEDIASSIST",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Eveready Inds.",
+      "ticker": "EVEREADY",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "aequitas",
+      "fund_name": "Aequitas",
+      "company": "Cosmo First",
+      "ticker": "COSMOFIRST",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Network People",
+      "ticker": "NPST",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "alfaccurate",
+      "fund_name": "AlfAccurate Advisors",
+      "company": "Raymond",
+      "ticker": "RAYMONDLSL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Redtape",
+      "ticker": "REDTAPE",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Jeena Sikho",
+      "ticker": "JSLL",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Powerica Ltd",
+      "ticker": "POWERICA",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Quality Power El",
+      "ticker": "QPOWER",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Wakefit Innovati",
+      "ticker": "WAKEFIT",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Lemon Tree Hotel",
+      "ticker": "LEMONTREE",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-14"
+    },
     {
       "fund_id": "solidarity",
       "fund_name": "Solidarity",
@@ -2078,14 +2199,6 @@
       "latest_call_date": "2026-06-01"
     },
     {
-      "fund_id": "carnelian",
-      "fund_name": "Carnelian",
-      "company": "M & B Engineer.",
-      "ticker": "MBEL",
-      "sector": "Industrials",
-      "latest_call_date": "2026-06-01"
-    },
-    {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "Kilburn Engg.",
@@ -2318,30 +2431,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "IKIO Tech",
-      "ticker": "IKIO",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "IKIO Tech",
-      "ticker": "IKIO",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "girik",
-      "fund_name": "Girik Capital",
-      "company": "IKIO Tech",
-      "ticker": "IKIO",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Welspun Special.",
@@ -2411,14 +2500,6 @@
       "company": "Shriram Pistons",
       "ticker": "SHRIPISTON",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sameeksha",
-      "fund_name": "Sameeksha Capital",
-      "company": "Interarch Build.",
-      "ticker": "INTERARCH",
-      "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2526,38 +2607,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Raymond",
-      "ticker": "RAYMONDLSL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "white-pine",
-      "fund_name": "White Pine Investment Management",
-      "company": "Raymond",
-      "ticker": "RAYMONDLSL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Raymond",
-      "ticker": "RAYMONDLSL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "boring",
-      "fund_name": "Boring AMC",
-      "company": "Raymond",
-      "ticker": "RAYMONDLSL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "icici-prudential",
       "fund_name": "ICICI Prudential AMC",
       "company": "JSW Cement",
@@ -2571,22 +2620,6 @@
       "company": "Allcargo Termi",
       "ticker": "ATL",
       "sector": "Services",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
-      "company": "Azad Engineering",
-      "ticker": "AZAD",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "white-pine",
-      "fund_name": "White Pine Investment Management",
-      "company": "Azad Engineering",
-      "ticker": "AZAD",
-      "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -2750,14 +2783,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "alchemy",
-      "fund_name": "Alchemy Capital",
-      "company": "Kamat Hotels",
-      "ticker": "KAMATHOTEL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Krishival Foods",
@@ -2819,14 +2844,6 @@
       "company": "Alkyl Amines",
       "ticker": "ALKYLAMINE",
       "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Ceigall India",
-      "ticker": "CEIGALL",
-      "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -3002,38 +3019,6 @@
       "fund_name": "Sapphire Capital",
       "company": "Desco Infra.",
       "ticker": "544387",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "astute",
-      "fund_name": "Astute Investment Management",
-      "company": "Quality Power El",
-      "ticker": "QPOWER",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Quality Power El",
-      "ticker": "QPOWER",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "Quality Power El",
-      "ticker": "QPOWER",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "electrum",
-      "fund_name": "Electrum Capital",
-      "company": "Quality Power El",
-      "ticker": "QPOWER",
       "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
