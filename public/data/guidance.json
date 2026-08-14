@@ -19842,57 +19842,110 @@
     },
     "M & B Engineer.": {
       "company": "M & B Engineer.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-06-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=133864d2-3d8a-4d5d-aca7-d5a0b6bbcaf8.pdf",
-      "transcript_id": "m-b-engineer_2026-06-01",
-      "provider": "groq",
-      "generated_at": "2026-06-25T05:49:54.964Z",
-      "summary": "M&B Engineering expects 25% top-line growth in FY27, driven by a strong order book and increasing demand for pre-engineered buildings and self-supported roofing systems.",
+      "ticker": "MBEL",
+      "sector": "Industrials",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d048dc-c561-4aec-8e27-1c011949a346.pdf",
+      "transcript_id": "m-b-engineer_2026-08-14",
+      "provider": "mistral",
+      "generated_at": "2026-08-14T18:02:09.927Z",
+      "summary": "Management expects strong revenue growth in FY27 with medium-term CAGR above 20%, supported by capacity expansions and export opportunities, though margin guidance remains pending due to cost volatility.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "25% year-on-year growth",
+          "statement": "Expect revenue growth of over 25% in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "medium-term (3-4 years)",
+          "statement": "Confident of achieving over 20% CAGR in revenue over the next three to four years",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Current inquiry pipeline of INR4,000 crores in Phenix and INR200 crores in Proflex supports sustained order booking momentum",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Order book",
+          "horizon": "FY27",
+          "statement": "Export orders outstanding of INR278 crores scheduled for execution during FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (PEB)",
+          "horizon": "Q3-Q4 FY27",
+          "statement": "Sanand PEB capacity to increase from 72,000 to 92,000 tons per annum by October 2026, with benefits realized in Q3-Q4 FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (Heavy structural steel)",
+          "horizon": "Q1 FY28",
+          "statement": "INR30 crore investment to add 10,000 tons to heavy structural steel capacity at Sanand, operational by Q1 FY28",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity (PEB)",
+          "horizon": "Q3 FY28",
+          "statement": "Cheyyar facility brownfield expansion to add 20,000 tons per annum, increasing total capacity to ~154,000 tons by Q3 FY28",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Export revenue",
-          "horizon": "FY27",
-          "statement": "Around INR300 crores",
+          "horizon": "FY28",
+          "statement": "Exports to West Coast of the US from Cheyyar facility expected to begin from next financial year (FY28)",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "No specific guidance due to uncertainty",
-          "specificity": "refused",
+          "statement": "Expect gradual improvement in margins in H2 FY27, with full-year improvement targeted but specific guidance deferred due to cost volatility",
+          "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Around INR100 crores",
+          "metric": "EBITDA margin (export orders)",
+          "horizon": "current",
+          "statement": "Current export margins at ~15% (vs. earlier 16%-17%) due to high freight costs, expected to improve with normalization of freight and Section 232 duty reduction to 25%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Volume growth",
-          "horizon": "FY27",
-          "statement": "20%-25% growth in Phenix and 17.25 lakhs square meters in Proflex",
+          "metric": "Market share",
+          "horizon": "FY28",
+          "statement": "Market share expected to increase from current 10%-12% to 12%-15% as new capacities come online",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Hit rate",
+          "horizon": "medium-term",
+          "statement": "Hit rate expected to improve as capacity expansions are completed, though not at the cost of margins",
+          "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "EBITDA margin for FY27"
+        "specific EBITDA margin guidance for FY27",
+        "specific EBITDA margin guidance for FY28"
       ],
       "margin_drivers": [
-        "Export incentives",
-        "Operating other income"
+        "freight costs",
+        "Section 232 duty reduction (50% to 25%)",
+        "capacity utilization improvements",
+        "export mix",
+        "automation in heavy structural steel processing"
       ]
     },
     "Hitachi Energy": {
@@ -31865,108 +31918,108 @@
       "company": "Pennar Industrie",
       "ticker": "PENIND",
       "sector": "Industrials",
-      "concall_date": "2026-05-29",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14e3ce75-dcf9-4306-bc0f-b34da2f0d874.pdf",
-      "transcript_id": "pennar-industrie_2026-05-29",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60509c4b-cee2-48ef-b1ec-aeed35acfa0e.pdf",
+      "transcript_id": "pennar-industrie_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-06-27T00:18:59.319Z",
-      "summary": "Management expects continued revenue and profitability growth in FY27 driven by strong order backlogs, mix shift to high-margin businesses, and operational discipline.",
+      "generated_at": "2026-08-14T18:00:51.897Z",
+      "summary": "Management expects strong revenue and profitability growth in FY27 driven by PEB India, PEB U.S., and Boilers, with ROCE improving to 25-30% and PBT margins reaching 7% over the next 3 years.",
       "guidance": [
         {
-          "metric": "PAT growth",
-          "horizon": "FY27",
-          "statement": "Management committed to 20% PAT growth for FY27.",
+          "metric": "Revenue",
+          "horizon": "Q2FY27",
+          "statement": "PEB India and PEB U.S. to see double-digit growth in Q2FY27 due to strong order backlogs and execution improvements.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth",
+          "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Management expects double-digit revenue growth, with PEB India capacity utilization and order backlog improving quarter-on-quarter.",
+          "statement": "Overall company revenue expected to grow at double-digit rates in FY27 as legacy businesses decline and prioritized segments expand.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "PEB India order backlog",
-          "horizon": "next 3 months",
-          "statement": "Management expects order backlog to reach a higher level in the next 3 months.",
+          "metric": "PBT margin",
+          "horizon": "Q2FY27",
+          "statement": "PBT margins for PEB India and PEB U.S. expected to return to prior levels from Q2FY27 onwards.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "PEB India revenue growth",
-          "horizon": "FY27",
-          "statement": "Management expects PEB India to grow at a double-digit rate in FY27.",
+          "metric": "PBT margin",
+          "horizon": "3 years",
+          "statement": "Targeting PBT margin of 7% over the next 3 years as higher-margin businesses scale and legacy segments decline.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "PEB U.S. revenue momentum",
+          "metric": "PAT margin",
           "horizon": "FY27",
-          "statement": "Management expects continued momentum in PEB U.S. as Ascent Structural scales.",
+          "statement": "PAT margin for Q1FY27 was 4.07%, with trend expected to improve as legacy businesses decline and higher-margin segments grow.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "PAT margin trajectory",
-          "horizon": "FY27",
-          "statement": "Management expects PAT margins to continue improving as revenue mix shifts toward higher-margin businesses.",
-          "specificity": "vague",
+          "metric": "ROCE",
+          "horizon": "Q2FY27",
+          "statement": "ROCE expected to exceed 20% in Q2FY27, higher than the 12% reported in Q1FY27.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin trajectory",
+          "metric": "ROCE",
           "horizon": "FY27",
-          "statement": "Management expects EBITDA margins to continue improving year-on-year.",
-          "specificity": "vague",
+          "statement": "Management targets ROCE of 25% for FY27 as an average, with potential to reach 30%.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Working capital days",
-          "horizon": "next few quarters",
-          "statement": "Management aims to reduce working capital days from 82 to 75 in the next few quarters.",
+          "metric": "Debt-to-equity ratio",
+          "horizon": "FY27",
+          "statement": "Targeting debt-to-equity ratio of 0.7 by end of FY27, with current focus on reducing leverage.",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "Consolidated tax rate",
+          "metric": "Order book",
           "horizon": "FY27",
-          "statement": "Management guides to a consolidated tax rate of approximately 25.5% (25%-26%).",
+          "statement": "PEB India order book at INR1,008 crores, PEB U.S. order backlog crossed USD100 million, Boilers at INR150 crores, indicating strong revenue visibility.",
           "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "BIW revenue",
+          "horizon": "3 months",
+          "statement": "Hyundai BIW plant commissioning expected this month, with revenue expected to double over the next 3 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Working capital",
+          "horizon": "Q2FY27",
+          "statement": "Management prioritizing inventory build-up, faster collections, and asset optimization to strengthen cash generation and improve ROCE.",
+          "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Boilers and process equipment order pipeline",
+          "metric": "Other income",
           "horizon": "FY27",
-          "statement": "Management expects boilers and process equipment to be a major growth lever for the company entering FY27.",
+          "statement": "Other income expected to continue as part of regular operations, including forex gains, export incentives, and write-backs of liabilities.",
           "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Engineering Services growth",
-          "horizon": "FY27",
-          "statement": "Management expects Engineering Services to continue outperforming, supported by U.S. sales investments and AI-assisted design adoption.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "ROCE and ROE",
-          "horizon": "FY27",
-          "statement": "Management expects ROCE and ROE to improve further as performance scales and capital allocation remains disciplined.",
-          "specificity": "vague",
-          "direction": "up"
+          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "Revenue or margin forecast for specific quarters within FY27",
-        "Exact percentage contribution of new vs. legacy revenue streams beyond qualitative ranges"
+        "Network JV financials (revenue/numbers)",
+        "Segmental EBITDA breakup for current quarter"
       ],
       "margin_drivers": [
-        "Shift in revenue mix toward higher-margin businesses (PEB U.S., Engineering Services, Hydraulics, BIW)",
-        "Operating leverage from increased capacity utilization",
-        "AI-assisted design and detailing in Engineering Services",
-        "Disciplined working capital management",
-        "Capital allocation into businesses with clear 'right to play' and 'right to win'"
+        "Higher-margin businesses (PEB India, PEB U.S., Engineering Services, Boilers) scaling up",
+        "Legacy businesses (steel, railways) declining",
+        "Operational efficiency and cost discipline",
+        "Steel price pass-through in PEB segments",
+        "Capital efficiency and ROCE focus"
       ]
     },
     "Max Healthcare": {
@@ -34980,110 +35033,111 @@
       "company": "Wakefit Innovati",
       "ticker": "WAKEFIT",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-28",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c52e9c3-a52d-441a-b4e1-ccde437b4cd6.pdf",
-      "transcript_id": "wakefit-innovati_2026-05-28",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee748f45-7936-4ab0-9a4a-da5422947b45.pdf",
+      "transcript_id": "wakefit-innovati_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-06-27T12:54:56.059Z",
-      "summary": "Management expects mid-20s revenue growth in FY27 driven by mattress portfolio strength and retail expansion, with margin pressure from raw material inflation and elevated A&P spend.",
+      "generated_at": "2026-08-14T18:01:20.993Z",
+      "summary": "Management expects steady volume-led growth with controlled A&P spend and targeted retail expansion, while navigating raw material volatility in H1 FY27.",
       "guidance": [
         {
-          "metric": "Revenue growth",
+          "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Targeting revenue growth driven by strength of mattress portfolio while improving reach of furniture and furnishing business.",
+          "statement": "Expect capex of Rs 100-120 crore, with 80% directed towards retail footprint expansion (Jumbo stores) and 20% towards manufacturing automation and business upgrades.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Retail footprint (COCO stores)",
+          "horizon": "FY27",
+          "statement": "Target to add ~80 company-owned, company-operated (COCO) stores, taking total network to ~245 stores by March 2027.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Furniture category growth",
+          "horizon": "next two quarters",
+          "statement": "Furniture category expected to grow in mid-teens to late-teens as catalog, visual merchandising, and design for Jumbo stores are completed.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Revenue growth",
-          "horizon": "FY27",
-          "statement": "Aspire to chase 20%+ growth despite margin pressure.",
+          "metric": "Furniture category growth (post-Jumbo stores)",
+          "horizon": "medium-term",
+          "statement": "Furniture category expected to see a step-jump of 25%-30% with the rollout of Jumbo stores.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Do not expect material change or dilution in margin structure in Q1 FY27; EBITDA may be impacted by 1-2 percentage points for the full year.",
+          "metric": "Raw material cost impact",
+          "horizon": "H1 FY27",
+          "statement": "Full impact of increased raw material costs will reflect in H1 FY27, with some impact already seen in Q1 and more in Q2.",
           "specificity": "specific",
-          "direction": "down"
+          "direction": "unclear"
+        },
+        {
+          "metric": "Raw material cost trend",
+          "horizon": "Q2 FY27",
+          "statement": "Raw material costs are expected to stabilize by Q3 FY27 if no further disruptions occur in the Middle East.",
+          "specificity": "vague",
+          "direction": "flat"
         },
         {
           "metric": "A&P spend",
-          "horizon": "Medium-term",
-          "statement": "Anticipate ramp-up in brand building efforts with A&P spend expected to be around 7% to 8% of sales.",
+          "horizon": "FY27",
+          "statement": "A&P spend expected to remain in the range of 7%-8% of revenue for the full year.",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
+        },
+        {
+          "metric": "Rental outgo",
+          "horizon": "FY27",
+          "statement": "Rental outgo expected to be around Rs 80-90 crore for FY27.",
+          "specificity": "specific",
+          "direction": "flat"
         },
         {
           "metric": "ESOP expenses",
           "horizon": "FY27",
-          "statement": "Anticipate ESOP expenses to be estimated at around INR12 crores for the next year.",
+          "statement": "ESOP expenses expected to be in the range of Rs 10-12 crore for FY27, slightly lower than earlier guidance.",
           "specificity": "specific",
           "direction": "down"
         },
         {
-          "metric": "COCO store expansion",
-          "horizon": "FY27",
-          "statement": "Target to deliver more than 80 stores net addition in FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Raw material inflation impact",
-          "horizon": "Near-term",
-          "statement": "If crude prices remain at $100, overall mattress division COGS inflation would be around 30%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Price increases",
+          "metric": "Volume vs. price mix (mattresses)",
           "horizon": "Q1 FY27",
-          "statement": "Implemented two measured calibrated price increases of about 7% to 8% in March and April.",
+          "statement": "Mattress growth in Q1 FY27 was ~66% volume-led and ~33% price-led due to raw material cost pass-through.",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Channel strategy",
-          "horizon": "Medium-term",
-          "statement": "Committed to steadily grow company-owned channels (D2C website and COCO stores) for better unit economics and customer data.",
-          "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Adjacent categories expansion",
-          "horizon": "Medium-term",
-          "statement": "Expansion into select adjacent categories to complement core portfolio; not anticipated to entail meaningful financial impact in medium term.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Market share protection",
-          "horizon": "Medium-term",
-          "statement": "Very protective of market share across all channels due to compounding effect of customer retention and cross-selling.",
-          "specificity": "vague",
-          "direction": "unclear"
-        },
-        {
-          "metric": "Gross margin",
-          "horizon": "FY27",
-          "statement": "Combined impact of higher input costs and phased price pass-throughs may constrain margin expansion in the near term.",
+          "metric": "Price normalization (mattresses)",
+          "horizon": "Q2 FY27",
+          "statement": "Started a modest price cut in July to normalize prices as raw material costs stabilize.",
           "specificity": "vague",
           "direction": "down"
+        },
+        {
+          "metric": "Competitive intensity (mattresses)",
+          "horizon": "medium-term",
+          "statement": "No new entrants or significant competitive aggression observed; competitive intensity remains stable with focused ROI-driven marketing.",
+          "specificity": "vague",
+          "direction": "flat"
         }
       ],
       "refused_to_guide": [
-        "Net volume growth impact from supply chain disruptions for smaller players",
-        "Sustainability of volume growth benefits from supply chain disruptions",
-        "Specific market share aspirations for adjacent categories in 4-5 years"
+        "long-term revenue growth targets",
+        "EBITDA margin targets beyond FY27",
+        "market share targets",
+        "specific SKU-level pricing strategy"
       ],
       "margin_drivers": [
-        "Raw material prices (polyol, TDI, crude-linked materials)",
-        "Price pass-throughs",
-        "A&P spend (7-8% of sales)",
-        "COCO store expansion (asset-light model)",
-        "ESOP expenses (INR12 crores in FY27)",
-        "Channel mix (own channels vs. marketplaces/MBOs)"
+        "raw material cost normalization",
+        "retail footprint expansion (COCO stores)",
+        "manufacturing automation",
+        "premiumization in mattress category",
+        "cross-category cross-selling (furniture, furnishing)",
+        "A&P spend efficiency"
       ]
     },
     "IOL Chemicals": {
@@ -35963,107 +36017,109 @@
       "company": "DDev Plastiks",
       "ticker": "DDEVPLSTIK",
       "sector": "Commodities",
-      "concall_date": "2026-08-13",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93110313-a8a5-4ecd-8df2-0eaf65546be6.pdf",
-      "transcript_id": "ddev-plastiks_2026-08-13",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af5fcefb-6299-41e9-9380-683c2131ed7c.pdf",
+      "transcript_id": "ddev-plastiks_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-08-13T17:36:42.212Z",
-      "summary": "Management expects disciplined growth driven by capacity expansion, export momentum, and entry into BESS, targeting INR5,000 crore revenue by FY30.",
+      "generated_at": "2026-08-14T18:02:19.264Z",
+      "summary": "Management expects disciplined growth with expansion into BESS and capacity ramp-up driving revenue towards INR5,000 crore by FY30.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Targeting 13% revenue growth in FY27, driven by 15% volume growth and conservative pricing assumptions.",
+          "statement": "13% to 14% revenue growth guided for FY27, driven by 15% volume growth and stable realizations.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Volume",
+          "metric": "Capacity utilization",
           "horizon": "FY27",
-          "statement": "Expecting 15% volume growth in FY27, supported by new capacity ramp-up and demand recovery.",
+          "statement": "New Bhiwadi facility expected to achieve 50% average utilization in FY27, ramping up to higher levels in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue contribution",
+          "horizon": "FY27",
+          "statement": "New Bhiwadi facility to contribute INR200-250 crore revenue in FY27 as utilization scales up.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Targeting EBITDA margin of 10% to 12% in FY27, with long-term target of 11% to 15% for BESS.",
+          "statement": "Target EBITDA margin of 10% to 12% for FY27, with current quarter performance not sustainable long-term.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "BESS EBITDA margin",
-          "horizon": "medium-term",
-          "statement": "Initial EBITDA margin for BESS expected at 6% to 8%, scaling to 11% to 15% with EPC and system integration adoption.",
+          "metric": "EBITDA per ton",
+          "horizon": "FY27",
+          "statement": "EBITDA per ton expected to normalize to INR16-17 range over time, with current INR19.6 unsustainable.",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "BESS business revenue",
+          "horizon": "FY29",
+          "statement": "1 gigawatt hour BESS facility expected to generate INR900 crore annual turnover in supply mode.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "BESS revenue",
-          "horizon": "FY29",
-          "statement": "1 GWh BESS facility expected to generate INR900 crore annual turnover in supply mode.",
+          "metric": "BESS EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Initial EBITDA margin of 6% to 8% for BESS, scaling to 11% to 15% with EPC and system integration over time.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "BESS capex",
-          "horizon": "FY27-FY29",
-          "statement": "First phase BESS capex of INR150-200 crore, fully funded from internal accruals.",
+          "horizon": "FY29",
+          "statement": "INR150-200 crore capex and INR100-150 crore working capital debt for first phase of BESS business.",
           "specificity": "specific",
           "direction": "up"
-        },
-        {
-          "metric": "BESS funding",
-          "horizon": "FY27-FY29",
-          "statement": "Additional debt for BESS working capital expected in INR100-150 crore range.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "XLPE capacity utilization",
-          "horizon": "FY27",
-          "statement": "New Bhiwadi XLPE facility expected to achieve 50% average utilization in FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "XLPE revenue contribution",
-          "horizon": "FY27",
-          "statement": "New Bhiwadi facility expected to contribute INR200-250 crore revenue in FY27 at 50% utilization.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Total installed capacity",
-          "horizon": "FY27",
-          "statement": "Total installed capacity to increase with new capacity additions, supporting growth trajectory.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Export revenue",
-          "horizon": "FY27",
-          "statement": "Export revenue expected to remain strong, though pricing volatility may normalize over 3-6 months.",
-          "specificity": "vague",
-          "direction": "unclear"
         },
         {
           "metric": "Top-line ambition",
           "horizon": "FY30",
-          "statement": "Committed to achieving INR5,000 crore revenue by FY30.",
+          "statement": "Target to achieve INR5,000 crore revenue by FY30, supported by structural growth drivers.",
           "specificity": "specific",
           "direction": "up"
+        },
+        {
+          "metric": "XLPE capacity",
+          "horizon": "current",
+          "statement": "XLPE capacity increased to 214,500 metric tons per annum with new Bhiwadi facility, consolidating leadership.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Export growth",
+          "horizon": "medium-term",
+          "statement": "Exports expected to grow with India-EU FTA providing preferential access to 99% of Indian exports.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Resin prices",
+          "horizon": "6 months",
+          "statement": "Resin prices expected to stabilize and gradually decline to pre-war levels over 3-6 months.",
+          "specificity": "specific",
+          "direction": "down"
         }
       ],
       "refused_to_guide": [
-        "Raw material price trends beyond 3-6 months",
-        "Specific customer approval timelines for new products"
+        "specific revenue or margin targets for BESS beyond initial phase",
+        "timeline for achieving 13% EBITDA margin in BESS",
+        "detailed breakdown of domestic vs. export margin trends"
       ],
       "margin_drivers": [
-        "Export pricing premiums due to geopolitical risks",
-        "Volume growth from new capacity ramp-up",
+        "export realizations",
+        "volume growth",
+        "capacity utilization",
         "BESS margin expansion with EPC and system integration",
-        "Shift towards higher-value medium/high-voltage applications"
+        "resin price stabilization"
       ]
     },
     "Sudeep Pharma": {
@@ -42736,106 +42792,109 @@
     },
     "Infinity Infoway": {
       "company": "Infinity Infoway",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-15",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b54907ad-53fd-4589-841e-14c23589e784.pdf",
-      "transcript_id": "infinity-infoway_2026-05-15",
+      "ticker": "544567",
+      "sector": "Information Technology",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1bcc418-d41e-40f7-8ae2-40cbacf4131a.pdf",
+      "transcript_id": "infinity-infoway_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-06-28T14:55:40.176Z",
-      "summary": "Management expects strong growth driven by ZeroTouch, international expansion, and AI integration, with revenue growth of 60-70% in FY27 and margin expansion from higher-margin ZeroTouch.",
+      "generated_at": "2026-08-14T18:02:26.853Z",
+      "summary": "Management expects strong growth driven by AI-led SaaS products, ZeroTouch, and strategic acquisitions, targeting 42-46% EBITDA margins over the medium term.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Expecting 60% to 70% revenue growth over current levels",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Revenue contribution from ZeroTouch",
-          "horizon": "FY27",
-          "statement": "Expecting 20% to 22% revenue contribution from ZeroTouch",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
           "metric": "ZeroTouch revenue contribution",
-          "horizon": "Medium-term (3-5 years)",
-          "statement": "Aiming to capture 10% market share in the ZeroTouch market",
+          "horizon": "next two years",
+          "statement": "Target contribution of 20-22% of total revenue",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "ZeroTouch margin",
+          "metric": "ZeroTouch order book",
           "horizon": "FY27",
-          "statement": "Expecting 50% to 60% margins on ZeroTouch operations",
+          "statement": "Minimum Rs. 5-6 crore order inflow expected in FY27",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "ZeroTouch machine deployment",
-          "horizon": "FY27",
-          "statement": "Planning to deploy 30% of the first 3,000 machines (900 machines)",
+          "metric": "ZeroTouch EBITDA margin",
+          "horizon": "medium-term",
+          "statement": "Expected EBITDA margin of 55-60%",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "ZeroTouch machine capacity",
-          "horizon": "Medium-term",
-          "statement": "Capacity to build 3,000 to 4,000 machines in short term and over 10,000 in longer run",
+          "metric": "ZeroTouch revenue model",
+          "horizon": "ongoing",
+          "statement": "Revenue model is device-as-a-service (DaaS) based on per question paper printed/delivered",
           "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "International expansion",
-          "horizon": "FY27",
-          "statement": "Targeting UAE first, followed by Saudi Arabia and Bahrain in GCC market",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "TimePay prepaid card revenue",
-          "horizon": "Current quarter/next quarter",
-          "statement": "Expecting meaningful revenue contribution from TimePay initiative by quarter end or early next quarter",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "AI integration in ERP",
-          "horizon": "FY27",
-          "statement": "Planning to introduce two new AI-based products and upgrade existing ERP with AI capabilities",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Geographical expansion in India",
-          "horizon": "FY27",
-          "statement": "Expanding presence to Rajasthan, Karnataka, Odisha, and UP",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Margins may increase due to higher-margin ZeroTouch but difficult to maintain at scale",
-          "specificity": "vague",
           "direction": "unclear"
         },
         {
-          "metric": "Market size for ZeroTouch",
-          "horizon": "Current",
-          "statement": "ZeroTouch market in India is over $3 billion annually",
+          "metric": "AI-led growth engine revenue",
+          "horizon": "FY27",
+          "statement": "Revenue contribution expected from AI ecosystem for education and manufacturing",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "New product launches",
+          "horizon": "FY27",
+          "statement": "Two new products under development to contribute to revenue growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Strategic acquisitions",
+          "horizon": "medium-term",
+          "statement": "Disciplined acquisition strategy in technology, education, FinTech, AI, and data centers to support growth",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin target",
+          "horizon": "medium-term",
+          "statement": "Target EBITDA margin range of 42-46%",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "LLM launch timeline",
+          "horizon": "FY27",
+          "statement": "LLM to be launched in Q3 FY27 and revenue expected to start by March 31, 2027",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "LLM revenue model",
+          "horizon": "ongoing",
+          "statement": "Initial revenue model to be per user/per query basis, transitioning to package-based pricing",
           "specificity": "specific",
           "direction": "unclear"
+        },
+        {
+          "metric": "Employee cost growth",
+          "horizon": "ongoing",
+          "statement": "Employee cost growth to continue at similar levels as current expansion phase",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Intangible assets growth",
+          "horizon": "FY27",
+          "statement": "Potential 10-20% increase in intangible assets from current Rs. 10 crore",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "peak intangible assets amount",
+        "detailed breakdown of revenue by government vs private sector for ZeroTouch"
+      ],
       "margin_drivers": [
-        "ZeroTouch (50-60% margins)",
-        "AI integration in ERP",
-        "Patented process (ZeroTouch)",
-        "Geographical expansion (international and domestic)"
+        "ZeroTouch (55-60% EBITDA margin)",
+        "AI-led products",
+        "Strategic acquisitions",
+        "Higher-margin product focus"
       ]
     },
     "Orient Electric": {
@@ -44745,111 +44804,108 @@
     },
     "Batliboi": {
       "company": "Batliboi",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02d2ca05-9e3a-4cce-bf9d-0c44451220d4.pdf",
-      "transcript_id": "batliboi_2026-05-01",
+      "ticker": "BATLIBOI",
+      "sector": "Industrials",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71185d09-847a-4d0d-9ba1-f54fa9f6bf54.pdf",
+      "transcript_id": "batliboi_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-06-28T21:16:13.634Z",
-      "summary": "Management expects improved performance across divisions in FY27 driven by strong order backlog, export focus, and new initiatives in green hydrogen and ZLD solutions.",
+      "generated_at": "2026-08-14T18:01:39.333Z",
+      "summary": "Management expects sustained growth driven by structural demand in automation, solar manufacturing, and industrial machinery, with EBITDA margin expansion and strategic acquisitions supporting long-term value creation.",
       "guidance": [
         {
-          "metric": "Revenue",
+          "metric": "Top-line growth",
           "horizon": "FY27",
-          "statement": "Improved performance expected in top-line and bottom-line for FY27",
-          "specificity": "vague",
+          "statement": "Deliver around 10% top-line growth over the last year",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Order backlog",
-          "horizon": "FY27",
-          "statement": "Order backlog improved to INR593 crores as of March 2026, with strong order inflows of INR990 crores in FY26",
+          "metric": "EBITDA margin",
+          "horizon": "Next 1-2 years",
+          "statement": "Improve EBITDA margin to 7%-8% from current levels",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Penta Automation turnover",
+          "horizon": "FY27 and beyond",
+          "statement": "Penta to grow 25%-30% this year and average 25%-30% over next 2-3 years",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Capex",
           "horizon": "FY27",
-          "statement": "Additional capex of around INR10 crores planned for FY27",
+          "statement": "Planning one or two quick investments, including a solar plant to reduce power costs",
+          "specificity": "vague",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Machine tool production capacity",
+          "horizon": "FY27",
+          "statement": "Production capacity increased by around 30% over the last year",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "Quickmill performance",
           "horizon": "FY27",
-          "statement": "Quickmill expected to deliver much better performance in FY27 with focus on export markets outside North America",
+          "statement": "Quickmill will deliver consistent performance in upcoming quarters based on pending orders",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Bioconserve Renewables (ZLD solutions)",
+          "metric": "Environmental Engineering division performance",
           "horizon": "FY27",
-          "statement": "Performance expected to be better than the first year of operation, with targeted major new ZLD projects",
+          "statement": "Division expects improved performance for the full year",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Green hydrogen business",
-          "horizon": "next 2-3 quarters",
-          "statement": "Pursuing 2-3 active inquiries for green hydrogen projects, with potential progress in the next 2-3 quarters",
+          "metric": "Solar plant power cost savings",
+          "horizon": "3-4 years",
+          "statement": "Aim to make incoming electricity cost revenue neutral through solar panel installation",
           "specificity": "vague",
-          "direction": "unclear"
+          "direction": "down"
         },
         {
-          "metric": "Machine tool division revenue",
+          "metric": "Textile industry demand",
           "horizon": "FY27",
-          "statement": "Machine tool division to benefit from investments made, with sufficient capacity to handle expected export business",
+          "statement": "Textile industry expected to do better with new textile incentive policies and FTAs with UK and EU",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Textile machinery division",
-          "horizon": "medium-term",
-          "statement": "Continuous process to launch new products and tie-ups to improve efficiency in textile industry, focusing on processing and water conservation",
+          "metric": "Bioconserve Renewable Envirotech growth",
+          "horizon": "FY27 and beyond",
+          "statement": "Robust outlook with growth prospects from food, chemical, pharma, and textile industries",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Environmental Engineering group performance",
-          "horizon": "FY27",
-          "statement": "Division expects improved performance for the whole year with healthy order backlog of INR32 crores",
+          "metric": "Quickmill market expansion",
+          "horizon": "FY27 and beyond",
+          "statement": "Focusing on new geographies like Gulf, Mexico, Egypt, South America, and Europe",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Fan division productivity",
+          "metric": "Order backlog utilization",
           "horizon": "FY27",
-          "statement": "Production capacity in fan division increased by nearly 40% this year, with further improvements expected",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Quickmill expansion capex",
-          "horizon": "next 2 quarters",
-          "statement": "Planned expansion capex of CAD 4 million (~INR25-30 crores) for Quickmill in Canada, subject to regulatory approvals",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Operating margin improvement",
-          "horizon": "FY27",
-          "statement": "Operating margin expected to improve with volume increase and operational efficiency initiatives",
+          "statement": "Healthy order backlog and inquiries support sustained growth",
           "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [
-        "division-wise profitability breakdown",
-        "quantum of operating profit improvement by division",
-        "bifurcation of direct vs. indirect order backlog in detail"
-      ],
+      "refused_to_guide": [],
       "margin_drivers": [
-        "volume growth",
-        "operational efficiency improvements",
-        "export market focus",
-        "new product launches in textile and environmental segments",
-        "investments in machine tool division"
+        "Operational efficiency improvements",
+        "Productivity gains from capex in machine tool division",
+        "Cost optimization initiatives",
+        "Synergies from Penta Automation acquisition",
+        "Solar power installation to reduce electricity costs",
+        "Value engineering initiatives in Environmental Engineering division"
       ]
     },
     "Indus Inf. Trust": {
@@ -48501,114 +48557,111 @@
     },
     "IKIO Tech": {
       "company": "IKIO Tech",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e60963d-f7cb-4561-bcbf-93217a4ee3cc.pdf",
-      "transcript_id": "ikio-tech_2026-05-01",
+      "ticker": "IKIO",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=348a363c-65bf-453f-a0c8-d4d180b92694.pdf",
+      "transcript_id": "ikio-tech_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-06-29T22:20:47.752Z",
-      "summary": "IKIO Tech expects sustained growth driven by diversification into non-lighting segments, global expansion, and capacity expansion, with improving margins and profitability over the medium term.",
+      "generated_at": "2026-08-14T18:01:50.060Z",
+      "summary": "IKIO Tech expects steady growth driven by diversified revenue mix, global expansion, and capacity expansion, with EBITDA margins stabilizing around 13-14% in FY27 despite near-term raw material and geopolitical headwinds.",
       "guidance": [
         {
+          "metric": "EBITDA margin",
+          "horizon": "FY27",
+          "statement": "EBITDA margin expected around 13-14% for the year, slightly below prior expectations due to raw material and geopolitical pressures.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "EBITDA margin (ODM home lighting)",
+          "horizon": "FY27",
+          "statement": "ODM home lighting EBITDA margin expected around 8.4% for Q1, with full-year guidance around the same level if raw material pricing stabilizes.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue (ODM home lighting)",
+          "horizon": "FY27",
+          "statement": "ODM home lighting revenue expected broadly flat YoY at ~Rs. 170 crores, with potential uptick of Rs. 10-15 crores.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Revenue (Other businesses)",
+          "horizon": "FY27",
+          "statement": "Other businesses expected to continue strong growth trajectory, with YoY revenue growth of ~53% in Q1 FY27 and sustained momentum across segments.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Capacity utilization",
+          "horizon": "3-3.5 years",
+          "statement": "Peak utilization expected to reach pre-IPO levels within 3-3.5 years, assuming stable global conditions.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (peak utilization)",
+          "horizon": "3-3.5 years",
+          "statement": "Peak EBITDA margin expected around 17-18% at high utilization levels, considering diversified revenue mix.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Gross margin",
+          "horizon": "FY27",
+          "statement": "Gross margin expected to stabilize around 40-41% for the year, assuming no escalation in geopolitical tensions or raw material price spikes.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
           "metric": "Revenue mix (non-lighting)",
-          "horizon": "FY27",
-          "statement": "Non-lighting revenue mix expected to increase from ~25% to 30-32% of total revenue.",
+          "horizon": "medium-term",
+          "statement": "Non-lighting businesses (automotive, hearables, wearables, energy solutions, electronic components) expected to drive growth and diversify revenue mix further.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "International revenue contribution",
+          "horizon": "medium-term",
+          "statement": "International presence to expand beyond 20 countries, with focus on reducing dependence on any single geography.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Manufacturing capacity (Block 3)",
+          "horizon": "Q2 FY27",
+          "statement": "Block 3 of manufacturing facility expected to be operational in Q2 FY27, adding significant capacity.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Capacity expansion",
-          "horizon": "Q1FY27",
-          "statement": "Block II of 2 lakh sq ft manufacturing capacity expected to be commercialized by end of Q1FY27.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Global revenue contribution",
+          "metric": "Tax rate",
           "horizon": "FY27",
-          "statement": "Revenue from outside India expected to continue growing, supported by diversification in Middle East and other markets.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Hearables and Wearables segment",
-          "horizon": "FY27",
-          "statement": "Segment expected to maintain strong momentum with new client orders and conversion to ODM model.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Automotive Lighting segment",
-          "horizon": "FY27",
-          "statement": "Segment expected to grow with potential in aftermarket LED lighting replacement for multinational brands.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Energy Solutions segment",
-          "horizon": "FY27",
-          "statement": "New product categories like solar inverters and batteries expected to contribute incrementally to revenue.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EMS (Electronic Manufacturing Services) business",
-          "horizon": "FY27",
-          "statement": "EMS business in Tower 1 expected to continue growing as a non-lighting revenue stream.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "EBITDA margins",
-          "horizon": "FY27",
-          "statement": "EBITDA margins expected to improve with scale, operating leverage, and efficiency gains across verticals.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Strategic expenses",
-          "horizon": "FY27",
-          "statement": "Front-loaded strategic expenses expected to normalize with scale and operating leverage.",
+          "statement": "Tax rate expected to stabilize going forward as deferment-related adjustments normalize.",
           "specificity": "vague",
           "direction": "flat"
         },
         {
-          "metric": "Customer diversification (Home Lighting)",
+          "metric": "Customer diversification (ODM home lighting)",
           "horizon": "FY27",
-          "statement": "Efforts to add more customers in Home Lighting segment to derisk dependency on single customer.",
-          "specificity": "vague",
-          "direction": "up"
-        },
-        {
-          "metric": "Market share (Home Lighting functional decorative segment)",
-          "horizon": "FY27",
-          "statement": "Market share in Home Lighting functional decorative segment expected to be maintained or expanded with new customers.",
-          "specificity": "vague",
-          "direction": "flat"
-        },
-        {
-          "metric": "Profitability (PAT margins)",
-          "horizon": "FY27",
-          "statement": "PAT margins expected to improve with revenue growth and margin expansion in non-lighting segments.",
+          "statement": "ODM home lighting business to add new customers, reducing reliance on single large customer and improving revenue stability.",
           "specificity": "vague",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "order book details",
-        "utilization levels (consolidated)",
-        "specific capex requirements for new product categories",
-        "customer-specific revenue or margin breakdowns"
+        "absolute PAT or net profit for FY27",
+        "specific capex numbers for FY27",
+        "dividend policy"
       ],
       "margin_drivers": [
-        "scale and operating leverage",
-        "efficiency gains in mature units (~70% utilization)",
-        "diversification into non-lighting segments (Hearables/Wearables, Automotive Lighting, Energy Solutions, EMS)",
-        "global expansion (Middle East, other overseas markets)",
-        "conversion to ODM model in new segments",
-        "backward integration and end-to-end solutions (e.g., solar inverters with batteries)",
-        "customer diversification to reduce dependency on single customer in Home Lighting"
+        "raw material pricing normalization",
+        "operating leverage from capacity expansion",
+        "revenue mix shift toward higher-margin non-lighting segments",
+        "backward integration benefits",
+        "pricing negotiations with customers"
       ]
     },
     "Power Grid Corpn": {
@@ -82378,108 +82431,109 @@
       "company": "Quality Power El",
       "ticker": "QPOWER",
       "sector": "Industrials",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=809e466a-252f-4978-98a1-869a865f2aa6.pdf",
-      "transcript_id": "quality-power-el_2026-05-01",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7de2eb0-22dd-4909-96d2-2eee140b2b7c.pdf",
+      "transcript_id": "quality-power-el_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-07-07T20:30:25.330Z",
-      "summary": "Management expects disciplined growth with expanding order book and technology-led margin improvement, though near-term profitability may be impacted by scaling investments and supply chain constraints.",
+      "generated_at": "2026-08-14T18:01:01.967Z",
+      "summary": "Management expects strong demand across energy storage, HVDC, and grid modernization, with capacity expansions and acquisitions driving growth, though margins may see temporary pressure in Q3 FY27 due to fixed cost absorption.",
       "guidance": [
         {
           "metric": "Revenue",
           "horizon": "FY27",
-          "statement": "Guidance provided as a range of 15% to 20% growth over FY26 revenue.",
+          "statement": "Management guided to ~20% revenue growth for FY27, with potential revision in Q3 FY27 based on order book progress.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27",
-          "statement": "Traditional product lines expected to maintain margins, with BESS margins improving to 15%-20% as scale increases.",
-          "specificity": "specific",
-          "direction": "flat/up"
-        },
-        {
-          "metric": "Order book",
-          "horizon": "FY27",
-          "statement": "Current order book of INR 1,400 crores provides strong visibility into FY27 and beyond.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "BESS (Battery Energy Storage Systems) orders",
-          "horizon": "FY27",
-          "statement": "Targeting USD 60-80 million in orders for FY27, aiming to become the largest PCS manufacturer in India.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "BESS market opportunity",
-          "horizon": "medium-term",
-          "statement": "BESS market opportunity estimated at USD 1 billion globally over the next few years.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Data center orders",
-          "horizon": "next few quarters",
-          "statement": "Expecting a couple of additional data center projects in the US in the next few quarters, with market size for data center integration reactors in the US estimated at INR 1,500 crores per year.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Sangli plant commissioning",
           "horizon": "Q3 FY27",
-          "statement": "New factory at Sangli expected to commence operations around July-August 2026.",
-          "specificity": "specific",
+          "statement": "Management expects temporary margin moderation in Q3 FY27 due to fixed costs (depreciation, manpower, power) before utilization ramps up.",
+          "specificity": "vague",
+          "direction": "down"
+        },
+        {
+          "metric": "EBITDA margin",
+          "horizon": "15 months from Q1 FY27",
+          "statement": "Management expects margins to normalize as utilization increases and fixed costs are absorbed.",
+          "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "GIS (Gas Insulated Switchgear) manufacturing",
-          "horizon": "Q3 FY27",
-          "statement": "First GIS prototypes expected around July-August 2026, with dedicated manufacturing and testing infrastructure under development.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Mehru capacity expansion",
-          "horizon": "post-September 2026",
-          "statement": "Additional oven capacity being added at Mehru post-September 2026.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Endoks PCS facility",
-          "horizon": "December 2026",
-          "statement": "New BESS manufacturing facility at Endoks based on in-house technology targeted for December 2026.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "1,725 KW PCS inverter launch",
-          "horizon": "next two quarters",
-          "statement": "1,725 KW PCS inverter design underway and expected to be launched within the next two quarters.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Fundraising authorization",
-          "horizon": "medium-term",
-          "statement": "Board has approved enabling authorization to raise up to USD 75 million for international expansion, acquisitions, and technology investments.",
+          "metric": "Order book execution",
+          "horizon": "15 months from Q1 FY27",
+          "statement": "Order book of INR1,945 crores is slated for completion in the next 15 months.",
           "specificity": "specific",
           "direction": "unclear"
+        },
+        {
+          "metric": "Sangli facility commissioning",
+          "horizon": "Q3 FY27",
+          "statement": "Trial production targeted in the current month (Q1 FY27), with full customer qualification expected over 6 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Sangli facility asset turnover",
+          "horizon": "Post-commissioning",
+          "statement": "Sangli facility expected to deliver INR1,500–1,800 crores in asset turnover.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "HVDC Magnet Wire facility commissioning",
+          "horizon": "Q4 FY27",
+          "statement": "HVDC Magnet Wire facility expected to commence full production by Q4 FY27 after 3–5 months of stabilization.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Endoks PCS (BESS) revenue",
+          "horizon": "Next 12 months",
+          "statement": "Management expects USD40 million additional BESS (PCS) orders in the next 12 months, targeting USD80 million total.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Winwin Insulators revenue",
+          "horizon": "Next 9 months",
+          "statement": "Targeting INR200 crores of orders for Winwin Insulators in the next 9 months.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Winwin Insulators margin",
+          "horizon": "4 quarters post-acquisition",
+          "statement": "Margins expected to stabilize between 15%–25% within 4 quarters of acquisition.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Winwin Insulators acquisition",
+          "horizon": "Q4 FY27",
+          "statement": "Consolidation of Winwin Insulators expected in Q4 FY27 due to SEZ-related bureaucratic processes.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Endoks Turkey PCS facility operations",
+          "horizon": "Q3 FY27",
+          "statement": "Operations at Endoks' Power Conversion Systems facility in Turkey expected to begin in Q3 FY27.",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Detailed segment-wise revenue or margin guidance for FY27 beyond the overall range",
-        "Specific capex allocation for FY27 beyond already disclosed projects"
+        "Year-on-year revenue growth split between Endoks, Mehru, and Quality Power standalone",
+        "Order book to bill ratio beyond near-term"
       ],
       "margin_drivers": [
-        "Scale benefits in BESS and power electronics as volumes increase",
-        "Technology leadership in PCS, GIS, and high-voltage products",
-        "Supply chain resilience and vertical integration to mitigate commodity volatility",
-        "Product mix shift toward higher-margin engineering content",
-        "Operational discipline and cross-functional collaboration across group companies"
+        "Procurement efficiencies (volume discounts)",
+        "Raw material price movements (aluminum, copper, oil)",
+        "Fixed cost absorption (depreciation, manpower, power) as utilization ramps up",
+        "Group-level operating synergies (standardized processes, shared capabilities)",
+        "Capacity expansions (Sangli, Endoks, HVDC Magnet Wire)",
+        "Technology qualifications (HVDC, FACTS, grid modernization)"
       ]
     },
     "Msafe Equipments": {
@@ -103008,112 +103062,110 @@
     },
     "Carborundum Uni.": {
       "company": "Carborundum Uni.",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-06-26",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7ef58f8-28f3-4575-899e-c184ca817bf6.pdf",
-      "transcript_id": "carborundum-uni_2026-06-26",
+      "ticker": "CARBORUNIV",
+      "sector": "Industrials",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6573705-903f-495c-a806-5898eda4f66e.pdf",
+      "transcript_id": "carborundum-uni_2026-08-14",
       "provider": "mistral",
-      "generated_at": "2026-08-01T22:07:15.805Z",
-      "summary": "Management expects broad-based growth in FY27 with strong margin expansion, driven by core segments and new capacity additions, despite headwinds from exiting non-core businesses.",
+      "generated_at": "2026-08-14T18:01:11.015Z",
+      "summary": "Management expects strong growth across segments in FY27, driven by volume and new initiatives, with margin stability in Ceramics and Electrominerals.",
       "guidance": [
         {
-          "metric": "Revenue",
+          "metric": "Consolidated Sales Growth",
           "horizon": "FY27",
-          "statement": "Consolidated sales growth of 4% to 4.5% in FY27; excluding Foskor Zirconia and Awuko, comparable growth of 11% to 12%.",
+          "statement": "Excluding Foskor Zirconia and Awuko, comparable growth expected at 11%-12%, with potential 15% growth if excluding both businesses entirely.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue (Abrasives)",
+          "metric": "Consolidated Abrasive Sales Growth",
           "horizon": "FY27",
-          "statement": "Consolidated Abrasives sales growth of 5.5% to 6%; excluding Awuko, growth of 11% to 12%.",
+          "statement": "Sales growth guidance retained at 5.5%-6%, with 11%-12% growth excluding Awuko revenue.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue (Ceramics)",
+          "metric": "Consolidated Ceramic Sales Growth",
           "horizon": "FY27",
-          "statement": "Consolidated Ceramics sales growth of 15% to 15.5%.",
+          "statement": "Revised guidance upgraded to 23%-25% from 15%-15.5%, driven by Engineered Ceramics, Metallized Cylinders, and SOFC Ceramics.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "Revenue (Electrominerals)",
+          "metric": "Consolidated Electrominerals Sales Growth",
           "horizon": "FY27",
-          "statement": "Consolidated Electrominerals sales decline of 6.5% to 7% due to closure of Foskor Zirconia; excluding Foskor, growth of 8% to 9%.",
-          "specificity": "specific",
-          "direction": "down"
-        },
-        {
-          "metric": "EBITDA margin (Abrasives)",
-          "horizon": "FY27",
-          "statement": "Consolidated Abrasives margins expected at 9.5% to 10%.",
+          "statement": "Excluding Foskor Zirconia, growth expected at 8%-9%, potentially 9%-10%.",
           "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "EBITDA margin (Ceramics)",
+          "metric": "Consolidated Abrasive Margins",
           "horizon": "FY27",
-          "statement": "Consolidated Ceramics margins expected at 20.5% to 21%.",
+          "statement": "Margins expected around 9.5%-10%, excluding Awuko loss impact.",
           "specificity": "specific",
           "direction": "flat"
         },
         {
-          "metric": "EBITDA margin (Electrominerals)",
+          "metric": "Consolidated Ceramic Margins",
           "horizon": "FY27",
-          "statement": "Consolidated Electrominerals margins expected at 9% to 9.5%.",
+          "statement": "Margins expected at 20.5%-21%.",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Capex",
+          "metric": "Consolidated Electrominerals Margins",
           "horizon": "FY27",
-          "statement": "Planned CAPEX of INR 400 crores for FY27, including expansion of advanced ceramics, brown-fused alumina, and refractory facilities.",
+          "statement": "Margins expected at 9%-9.5%, excluding Foskor Zirconia loss impact.",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "flat"
         },
         {
-          "metric": "Volume (Thin wheels)",
+          "metric": "CAPEX",
           "horizon": "FY27",
-          "statement": "Thin wheel capacity at Hosur to produce 46 million wheels with peak revenue potential of INR 120 crores.",
+          "statement": "Guidance retained at INR 400 crores.",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "unclear"
         },
         {
-          "metric": "Volume (Semiconductor components)",
+          "metric": "Rhodius Abrasives PAT",
           "horizon": "FY27",
-          "statement": "Serial supplies of qualified semiconductor components to commence in FY27, with gradual ramp-up.",
+          "statement": "Expected to grow by 5% with a small loss at PAT level.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Ceramics (SOFC, Metallized Cylinders, Engineered Ceramics) Revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Revenues from semiconductor wafer fabrication equipment components to start in FY27, with significant pickup in FY28. SOFC Ceramics and Aerospace/Defense to contribute from FY28 onwards.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Volume (Aerospace & Defence)",
-          "horizon": "2030",
-          "statement": "Aerospace and defence ceramics business expected to scale up significantly by 2030.",
-          "specificity": "vague",
-          "direction": "up"
+          "metric": "Foskor Zirconia Closure Progress",
+          "horizon": "Q2FY27",
+          "statement": "Process to close Foskor Zirconia expected to complete in one quarter.",
+          "specificity": "specific",
+          "direction": "unclear"
         },
         {
-          "metric": "Product mix (Treated grains)",
-          "horizon": "2030",
-          "statement": "Share of treated grains in Electrominerals expected to increase from ~6% to 20% by 2030.",
+          "metric": "Awuko Abrasives Closure Progress",
+          "horizon": "Q2FY27",
+          "statement": "Process to close Awuko Abrasives underway, with updates expected in the next quarter.",
           "specificity": "specific",
-          "direction": "up"
+          "direction": "unclear"
         }
       ],
       "refused_to_guide": [
-        "Future impact of sanctions on VAW Russia operations",
-        "Timeline for SCOMET approval for aerospace and defence business",
-        "Long-term outlook for Foskor Zirconia closure process"
+        "Zirconia-based product manufacturing plans post-Foskor Zirconia divestment",
+        "Medium-to-long-term strategic outlook for VAW Russia"
       ],
       "margin_drivers": [
-        "Exiting loss-making subsidiaries (Awuko, Foskor Zirconia)",
-        "Expansion of high-margin segments (Ceramics, Electrominerals treated products)",
-        "Cost optimization programs in Abrasives",
-        "Ramp-up of new capacities (semiconductor components, thin wheels)",
-        "Export growth in Electrominerals",
-        "Operational efficiencies in refractory and advanced ceramics"
+        "Volume growth",
+        "Price mix",
+        "Cost management in Ceramics (fuel, alumina, unabsorbed costs in new lines)",
+        "Electrominerals product mix (treated product growth)",
+        "Raw material cost push in Abrasives (oil-based resins, fuel)"
       ]
     },
     "Mahindra EPC": {
@@ -106355,8 +106407,118 @@
         "Data center customization and BoP work",
         "Commodity inflation pass-through"
       ]
+    },
+    "Lemon Tree Hotel": {
+      "company": "Lemon Tree Hotel",
+      "ticker": "LEMONTREE",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=033c4015-1f0d-4343-b950-b9f32c7812ac.pdf",
+      "transcript_id": "lemon-tree-hotel_2026-08-14",
+      "provider": "mistral",
+      "generated_at": "2026-08-14T18:01:30.528Z",
+      "summary": "Management expects accelerating fee income growth from asset-light model and improved margins for Lemon Tree, while Fleur targets 15% ROCE post-renovation with disciplined capital deployment in demand-dense markets.",
+      "guidance": [
+        {
+          "metric": "Fee income growth (Lemon Tree)",
+          "horizon": "next 3-4 years",
+          "statement": "Fee income stream is clearly defined based on current signings, with acceleration expected over the next 8-12 quarters.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA margin (Lemon Tree)",
+          "horizon": "next 3-4 years",
+          "statement": "Long-term plan to achieve EBITDA margin of 75%-80% on a larger base of managed hotels.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "ROCE (Fleur)",
+          "horizon": "medium-term",
+          "statement": "Expectation to move towards 15% ROCE once Keys renovation is completed.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Keys portfolio EBITDA",
+          "horizon": "current year",
+          "statement": "Targeting Rs. 60 crore EBITDA from Keys portfolio.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Keys renovation spend",
+          "horizon": "current year",
+          "statement": "Balance spend on remaining 300 rooms expected to be Rs. 13-14 crore.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Keys RevPAR growth",
+          "horizon": "next year",
+          "statement": "Keys portfolio expected to operate at full performance with occupancies close to Lemon Tree average and continued ARR improvement.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Asset-light inventory openings",
+          "horizon": "FY27",
+          "statement": "Confident to open around 2,000 Keys during the year, though minor slippage possible.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Aurika Mumbai pricing strategy",
+          "horizon": "Q2FY27 onwards",
+          "statement": "Focus on repricing Aurika Mumbai to improve RevPAR, with stabilization achieved.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Fleur capital deployment",
+          "horizon": "next few quarters",
+          "statement": "Pursuing 2,500 Keys expansion with disciplined capital deployment targeting high IRRs in demand-dense markets.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Fleur debt-to-EBITDA",
+          "horizon": "long-term",
+          "statement": "Target debt-to-EBITDA ratio of around 2x for Fleur, balancing growth and capital efficiency.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Fleur ROCE targets",
+          "horizon": "post-renovation",
+          "statement": "Post-renovation, Fleur aims for 15% ROCE with disciplined capital deployment in top 6-7 cities and select leisure markets.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Group debt levels",
+          "horizon": "short-term",
+          "statement": "Debt-to-EBITDA may briefly cross 2x during large hotel developments but long-term target remains around 2x.",
+          "specificity": "specific",
+          "direction": "unclear"
+        }
+      ],
+      "refused_to_guide": [
+        "specific FY27 revenue or PAT guidance for Lemon Tree or Fleur",
+        "timeline for Warburg capital infusion of Rs. 960 crore",
+        "IRR targets for Fleur's expansion strategy"
+      ],
+      "margin_drivers": [
+        "asset-light fee income growth",
+        "Keys portfolio performance improvement",
+        "Aurika brand pricing power",
+        "cost discipline in corporate travel segment",
+        "GST impact normalization",
+        "Keys renovation completion"
+      ]
     }
   },
-  "generated_at": "2026-08-14T17:07:01.339Z",
-  "count": 1080
+  "generated_at": "2026-08-14T18:02:28.382Z",
+  "count": 1081
 }
