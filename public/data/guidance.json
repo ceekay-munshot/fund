@@ -35439,63 +35439,110 @@
       "company": "Info Edg.(India)",
       "ticker": "NAUKRI",
       "sector": "Consumer Discretionary",
-      "concall_date": "2026-05-28",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
-      "transcript_id": "info-edg-india_2026-05-28",
-      "provider": "groq",
-      "generated_at": "2026-06-27T14:53:23.672Z",
-      "summary": "Info Edge expects growth to recover in Q1 and accelerate in FY27, driven by its recruitment, real estate, and matchmaking businesses, with a focus on AI-driven initiatives and investments.",
+      "concall_date": "2026-08-14",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d1f5c76-a45b-47ae-9339-94dcd6f7468a.pdf",
+      "transcript_id": "info-edg-india_2026-08-14",
+      "provider": "mistral",
+      "generated_at": "2026-08-14T19:52:50.470Z",
+      "summary": "Management expects sustained growth in core businesses with AI-led monetization driving incremental revenue, while Shiksha faces near-term headwinds from AI-driven search changes.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "FY27",
-          "statement": "Growth to accelerate, operating leverage to play out, and the business to turn cash-generative",
+          "metric": "Naukri billings growth",
+          "horizon": "near-term",
+          "statement": "Underlying billings growth estimated at ~15% after adjusting for timing differences, with premium hiring and AI-led offerings (e.g., AI-Rex, Talent Pulse) contributing significantly.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Naukri revenue growth",
+          "horizon": "near-term",
+          "statement": "Revenue growth expected to benefit from higher realizations (premium hiring, AI offerings) and billing customer growth, with ~1/3 of growth attributed to new initiatives.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Operating leverage",
-          "horizon": "FY27",
-          "statement": "To play out as growth accelerates",
+          "metric": "Naukri AI-Rex adoption",
+          "horizon": "next few quarters",
+          "statement": "AI-Rex live across 4,000+ enterprise customers, with 10% converted to paying customers; scaling to several thousand more customers over the next few quarters.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Naukri Talent Pulse adoption",
+          "horizon": "next few quarters",
+          "statement": "Talent Pulse serving 600+ paid customers; scaling efforts to expand customer base.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Naukri Jobseeker monetization",
+          "horizon": "medium-term",
+          "statement": "Paid subscribers as % of monthly active users improved from 1.3% to 2.6% over last six quarters; AI-powered offerings driving higher ARPU and margins (63% PBT margin).",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Cash generation",
-          "horizon": "FY27",
-          "statement": "Business to turn cash-generative",
+          "metric": "Naukri Job Hai growth",
+          "horizon": "medium-term",
+          "statement": "Revenue doubling YoY while maintaining investment levels; positioned as a scalable opportunity in value hiring segment.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "99acres billings",
-          "horizon": "Q1FY27",
-          "statement": "Growth to recover",
+          "metric": "99acres profitability",
+          "horizon": "FY27",
+          "statement": "Business expected to become cash-generative during FY27, with sustainable growth and operating leverage as leadership in traffic, supply, and customer engagement is established.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "99acres billing growth",
+          "horizon": "FY27",
+          "statement": "Targeting sustained billing growth of 18-20%+ per annum, supported by disciplined marketing spend and reduced competitive pressure.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "99acres new project segment focus",
+          "horizon": "medium-term",
+          "statement": "Expanding presence in the Rs.5,000+ crore new project segment; 99Shorts to be expanded to more cities.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Recruitment business",
-          "horizon": "FY27",
-          "statement": "Focused on improving hiring volume, share of hiring, and revenue per hire",
+          "metric": "Shiksha headwinds",
+          "horizon": "near-term",
+          "statement": "AI-driven changes in search behavior expected to persist, impacting traffic and billing; domestic counseling and AI-driven voicebots investments to offset headwinds.",
           "specificity": "vague",
-          "direction": "up"
+          "direction": "down"
         },
         {
-          "metric": "AI-Rex",
-          "horizon": "FY27",
-          "statement": "Scaling client base and deepening usage within existing accounts is a near-term priority",
+          "metric": "Shiksha study abroad segment",
+          "horizon": "near-term",
+          "statement": "Softness in US and Canada markets; focus on expanding destination coverage to UK, UAE, and continental Europe.",
           "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Company-wide AI efficiency gains",
+          "horizon": "ongoing",
+          "statement": "AI driving 15-20% efficiencies across functions (marketing, pricing, lead qualification, telecalling, customer engagement).",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "FY27 consolidated revenue or profitability",
+        "Capex guidance for FY27",
+        "Portfolio investment returns or exit timelines"
+      ],
       "margin_drivers": [
-        "AI-driven initiatives",
-        "Operating leverage",
-        "Cash generation",
-        "Improved execution in 99acres",
-        "Growth in recruitment business"
+        "AI-led monetization (AI-Rex, Talent Pulse, AI-powered Jobseeker offerings)",
+        "Premium hiring growth (25-30% volume growth)",
+        "Self-serve model adoption (Jobseeker margins at 63%)",
+        "Operating leverage in 99acres (disciplined marketing spend)",
+        "Reduced competitive pressure in 99acres",
+        "AI-driven efficiencies across functions (15-20%)"
       ]
     },
     "GMM Pfaudler": {
@@ -106547,6 +106594,6 @@
       ]
     }
   },
-  "generated_at": "2026-08-14T19:10:24.083Z",
+  "generated_at": "2026-08-14T19:53:21.438Z",
   "count": 1081
 }
