@@ -66864,54 +66864,108 @@
       "company": "Deep Industries",
       "ticker": "DEEPINDS",
       "sector": "Energy",
-      "concall_date": "2026-05-01",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49c56f22-6c78-43f8-a25b-78897451fe58.pdf",
-      "transcript_id": "deep-industries_2026-05-01",
-      "provider": "groq",
-      "generated_at": "2026-07-04T08:14:08.770Z",
-      "summary": "Deep Industries expects a bright and promising future with excellent growth, driven by a solid foundation, operational excellence, and a sharp focus on cost optimization and innovation.",
+      "concall_date": "2026-07-29",
+      "transcript_url": "https://www.deepindustries.com/docs/TranscriptQ1.pdf",
+      "transcript_id": "deep-industries_2026-07-29",
+      "provider": "mistral",
+      "generated_at": "2026-08-18T19:53:58.356Z",
+      "summary": "Management expects strong growth in oilfield services driven by India's energy security push, with offshore and PEC segments as key growth drivers.",
       "guidance": [
         {
           "metric": "Revenue",
-          "horizon": "FY27, FY28",
-          "statement": "Expected to grow by 25% to 30% year-on-year",
+          "horizon": "FY27",
+          "statement": "Expects significant growth in offshore segment over next 2-3 years.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "PAT",
+          "metric": "Offshore fleet expansion",
+          "horizon": "2-3 years",
+          "statement": "Growth to come from addition of new assets to the offshore fleet.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from Dolphin offshore business",
+          "horizon": "FY27-FY28",
+          "statement": "Single DP2 barge contract to contribute >INR150 crores/year; fleet expansion to drive growth in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from Kandla (backward integration)",
+          "horizon": "FY27",
+          "statement": "Expected to contribute later in FY27 by improving operating margins.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from Production Enhancement Contract (PEC)",
+          "horizon": "FY27",
+          "statement": "Incremental production to start contributing from Q2 FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue from PEC",
           "horizon": "FY28",
-          "statement": "Could be around INR450 crores to INR500 crores",
+          "statement": "Expects >INR150 crores revenue from existing PEC contract.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Additional PEC contracts",
+          "horizon": "FY28",
+          "statement": "Plans to bid for more PEC contracts as ONGC and government invest in oil & gas sector.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Order book",
-          "horizon": "short-term",
-          "statement": "Expected to increase with new opportunities and higher capacity rigs",
-          "specificity": "vague",
+          "metric": "Company-wide revenue growth",
+          "horizon": "FY28",
+          "statement": "Believes current momentum suggests company can deliver PAT of INR450-500 crores.",
+          "specificity": "specific",
           "direction": "up"
         },
         {
-          "metric": "PEC contracts",
+          "metric": "Capex for PEC and rig expansion",
           "horizon": "FY27",
-          "statement": "Expected to increase with a recent tender and a good chance of winning",
+          "statement": "Plans capex of ~INR150 crores by March 2027 for PEC and rigs.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Higher capacity drilling rigs (2,000 HP)",
+          "horizon": "next few months",
+          "statement": "Evaluating and bidding for higher capacity drilling rigs.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Gas prices",
-          "horizon": "FY27",
-          "statement": "Increase in gas prices can increase the order book",
+          "metric": "Bidding pipeline",
+          "horizon": "near-term",
+          "statement": "Bidding pipeline expected to hover around INR700-800 crores.",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Green hydrogen and geothermal initiatives",
+          "horizon": "medium-term",
+          "statement": "Actively evaluating opportunities; leveraging existing competencies in gas processing and drilling.",
           "specificity": "vague",
           "direction": "up"
         }
       ],
-      "refused_to_guide": [],
+      "refused_to_guide": [
+        "total number of onshore workover and drilling rigs in India",
+        "outsourced rig market size"
+      ],
       "margin_drivers": [
-        "Cost optimization",
-        "Operational excellence",
-        "Innovation"
+        "gas processing margins",
+        "PEC margins",
+        "Kandla backward integration (operating margin improvement)",
+        "asset utilization (100% in drilling segment)",
+        "cost efficiencies"
       ]
     },
     "Welspun Enterp": {
@@ -108574,8 +108628,115 @@
         "Cost optimization initiatives",
         "Advertisement investment (3.1% of revenue in Q1 FY27)"
       ]
+    },
+    "Bajaj Healthcare": {
+      "company": "Bajaj Healthcare",
+      "ticker": "BAJAJHCARE",
+      "sector": "Healthcare",
+      "concall_date": "2026-07-27",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc82d87f-d30e-4e76-9648-69802ea6eb80.pdf",
+      "transcript_id": "bajaj-healthcare_2026-07-27",
+      "provider": "mistral",
+      "generated_at": "2026-08-18T19:54:06.717Z",
+      "summary": "Management expects 10-15% revenue growth in FY27 with improving margins, driven by peptide and oncology API facilities, CDMO opportunities, and specialty formulations.",
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "horizon": "FY27",
+          "statement": "10% to 15% revenue growth expected for FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue",
+          "horizon": "FY28",
+          "statement": "Similar growth rate expected for FY28 as FY27",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Revenue (Peptide plant)",
+          "horizon": "Peak utilization",
+          "statement": "Peak revenue from peptide plant expected at INR200-300 crores",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin",
+          "horizon": "FY27-FY28",
+          "statement": "EBITDA margin expected in the range of 18% to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "EBITDA Margin (Peptide plant)",
+          "horizon": "Peak utilization",
+          "statement": "Peptide plant EBITDA margin expected at 18% to 20%",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capex",
+          "horizon": "Annual (next few years)",
+          "statement": "Annual capex allocation of INR40-50 crores expected",
+          "specificity": "specific",
+          "direction": "unclear"
+        },
+        {
+          "metric": "Receivable days",
+          "horizon": "FY27",
+          "statement": "Receivable days expected to improve to 110-120 days",
+          "specificity": "specific",
+          "direction": "down"
+        },
+        {
+          "metric": "CDMO revenue (UK/EU)",
+          "horizon": "FY28",
+          "statement": "First batch of CDMO revenue from UK/EU clients expected by FY28 end",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Cenobamate Tablets revenue",
+          "horizon": "FY27",
+          "statement": "Cenobamate Tablets revenue expected at INR10-12 crores in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Magnesium L-Threonate revenue growth",
+          "horizon": "FY27",
+          "statement": "15% to 20% growth expected for Magnesium L-Threonate in FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Peptide facility commissioning",
+          "horizon": "Q4FY27",
+          "statement": "Peptide manufacturing facility targeted for commissioning by Q4FY27",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Oncology API facility commissioning",
+          "horizon": "Q4FY28",
+          "statement": "Oncology API manufacturing facility targeted for commissioning by Q4FY28",
+          "specificity": "specific",
+          "direction": "up"
+        }
+      ],
+      "refused_to_guide": [
+        "Quantum of CDMO revenue from UK/EU clients post FY28",
+        "Timeline for Vitamin C backward integration completion beyond 2029"
+      ],
+      "margin_drivers": [
+        "Shift towards high-margin branded and specialized products in formulations",
+        "Peptide and oncology API segments",
+        "Backward integration in API molecules (8-10 products)",
+        "Mix shift towards higher-margin export and specialty products"
+      ]
     }
   },
-  "generated_at": "2026-08-18T19:39:14.360Z",
-  "count": 1094
+  "generated_at": "2026-08-18T19:54:30.040Z",
+  "count": 1095
 }
