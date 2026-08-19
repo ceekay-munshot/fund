@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-08-19T14:46:00.877Z",
+  "generated_at": "2026-08-19T15:21:24.332Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 72,
-    "gained": 325,
-    "consistent": 597,
-    "companies_evaluated": 1007
+    "dropped": 80,
+    "gained": 331,
+    "consistent": 586,
+    "companies_evaluated": 1008
   },
   "dropped": [
+    {
+      "fund_id": "abakkus",
+      "fund_name": "Abakkus",
+      "company": "Technocraf.Inds.",
+      "ticker": "TIIL",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-06-16",
+      "prior_calls_attended": 5,
+      "tier": "strong"
+    },
     {
       "fund_id": "solidarity",
       "fund_name": "Solidarity",
@@ -17,6 +28,28 @@
       "latest_call_date": "2026-08-17",
       "last_seen_date": "2026-06-03",
       "prior_calls_attended": 5,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Rico Auto Inds",
+      "ticker": "RICOAUTO",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-06-04",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Popular Vehicles",
+      "ticker": "PVSL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-06-03",
+      "prior_calls_attended": 4,
       "tier": "strong"
     },
     {
@@ -160,6 +193,61 @@
       "latest_call_date": "2026-08-02",
       "last_seen_date": "2026-05-20",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "malabar",
+      "fund_name": "Malabar Investments",
+      "company": "Puravankara",
+      "ticker": "PURVA",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Gokaldas Exports",
+      "ticker": "GOKEX",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "Gokaldas Exports",
+      "ticker": "GOKEX",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Laxmi Dental",
+      "ticker": "LAXMIDENTL",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-05-30",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Sunrakshakk Inds",
+      "ticker": "539300",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19",
+      "last_seen_date": "2026-06-06",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -802,6 +890,110 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Orient Tech.",
+      "ticker": "ORIENTTECH",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "company": "Stanley Lifesty.",
+      "ticker": "STANLEY",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Rico Auto Inds",
+      "ticker": "RICOAUTO",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Technocraf.Inds.",
+      "ticker": "TIIL",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Technocraf.Inds.",
+      "ticker": "TIIL",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Gujarat Fluoroch",
+      "ticker": "FLUOROCHEM",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Krsnaa Diagnost.",
+      "ticker": "KRSNAA",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Landmark Cars",
+      "ticker": "LANDMARK",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "helios",
+      "fund_name": "Helios Capital",
+      "company": "Landmark Cars",
+      "ticker": "LANDMARK",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Gaudium IVF",
+      "ticker": "GAUDIUMIVF",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Shriram Properti",
+      "ticker": "SHRIRAMPPS",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Puravankara",
+      "ticker": "PURVA",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "wallfort",
+      "fund_name": "Wallfort PMS",
+      "company": "Gokaldas Exports",
+      "ticker": "GOKEX",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-19"
+    },
     {
       "fund_id": "trust-mf",
       "fund_name": "Trust Mutual Fund",
@@ -2883,14 +3075,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Centum Electron",
-      "ticker": "CENTUM",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "vaikarya",
       "fund_name": "Vaikarya Capital",
       "company": "Ajanta Pharma",
@@ -2919,14 +3103,6 @@
       "fund_name": "Counter Cyclical",
       "company": "Gem Aromatics",
       "ticker": "GEMAROMA",
-      "sector": "Commodities",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "icici-prudential",
-      "fund_name": "ICICI Prudential AMC",
-      "company": "JSW Cement",
-      "ticker": "JSWCEMENT",
       "sector": "Commodities",
       "latest_call_date": "2026-05-01"
     },
@@ -3147,14 +3323,6 @@
       "latest_call_date": "2026-05-01"
     },
     {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "Petronet LNG",
-      "ticker": "PETRONET",
-      "sector": "Energy",
-      "latest_call_date": "2026-05-01"
-    },
-    {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
       "company": "Vision Infra",
@@ -3248,38 +3416,6 @@
       "company": "Connplex Cinemas",
       "ticker": "CONNPLEX",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
-      "company": "Shilchar Tech.",
-      "ticker": "SHILCTECH",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "nv-alpha",
-      "fund_name": "NV Alpha",
-      "company": "Shilchar Tech.",
-      "ticker": "SHILCTECH",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "wallfort",
-      "fund_name": "Wallfort PMS",
-      "company": "Shilchar Tech.",
-      "ticker": "SHILCTECH",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Shilchar Tech.",
-      "ticker": "SHILCTECH",
-      "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
     {
