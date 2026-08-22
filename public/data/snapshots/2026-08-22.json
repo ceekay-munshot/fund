@@ -1,17 +1,17 @@
 {
   "date": "2026-08-22",
-  "generated_at": "2026-08-21T18:57:50.335Z",
+  "generated_at": "2026-08-22T14:43:42.973Z",
   "totals": {
-    "sightings": 3853,
-    "companies": 1070,
+    "sightings": 3858,
+    "companies": 1071,
     "active_funds": 52
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 772,
-      "company_count": 438,
+      "sighting_count": 774,
+      "company_count": 439,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -392,6 +392,7 @@
         "Supriya Lifesci.",
         "Suraj Estate",
         "Suryoday Small",
+        "Susan Electrical",
         "T R I L",
         "TD Power Systems",
         "TVS Elec.",
@@ -456,8 +457,8 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "sighting_count": 284,
-      "company_count": 148,
+      "sighting_count": 285,
+      "company_count": 149,
       "companies": [
         "ABS Marine",
         "Admach Systems",
@@ -604,6 +605,7 @@
         "Vardhman Textile",
         "Venky's (India)",
         "Voltas",
+        "Western Carriers",
         "Wise Travel",
         "Wonderla Holiday",
         "Zim Laboratories"
@@ -2378,7 +2380,7 @@
     {
       "fund_id": "mittal-analytics",
       "fund_name": "Mittal Analytics",
-      "sighting_count": 34,
+      "sighting_count": 35,
       "company_count": 22,
       "companies": [
         "ABS Marine",
@@ -2403,6 +2405,28 @@
         "Seshaasai Tech.",
         "Solar Industries",
         "Stylam Industrie"
+      ]
+    },
+    {
+      "fund_id": "malabar",
+      "fund_name": "Malabar Investments",
+      "sighting_count": 30,
+      "company_count": 14,
+      "companies": [
+        "Apeejay Surrend.",
+        "Ganesh Housing",
+        "Hind Rectifiers",
+        "Hirect",
+        "ICICI AMC",
+        "Keystone Realtor",
+        "Laxmi Organic",
+        "Lodha Developers",
+        "Nexus Select",
+        "Oberoi Realty",
+        "Puravankara",
+        "RBZ Jewellers Lt",
+        "Shringar House",
+        "Sky Gold & Diam."
       ]
     },
     {
@@ -2431,28 +2455,6 @@
         "Tilaknagar Inds.",
         "Ujjivan Small",
         "Whirlpool India"
-      ]
-    },
-    {
-      "fund_id": "malabar",
-      "fund_name": "Malabar Investments",
-      "sighting_count": 29,
-      "company_count": 14,
-      "companies": [
-        "Apeejay Surrend.",
-        "Ganesh Housing",
-        "Hind Rectifiers",
-        "Hirect",
-        "ICICI AMC",
-        "Keystone Realtor",
-        "Laxmi Organic",
-        "Lodha Developers",
-        "Nexus Select",
-        "Oberoi Realty",
-        "Puravankara",
-        "RBZ Jewellers Lt",
-        "Shringar House",
-        "Sky Gold & Diam."
       ]
     },
     {
@@ -2804,12 +2806,12 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1059,
-      "company_count": 274
+      "sighting_count": 1061,
+      "company_count": 275
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 899,
+      "sighting_count": 900,
       "company_count": 248
     },
     {
@@ -2834,12 +2836,12 @@
     },
     {
       "sector": "Fast Moving Consumer Goods",
-      "sighting_count": 234,
+      "sighting_count": 235,
       "company_count": 63
     },
     {
       "sector": "Services",
-      "sighting_count": 194,
+      "sighting_count": 195,
       "company_count": 66
     },
     {
@@ -2863,5 +2865,36 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Western Carriers",
+      "sector": "Services",
+      "concall_date": "2026-08-22"
+    },
+    {
+      "fund_name": "Malabar Investments",
+      "company": "Apeejay Surrend.",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-21"
+    },
+    {
+      "fund_name": "Mittal Analytics",
+      "company": "Apex Frozen Food",
+      "sector": "Fast Moving Consumer Goods",
+      "concall_date": "2026-08-22"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Mishra Dhatu Nig",
+      "sector": "Industrials",
+      "concall_date": "2026-08-22"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Susan Electrical",
+      "sector": "Industrials",
+      "concall_date": "2026-08-22"
+    }
+  ]
 }

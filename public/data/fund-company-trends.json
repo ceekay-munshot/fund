@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T14:31:45.168Z",
+  "generated_at": "2026-08-22T14:43:42.919Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 88,
     "gained": 341,
-    "consistent": 573,
+    "consistent": 575,
     "companies_evaluated": 1016
   },
   "dropped": [
@@ -978,6 +978,14 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Western Carriers",
+      "ticker": "WCIL",
+      "sector": "Services",
+      "latest_call_date": "2026-08-22"
+    },
     {
       "fund_id": "negen",
       "fund_name": "Negen Capital",
@@ -3344,14 +3352,6 @@
       "company": "S D Retail",
       "ticker": "SDREAMS",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Western Carriers",
-      "ticker": "WCIL",
-      "sector": "Services",
       "latest_call_date": "2026-05-01"
     },
     {
