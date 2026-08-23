@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23T14:42:17.840Z",
+  "generated_at": "2026-08-23T14:45:55.544Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 88,
+    "dropped": 90,
     "gained": 341,
-    "consistent": 575,
-    "companies_evaluated": 1016
+    "consistent": 573,
+    "companies_evaluated": 1017
   },
   "dropped": [
     {
@@ -280,6 +280,17 @@
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-20",
       "last_seen_date": "2026-05-01",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "crown",
+      "fund_name": "Crown Capital",
+      "company": "Man Industries",
+      "ticker": "MANINDS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-20",
+      "last_seen_date": "2026-06-01",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -757,6 +768,17 @@
       "tier": "strong"
     },
     {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Avalon Tech",
+      "ticker": "AVALON",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-05",
+      "last_seen_date": "2026-05-07",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
       "company": "TruAlt Bioenergy",
@@ -978,6 +1000,14 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "carnelian",
+      "fund_name": "Carnelian",
+      "company": "Olectra Greentec",
+      "ticker": "OLECTRA",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-22"
+    },
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
@@ -1681,6 +1711,14 @@
       "ticker": "LEMONTREE",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-14"
+    },
+    {
+      "fund_id": "boring",
+      "fund_name": "Boring AMC",
+      "company": "BEML Ltd",
+      "ticker": "BEML",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-13"
     },
     {
       "fund_id": "solidarity",
@@ -2459,6 +2497,14 @@
       "latest_call_date": "2026-08-06"
     },
     {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "company": "Avalon Tech",
+      "ticker": "AVALON",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-05"
+    },
+    {
       "fund_id": "valuequest",
       "fund_name": "ValueQuest",
       "company": "Cartrade Tech",
@@ -3123,14 +3169,6 @@
       "latest_call_date": "2026-06-01"
     },
     {
-      "fund_id": "astute",
-      "fund_name": "Astute Investment Management",
-      "company": "Man Industries",
-      "ticker": "MANINDS",
-      "sector": "Industrials",
-      "latest_call_date": "2026-06-01"
-    },
-    {
       "fund_id": "carnelian",
       "fund_name": "Carnelian",
       "company": "Scoda Tubes",
@@ -3280,22 +3318,6 @@
       "company": "Tanla Platforms",
       "ticker": "TANLA",
       "sector": "Information Technology",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Ajanta Pharma",
-      "ticker": "AJANTPHARM",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Ajanta Pharma",
-      "ticker": "AJANTPHARM",
-      "sector": "Healthcare",
       "latest_call_date": "2026-05-01"
     },
     {
