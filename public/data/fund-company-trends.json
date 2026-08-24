@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-08-24T15:02:20.915Z",
+  "generated_at": "2026-08-24T15:06:25.648Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 90,
-    "gained": 341,
-    "consistent": 573,
+    "dropped": 92,
+    "gained": 344,
+    "consistent": 570,
     "companies_evaluated": 1017
   },
   "dropped": [
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Suraj Estate",
+      "ticker": "SURAJEST",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-24",
+      "last_seen_date": "2026-07-23",
+      "prior_calls_attended": 5,
+      "tier": "strong"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
@@ -226,6 +237,17 @@
       "latest_call_date": "2026-08-02",
       "last_seen_date": "2026-05-20",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Radiant Cash",
+      "ticker": "RADIANTCMS",
+      "sector": "Services",
+      "latest_call_date": "2026-08-24",
+      "last_seen_date": "2026-06-08",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -1000,6 +1022,30 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "company": "Ashapura Minech.",
+      "ticker": "ASHAPURMIN",
+      "sector": "Commodities",
+      "latest_call_date": "2026-08-24"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Radiant Cash",
+      "ticker": "RADIANTCMS",
+      "sector": "Services",
+      "latest_call_date": "2026-08-24"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Orchid Pharma",
+      "ticker": "ORCHPHARMA",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-08-24"
+    },
     {
       "fund_id": "carnelian",
       "fund_name": "Carnelian",
