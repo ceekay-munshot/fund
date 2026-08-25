@@ -1,17 +1,17 @@
 {
   "date": "2026-08-25",
-  "generated_at": "2026-08-24T19:04:39.123Z",
+  "generated_at": "2026-08-25T15:11:02.975Z",
   "totals": {
-    "sightings": 3872,
-    "companies": 1073,
+    "sightings": 3878,
+    "companies": 1075,
     "active_funds": 52
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 779,
-      "company_count": 442,
+      "sighting_count": 782,
+      "company_count": 443,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -446,6 +446,7 @@
         "Western Carriers",
         "XPRO India",
         "XT Global Infot.",
+        "Xtranet Techno.",
         "Yaap Digital",
         "Yash Highvoltage",
         "Yasho Industries",
@@ -460,8 +461,8 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "sighting_count": 286,
-      "company_count": 149,
+      "sighting_count": 287,
+      "company_count": 150,
       "companies": [
         "ABS Marine",
         "Admach Systems",
@@ -600,6 +601,7 @@
         "Telge Projects",
         "Thomas Cook (I)",
         "Tolins Tyres",
+        "Transpek Inds.",
         "True Colors",
         "Uniparts India",
         "United Foodbrands",
@@ -1606,8 +1608,8 @@
     {
       "fund_id": "unique",
       "fund_name": "Unique PMS",
-      "sighting_count": 83,
-      "company_count": 33,
+      "sighting_count": 84,
+      "company_count": 34,
       "companies": [
         "AXISCADES Tech.",
         "Alivus Life",
@@ -1635,6 +1637,7 @@
         "Supriya Lifesci.",
         "Tatva Chintan",
         "Tech Mahindra",
+        "Transpek Inds.",
         "Transport Corp.",
         "Uniparts India",
         "Vishnu Chemicals",
@@ -2078,8 +2081,8 @@
     {
       "fund_id": "wallfort",
       "fund_name": "Wallfort PMS",
-      "sighting_count": 46,
-      "company_count": 32,
+      "sighting_count": 47,
+      "company_count": 33,
       "companies": [
         "Aeroflex",
         "Aether Industri.",
@@ -2110,6 +2113,7 @@
         "Supreme Power",
         "Tara Chand Infra",
         "Tejas Networks",
+        "Tembo Global",
         "Tinna Rubber",
         "Uniparts India",
         "Welspun Enterp"
@@ -2814,7 +2818,7 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1065,
+      "sighting_count": 1068,
       "company_count": 277
     },
     {
@@ -2829,8 +2833,8 @@
     },
     {
       "sector": "Commodities",
-      "sighting_count": 392,
-      "company_count": 105
+      "sighting_count": 394,
+      "company_count": 106
     },
     {
       "sector": "Financial Services",
@@ -2839,8 +2843,8 @@
     },
     {
       "sector": "Information Technology",
-      "sighting_count": 247,
-      "company_count": 65
+      "sighting_count": 248,
+      "company_count": 66
     },
     {
       "sector": "Fast Moving Consumer Goods",
@@ -2873,5 +2877,42 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Transpek Inds.",
+      "sector": "Commodities",
+      "concall_date": "2026-08-20"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Mitsu Chem Plast",
+      "sector": "Industrials",
+      "concall_date": "2026-08-25"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Tembo Global",
+      "sector": "Industrials",
+      "concall_date": "2026-08-25"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Xtranet Techno.",
+      "sector": "Information Technology",
+      "concall_date": "2026-08-25"
+    },
+    {
+      "fund_name": "Unique PMS",
+      "company": "Transpek Inds.",
+      "sector": "Commodities",
+      "concall_date": "2026-08-20"
+    },
+    {
+      "fund_name": "Wallfort PMS",
+      "company": "Tembo Global",
+      "sector": "Industrials",
+      "concall_date": "2026-08-25"
+    }
+  ]
 }
