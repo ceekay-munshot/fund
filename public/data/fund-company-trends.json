@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-27T14:32:02.594Z",
+  "generated_at": "2026-08-27T23:51:34.033Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 92,
-    "gained": 345,
-    "consistent": 569,
-    "companies_evaluated": 1017
+    "dropped": 93,
+    "gained": 346,
+    "consistent": 565,
+    "companies_evaluated": 1020
   },
   "dropped": [
     {
@@ -478,6 +478,17 @@
       "sector": "Healthcare",
       "latest_call_date": "2026-08-14",
       "last_seen_date": "2026-06-08",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "KRN Heat Exchan",
+      "ticker": "KRN",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-14",
+      "last_seen_date": "2026-05-01",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -1023,6 +1034,30 @@
   ],
   "gained": [
     {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Rathi Steel",
+      "ticker": "504903",
+      "sector": "Industrials",
+      "latest_call_date": "2026-08-27"
+    },
+    {
+      "fund_id": "abakkus",
+      "fund_name": "Abakkus",
+      "company": "Man Infra",
+      "ticker": "MANINFRA",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-08-26"
+    },
+    {
+      "fund_id": "unique",
+      "fund_name": "Unique PMS",
+      "company": "Exato Technologies",
+      "ticker": "544626",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-08-26"
+    },
+    {
       "fund_id": "wallfort",
       "fund_name": "Wallfort PMS",
       "company": "Tembo Global",
@@ -1317,6 +1352,22 @@
       "ticker": "GOKEX",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-19"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Ecos (India)",
+      "ticker": "ECOSMOBLTY",
+      "sector": "Services",
+      "latest_call_date": "2026-08-18"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Ecos (India)",
+      "ticker": "ECOSMOBLTY",
+      "sector": "Services",
+      "latest_call_date": "2026-08-18"
     },
     {
       "fund_id": "trust-mf",
@@ -3207,14 +3258,6 @@
       "latest_call_date": "2026-06-03"
     },
     {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Ecos (India)",
-      "ticker": "ECOSMOBLTY",
-      "sector": "Services",
-      "latest_call_date": "2026-06-01"
-    },
-    {
       "fund_id": "electrum",
       "fund_name": "Electrum Capital",
       "company": "Titagarh Rail",
@@ -3323,14 +3366,6 @@
       "fund_name": "Sapphire Capital",
       "company": "Welspun Special.",
       "ticker": "WELSPLSOL",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "trust-mf",
-      "fund_name": "Trust Mutual Fund",
-      "company": "KRN Heat Exchan",
-      "ticker": "KRN",
       "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
@@ -3444,14 +3479,6 @@
       "company": "Alembic Pharma",
       "ticker": "APLLTD",
       "sector": "Healthcare",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "nafa",
-      "fund_name": "Nafa Asset Managers",
-      "company": "Bharat Forge",
-      "ticker": "BHARATFORG",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-05-01"
     },
     {
@@ -3764,14 +3791,6 @@
       "company": "Mah. Seamless",
       "ticker": "MAHSEAMLES",
       "sector": "Industrials",
-      "latest_call_date": "2026-02-01"
-    },
-    {
-      "fund_id": "sameeksha",
-      "fund_name": "Sameeksha Capital",
-      "company": "Indraprastha Gas",
-      "ticker": "IGL",
-      "sector": "Energy",
       "latest_call_date": "2026-02-01"
     },
     {
