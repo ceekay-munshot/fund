@@ -1,17 +1,17 @@
 {
   "date": "2026-09-01",
-  "generated_at": "2026-08-31T20:12:47.895Z",
+  "generated_at": "2026-09-01T17:53:50.555Z",
   "totals": {
-    "sightings": 3892,
-    "companies": 1081,
+    "sightings": 3896,
+    "companies": 1082,
     "active_funds": 52
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 785,
-      "company_count": 446,
+      "sighting_count": 786,
+      "company_count": 447,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -228,6 +228,7 @@
         "Laxmi Dental",
         "Linc",
         "Lincoln Pharma.",
+        "MV Electrosystems",
         "Mach Travel Solutions",
         "Mahindra EPC",
         "Mahindra Logis.",
@@ -778,8 +779,8 @@
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
-      "sighting_count": 220,
-      "company_count": 164,
+      "sighting_count": 221,
+      "company_count": 165,
       "companies": [
         "ADF Foods",
         "AIA Engineering",
@@ -884,6 +885,7 @@
         "M & B Engineer.",
         "M B Agro Prod.",
         "MTAR Technologie",
+        "MV Electrosystems",
         "Macfos",
         "Mahindra Logis.",
         "Manaksia Coated",
@@ -1077,8 +1079,8 @@
     {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
-      "sighting_count": 150,
-      "company_count": 111,
+      "sighting_count": 151,
+      "company_count": 112,
       "companies": [
         "AGI Greenpac",
         "Aditya Infotech",
@@ -1125,6 +1127,7 @@
         "Ksolves India",
         "Lords Chloro",
         "M B Agro Prod.",
+        "MV Electrosystems",
         "Man Industries",
         "Manorama Indust.",
         "Maxvolt Energy",
@@ -2565,6 +2568,31 @@
       ]
     },
     {
+      "fund_id": "finavenue",
+      "fund_name": "Finavenue",
+      "sighting_count": 25,
+      "company_count": 17,
+      "companies": [
+        "Arham Tech",
+        "Basilic Fly Stud",
+        "Dar Credit & Cap",
+        "E2E Networks",
+        "Ganesh Housing",
+        "International Ge",
+        "International Gemological Instit",
+        "Inventurus Knowl",
+        "Lincoln Pharma.",
+        "Lords Mark Industries",
+        "MV Electrosystems",
+        "Orient Tech.",
+        "P N Gadgil Jewe.",
+        "Parag Milk Foods",
+        "Pelatro",
+        "Sagility",
+        "Sarda Energy"
+      ]
+    },
+    {
       "fund_id": "negen",
       "fund_name": "Negen Capital",
       "sighting_count": 25,
@@ -2589,30 +2617,6 @@
         "Triven.Engg.Ind.",
         "Veranda Learning",
         "Vikran Engg."
-      ]
-    },
-    {
-      "fund_id": "finavenue",
-      "fund_name": "Finavenue",
-      "sighting_count": 24,
-      "company_count": 16,
-      "companies": [
-        "Arham Tech",
-        "Basilic Fly Stud",
-        "Dar Credit & Cap",
-        "E2E Networks",
-        "Ganesh Housing",
-        "International Ge",
-        "International Gemological Instit",
-        "Inventurus Knowl",
-        "Lincoln Pharma.",
-        "Lords Mark Industries",
-        "Orient Tech.",
-        "P N Gadgil Jewe.",
-        "Parag Milk Foods",
-        "Pelatro",
-        "Sagility",
-        "Sarda Energy"
       ]
     },
     {
@@ -2828,8 +2832,8 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1069,
-      "company_count": 278
+      "sighting_count": 1073,
+      "company_count": 279
     },
     {
       "sector": "Consumer Discretionary",
@@ -2887,5 +2891,30 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Crown Capital",
+      "company": "MV Electrosystems",
+      "sector": "Industrials",
+      "concall_date": "2026-09-01"
+    },
+    {
+      "fund_name": "Finavenue",
+      "company": "MV Electrosystems",
+      "sector": "Industrials",
+      "concall_date": "2026-09-01"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "MV Electrosystems",
+      "sector": "Industrials",
+      "concall_date": "2026-09-01"
+    },
+    {
+      "fund_name": "Sequent Investments",
+      "company": "MV Electrosystems",
+      "sector": "Industrials",
+      "concall_date": "2026-09-01"
+    }
+  ]
 }
