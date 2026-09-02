@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-02T15:19:01.220Z",
+  "generated_at": "2026-09-02T17:57:32.224Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 93,
-    "gained": 347,
+    "dropped": 94,
+    "gained": 348,
     "consistent": 563,
     "companies_evaluated": 1018
   },
@@ -237,6 +237,17 @@
       "latest_call_date": "2026-08-02",
       "last_seen_date": "2026-05-20",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Metropolis Healt",
+      "ticker": "METROPOLIS",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-09-02",
+      "last_seen_date": "2026-08-10",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -1033,6 +1044,14 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "alchemy",
+      "fund_name": "Alchemy Capital",
+      "company": "Knowledge Marine",
+      "ticker": "KMEW",
+      "sector": "Services",
+      "latest_call_date": "2026-09-02"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
