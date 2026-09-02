@@ -11682,110 +11682,111 @@
     },
     "Knowledge Marine": {
       "company": "Knowledge Marine",
-      "ticker": null,
-      "sector": null,
-      "concall_date": "2026-06-12",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1159dd13-63b2-458c-adcf-5bccf183df90.pdf",
-      "transcript_id": "knowledge-marine_2026-06-12",
+      "ticker": "KMEW",
+      "sector": "Services",
+      "concall_date": "2026-09-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e738e31-2eca-4af3-81e8-d2e11d880fc1.pdf",
+      "transcript_id": "knowledge-marine_2026-09-02",
       "provider": "mistral",
-      "generated_at": "2026-06-24T00:08:06.247Z",
-      "summary": "Management expects strong revenue growth and stable margins over the next 2 years, driven by a robust order book and strategic investments in shipbuilding and green tugs.",
+      "generated_at": "2026-09-02T20:58:22.594Z",
+      "summary": "Strong growth trajectory driven by dredging volume expansion, shipbuilding scale-up, and disciplined project execution with margin expansion expected.",
       "guidance": [
         {
-          "metric": "Revenue",
-          "horizon": "FY27-FY28",
-          "statement": "Projected revenue increase of 30% year-on-year for the next 2 years",
+          "metric": "Revenue growth (YoY)",
+          "horizon": "FY27",
+          "statement": "Potential revenue growth northwards of 60% for the current year.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27-FY28",
-          "statement": "Blended EBITDA margins expected to remain between 35% to 40%",
-          "specificity": "specific",
-          "direction": "flat"
+          "horizon": "FY27",
+          "statement": "EBITDA margins expected to expand due to higher dredging volumes, though not at Q1 levels of ~64%.",
+          "specificity": "vague",
+          "direction": "up"
         },
         {
-          "metric": "Order book execution timeline",
-          "horizon": "medium-term",
-          "statement": "Current order book to be executed over 2 to 3 years, with Green Tug orders spanning 15 years",
+          "metric": "Revenue mix (Dredging:Shipbuilding:Charter)",
+          "horizon": "2-3 years",
+          "statement": "Dredging to contribute 45%-50%, shipbuilding 40%-45%, and chartering 5% of revenue.",
           "specificity": "specific",
           "direction": "unclear"
+        },
+        {
+          "metric": "Shipbuilding revenue",
+          "horizon": "FY27",
+          "statement": "Shipbuilding revenue expected to scale significantly from Q4 FY27 onwards with new order inflows and shipyard commissioning.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dredging volumes",
+          "horizon": "FY27-FY28",
+          "statement": "Dredging volumes to scale progressively with larger capacity dredgers, targeting INR100-120 crore additional maintenance dredging revenue in FY27 and >INR250 crore in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Capital dredging revenue",
+          "horizon": "FY27-FY28",
+          "statement": "Capital dredging revenue expected to add ~INR70 crore in FY27 and ~INR150 crore in FY28.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Total turnover",
+          "horizon": "FY29",
+          "statement": "Projected turnover of INR1,000 crore in FY29.",
+          "specificity": "specific",
+          "direction": "up"
         },
         {
           "metric": "Capex",
-          "horizon": "FY27",
-          "statement": "Planned capex of ₹400-500 crores in the current financial year",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Capex split",
-          "horizon": "FY27",
-          "statement": "₹100 crores allocated to shipyard development; balance for dredgers and tugs acquisition",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Shipyard capacity",
-          "horizon": "medium-term",
-          "statement": "Shipyard designed to build 14 vessels per year once fully functional",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Green Tug construction timeline",
-          "horizon": "FY27",
-          "statement": "Green tugs for VOCPA and Vishakhapatnam ports to be built at Saphale yard, with construction to complete within 9 months post-monsoon",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "River Pearl 47 utilization",
-          "horizon": "2-3 years",
-          "statement": "River Pearl 47 expected to have utilization in excess of 240 days per year for the next 2 to 3 years",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Dredger acquisition",
-          "horizon": "FY27",
-          "statement": "Plans to buy 2 dredgers with 12,000 cubic meter hopper capacity, implementable in less than 90 days",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Export orders",
-          "horizon": "Q3-Q4 FY27",
-          "statement": "Export orders for vessels expected to start flowing in Q3 or Q4 of the current financial year",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Tonnage tax eligibility",
-          "horizon": "FY27",
-          "statement": "Vessels chartered to government or engaged in dredging will fall under tonnage tax scheme; shipbuilding revenue will be taxed under corporate tax",
+          "horizon": "FY27-FY28",
+          "statement": "Total capex of ~INR1,000 crore to be incurred between now and next 1.5 years, split as INR250 crore for green vessels, INR450 crore for dredging, and balance for shipyard/shipbuilding.",
           "specificity": "specific",
           "direction": "unclear"
         },
         {
-          "metric": "Capital allocation",
+          "metric": "Order book execution (Dredging)",
           "horizon": "FY27",
-          "statement": "Capital raised from preference issue expected to be deployed over 12 to 16 months",
+          "statement": "INR200 crore of INR240 crore dredging order book expected to be executed in FY27.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Bid pipeline conversion",
+          "horizon": "Next 30-45 days",
+          "statement": "Bid pipeline of INR1,200 crore in dredging expected to convert into orders over next 30-45 days.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Hit rate (bid conversion)",
+          "horizon": "Historical",
+          "statement": "Historical hit rate in excess of 50% for bids over last 11 years.",
           "specificity": "specific",
           "direction": "unclear"
+        },
+        {
+          "metric": "Shipbuilding margins (post-subsidy)",
+          "horizon": "FY27 onwards",
+          "statement": "Shipbuilding margins post-subsidy expected to exceed 35%.",
+          "specificity": "specific",
+          "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "Bahrain sand mining project timeline",
-        "Myanmar operations revival timeline"
+        "DCIMangrol project status beyond receipt of funds",
+        "Promoter stake dilution plans beyond current comfort level"
       ],
       "margin_drivers": [
-        "Long-term contracts",
-        "Operational efficiency",
-        "Strategic project selection",
-        "Backward integration through shipbuilding",
-        "Green Tug segment entry"
+        "Higher dredging volumes",
+        "Efficient asset utilization and specialized equipment",
+        "Shipbuilding scale-up with post-subsidy margins >35%",
+        "Disciplined project selection with 35%-40% EBITDA margin targets",
+        "Reduced subcontracting expenses (5%-6% of turnover from FY26 onwards)",
+        "Green vessel focus under Harit Nauka mission"
       ]
     },
     "Antony Waste han": {
@@ -70446,108 +70447,111 @@
       "company": "Metropolis Healt",
       "ticker": "METROPOLIS",
       "sector": "Healthcare",
-      "concall_date": "2026-08-10",
-      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f0dc23e-e209-4699-8801-08a3832919c4.pdf",
-      "transcript_id": "metropolis-healt_2026-08-10",
+      "concall_date": "2026-09-02",
+      "transcript_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20838c50-7407-4e1e-bd49-60e875d77312.pdf",
+      "transcript_id": "metropolis-healt_2026-09-02",
       "provider": "mistral",
-      "generated_at": "2026-08-10T16:09:07.035Z",
-      "summary": "Metropolis expects sustained revenue growth of 14%-15% in FY27 driven by volume growth, EBITDA margin expansion to 27%-28% over FY27-FY28, and continued inorganic growth through disciplined acquisitions.",
+      "generated_at": "2026-09-02T20:58:31.671Z",
+      "summary": "Management expects long-term growth driven by industry consolidation, specialty testing expansion, and technology-led efficiency gains, with a focus on maintaining high-quality standards and profitability.",
       "guidance": [
         {
           "metric": "Revenue growth",
-          "horizon": "FY27",
-          "statement": "Expect revenue growth of 14%-15% for the year, primarily driven by volume growth.",
-          "specificity": "specific",
+          "horizon": "next 8 years",
+          "statement": "Industry expected to grow at ~11% CAGR to ~$28.5B, with Metropolis targeting faster-than-industry growth through structural advantages.",
+          "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Specialty testing revenue share",
+          "horizon": "medium-term",
+          "statement": "Goal to increase specialty testing contribution beyond current ~42% of revenue by expanding high-margin specialty tests.",
+          "specificity": "vague",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
           "horizon": "FY27",
-          "statement": "Expect EBITDA margin improvement of 100-150 basis points during the current financial year.",
+          "statement": "Core organic EBITDA margin expected to improve as Core Diagnostics acquisition turns profitable, narrowing the 1.5% margin suppression.",
           "specificity": "specific",
           "direction": "up"
         },
         {
           "metric": "EBITDA margin",
-          "horizon": "FY27-FY28",
-          "statement": "Focused on achieving an EBITDA margin of 27%-28% over this year and the next year.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Network expansion",
-          "horizon": "FY27",
-          "statement": "Aim to open approximately 400-500 centers in Tier-2 and Tier-3 towns this year.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Specialty Diagnostics contribution",
-          "horizon": "FY27",
-          "statement": "Aim to increase contribution of Specialty Diagnostics portfolio to 45% from the current 40%.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Genomics portfolio growth",
           "horizon": "medium-term",
-          "statement": "Genomics portfolio has doubled over the past year and is one of the fastest-growing segments within Specialty business.",
+          "statement": "Margin expansion expected through volume-led growth, price increases, and product mix shift toward higher-margin specialty tests.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Core Diagnostics EBITDA margin",
-          "horizon": "3-4 years from acquisition",
-          "statement": "Plan to transform Core Diagnostics into a business capable of delivering EBITDA margins of around 25% over 3-4 years from acquisition.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Core Diagnostics revenue contribution",
+          "metric": "Volume growth",
           "horizon": "FY27",
-          "statement": "Core Diagnostics is expected to generate EBITDA in FY27, with an effective acquisition multiple of approximately 10x EBITDA.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "Center-to-laboratory ratio",
-          "horizon": "FY27",
-          "statement": "Aim to improve center-to-laboratory ratio to around 1:30 by year-end.",
-          "specificity": "specific",
-          "direction": "up"
-        },
-        {
-          "metric": "TruHealth revenue growth",
-          "horizon": "FY27",
-          "statement": "TruHealth revenues grew 22% in Q1 FY27, supported by integrated preventive healthcare offerings and targeted digital customer acquisition initiatives.",
+          "statement": "North India identified as fastest-growing region in Q1, with acquisitions providing a base for rapid expansion.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "International business growth",
+          "metric": "Productivity per employee",
+          "horizon": "FY27",
+          "statement": "Productivity increased by ~15% last year, with ongoing skilling programs (e.g., MiLES) to sustain gains.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Test portfolio expansion",
+          "horizon": "FY27",
+          "statement": "Adding ~380 new specialty tests in the last year, with continued focus on complex diagnostics like oncology and neurology.",
+          "specificity": "specific",
+          "direction": "up"
+        },
+        {
+          "metric": "Quality standards",
+          "horizon": "ongoing",
+          "statement": "Maintaining 99.99% EQAS score (top 1% globally) through continuous CAP accreditation and proficiency testing.",
+          "specificity": "specific",
+          "direction": "flat"
+        },
+        {
+          "metric": "Market share",
           "horizon": "medium-term",
-          "statement": "Remain optimistic about the strength of the brand built internationally and confident of continuing to grow the business across these markets.",
+          "statement": "Industry consolidation expected to favor organized players like Metropolis, with structural tailwinds from increasing disease complexity and access.",
           "specificity": "vague",
           "direction": "up"
         },
         {
-          "metric": "Productivity initiatives",
-          "horizon": "FY27",
-          "statement": "Multiple productivity initiatives beginning to scale, contributing to sustainable, profitable growth.",
+          "metric": "Technology-led efficiency",
+          "horizon": "medium-term",
+          "statement": "Strategy emphasizes automation and digitization to drive cost efficiencies and scalability.",
           "specificity": "vague",
+          "direction": "up"
+        },
+        {
+          "metric": "Dividend payout",
+          "horizon": "FY27",
+          "statement": "Historical dividend policy of ~22% of PAT to be maintained, subject to business needs.",
+          "specificity": "vague",
+          "direction": "flat"
+        },
+        {
+          "metric": "Acquisitions",
+          "horizon": "ongoing",
+          "statement": "Focus on acquiring breakeven or underperforming labs to turn around margins to 20%-25% within 3-4 years.",
+          "specificity": "specific",
           "direction": "up"
         }
       ],
       "refused_to_guide": [
-        "patient volume split between B2B and B2C for future periods",
-        "exact number of labs under the lab-on-lease model"
+        "FY27 revenue or EBITDA figures",
+        "Capex plans for FY27",
+        "PAT guidance for any future period"
       ],
       "margin_drivers": [
-        "operating leverage from volume growth",
-        "cost optimization initiatives",
-        "laboratory transformation program (automation, standardization, vendor consolidation)",
-        "improved procurement efficiencies",
-        "productivity gains from technology and AI investments"
+        "Specialty testing expansion",
+        "Volume growth in B2C and B2B segments",
+        "Price increases (2%-3% annually)",
+        "Product mix shift toward higher-margin tests",
+        "Turnaround of acquired labs (e.g., Core Diagnostics)",
+        "Technology-led automation and digitization",
+        "Productivity improvements per employee"
       ]
     },
     "L T Foods": {
@@ -112187,6 +112191,6 @@
       ]
     }
   },
-  "generated_at": "2026-09-02T17:52:30.016Z",
+  "generated_at": "2026-09-02T20:59:41.107Z",
   "count": 1119
 }
