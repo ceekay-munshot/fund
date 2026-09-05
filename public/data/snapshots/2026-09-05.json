@@ -1,8 +1,8 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-04T20:58:08.927Z",
+  "generated_at": "2026-09-05T16:53:29.754Z",
   "totals": {
-    "sightings": 3871,
+    "sightings": 3879,
     "companies": 1080,
     "active_funds": 52
   },
@@ -10,7 +10,7 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 784,
+      "sighting_count": 787,
       "company_count": 446,
       "companies": [
         "ADF Foods",
@@ -623,7 +623,7 @@
     {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
-      "sighting_count": 255,
+      "sighting_count": 256,
       "company_count": 145,
       "companies": [
         "APL Apollo Tubes",
@@ -948,7 +948,7 @@
     {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
-      "sighting_count": 191,
+      "sighting_count": 192,
       "company_count": 117,
       "companies": [
         "ASM Technologies",
@@ -1193,7 +1193,7 @@
     {
       "fund_id": "vaikarya",
       "fund_name": "Vaikarya Capital",
-      "sighting_count": 114,
+      "sighting_count": 115,
       "company_count": 58,
       "companies": [
         "ADF Foods",
@@ -1259,8 +1259,8 @@
     {
       "fund_id": "lucky",
       "fund_name": "Lucky Investments",
-      "sighting_count": 109,
-      "company_count": 82,
+      "sighting_count": 110,
+      "company_count": 83,
       "companies": [
         "ADF Foods",
         "Aarti Industries",
@@ -1286,6 +1286,7 @@
         "Fineotex Chem",
         "GNG Electronics",
         "Ganesh Consumer",
+        "Ganesha Ecosphe.",
         "Goldiam Intl.",
         "ICRA",
         "Indian Metals",
@@ -2122,7 +2123,7 @@
     {
       "fund_id": "aequitas",
       "fund_name": "Aequitas",
-      "sighting_count": 41,
+      "sighting_count": 42,
       "company_count": 27,
       "companies": [
         "Alkyl Amines",
@@ -2816,12 +2817,12 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1070,
+      "sighting_count": 1073,
       "company_count": 279
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 897,
+      "sighting_count": 901,
       "company_count": 250
     },
     {
@@ -2836,7 +2837,7 @@
     },
     {
       "sector": "Financial Services",
-      "sighting_count": 274,
+      "sighting_count": 275,
       "company_count": 95
     },
     {
@@ -2875,5 +2876,54 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Aequitas",
+      "company": "Power Mech Proj.",
+      "sector": "Industrials",
+      "concall_date": "2026-08-10"
+    },
+    {
+      "fund_name": "InCred AMC",
+      "company": "M & M Fin. Serv.",
+      "sector": "Financial Services",
+      "concall_date": "2026-07-21"
+    },
+    {
+      "fund_name": "Lucky Investments",
+      "company": "Ganesha Ecosphe.",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-04"
+    },
+    {
+      "fund_name": "Niveshaay",
+      "company": "Ganesha Ecosphe.",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-04"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Ganesha Ecosphe.",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-04"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Hirect",
+      "sector": "Industrials",
+      "concall_date": "2026-08-12"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Power Mech Proj.",
+      "sector": "Industrials",
+      "concall_date": "2026-08-10"
+    },
+    {
+      "fund_name": "Vaikarya Capital",
+      "company": "Ganesha Ecosphe.",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-08-04"
+    }
+  ]
 }
