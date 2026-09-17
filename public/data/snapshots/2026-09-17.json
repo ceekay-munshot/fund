@@ -1,17 +1,17 @@
 {
   "date": "2026-09-17",
-  "generated_at": "2026-09-16T18:55:23.856Z",
+  "generated_at": "2026-09-17T18:21:52.806Z",
   "totals": {
-    "sightings": 3892,
-    "companies": 1086,
+    "sightings": 3896,
+    "companies": 1087,
     "active_funds": 52
   },
   "per_fund": [
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 788,
-      "company_count": 447,
+      "sighting_count": 790,
+      "company_count": 449,
       "companies": [
         "ADF Foods",
         "AGI Greenpac",
@@ -177,6 +177,7 @@
         "Hirect",
         "Hoac Foods",
         "IIFL Finance",
+        "IOL Chemicals",
         "IZMO",
         "Ideaforge Tech",
         "India Pesticides",
@@ -365,6 +366,7 @@
         "Sh.Pushkar Chem.",
         "Shankara Building",
         "Shankara Buildpro",
+        "Shankesh Jewellers",
         "Sharda Cropchem",
         "Shree Karni",
         "Shriram Properti",
@@ -1660,7 +1662,7 @@
     {
       "fund_id": "nv-alpha",
       "fund_name": "NV Alpha",
-      "sighting_count": 79,
+      "sighting_count": 80,
       "company_count": 54,
       "companies": [
         "ADF Foods",
@@ -2698,7 +2700,7 @@
     {
       "fund_id": "ampersand",
       "fund_name": "Ampersand Capital",
-      "sighting_count": 16,
+      "sighting_count": 17,
       "company_count": 13,
       "companies": [
         "ASM Technologies",
@@ -2831,17 +2833,17 @@
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 904,
-      "company_count": 251
+      "sighting_count": 905,
+      "company_count": 252
     },
     {
       "sector": "Healthcare",
-      "sighting_count": 404,
+      "sighting_count": 406,
       "company_count": 104
     },
     {
       "sector": "Commodities",
-      "sighting_count": 394,
+      "sighting_count": 395,
       "company_count": 109
     },
     {
@@ -2885,5 +2887,30 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Ampersand Capital",
+      "company": "Solar Industries",
+      "sector": "Commodities",
+      "concall_date": "2026-09-17"
+    },
+    {
+      "fund_name": "NV Alpha",
+      "company": "IOL Chemicals",
+      "sector": "Healthcare",
+      "concall_date": "2026-09-17"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "IOL Chemicals",
+      "sector": "Healthcare",
+      "concall_date": "2026-09-17"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Shankesh Jewellers",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-09-17"
+    }
+  ]
 }
