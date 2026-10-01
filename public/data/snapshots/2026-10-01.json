@@ -1,10 +1,10 @@
 {
   "date": "2026-10-01",
-  "generated_at": "2026-09-30T19:29:26.846Z",
+  "generated_at": "2026-10-01T07:32:19.433Z",
   "totals": {
-    "sightings": 3898,
+    "sightings": 3902,
     "companies": 1088,
-    "active_funds": 52
+    "active_funds": 54
   },
   "per_fund": [
     {
@@ -1269,12 +1269,13 @@
     {
       "fund_id": "lucky",
       "fund_name": "Lucky Investments",
-      "sighting_count": 111,
-      "company_count": 84,
+      "sighting_count": 112,
+      "company_count": 85,
       "companies": [
         "ADF Foods",
         "Aarti Industries",
         "Aeroflex",
+        "Ajanta Pharma",
         "Ajax Engineering",
         "Alkyl Amines",
         "Allcargo Logist.",
@@ -2818,6 +2819,25 @@
       ]
     },
     {
+      "fund_id": "mk-ventures",
+      "fund_name": "MK Ventures",
+      "sighting_count": 2,
+      "company_count": 2,
+      "companies": [
+        "MV Electrosystems",
+        "Supriya Lifesci."
+      ]
+    },
+    {
+      "fund_id": "agility-advisors",
+      "fund_name": "Agility Advisors",
+      "sighting_count": 1,
+      "company_count": 1,
+      "companies": [
+        "Venus Pipes"
+      ]
+    },
+    {
       "fund_id": "buoyant",
       "fund_name": "Buoyant Capital",
       "sighting_count": 1,
@@ -2830,7 +2850,7 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1078,
+      "sighting_count": 1080,
       "company_count": 282
     },
     {
@@ -2840,7 +2860,7 @@
     },
     {
       "sector": "Healthcare",
-      "sighting_count": 406,
+      "sighting_count": 408,
       "company_count": 104
     },
     {
@@ -2889,5 +2909,30 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Agility Advisors",
+      "company": "Venus Pipes",
+      "sector": "Industrials",
+      "concall_date": "2026-08-17"
+    },
+    {
+      "fund_name": "Lucky Investments",
+      "company": "Ajanta Pharma",
+      "sector": "Healthcare",
+      "concall_date": "2026-08-03"
+    },
+    {
+      "fund_name": "MK Ventures",
+      "company": "MV Electrosystems",
+      "sector": "Industrials",
+      "concall_date": "2026-09-01"
+    },
+    {
+      "fund_name": "MK Ventures",
+      "company": "Supriya Lifesci.",
+      "sector": "Healthcare",
+      "concall_date": "2026-08-18"
+    }
+  ]
 }
