@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
-  "generated_at": "2026-10-15T19:25:35.167Z",
+  "generated_at": "2026-10-16T18:12:44.725Z",
   "totals": {
-    "sightings": 3816,
+    "sightings": 3820,
     "companies": 1082,
     "active_funds": 54
   },
@@ -10,7 +10,7 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "sighting_count": 773,
+      "sighting_count": 774,
       "company_count": 438,
       "companies": [
         "ADF Foods",
@@ -456,8 +456,8 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "sighting_count": 283,
-      "company_count": 149,
+      "sighting_count": 284,
+      "company_count": 150,
       "companies": [
         "ABS Marine",
         "Admach Systems",
@@ -529,6 +529,7 @@
         "Kamat Hotels",
         "Kanpur Plastipa.",
         "Karbonsteel Eng.",
+        "Karnika Industri",
         "Kewal Kir.Cloth.",
         "Kranti Industrie",
         "Kuantum Papers",
@@ -1400,7 +1401,7 @@
     {
       "fund_id": "icici-prudential",
       "fund_name": "ICICI Prudential AMC",
-      "sighting_count": 103,
+      "sighting_count": 104,
       "company_count": 63,
       "companies": [
         "Affle 3i",
@@ -2414,12 +2415,13 @@
     {
       "fund_id": "trust-mf",
       "fund_name": "Trust Mutual Fund",
-      "sighting_count": 28,
-      "company_count": 21,
+      "sighting_count": 29,
+      "company_count": 22,
       "companies": [
         "Action Const.Eq.",
         "Atlanta Electric",
         "Billionbrains",
+        "Cemindia Project",
         "Clean Max Enviro",
         "Elgi Equipments",
         "Ideaforge Tech",
@@ -2803,12 +2805,12 @@
   "per_sector": [
     {
       "sector": "Industrials",
-      "sighting_count": 1050,
+      "sighting_count": 1051,
       "company_count": 283
     },
     {
       "sector": "Consumer Discretionary",
-      "sighting_count": 889,
+      "sighting_count": 891,
       "company_count": 249
     },
     {
@@ -2823,7 +2825,7 @@
     },
     {
       "sector": "Financial Services",
-      "sighting_count": 264,
+      "sighting_count": 265,
       "company_count": 94
     },
     {
@@ -2862,5 +2864,30 @@
       "company_count": 1
     }
   ],
-  "new_today": []
+  "new_today": [
+    {
+      "fund_name": "Counter Cyclical",
+      "company": "Karnika Industri",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-10-16"
+    },
+    {
+      "fund_name": "ICICI Prudential AMC",
+      "company": "ICICI AMC",
+      "sector": "Financial Services",
+      "concall_date": "2026-10-16"
+    },
+    {
+      "fund_name": "Sapphire Capital",
+      "company": "Karnika Industri",
+      "sector": "Consumer Discretionary",
+      "concall_date": "2026-10-16"
+    },
+    {
+      "fund_name": "Trust Mutual Fund",
+      "company": "Cemindia Project",
+      "sector": "Industrials",
+      "concall_date": "2026-07-29"
+    }
+  ]
 }
