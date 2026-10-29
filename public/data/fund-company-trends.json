@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T18:52:17.869Z",
+  "generated_at": "2026-10-29T19:47:35.246Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 103,
+    "dropped": 105,
     "gained": 373,
-    "consistent": 546,
-    "companies_evaluated": 1019
+    "consistent": 544,
+    "companies_evaluated": 1020
   },
   "dropped": [
     {
@@ -61,6 +61,28 @@
       "latest_call_date": "2026-08-17",
       "last_seen_date": "2026-06-03",
       "prior_calls_attended": 5,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "perpetuity",
+      "fund_name": "Perpetuity",
+      "company": "Tinna Rubber",
+      "ticker": "TINNARUBR",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29",
+      "last_seen_date": "2026-07-24",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sundaram-alternates",
+      "fund_name": "Sundaram Alternates",
+      "company": "Dynamic Cables",
+      "ticker": "DYCL",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29",
+      "last_seen_date": "2026-07-23",
+      "prior_calls_attended": 4,
       "tier": "strong"
     },
     {
@@ -264,17 +286,6 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
-      "company": "TruAlt Bioenergy",
-      "ticker": "TRUALT",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-08-04",
-      "last_seen_date": "2026-05-28",
-      "prior_calls_attended": 4,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
       "company": "Ivalue Infosolut",
       "ticker": "IVALUE",
       "sector": "Information Technology",
@@ -292,6 +303,39 @@
       "latest_call_date": "2026-08-02",
       "last_seen_date": "2026-05-20",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "vallum",
+      "fund_name": "Vallum Capital",
+      "company": "Bank of Maha",
+      "ticker": "MAHABANK",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-10-29",
+      "last_seen_date": "2026-07-25",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "nexus-equity",
+      "fund_name": "Nexus Equity",
+      "company": "Dynamic Cables",
+      "ticker": "DYCL",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29",
+      "last_seen_date": "2026-07-23",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Aequs",
+      "ticker": "AEQUS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -977,17 +1021,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "TruAlt Bioenergy",
-      "ticker": "TRUALT",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-08-04",
-      "last_seen_date": "2026-05-28",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
       "fund_id": "lucky",
       "fund_name": "Lucky Investments",
       "company": "ADF Foods",
@@ -1006,17 +1039,6 @@
       "sector": "Information Technology",
       "latest_call_date": "2026-08-04",
       "last_seen_date": "2026-05-01",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
-      "company": "Aequs",
-      "ticker": "AEQUS",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-04",
-      "last_seen_date": "2026-06-02",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -1143,6 +1165,62 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "abakkus",
+      "fund_name": "Abakkus",
+      "company": "TruAlt Bioenergy",
+      "ticker": "TRUALT",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "company": "Tinna Rubber",
+      "ticker": "TINNARUBR",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Monolithisch Ind",
+      "ticker": "MONOLITH",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Netweb Technol.",
+      "ticker": "NETWEB",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "SBI Cards",
+      "ticker": "SBICARD",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "ampersand",
+      "fund_name": "Ampersand Capital",
+      "company": "Aye Finance",
+      "ticker": "AYE",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "T N Merc. Bank",
+      "ticker": "TMB",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-10-29"
+    },
     {
       "fund_id": "maximal",
       "fund_name": "Maximal Capital",
@@ -1446,14 +1524,6 @@
       "ticker": "CORDELIA",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-10-15"
-    },
-    {
-      "fund_id": "finavenue",
-      "fund_name": "Finavenue",
-      "company": "Monolithisch Ind",
-      "ticker": "MONOLITH",
-      "sector": "Industrials",
-      "latest_call_date": "2026-10-02"
     },
     {
       "fund_id": "unique",
@@ -2832,14 +2902,6 @@
       "latest_call_date": "2026-08-10"
     },
     {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "KEI Industries",
-      "ticker": "KEI",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-10"
-    },
-    {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
       "company": "Thomas Cook (I)",
@@ -3112,22 +3174,6 @@
       "latest_call_date": "2026-08-05"
     },
     {
-      "fund_id": "alchemy",
-      "fund_name": "Alchemy Capital",
-      "company": "APL Apollo Tubes",
-      "ticker": "APLAPOLLO",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-05"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "APL Apollo Tubes",
-      "ticker": "APLAPOLLO",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-05"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Vishnu Chemicals",
@@ -3197,14 +3243,6 @@
       "company": "Mankind Pharma",
       "ticker": "MANKIND",
       "sector": "Healthcare",
-      "latest_call_date": "2026-08-04"
-    },
-    {
-      "fund_id": "singularity",
-      "fund_name": "Singularity AMC",
-      "company": "TruAlt Bioenergy",
-      "ticker": "TRUALT",
-      "sector": "Fast Moving Consumer Goods",
       "latest_call_date": "2026-08-04"
     },
     {
@@ -3376,14 +3414,6 @@
       "latest_call_date": "2026-08-03"
     },
     {
-      "fund_id": "sahasrar",
-      "fund_name": "Sahasrar Capital",
-      "company": "Netweb Technol.",
-      "ticker": "NETWEB",
-      "sector": "Information Technology",
-      "latest_call_date": "2026-08-01"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Emerald Finance",
@@ -3533,14 +3563,6 @@
       "company": "Ramkrishna Forg.",
       "ticker": "RKFORGE",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-07-30"
-    },
-    {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Aye Finance",
-      "ticker": "AYE",
-      "sector": "Financial Services",
       "latest_call_date": "2026-07-30"
     },
     {
