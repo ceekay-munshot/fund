@@ -1,13 +1,35 @@
 {
-  "generated_at": "2026-11-04T14:49:43.102Z",
+  "generated_at": "2026-11-04T20:55:08.095Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 70,
-    "gained": 360,
-    "consistent": 503,
-    "companies_evaluated": 928
+    "dropped": 74,
+    "gained": 364,
+    "consistent": 497,
+    "companies_evaluated": 933
   },
   "dropped": [
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Goodluck India",
+      "ticker": "GOODLUCK",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-04",
+      "last_seen_date": "2026-08-17",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Borosil Renew.",
+      "ticker": "BORORENEW",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-04",
+      "last_seen_date": "2026-07-22",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
@@ -152,17 +174,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "solidarity",
-      "fund_name": "Solidarity",
-      "company": "Goodluck India",
-      "ticker": "GOODLUCK",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-17",
-      "last_seen_date": "2026-06-03",
-      "prior_calls_attended": 4,
-      "tier": "strong"
-    },
-    {
       "fund_id": "green-portfolio",
       "fund_name": "Green Portfolio",
       "company": "IFGL Refractori.",
@@ -204,6 +215,50 @@
       "latest_call_date": "2026-08-04",
       "last_seen_date": "2026-06-15",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Vimta Labs",
+      "ticker": "VIMTALABS",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-04",
+      "last_seen_date": "2026-07-24",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Vimta Labs",
+      "ticker": "VIMTALABS",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-04",
+      "last_seen_date": "2026-07-24",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "unique",
+      "fund_name": "Unique PMS",
+      "company": "Greaves Cotton",
+      "ticker": "GREAVESCOT",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-04",
+      "last_seen_date": "2026-05-06",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "vallum",
+      "fund_name": "Vallum Capital",
+      "company": "Birlasoft Ltd",
+      "ticker": "BSOFT",
+      "sector": "Information Technology",
+      "latest_call_date": "2026-11-04",
+      "last_seen_date": "2026-08-04",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -614,17 +669,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "unique",
-      "fund_name": "Unique PMS",
-      "company": "Greaves Cotton",
-      "ticker": "GREAVESCOT",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-12",
-      "last_seen_date": "2026-05-06",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
       "fund_id": "green-portfolio",
       "fund_name": "Green Portfolio",
       "company": "Inox Green",
@@ -780,6 +824,110 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "PG Electroplast",
+      "ticker": "PGEL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Cartrade Tech",
+      "ticker": "CARTRADE",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "helios",
+      "fund_name": "Helios Capital",
+      "company": "Cartrade Tech",
+      "ticker": "CARTRADE",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "alfaccurate",
+      "fund_name": "AlfAccurate Advisors",
+      "company": "Onemi Technology",
+      "ticker": "KISSHT",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "astute",
+      "fund_name": "Astute Investment Management",
+      "company": "Shree Refrigerat",
+      "ticker": "544458",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "company": "Shree Refrigerat",
+      "ticker": "544458",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Raymond",
+      "ticker": "RAYMONDLSL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "nv-alpha",
+      "fund_name": "NV Alpha",
+      "company": "Allied Blenders",
+      "ticker": "ABDL",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "nafa",
+      "fund_name": "Nafa Asset Managers",
+      "company": "Msafe Equipments",
+      "ticker": "544695",
+      "sector": "Commodities",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Dodla Dairy",
+      "ticker": "DODLA",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "maximal",
+      "fund_name": "Maximal Capital",
+      "company": "Dodla Dairy",
+      "ticker": "DODLA",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "mk-ventures",
+      "fund_name": "MK Ventures",
+      "company": "Greaves Cotton",
+      "ticker": "GREAVESCOT",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-04"
+    },
+    {
+      "fund_id": "enam",
+      "fund_name": "Enam",
+      "company": "Sun Pharma.Inds.",
+      "ticker": "SUNPHARMA",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-04"
+    },
     {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
@@ -1031,6 +1179,30 @@
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
+      "company": "Shilchar Tech.",
+      "ticker": "SHILCTECH",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "abakkus",
+      "fund_name": "Abakkus",
+      "company": "Shilchar Tech.",
+      "ticker": "SHILCTECH",
+      "sector": "Industrials",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "astute",
+      "fund_name": "Astute Investment Management",
+      "company": "Dr Reddy's Labs",
+      "ticker": "DRREDDY",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-10-29"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
       "company": "Sat Kartar Life",
       "ticker": "SATKARTAR",
       "sector": "Healthcare",
@@ -1243,6 +1415,14 @@
       "ticker": "HAVELLS",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-10-24"
+    },
+    {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "company": "H P C L",
+      "ticker": "HINDPETRO",
+      "sector": "Energy",
+      "latest_call_date": "2026-10-23"
     },
     {
       "fund_id": "niveshaay",
@@ -2085,22 +2265,6 @@
       "latest_call_date": "2026-08-17"
     },
     {
-      "fund_id": "alchemy",
-      "fund_name": "Alchemy Capital",
-      "company": "Goodluck India",
-      "ticker": "GOODLUCK",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-17"
-    },
-    {
-      "fund_id": "nafa",
-      "fund_name": "Nafa Asset Managers",
-      "company": "Goodluck India",
-      "ticker": "GOODLUCK",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-17"
-    },
-    {
       "fund_id": "girik",
       "fund_name": "Girik Capital",
       "company": "Gland Pharma",
@@ -2162,14 +2326,6 @@
       "company": "TCPL Packaging",
       "ticker": "TCPLPACK",
       "sector": "Industrials",
-      "latest_call_date": "2026-08-17"
-    },
-    {
-      "fund_id": "boring",
-      "fund_name": "Boring AMC",
-      "company": "Aarti Pharma",
-      "ticker": "AARTIPHARM",
-      "sector": "Healthcare",
       "latest_call_date": "2026-08-17"
     },
     {
@@ -2266,14 +2422,6 @@
       "company": "Network People",
       "ticker": "NPST",
       "sector": "Information Technology",
-      "latest_call_date": "2026-08-14"
-    },
-    {
-      "fund_id": "alfaccurate",
-      "fund_name": "AlfAccurate Advisors",
-      "company": "Raymond",
-      "ticker": "RAYMONDLSL",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-14"
     },
     {
@@ -2537,14 +2685,6 @@
       "fund_name": "Green Portfolio",
       "company": "Electrost.Cast.",
       "ticker": "ELECTCAST",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-12"
-    },
-    {
-      "fund_id": "ampersand",
-      "fund_name": "Ampersand Capital",
-      "company": "Greaves Cotton",
-      "ticker": "GREAVESCOT",
       "sector": "Industrials",
       "latest_call_date": "2026-08-12"
     },
@@ -2951,14 +3091,6 @@
     {
       "fund_id": "wallfort",
       "fund_name": "Wallfort PMS",
-      "company": "Aether Industri.",
-      "ticker": "AETHER",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-07"
-    },
-    {
-      "fund_id": "wallfort",
-      "fund_name": "Wallfort PMS",
       "company": "Blue Jet Health",
       "ticker": "BLUEJET",
       "sector": "Healthcare",
@@ -3117,14 +3249,6 @@
       "latest_call_date": "2026-08-05"
     },
     {
-      "fund_id": "valuequest",
-      "fund_name": "ValueQuest",
-      "company": "Cartrade Tech",
-      "ticker": "CARTRADE",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-05"
-    },
-    {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "Global Health",
@@ -3205,22 +3329,6 @@
       "latest_call_date": "2026-08-04"
     },
     {
-      "fund_id": "enam",
-      "fund_name": "Enam",
-      "company": "Suzlon Energy",
-      "ticker": "SUZLON",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-04"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Best Agrolife",
-      "ticker": "BESTAGRO",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-04"
-    },
-    {
       "fund_id": "stallion",
       "fund_name": "Stallion Asset",
       "company": "Pricol Ltd",
@@ -3266,22 +3374,6 @@
       "company": "Digitide Solutio",
       "ticker": "DIGITIDE",
       "sector": "Information Technology",
-      "latest_call_date": "2026-08-03"
-    },
-    {
-      "fund_id": "vaikarya",
-      "fund_name": "Vaikarya Capital",
-      "company": "Pine Labs",
-      "ticker": "PINELABS",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-08-03"
-    },
-    {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Pine Labs",
-      "ticker": "PINELABS",
-      "sector": "Financial Services",
       "latest_call_date": "2026-08-03"
     },
     {
@@ -3485,14 +3577,6 @@
       "latest_call_date": "2026-07-28"
     },
     {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "TVS Motor Co.",
-      "ticker": "TVSMOTOR",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-07-28"
-    },
-    {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
       "company": "Servotech Renew",
@@ -3506,14 +3590,6 @@
       "company": "HEG",
       "ticker": "HEG",
       "sector": "Industrials",
-      "latest_call_date": "2026-07-28"
-    },
-    {
-      "fund_id": "maximal",
-      "fund_name": "Maximal Capital",
-      "company": "Gandhar Oil Ref.",
-      "ticker": "GANDHAR",
-      "sector": "Energy",
       "latest_call_date": "2026-07-28"
     },
     {
