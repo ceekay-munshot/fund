@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T15:33:22.395Z",
+  "generated_at": "2026-11-07T18:56:11.995Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 86,
-    "gained": 357,
-    "consistent": 492,
-    "companies_evaluated": 942
+    "dropped": 88,
+    "gained": 353,
+    "consistent": 488,
+    "companies_evaluated": 948
   },
   "dropped": [
     {
@@ -17,6 +17,39 @@
       "latest_call_date": "2026-11-05",
       "last_seen_date": "2026-09-17",
       "prior_calls_attended": 6,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "vallum",
+      "fund_name": "Vallum Capital",
+      "company": "Krsnaa Diagnost.",
+      "ticker": "KRSNAA",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-07",
+      "last_seen_date": "2026-08-19",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "vaikarya",
+      "fund_name": "Vaikarya Capital",
+      "company": "Varroc Engineer",
+      "ticker": "VARROC",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-07",
+      "last_seen_date": "2026-08-12",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Suraj Estate",
+      "ticker": "SURAJEST",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-07",
+      "last_seen_date": "2026-07-23",
+      "prior_calls_attended": 4,
       "tier": "strong"
     },
     {
@@ -163,28 +196,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Suraj Estate",
-      "ticker": "SURAJEST",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-24",
-      "last_seen_date": "2026-07-23",
-      "prior_calls_attended": 4,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Indogulf Cropsci",
-      "ticker": "IGCL",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-21",
-      "last_seen_date": "2026-07-08",
-      "prior_calls_attended": 4,
-      "tier": "strong"
-    },
-    {
       "fund_id": "abakkus",
       "fund_name": "Abakkus",
       "company": "Technocraf.Inds.",
@@ -248,6 +259,28 @@
       "latest_call_date": "2026-08-04",
       "last_seen_date": "2026-06-15",
       "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Parth Electrical",
+      "ticker": "PARTH",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-07",
+      "last_seen_date": "2026-05-26",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "white-pine",
+      "fund_name": "White Pine Investment Management",
+      "company": "Parth Electrical",
+      "ticker": "PARTH",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-07",
+      "last_seen_date": "2026-05-26",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -768,17 +801,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "Rushil Decor",
-      "ticker": "RUSHIL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-17",
-      "last_seen_date": "2026-06-09",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
       "company": "Enviro Infra",
@@ -956,6 +978,94 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Indogulf Cropsci",
+      "ticker": "IGCL",
+      "sector": "Commodities",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "VRL Logistics",
+      "ticker": "VRLLOG",
+      "sector": "Services",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "sameeksha",
+      "fund_name": "Sameeksha Capital",
+      "company": "Narayana Hrudaya",
+      "ticker": "NH",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "lucky",
+      "fund_name": "Lucky Investments",
+      "company": "Glass Wall Syst.",
+      "ticker": "GLASSWALL",
+      "sector": "Commodities",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "unique",
+      "fund_name": "Unique PMS",
+      "company": "Mayur Uniquoters",
+      "ticker": "MAYURUNIQ",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "nv-alpha",
+      "fund_name": "NV Alpha",
+      "company": "Rushil Decor",
+      "ticker": "RUSHIL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Sai Parenteral's",
+      "ticker": "SAIPARENT",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Parth Electrical",
+      "ticker": "PARTH",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "wallfort",
+      "fund_name": "Wallfort PMS",
+      "company": "Laxmi Dental",
+      "ticker": "LAXMIDENTL",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "singularity",
+      "fund_name": "Singularity AMC",
+      "company": "Laxmi Dental",
+      "ticker": "LAXMIDENTL",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "helios",
+      "fund_name": "Helios Capital",
+      "company": "Laxmi Dental",
+      "ticker": "LAXMIDENTL",
+      "sector": "Healthcare",
+      "latest_call_date": "2026-11-07"
+    },
     {
       "fund_id": "finavenue",
       "fund_name": "Finavenue",
@@ -2213,14 +2323,6 @@
       "latest_call_date": "2026-08-20"
     },
     {
-      "fund_id": "guardian-capital",
-      "fund_name": "Guardian Capital Partners",
-      "company": "Shanti Gold",
-      "ticker": "SHANTIGOLD",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-20"
-    },
-    {
       "fund_id": "alfaccurate",
       "fund_name": "AlfAccurate Advisors",
       "company": "Indo Count Inds.",
@@ -2306,14 +2408,6 @@
       "company": "Technocraf.Inds.",
       "ticker": "TIIL",
       "sector": "Industrials",
-      "latest_call_date": "2026-08-19"
-    },
-    {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Krsnaa Diagnost.",
-      "ticker": "KRSNAA",
-      "sector": "Healthcare",
       "latest_call_date": "2026-08-19"
     },
     {
@@ -2493,14 +2587,6 @@
       "latest_call_date": "2026-08-18"
     },
     {
-      "fund_id": "unique",
-      "fund_name": "Unique PMS",
-      "company": "Flair Writing",
-      "ticker": "FLAIR",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-08-18"
-    },
-    {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
       "company": "Finolex Cables",
@@ -2594,14 +2680,6 @@
       "company": "ION Exchange",
       "ticker": "IONEXCHANG",
       "sector": "Utilities",
-      "latest_call_date": "2026-08-17"
-    },
-    {
-      "fund_id": "guardian-capital",
-      "fund_name": "Guardian Capital Partners",
-      "company": "Rushil Decor",
-      "ticker": "RUSHIL",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-17"
     },
     {
@@ -2797,14 +2875,6 @@
       "latest_call_date": "2026-08-14"
     },
     {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Quality Power El",
-      "ticker": "QPOWER",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-14"
-    },
-    {
       "fund_id": "incred",
       "fund_name": "InCred AMC",
       "company": "Wakefit Innovati",
@@ -2866,22 +2936,6 @@
       "company": "Vikram Solar",
       "ticker": "VIKRAMSOLR",
       "sector": "Industrials",
-      "latest_call_date": "2026-08-13"
-    },
-    {
-      "fund_id": "maximal",
-      "fund_name": "Maximal Capital",
-      "company": "Speciality Rest.",
-      "ticker": "SPECIALITY",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-13"
-    },
-    {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Speciality Rest.",
-      "ticker": "SPECIALITY",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-13"
     },
     {
@@ -3205,30 +3259,6 @@
       "latest_call_date": "2026-08-10"
     },
     {
-      "fund_id": "counter-cyclical",
-      "fund_name": "Counter Cyclical",
-      "company": "Mayur Uniquoters",
-      "ticker": "MAYURUNIQ",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-10"
-    },
-    {
-      "fund_id": "nv-alpha",
-      "fund_name": "NV Alpha",
-      "company": "Mayur Uniquoters",
-      "ticker": "MAYURUNIQ",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-10"
-    },
-    {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Mayur Uniquoters",
-      "ticker": "MAYURUNIQ",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-10"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Texmaco Rail",
@@ -3242,22 +3272,6 @@
       "company": "JM Financial",
       "ticker": "JMFINANCIL",
       "sector": "Financial Services",
-      "latest_call_date": "2026-08-10"
-    },
-    {
-      "fund_id": "finavenue",
-      "fund_name": "Finavenue",
-      "company": "Sarda Energy",
-      "ticker": "SARDAEN",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-10"
-    },
-    {
-      "fund_id": "trust-mf",
-      "fund_name": "Trust Mutual Fund",
-      "company": "Inox India",
-      "ticker": "INOXINDIA",
-      "sector": "Industrials",
       "latest_call_date": "2026-08-10"
     },
     {
@@ -3325,14 +3339,6 @@
       "latest_call_date": "2026-08-08"
     },
     {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "C.E. Info System",
-      "ticker": "MAPMYINDIA",
-      "sector": "Information Technology",
-      "latest_call_date": "2026-08-08"
-    },
-    {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
       "company": "Jain Resource",
@@ -3346,14 +3352,6 @@
       "company": "Blue Jet Health",
       "ticker": "BLUEJET",
       "sector": "Healthcare",
-      "latest_call_date": "2026-08-07"
-    },
-    {
-      "fund_id": "green-portfolio",
-      "fund_name": "Green Portfolio",
-      "company": "Banswara Syntex",
-      "ticker": "BANSWRAS",
-      "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-07"
     },
     {
@@ -3539,14 +3537,6 @@
       "ticker": "TATACHEM",
       "sector": "Commodities",
       "latest_call_date": "2026-08-03"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Emerald Finance",
-      "ticker": "538882",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-08-01"
     },
     {
       "fund_id": "counter-cyclical",
