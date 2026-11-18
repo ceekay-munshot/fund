@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T17:28:34.844Z",
+  "generated_at": "2026-11-18T22:11:15.057Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 115,
-    "gained": 325,
-    "consistent": 465,
+    "gained": 317,
+    "consistent": 461,
     "companies_evaluated": 986
   },
   "dropped": [
@@ -39,6 +39,28 @@
       "latest_call_date": "2026-11-10",
       "last_seen_date": "2026-08-12",
       "prior_calls_attended": 5,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Inox Green",
+      "ticker": "INOXGREEN",
+      "sector": "Utilities",
+      "latest_call_date": "2026-11-18",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "icici-prudential",
+      "fund_name": "ICICI Prudential AMC",
+      "company": "Inox Green",
+      "ticker": "INOXGREEN",
+      "sector": "Utilities",
+      "latest_call_date": "2026-11-18",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 4,
       "tier": "strong"
     },
     {
@@ -328,25 +350,58 @@
       "tier": "strong"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
       "company": "Inox Green",
       "ticker": "INOXGREEN",
       "sector": "Utilities",
-      "latest_call_date": "2026-08-12",
+      "latest_call_date": "2026-11-18",
       "last_seen_date": "2026-06-02",
-      "prior_calls_attended": 4,
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Inox Wind",
+      "ticker": "INOXWIND",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-18",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
       "fund_id": "icici-prudential",
       "fund_name": "ICICI Prudential AMC",
-      "company": "Inox Green",
-      "ticker": "INOXGREEN",
-      "sector": "Utilities",
-      "latest_call_date": "2026-08-12",
+      "company": "Inox Wind",
+      "ticker": "INOXWIND",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-18",
       "last_seen_date": "2026-06-02",
-      "prior_calls_attended": 4,
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "Pondy Oxides",
+      "ticker": "POCL",
+      "sector": "Commodities",
+      "latest_call_date": "2026-11-18",
+      "last_seen_date": "2026-06-02",
+      "prior_calls_attended": 3,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Popular Vehicles",
+      "ticker": "PVSL",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-18",
+      "last_seen_date": "2026-06-03",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -1164,17 +1219,6 @@
       "tier": "strong"
     },
     {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Popular Vehicles",
-      "ticker": "PVSL",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-19",
-      "last_seen_date": "2026-06-03",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Sunrakshakk Inds",
@@ -1193,39 +1237,6 @@
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-18",
       "last_seen_date": "2026-06-16",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "green-portfolio",
-      "fund_name": "Green Portfolio",
-      "company": "Inox Green",
-      "ticker": "INOXGREEN",
-      "sector": "Utilities",
-      "latest_call_date": "2026-08-12",
-      "last_seen_date": "2026-06-02",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Inox Wind",
-      "ticker": "INOXWIND",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-12",
-      "last_seen_date": "2026-06-02",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "icici-prudential",
-      "fund_name": "ICICI Prudential AMC",
-      "company": "Inox Wind",
-      "ticker": "INOXWIND",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-12",
-      "last_seen_date": "2026-06-02",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -1254,17 +1265,6 @@
     {
       "fund_id": "niveshaay",
       "fund_name": "Niveshaay",
-      "company": "Pondy Oxides",
-      "ticker": "POCL",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-11",
-      "last_seen_date": "2026-06-02",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
       "company": "Avalon Tech",
       "ticker": "AVALON",
       "sector": "Industrials",
@@ -1275,6 +1275,14 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Mallcom (India)",
+      "ticker": "MALLCOM",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-18"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
@@ -1906,6 +1914,22 @@
       "ticker": "NEOGEN",
       "sector": "Commodities",
       "latest_call_date": "2026-11-08"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Sai Silks",
+      "ticker": "KALAMANDIR",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-07"
+    },
+    {
+      "fund_id": "trust-mf",
+      "fund_name": "Trust Mutual Fund",
+      "company": "Azad Engineering",
+      "ticker": "AZAD",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-07"
     },
     {
       "fund_id": "sequent",
@@ -3132,14 +3156,6 @@
       "latest_call_date": "2026-08-24"
     },
     {
-      "fund_id": "carnelian",
-      "fund_name": "Carnelian",
-      "company": "Olectra Greentec",
-      "ticker": "OLECTRA",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-22"
-    },
-    {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
       "company": "Mishra Dhatu Nig",
@@ -3332,22 +3348,6 @@
       "latest_call_date": "2026-08-18"
     },
     {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
-      "company": "Finolex Cables",
-      "ticker": "FINCABLES",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-18"
-    },
-    {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "Finolex Cables",
-      "ticker": "FINCABLES",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-18"
-    },
-    {
       "fund_id": "astute",
       "fund_name": "Astute Investment Management",
       "company": "Piccadily Agro",
@@ -3388,27 +3388,11 @@
       "latest_call_date": "2026-08-17"
     },
     {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Glottis",
-      "ticker": "GLOTTIS",
-      "sector": "Services",
-      "latest_call_date": "2026-08-17"
-    },
-    {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "S P Apparels",
       "ticker": "SPAL",
       "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-08-17"
-    },
-    {
-      "fund_id": "valuequest",
-      "fund_name": "ValueQuest",
-      "company": "Manappuram Fin.",
-      "ticker": "MANAPPURAM",
-      "sector": "Financial Services",
       "latest_call_date": "2026-08-17"
     },
     {
@@ -3484,14 +3468,6 @@
       "latest_call_date": "2026-08-13"
     },
     {
-      "fund_id": "incred",
-      "fund_name": "InCred AMC",
-      "company": "Techno Elec.Engg",
-      "ticker": "TECHNOE",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-12"
-    },
-    {
       "fund_id": "bowhead",
       "fund_name": "Bowhead India",
       "company": "Whirlpool India",
@@ -3522,30 +3498,6 @@
       "ticker": "SIS",
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-08-12"
-    },
-    {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Inox Green",
-      "ticker": "INOXGREEN",
-      "sector": "Utilities",
-      "latest_call_date": "2026-08-12"
-    },
-    {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Inox Wind",
-      "ticker": "INOXWIND",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-12"
-    },
-    {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Pondy Oxides",
-      "ticker": "POCL",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-11"
     },
     {
       "fund_id": "vaikarya",
@@ -3652,14 +3604,6 @@
       "latest_call_date": "2026-08-04"
     },
     {
-      "fund_id": "crown",
-      "fund_name": "Crown Capital",
-      "company": "Blue Water",
-      "ticker": "BLUEWATER",
-      "sector": "Services",
-      "latest_call_date": "2026-08-04"
-    },
-    {
       "fund_id": "lucky",
       "fund_name": "Lucky Investments",
       "company": "Ajanta Pharma",
@@ -3673,14 +3617,6 @@
       "company": "Spandana Sphoort",
       "ticker": "SPANDANA",
       "sector": "Financial Services",
-      "latest_call_date": "2026-07-31"
-    },
-    {
-      "fund_id": "icici-prudential",
-      "fund_name": "ICICI Prudential AMC",
-      "company": "Coromandel Inter",
-      "ticker": "COROMANDEL",
-      "sector": "Commodities",
       "latest_call_date": "2026-07-31"
     },
     {
