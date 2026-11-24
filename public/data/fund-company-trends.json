@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T00:43:39.516Z",
+  "generated_at": "2026-11-24T01:46:59.825Z",
   "min_prior_calls": 3,
   "summary": {
     "dropped": 125,
     "gained": 307,
-    "consistent": 444,
-    "companies_evaluated": 997
+    "consistent": 443,
+    "companies_evaluated": 1000
   },
   "dropped": [
     {
@@ -50,6 +50,28 @@
       "latest_call_date": "2026-11-10",
       "last_seen_date": "2026-08-12",
       "prior_calls_attended": 5,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "Pricol Ltd",
+      "ticker": "PRICOLLTD",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-23",
+      "last_seen_date": "2026-11-10",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "green-portfolio",
+      "fund_name": "Green Portfolio",
+      "company": "IFGL Refractori.",
+      "ticker": "IFGLEXPOR",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-23",
+      "last_seen_date": "2026-06-08",
+      "prior_calls_attended": 4,
       "tier": "strong"
     },
     {
@@ -361,14 +383,14 @@
       "tier": "strong"
     },
     {
-      "fund_id": "green-portfolio",
-      "fund_name": "Green Portfolio",
-      "company": "IFGL Refractori.",
-      "ticker": "IFGLEXPOR",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-17",
-      "last_seen_date": "2026-06-08",
-      "prior_calls_attended": 4,
+      "fund_id": "sequent",
+      "fund_name": "Sequent Investments",
+      "company": "Som Distilleries",
+      "ticker": "SDBL",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-11-23",
+      "last_seen_date": "2026-08-20",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -830,28 +852,6 @@
       "sector": "Consumer Discretionary",
       "latest_call_date": "2026-11-10",
       "last_seen_date": "2026-08-11",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "carnelian",
-      "fund_name": "Carnelian",
-      "company": "Pricol Ltd",
-      "ticker": "PRICOLLTD",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-11-10",
-      "last_seen_date": "2026-08-04",
-      "prior_calls_attended": 3,
-      "tier": "strong"
-    },
-    {
-      "fund_id": "electrum",
-      "fund_name": "Electrum Capital",
-      "company": "Pricol Ltd",
-      "ticker": "PRICOLLTD",
-      "sector": "Consumer Discretionary",
-      "latest_call_date": "2026-11-10",
-      "last_seen_date": "2026-08-04",
       "prior_calls_attended": 3,
       "tier": "strong"
     },
@@ -1385,6 +1385,14 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "M B Agro Prod.",
+      "ticker": "MBAPL",
+      "sector": "Commodities",
+      "latest_call_date": "2026-11-23"
+    },
     {
       "fund_id": "crown",
       "fund_name": "Crown Capital",
@@ -3536,14 +3544,6 @@
       "ticker": "CMRGREEN",
       "sector": "Industrials",
       "latest_call_date": "2026-08-17"
-    },
-    {
-      "fund_id": "lucky",
-      "fund_name": "Lucky Investments",
-      "company": "Innova Captab",
-      "ticker": "INNOVACAP",
-      "sector": "Healthcare",
-      "latest_call_date": "2026-08-14"
     },
     {
       "fund_id": "boring",
