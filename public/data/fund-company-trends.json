@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T20:50:00.909Z",
+  "generated_at": "2026-11-24T23:34:28.985Z",
   "min_prior_calls": 3,
   "summary": {
-    "dropped": 125,
+    "dropped": 128,
     "gained": 307,
-    "consistent": 443,
-    "companies_evaluated": 1000
+    "consistent": 439,
+    "companies_evaluated": 1006
   },
   "dropped": [
     {
@@ -50,6 +50,39 @@
       "latest_call_date": "2026-11-10",
       "last_seen_date": "2026-08-12",
       "prior_calls_attended": 5,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "malabar",
+      "fund_name": "Malabar Investments",
+      "company": "Apeejay Surrend.",
+      "ticker": "PARKHOTELS",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-24",
+      "last_seen_date": "2026-08-21",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "incred",
+      "fund_name": "InCred AMC",
+      "company": "India Glycols",
+      "ticker": "INDIAGLYCO",
+      "sector": "Fast Moving Consumer Goods",
+      "latest_call_date": "2026-11-24",
+      "last_seen_date": "2026-08-20",
+      "prior_calls_attended": 4,
+      "tier": "strong"
+    },
+    {
+      "fund_id": "counter-cyclical",
+      "fund_name": "Counter Cyclical",
+      "company": "Maan Aluminium",
+      "ticker": "MAANALU",
+      "sector": "Commodities",
+      "latest_call_date": "2026-11-24",
+      "last_seen_date": "2026-06-29",
+      "prior_calls_attended": 4,
       "tier": "strong"
     },
     {
@@ -374,12 +407,12 @@
     {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
-      "company": "Maan Aluminium",
-      "ticker": "MAANALU",
-      "sector": "Commodities",
-      "latest_call_date": "2026-08-19",
-      "last_seen_date": "2026-06-29",
-      "prior_calls_attended": 4,
+      "company": "Nisus Finance",
+      "ticker": "544296",
+      "sector": "Financial Services",
+      "latest_call_date": "2026-11-24",
+      "last_seen_date": "2026-07-01",
+      "prior_calls_attended": 3,
       "tier": "strong"
     },
     {
@@ -1385,6 +1418,46 @@
     }
   ],
   "gained": [
+    {
+      "fund_id": "wallfort",
+      "fund_name": "Wallfort PMS",
+      "company": "Chatterbox Tech",
+      "ticker": "544546",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-24"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Apex Ecotech",
+      "ticker": "APEXECO",
+      "sector": "Utilities",
+      "latest_call_date": "2026-11-24"
+    },
+    {
+      "fund_id": "sapphire",
+      "fund_name": "Sapphire Capital",
+      "company": "Creative Graphic",
+      "ticker": "CGRAPHICS",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-24"
+    },
+    {
+      "fund_id": "niveshaay",
+      "fund_name": "Niveshaay",
+      "company": "ICE Make Refrig.",
+      "ticker": "ICEMAKE",
+      "sector": "Industrials",
+      "latest_call_date": "2026-11-24"
+    },
+    {
+      "fund_id": "malabar",
+      "fund_name": "Malabar Investments",
+      "company": "Golkunda Diamond",
+      "ticker": "523676",
+      "sector": "Consumer Discretionary",
+      "latest_call_date": "2026-11-24"
+    },
     {
       "fund_id": "sapphire",
       "fund_name": "Sapphire Capital",
@@ -2618,6 +2691,14 @@
       "latest_call_date": "2026-11-05"
     },
     {
+      "fund_id": "sameeksha",
+      "fund_name": "Sameeksha Capital",
+      "company": "Torrent Power",
+      "ticker": "TORNTPOWER",
+      "sector": "Utilities",
+      "latest_call_date": "2026-11-04"
+    },
+    {
       "fund_id": "white-pine",
       "fund_name": "White Pine Investment Management",
       "company": "PG Electroplast",
@@ -3490,30 +3571,6 @@
       "latest_call_date": "2026-08-22"
     },
     {
-      "fund_id": "negen",
-      "fund_name": "Negen Capital",
-      "company": "India Glycols",
-      "ticker": "INDIAGLYCO",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-08-20"
-    },
-    {
-      "fund_id": "sequent",
-      "fund_name": "Sequent Investments",
-      "company": "India Glycols",
-      "ticker": "INDIAGLYCO",
-      "sector": "Fast Moving Consumer Goods",
-      "latest_call_date": "2026-08-20"
-    },
-    {
-      "fund_id": "green-portfolio",
-      "fund_name": "Green Portfolio",
-      "company": "John Cockerill",
-      "ticker": "COCKERILL",
-      "sector": "Industrials",
-      "latest_call_date": "2026-08-20"
-    },
-    {
       "fund_id": "sequent",
       "fund_name": "Sequent Investments",
       "company": "Landmark Cars",
@@ -3730,14 +3787,6 @@
       "latest_call_date": "2026-07-17"
     },
     {
-      "fund_id": "trust-mf",
-      "fund_name": "Trust Mutual Fund",
-      "company": "Nisus Finance",
-      "ticker": "544296",
-      "sector": "Financial Services",
-      "latest_call_date": "2026-07-01"
-    },
-    {
       "fund_id": "counter-cyclical",
       "fund_name": "Counter Cyclical",
       "company": "Shree OSFM",
@@ -3799,22 +3848,6 @@
       "company": "Tanla Platforms",
       "ticker": "TANLA",
       "sector": "Information Technology",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "niveshaay",
-      "fund_name": "Niveshaay",
-      "company": "Genus Power",
-      "ticker": "GENUSPOWER",
-      "sector": "Industrials",
-      "latest_call_date": "2026-05-01"
-    },
-    {
-      "fund_id": "sapphire",
-      "fund_name": "Sapphire Capital",
-      "company": "Genus Power",
-      "ticker": "GENUSPOWER",
-      "sector": "Industrials",
       "latest_call_date": "2026-05-01"
     },
     {
